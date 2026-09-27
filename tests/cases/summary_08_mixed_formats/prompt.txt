@@ -1,0 +1,1 @@
+Combine data/metrics.csv, docs/notes.md and config/goals.json into out/growth.txt: a summary under 60 words of signups per month, the reason for growth, and the September target.

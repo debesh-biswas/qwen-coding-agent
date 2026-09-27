@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "path": "out/growth.txt",
+    "max_words": 59,
+    "must_contain": [
+      "120",
+      "180",
+      "referral",
+      "250"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+Create hello.py containing exactly these two lines:
+def greet(name):
+    return "Hello, " + name

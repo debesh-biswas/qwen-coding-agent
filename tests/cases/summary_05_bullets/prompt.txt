@@ -1,0 +1,1 @@
+Read notes/mon.txt, notes/tue.txt and notes/wed.txt and write a summary to digest.txt as exactly 3 bullet points, one per day, each starting with "- ".

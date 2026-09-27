@@ -1,0 +1,5 @@
+{
+  "files": {
+    "shell.txt": "cost is $5 and $HOME `whoami` \"quoted\""
+  }
+}

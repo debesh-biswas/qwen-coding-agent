@@ -1,0 +1,1 @@
+Monday: kickoff meeting; the team decided to use PostgreSQL.

@@ -1,0 +1,1 @@
+In config.json, what port does the service use and which region is it deployed in?

@@ -1,0 +1,1 @@
+Using plan_v1.txt and plan_v2.txt (v2 is the latest update), write the current offsite plan in under 40 words to offsite.txt.

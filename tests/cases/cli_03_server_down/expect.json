@@ -1,0 +1,7 @@
+{
+  "status": "error",
+  "slow": true,
+  "env": {
+    "OPENAI_BASE_URL": "http://127.0.0.1:9/v1"
+  }
+}

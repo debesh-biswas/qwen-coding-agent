@@ -1,0 +1,1 @@
+Summarize outage/a.txt and outage/b.txt into outage_summary.txt in under 50 words, covering what happened and how it was resolved.

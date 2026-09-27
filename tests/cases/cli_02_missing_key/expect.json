@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "env": {
+    "QWEN_API_KEY": ""
+  }
+}

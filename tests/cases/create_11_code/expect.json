@@ -1,0 +1,5 @@
+{
+  "files": {
+    "hello.py": "def greet(name):\n    return \"Hello, \" + name"
+  }
+}

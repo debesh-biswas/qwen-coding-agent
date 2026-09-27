@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "path": "digest.txt",
+    "lines": 3,
+    "line_regex": "^- ",
+    "must_contain": [
+      "PostgreSQL",
+      "Omar",
+      "staging"
+    ]
+  }
+}

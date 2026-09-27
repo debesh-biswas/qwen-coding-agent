@@ -1,0 +1,6 @@
+{
+  "service": "billing",
+  "port": 8443,
+  "retries": 5,
+  "region": "eu-west-2"
+}

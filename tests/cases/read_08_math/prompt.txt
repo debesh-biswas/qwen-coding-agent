@@ -1,0 +1,1 @@
+Read inventory.txt. How many notebooks are there in total across all colors?

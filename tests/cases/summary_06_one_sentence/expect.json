@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "path": "brief/oneliner.txt",
+    "max_lines": 1,
+    "max_words": 40,
+    "must_contain": [
+      "June",
+      "city hall"
+    ]
+  }
+}

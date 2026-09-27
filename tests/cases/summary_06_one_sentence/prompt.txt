@@ -1,0 +1,1 @@
+Summarize a.txt and b.txt in a single sentence and save it to brief/oneliner.txt.

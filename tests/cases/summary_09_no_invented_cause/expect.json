@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "path": "outage_summary.txt",
+    "max_words": 49,
+    "must_contain": [
+      "load balancer"
+    ],
+    "must_not_contain": [
+      "DDoS",
+      "attack",
+      "database",
+      "power",
+      "hardware",
+      "misconfiguration",
+      "bug",
+      "caused by"
+    ]
+  }
+}

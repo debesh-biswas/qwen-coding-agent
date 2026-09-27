@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "path": "offsite.txt",
+    "max_words": 39,
+    "must_contain": [
+      [
+        "Monday",
+        "May 11"
+      ],
+      "Harbor",
+      [
+        "5,000",
+        "5000"
+      ]
+    ]
+  }
+}
