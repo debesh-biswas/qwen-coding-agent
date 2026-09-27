@@ -1,0 +1,10 @@
+{
+  "message_contains": [
+    "Lena",
+    [
+      "October 2",
+      "Oct 2",
+      "10/2"
+    ]
+  ]
+}

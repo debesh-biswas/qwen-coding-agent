@@ -1,0 +1,13 @@
+{
+  "message_contains": [
+    [
+      "full-time staff",
+      "full time staff"
+    ],
+    [
+      "teaching assistant",
+      "TA"
+    ],
+    "30 days"
+  ]
+}

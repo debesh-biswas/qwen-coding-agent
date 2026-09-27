@@ -1,0 +1,1 @@
+Read station/log_a.txt and station/log_b.txt and write a summary of at most 50 words to out/station_summary.txt. Mention any anomalies.

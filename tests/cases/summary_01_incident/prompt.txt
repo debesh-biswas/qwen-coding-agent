@@ -1,0 +1,1 @@
+Use logs/start.txt, logs/update.txt, and logs/resolution.txt to create reports/incident_summary.txt containing a summary with less than 100 words of the incident timeline, its cause, and its resolution.

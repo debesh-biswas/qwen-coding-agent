@@ -1,0 +1,1 @@
+Summarize the team updates in updates/alice.md, updates/bob.md, updates/chen.md and updates/dana.md into team_summary.txt using at most 80 words.

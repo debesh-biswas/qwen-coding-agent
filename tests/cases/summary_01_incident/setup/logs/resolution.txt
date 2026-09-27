@@ -1,0 +1,2 @@
+09:41 UTC - New certificate deployed; error rate back to normal.
+10:00 UTC - Incident closed. Follow-up: add automated certificate expiry monitoring.

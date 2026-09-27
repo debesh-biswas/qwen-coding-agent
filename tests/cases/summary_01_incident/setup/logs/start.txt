@@ -1,0 +1,2 @@
+09:02 UTC - Alerts fired: checkout API error rate above 40%.
+09:05 UTC - On-call engineer Sam acknowledged the page.

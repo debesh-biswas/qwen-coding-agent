@@ -1,0 +1,1 @@
+Create notes/café.txt containing: Größe — 42 °C, naïve résumé

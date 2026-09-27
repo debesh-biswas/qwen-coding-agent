@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "path": "out/station_summary.txt",
+    "max_words": 50,
+    "must_contain": [
+      [
+        "pump 3",
+        "pump"
+      ]
+    ]
+  }
+}

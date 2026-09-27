@@ -1,0 +1,1 @@
+Delete archive/2024/january.log, but leave the other log files unchanged.

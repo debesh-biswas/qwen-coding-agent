@@ -1,0 +1,2 @@
+09:20 UTC - Root cause identified: an expired TLS certificate on the payments gateway.
+09:25 UTC - Team began emergency certificate renewal.

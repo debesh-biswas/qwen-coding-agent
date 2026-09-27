@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "path": "team_summary.txt",
+    "max_words": 80,
+    "must_contain": [
+      "Alice",
+      "Bob",
+      "Chen",
+      "Dana"
+    ]
+  }
+}

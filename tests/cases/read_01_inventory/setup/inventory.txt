@@ -1,0 +1,3 @@
+Blue notebooks: 12
+Red notebooks: 7
+Blue pens: 30

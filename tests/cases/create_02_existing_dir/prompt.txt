@@ -1,0 +1,1 @@
+In folder1, make a file named bar.txt containing the single line hello world.

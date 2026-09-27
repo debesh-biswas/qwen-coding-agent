@@ -1,0 +1,1 @@
+Create config/settings.json containing exactly: {"debug": true, "name": "demo"}

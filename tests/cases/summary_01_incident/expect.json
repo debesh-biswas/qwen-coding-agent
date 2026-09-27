@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "path": "reports/incident_summary.txt",
+    "max_words": 99,
+    "must_contain": [
+      [
+        "certificate",
+        "TLS"
+      ],
+      [
+        "09:02",
+        "9:02"
+      ],
+      [
+        "09:41",
+        "9:41"
+      ]
+    ]
+  }
+}

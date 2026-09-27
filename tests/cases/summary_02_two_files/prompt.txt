@@ -1,0 +1,1 @@
+Read q1.txt and q2.txt and write a summary under 60 words of the sales results to summary/sales.txt.

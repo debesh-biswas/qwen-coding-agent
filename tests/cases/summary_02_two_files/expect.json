@@ -1,0 +1,10 @@
+{
+  "summary": {
+    "path": "summary/sales.txt",
+    "max_words": 59,
+    "must_contain": [
+      "1.2",
+      "1.5"
+    ]
+  }
+}

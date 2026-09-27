@@ -1,0 +1,1 @@
+Create foo.txt inside the abc directory. The file should contain: foo

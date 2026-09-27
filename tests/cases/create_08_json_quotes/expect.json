@@ -1,0 +1,5 @@
+{
+  "files": {
+    "config/settings.json": "{\"debug\": true, \"name\": \"demo\"}"
+  }
+}

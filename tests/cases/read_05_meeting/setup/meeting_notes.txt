@@ -1,0 +1,5 @@
+Weekly sync, Sept 18
+Attendees: Priya, Marco, Lena
+- Marco will update the API docs by Sept 25.
+- Lena owns the production deployment, due October 2.
+- Priya to review the budget next week.

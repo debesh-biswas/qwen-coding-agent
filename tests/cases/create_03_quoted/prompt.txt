@@ -1,0 +1,1 @@
+Write "Meeting moved to Friday at 3 PM." to announcements/update.txt.
