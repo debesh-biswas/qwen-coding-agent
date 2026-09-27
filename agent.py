@@ -119,7 +119,9 @@ def chat(messages):
         "model": os.environ["MODEL"], "messages": messages, "tools": TOOLS, "tool_choice": "auto",
         "temperature": 0, "max_tokens": 4096, "chat_template_kwargs": {"enable_thinking": False},
     }).encode()
-    headers = {"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"]}
+    # Custom User-Agent: the course endpoint's Cloudflare blocks urllib's default one (error 1010).
+    headers = {"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"],
+               "User-Agent": "hw1-agent/1.0"}
     delay = 2
     while True:
         remaining = DEADLINE - time.time()
