@@ -1,0 +1,17 @@
+{
+  "turns": [
+    {
+      "prompt": "Create notes/todo.txt containing the single line buy milk.",
+      "session": "A",
+      "status": "success"
+    },
+    {
+      "prompt": "Delete it.",
+      "session": "A",
+      "status": "success"
+    }
+  ],
+  "absent": [
+    "notes/todo.txt"
+  ]
+}

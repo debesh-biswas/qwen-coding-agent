@@ -1,0 +1,5 @@
+{
+  "files": {
+    "reports/sales_copy.csv": "month,revenue,note\nJan,120,\"first, quarter\"\nFeb,180,ok\nMar,95,\"said \"\"hi\"\"\""
+  }
+}

@@ -1,0 +1,1 @@
+Read inventory.csv and tell me the total of the quantity column.

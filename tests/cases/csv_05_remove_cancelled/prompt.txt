@@ -1,0 +1,1 @@
+From orders.csv, remove every row whose status is cancelled and save the result as active_orders.csv.

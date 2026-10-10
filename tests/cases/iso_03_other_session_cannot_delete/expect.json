@@ -1,0 +1,17 @@
+{
+  "turns": [
+    {
+      "prompt": "Create a.txt containing alpha.",
+      "session": "A",
+      "status": "success"
+    },
+    {
+      "prompt": "Delete the file I just created.",
+      "session": "B",
+      "status": "any"
+    }
+  ],
+  "files": {
+    "a.txt": "alpha"
+  }
+}

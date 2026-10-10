@@ -1,0 +1,1 @@
+Remove every row from tickets.csv whose priority is low and save the result as open_tickets.csv.

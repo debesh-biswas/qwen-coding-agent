@@ -1,0 +1,22 @@
+{
+  "turns": [
+    {
+      "prompt": "Read orders.csv and tell me how many rows have status shipped.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        "3"
+      ]
+    },
+    {
+      "prompt": "What is the total of the amount column for those rows?",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "49.75"
+        ]
+      ]
+    }
+  ]
+}

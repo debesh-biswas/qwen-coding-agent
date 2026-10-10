@@ -1,0 +1,5 @@
+{
+  "files": {
+    "active_orders.csv": "order_id,customer,status,amount\n1001,Ann,shipped,25\n1003,Cat,pending,15\n1005,Eve,shipped,30\n"
+  }
+}

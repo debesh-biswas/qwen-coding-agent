@@ -1,0 +1,6 @@
+order_id,customer,status,amount
+1001,Ann,shipped,25
+1002,Bo,cancelled,40
+1003,Cat,pending,15
+1004,Dan,cancelled,60
+1005,Eve,shipped,30

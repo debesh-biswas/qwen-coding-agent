@@ -1,0 +1,1 @@
+Read data.csv. Tell me the total and the average of the amount column (ignore empty cells).

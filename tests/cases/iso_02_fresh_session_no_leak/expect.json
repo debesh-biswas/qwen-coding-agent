@@ -1,0 +1,23 @@
+{
+  "turns": [
+    {
+      "prompt": "Read secret.csv and tell me the total of the points column.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "96"
+        ]
+      ]
+    },
+    {
+      "prompt": "What is the average?",
+      "session": "B",
+      "status": "any",
+      "message_not_contains": [
+        "96",
+        "24"
+      ]
+    }
+  ]
+}

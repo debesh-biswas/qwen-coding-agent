@@ -1,0 +1,43 @@
+{
+  "turns": [
+    {
+      "prompt": "Read north.csv and tell me the total of the sales column.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "750"
+        ]
+      ]
+    },
+    {
+      "prompt": "What is the average?",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "250"
+        ]
+      ]
+    },
+    {
+      "prompt": "What is the average?",
+      "session": "C",
+      "status": "any",
+      "message_not_contains": [
+        "250",
+        "750"
+      ]
+    },
+    {
+      "prompt": "Please repeat the average you gave me.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "250"
+        ]
+      ]
+    }
+  ]
+}

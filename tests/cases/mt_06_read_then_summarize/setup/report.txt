@@ -1,0 +1,1 @@
+Quarterly status report. The migration of the billing database to the new cluster finished on March 3 after two weeks of work. Downtime was limited to 12 minutes. Costs came in 8 percent under budget. The team plans to decommission the old cluster in April and will start training support staff next week.

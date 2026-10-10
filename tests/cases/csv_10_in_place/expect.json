@@ -1,0 +1,5 @@
+{
+  "files": {
+    "stock.csv": "id,item,stock\n1,bolts,10\n2,nuts,20\n3,pins,25\n"
+  }
+}

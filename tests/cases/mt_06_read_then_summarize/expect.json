@@ -1,0 +1,31 @@
+{
+  "turns": [
+    {
+      "prompt": "Read report.txt and tell me when the migration finished.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        "March 3"
+      ]
+    },
+    {
+      "prompt": "Summarize it in summary.txt in under 40 words.",
+      "session": "A",
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "path": "summary.txt",
+    "max_words": 39,
+    "must_contain": [
+      [
+        "migration",
+        "migrated"
+      ],
+      [
+        "March 3",
+        "3 March"
+      ]
+    ]
+  }
+}

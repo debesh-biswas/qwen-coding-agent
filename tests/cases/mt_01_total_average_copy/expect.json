@@ -1,0 +1,28 @@
+{
+  "turns": [
+    {
+      "prompt": "Read sales.csv and tell me the total of the revenue column.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        "300"
+      ]
+    },
+    {
+      "prompt": "What is the average?",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        "150"
+      ]
+    },
+    {
+      "prompt": "Save a copy of the table as reports/sales_copy.csv.",
+      "session": "A",
+      "status": "success"
+    }
+  ],
+  "files": {
+    "reports/sales_copy.csv": "month,revenue\nJan,120\nFeb,180\n"
+  }
+}

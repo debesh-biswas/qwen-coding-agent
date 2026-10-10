@@ -1,6 +1,7 @@
 """Run the agent against every case in tests/cases/ and check results.
 
-Each case folder: prompt.txt, optional setup/ (initial workspace), expect.json with keys:
+Each case folder: prompt.txt (single turn) or "turns" in expect.json, optional setup/ (initial
+workspace), expect.json with keys:
   status                "success" | "error" (default "success"; exit code must match)
   files                 {path: exact_content}   files that must exist with this content
   absent                [path, ...]             files that must not exist
@@ -8,17 +9,24 @@ Each case folder: prompt.txt, optional setup/ (initial workspace), expect.json w
   message_not_contains  [text, ...]
   summary               {path, max_words, must_contain, must_not_contain,
                          lines (exact non-empty line count), max_lines, line_regex}
+  turns                 [{prompt, session: label, status: success|error|any, message_contains,
+                          message_not_contains}, ...]  multi-turn; each turn is its own process, labels map
+                          to fresh random session IDs; top-level checks run after the last turn
+  no_session            true                    single-prompt case run without a session ID
+                        (otherwise a fresh random session ID is passed as $2)
   env                   {VAR: value}            override environment for this case
   slow                  true                    only run with --slow
 Every setup file not named in files/absent must be unchanged, every setup directory must
 still exist, no other new files may appear, and nothing may be written outside the workspace.
 
 Usage: python3 tests/run_tests.py [-k substring] [--repeat N] [--slow]
+HW1_SESSION_DIR is set to a fresh temp dir outside the workspace for every case-run.
 Needs OPENAI_BASE_URL, MODEL, QWEN_API_KEY in the environment.
 """
 import argparse
 import json
 import os
+import random
 import re
 import shutil
 import subprocess
@@ -59,19 +67,34 @@ def has(text, fact):
     return any(contains(text, a) for a in (fact if isinstance(fact, list) else [fact]))
 
 
-def check(case_dir, exp, work, proc):
+def check_turn(t, proc):
+    """Per-turn checks; returns (errors, parsed output or None)."""
     errs = []
-    want_status = exp.get("status", "success")
+    want_status = t.get("status", "success")
     try:
         out = json.loads(proc.stdout)
         assert isinstance(out, dict) and set(out) == {"status", "message"}
         assert all(isinstance(v, str) for v in out.values())
     except Exception:
-        return ["stdout is not exactly one {status,message} JSON object: %r" % proc.stdout[:300]]
-    if out["status"] != want_status:
-        errs.append("status %s, expected %s (%s)" % (out["status"], want_status, out["message"][:150]))
-    if (proc.returncode == 0) != (want_status == "success"):
-        errs.append("exit code %d" % proc.returncode)
+        return ["stdout is not exactly one {status,message} JSON object: %r" % proc.stdout[:300]], None
+    if want_status != "any":
+        if out["status"] != want_status:
+            errs.append("status %s, expected %s (%s)" % (out["status"], want_status, out["message"][:150]))
+        if (proc.returncode == 0) != (want_status == "success"):
+            errs.append("exit code %d" % proc.returncode)
+    elif (proc.returncode == 0) != (out["status"] == "success"):
+        errs.append("exit code %d inconsistent with status %s" % (proc.returncode, out["status"]))
+    for fact in t.get("message_contains", []):
+        if not has(out["message"], fact):
+            errs.append("message missing %r: %r" % (fact, out["message"][:200]))
+    for bad in t.get("message_not_contains", []):
+        if has(out["message"], bad):
+            errs.append("message should not contain %r: %r" % (bad, out["message"][:200]))
+    return errs, out
+
+
+def check(case_dir, exp, work):
+    errs = []
 
     setup = os.path.join(case_dir, "setup")
     before, before_dirs = snapshot(setup) if os.path.isdir(setup) else ({}, set())
@@ -98,12 +121,6 @@ def check(case_dir, exp, work, proc):
     for d in sorted(before_dirs - after_dirs):
         errs.append("directory %s was removed" % d)
 
-    for fact in exp.get("message_contains", []):
-        if not has(out["message"], fact):
-            errs.append("message missing %r: %r" % (fact, out["message"][:200]))
-    for bad in exp.get("message_not_contains", []):
-        if has(out["message"], bad):
-            errs.append("message should not contain %r: %r" % (bad, out["message"][:200]))
     if summary:
         got = after.get(summary["path"])
         if got is None:
@@ -142,7 +159,11 @@ def main():
         exp = json.load(open(os.path.join(case_dir, "expect.json"), encoding="utf-8"))
         if exp.get("slow") and not a.slow:
             continue
-        prompt = open(os.path.join(case_dir, "prompt.txt"), encoding="utf-8").read().strip()
+        if "turns" in exp:
+            turns = exp["turns"]
+        else:
+            prompt = open(os.path.join(case_dir, "prompt.txt"), encoding="utf-8").read().strip()
+            turns = [dict(exp, prompt=prompt, session=None if exp.get("no_session") else "S")]
         env = dict(os.environ, **exp.get("env", {}))
         for i in range(a.repeat):
             base = tempfile.mkdtemp()
@@ -152,12 +173,25 @@ def main():
             else:
                 os.makedirs(work)
             t = time.time()
-            try:
-                proc = subprocess.run(["bash", AGENT, prompt], cwd=work, env=env, capture_output=True,
-                                      text=True, timeout=180)
-                errs = check(case_dir, exp, work, proc)
-            except subprocess.TimeoutExpired:
-                errs, proc = ["timeout (>180 s)"], None
+            sess_dir = tempfile.mkdtemp()  # outside base, so the escape check still works
+            run_env = dict(env, HW1_SESSION_DIR=sess_dir)
+            ids, errs, proc = {}, [], None
+            for n, turn in enumerate(turns, 1):
+                label = turn.get("session")
+                cmd = ["bash", AGENT, turn["prompt"]]
+                if label is not None:
+                    cmd.append(ids.setdefault(label, str(random.randint(10**8, 10**9))))
+                try:
+                    proc = subprocess.run(cmd, cwd=work, env=run_env, capture_output=True, text=True, timeout=180)
+                    te, _ = check_turn(turn, proc)
+                except subprocess.TimeoutExpired:
+                    te, proc = ["timeout (>180 s)"], None
+                pre = "turn %d: " % n if "turns" in exp else ""
+                errs += [pre + e for e in te]
+                if te and proc is not None and os.environ.get("VERBOSE"):
+                    print(proc.stderr[-3000:])
+            errs += check(case_dir, exp, work)
+            shutil.rmtree(sess_dir, ignore_errors=True)
             escaped = [f for f in os.listdir(base) if f != "task ws"]
             if escaped:
                 errs.append("files written outside workspace: %s" % escaped)
@@ -166,8 +200,6 @@ def main():
             print("%s %-32s run %d  %5.1fs" % ("FAIL" if errs else "PASS", case, i + 1, time.time() - t), flush=True)
             for e in errs:
                 print("     - " + e)
-            if errs and proc is not None and os.environ.get("VERBOSE"):
-                print(proc.stderr[-3000:])
             shutil.rmtree(base, ignore_errors=True)
     print("\n%d/%d passed" % (total - failed, total))
     sys.exit(1 if failed else 0)

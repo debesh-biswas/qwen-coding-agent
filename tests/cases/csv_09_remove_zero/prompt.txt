@@ -1,0 +1,1 @@
+Remove every row from stock.csv where quantity is 0 and save the result as in_stock.csv.

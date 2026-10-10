@@ -1,0 +1,5 @@
+{
+  "files": {
+    "updated_records.csv": "ID,name,status\n101,Alpha,pending\n102,Beta,complete\n103,Gamma,pending\n104,Delta,complete\n105,Eps,cancelled\n"
+  }
+}

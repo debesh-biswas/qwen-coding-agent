@@ -1,0 +1,5 @@
+{
+  "files": {
+    "contacts_new.csv": "id,name,phone,city\n1,\"Smith, John\",555-0100,Boston\n2,\"Doe, Jane\",555-9999,Austin\n3,Lee,555-0102,Reno\n"
+  }
+}

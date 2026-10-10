@@ -1,0 +1,18 @@
+{
+  "turns": [
+    {
+      "prompt": "In records.csv set the status of ID 104 to complete and save the result as updated_records.csv.",
+      "session": "A",
+      "status": "success"
+    },
+    {
+      "prompt": "Now remove every row whose status is cancelled from that file and save it as final_records.csv.",
+      "session": "A",
+      "status": "success"
+    }
+  ],
+  "files": {
+    "updated_records.csv": "ID,name,status\n101,Alpha,pending\n102,Beta,cancelled\n103,Gamma,pending\n104,Delta,complete\n105,Eps,cancelled\n",
+    "final_records.csv": "ID,name,status\n101,Alpha,pending\n103,Gamma,pending\n104,Delta,complete\n"
+  }
+}

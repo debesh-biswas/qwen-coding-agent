@@ -1,0 +1,1 @@
+What is the total of the amount column in invoices.csv?

@@ -1,0 +1,34 @@
+{
+  "turns": [
+    {
+      "prompt": "Read jan.csv and tell me the total of the amount column.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "60.75"
+        ]
+      ]
+    },
+    {
+      "prompt": "Now read feb.csv and tell me the total of the amount column.",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "24.25"
+        ]
+      ]
+    },
+    {
+      "prompt": "What is the sum of those two totals?",
+      "session": "A",
+      "status": "success",
+      "message_contains": [
+        [
+          "85"
+        ]
+      ]
+    }
+  ]
+}

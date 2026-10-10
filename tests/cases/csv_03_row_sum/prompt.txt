@@ -1,0 +1,1 @@
+In candidates.csv, add the interview_score and test_score for the candidate with id 1. What is the total?
