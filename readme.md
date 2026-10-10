@@ -97,4 +97,4 @@ The spec's example prompts are all included word for word. Every other input fil
 Results (Qwen3-14B, Oct 10 2026):
 
 - Course endpoint: 74/74 on a full run of the final code (the `--slow` server-down case doesn't use the endpoint). Cases that failed on earlier runs were also rerun 3 times each after the fixes.
-- Local MLX (`Qwen3-14B-4bit`): 73/73, excluding `summary_04_large`. Its ~40 KB input makes the 4-bit model run out of GPU memory on a 24 GB Mac; it passes on the course endpoint.
+- Local MLX (`Qwen3-14B-4bit`, served with `mlx_lm.server --prompt-cache-size 1 --prefill-step-size 512` so the ~40 KB summary input fits in 24 GB): 74/75 on a full `--slow` run, then 4/4 for the one failure, `cli_03_server_down`. That case never reaches a model, so the agent can't run any tools; its single failure (`keep.txt` reported changed) came from the test environment.
