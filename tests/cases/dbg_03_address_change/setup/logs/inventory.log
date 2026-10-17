@@ -1,0 +1,960 @@
+2026-10-21 21:00:08,248 lease-mgr  lease=LS-6752823 released
+2026-10-21 21:00:18,893 lease-mgr  lease=LS-2267428 sku=SKU-13173 qty=2 -> wh-agent-04 OK (42 ms)
+2026-10-21 21:00:18,993 lease-mgr  lease=LS-5486774 sku=SKU-15348 qty=1 -> wh-agent-03 OK (69 ms)
+2026-10-21 21:00:19,160 lease-mgr  lease=LS-2267428 released
+2026-10-21 21:00:19,163 lease-mgr  lease=LS-5486774 released
+2026-10-21 21:00:20,357 lease-mgr  lease=LS-4947909 released
+2026-10-21 21:00:22,215 lease-mgr  lease=LS-2275789 sku=SKU-19483 qty=2 -> wh-agent-03 OK (32 ms)
+2026-10-21 21:00:22,308 lease-mgr  lease=LS-7961697 sku=SKU-18893 qty=1 -> wh-agent-04 OK (17 ms)
+2026-10-21 21:00:22,450 lease-mgr  lease=LS-2275789 released
+2026-10-21 21:00:22,453 lease-mgr  lease=LS-7961697 released
+2026-10-21 21:00:24,879 lease-mgr  lease=LS-5175784 released
+2026-10-21 21:00:36,267 wh-agent-05/sweep-6798 SlotRebalancer START batch=10
+2026-10-21 21:00:37,513 wh-agent-05/sweep-6798 SlotRebalancer DONE in 1246 ms
+2026-10-21 21:00:47,961 lease-mgr  lease=LS-2795617 sku=SKU-25526 qty=2 -> wh-agent-01 OK (43 ms)
+2026-10-21 21:00:48,041 lease-mgr  lease=LS-9458118 sku=SKU-40141 qty=1 -> wh-agent-01 OK (40 ms)
+2026-10-21 21:00:48,174 lease-mgr  lease=LS-2795617 released
+2026-10-21 21:00:48,177 lease-mgr  lease=LS-9458118 released
+2026-10-21 21:01:00,244 wh-agent-03/sweep-1214 BackorderReconciler START batch=29
+2026-10-21 21:01:03,518 wh-agent-03/sweep-1214 BackorderReconciler FAILED SQLTransientConnectionException - connection pool exhausted (30/30) ; queued_leases=1
+	at com.shop.inventory.worker.BackorderReconciler.dispatch(BackorderReconciler.java:621)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:01:05,202 lease-mgr  lease=LS-8701805 sku=SKU-23414 qty=2 -> wh-agent-01 OK (14 ms)
+2026-10-21 21:01:05,303 lease-mgr  lease=LS-7025673 sku=SKU-16377 qty=1 -> wh-agent-03 OK (40 ms)
+2026-10-21 21:01:05,471 lease-mgr  lease=LS-8701805 released
+2026-10-21 21:01:05,474 lease-mgr  lease=LS-7025673 released
+2026-10-21 21:01:15,221 lease-mgr  lease=LS-1893525 sku=SKU-28263 qty=2 -> wh-agent-03 OK (21 ms)
+2026-10-21 21:01:15,311 lease-mgr  lease=LS-1917973 sku=SKU-27630 qty=1 -> wh-agent-01 OK (46 ms)
+2026-10-21 21:01:15,527 lease-mgr  lease=LS-1893525 released
+2026-10-21 21:01:15,530 lease-mgr  lease=LS-1917973 released
+2026-10-21 21:01:19,537 lease-mgr  lease=LS-1141405 sku=SKU-26494 qty=2 -> wh-agent-01 OK (18 ms)
+2026-10-21 21:01:19,611 lease-mgr  lease=LS-9925245 sku=SKU-16668 qty=1 -> wh-agent-04 OK (65 ms)
+2026-10-21 21:01:19,825 lease-mgr  lease=LS-1141405 released
+2026-10-21 21:01:19,828 lease-mgr  lease=LS-9925245 released
+2026-10-21 21:01:29,749 lease-mgr  lease=LS-9569985 released
+2026-10-21 21:01:30,279 wh-agent-06/sweep-9962 PalletAssignmentSync START batch=11
+2026-10-21 21:01:31,355 wh-agent-06/sweep-9962 PalletAssignmentSync WARN slow scan 2255ms
+2026-10-21 21:01:32,431 wh-agent-06/sweep-9962 PalletAssignmentSync DONE in 2152 ms
+2026-10-21 21:02:00,487 wh-agent-05/sweep-3756 SlotRebalancer START batch=29
+2026-10-21 21:02:02,295 wh-agent-05/sweep-3756 SlotRebalancer DONE in 1808 ms
+2026-10-21 21:02:21,040 lease-mgr  lease=LS-1343667 released
+2026-10-21 21:02:21,481 lease-mgr  lease=LS-3436786 released
+2026-10-21 21:02:27,974 wh-agent-05/sweep-7535 PalletAssignmentSync START batch=37
+2026-10-21 21:02:31,234 wh-agent-05/sweep-7535 PalletAssignmentSync DONE in 3260 ms
+2026-10-21 21:02:45,165 wh-agent-05/sweep-9635 SlotRebalancer START batch=8
+2026-10-21 21:02:48,395 wh-agent-05/sweep-9635 SlotRebalancer DONE in 3230 ms
+2026-10-21 21:02:53,643 wh-agent-02/sweep-2913 CarrierManifestPusher START batch=57
+2026-10-21 21:02:55,992 wh-agent-02/sweep-2913 CarrierManifestPusher DONE in 2349 ms
+2026-10-21 21:03:02,541 wh-agent-03/sweep-4413 BackorderReconciler START batch=20
+2026-10-21 21:03:04,004 lease-mgr  lease=LS-7716656 sku=SKU-23954 qty=2 -> wh-agent-03 OK (29 ms)
+2026-10-21 21:03:04,072 lease-mgr  lease=LS-8761818 sku=SKU-32433 qty=1 -> wh-agent-04 OK (31 ms)
+2026-10-21 21:03:04,184 lease-mgr  lease=LS-7716656 released
+2026-10-21 21:03:04,187 lease-mgr  lease=LS-8761818 released
+2026-10-21 21:03:04,242 lease-mgr  lease=LS-5470198 sku=SKU-30269 qty=2 -> wh-agent-01 OK (17 ms)
+2026-10-21 21:03:04,340 lease-mgr  lease=LS-2293276 sku=SKU-59237 qty=1 -> wh-agent-04 OK (50 ms)
+2026-10-21 21:03:04,487 lease-mgr  lease=LS-5470198 released
+2026-10-21 21:03:04,490 lease-mgr  lease=LS-2293276 released
+2026-10-21 21:03:05,675 wh-agent-03/sweep-4413 BackorderReconciler FAILED SQLTransientConnectionException - connection pool exhausted (30/30) ; queued_leases=0
+	at com.shop.inventory.worker.BackorderReconciler.run(BackorderReconciler.java:684)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:03:05,859 wh-agent-06/sweep-4580 SlotRebalancer START batch=35
+2026-10-21 21:03:06,662 wh-agent-06/sweep-4580 SlotRebalancer WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:03:07,418 lease-mgr  lease=LS-4736313 released
+2026-10-21 21:03:07,466 wh-agent-06/sweep-4580 SlotRebalancer DONE in 1607 ms
+2026-10-21 21:03:07,845 wh-agent-04/sweep-4194 CarrierManifestPusher START batch=23
+2026-10-21 21:03:08,698 wh-agent-04/sweep-4194 CarrierManifestPusher WARN slow scan 1779ms
+2026-10-21 21:03:09,552 wh-agent-04/sweep-4194 CarrierManifestPusher DONE in 1707 ms
+2026-10-21 21:03:16,618 lease-mgr  lease=LS-5968513 sku=SKU-48287 qty=2 -> wh-agent-06 OK (12 ms)
+2026-10-21 21:03:16,684 lease-mgr  lease=LS-7652244 sku=SKU-40336 qty=1 -> wh-agent-01 OK (32 ms)
+2026-10-21 21:03:16,783 lease-mgr  lease=LS-5968513 released
+2026-10-21 21:03:16,786 lease-mgr  lease=LS-7652244 released
+2026-10-21 21:03:21,173 lease-mgr  lease=LS-2092717 released
+2026-10-21 21:03:59,511 wh-agent-02/sweep-3087 SlotRebalancer START batch=50
+2026-10-21 21:04:00,965 lease-mgr  lease=LS-5808627 released
+2026-10-21 21:04:01,697 wh-agent-02/sweep-3087 SlotRebalancer DONE in 2186 ms
+2026-10-21 21:04:05,319 lease-mgr  lease=LS-4636765 released
+2026-10-21 21:04:30,509 lease-mgr  lease=LS-7797986 released
+2026-10-21 21:04:46,976 lease-mgr  lease=LS-9581485 sku=SKU-36995 qty=2 -> wh-agent-04 OK (58 ms)
+2026-10-21 21:04:47,078 lease-mgr  lease=LS-9315448 sku=SKU-25010 qty=1 -> wh-agent-06 OK (11 ms)
+2026-10-21 21:04:47,172 lease-mgr  lease=LS-9581485 released
+2026-10-21 21:04:47,175 lease-mgr  lease=LS-9315448 released
+2026-10-21 21:04:50,512 lease-mgr  lease=LS-5506141 sku=SKU-47218 qty=2 -> wh-agent-06 OK (10 ms)
+2026-10-21 21:04:50,627 lease-mgr  lease=LS-1848801 sku=SKU-40660 qty=1 -> wh-agent-06 OK (57 ms)
+2026-10-21 21:04:50,802 lease-mgr  lease=LS-5506141 released
+2026-10-21 21:04:50,805 lease-mgr  lease=LS-1848801 released
+2026-10-21 21:04:55,553 wh-agent-02/sweep-1108 DockCalendarSync START batch=49
+2026-10-21 21:04:58,249 wh-agent-02/sweep-1108 DockCalendarSync DONE in 2696 ms
+2026-10-21 21:05:11,230 lease-mgr  lease=LS-7277290 released
+2026-10-21 21:05:11,372 lease-mgr  lease=LS-9517153 released
+2026-10-21 21:05:25,935 lease-mgr  lease=LS-3742544 released
+2026-10-21 21:05:48,652 lease-mgr  lease=LS-9857324 released
+2026-10-21 21:06:07,533 lease-mgr  lease=LS-7935529 sku=SKU-29869 qty=2 -> wh-agent-04 OK (51 ms)
+2026-10-21 21:06:07,643 lease-mgr  lease=LS-7622021 sku=SKU-12909 qty=1 -> wh-agent-06 OK (62 ms)
+2026-10-21 21:06:07,858 lease-mgr  lease=LS-7935529 released
+2026-10-21 21:06:07,861 lease-mgr  lease=LS-7622021 released
+2026-10-21 21:06:47,459 wh-agent-05/sweep-5353 DockCalendarSync START batch=15
+2026-10-21 21:06:47,679 wh-agent-05/sweep-5353 DockCalendarSync WARN slow scan 2157ms
+2026-10-21 21:06:47,899 wh-agent-05/sweep-5353 DockCalendarSync DONE in 440 ms
+2026-10-21 21:06:59,051 lease-mgr  lease=LS-9545363 released
+2026-10-21 21:07:03,834 lease-mgr  lease=LS-5575956 sku=SKU-58898 qty=2 -> wh-agent-06 OK (35 ms)
+2026-10-21 21:07:03,887 lease-mgr  lease=LS-9916760 sku=SKU-44689 qty=2 -> wh-agent-06 OK (46 ms)
+2026-10-21 21:07:03,952 lease-mgr  lease=LS-5201002 sku=SKU-22237 qty=1 -> wh-agent-04 OK (55 ms)
+2026-10-21 21:07:03,956 lease-mgr  lease=LS-1280998 sku=SKU-57491 qty=1 -> wh-agent-03 OK (27 ms)
+2026-10-21 21:07:04,142 lease-mgr  lease=LS-9916760 released
+2026-10-21 21:07:04,145 lease-mgr  lease=LS-1280998 released
+2026-10-21 21:07:04,175 lease-mgr  lease=LS-5575956 released
+2026-10-21 21:07:04,178 lease-mgr  lease=LS-5201002 released
+2026-10-21 21:07:12,605 lease-mgr  lease=LS-9880674 released
+2026-10-21 21:07:24,730 wh-agent-03/sweep-8705 CarrierManifestPusher START batch=42
+2026-10-21 21:07:25,831 wh-agent-03/sweep-8705 CarrierManifestPusher WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:07:26,932 wh-agent-03/sweep-8705 CarrierManifestPusher DONE in 2202 ms
+2026-10-21 21:07:31,466 wh-agent-01/sweep-6005 DockCalendarSync START batch=44
+2026-10-21 21:07:32,841 wh-agent-01/sweep-6005 DockCalendarSync WARN lag behind schedule by 8s
+2026-10-21 21:07:34,216 wh-agent-01/sweep-6005 DockCalendarSync DONE in 2750 ms
+2026-10-21 21:07:38,167 wh-agent-02/sweep-7770 SlotRebalancer START batch=8
+2026-10-21 21:07:40,688 wh-agent-02/sweep-7770 SlotRebalancer DONE in 2521 ms
+2026-10-21 21:07:45,092 wh-agent-03/sweep-9998 PalletAssignmentSync START batch=15
+2026-10-21 21:07:48,592 wh-agent-03/sweep-9998 PalletAssignmentSync DONE in 3500 ms
+2026-10-21 21:07:59,234 lease-mgr  lease=LS-2582150 sku=SKU-24932 qty=2 -> wh-agent-01 OK (26 ms)
+2026-10-21 21:07:59,306 lease-mgr  lease=LS-1114658 sku=SKU-52767 qty=1 -> wh-agent-04 OK (12 ms)
+2026-10-21 21:07:59,447 lease-mgr  lease=LS-2582150 released
+2026-10-21 21:07:59,450 lease-mgr  lease=LS-1114658 released
+2026-10-21 21:08:09,057 wh-agent-04/sweep-3583 SlotRebalancer START batch=60
+2026-10-21 21:08:10,869 wh-agent-04/sweep-3583 SlotRebalancer WARN slow scan 1312ms
+2026-10-21 21:08:12,681 wh-agent-04/sweep-3583 SlotRebalancer DONE in 3624 ms
+2026-10-21 21:08:22,019 lease-mgr  lease=LS-7327379 sku=SKU-29877 qty=2 -> wh-agent-04 OK (56 ms)
+2026-10-21 21:08:22,080 lease-mgr  lease=LS-9826772 sku=SKU-37909 qty=1 -> wh-agent-06 OK (11 ms)
+2026-10-21 21:08:22,227 lease-mgr  lease=LS-7327379 released
+2026-10-21 21:08:22,230 lease-mgr  lease=LS-9826772 released
+2026-10-21 21:08:35,736 wh-agent-05/sweep-9715 DockCalendarSync START batch=32
+2026-10-21 21:08:37,870 wh-agent-05/sweep-9715 DockCalendarSync DONE in 2134 ms
+2026-10-21 21:08:38,704 lease-mgr  lease=LS-9146841 sku=SKU-15384 qty=2 -> wh-agent-01 OK (56 ms)
+2026-10-21 21:08:38,807 lease-mgr  lease=LS-5904331 sku=SKU-15466 qty=1 -> wh-agent-01 OK (18 ms)
+2026-10-21 21:08:38,919 lease-mgr  lease=LS-9146841 released
+2026-10-21 21:08:38,922 lease-mgr  lease=LS-5904331 released
+2026-10-21 21:08:40,173 lease-mgr  lease=LS-7191308 sku=SKU-47268 qty=2 -> wh-agent-01 OK (33 ms)
+2026-10-21 21:08:40,243 lease-mgr  lease=LS-2346116 sku=SKU-51755 qty=1 -> wh-agent-04 OK (9 ms)
+2026-10-21 21:08:40,418 lease-mgr  lease=LS-7191308 released
+2026-10-21 21:08:40,421 lease-mgr  lease=LS-2346116 released
+2026-10-21 21:08:44,541 lease-mgr  lease=LS-2449666 released
+2026-10-21 21:09:02,113 lease-mgr  lease=LS-4814946 sku=SKU-27685 qty=2 -> wh-agent-04 OK (29 ms)
+2026-10-21 21:09:02,206 lease-mgr  lease=LS-9881692 sku=SKU-12889 qty=1 -> wh-agent-04 OK (17 ms)
+2026-10-21 21:09:02,390 lease-mgr  lease=LS-4814946 released
+2026-10-21 21:09:02,393 lease-mgr  lease=LS-9881692 released
+2026-10-21 21:09:10,225 lease-mgr  lease=LS-4613041 released
+2026-10-21 21:09:42,307 lease-mgr  lease=LS-4592322 released
+2026-10-21 21:10:06,382 lease-mgr  lease=LS-2312491 sku=SKU-12871 qty=2 -> wh-agent-03 OK (30 ms)
+2026-10-21 21:10:06,488 lease-mgr  lease=LS-9232814 sku=SKU-14491 qty=1 -> wh-agent-01 OK (13 ms)
+2026-10-21 21:10:06,580 lease-mgr  lease=LS-2312491 released
+2026-10-21 21:10:06,583 lease-mgr  lease=LS-9232814 released
+2026-10-21 21:10:21,299 lease-mgr  lease=LS-6807046 released
+2026-10-21 21:10:25,139 lease-mgr  lease=LS-1473188 released
+2026-10-21 21:10:33,322 lease-mgr  lease=LS-2099286 sku=SKU-30340 qty=2 -> wh-agent-03 OK (44 ms)
+2026-10-21 21:10:33,409 lease-mgr  lease=LS-5233070 sku=SKU-30404 qty=1 -> wh-agent-03 OK (35 ms)
+2026-10-21 21:10:33,610 lease-mgr  lease=LS-2099286 released
+2026-10-21 21:10:33,613 lease-mgr  lease=LS-5233070 released
+2026-10-21 21:10:36,243 wh-agent-04/sweep-6867 CarrierManifestPusher START batch=4
+2026-10-21 21:10:36,985 wh-agent-04/sweep-6867 CarrierManifestPusher DONE in 742 ms
+2026-10-21 21:11:11,700 wh-agent-02/sweep-2680 SlotRebalancer START zone=C table=slot_assign mode=rebalance
+2026-10-21 21:11:15,317 wh-agent-05/sweep-7049 CarrierManifestPusher START batch=20
+2026-10-21 21:11:17,764 wh-agent-05/sweep-7049 CarrierManifestPusher DONE in 2447 ms
+2026-10-21 21:11:20,700 wh-agent-02/sweep-2680 SlotRebalancer WARN slot_assign table lock contended by writer w-9120 (waited 4000ms)
+2026-10-21 21:11:25,800 wh-agent-02/sweep-2680 SlotRebalancer DONE in 14100 ms
+2026-10-21 21:11:34,696 wh-agent-03/sweep-7876 SlotRebalancer START batch=27
+2026-10-21 21:11:38,476 wh-agent-03/sweep-7876 SlotRebalancer DONE in 3780 ms
+2026-10-21 21:11:44,287 lease-mgr  lease=LS-2968129 sku=SKU-57654 qty=2 -> wh-agent-01 OK (44 ms)
+2026-10-21 21:11:44,379 lease-mgr  lease=LS-6396656 sku=SKU-38748 qty=1 -> wh-agent-01 OK (34 ms)
+2026-10-21 21:11:44,535 lease-mgr  lease=LS-2968129 released
+2026-10-21 21:11:44,538 lease-mgr  lease=LS-6396656 released
+2026-10-21 21:11:58,451 lease-mgr  lease=LS-5013259 released
+2026-10-21 21:12:06,334 lease-mgr  lease=LS-3125080 sku=SKU-39537 qty=2 -> wh-agent-03 OK (58 ms)
+2026-10-21 21:12:06,407 lease-mgr  lease=LS-5558852 sku=SKU-19692 qty=1 -> wh-agent-01 OK (28 ms)
+2026-10-21 21:12:06,514 lease-mgr  lease=LS-3125080 released
+2026-10-21 21:12:06,517 lease-mgr  lease=LS-5558852 released
+2026-10-21 21:12:14,065 lease-mgr  lease=LS-9646987 released
+2026-10-21 21:12:20,510 lease-mgr  lease=LS-3471649 released
+2026-10-21 21:12:28,988 wh-agent-02/sweep-6461 DockCalendarSync START batch=50
+2026-10-21 21:12:31,512 wh-agent-02/sweep-6461 DockCalendarSync DONE in 2524 ms
+2026-10-21 21:12:37,864 lease-mgr  lease=LS-9527349 sku=SKU-17702 qty=2 -> wh-agent-04 OK (23 ms)
+2026-10-21 21:12:37,930 lease-mgr  lease=LS-1702470 sku=SKU-14642 qty=1 -> wh-agent-03 OK (65 ms)
+2026-10-21 21:12:38,103 lease-mgr  lease=LS-9527349 released
+2026-10-21 21:12:38,106 lease-mgr  lease=LS-1702470 released
+2026-10-21 21:12:43,027 wh-agent-03/sweep-6607 CarrierManifestPusher START batch=6
+2026-10-21 21:12:43,436 wh-agent-03/sweep-6607 CarrierManifestPusher WARN lag behind schedule by 5s
+2026-10-21 21:12:43,846 wh-agent-03/sweep-6607 CarrierManifestPusher DONE in 819 ms
+2026-10-21 21:12:46,245 wh-agent-03/sweep-5767 CycleCountExporter START batch=32
+2026-10-21 21:12:49,170 wh-agent-03/sweep-5767 CycleCountExporter FAILED UncheckedIOException - disk quota exceeded writing /var/spool/export.tmp ; queued_leases=0
+	at com.shop.inventory.worker.CycleCountExporter.run(CycleCountExporter.java:369)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:12:53,693 lease-mgr  lease=LS-8889969 released
+2026-10-21 21:12:58,913 lease-mgr  lease=LS-5762764 released
+2026-10-21 21:13:00,460 wh-agent-04/sweep-9149 SlotRebalancer START batch=53
+2026-10-21 21:13:01,071 wh-agent-04/sweep-9149 SlotRebalancer DONE in 611 ms
+2026-10-21 21:13:08,154 wh-agent-02/sweep-2817 SlotRebalancer START batch=36
+2026-10-21 21:13:11,033 wh-agent-02/sweep-2817 SlotRebalancer DONE in 2879 ms
+2026-10-21 21:13:11,491 lease-mgr  lease=LS-5902797 released
+2026-10-21 21:13:19,169 lease-mgr  lease=LS-8952450 released
+2026-10-21 21:13:31,327 lease-mgr  lease=LS-5656060 released
+2026-10-21 21:13:38,989 wh-agent-02/sweep-8141 SlotRebalancer START batch=40
+2026-10-21 21:13:40,694 wh-agent-02/sweep-8141 SlotRebalancer WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:13:42,399 wh-agent-02/sweep-8141 SlotRebalancer DONE in 3410 ms
+2026-10-21 21:13:53,697 lease-mgr  lease=LS-9373919 released
+2026-10-21 21:13:54,543 wh-agent-04/sweep-4353 CarrierManifestPusher START batch=12
+2026-10-21 21:13:56,709 wh-agent-04/sweep-4353 CarrierManifestPusher DONE in 2166 ms
+2026-10-21 21:13:57,813 wh-agent-04/sweep-9938 PalletAssignmentSync START batch=26
+2026-10-21 21:13:59,529 wh-agent-04/sweep-9938 PalletAssignmentSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:14:01,245 wh-agent-04/sweep-9938 PalletAssignmentSync DONE in 3432 ms
+2026-10-21 21:14:06,445 wh-agent-06/sweep-2595 SlotRebalancer START batch=25
+2026-10-21 21:14:08,535 wh-agent-06/sweep-2595 SlotRebalancer DONE in 2090 ms
+2026-10-21 21:14:25,600 wh-agent-04/sweep-6040 CarrierManifestPusher START batch=3
+2026-10-21 21:14:26,535 wh-agent-04/sweep-6040 CarrierManifestPusher DONE in 935 ms
+2026-10-21 21:14:47,687 lease-mgr  lease=LS-6114840 released
+2026-10-21 21:15:09,861 lease-mgr  lease=LS-6787530 released
+2026-10-21 21:15:32,859 lease-mgr  lease=LS-7392127 released
+2026-10-21 21:15:35,396 lease-mgr  lease=LS-2167221 released
+2026-10-21 21:15:40,975 lease-mgr  lease=LS-2493531 released
+2026-10-21 21:15:41,228 lease-mgr  lease=LS-6847842 sku=SKU-22041 qty=2 -> wh-agent-03 OK (57 ms)
+2026-10-21 21:15:41,346 lease-mgr  lease=LS-9701283 sku=SKU-31407 qty=1 -> wh-agent-04 OK (62 ms)
+2026-10-21 21:15:41,474 lease-mgr  lease=LS-6847842 released
+2026-10-21 21:15:41,477 lease-mgr  lease=LS-9701283 released
+2026-10-21 21:15:42,657 lease-mgr  lease=LS-9448148 sku=SKU-39830 qty=2 -> wh-agent-04 OK (44 ms)
+2026-10-21 21:15:42,768 lease-mgr  lease=LS-7502514 sku=SKU-57028 qty=1 -> wh-agent-04 OK (31 ms)
+2026-10-21 21:15:42,906 lease-mgr  lease=LS-9448148 released
+2026-10-21 21:15:42,909 lease-mgr  lease=LS-7502514 released
+2026-10-21 21:15:45,054 lease-mgr  lease=LS-1076727 sku=SKU-49893 qty=2 -> wh-agent-01 OK (25 ms)
+2026-10-21 21:15:45,130 lease-mgr  lease=LS-3741916 sku=SKU-59591 qty=1 -> wh-agent-01 OK (8 ms)
+2026-10-21 21:15:45,204 lease-mgr  lease=LS-1076727 released
+2026-10-21 21:15:45,207 lease-mgr  lease=LS-3741916 released
+2026-10-21 21:15:58,669 wh-agent-05/sweep-1105 DockCalendarSync START batch=54
+2026-10-21 21:15:59,164 wh-agent-05/sweep-1105 DockCalendarSync WARN slow scan 2544ms
+2026-10-21 21:15:59,660 wh-agent-05/sweep-1105 DockCalendarSync DONE in 991 ms
+2026-10-21 21:16:12,584 wh-agent-05/sweep-1612 CarrierManifestPusher START batch=51
+2026-10-21 21:16:14,972 wh-agent-05/sweep-1612 CarrierManifestPusher DONE in 2388 ms
+2026-10-21 21:16:32,203 lease-mgr  lease=LS-4952039 sku=SKU-51418 qty=2 -> wh-agent-03 OK (34 ms)
+2026-10-21 21:16:32,320 lease-mgr  lease=LS-6316055 sku=SKU-51984 qty=1 -> wh-agent-03 OK (37 ms)
+2026-10-21 21:16:32,474 lease-mgr  lease=LS-4952039 released
+2026-10-21 21:16:32,477 lease-mgr  lease=LS-6316055 released
+2026-10-21 21:17:03,447 wh-agent-06/sweep-9562 PalletAssignmentSync START batch=49
+2026-10-21 21:17:03,909 wh-agent-06/sweep-9562 PalletAssignmentSync DONE in 462 ms
+2026-10-21 21:17:18,067 lease-mgr  lease=LS-3037852 released
+2026-10-21 21:17:32,822 lease-mgr  lease=LS-5091968 sku=SKU-30544 qty=2 -> wh-agent-03 OK (37 ms)
+2026-10-21 21:17:32,895 lease-mgr  lease=LS-7867897 sku=SKU-10547 qty=1 -> wh-agent-06 OK (40 ms)
+2026-10-21 21:17:33,032 lease-mgr  lease=LS-5091968 released
+2026-10-21 21:17:33,035 lease-mgr  lease=LS-7867897 released
+2026-10-21 21:17:37,996 lease-mgr  lease=LS-4438315 sku=SKU-43367 qty=2 -> wh-agent-03 OK (46 ms)
+2026-10-21 21:17:38,084 lease-mgr  lease=LS-3545714 sku=SKU-22849 qty=1 -> wh-agent-04 OK (22 ms)
+2026-10-21 21:17:38,222 lease-mgr  lease=LS-4438315 released
+2026-10-21 21:17:38,225 lease-mgr  lease=LS-3545714 released
+2026-10-21 21:17:40,200 wh-agent-05/sweep-5739 SlotRebalancer START zone=C table=slot_assign mode=rebalance
+2026-10-21 21:17:47,723 wh-agent-05/sweep-5739 SlotRebalancer INFO progress 18% segments_done=3
+2026-10-21 21:17:55,552 wh-agent-05/sweep-5739 SlotRebalancer INFO progress 37% segments_done=6
+2026-10-21 21:18:04,030 wh-agent-05/sweep-5739 SlotRebalancer INFO progress 52% segments_done=8
+2026-10-21 21:18:19,285 lease-mgr  lease=LS-5096023 released
+2026-10-21 21:18:20,220 lease-mgr  lease=LS-2458252 released
+2026-10-21 21:18:20,301 lease-mgr  lease=LS-2816153 released
+2026-10-21 21:18:24,271 wh-agent-04/sweep-3118 CarrierManifestPusher START batch=16
+2026-10-21 21:18:27,085 wh-agent-04/sweep-3118 CarrierManifestPusher DONE in 2814 ms
+2026-10-21 21:18:28,265 lease-mgr  lease=LS-7991299 released
+2026-10-21 21:18:31,800 wh-agent-05/sweep-5739 SlotRebalancer WARN slot_assign table lock contended by writer w-9120 (waited 4000ms)
+2026-10-21 21:18:33,201 lease-mgr  lease=LS-3748967 released
+2026-10-21 21:18:40,073 lease-mgr  lease=LS-2780165 sku=SKU-56311 qty=2 -> wh-agent-06 OK (16 ms)
+2026-10-21 21:18:40,190 lease-mgr  lease=LS-2513466 -> wh-agent-05 QUEUED behind sweep-5739 (#1)
+2026-10-21 21:18:41,379 wh-agent-05/sweep-5739 SlotRebalancer WARN slot_assign table lock still contended (waited 12000ms)
+2026-10-21 21:18:46,815 lease-mgr  lease=LS-4999609 sku=SKU-50299 qty=2 -> wh-agent-06 OK (52 ms)
+2026-10-21 21:18:46,887 lease-mgr  lease=LS-3176899 sku=SKU-36312 qty=1 -> wh-agent-03 OK (11 ms)
+2026-10-21 21:18:46,986 lease-mgr  lease=LS-4999609 released
+2026-10-21 21:18:46,989 lease-mgr  lease=LS-3176899 released
+2026-10-21 21:18:52,500 wh-agent-05/sweep-5739 SlotRebalancer FAILED SlotTableLockTimeoutException - rebalance aborted: table lock slot_assign not acquired within 25000ms ; queued_leases=1
+	at com.shop.inventory.worker.SlotTableLock.acquire(SlotTableLock.java:176)
+	at com.shop.inventory.worker.SlotRebalancer.rebalanceZone(SlotRebalancer.java:237)
+	at com.shop.inventory.worker.SlotRebalancer.process(SlotRebalancer.java:801)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:18:52,525 lease-mgr  lease=LS-2513466 -> wh-agent-05 EXPIRED (sweep-5739 failed)
+2026-10-21 21:18:55,389 lease-mgr  lease=LS-2471673 sku=SKU-22000 qty=2 -> wh-agent-04 OK (11 ms)
+2026-10-21 21:18:55,482 lease-mgr  lease=LS-6526935 sku=SKU-56795 qty=1 -> wh-agent-03 OK (40 ms)
+2026-10-21 21:18:55,660 lease-mgr  lease=LS-2471673 released
+2026-10-21 21:18:55,663 lease-mgr  lease=LS-6526935 released
+2026-10-21 21:19:21,208 lease-mgr  lease=LS-7065955 released
+2026-10-21 21:19:29,649 lease-mgr  lease=LS-2297924 released
+2026-10-21 21:19:30,139 wh-agent-06/sweep-5660 SlotRebalancer START batch=35
+2026-10-21 21:19:30,474 wh-agent-06/sweep-5660 SlotRebalancer DONE in 335 ms
+2026-10-21 21:19:33,999 lease-mgr  lease=LS-9531610 sku=SKU-26082 qty=2 -> wh-agent-03 OK (19 ms)
+2026-10-21 21:19:34,083 lease-mgr  lease=LS-9209208 sku=SKU-36627 qty=1 -> wh-agent-06 OK (68 ms)
+2026-10-21 21:19:34,231 lease-mgr  lease=LS-9531610 released
+2026-10-21 21:19:34,234 lease-mgr  lease=LS-9209208 released
+2026-10-21 21:19:36,768 wh-agent-03/sweep-2350 SkuCacheWarmer START batch=25
+2026-10-21 21:19:40,202 wh-agent-03/sweep-2350 SkuCacheWarmer FAILED ConnectException - Connection refused: redis-inv-2:6379 ; queued_leases=0
+	at com.shop.inventory.worker.SkuCacheWarmer.handle(SkuCacheWarmer.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:20:00,351 lease-mgr  lease=LS-5817907 sku=SKU-10033 qty=2 -> wh-agent-04 OK (15 ms)
+2026-10-21 21:20:00,458 lease-mgr  lease=LS-3593760 sku=SKU-49262 qty=1 -> wh-agent-03 OK (51 ms)
+2026-10-21 21:20:00,621 lease-mgr  lease=LS-5817907 released
+2026-10-21 21:20:00,624 lease-mgr  lease=LS-3593760 released
+2026-10-21 21:20:01,013 wh-agent-06/sweep-2513 DockCalendarSync START batch=51
+2026-10-21 21:20:01,394 wh-agent-04/sweep-5426 DockCalendarSync START batch=28
+2026-10-21 21:20:01,861 wh-agent-04/sweep-5426 DockCalendarSync DONE in 467 ms
+2026-10-21 21:20:02,743 wh-agent-06/sweep-2513 DockCalendarSync WARN slow scan 1703ms
+2026-10-21 21:20:04,473 wh-agent-06/sweep-2513 DockCalendarSync DONE in 3460 ms
+2026-10-21 21:20:13,247 wh-agent-03/sweep-2526 SkuCacheWarmer START batch=28
+2026-10-21 21:20:14,777 wh-agent-03/sweep-2526 SkuCacheWarmer FAILED ConnectException - Connection refused: redis-inv-2:6379 ; queued_leases=0
+	at com.shop.inventory.worker.SkuCacheWarmer.invoke(SkuCacheWarmer.java:423)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:20:32,550 lease-mgr  lease=LS-1063616 sku=SKU-40063 qty=2 -> wh-agent-01 OK (43 ms)
+2026-10-21 21:20:32,658 lease-mgr  lease=LS-4367598 sku=SKU-40572 qty=1 -> wh-agent-01 OK (20 ms)
+2026-10-21 21:20:32,784 lease-mgr  lease=LS-1063616 released
+2026-10-21 21:20:32,787 lease-mgr  lease=LS-4367598 released
+2026-10-21 21:20:33,736 lease-mgr  lease=LS-2426602 sku=SKU-37782 qty=2 -> wh-agent-04 OK (42 ms)
+2026-10-21 21:20:33,831 lease-mgr  lease=LS-6963729 sku=SKU-59436 qty=1 -> wh-agent-01 OK (29 ms)
+2026-10-21 21:20:33,973 lease-mgr  lease=LS-2426602 released
+2026-10-21 21:20:33,976 lease-mgr  lease=LS-6963729 released
+2026-10-21 21:20:46,364 lease-mgr  lease=LS-2695661 sku=SKU-54131 qty=2 -> wh-agent-04 OK (23 ms)
+2026-10-21 21:20:46,472 lease-mgr  lease=LS-1678895 sku=SKU-34900 qty=1 -> wh-agent-04 OK (66 ms)
+2026-10-21 21:20:46,629 lease-mgr  lease=LS-2695661 released
+2026-10-21 21:20:46,632 lease-mgr  lease=LS-1678895 released
+2026-10-21 21:21:11,083 lease-mgr  lease=LS-4587108 sku=SKU-16962 qty=2 -> wh-agent-06 OK (14 ms)
+2026-10-21 21:21:11,195 lease-mgr  lease=LS-5495819 sku=SKU-51294 qty=1 -> wh-agent-04 OK (68 ms)
+2026-10-21 21:21:11,338 lease-mgr  lease=LS-4587108 released
+2026-10-21 21:21:11,341 lease-mgr  lease=LS-5495819 released
+2026-10-21 21:21:16,431 wh-agent-06/sweep-1030 CarrierManifestPusher START batch=57
+2026-10-21 21:21:19,691 wh-agent-06/sweep-1030 CarrierManifestPusher DONE in 3260 ms
+2026-10-21 21:21:20,778 wh-agent-02/sweep-9545 SlotRebalancer START batch=50
+2026-10-21 21:21:21,890 wh-agent-02/sweep-9545 SlotRebalancer DONE in 1112 ms
+2026-10-21 21:21:37,149 lease-mgr  lease=LS-4118597 released
+2026-10-21 21:22:10,167 wh-agent-01/sweep-9980 PalletAssignmentSync START batch=58
+2026-10-21 21:22:11,172 wh-agent-01/sweep-9980 PalletAssignmentSync WARN slow scan 1355ms
+2026-10-21 21:22:12,178 wh-agent-01/sweep-9980 PalletAssignmentSync DONE in 2011 ms
+2026-10-21 21:22:24,046 lease-mgr  lease=LS-3640649 released
+2026-10-21 21:22:27,621 lease-mgr  lease=LS-4750927 sku=SKU-13857 qty=2 -> wh-agent-06 OK (28 ms)
+2026-10-21 21:22:27,706 lease-mgr  lease=LS-8547474 sku=SKU-33628 qty=1 -> wh-agent-01 OK (49 ms)
+2026-10-21 21:22:27,847 lease-mgr  lease=LS-4750927 released
+2026-10-21 21:22:27,850 lease-mgr  lease=LS-8547474 released
+2026-10-21 21:22:34,329 lease-mgr  lease=LS-3258709 sku=SKU-55749 qty=2 -> wh-agent-04 OK (42 ms)
+2026-10-21 21:22:34,402 lease-mgr  lease=LS-1092193 sku=SKU-30776 qty=1 -> wh-agent-06 OK (65 ms)
+2026-10-21 21:22:34,564 lease-mgr  lease=LS-3258709 released
+2026-10-21 21:22:34,567 lease-mgr  lease=LS-1092193 released
+2026-10-21 21:22:53,693 lease-mgr  lease=LS-7450348 sku=SKU-36269 qty=2 -> wh-agent-01 OK (28 ms)
+2026-10-21 21:22:53,759 lease-mgr  lease=LS-7081846 sku=SKU-10575 qty=1 -> wh-agent-04 OK (62 ms)
+2026-10-21 21:22:53,976 lease-mgr  lease=LS-7450348 released
+2026-10-21 21:22:53,979 lease-mgr  lease=LS-7081846 released
+2026-10-21 21:22:58,029 wh-agent-01/sweep-7519 SlotRebalancer START batch=30
+2026-10-21 21:22:58,907 wh-agent-01/sweep-7519 SlotRebalancer DONE in 878 ms
+2026-10-21 21:23:16,418 wh-agent-03/sweep-7458 SlotRebalancer START batch=5
+2026-10-21 21:23:19,737 wh-agent-03/sweep-7458 SlotRebalancer DONE in 3319 ms
+2026-10-21 21:23:53,901 lease-mgr  lease=LS-7442538 sku=SKU-20928 qty=2 -> wh-agent-04 OK (11 ms)
+2026-10-21 21:23:54,020 lease-mgr  lease=LS-1481358 sku=SKU-16773 qty=1 -> wh-agent-04 OK (50 ms)
+2026-10-21 21:23:54,187 lease-mgr  lease=LS-7442538 released
+2026-10-21 21:23:54,190 lease-mgr  lease=LS-1481358 released
+2026-10-21 21:23:56,902 lease-mgr  lease=LS-5733758 sku=SKU-39996 qty=2 -> wh-agent-04 OK (53 ms)
+2026-10-21 21:23:57,020 lease-mgr  lease=LS-3867588 sku=SKU-31783 qty=1 -> wh-agent-06 OK (25 ms)
+2026-10-21 21:23:57,118 lease-mgr  lease=LS-5733758 released
+2026-10-21 21:23:57,121 lease-mgr  lease=LS-3867588 released
+2026-10-21 21:24:03,215 lease-mgr  lease=LS-8547708 released
+2026-10-21 21:24:06,450 lease-mgr  lease=LS-9405689 released
+2026-10-21 21:24:11,243 lease-mgr  lease=LS-8857898 released
+2026-10-21 21:24:15,494 lease-mgr  lease=LS-8517848 released
+2026-10-21 21:24:16,253 lease-mgr  lease=LS-4510946 sku=SKU-47750 qty=2 -> wh-agent-06 OK (59 ms)
+2026-10-21 21:24:16,331 lease-mgr  lease=LS-9654026 sku=SKU-37153 qty=1 -> wh-agent-01 OK (64 ms)
+2026-10-21 21:24:16,472 lease-mgr  lease=LS-4510946 released
+2026-10-21 21:24:16,475 lease-mgr  lease=LS-9654026 released
+2026-10-21 21:24:35,696 lease-mgr  lease=LS-9564661 released
+2026-10-21 21:24:38,135 lease-mgr  lease=LS-9418573 released
+2026-10-21 21:24:45,177 lease-mgr  lease=LS-9460740 released
+2026-10-21 21:24:46,750 wh-agent-02/sweep-7098 PalletAssignmentSync START batch=22
+2026-10-21 21:24:46,950 wh-agent-02/sweep-7098 PalletAssignmentSync WARN lag behind schedule by 8s
+2026-10-21 21:24:47,151 wh-agent-02/sweep-7098 PalletAssignmentSync DONE in 401 ms
+2026-10-21 21:24:57,479 lease-mgr  lease=LS-9577589 sku=SKU-42294 qty=2 -> wh-agent-06 OK (24 ms)
+2026-10-21 21:24:57,546 lease-mgr  lease=LS-4115611 sku=SKU-43157 qty=1 -> wh-agent-06 OK (45 ms)
+2026-10-21 21:24:57,741 lease-mgr  lease=LS-9577589 released
+2026-10-21 21:24:57,744 lease-mgr  lease=LS-4115611 released
+2026-10-21 21:24:58,739 lease-mgr  lease=LS-4457082 released
+2026-10-21 21:25:03,293 wh-agent-06/sweep-2621 SlotRebalancer START batch=39
+2026-10-21 21:25:04,222 wh-agent-06/sweep-2621 SlotRebalancer DONE in 929 ms
+2026-10-21 21:25:06,029 wh-agent-06/sweep-7513 DockCalendarSync START batch=29
+2026-10-21 21:25:07,673 wh-agent-02/sweep-6557 CarrierManifestPusher START batch=51
+2026-10-21 21:25:07,768 wh-agent-06/sweep-7513 DockCalendarSync DONE in 1739 ms
+2026-10-21 21:25:09,163 wh-agent-02/sweep-6557 CarrierManifestPusher WARN lag behind schedule by 9s
+2026-10-21 21:25:10,653 wh-agent-02/sweep-6557 CarrierManifestPusher DONE in 2980 ms
+2026-10-21 21:25:12,497 lease-mgr  lease=LS-2211101 sku=SKU-42356 qty=2 -> wh-agent-06 OK (16 ms)
+2026-10-21 21:25:12,575 lease-mgr  lease=LS-2718205 sku=SKU-59700 qty=1 -> wh-agent-01 OK (33 ms)
+2026-10-21 21:25:12,696 lease-mgr  lease=LS-2211101 released
+2026-10-21 21:25:12,699 lease-mgr  lease=LS-2718205 released
+2026-10-21 21:25:14,404 lease-mgr  lease=LS-7238419 released
+2026-10-21 21:25:18,623 wh-agent-05/sweep-5902 SlotRebalancer START batch=29
+2026-10-21 21:25:19,677 lease-mgr  lease=LS-1566231 sku=SKU-12440 qty=2 -> wh-agent-06 OK (49 ms)
+2026-10-21 21:25:19,785 lease-mgr  lease=LS-8481813 sku=SKU-20559 qty=1 -> wh-agent-06 OK (41 ms)
+2026-10-21 21:25:19,900 lease-mgr  lease=LS-1566231 released
+2026-10-21 21:25:19,903 lease-mgr  lease=LS-8481813 released
+2026-10-21 21:25:20,406 wh-agent-05/sweep-5902 SlotRebalancer DONE in 1783 ms
+2026-10-21 21:25:48,561 lease-mgr  lease=LS-8634645 sku=SKU-23710 qty=2 -> wh-agent-06 OK (29 ms)
+2026-10-21 21:25:48,668 lease-mgr  lease=LS-8584775 sku=SKU-51665 qty=1 -> wh-agent-06 OK (59 ms)
+2026-10-21 21:25:48,849 lease-mgr  lease=LS-8634645 released
+2026-10-21 21:25:48,852 lease-mgr  lease=LS-8584775 released
+2026-10-21 21:26:31,364 lease-mgr  lease=LS-5982916 sku=SKU-23794 qty=2 -> wh-agent-06 OK (38 ms)
+2026-10-21 21:26:31,449 lease-mgr  lease=LS-9042714 sku=SKU-51108 qty=1 -> wh-agent-06 OK (54 ms)
+2026-10-21 21:26:31,606 lease-mgr  lease=LS-5982916 released
+2026-10-21 21:26:31,609 lease-mgr  lease=LS-9042714 released
+2026-10-21 21:26:41,411 lease-mgr  lease=LS-4630340 released
+2026-10-21 21:27:05,030 lease-mgr  lease=LS-5744193 released
+2026-10-21 21:27:21,815 lease-mgr  lease=LS-3611971 released
+2026-10-21 21:27:26,455 lease-mgr  lease=LS-6221478 sku=SKU-15143 qty=2 -> wh-agent-01 OK (35 ms)
+2026-10-21 21:27:26,531 lease-mgr  lease=LS-1445866 sku=SKU-38251 qty=1 -> wh-agent-01 OK (25 ms)
+2026-10-21 21:27:26,681 lease-mgr  lease=LS-6221478 released
+2026-10-21 21:27:26,684 lease-mgr  lease=LS-1445866 released
+2026-10-21 21:27:29,753 wh-agent-03/sweep-3761 SkuCacheWarmer START batch=40
+2026-10-21 21:27:33,245 wh-agent-03/sweep-3761 SkuCacheWarmer FAILED ConnectException - Connection refused: redis-inv-2:6379 ; queued_leases=0
+	at com.shop.inventory.worker.SkuCacheWarmer.dispatch(SkuCacheWarmer.java:617)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:27:35,835 lease-mgr  lease=LS-3542306 sku=SKU-13014 qty=2 -> wh-agent-01 OK (53 ms)
+2026-10-21 21:27:35,945 lease-mgr  lease=LS-8209058 sku=SKU-51284 qty=1 -> wh-agent-03 OK (61 ms)
+2026-10-21 21:27:36,117 lease-mgr  lease=LS-3542306 released
+2026-10-21 21:27:36,120 lease-mgr  lease=LS-8209058 released
+2026-10-21 21:27:42,241 lease-mgr  lease=LS-7561223 sku=SKU-21914 qty=2 -> wh-agent-04 OK (15 ms)
+2026-10-21 21:27:42,307 lease-mgr  lease=LS-8337446 released
+2026-10-21 21:27:42,326 lease-mgr  lease=LS-3858545 sku=SKU-17567 qty=1 -> wh-agent-01 OK (18 ms)
+2026-10-21 21:27:42,452 lease-mgr  lease=LS-7561223 released
+2026-10-21 21:27:42,455 lease-mgr  lease=LS-3858545 released
+2026-10-21 21:27:55,351 wh-agent-03/sweep-2124 SlotRebalancer START batch=3
+2026-10-21 21:27:56,866 wh-agent-03/sweep-2124 SlotRebalancer DONE in 1515 ms
+2026-10-21 21:28:11,732 lease-mgr  lease=LS-4162131 released
+2026-10-21 21:28:13,879 lease-mgr  lease=LS-6353656 sku=SKU-17878 qty=2 -> wh-agent-06 OK (35 ms)
+2026-10-21 21:28:13,939 lease-mgr  lease=LS-1490529 sku=SKU-53388 qty=1 -> wh-agent-03 OK (36 ms)
+2026-10-21 21:28:14,082 lease-mgr  lease=LS-6353656 released
+2026-10-21 21:28:14,085 lease-mgr  lease=LS-1490529 released
+2026-10-21 21:28:21,593 lease-mgr  lease=LS-2740224 released
+2026-10-21 21:28:24,535 wh-agent-04/sweep-4069 CarrierManifestPusher START batch=39
+2026-10-21 21:28:24,999 wh-agent-04/sweep-4069 CarrierManifestPusher DONE in 464 ms
+2026-10-21 21:28:48,064 lease-mgr  lease=LS-6022499 sku=SKU-39638 qty=2 -> wh-agent-01 OK (60 ms)
+2026-10-21 21:28:48,124 lease-mgr  lease=LS-5146770 sku=SKU-25657 qty=1 -> wh-agent-03 OK (68 ms)
+2026-10-21 21:28:48,322 lease-mgr  lease=LS-6022499 released
+2026-10-21 21:28:48,325 lease-mgr  lease=LS-5146770 released
+2026-10-21 21:29:00,210 wh-agent-02/sweep-1350 SlotRebalancer START batch=59
+2026-10-21 21:29:02,018 wh-agent-02/sweep-1350 SlotRebalancer DONE in 1808 ms
+2026-10-21 21:29:04,104 lease-mgr  lease=LS-1810079 sku=SKU-35859 qty=2 -> wh-agent-04 OK (46 ms)
+2026-10-21 21:29:04,198 lease-mgr  lease=LS-6046885 sku=SKU-56209 qty=1 -> wh-agent-01 OK (53 ms)
+2026-10-21 21:29:04,349 lease-mgr  lease=LS-1810079 released
+2026-10-21 21:29:04,352 lease-mgr  lease=LS-6046885 released
+2026-10-21 21:29:47,799 lease-mgr  lease=LS-6549346 sku=SKU-54035 qty=2 -> wh-agent-06 OK (45 ms)
+2026-10-21 21:29:47,872 lease-mgr  lease=LS-3192130 sku=SKU-59550 qty=1 -> wh-agent-03 OK (54 ms)
+2026-10-21 21:29:48,024 lease-mgr  lease=LS-6549346 released
+2026-10-21 21:29:48,027 lease-mgr  lease=LS-3192130 released
+2026-10-21 21:29:54,506 lease-mgr  lease=LS-8360617 released
+2026-10-21 21:29:59,214 lease-mgr  lease=LS-9940617 sku=SKU-27205 qty=2 -> wh-agent-03 OK (14 ms)
+2026-10-21 21:29:59,299 lease-mgr  lease=LS-9539885 sku=SKU-35512 qty=1 -> wh-agent-06 OK (61 ms)
+2026-10-21 21:29:59,510 lease-mgr  lease=LS-9940617 released
+2026-10-21 21:29:59,513 lease-mgr  lease=LS-9539885 released
+2026-10-21 21:30:01,404 lease-mgr  lease=LS-9449886 released
+2026-10-21 21:30:05,693 wh-agent-05/sweep-3718 SlotRebalancer START batch=31
+2026-10-21 21:30:06,534 wh-agent-02/sweep-2024 PalletAssignmentSync START batch=27
+2026-10-21 21:30:07,417 wh-agent-02/sweep-2024 PalletAssignmentSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:30:08,009 wh-agent-05/sweep-3718 SlotRebalancer DONE in 2316 ms
+2026-10-21 21:30:08,301 wh-agent-02/sweep-2024 PalletAssignmentSync DONE in 1767 ms
+2026-10-21 21:30:18,497 lease-mgr  lease=LS-9789244 sku=SKU-58244 qty=2 -> wh-agent-04 OK (50 ms)
+2026-10-21 21:30:18,607 lease-mgr  lease=LS-8904834 sku=SKU-37750 qty=1 -> wh-agent-04 OK (27 ms)
+2026-10-21 21:30:18,696 lease-mgr  lease=LS-9789244 released
+2026-10-21 21:30:18,699 lease-mgr  lease=LS-8904834 released
+2026-10-21 21:30:23,012 lease-mgr  lease=LS-3718337 released
+2026-10-21 21:30:45,596 lease-mgr  lease=LS-3747573 sku=SKU-12714 qty=2 -> wh-agent-04 OK (19 ms)
+2026-10-21 21:30:45,686 lease-mgr  lease=LS-6280106 sku=SKU-17744 qty=1 -> wh-agent-04 OK (63 ms)
+2026-10-21 21:30:45,887 lease-mgr  lease=LS-3747573 released
+2026-10-21 21:30:45,890 lease-mgr  lease=LS-6280106 released
+2026-10-21 21:31:00,613 lease-mgr  lease=LS-5012804 sku=SKU-47683 qty=2 -> wh-agent-03 OK (59 ms)
+2026-10-21 21:31:00,713 lease-mgr  lease=LS-9171805 sku=SKU-31251 qty=1 -> wh-agent-06 OK (51 ms)
+2026-10-21 21:31:00,847 lease-mgr  lease=LS-5012804 released
+2026-10-21 21:31:00,850 lease-mgr  lease=LS-9171805 released
+2026-10-21 21:31:06,463 lease-mgr  lease=LS-7182601 released
+2026-10-21 21:31:18,665 lease-mgr  lease=LS-2524858 released
+2026-10-21 21:31:37,134 lease-mgr  lease=LS-3147212 released
+2026-10-21 21:31:38,533 lease-mgr  lease=LS-2411196 released
+2026-10-21 21:31:41,508 lease-mgr  lease=LS-5676345 released
+2026-10-21 21:31:52,203 lease-mgr  lease=LS-1683108 sku=SKU-53646 qty=2 -> wh-agent-03 OK (22 ms)
+2026-10-21 21:31:52,289 lease-mgr  lease=LS-1764884 sku=SKU-13010 qty=1 -> wh-agent-06 OK (50 ms)
+2026-10-21 21:31:52,447 lease-mgr  lease=LS-1683108 released
+2026-10-21 21:31:52,450 lease-mgr  lease=LS-1764884 released
+2026-10-21 21:31:52,872 lease-mgr  lease=LS-4494185 sku=SKU-11508 qty=2 -> wh-agent-01 OK (35 ms)
+2026-10-21 21:31:52,979 lease-mgr  lease=LS-9349159 sku=SKU-37567 qty=1 -> wh-agent-01 OK (66 ms)
+2026-10-21 21:31:53,219 lease-mgr  lease=LS-4494185 released
+2026-10-21 21:31:53,222 lease-mgr  lease=LS-9349159 released
+2026-10-21 21:31:54,624 lease-mgr  lease=LS-8099755 released
+2026-10-21 21:31:59,953 lease-mgr  lease=LS-9394029 sku=SKU-15925 qty=2 -> wh-agent-06 OK (25 ms)
+2026-10-21 21:32:00,073 lease-mgr  lease=LS-8596920 sku=SKU-42348 qty=1 -> wh-agent-06 OK (58 ms)
+2026-10-21 21:32:00,292 lease-mgr  lease=LS-9394029 released
+2026-10-21 21:32:00,295 lease-mgr  lease=LS-8596920 released
+2026-10-21 21:32:00,545 lease-mgr  lease=LS-2046510 sku=SKU-42995 qty=2 -> wh-agent-04 OK (11 ms)
+2026-10-21 21:32:00,607 lease-mgr  lease=LS-7385416 sku=SKU-42658 qty=1 -> wh-agent-03 OK (50 ms)
+2026-10-21 21:32:00,717 lease-mgr  lease=LS-2046510 released
+2026-10-21 21:32:00,720 lease-mgr  lease=LS-7385416 released
+2026-10-21 21:32:06,846 lease-mgr  lease=LS-8526305 released
+2026-10-21 21:32:15,830 wh-agent-06/sweep-5939 CycleCountExporter START batch=2
+2026-10-21 21:32:17,082 lease-mgr  lease=LS-6250580 released
+2026-10-21 21:32:18,811 wh-agent-06/sweep-5939 CycleCountExporter FAILED UncheckedIOException - disk quota exceeded writing /var/spool/export.tmp ; queued_leases=1
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:608)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:32:24,233 lease-mgr  lease=LS-8296525 sku=SKU-54829 qty=2 -> wh-agent-01 OK (47 ms)
+2026-10-21 21:32:24,302 lease-mgr  lease=LS-2059131 sku=SKU-17187 qty=1 -> wh-agent-06 OK (8 ms)
+2026-10-21 21:32:24,435 lease-mgr  lease=LS-8296525 released
+2026-10-21 21:32:24,438 lease-mgr  lease=LS-2059131 released
+2026-10-21 21:32:30,227 lease-mgr  lease=LS-8344298 released
+2026-10-21 21:32:40,947 wh-agent-04/sweep-4551 SlotRebalancer START batch=25
+2026-10-21 21:32:42,534 wh-agent-04/sweep-4551 SlotRebalancer DONE in 1587 ms
+2026-10-21 21:32:45,582 lease-mgr  lease=LS-6775467 released
+2026-10-21 21:33:04,068 wh-agent-01/sweep-1127 SlotRebalancer START batch=29
+2026-10-21 21:33:06,564 wh-agent-01/sweep-1127 SlotRebalancer DONE in 2496 ms
+2026-10-21 21:33:13,348 wh-agent-05/sweep-6959 DockCalendarSync START batch=44
+2026-10-21 21:33:14,733 wh-agent-05/sweep-6959 DockCalendarSync DONE in 1385 ms
+2026-10-21 21:33:18,252 lease-mgr  lease=LS-8490243 sku=SKU-56050 qty=2 -> wh-agent-04 OK (27 ms)
+2026-10-21 21:33:18,335 lease-mgr  lease=LS-9029432 sku=SKU-14980 qty=1 -> wh-agent-03 OK (17 ms)
+2026-10-21 21:33:18,444 lease-mgr  lease=LS-8490243 released
+2026-10-21 21:33:18,447 lease-mgr  lease=LS-9029432 released
+2026-10-21 21:33:25,473 wh-agent-04/sweep-4650 SlotRebalancer START batch=15
+2026-10-21 21:33:29,304 wh-agent-04/sweep-4650 SlotRebalancer DONE in 3831 ms
+2026-10-21 21:34:13,932 lease-mgr  lease=LS-4769666 released
+2026-10-21 21:34:15,491 wh-agent-01/sweep-5267 PalletAssignmentSync START batch=49
+2026-10-21 21:34:15,779 wh-agent-01/sweep-5267 PalletAssignmentSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:34:16,067 wh-agent-01/sweep-5267 PalletAssignmentSync DONE in 576 ms
+2026-10-21 21:34:58,364 lease-mgr  lease=LS-1382076 sku=SKU-53499 qty=2 -> wh-agent-01 OK (37 ms)
+2026-10-21 21:34:58,441 lease-mgr  lease=LS-4812845 sku=SKU-13640 qty=1 -> wh-agent-06 OK (19 ms)
+2026-10-21 21:34:58,528 lease-mgr  lease=LS-1382076 released
+2026-10-21 21:34:58,531 lease-mgr  lease=LS-4812845 released
+2026-10-21 21:35:10,316 lease-mgr  lease=LS-4857154 sku=SKU-49463 qty=2 -> wh-agent-06 OK (26 ms)
+2026-10-21 21:35:10,393 lease-mgr  lease=LS-6036072 sku=SKU-52470 qty=1 -> wh-agent-06 OK (51 ms)
+2026-10-21 21:35:10,598 lease-mgr  lease=LS-4857154 released
+2026-10-21 21:35:10,601 lease-mgr  lease=LS-6036072 released
+2026-10-21 21:37:19,200 wh-agent-02/sweep-7712 SlotRebalancer START zone=C table=slot_assign mode=rebalance
+2026-10-21 21:37:26,379 wh-agent-02/sweep-7712 SlotRebalancer INFO progress 18% segments_done=3
+2026-10-21 21:37:30,400 wh-agent-05/sweep-2160 PalletAssignmentSync START zone=C table=slot_assign mode=rebalance
+2026-10-21 21:37:35,231 wh-agent-02/sweep-7712 SlotRebalancer INFO progress 37% segments_done=6
+2026-10-21 21:37:36,000 wh-agent-02/sweep-3785 PalletAssignmentSync START batch=12
+2026-10-21 21:37:38,299 wh-agent-05/sweep-2160 PalletAssignmentSync INFO progress 18% segments_done=3
+2026-10-21 21:37:41,173 lease-mgr  lease=LS-1030455 sku=SKU-43465 qty=2 -> wh-agent-06 OK (48 ms)
+2026-10-21 21:37:41,606 wh-agent-02/sweep-3785 PalletAssignmentSync INFO progress 30% scanned=400
+2026-10-21 21:37:41,777 lease-mgr  lease=LS-1030455 released
+2026-10-21 21:37:43,233 wh-agent-02/sweep-7712 SlotRebalancer INFO progress 52% segments_done=8
+2026-10-21 21:37:44,263 lease-mgr  lease=LS-1645235 sku=SKU-25021 qty=2 -> wh-agent-03 OK (29 ms)
+2026-10-21 21:37:44,333 lease-mgr  lease=LS-4489638 -> wh-agent-02 QUEUED behind sweep-7712 (#1)
+2026-10-21 21:37:44,371 wh-agent-02/sweep-7712 SlotRebalancer WARN slot_assign table lock contended by writer w-9120 (waited 4000ms)
+2026-10-21 21:37:45,921 wh-agent-05/sweep-2160 PalletAssignmentSync INFO progress 37% segments_done=6
+2026-10-21 21:37:47,288 lease-mgr  lease=LS-3063957 sku=SKU-53571 qty=2 -> wh-agent-03 OK (39 ms)
+2026-10-21 21:37:47,359 lease-mgr  lease=LS-7298842 -> wh-agent-02 QUEUED behind sweep-7712 (#2)
+2026-10-21 21:37:47,511 wh-agent-02/sweep-3785 PalletAssignmentSync INFO progress 60% scanned=800
+2026-10-21 21:37:47,722 wh-agent-03/sweep-4114 CycleCountExporter START batch=19
+2026-10-21 21:37:49,558 lease-mgr  lease=LS-5334201 sku=SKU-45078 qty=2 -> wh-agent-01 OK (12 ms)
+2026-10-21 21:37:49,630 lease-mgr  lease=LS-9454138 -> wh-agent-02 QUEUED behind sweep-7712 (#3)
+2026-10-21 21:37:50,652 lease-mgr  lease=LS-3394722 sku=SKU-55096 qty=2 -> wh-agent-03 OK (8 ms)
+2026-10-21 21:37:50,700 wh-agent-03/sweep-4114 CycleCountExporter FAILED UncheckedIOException - disk quota exceeded writing /var/spool/export.tmp ; queued_leases=1
+	at com.shop.inventory.worker.CycleCountExporter.run(CycleCountExporter.java:766)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:37:50,743 lease-mgr  lease=LS-3992783 -> wh-agent-05 QUEUED behind sweep-2160 (#1)
+2026-10-21 21:37:52,900 wh-agent-05/sweep-2160 PalletAssignmentSync WARN slot_assign table lock contended by writer w-9120 (waited 4000ms)
+2026-10-21 21:37:52,968 lease-mgr  lease=LS-9050477 sku=SKU-53072 qty=2 -> wh-agent-06 OK (34 ms)
+2026-10-21 21:37:53,061 lease-mgr  lease=LS-5977033 -> wh-agent-02 QUEUED behind sweep-7712 (#4)
+2026-10-21 21:37:53,074 wh-agent-02/sweep-3785 PalletAssignmentSync INFO progress 90% scanned=1200
+2026-10-21 21:37:53,945 wh-agent-02/sweep-7712 SlotRebalancer WARN slot_assign table lock still contended (waited 12000ms)
+2026-10-21 21:37:55,939 lease-mgr  lease=LS-5474717 sku=SKU-12878 qty=2 -> wh-agent-04 OK (22 ms)
+2026-10-21 21:37:56,041 lease-mgr  lease=LS-5776172 -> wh-agent-02 QUEUED behind sweep-7712 (#5)
+2026-10-21 21:37:56,763 lease-mgr  lease=LS-6724429 sku=SKU-52235 qty=2 -> wh-agent-01 OK (47 ms)
+2026-10-21 21:37:56,827 lease-mgr  lease=LS-3055363 -> wh-agent-05 QUEUED behind sweep-2160 (#2)
+2026-10-21 21:38:00,968 lease-mgr  lease=LS-3318457 sku=SKU-39028 qty=2 -> wh-agent-06 OK (31 ms)
+2026-10-21 21:38:01,040 lease-mgr  lease=LS-6434712 -> wh-agent-05 QUEUED behind sweep-2160 (#3)
+2026-10-21 21:38:01,859 lease-mgr  lease=LS-7757013 sku=SKU-30809 qty=2 -> wh-agent-01 OK (18 ms)
+2026-10-21 21:38:01,964 lease-mgr  lease=LS-8933186 -> wh-agent-02 QUEUED behind sweep-7712 (#6)
+2026-10-21 21:38:02,484 wh-agent-05/sweep-2160 PalletAssignmentSync WARN slot_assign table lock still contended (waited 12000ms)
+2026-10-21 21:38:03,500 wh-agent-02/sweep-3785 PalletAssignmentSync DONE in 87500 ms
+2026-10-21 21:38:04,465 lease-mgr  lease=LS-4514983 sku=SKU-26425 qty=2 -> wh-agent-03 OK (29 ms)
+2026-10-21 21:38:04,939 wh-agent-01/sweep-3429 CycleCountExporter START batch=17
+2026-10-21 21:38:05,597 lease-mgr  lease=LS-4514983 released
+2026-10-21 21:38:06,115 wh-agent-05/sweep-2160 PalletAssignmentSync FAILED StaleVersionException - rebalance aborted: table lock slot_assign not acquired within 25000ms ; queued_leases=3
+	at com.shop.inventory.worker.PalletTable.save(PalletTable.java:225)
+	at com.shop.inventory.worker.PalletAssignmentSync.syncBatch(PalletAssignmentSync.java:324)
+	at com.shop.inventory.worker.PalletAssignmentSync.dispatch(PalletAssignmentSync.java:390)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:38:06,140 lease-mgr  lease=LS-3992783 -> wh-agent-05 EXPIRED (sweep-2160 failed)
+2026-10-21 21:38:06,146 lease-mgr  lease=LS-3055363 -> wh-agent-05 EXPIRED (sweep-2160 failed)
+2026-10-21 21:38:06,152 lease-mgr  lease=LS-6434712 -> wh-agent-05 EXPIRED (sweep-2160 failed)
+2026-10-21 21:38:08,200 wh-agent-01/sweep-3429 CycleCountExporter FAILED UncheckedIOException - disk quota exceeded writing /var/spool/export.tmp ; queued_leases=1
+	at com.shop.inventory.worker.CycleCountExporter.invoke(CycleCountExporter.java:727)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:38:12,770 lease-mgr  lease=LS-1071092 sku=SKU-33182 qty=2 -> wh-agent-06 OK (8 ms)
+2026-10-21 21:38:13,482 wh-agent-02/sweep-7712 SlotRebalancer FAILED SlotTableLockTimeoutException - rebalance aborted: table lock slot_assign not acquired within 25000ms ; queued_leases=6
+	at com.shop.inventory.worker.SlotTableLock.acquire(SlotTableLock.java:322)
+	at com.shop.inventory.worker.SlotRebalancer.rebalanceZone(SlotRebalancer.java:247)
+	at com.shop.inventory.worker.SlotRebalancer.invoke(SlotRebalancer.java:219)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:38:13,507 lease-mgr  lease=LS-4489638 -> wh-agent-02 EXPIRED (sweep-7712 failed)
+2026-10-21 21:38:13,513 lease-mgr  lease=LS-7298842 -> wh-agent-02 EXPIRED (sweep-7712 failed)
+2026-10-21 21:38:13,519 lease-mgr  lease=LS-9454138 -> wh-agent-02 EXPIRED (sweep-7712 failed)
+2026-10-21 21:38:13,525 lease-mgr  lease=LS-5977033 -> wh-agent-02 EXPIRED (sweep-7712 failed)
+2026-10-21 21:38:13,531 lease-mgr  lease=LS-5776172 -> wh-agent-02 EXPIRED (sweep-7712 failed)
+2026-10-21 21:38:13,537 lease-mgr  lease=LS-8933186 -> wh-agent-02 EXPIRED (sweep-7712 failed)
+2026-10-21 21:38:13,863 lease-mgr  lease=LS-1071092 released
+2026-10-21 21:40:48,517 lease-mgr  lease=LS-3917021 sku=SKU-55136 qty=2 -> wh-agent-01 OK (49 ms)
+2026-10-21 21:40:48,593 lease-mgr  lease=LS-3514075 sku=SKU-58062 qty=1 -> wh-agent-06 OK (19 ms)
+2026-10-21 21:40:48,770 lease-mgr  lease=LS-3917021 released
+2026-10-21 21:40:48,773 lease-mgr  lease=LS-3514075 released
+2026-10-21 21:40:53,397 lease-mgr  lease=LS-2283822 released
+2026-10-21 21:40:54,369 lease-mgr  lease=LS-6719546 released
+2026-10-21 21:41:05,455 lease-mgr  lease=LS-5344885 released
+2026-10-21 21:41:11,809 wh-agent-06/sweep-3796 DockCalendarSync START batch=22
+2026-10-21 21:41:12,311 wh-agent-06/sweep-3796 DockCalendarSync DONE in 502 ms
+2026-10-21 21:41:22,823 wh-agent-03/sweep-4097 PalletAssignmentSync START batch=56
+2026-10-21 21:41:24,112 wh-agent-03/sweep-4097 PalletAssignmentSync WARN lag behind schedule by 5s
+2026-10-21 21:41:25,401 wh-agent-03/sweep-4097 PalletAssignmentSync DONE in 2578 ms
+2026-10-21 21:41:25,668 lease-mgr  lease=LS-3659018 sku=SKU-52438 qty=2 -> wh-agent-03 OK (40 ms)
+2026-10-21 21:41:25,751 lease-mgr  lease=LS-7751622 sku=SKU-37311 qty=1 -> wh-agent-06 OK (24 ms)
+2026-10-21 21:41:25,844 lease-mgr  lease=LS-3659018 released
+2026-10-21 21:41:25,847 lease-mgr  lease=LS-7751622 released
+2026-10-21 21:41:30,447 lease-mgr  lease=LS-3911799 sku=SKU-26615 qty=2 -> wh-agent-04 OK (17 ms)
+2026-10-21 21:41:30,521 lease-mgr  lease=LS-1368854 sku=SKU-35026 qty=1 -> wh-agent-01 OK (49 ms)
+2026-10-21 21:41:30,632 lease-mgr  lease=LS-3911799 released
+2026-10-21 21:41:30,635 lease-mgr  lease=LS-1368854 released
+2026-10-21 21:41:34,496 wh-agent-04/sweep-3654 PalletAssignmentSync START batch=33
+2026-10-21 21:41:35,056 wh-agent-04/sweep-3654 PalletAssignmentSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:41:35,616 wh-agent-04/sweep-3654 PalletAssignmentSync DONE in 1120 ms
+2026-10-21 21:41:49,236 lease-mgr  lease=LS-5733640 sku=SKU-55434 qty=2 -> wh-agent-01 OK (19 ms)
+2026-10-21 21:41:49,316 lease-mgr  lease=LS-8486997 sku=SKU-36066 qty=1 -> wh-agent-04 OK (45 ms)
+2026-10-21 21:41:49,478 lease-mgr  lease=LS-5733640 released
+2026-10-21 21:41:49,481 lease-mgr  lease=LS-8486997 released
+2026-10-21 21:41:52,343 lease-mgr  lease=LS-3965413 released
+2026-10-21 21:42:00,076 wh-agent-05/sweep-8935 DockCalendarSync START batch=12
+2026-10-21 21:42:01,058 wh-agent-05/sweep-8935 DockCalendarSync DONE in 982 ms
+2026-10-21 21:42:02,400 wh-agent-06/sweep-7667 DockCalendarSync START batch=33
+2026-10-21 21:42:05,784 wh-agent-06/sweep-7667 DockCalendarSync DONE in 3384 ms
+2026-10-21 21:42:09,807 wh-agent-04/sweep-6524 SlotRebalancer START batch=50
+2026-10-21 21:42:12,271 wh-agent-03/sweep-3038 CarrierManifestPusher START batch=6
+2026-10-21 21:42:13,616 wh-agent-03/sweep-3038 CarrierManifestPusher DONE in 1345 ms
+2026-10-21 21:42:13,716 wh-agent-04/sweep-6524 SlotRebalancer DONE in 3909 ms
+2026-10-21 21:42:13,869 lease-mgr  lease=LS-3259871 released
+2026-10-21 21:42:14,551 lease-mgr  lease=LS-9176969 released
+2026-10-21 21:42:47,874 lease-mgr  lease=LS-9984852 sku=SKU-36207 qty=2 -> wh-agent-06 OK (54 ms)
+2026-10-21 21:42:47,970 lease-mgr  lease=LS-3350853 sku=SKU-20511 qty=1 -> wh-agent-06 OK (11 ms)
+2026-10-21 21:42:48,155 lease-mgr  lease=LS-9984852 released
+2026-10-21 21:42:48,158 lease-mgr  lease=LS-3350853 released
+2026-10-21 21:42:52,124 lease-mgr  lease=LS-1760025 released
+2026-10-21 21:42:53,191 lease-mgr  lease=LS-6856224 sku=SKU-29001 qty=2 -> wh-agent-06 OK (53 ms)
+2026-10-21 21:42:53,272 lease-mgr  lease=LS-7267846 sku=SKU-59023 qty=1 -> wh-agent-03 OK (43 ms)
+2026-10-21 21:42:53,432 lease-mgr  lease=LS-6856224 released
+2026-10-21 21:42:53,435 lease-mgr  lease=LS-7267846 released
+2026-10-21 21:42:54,489 wh-agent-01/sweep-5943 SlotRebalancer START batch=2
+2026-10-21 21:42:54,937 wh-agent-01/sweep-5943 SlotRebalancer WARN lag behind schedule by 9s
+2026-10-21 21:42:55,229 wh-agent-01/sweep-2958 DockCalendarSync START batch=7
+2026-10-21 21:42:55,386 wh-agent-01/sweep-5943 SlotRebalancer DONE in 897 ms
+2026-10-21 21:42:55,749 wh-agent-01/sweep-2263 BackorderReconciler START batch=20
+2026-10-21 21:42:56,768 wh-agent-01/sweep-2958 DockCalendarSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:42:58,308 wh-agent-01/sweep-2958 DockCalendarSync DONE in 3079 ms
+2026-10-21 21:42:58,581 wh-agent-01/sweep-2263 BackorderReconciler FAILED SQLTransientConnectionException - connection pool exhausted (30/30) ; queued_leases=0
+	at com.shop.inventory.worker.BackorderReconciler.handle(BackorderReconciler.java:85)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:43:00,078 lease-mgr  lease=LS-3577364 released
+2026-10-21 21:43:04,189 lease-mgr  lease=LS-1680338 released
+2026-10-21 21:43:25,361 lease-mgr  lease=LS-7843733 released
+2026-10-21 21:43:34,619 wh-agent-06/sweep-6332 SlotRebalancer START batch=16
+2026-10-21 21:43:38,226 wh-agent-06/sweep-6332 SlotRebalancer DONE in 3607 ms
+2026-10-21 21:43:38,665 lease-mgr  lease=LS-2197444 sku=SKU-22530 qty=2 -> wh-agent-06 OK (36 ms)
+2026-10-21 21:43:38,755 lease-mgr  lease=LS-2011973 sku=SKU-42012 qty=1 -> wh-agent-04 OK (25 ms)
+2026-10-21 21:43:38,901 lease-mgr  lease=LS-2197444 released
+2026-10-21 21:43:38,904 lease-mgr  lease=LS-2011973 released
+2026-10-21 21:43:57,938 wh-agent-01/sweep-3791 DockCalendarSync START batch=48
+2026-10-21 21:43:59,480 wh-agent-01/sweep-3791 DockCalendarSync DONE in 1542 ms
+2026-10-21 21:44:06,069 lease-mgr  lease=LS-5562282 sku=SKU-56311 qty=2 -> wh-agent-03 OK (44 ms)
+2026-10-21 21:44:06,151 lease-mgr  lease=LS-8933486 sku=SKU-57705 qty=1 -> wh-agent-03 OK (53 ms)
+2026-10-21 21:44:06,261 lease-mgr  lease=LS-5562282 released
+2026-10-21 21:44:06,264 lease-mgr  lease=LS-8933486 released
+2026-10-21 21:44:06,772 wh-agent-06/sweep-6205 DockCalendarSync START batch=13
+2026-10-21 21:44:07,271 wh-agent-06/sweep-6205 DockCalendarSync DONE in 499 ms
+2026-10-21 21:44:09,612 wh-agent-05/sweep-4527 PalletAssignmentSync START batch=26
+2026-10-21 21:44:11,774 wh-agent-05/sweep-4527 PalletAssignmentSync DONE in 2162 ms
+2026-10-21 21:44:33,543 lease-mgr  lease=LS-7621910 released
+2026-10-21 21:44:34,445 wh-agent-06/sweep-6416 SlotRebalancer START batch=46
+2026-10-21 21:44:34,759 wh-agent-06/sweep-6416 SlotRebalancer DONE in 314 ms
+2026-10-21 21:44:51,231 lease-mgr  lease=LS-7155171 sku=SKU-28248 qty=2 -> wh-agent-03 OK (34 ms)
+2026-10-21 21:44:51,294 lease-mgr  lease=LS-9637633 sku=SKU-40460 qty=1 -> wh-agent-06 OK (59 ms)
+2026-10-21 21:44:51,412 lease-mgr  lease=LS-7155171 released
+2026-10-21 21:44:51,415 lease-mgr  lease=LS-9637633 released
+2026-10-21 21:45:01,840 lease-mgr  lease=LS-6614829 sku=SKU-50093 qty=2 -> wh-agent-03 OK (47 ms)
+2026-10-21 21:45:01,900 lease-mgr  lease=LS-8084219 sku=SKU-38237 qty=1 -> wh-agent-03 OK (27 ms)
+2026-10-21 21:45:02,088 lease-mgr  lease=LS-6614829 released
+2026-10-21 21:45:02,091 lease-mgr  lease=LS-8084219 released
+2026-10-21 21:45:02,199 lease-mgr  lease=LS-7585009 released
+2026-10-21 21:45:18,272 wh-agent-03/sweep-2739 SlotRebalancer START batch=51
+2026-10-21 21:45:18,884 wh-agent-04/sweep-5368 CarrierManifestPusher START batch=39
+2026-10-21 21:45:19,154 wh-agent-03/sweep-2739 SlotRebalancer DONE in 882 ms
+2026-10-21 21:45:22,629 wh-agent-04/sweep-5368 CarrierManifestPusher DONE in 3745 ms
+2026-10-21 21:45:24,590 wh-agent-04/sweep-8672 DockCalendarSync START batch=35
+2026-10-21 21:45:28,387 wh-agent-04/sweep-8672 DockCalendarSync DONE in 3797 ms
+2026-10-21 21:45:56,571 lease-mgr  lease=LS-9796988 sku=SKU-11585 qty=2 -> wh-agent-01 OK (15 ms)
+2026-10-21 21:45:56,683 lease-mgr  lease=LS-4979945 sku=SKU-50363 qty=1 -> wh-agent-04 OK (13 ms)
+2026-10-21 21:45:56,869 lease-mgr  lease=LS-9796988 released
+2026-10-21 21:45:56,872 lease-mgr  lease=LS-4979945 released
+2026-10-21 21:45:57,248 lease-mgr  lease=LS-9972046 released
+2026-10-21 21:46:03,695 lease-mgr  lease=LS-6341662 released
+2026-10-21 21:46:05,283 wh-agent-06/sweep-5442 SlotRebalancer START batch=16
+2026-10-21 21:46:05,849 lease-mgr  lease=LS-1384599 released
+2026-10-21 21:46:08,423 wh-agent-06/sweep-5442 SlotRebalancer DONE in 3140 ms
+2026-10-21 21:46:16,841 wh-agent-02/sweep-2613 DockCalendarSync START batch=36
+2026-10-21 21:46:18,544 wh-agent-02/sweep-2613 DockCalendarSync DONE in 1703 ms
+2026-10-21 21:46:22,096 lease-mgr  lease=LS-6694429 sku=SKU-34410 qty=2 -> wh-agent-01 OK (25 ms)
+2026-10-21 21:46:22,168 lease-mgr  lease=LS-1227617 sku=SKU-18640 qty=1 -> wh-agent-04 OK (26 ms)
+2026-10-21 21:46:22,280 lease-mgr  lease=LS-6694429 released
+2026-10-21 21:46:22,283 lease-mgr  lease=LS-1227617 released
+2026-10-21 21:47:06,578 lease-mgr  lease=LS-1393028 sku=SKU-49562 qty=2 -> wh-agent-03 OK (47 ms)
+2026-10-21 21:47:06,677 lease-mgr  lease=LS-5957602 sku=SKU-52621 qty=1 -> wh-agent-06 OK (24 ms)
+2026-10-21 21:47:06,850 lease-mgr  lease=LS-1393028 released
+2026-10-21 21:47:06,853 lease-mgr  lease=LS-5957602 released
+2026-10-21 21:47:14,903 lease-mgr  lease=LS-6376175 released
+2026-10-21 21:47:16,847 lease-mgr  lease=LS-6896169 sku=SKU-21184 qty=2 -> wh-agent-01 OK (56 ms)
+2026-10-21 21:47:16,948 lease-mgr  lease=LS-7187693 sku=SKU-11326 qty=1 -> wh-agent-03 OK (15 ms)
+2026-10-21 21:47:17,030 lease-mgr  lease=LS-6896169 released
+2026-10-21 21:47:17,033 lease-mgr  lease=LS-7187693 released
+2026-10-21 21:47:19,362 wh-agent-05/sweep-8614 CarrierManifestPusher START batch=31
+2026-10-21 21:47:20,602 wh-agent-02/sweep-4390 CarrierManifestPusher START batch=8
+2026-10-21 21:47:21,792 wh-agent-02/sweep-4390 CarrierManifestPusher DONE in 1190 ms
+2026-10-21 21:47:22,603 wh-agent-05/sweep-8614 CarrierManifestPusher DONE in 3241 ms
+2026-10-21 21:47:26,431 wh-agent-03/sweep-6880 CycleCountExporter START batch=4
+2026-10-21 21:47:29,291 wh-agent-03/sweep-6880 CycleCountExporter FAILED UncheckedIOException - disk quota exceeded writing /var/spool/export.tmp ; queued_leases=1
+	at com.shop.inventory.worker.CycleCountExporter.run(CycleCountExporter.java:793)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:47:36,586 wh-agent-02/sweep-7537 PalletAssignmentSync START batch=10
+2026-10-21 21:47:39,074 wh-agent-02/sweep-7537 PalletAssignmentSync DONE in 2488 ms
+2026-10-21 21:47:44,916 lease-mgr  lease=LS-8573482 released
+2026-10-21 21:47:50,318 lease-mgr  lease=LS-9798562 released
+2026-10-21 21:48:09,071 lease-mgr  lease=LS-2016871 released
+2026-10-21 21:48:11,871 wh-agent-06/sweep-3462 PalletAssignmentSync START batch=16
+2026-10-21 21:48:15,363 wh-agent-06/sweep-3462 PalletAssignmentSync DONE in 3492 ms
+2026-10-21 21:48:22,536 wh-agent-04/sweep-8631 CarrierManifestPusher START batch=13
+2026-10-21 21:48:22,949 wh-agent-04/sweep-8631 CarrierManifestPusher WARN lag behind schedule by 3s
+2026-10-21 21:48:23,362 wh-agent-04/sweep-8631 CarrierManifestPusher DONE in 826 ms
+2026-10-21 21:48:40,944 wh-agent-05/sweep-4892 SlotRebalancer START batch=42
+2026-10-21 21:48:41,842 wh-agent-05/sweep-4892 SlotRebalancer WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:48:42,741 wh-agent-05/sweep-4892 SlotRebalancer DONE in 1797 ms
+2026-10-21 21:48:57,676 wh-agent-06/sweep-8979 PalletAssignmentSync START batch=58
+2026-10-21 21:48:59,011 wh-agent-06/sweep-8979 PalletAssignmentSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:49:00,346 wh-agent-06/sweep-8979 PalletAssignmentSync DONE in 2670 ms
+2026-10-21 21:49:10,904 wh-agent-03/sweep-4535 CarrierManifestPusher START batch=59
+2026-10-21 21:49:11,887 wh-agent-03/sweep-4535 CarrierManifestPusher DONE in 983 ms
+2026-10-21 21:49:14,593 lease-mgr  lease=LS-6674988 released
+2026-10-21 21:49:21,907 wh-agent-06/sweep-7846 PalletAssignmentSync START batch=29
+2026-10-21 21:49:23,302 wh-agent-06/sweep-7846 PalletAssignmentSync DONE in 1395 ms
+2026-10-21 21:49:29,126 wh-agent-02/sweep-1815 DockCalendarSync START batch=45
+2026-10-21 21:49:30,557 wh-agent-02/sweep-1815 DockCalendarSync DONE in 1431 ms
+2026-10-21 21:49:39,698 wh-agent-02/sweep-8516 CarrierManifestPusher START batch=24
+2026-10-21 21:49:41,369 wh-agent-02/sweep-8516 CarrierManifestPusher WARN slow scan 2137ms
+2026-10-21 21:49:42,072 lease-mgr  lease=LS-9560019 sku=SKU-49182 qty=2 -> wh-agent-06 OK (51 ms)
+2026-10-21 21:49:42,180 lease-mgr  lease=LS-3669131 sku=SKU-30514 qty=1 -> wh-agent-06 OK (15 ms)
+2026-10-21 21:49:42,329 lease-mgr  lease=LS-9560019 released
+2026-10-21 21:49:42,332 lease-mgr  lease=LS-3669131 released
+2026-10-21 21:49:43,040 wh-agent-02/sweep-8516 CarrierManifestPusher DONE in 3342 ms
+2026-10-21 21:49:47,996 lease-mgr  lease=LS-5484841 released
+2026-10-21 21:49:57,128 lease-mgr  lease=LS-8133527 sku=SKU-43903 qty=2 -> wh-agent-03 OK (12 ms)
+2026-10-21 21:49:57,231 lease-mgr  lease=LS-1131573 sku=SKU-42832 qty=1 -> wh-agent-03 OK (48 ms)
+2026-10-21 21:49:57,424 lease-mgr  lease=LS-8133527 released
+2026-10-21 21:49:57,427 lease-mgr  lease=LS-1131573 released
+2026-10-21 21:49:58,228 lease-mgr  lease=LS-5391254 sku=SKU-10358 qty=2 -> wh-agent-06 OK (58 ms)
+2026-10-21 21:49:58,334 lease-mgr  lease=LS-1913563 sku=SKU-34897 qty=1 -> wh-agent-01 OK (22 ms)
+2026-10-21 21:49:58,377 lease-mgr  lease=LS-7186884 released
+2026-10-21 21:49:58,470 lease-mgr  lease=LS-5391254 released
+2026-10-21 21:49:58,473 lease-mgr  lease=LS-1913563 released
+2026-10-21 21:49:59,623 wh-agent-04/sweep-8727 DockCalendarSync START batch=15
+2026-10-21 21:50:00,812 lease-mgr  lease=LS-2785797 released
+2026-10-21 21:50:00,983 wh-agent-04/sweep-8727 DockCalendarSync DONE in 1360 ms
+2026-10-21 21:50:01,199 wh-agent-06/sweep-6946 DockCalendarSync START batch=32
+2026-10-21 21:50:03,883 lease-mgr  lease=LS-6971514 released
+2026-10-21 21:50:04,908 wh-agent-06/sweep-6946 DockCalendarSync DONE in 3709 ms
+2026-10-21 21:50:09,114 lease-mgr  lease=LS-2473593 released
+2026-10-21 21:50:17,041 wh-agent-03/sweep-5389 BackorderReconciler START batch=31
+2026-10-21 21:50:19,211 wh-agent-03/sweep-5389 BackorderReconciler FAILED SQLTransientConnectionException - connection pool exhausted (30/30) ; queued_leases=0
+	at com.shop.inventory.worker.BackorderReconciler.call(BackorderReconciler.java:485)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:50:21,458 lease-mgr  lease=LS-1888904 released
+2026-10-21 21:50:38,623 wh-agent-05/sweep-3486 DockCalendarSync START batch=8
+2026-10-21 21:50:42,064 wh-agent-05/sweep-3486 DockCalendarSync DONE in 3441 ms
+2026-10-21 21:50:52,177 lease-mgr  lease=LS-1407835 sku=SKU-26741 qty=2 -> wh-agent-03 OK (53 ms)
+2026-10-21 21:50:52,243 lease-mgr  lease=LS-9330285 sku=SKU-25928 qty=1 -> wh-agent-03 OK (23 ms)
+2026-10-21 21:50:52,408 lease-mgr  lease=LS-1407835 released
+2026-10-21 21:50:52,411 lease-mgr  lease=LS-9330285 released
+2026-10-21 21:50:53,211 lease-mgr  lease=LS-2357064 sku=SKU-37574 qty=2 -> wh-agent-01 OK (55 ms)
+2026-10-21 21:50:53,308 lease-mgr  lease=LS-3046300 sku=SKU-40783 qty=1 -> wh-agent-03 OK (54 ms)
+2026-10-21 21:50:53,441 lease-mgr  lease=LS-2357064 released
+2026-10-21 21:50:53,444 lease-mgr  lease=LS-3046300 released
+2026-10-21 21:51:01,461 lease-mgr  lease=LS-1515519 released
+2026-10-21 21:51:18,764 wh-agent-03/sweep-6984 DockCalendarSync START batch=60
+2026-10-21 21:51:19,266 wh-agent-03/sweep-6984 DockCalendarSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:51:19,768 wh-agent-03/sweep-6984 DockCalendarSync DONE in 1004 ms
+2026-10-21 21:51:39,626 lease-mgr  lease=LS-1622721 released
+2026-10-21 21:51:43,773 lease-mgr  lease=LS-5129526 released
+2026-10-21 21:51:51,570 wh-agent-01/sweep-9266 SkuCacheWarmer START batch=27
+2026-10-21 21:51:53,416 wh-agent-02/sweep-4433 SlotRebalancer START batch=31
+2026-10-21 21:51:54,163 wh-agent-01/sweep-9266 SkuCacheWarmer FAILED ConnectException - Connection refused: redis-inv-2:6379 ; queued_leases=0
+	at com.shop.inventory.worker.SkuCacheWarmer.dispatch(SkuCacheWarmer.java:438)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:51:54,468 wh-agent-02/sweep-4433 SlotRebalancer DONE in 1052 ms
+2026-10-21 21:51:54,868 wh-agent-06/sweep-7648 PalletAssignmentSync START batch=53
+2026-10-21 21:51:58,177 wh-agent-06/sweep-7648 PalletAssignmentSync DONE in 3309 ms
+2026-10-21 21:52:12,022 lease-mgr  lease=LS-4538241 released
+2026-10-21 21:52:12,729 lease-mgr  lease=LS-7499732 sku=SKU-12435 qty=2 -> wh-agent-06 OK (35 ms)
+2026-10-21 21:52:12,798 lease-mgr  lease=LS-3856278 sku=SKU-28767 qty=1 -> wh-agent-06 OK (24 ms)
+2026-10-21 21:52:12,924 lease-mgr  lease=LS-7499732 released
+2026-10-21 21:52:12,927 lease-mgr  lease=LS-3856278 released
+2026-10-21 21:52:28,913 lease-mgr  lease=LS-7355876 sku=SKU-12260 qty=2 -> wh-agent-01 OK (47 ms)
+2026-10-21 21:52:29,024 lease-mgr  lease=LS-7400339 sku=SKU-22959 qty=1 -> wh-agent-06 OK (35 ms)
+2026-10-21 21:52:29,126 lease-mgr  lease=LS-7355876 released
+2026-10-21 21:52:29,129 lease-mgr  lease=LS-7400339 released
+2026-10-21 21:52:33,052 lease-mgr  lease=LS-4017978 released
+2026-10-21 21:52:35,382 wh-agent-03/sweep-8145 PalletAssignmentSync START batch=18
+2026-10-21 21:52:37,301 wh-agent-03/sweep-8145 PalletAssignmentSync WARN slow scan 2271ms
+2026-10-21 21:52:39,220 wh-agent-03/sweep-8145 PalletAssignmentSync DONE in 3838 ms
+2026-10-21 21:52:52,449 lease-mgr  lease=LS-6194222 sku=SKU-11518 qty=2 -> wh-agent-01 OK (51 ms)
+2026-10-21 21:52:52,522 lease-mgr  lease=LS-7358479 sku=SKU-42266 qty=1 -> wh-agent-04 OK (18 ms)
+2026-10-21 21:52:52,599 lease-mgr  lease=LS-6194222 released
+2026-10-21 21:52:52,602 lease-mgr  lease=LS-7358479 released
+2026-10-21 21:53:04,130 lease-mgr  lease=LS-8471019 sku=SKU-21017 qty=2 -> wh-agent-01 OK (9 ms)
+2026-10-21 21:53:04,237 lease-mgr  lease=LS-4488481 sku=SKU-45975 qty=1 -> wh-agent-06 OK (70 ms)
+2026-10-21 21:53:04,425 lease-mgr  lease=LS-8471019 released
+2026-10-21 21:53:04,428 lease-mgr  lease=LS-4488481 released
+2026-10-21 21:53:08,094 lease-mgr  lease=LS-4191810 sku=SKU-28213 qty=2 -> wh-agent-04 OK (34 ms)
+2026-10-21 21:53:08,191 lease-mgr  lease=LS-4357839 sku=SKU-33475 qty=1 -> wh-agent-04 OK (39 ms)
+2026-10-21 21:53:08,386 lease-mgr  lease=LS-4191810 released
+2026-10-21 21:53:08,389 lease-mgr  lease=LS-4357839 released
+2026-10-21 21:53:25,674 lease-mgr  lease=LS-6823687 sku=SKU-20542 qty=2 -> wh-agent-01 OK (58 ms)
+2026-10-21 21:53:25,779 lease-mgr  lease=LS-7815729 sku=SKU-55163 qty=1 -> wh-agent-01 OK (10 ms)
+2026-10-21 21:53:25,919 lease-mgr  lease=LS-6823687 released
+2026-10-21 21:53:25,922 lease-mgr  lease=LS-7815729 released
+2026-10-21 21:53:30,515 wh-agent-03/sweep-3905 BackorderReconciler START batch=27
+2026-10-21 21:53:33,242 wh-agent-03/sweep-3905 BackorderReconciler FAILED SQLTransientConnectionException - connection pool exhausted (30/30) ; queued_leases=0
+	at com.shop.inventory.worker.BackorderReconciler.process(BackorderReconciler.java:730)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:53:42,876 lease-mgr  lease=LS-7453474 released
+2026-10-21 21:53:43,806 wh-agent-01/sweep-6595 SlotRebalancer START batch=60
+2026-10-21 21:53:46,968 wh-agent-01/sweep-6595 SlotRebalancer DONE in 3162 ms
+2026-10-21 21:54:08,511 lease-mgr  lease=LS-7254435 released
+2026-10-21 21:54:16,046 lease-mgr  lease=LS-9727057 sku=SKU-56516 qty=2 -> wh-agent-01 OK (37 ms)
+2026-10-21 21:54:16,137 lease-mgr  lease=LS-7739063 sku=SKU-24852 qty=1 -> wh-agent-01 OK (32 ms)
+2026-10-21 21:54:16,257 lease-mgr  lease=LS-9727057 released
+2026-10-21 21:54:16,260 lease-mgr  lease=LS-7739063 released
+2026-10-21 21:54:28,943 wh-agent-03/sweep-7937 PalletAssignmentSync START batch=52
+2026-10-21 21:54:30,185 wh-agent-03/sweep-7937 PalletAssignmentSync DONE in 1242 ms
+2026-10-21 21:54:36,429 lease-mgr  lease=LS-7192044 released
+2026-10-21 21:54:48,877 lease-mgr  lease=LS-6291111 sku=SKU-20455 qty=2 -> wh-agent-03 OK (44 ms)
+2026-10-21 21:54:48,962 lease-mgr  lease=LS-1704288 sku=SKU-20660 qty=1 -> wh-agent-01 OK (10 ms)
+2026-10-21 21:54:49,139 lease-mgr  lease=LS-6291111 released
+2026-10-21 21:54:49,142 lease-mgr  lease=LS-1704288 released
+2026-10-21 21:54:50,874 lease-mgr  lease=LS-1667114 released
+2026-10-21 21:54:55,797 lease-mgr  lease=LS-1362008 sku=SKU-37809 qty=2 -> wh-agent-01 OK (54 ms)
+2026-10-21 21:54:55,863 lease-mgr  lease=LS-4078335 sku=SKU-44584 qty=1 -> wh-agent-04 OK (64 ms)
+2026-10-21 21:54:55,995 lease-mgr  lease=LS-1362008 released
+2026-10-21 21:54:55,998 lease-mgr  lease=LS-4078335 released
+2026-10-21 21:54:56,294 lease-mgr  lease=LS-9437303 sku=SKU-14112 qty=2 -> wh-agent-04 OK (51 ms)
+2026-10-21 21:54:56,371 lease-mgr  lease=LS-2133981 sku=SKU-15581 qty=1 -> wh-agent-01 OK (43 ms)
+2026-10-21 21:54:56,543 lease-mgr  lease=LS-9437303 released
+2026-10-21 21:54:56,546 lease-mgr  lease=LS-2133981 released
+2026-10-21 21:54:59,725 lease-mgr  lease=LS-4906224 released
+2026-10-21 21:55:03,498 wh-agent-02/sweep-8643 SlotRebalancer START batch=41
+2026-10-21 21:55:06,510 wh-agent-02/sweep-8643 SlotRebalancer DONE in 3012 ms
+2026-10-21 21:55:17,946 wh-agent-05/sweep-6806 DockCalendarSync START batch=55
+2026-10-21 21:55:20,665 lease-mgr  lease=LS-1942405 released
+2026-10-21 21:55:20,993 wh-agent-05/sweep-6806 DockCalendarSync DONE in 3047 ms
+2026-10-21 21:55:21,398 wh-agent-06/sweep-2257 SkuCacheWarmer START batch=9
+2026-10-21 21:55:22,370 wh-agent-06/sweep-2257 SkuCacheWarmer FAILED ConnectException - Connection refused: redis-inv-2:6379 ; queued_leases=0
+	at com.shop.inventory.worker.SkuCacheWarmer.dispatch(SkuCacheWarmer.java:622)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:55:25,146 lease-mgr  lease=LS-8326101 released
+2026-10-21 21:55:30,476 wh-agent-03/sweep-3299 SlotRebalancer START batch=31
+2026-10-21 21:55:31,523 wh-agent-03/sweep-3299 SlotRebalancer DONE in 1047 ms
+2026-10-21 21:55:50,954 wh-agent-01/sweep-6437 PalletAssignmentSync START batch=17
+2026-10-21 21:55:52,433 wh-agent-01/sweep-6437 PalletAssignmentSync WARN lag behind schedule by 3s
+2026-10-21 21:55:53,912 wh-agent-01/sweep-6437 PalletAssignmentSync DONE in 2958 ms
+2026-10-21 21:56:02,040 lease-mgr  lease=LS-4045425 sku=SKU-13331 qty=2 -> wh-agent-04 OK (60 ms)
+2026-10-21 21:56:02,100 lease-mgr  lease=LS-7938236 sku=SKU-45874 qty=1 -> wh-agent-06 OK (45 ms)
+2026-10-21 21:56:02,318 lease-mgr  lease=LS-4045425 released
+2026-10-21 21:56:02,321 lease-mgr  lease=LS-7938236 released
+2026-10-21 21:56:16,282 wh-agent-02/sweep-9822 CarrierManifestPusher START batch=22
+2026-10-21 21:56:18,498 wh-agent-02/sweep-9822 CarrierManifestPusher DONE in 2216 ms
+2026-10-21 21:56:35,003 lease-mgr  lease=LS-4049146 sku=SKU-16426 qty=2 -> wh-agent-06 OK (44 ms)
+2026-10-21 21:56:35,071 lease-mgr  lease=LS-7083499 sku=SKU-22310 qty=1 -> wh-agent-03 OK (37 ms)
+2026-10-21 21:56:35,270 lease-mgr  lease=LS-4049146 released
+2026-10-21 21:56:35,273 lease-mgr  lease=LS-7083499 released
+2026-10-21 21:56:46,972 wh-agent-03/sweep-2896 CycleCountExporter START batch=7
+2026-10-21 21:56:48,951 wh-agent-03/sweep-2896 CycleCountExporter FAILED UncheckedIOException - disk quota exceeded writing /var/spool/export.tmp ; queued_leases=0
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:284)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-21 21:57:03,252 wh-agent-01/sweep-8341 DockCalendarSync START batch=28
+2026-10-21 21:57:06,370 wh-agent-01/sweep-8341 DockCalendarSync DONE in 3118 ms
+2026-10-21 21:57:39,818 wh-agent-05/sweep-8459 DockCalendarSync START batch=50
+2026-10-21 21:57:40,345 wh-agent-05/sweep-8459 DockCalendarSync DONE in 527 ms
+2026-10-21 21:57:49,195 wh-agent-04/sweep-6207 SlotRebalancer START batch=8
+2026-10-21 21:57:49,896 wh-agent-04/sweep-6207 SlotRebalancer DONE in 701 ms
+2026-10-21 21:57:52,976 wh-agent-03/sweep-7084 DockCalendarSync START batch=12
+2026-10-21 21:57:53,850 wh-agent-03/sweep-7084 DockCalendarSync WARN retrying after transient error (attempt 2/5)
+2026-10-21 21:57:54,725 wh-agent-03/sweep-7084 DockCalendarSync DONE in 1749 ms
+2026-10-21 21:58:12,155 lease-mgr  lease=LS-9235627 released
+2026-10-21 21:58:12,788 wh-agent-04/sweep-4002 SlotRebalancer START batch=49
+2026-10-21 21:58:14,338 wh-agent-04/sweep-4002 SlotRebalancer WARN lag behind schedule by 5s
+2026-10-21 21:58:15,889 wh-agent-04/sweep-4002 SlotRebalancer DONE in 3101 ms
+2026-10-21 21:58:29,274 lease-mgr  lease=LS-8241108 released
+2026-10-21 21:58:34,257 wh-agent-04/sweep-6100 CarrierManifestPusher START batch=35
+2026-10-21 21:58:35,101 wh-agent-04/sweep-6100 CarrierManifestPusher DONE in 844 ms
+2026-10-21 21:58:36,410 lease-mgr  lease=LS-3118031 sku=SKU-50099 qty=2 -> wh-agent-01 OK (54 ms)
+2026-10-21 21:58:36,495 lease-mgr  lease=LS-8801069 sku=SKU-17345 qty=1 -> wh-agent-06 OK (41 ms)
+2026-10-21 21:58:36,687 lease-mgr  lease=LS-3118031 released
+2026-10-21 21:58:36,690 lease-mgr  lease=LS-8801069 released
+2026-10-21 21:58:41,910 lease-mgr  lease=LS-4114232 sku=SKU-55047 qty=2 -> wh-agent-06 OK (49 ms)
+2026-10-21 21:58:41,984 lease-mgr  lease=LS-2499390 sku=SKU-32086 qty=1 -> wh-agent-01 OK (48 ms)
+2026-10-21 21:58:42,134 lease-mgr  lease=LS-4114232 released
+2026-10-21 21:58:42,137 lease-mgr  lease=LS-2499390 released
+2026-10-21 21:58:43,736 lease-mgr  lease=LS-3183571 released
+2026-10-21 21:59:18,718 wh-agent-02/sweep-8693 CarrierManifestPusher START batch=47
+2026-10-21 21:59:19,668 wh-agent-06/sweep-3001 CarrierManifestPusher START batch=51
+2026-10-21 21:59:21,275 wh-agent-02/sweep-8693 CarrierManifestPusher DONE in 2557 ms
+2026-10-21 21:59:21,953 wh-agent-06/sweep-3001 CarrierManifestPusher DONE in 2285 ms
+2026-10-21 21:59:30,475 lease-mgr  lease=LS-4930756 sku=SKU-52178 qty=2 -> wh-agent-04 OK (50 ms)
+2026-10-21 21:59:30,582 lease-mgr  lease=LS-5291817 sku=SKU-15538 qty=1 -> wh-agent-03 OK (58 ms)
+2026-10-21 21:59:30,704 lease-mgr  lease=LS-4930756 released
+2026-10-21 21:59:30,707 lease-mgr  lease=LS-5291817 released
+2026-10-21 21:59:43,184 wh-agent-03/sweep-1791 PalletAssignmentSync START batch=11
+2026-10-21 21:59:46,022 lease-mgr  lease=LS-6988630 sku=SKU-27121 qty=2 -> wh-agent-03 OK (37 ms)
+2026-10-21 21:59:46,142 lease-mgr  lease=LS-3853154 sku=SKU-37825 qty=1 -> wh-agent-06 OK (43 ms)
+2026-10-21 21:59:46,325 lease-mgr  lease=LS-6988630 released
+2026-10-21 21:59:46,328 lease-mgr  lease=LS-3853154 released
+2026-10-21 21:59:46,871 wh-agent-04/sweep-3406 SlotRebalancer START batch=53
+2026-10-21 21:59:46,952 wh-agent-03/sweep-1791 PalletAssignmentSync DONE in 3768 ms
+2026-10-21 21:59:49,600 wh-agent-04/sweep-3406 SlotRebalancer DONE in 2729 ms
+2026-10-21 21:59:51,685 lease-mgr  lease=LS-6407378 sku=SKU-40665 qty=2 -> wh-agent-06 OK (43 ms)
+2026-10-21 21:59:51,775 lease-mgr  lease=LS-6327054 sku=SKU-18779 qty=1 -> wh-agent-01 OK (17 ms)
+2026-10-21 21:59:51,851 lease-mgr  lease=LS-6407378 released
+2026-10-21 21:59:51,854 lease-mgr  lease=LS-6327054 released

@@ -1,0 +1,2003 @@
+date,description,category,amount
+2022-11-05,Cafe Zoe,entertainment,29.87
+2022-05-24,Pharmacy,food,51.41
+2024-03-23,"Lunch, downtown",insurance,64.43
+2023-01-06,Gas station,Utilities,16.7
+2024-05-25,"Gift, birthday",FUEL,19.76
+2022-01-01,Parking,Dining Out,8.79
+2022-06-08,Streaming,UTILITIES,9.50
+2023-07-07,Parking,entertainment,48.15
+2023-12-12,Coffee,subscriptions,39.48
+2024-10-13,Weekly shop,food,17.43
+  2024-02-19	,Pharmacy,food ,	14.88	
+2022-09-15,"Dinner, 4 people",Subscriptions,57.80
+2024-03-26,Cafe Zoe,groceries,21.95
+2022-07-29,Coffee,travel,10.69
+2024-08-29,Gas station,food,131.31
+2024-09-07,Electric bill,travel,91.37
+2022-07-06,"Book ""Dune""",TRAVEL,19.71
+2023-02-04,Pharmacy,Education,10.25
+2023-06-15,Movie night,ENTERTAINMENT,6.43
+2023-04-10,Parking,food,229.28
+2022-06-23,Gas station,Dining Out,61.69
+2024-03-21,Online order,GROCERIES,43.14
+2022-10-27,,GIFTS,41.07
+2022-07-30,"Dinner, 4 people",health,10.09
+2022-05-05,Monthly plan,Dining Out,82.96
+2024-11-11,Coffee,Dining Out,62.27
+2022-05-07,"Gift, birthday",entertainment,23.7
+2022-07-20,"Dinner, 4 people",fuel,34.03
+2023-05-23,"Dinner, 4 people",DINING OUT,10.63
+2024-06-24,"Gift, birthday",food,3.35
+2023-03-26,Gas station,groceries,9.76
+2024-01-20,Coffee,groceries,47.75
+2023-04-14,Gas station,food,63.48
+2023-06-14,Cafe Zoe,FOOD,40.61
+2022-05-29,"Book ""Dune""",Subscriptions,47.69
+2023-11-26,Streaming,RENT,33.72
+2023-01-06,Movie night,Subscriptions,28.99
+2023-05-28,"Lunch, downtown",Food,30.20
+2024-06-04,Parking,TRAVEL,86.97
+2022-10-14,Cafe Zoe,CHARITY,162.59
+2024-11-02,"Taxi, airport",Utilities,19.15
+2023-03-23,Monthly plan,food,10.07
+2022-07-03,Bus pass,groceries,8.35
+2024-03-08,"Gift, birthday",health,10.26
+2024-05-29,"Dinner, 4 people",food,28.37
+2023-04-16,Weekly shop,food,20.76
+2023-05-16,Parking,groceries,32.30
+2023-02-25,Pharmacy,HEALTH,26.66
+2023-02-11,Weekly shop,utilities,63.21
+2022-07-23,Movie night,entertainment,28.58
+2022-06-25,Parking,food,24.08
+2022-10-18,"Dinner, 4 people",groceries,43.87
+2024-09-22,Cafe Zoe,food,26.41
+2023-11-10,Coffee,groceries,1.48
+2022-05-14,Cafe Zoe,GROCERIES,18.23
+2024-06-12,"Dinner, 4 people",Groceries,-63.74
+2023-02-21,Weekly shop,Food,19.28
+2022-09-18,Electric bill,fuel,7.17
+2024-03-18,Gas station,food,26.93
+2023-01-30,Pharmacy,food,10.78
+2024-04-25,Cafe Zoe,rent,19.7
+2024-10-27,"Dinner, 4 people",UTILITIES,13.89
+2022-02-14,Bus pass,Food,98.37
+2024-12-17,Online order,insurance,12.26
+2024-07-25,Weekly shop,travel,50.96
+2023-05-31,"Dinner, 4 people",Utilities,29.97
+,"Gift, birthday",GIFTS,10.66
+2023-09-22,"Lunch, downtown",food,45.42
+2022-03-11,"Gift, birthday",health,2.7
+2023-02-02,Pharmacy,fuel,46.7
+2022-10-27,Cafe Zoe,food,35.94
+2023-10-06,Gas station,CHARITY,18.92
+2024-02-15,Monthly plan,charity,7.84
+2023-09-25,Refund,Food,8.68
+2024-04-21,Pharmacy,Education,5.2
+2022-03-31,"Book ""Dune""",Health,76.38
+2022-05-14,Coffee,gifts,54.17
+2022-09-29,Parking,FOOD,272.67
+2024-01-12,,food,48.24
+2024-05-23,Gas station,charity,26.86
+2023-04-27,Streaming,Gifts,11.97
+2023-05-18,Pharmacy,FOOD,33.09
+2022-07-25,Online order,charity,21.34
+2022-09-02,"Lunch, downtown",FOOD,209.33
+2022-01-13,Gas station,Utilities,20.74
+2023-02-21,Coffee,education,15.17
+2024-04-15,Gas station,Clothing,7.6
+  2023-09-22 ,Refund,	subscriptions  , 32.37
+2022-08-21,Weekly shop,RENT,-25.02
+2022-07-02,Donation,utilities,27.35
+2024-10-01,Movie night,GROCERIES,12.04
+2022-11-25,Pharmacy,Utilities,10.08
+2024-01-06,Gas station,FOOD,53.02
+2023-10-26,Gas station,groceries,39.23
+2023-01-02,Coffee,FOOD,24.34
+2024-03-30,Gas station,food,8.42
+2023-10-05,"Dinner, 4 people",Food,190.7
+2022-08-13,Movie night,FOOD,3.95
+2023-12-20,,clothing,69.28
+2023-03-03,Donation,groceries,19.64
+2024-02-11,Electric bill,clothing,22.91
+2024-03-18,Monthly plan,GROCERIES,33.36
+2022-04-09,"Taxi, airport",education,42.01
+2024-06-04,Refund,TRAVEL,11.97
+2022-08-06,"Dinner, 4 people",groceries,38.43
+2023-05-14,Bus pass,fuel,4.38
+2023-12-19,,entertainment,5.1
+2022-01-26,,TRAVEL,12.59
+2022-12-24,"Dinner, 4 people",groceries,-149.26
+2024-07-15,Electric bill,food,8.78
+2024-06-12,"Dinner, 4 people",insurance,6.39
+2022-11-23,"Gift, birthday",food,35.86
+2024-08-19,Parking,Gifts,80.62
+2022-06-09,Donation,dining out,83.36
+2022-03-29,Weekly shop,health,34.59
+2024-02-26,Gas station,groceries,41.84
+2023-11-21,Refund,groceries,86.53
+2022-03-05,Refund,travel,25.63
+2023-08-12,Electric bill,fuel,6.32
+2023-01-13,Parking,UTILITIES,28.83
+2022-12-06,Gas station,Subscriptions,4.15
+2024-03-19,Weekly shop,Rent,19.78
+2023-04-24,Online order," Food ","-61.71"
+2024-07-11,Streaming,health,17.05
+2023-05-03,"Dinner, 4 people",food,251.98
+2024-12-05,Monthly plan,food,41.96
+2023-09-11,"Taxi, airport"," fuel ","35.34"
+2024-06-13,Pharmacy,Fuel,25.19
+2024-05-30,Donation,Utilities,161.94
+2023-04-14,Electric bill,entertainment,11.43
+2022-11-17,"Book ""Dune""",gifts,29.73
+2022-03-20
+2024-11-14,Coffee,UTILITIES,28.87
+2022-09-08,,groceries,-14.22
+2023-12-23,Donation,groceries,28.77
+2022-05-22,Movie night,Fuel,13.49
+2022-09-14,Parking,GROCERIES,14.3
+2023-05-17,"Taxi, airport",utilities,12.345
+2022-04-27,Weekly shop,GIFTS,47.79
+2022-05-28,"Taxi, airport",groceries,12.18
+2024-12-30,Electric bill,Utilities,124.72
+2022-06-11,Online order,entertainment,8.78
+2022-10-23,Parking,groceries,51.61
+2023-08-31,Online order,groceries,-51.73
+2023-11-08,Gas station,travel,73.61
+2024-12-12,Streaming,clothing,22.36
+2024-04-06,"Gift, birthday",fuel,42.12
+2023-09-05,Bus pass,Utilities,29.42
+2022-05-04,"Dinner, 4 people",Dining Out,46.36
+2024-07-26,Electric bill,food,213.43
+2023-06-13,"Taxi, airport",food,128.82
+2024-05-12,Donation,entertainment,37.47
+2022-11-07,Coffee,rent,59.53
+2024-07-12,Electric bill,subscriptions,108.84
+2024-10-17,Online order,ENTERTAINMENT,221.09
+2024-09-23,,food,34.09
+2022-12-02,Refund,Fuel,24.25
+2023-11-12,,health,13.31
+2022-01-04,"Gift, birthday",groceries,60.81
+2022-10-29,"Book ""Dune""",Insurance,39.18
+2024-02-21,Movie night,Clothing,89.85
+2022-01-20,Cafe Zoe,fuel,272.71
+2024-12-04,"Gift, birthday",Fuel,14.00
+2024-04-04,"Dinner, 4 people",dining out,113.38
+2023-10-09,,food,33.21
+2023-03-14,"Book ""Dune""",subscriptions,7.77
+2023-11-25,Movie night,charity,12.68
+2024-03-24,Gas station,entertainment,18.07
+2022-11-24,Monthly plan,INSURANCE,14.20
+2024-11-17,Parking,food,41.79
+2023-06-11,Cafe Zoe,food,12.85
+2023-02-04,"Lunch, downtown",FOOD,4.05
+2024-02-28,Coffee,utilities,5.73
+2022-04-27,Electric bill,Health,13.71
+2022-12-10,"Book ""Dune""",fuel,209.13
+2023-02-17,Monthly plan,fuel,15.05
+2023-08-25,Bus pass,insurance,60.28
+2023-01-16,Monthly plan,FUEL,8.78
+2023-02-07,,food,39.21
+2023-01-29,Donation,groceries,53.86
+2023-08-01,Parking,food,45.62
+2022-03-17,Electric bill,  Entertainment ,  70.39  
+2023-08-21,Gas station,subscriptions,28.46
+2023-01-09,Electric bill,food,40.55
+2023-01-02,"Lunch, downtown",groceries,50.29
+2023-04-11,Pharmacy,Food,44.97
+2024-12-12,"Lunch, downtown",GROCERIES,55.59
+2023-10-19,Cafe Zoe," gifts ","55"
+2024-01-17,Gas station,travel,-21.49
+2024-07-18,"Lunch, downtown",EDUCATION,37.74
+2022-07-25,"Book ""Dune""",food,9.8
+2023-07-04,Weekly shop,fuel,13.61
+2023-05-14,Weekly shop,health,20.95
+2023-09-14,,FUEL,8.10
+2023-12-24,Electric bill,dining out,32.82
+2022-11-21,Streaming,FOOD,24.29
+2023-04-07,Bus pass,Rent,12.5
+2024-08-31,"Book ""Dune""",Clothing,81.48
+2023-07-27,,utilities,23.31
+2024-02-27,"Gift, birthday",Food,105.27
+2024-02-12,Donation,GROCERIES,34.63
+2022-02-22,"Lunch, downtown",GROCERIES,12.92
+2024-05-30,Cafe Zoe,fuel,-47.12
+2024-10-22,Cafe Zoe,ENTERTAINMENT,13.05
+2023-12-05,"Dinner, 4 people",health,18.69
+2023-08-27,"Gift, birthday",EDUCATION,85.61
+2023-01-21,Refund,Food,35.64
+2022-01-06,"Taxi, airport",Health,88.9
+2023-06-29,Streaming,travel,7.39
+2022-06-05,Electric bill,subscriptions,24.58
+2022-10-22,Pharmacy,groceries,17.38
+2024-02-29,Coffee,FOOD,907.99
+2022-12-22,"Gift, birthday",FOOD,23.77
+2024-03-09,Donation,food,94.51
+2023-01-18,Coffee,insurance,30.54
+2022-09-10,Refund,gifts,15.78
+2023-12-01,Bus pass,groceries,8.63
+2023-05-07,Electric bill,groceries,17.47
+2024-07-16,Bus pass,SUBSCRIPTIONS,36.38
+2022-09-15,Gas station,entertainment,266.64
+2022-01-31,Cafe Zoe,Health,50.22
+2024-10-21,"Taxi, airport",Food,10.03
+2024-08-09,Bus pass,subscriptions,8.66
+2024-08-05,Pharmacy,charity,16.59
+2022-11-28,Refund,food,21.91
+2024-10-16,"Dinner, 4 people",groceries,-44.06
+2022-03-29,Donation,utilities,16.55
+2022-06-26,Refund,entertainment,323.72
+2023-11-28,"Dinner, 4 people",HEALTH,40.51
+2022-09-19,Parking,clothing,162.44
+2023-06-18,Pharmacy,subscriptions,20.31
+2024-09-15,Pharmacy,entertainment,39.60
+2023-05-09,"Gift, birthday",utilities,3
+2024-04-11,Movie night,food,20.05
+2024-07-06,Gas station,food,32.04
+2024-09-21,Weekly shop," health ","47.34"
+2023-10-22,Coffee,groceries,10.48
+2022-02-26,Coffee,CLOTHING,17.65
+2023-09-28,,groceries,61.61
+2023-05-06,"Lunch, downtown",Food,91.84
+2024-10-20,Electric bill,Charity,34.91
+2022-03-23,Online order,fuel,21.62
+2022-05-28,"Lunch, downtown",travel,16.55
+2023-08-29,Coffee,Fuel,19.61
+2022-11-13,Cafe Zoe,Subscriptions,58.81
+2022-10-08,"Taxi, airport",dining out,122.80
+2024-02-01,Streaming,utilities,30.51
+2022-08-18,Pharmacy,dining out,6.16
+2022-08-20,"Dinner, 4 people",Dining Out,177.97
+2022-08-23,"Dinner, 4 people",FOOD,21.67
+2022-04-28,Cafe Zoe,groceries,13.42
+2023-02-17,Donation,Food,18.28
+2023-06-08,Gas station,groceries,28.96
+2023-11-02,,FOOD,40.57
+2022-08-21,Coffee,fuel,16.64
+2023-05-28,Streaming,Charity,-13.27
+2022-03-06,"Lunch, downtown",Food,50.42
+2023-04-15,,travel,29.08
+2024-08-15,"Gift, birthday",utilities,-33.24
+2022-10-26,Bus pass,groceries,27.11
+  2022-03-11 ,Streaming, dining out,  11.03	
+2023-05-18,Monthly plan,Dining Out,10.37
+2023-05-14,Pharmacy,charity,44.44
+2022-10-22,"Taxi, airport",health,38.92
+2023-01-02,"Taxi, airport",UTILITIES,9.13
+2022-12-25,"Book ""Dune""",dining out,88.86
+2023-08-02,"Dinner, 4 people",entertainment,32.72
+2023-01-21,"Book ""Dune""",TRAVEL,609.23
+2024-04-10,,entertainment,7.41
+2024-03-29,"Book ""Dune""",SUBSCRIPTIONS,8.23
+2023-11-06,Electric bill,food,20.37
+2023-11-09,Pharmacy,health,125.51
+2024-07-17,Streaming," groceries ","5.43"
+  2023-04-13 ,Cafe Zoe, clothing ,5.96	
+2024-10-18,Movie night,utilities,70.45
+2022-05-15,Cafe Zoe,entertainment,12.83
+2022-03-04,"Book ""Dune""",Food,13.65
+2024-10-18,Movie night,Insurance,15.07
+2022-07-01,"Gift, birthday",FOOD,14.42
+2023-03-06,Monthly plan,Food,22.53
+2022-11-08,Coffee,food,27.3
+2024-03-23,"Gift, birthday",insurance,3.03
+2024-05-31,Gas station,health,-148.57
+2024-10-22,Gas station,TRAVEL,78.1
+2023-11-09,Refund,INSURANCE,50.49
+2024-02-29,Refund,EDUCATION,36.75
+2023-05-09,Movie night,entertainment,33.59
+2024-06-25,Streaming,entertainment,34.92
+2024-02-18,Pharmacy,Gifts,72.45
+2023-10-22,Weekly shop,utilities,7.96
+2024-12-05,Donation,fuel,30.07
+2024-07-31,Electric bill,ENTERTAINMENT,7.64
+2023-05-31,Cafe Zoe,food,80.37
+	2022-08-17 ,Online order,  Utilities	,	-8.52	
+2023-06-16,"Lunch, downtown",utilities,68.18
+2024-10-07,Weekly shop,food,100.71
+2023-08-28,Refund,Fuel,15.67
+2024-02-02,Weekly shop," entertainment ","17.52"
+2024-08-05,Online order,entertainment,7.85
+2023-02-15,Cafe Zoe,TRAVEL,15.99
+2022-02-01,Gas station,FUEL,11.09
+2024-05-05,Donation,food,18.53
+2022-06-27,"Gift, birthday",Groceries,15.32
+2024-02-18,Refund,dining out,29.99
+2023-12-01,Movie night,Fuel,-76.59
+2022-03-14,"Book ""Dune""",food,14.15
+2023-02-22,Movie night,food,34.85
+2022-12-03,Parking,Food,233.63
+2024-11-23,Gas station,fuel,51.13
+2022-11-24,Online order,groceries,33.33
+2023-03-16,Bus pass,Subscriptions,19.09
+2022-11-01,Electric bill,Fuel,28.89
+2022-07-10,Movie night,FUEL,39.06
+2023-04-11,Donation,subscriptions,35.96
+2023-01-02,Gas station,clothing,5.07
+2024-08-02,"Lunch, downtown",food,3.83
+2022-12-02,Monthly plan,FOOD,4.34
+2023-05-04,Gas station,food,30.09
+2023-02-09,"Taxi, airport",rent,11.68
+2022-04-20,Parking,Clothing,3.91
+ 2024-05-18,Cafe Zoe, utilities,  31.06
+2022-12-24,"Taxi, airport",GROCERIES,-11.84
+2022-06-30,Pharmacy,food,48.52
+2022-01-06,Parking,food,19.82
+2024-01-19,Refund,Food,19.90
+2023-09-13,"Lunch, downtown",HEALTH,96.11
+2023-09-05,Donation,TRAVEL,52.42
+2023-04-30,Parking,UTILITIES,43.11
+2022-06-28,Pharmacy,ENTERTAINMENT,13.74
+2022-02-03,Gas station,dining out,21.79
+2024-08-12,,food,83.74
+2024-02-09,Electric bill,groceries,13.20
+2023-09-24,Parking,GROCERIES,96.33
+2023-05-19,Online order,EDUCATION
+2022-10-04,"Book ""Dune""",entertainment,39.75
+2024-02-09,"Dinner, 4 people",education,45.76
+2022-09-01,Streaming,groceries,27.8
+2022-01-15,"Book ""Dune""",Food,31.12
+2023-05-11,"Taxi, airport",clothing,31.17
+2024-01-08,"Book ""Dune""",GROCERIES,26.90
+2022-05-07,Electric bill,groceries,56.98
+2023-10-20,Online order,Groceries,19.13
+2024-07-11,"Dinner, 4 people",Gifts,54.46
+2024-04-23,Weekly shop,groceries,124.18
+2022-03-26,Streaming,Gifts,15.93
+2024-04-25,Gas station,subscriptions,3.65
+2023-12-01,Cafe Zoe,GROCERIES,19.75
+2023-08-15,Bus pass,Food,12.18
+2022-09-29,Bus pass,FOOD,16.24
+2024-02-20,"Taxi, airport",Food,66.8
+2023-07-14,,food,12.17
+2022-02-29,"Dinner, 4 people",FOOD,-39.76
+2023-04-05,"Taxi, airport",utilities,13.85
+2022-03-04,Pharmacy,clothing,27.49
+2024-03-30,Cafe Zoe,Travel,88.25
+2024-07-18,,fuel,11.12
+2024-06-17,Movie night,Clothing,48.76
+2022-02-16,,health,255.54
+2023-10-09,Monthly plan,groceries,11.42
+2022-08-07,Bus pass,GROCERIES,26.41
+2022-08-11,"Dinner, 4 people"," travel ","-13.91"
+2024-11-28,Refund,Clothing,23.90
+2022-06-26,Online order,clothing,115.68
+2023-02-26,Coffee,GROCERIES,21.65
+2024-06-19,Weekly shop,Travel,57.20
+2024-08-19,Parking,utilities,26.96
+2023-05-12,Gas station,CHARITY
+2024-04-27,"Book ""Dune""",food,11.77
+2024-12-19,Electric bill,utilities,40.02
+2022-06-25,"Dinner, 4 people",Travel,80.03
+2022-01-16,Streaming,health,24.97
+2022-06-26,Streaming,Travel,10.70
+2023-09-26,"Taxi, airport",Food,3.14
+2023-03-08,Weekly shop,SUBSCRIPTIONS,214.47
+2024-06-23,"Book ""Dune""",entertainment,16.03
+2024-08-27,""," GIFTS ","49.26"
+2024-01-01,"Gift, birthday",Food,13.71
+2024-05-20,"Gift, birthday",groceries,31.54
+2022-07-03,Movie night,Food,23.72
+2023-08-06,Cafe Zoe,groceries,13.82
+2022-05-20,Cafe Zoe,groceries,20.55
+2023-07-15,Online order,food,15.31
+2024-08-01,"Gift, birthday",groceries,11.11
+2022-01-21,Movie night,food,113.52
+2022-04-28,Cafe Zoe,groceries,31.59
+2023-12-29,Monthly plan,travel,11.55
+2022-12-06,"Taxi, airport",CLOTHING,60.22
+2024-02-12,Monthly plan,groceries,24.05
+2024-09-09,Electric bill,dining out,13.17
+2024-09-18,Movie night,TRAVEL,28.67
+2023-06-28,Online order,subscriptions,41.62
+2024-01-10,Weekly shop,FOOD,-26.08
+2024-08-21,"Lunch, downtown",travel,26.99
+2022-03-27,Monthly plan,Entertainment,20.95
+2023-01-28,"Taxi, airport"," Health ","95.64"
+2024-09-04,Monthly plan,TRAVEL,5.14
+2024-07-24,"Book ""Dune""",FOOD,16.19
+2022-11-28,Pharmacy,gifts,34.76
+2023-05-08,Streaming,FOOD,13.49
+2023-04-25,Refund,Food,23.61
+2023-07-05,Refund,food,45.93
+2024-11-16,Donation,food,52.23
+2022-06-05,Donation,Dining Out,4.59
+2022-05-31,"Lunch, downtown",utilities,-118.31
+2023-01-05,Online order,Subscriptions,12.12
+2023-04-22,Monthly plan,health,90.19
+2022-03-15,"Dinner, 4 people",food,23.39
+2024-06-14,"Gift, birthday",food,10.77
+2023-05-25,Donation,insurance,52.09
+2022-04-04,Movie night,Dining Out,-19.24
+2023-05-25,Coffee,food,10.21
+2023-06-14,"Gift, birthday",food,54.68
+2024-10-04,Bus pass,FOOD,30.24
+2023-04-15,"Taxi, airport",CLOTHING,5.04
+2023-04-19,,Food,30.85
+2023-05-09,"Book ""Dune""",fuel,19.96
+2024-07-19,,food,6.69
+2023-09-27,Cafe Zoe,Groceries,27.87
+2022-09-02,"Dinner, 4 people",HEALTH,49.83
+2024-06-14,Parking,FOOD,28.28
+2024-12-31,Online order,Clothing,19.39
+2022-09-22,Weekly shop,Fuel,18.75
+2024-03-17,Gas station,Health,50.48
+2024-04-12,Electric bill,groceries,164.44
+2022-07-07,"Book ""Dune""",SUBSCRIPTIONS,50.19
+2024-03-16,Movie night,health,18.77
+2023-10-20,"Gift, birthday",Food,19.40
+2022-01-22,"Book ""Dune""",UTILITIES,85.82
+2024-02-07,,groceries,11.41
+2023-05-16,"Lunch, downtown",Charity,280.92
+2022-10-01,Pharmacy,travel,62.80
+2022-04-09,Streaming,INSURANCE,24.65
+2022-05-12,Gas station,FOOD,15.19
+2023-09-30,Parking,subscriptions,234.18
+2023-12-23,Donation,Subscriptions,-7.12
+2024-01-14,Gas station,Entertainment,-23.26
+2023-08-19,"Dinner, 4 people",clothing,4.19
+ 2024-06-06  ,Electric bill,Groceries ,	68.27 
+2022-08-20,Donation,GROCERIES,28.23
+2023-03-14,Bus pass,food,61.12
+2022-01-12,"Gift, birthday",dining out,77.58
+2023-02-18,Donation,health,23.12
+2024-09-27,Coffee,fuel,38.67
+2023-05-18,Movie night,FOOD,17.52
+2023-10-09,Gas station,fuel,25.47
+2023-02-10,Parking,utilities,20.97
+2022-11-08,Online order,Dining Out,49.75
+2023-09-03,Electric bill,Travel,10.38
+2023-11-28,Electric bill,travel,14.64
+2024-09-09,Online order,fuel,76.91
+2023-11-13,"Book ""Dune""",Groceries,52.64
+2022-01-25,"Book ""Dune""",dining out,23.56
+2022-10-15,Bus pass,groceries,23.95
+2022-07-03,Bus pass,fuel,21.84
+2022-03-20,Weekly shop," food ","34.86"
+2023-02-10,Monthly plan,FOOD,16.32
+2022-12-25,Electric bill,food,10.25
+2024-06-19,Streaming,Clothing,13.46
+2022-04-09,Streaming,travel,39.77
+2022-01-12,Monthly plan,Rent,42.15
+2022-11-27,"Gift, birthday",dining out,-56.30
+2023-06-22,,Groceries,140.73
+2022-04-06,Bus pass,rent,22.01
+2022-10-01,Gas station,GROCERIES,37.43
+2024-01-25,Gas station,FOOD,18.76
+2024-10-22,"Dinner, 4 people",Rent,242.65
+2024-08-26,Gas station,FOOD,57.84
+2023-12-22,Cafe Zoe,dining out,-27.65
+2023-03-18,Online order,UTILITIES,9.82
+2022-09-03,Electric bill,gifts,14.29
+2022-05-10,Cafe Zoe,TRAVEL,24.35
+2023-04-21,Online order,fuel,13.41
+2022-10-08,Parking,FUEL,30.58
+2022-07-15,Monthly plan,groceries,135.31
+2022-02-28,"Gift, birthday",food,9.98
+2023-02-10,Streaming,Subscriptions,13.63
+2022-05-12,Refund,Food,9.72
+2022-07-26,Movie night,Entertainment,-12.89
+2023-01-06,Coffee,UTILITIES,66.55
+2023-10-25,Cafe Zoe,Rent,48.37
+2022-04-22,Refund,Utilities,3.24
+2022-10-18,Electric bill,food,58.13
+2024-04-25,Online order,travel,7.29
+2023-05-10,Weekly shop,Gifts,21.51
+2024-10-27,Pharmacy,Subscriptions,9.27
+2024-11-14,Online order,groceries,16.54
+2022-04-04,Parking,FOOD,36.63
+2022-07-29,"Dinner, 4 people",Health,27.71
+2024-08-14,Coffee,Entertainment,8.53
+2023-11-08,Pharmacy,food,13.23
+2022-07-23,Parking,travel,4.37
+2022-02-21,Electric bill,UTILITIES,48.51
+2023-12-14,Electric bill,entertainment,44.85
+2024-06-01,Pharmacy,utilities,9.33
+2023-09-19,Donation,GROCERIES,31.2
+2024-11-11,Streaming,utilities,12.57
+2024-12-25,"Taxi, airport",Groceries,133.71
+2024-02-08,Streaming,groceries,195.01
+2024-01-04,"Taxi, airport",fuel,13.56
+2023-06-08,Monthly plan,entertainment,-8.34
+2023-09-18,Pharmacy,groceries,113.62
+2022-03-30,Bus pass,DINING OUT,83.49
+2022-11-20,Monthly plan,GROCERIES,67.03
+2024-02-07,"Dinner, 4 people",FOOD,22.82
+2024-02-16,Coffee,health,-19.07
+2023-04-20,"Taxi, airport",Food,59.64
+2023-10-29,"Dinner, 4 people",Entertainment,27.64
+2023-04-13,Gas station,groceries,42.82
+2023-09-15,"Book ""Dune""",Fuel,25.63
+2024-08-19,Streaming,subscriptions,157.76
+2022-01-05,Weekly shop,food,18.24
+2022-12-13,Gas station,travel,5.56
+2023-07-16,"Taxi, airport",Clothing,290.65
+2022-08-22,"Gift, birthday",food,-65.26
+2024-01-09,Cafe Zoe,groceries,41.26
+2023-10-19,Cafe Zoe,entertainment,25.55
+2024-10-24,Bus pass,Entertainment,218.80
+2022-08-16,Bus pass,groceries,155.01
+2024-10-07,Online order,travel,3.99
+2022-05-24,Electric bill,DINING OUT,16.31
+2023-10-06,"Gift, birthday",utilities,-2.42
+2023-07-25,"Taxi, airport",SUBSCRIPTIONS,16.40
+2023-04-12,"Taxi, airport",FOOD,34.15
+2024-07-22,Movie night,subscriptions,27.68
+2024-01-25,Online order,travel,19.87
+2024-12-10,Bus pass,rent,9.92
+2023-08-01,Cafe Zoe,UTILITIES,5.24
+2022-09-14,Electric bill,GROCERIES,124.76
+2023-01-23,Gas station,food,73.54
+2023-01-25,Electric bill,fuel,22
+2022-03-20,Donation,food,47.07
+2022-05-14,Electric bill,entertainment,37.55
+2023-05-24,Movie night,food,6.75
+2024-04-26,Gas station,HEALTH,-23.08
+2024-03-06,Refund,entertainment,12.01
+2024-12-23,Parking,GROCERIES,27.57
+05/04/2023,Movie night,HEALTH,84.42
+2022-01-06,"Taxi, airport",food,12.86
+2023-08-28,"Taxi, airport",Clothing,5.68
+2024-04-29,Gas station,food,26.05
+2024-09-10,Cafe Zoe,Groceries,17.7
+2024-06-21,Cafe Zoe,clothing,7.84
+2022-02-04,Refund,Food,102.9
+2022-08-12,Cafe Zoe,Groceries,7.24
+2023-04-01,Weekly shop,Education,32.87
+2023-10-03,"Lunch, downtown",TRAVEL,33.62
+2023-03-17,Donation,GIFTS,41.63
+2023-07-17,"Dinner, 4 people",FOOD,26.85
+2024-02-05,Pharmacy,RENT,75.47
+	2022-09-20  ,Streaming, food,  46.79
+2024-12-18,Refund,food,99.11
+2023-08-09,Cafe Zoe,entertainment,20.21
+2022-03-17,Weekly shop,Groceries,4.15
+2023-01-12,Streaming,entertainment,6.9
+2023-04-04,"Gift, birthday",insurance,10.99
+2024-06-21,Cafe Zoe,clothing,97.53
+2024-10-29,Weekly shop,groceries,97.96
+2022-02-13,Donation,Education,42.79
+2023-01-27,Weekly shop,Entertainment,98.34
+2023-10-30,"Lunch, downtown",subscriptions,9.73
+2024-05-30,"Dinner, 4 people",fuel,52.08
+2022-09-19,Movie night,food,106.20
+2024-07-15,Coffee,food,0.99
+2023-05-03,"Gift, birthday",groceries,16.31
+2023-02-19  ,Pharmacy,  groceries,	12.07	
+2024-10-20,Streaming,travel,3.59
+2024-08-19,"Taxi, airport",FOOD,40.09
+2024-08-17,Cafe Zoe,Food,32.69
+2022-03-01,Refund,Fuel,40.65
+2022-01-29,Bus pass,GROCERIES,53.31
+2023-10-29,,UTILITIES,11.06
+2023-08-15,Monthly plan,food,22.48
+2022-05-12,"Gift, birthday",groceries,10.99
+2024-11-04,Bus pass,FUEL,11.5
+2023-01-08,Online order,UTILITIES,93.43
+2022-10-25,Donation,FUEL,33.79
+2022-02-11,Gas station,food,131.65
+2023-01-04,Electric bill,FOOD,22.33
+2022-08-28,Coffee,groceries,35.39
+2024-02-28,Weekly shop,groceries,45.7
+2024-09-11,"Taxi, airport",GROCERIES,106.66
+2022-07-31,Pharmacy,Fuel,9.6
+2023-12-04,Cafe Zoe,Entertainment,41.2
+2023-10-27,Online order,gifts,40.28
+2022-02-02,Refund,Entertainment,11.77
+2022-02-11,Online order,Charity,78.96
+2023-02-20,Refund,Groceries,48.65
+2022-08-24,Donation,Health,37.66
+2023-11-06	,"Book ""Dune""",  GROCERIES, 27.07 
+2024-04-18,Streaming,Food,13.35
+2024-01-11,Weekly shop,food,23.54
+2023-07-26,Monthly plan,fuel,14.03
+2022-10-02,,HEALTH,43.89
+2022-07-25,Streaming,groceries,13.16
+2023-03-28,"Taxi, airport",Food,33.13
+2022-01-21,Donation,dining out,30.78
+2023-03-05,Parking,charity,72.95
+2022-10-08,Online order,Education,62.2
+  2024-03-26,"Gift, birthday",  food ,65.57	
+2023-07-08,Online order,subscriptions,110.86
+2022-01-27,Pharmacy,groceries,10.93
+2022-01-28,"Dinner, 4 people",dining out,15.5
+2024-07-02,Parking,groceries,149.04
+2024-08-31,Parking,groceries,146.74
+2024-12-08,Pharmacy,Food,25.24
+2024-11-26,Parking,Food,9.16
+2022-07-17,"Dinner, 4 people",UTILITIES,11.95
+2024-03-26,Movie night,subscriptions,8.74
+2023-04-05,,clothing,12.90
+2022-08-02,Streaming,FOOD,9.90
+2022-02-21,Movie night,fuel,183.03
+2022-06-18,"Dinner, 4 people",Entertainment,32.61
+2023-07-18,Coffee,Rent,28.97
+2022-02-27,Donation,groceries,2.65
+ 2024-10-17  ,Donation,  Gifts	,26.47 
+2024-01-16,Donation,FOOD,29.17
+2023-04-13,Gas station,food,7.11
+2024-04-15,"Taxi, airport",Health,3.97
+2023-03-04,"Gift, birthday",insurance,15.54
+2024-11-22,Donation,TRAVEL,56.79
+2022-09-22,"Gift, birthday",rent,20.8
+2022-07-05,Online order,Food,19.56
+2022-04-16,"Taxi, airport",Dining Out,6.86
+2024-06-28,Cafe Zoe,food,19.01
+2022-05-04,Refund,health,132.31
+2022-07-24,Donation,food,27.67
+2023-10-28,Weekly shop,FUEL,3.85
+2022-02-08,Gas station,GROCERIES,8.89
+2023-09-19,Streaming,UTILITIES,28.08
+2023-06-21,Online order,Food,35.51
+2023-09-17,Cafe Zoe,DINING OUT,10.66
+2024-12-11,"Gift, birthday",entertainment,17.23
+2024-12-14,,food,11.22
+2022-05-22,"Book ""Dune""",food,13.51
+2022-04-22,Donation,entertainment,11.24
+2023-11-30,Online order,FOOD,4.08
+2023-02-12,,Entertainment,16.21
+2023-12-18,Donation,food,72.41
+2023-01-03,Donation,dining out,12.96
+2024-08-17,Electric bill,FOOD,8.07
+2023-08-26,Gas station,fuel,183.95
+2024-07-01,Cafe Zoe,food,10.75
+2024-07-24,Gas station,clothing,85.97
+2023-10-22,Refund,food,2.09
+2022-09-13,Monthly plan,Groceries,103.44
+2022-07-27,"Gift, birthday",dining out,47.29
+2023-07-15,Bus pass,DINING OUT,18.81
+2024-12-19,"Taxi, airport",travel,19.14
+2024-06-24,,Education,47.68
+2024-03-26,Parking,education,57.51
+2022-03-13,Monthly plan,fuel,34.58
+2024-09-29,Streaming,gifts,10.24
+2022-04-03,Gas station,fuel,21.69
+2024-06-29,Donation,Groceries,10.1
+2023-05-04,Pharmacy,groceries,-21.38
+2024-03-08,,Health,38.23
+2022-07-19,Online order,subscriptions,-43.56
+2023-04-19,"Book ""Dune""",Groceries,35.21
+2023-11-24,"Gift, birthday",dining out,18.08
+2023-10-05,Pharmacy,subscriptions,108.8
+2024-01-09,Weekly shop,UTILITIES,-2.63
+2024-01-23,"Lunch, downtown",utilities,75.85
+2023-12-15,Gas station,food,19.22
+2024-11-27,"Gift, birthday",Insurance,173.15
+2022-02-20,Streaming,Travel,23.86
+2022-09-28,Bus pass,,44.45
+2024-01-17,"Gift, birthday",food,9.07
+2022-08-09,Pharmacy,food,93.14
+2022-11-19,"Gift, birthday",groceries,32.74
+2023-05-08,Monthly plan,dining out,45.33
+2024-10-13,Electric bill,subscriptions,4.77
+2023-04-30,Pharmacy,FUEL,93.54
+2023-04-12,Monthly plan,gifts,9.77
+2022-03-16,"Dinner, 4 people",fuel,30.60
+2024-01-03,,FOOD,407.88
+2022-08-12,Coffee,clothing,29.12
+2024-07-13,Bus pass,utilities,201.00
+2024-08-16,Coffee,GROCERIES,7.28
+2024-09-09,Weekly shop,clothing,28.11
+,"Dinner, 4 people",Subscriptions,13.14
+	2022-05-04 ,Monthly plan,	fuel ,  55.79
+2023-04-16,Refund,subscriptions,31.13
+2022-03-17,Bus pass,Gifts,9.26
+2024-07-25,Electric bill,FUEL,18.15
+2024-01-21,Coffee,health,41.53
+2022-11-26,Parking,food,7.57
+2022-10-04,Refund,groceries,7.97
+2022-06-14,Parking,fuel,7.39
+2023-01-24,,utilities,47.36
+2024-02-21,"Book ""Dune""",subscriptions,40.02
+2023-01-13,Electric bill,food,52.61
+2024-12-31,Electric bill,food,19.04
+2022-05-11,Donation," subscriptions ","54.69"
+2024-05-12,"Dinner, 4 people",subscriptions,67.31
+2022-04-02,"Taxi, airport",clothing,33.43
+2024-09-29,Refund,rent,17.95
+2024-10-15,Monthly plan,Fuel,13.78
+2024-09-06,"Dinner, 4 people",groceries,39.51
+2023-10-17,"Gift, birthday",health,12.25
+2024-06-18,Donation,UTILITIES,49.43
+2024-12-30,Donation,TRAVEL,15.43
+2024-11-23,Pharmacy,food,8.41
+2024-04-28,"Dinner, 4 people",Clothing,47.92
+2024-09-05,Monthly plan,groceries,26.94
+2022-11-05,Pharmacy,fuel,10.87
+2022-08-06,"Taxi, airport",utilities,58.18
+2024-07-31,Bus pass,fuel,60.87
+2024-08-07,Weekly shop,groceries,11.79
+2024-04-05,Coffee,clothing,42.96
+2024-12-02,Monthly plan,Food,50.76
+2022-07-11,"Gift, birthday",entertainment,8.87
+2024-08-26,Pharmacy,utilities,15.48
+2022-12-26,"Book ""Dune""",education
+2024-11-04,"Dinner, 4 people",food,48.42
+2022-03-08,Donation,dining out,24.81
+2024-05-16,Electric bill,FOOD,31.30
+2024-10-17,Online order,dining out,9.43
+2024-01-31,Pharmacy,Groceries,33.63
+2023-09-03,Electric bill,groceries,7.34
+2023-09-12,Donation,fuel,-49.24
+2024-09-25,Cafe Zoe,food,6.83
+2022-06-28,Cafe Zoe,Food,43.71
+2022-10-28,"Lunch, downtown",Groceries,17.06
+2024-06-21,Gas station,utilities,15.36
+2024-01-08,Parking,charity,227.14
+2023-03-31,Online order,TRAVEL,13.22
+2023-07-10,Parking,insurance,53.07
+2022-04-09,,RENT,8.13
+2022-08-24,Donation,EDUCATION,25.31
+2023-06-10,"Dinner, 4 people",Dining Out,4.02
+2023-04-02,"Book ""Dune""",food,40.42
+2024-07-09,Weekly shop,food,170.91
+2023-11-27,"Book ""Dune""",utilities,10.27
+2023-07-20,"Lunch, downtown",Health,6.85
+2024-01-28,"Dinner, 4 people",clothing,29.91
+2024-10-05,Weekly shop,Food,-33.92
+2024-11-18,"Dinner, 4 people",Food,61.65
+2023-01-01,"Gift, birthday",food,45.63
+2022-06-08,Donation,subscriptions,7.23
+2023-07-22,"Dinner, 4 people",ENTERTAINMENT,9.27
+2022-10-09,"Lunch, downtown",insurance,92.11
+2024-12-02,"Book ""Dune""",food,133.82
+2024-01-17,Electric bill,subscriptions,22.9
+2023-11-08,"Taxi, airport",Food,14.12
+2023-12-17,Electric bill,UTILITIES,47.85
+2023-05-30,Weekly shop,Education,19.84
+2024-02-04,Gas station,utilities,19.17
+2024-11-09,Pharmacy,SUBSCRIPTIONS,143.88
+2024-10-07,"Book ""Dune""",food,20.22
+2022-06-02,Movie night,gifts,96.98
+2023-03-21,Bus pass,food,55.15
+2022-03-18,Refund,Entertainment,13.85
+2024-02-15,,Food,29.36
+2022-12-03,Pharmacy,Entertainment,28.17
+2024-09-01,Weekly shop,food,4.76
+2022-06-19,Refund,subscriptions,45.63
+2023-06-20,Parking,DINING OUT,87.03
+2024-07-19,Cafe Zoe,groceries,125.69
+2024-12-21,Bus pass,FOOD,15.72
+2024-01-08,"Dinner, 4 people",food,14.03
+2022-07-11,Streaming,fuel,40.45
+2024-08-14,Movie night,FUEL,12.07
+2024-10-16,Cafe Zoe,food,85.19
+2023-03-15,Monthly plan,groceries,10.57
+2023-07-11,"Dinner, 4 people",Groceries,49.94
+2024-07-01,"Taxi, airport",TRAVEL,29.45
+2022-03-19,"Taxi, airport",Insurance,-32.51
+2023-06-25,Parking,Food,8.64
+2024-01-22,Streaming,FOOD,46.33
+2022-06-22,"Dinner, 4 people",fuel,60.76
+2023-04-27,Donation,entertainment,15.58
+2024-01-26,Donation,subscriptions,19.37
+2023-06-21,Bus pass,FOOD,52.72
+23-06-01,"Dinner, 4 people",rent,33.34
+2022-01-08,"Book ""Dune""",Groceries,190.71
+2024-07-02,Weekly shop,food,11.46
+2023-06-08,Pharmacy,food,11.42
+2022-12-10,"Dinner, 4 people",entertainment,26.99
+2023-07-19,Weekly shop,Travel,1.11
+2022-11-04,"Lunch, downtown",Groceries,22.77
+2023-12-10,Coffee,food,17.26
+2023-01-28,"Gift, birthday",GIFTS,40.65
+2023-10-28,Online order,travel,-11.62
+2022-09-21,Monthly plan,Health,13.58
+2023-06-16,"Taxi, airport"," subscriptions ","22.26"
+2024-11-02,Gas station,groceries,49.4
+2024-03-23,"Gift, birthday",fuel,107.93
+2022-02-27,Pharmacy,food,18.90
+2024-08-26,Donation,entertainment,10.32
+2022-03-29,,EDUCATION,39.24
+2023-03-30,Bus pass,Subscriptions,36.37
+2023-03-11,Cafe Zoe,Dining Out,64.46
+2024-10-05,Streaming,travel,-28.09
+2023-03-05,"Dinner, 4 people",Fuel,34.89
+2022-03-31,Refund,food,16.52
+2024-01-31,Streaming,ENTERTAINMENT,5.61
+2023-10-18,Bus pass,Fuel,22.98
+2024-01-08,Electric bill,dining out,8.90
+2024-04-21,Pharmacy,Groceries,20.04
+2023-06-25,Pharmacy,entertainment,29.59
+2022-06-09,Pharmacy,HEALTH,45.66
+2023-01-21,Electric bill,FOOD,4.16
+2023-11-21,"Lunch, downtown",Food,98.86
+2022-09-15,"Lunch, downtown",Utilities,7.62
+2024-01-12,Online order,FOOD,78.82
+2024-11-22,Online order,clothing,4.61
+2023-10-01,Movie night,dining out,53.40
+2022-12-10,,fuel,18.29
+2022-10-24,Donation,utilities,74.37
+2023-09-16,Cafe Zoe,dining out,42.97
+2022-06-07,"Dinner, 4 people",UTILITIES,70.12
+2024-05-07,Bus pass,ENTERTAINMENT,231.08
+   
+2022-08-25,Bus pass,subscriptions,18.21
+2024-09-07,Monthly plan,Clothing,32.82
+2023-05-08,Streaming,TRAVEL,22.52
+2024-05-11,Bus pass,charity,28.25
+2023-02-13,Pharmacy,utilities,14.30
+2022-07-07,Gas station,SUBSCRIPTIONS,92.89
+2023-11-01,"Gift, birthday",food,29.98
+2023-06-03,Electric bill,EDUCATION,46.04
+2023-07-27,Electric bill,subscriptions,31.98
+2024-10-05,Pharmacy,FOOD,5.78
+2024-12-18,Bus pass,Travel,2.31
+2022-03-16,Streaming,Food,37.02
+2024-01-12,"Lunch, downtown",education,33.24
+2022-08-03,Parking,clothing,48.17
+2023-01-07,Pharmacy,clothing,26.93
+2024-07-17,,subscriptions,26.90
+2022-03-29,Refund,food,3.98
+2023-09-27,"Gift, birthday",Food,26.12
+2022-09-25,Gas station,groceries,7.95
+2024-08-13,,SUBSCRIPTIONS,4.62
+2023-02-04,Donation,subscriptions,18.81
+2024-11-14,,groceries,20.32
+2024-07-11,"Book ""Dune""",UTILITIES,--5
+2023-04-16,Monthly plan,groceries,11.8
+2022-11-13,"Gift, birthday",fuel,75.00
+2023-07-16,Cafe Zoe,entertainment,28.16
+2024-07-06,Coffee,FOOD,15.04
+2024-09-22,,dining out,46.68
+2024-06-05,Gas station,food,13.72
+2023-03-31,"Lunch, downtown",Groceries,41.24
+2022-12-01,"Dinner, 4 people",utilities,176.38
+2023-04-17,"Dinner, 4 people",food,75.97
+2024-07-29,"Gift, birthday",food,12.22
+2023-10-16,"Dinner, 4 people",food,44.69
+2022-02-12,Pharmacy,Fuel,26.89
+2024-08-05,Movie night,utilities,16
+2022-09-22,Monthly plan," food ","23.75"
+2022-08-18,Refund,groceries,22.56
+2022-09-28,Parking,UTILITIES,58.45
+2022-05-18,,groceries,17.39
+2023-04-01,Cafe Zoe,groceries,120.04
+2024-08-18,Pharmacy," dining out ","13.79"
+2024-12-24,Cafe Zoe,food,6.29
+2024-01-07,Coffee,Entertainment,26.51
+2024-05-19,Parking,Groceries,498.16
+2024-02-12,Coffee,DINING OUT,58.54
+2023-08-05,"Dinner, 4 people",FOOD,105.66
+2022-11-16,Movie night,utilities,67.71
+2023-05-04,"Lunch, downtown",Groceries,41.08
+2024-10-07,Donation,ENTERTAINMENT,113.12
+2024-03-09,Cafe Zoe,FUEL,2.81
+2022-05-05,Electric bill,Charity,36.05
+2024-10-19,Pharmacy,clothing,30.08
+2023-07-30,Electric bill,food,70.17
+2023-02-07,"Lunch, downtown",utilities,48.31
+2024-05-09,,utilities,12.64
+ 2022-09-27  ,Parking,  gifts,  10.78
+2024-12-31,Bus pass,groceries,27.01
+2022-11-16,Gas station,food,3.40
+2024-11-12,"Dinner, 4 people",entertainment,9.24
+2023-12-07,"Gift, birthday",fuel,12.54
+2023-05-14,Gas station,Utilities,7.99
+2023-07-27,Cafe Zoe,Subscriptions,76.92
+2023-09-10,"Dinner, 4 people",fuel,53.13
+2023-05-29,"Taxi, airport",utilities,26.64
+2022-07-22,Parking,health,34.42
+2022-07-28,"Book ""Dune""",fuel,194.84
+2022-09-12,Streaming,utilities,4.82
+2024-02-23,Pharmacy,clothing,16.78
+2022-04-27,Coffee,food,9.33
+2022-05-28,Weekly shop,FOOD,30.08
+2022-09-29,Cafe Zoe,food,11.43
+2023-04-16,Weekly shop,fuel,19.57
+2022-04-08,"Taxi, airport",Food,34.07
+2022-08-06,Cafe Zoe,travel,10.05
+2024-03-26,Weekly shop,GROCERIES,16.21
+2024-05-23,,travel,32.65
+2022-11-13,"Book ""Dune""",FOOD,37.16
+2023-07-26,Refund,fuel,80.20
+2023-02-19,Streaming,travel,6.87
+2024-03-27,Weekly shop,fuel,33.13
+2023-02-07,Online order,entertainment,72.29
+2024-02-02,Refund,entertainment,9.46
+2023-03-13,Refund,subscriptions,50.99
+2023-01-15,,FUEL,35.44
+2024-11-17,Refund,CHARITY,68.91
+2024-03-24,"Gift, birthday",food,9.34
+2022-03-30,Donation,Food,113.70
+2024-01-26,Refund,Health,40.75
+2022-02-21,Monthly plan,entertainment,37.00
+2024-08-09,Refund,Dining Out,6.20
+2023-10-05,Donation,Food,56.21
+2022-09-26,Electric bill,food,13
+2024-03-21,Streaming,ENTERTAINMENT,12.56
+2022-10-31,Cafe Zoe,groceries,31.2
+2024-12-08,Streaming,gifts,207.68
+2024-06-29,Online order,FOOD,371.47
+2022-06-14,Pharmacy,education,6.62
+2022-12-20,Refund,utilities,42.67
+2023-01-10,"Lunch, downtown",FOOD,25.65
+2023-04-25,Gas station,EDUCATION,3.62
+	2023-12-17  ,Cafe Zoe,Fuel	,	45.2
+2023-07-06,"Dinner, 4 people",Health,90.75
+2024-09-28,Online order,fuel,4.21
+2022-01-06,"Taxi, airport",groceries,6.47
+2022-12-17,Online order,Entertainment,11.36
+2022-07-27,Gas station,Utilities,14.22
+2022-05-22,Movie night,GROCERIES,22.53
+2022-08-19,Movie night,RENT,11.38
+2024-06-26,"Gift, birthday",food,31.34
+2024-01-21,"Dinner, 4 people",Subscriptions,14.77
+2022-10-01,Bus pass,Food,35.31
+2024-10-30,Gas station,Gifts,21.67
+2024-08-12,Refund,education,21.57
+2024-04-21,Coffee,food,80.02
+2023-13-05,Parking,Food,7.06
+2022-07-30,Refund,	groceries  ,5.98
+2024-10-12,Parking,UTILITIES,-7.08
+2024-11-01,Online order,entertainment,41.25
+2022-03-14,"Gift, birthday",dining out,49.79
+2024-06-16,Gas station,Fuel,2.09
+2024-06-19,Gas station,Food,99.23
+2023-07-01,Streaming,rent,1.09
+2024-11-14,Gas station,FUEL,21.18
+ 2024-06-13 ,"Dinner, 4 people",  food  , 26.37	
+2024-04-17,Monthly plan,fuel,6.33
+	2023-06-20,Streaming,	groceries	, 13.03 
+2024-06-27,Bus pass,groceries,88.97
+2024-05-13,"Gift, birthday",Gifts,67.42
+2023-10-29,Coffee,fuel,34.69
+2023-01-21,Refund,rent,20.14
+2024-01-02,Streaming,Fuel,3.27
+2023-05-12,Pharmacy,Groceries,10.75
+2023-05-16,"Taxi, airport",Groceries,44.84
+2023-08-28,Monthly plan,entertainment,23.03
+2022-11-21,"Dinner, 4 people",entertainment,76.24
+2023-03-23,"Gift, birthday",FUEL,98.64
+2023-05-01,Coffee,health,37.5
+2022-02-02,Gas station,dining out,16.68
+2024-05-03,Pharmacy,food,13.85
+2024-07-11,Refund,Food,5.18
+2022-10-13,"Gift, birthday",entertainment,32.14
+2022-11-09,Coffee,dining out,15.62
+2024-06-12,Refund,health,5.65
+2022-10-15,Refund,Food,12.19
+2023-06-01,Electric bill,food,7.10
+2024-03-22,"Book ""Dune""",Fuel,23.17
+2022-03-23,"Taxi, airport",entertainment,6.9
+2023-10-23,,clothing,5.68
+2022-11-25,,Fuel,47.69
+2023-04-24,"Dinner, 4 people",Food,30.91
+2022-04-26,Refund,Food,58.04
+2023-12-21,Cafe Zoe,UTILITIES,15.16
+2024-08-21,"Taxi, airport",food,35.20
+2022-08-20,"Lunch, downtown",groceries,27.9
+2024-08-17,Weekly shop,dining out,22.43
+2022-09-30,,subscriptions,12.05
+2022-12-09,Monthly plan,GROCERIES,90.86
+2023-08-14,Coffee,GROCERIES,23.05
+2022-08-08,"Gift, birthday",food,7.91
+2022-01-07,Coffee,UTILITIES,10.62
+2024-10-03,Online order,INSURANCE,16.49
+2024-07-12,Streaming,FOOD,144.81
+2024-12-28,,groceries,100.54
+2023-01-26,Cafe Zoe,food,17.14
+2022-05-11,Monthly plan,Travel,25
+2024-11-15,,groceries,15.78
+2022-08-23,Pharmacy,clothing,39.35
+2023-06-27,Bus pass,health,7.33
+2023-10-15,Weekly shop,food,30.83
+2024-04-26,Cafe Zoe,travel,209.44
+2023-08-08,"Taxi, airport",Food,8.5
+2024-12-19,Weekly shop,Utilities,25.54
+2024-10-09,Pharmacy,travel,10.54
+2022-06-30,Gas station,Charity,190.06
+2022-02-13,Donation,FOOD,32.21
+2024-03-15,"Gift, birthday",food,127.95
+2023-02-24,Cafe Zoe,Dining Out,10.03
+2024-12-23,Cafe Zoe,groceries,167.00
+2022-04-27,Electric bill,Groceries,22.55
+2024-08-20,Bus pass,food,143.24
+2024-03-05,Monthly plan,subscriptions,108.19
+2022-09-11,"Book ""Dune""",clothing,12.44
+2023-08-25,"Dinner, 4 people",education,104.46
+2023-12-06,Bus pass,Groceries,15.15
+2023-02-04,Movie night,FUEL,53.56
+2024-07-04,"Book ""Dune""",utilities,20.30
+2024-08-31,"Gift, birthday",EDUCATION,18.75
+2023-11-07,"Gift, birthday",groceries,99.16
+2024-12-26,,food,13.65
+2022-10-08,"Taxi, airport",health,10.04
+2023-04-17,Coffee,health,18.21
+2024-10-11,Coffee,Groceries,100.22
+2024-11-21,Online order,GROCERIES,37.49
+2024-08-06,Movie night,UTILITIES,58.94
+2023-08-11,Electric bill,groceries,18.95
+2023-11-26,Online order,dining out,47.16
+2024-10-27,Monthly plan,groceries,36.37
+2022-10-11,Donation,INSURANCE,16.44
+2024-09-19,,Fuel,7.81
+2024-12-13,Parking,Fuel,5.07
+2023-05-18,Pharmacy,food,7.28
+2023-08-01,"Gift, birthday",DINING OUT,17.13
+2023-09-01,"Lunch, downtown",fuel,17.68
+2022-09-05,Cafe Zoe,food,55.38
+2022-04-04,,FOOD,4.83
+2022-05-04,Weekly shop,insurance,47.54
+2024-06-01,Pharmacy,Food,104.34
+2023-08-24,Online order,Utilities,23.96
+2024-05-01,Bus pass,insurance,40.07
+2023-07-11,"Taxi, airport",groceries,13.68
+
+2023-06-19,Movie night,travel,69.56
+2024-06-03,Monthly plan,TRAVEL,2.33
+2022-06-12,Parking,insurance,161.57
+2022-04-21,"Lunch, downtown",Utilities,6.52
+2023-10-13,Donation,entertainment,19.73
+2023-07-01,Monthly plan,FOOD,58.64
+2024-02-15,Gas station,Food,2.75
+2024-05-28,Monthly plan,Food,25.28
+2024-01-14,Coffee,food,39.73
+2024-04-29,Pharmacy,FOOD,44.40
+2024-12-14,Pharmacy,food,4.05
+2023-02-28,Donation,food,2.88
+2022-09-28,"Dinner, 4 people",ENTERTAINMENT,12.50
+2024-08-30,Bus pass,food,53.29
+2023-05-01,Parking,entertainment,70.69
+2024-06-09,Electric bill,entertainment,37.41
+2023-03-22,Refund,fuel,35.82
+2023-03-23,Weekly shop,food,13.86
+2023-09-25,"Dinner, 4 people",rent,13.80
+2022-08-05,Monthly plan,entertainment,40.72
+2023-10-29,Weekly shop,food,132.55
+2022-08-17,Parking,education,6.70
+2022-12-17,Coffee,entertainment,26.78
+2022-05-04,,Dining Out,164.40
+2022-03-23,Coffee,Food,20.13
+2022-09-05,Refund,Groceries,22.16
+2023-03-31,Donation,CHARITY,9.28
+2024-11-13,Coffee,UTILITIES,59.43
+2023-05-12,Electric bill,Gifts,75.89
+2023-01-29,"Dinner, 4 people",groceries,18.20
+2024-03-29,Movie night,Entertainment,8.86
+2023-06-12,"Gift, birthday",Travel,9.52
+2024-06-27,Cafe Zoe,entertainment,9.39
+2022-12-02,"Book ""Dune""",Groceries,84.42
+2024-12-23,,food,17.53
+2023-09-22,Online order,FOOD,257.10
+2023-01-12,"Gift, birthday",Dining Out,34.49
+2022-05-23,Bus pass,utilities,66.00
+2024-01-17,Parking,clothing,84.11
+2024-05-14,,HEALTH,12.85
+2022-07-08,Pharmacy,Dining Out,66.81
+2023-09-10,Coffee,Food,22.65
+2022-05-27,"Taxi, airport",Gifts,28.91
+2023-08-22,Donation,fuel,120.11
+2023-07-19,Pharmacy,Education,26.77
+2022-03-20,Movie night,groceries,56.46
+2022-03-20,Electric bill,food,12.37
+2022-10-11,Streaming,TRAVEL,32.62
+2024-09-17,"Dinner, 4 people",FUEL,42.80
+2022-12-27,Pharmacy,Health,20.72
+2022-09-11,Refund,travel,35.65
+2023-02-13,,Groceries,18.50
+2022-12-23,Pharmacy,FUEL,89.3
+2022-02-07,"Book ""Dune""",groceries,84.19
+2022-09-08,Cafe Zoe,groceries,26.67
+2023-07-09,"Book ""Dune""",food,11.42
+2024-03-29,Online order,SUBSCRIPTIONS,-124.22
+2022-08-12,Movie night,FOOD,95.53
+2022-01-06,Gas station,health,-5.60
+2022-11-14,Coffee,dining out,62.12
+2024-12-06,Weekly shop,ENTERTAINMENT,18.76
+2024-04-27,Movie night,food,13.27
+2023-10-14,"Dinner, 4 people",food,46.80
+2022-05-02,Donation,Groceries,13.7
+2022-11-30,Donation,entertainment,28.39
+2023-07-11,Online order,Fuel,30.37
+2023-10-19,Streaming,food,124.88
+2023-02-22,Electric bill,groceries,51.31
+2024-12-22,Movie night,subscriptions,36.68
+2024-09-07,"Book ""Dune""",fuel,18.45
+2023-02-13,,Health,32.5
+2024-04-26,"Gift, birthday",GROCERIES,23.77
+2023-07-08,"Lunch, downtown",food,44.08
+2022-03-28,Online order,groceries,64.66
+2024-05-10,"Book ""Dune""",food,50.86
+2023-01-02,,GROCERIES,86.89
+2024-01-13,Pharmacy,health,9.73
+2024-01-03,Monthly plan,education,77.79
+2023-05-30,Monthly plan,ENTERTAINMENT,19.91
+2022-10-18,Donation,GROCERIES,12.48
+2023-09-13,Pharmacy,Health,18.36
+2022-11-12,"Book ""Dune""",	,11.36
+2024-02-10,Bus pass,subscriptions,65.64
+2022-07-29,"Gift, birthday",Food,49.40
+2024-04-02,Online order,Health,31.46
+2023-05-12,Gas station,food,16.28
+2022-05-15,"Dinner, 4 people",food,18.65
+2024-02-02,Electric bill,groceries,5.52
+2022-11-12,Electric bill,food,50.04
+2023-01-19,,entertainment,23.82
+2022-01-08,"Taxi, airport",groceries,30.20
+2023-02-17,"Gift, birthday",insurance,65.78
+2023-02-08,Gas station,fuel,-87.57
+2024-08-20,"Gift, birthday",Travel,19.14
+2022-07-26,Gas station,education,14.11
+2023-06-01,Refund,DINING OUT,13.37
+2022-01-04,Refund,Health,58.41
+2024-05-05,"Lunch, downtown",FUEL,69.56
+2024-09-13,Donation,food,25.28
+2022-04-21,"Gift, birthday",FOOD,13.06
+2024-01-25,Cafe Zoe,ENTERTAINMENT,38.84
+2022-04-10,Movie night,groceries,49.98
+2023-03-26,Online order,rent,121.89
+2024-03-07,Donation,Gifts,30.36
+2023-05-20,"Gift, birthday",subscriptions,38.30
+2024-04-19,"Gift, birthday",groceries,109.91
+2022-08-25,Pharmacy,Health,5.84
+2022-09-14,"Book ""Dune""",Utilities,16.78
+2024-03-10,"Gift, birthday",food,30.78
+2024-02-16,Cafe Zoe,clothing,9.26
+2023-10-10,"Taxi, airport",Food,35.01
+2023-01-12,,entertainment,14.9
+2024-07-24,Electric bill,utilities,8.86
+2024-07-05,Cafe Zoe,utilities,14.35
+2022-08-21,Gas station,GROCERIES,60.67
+2024-05-28,Pharmacy,travel,41.17
+2022-04-30,Movie night,Subscriptions,25.08
+2022-11-08,Monthly plan,clothing,6.71
+2023-06-20,"Taxi, airport",Travel,12.69
+2023-04-11,,ENTERTAINMENT,20.53
+2024-01-29,"Gift, birthday",Groceries,6.52
+2022-05-23,"Book ""Dune""",GROCERIES,28.78
+2022-07-07,Pharmacy,dining out,143.59
+2023-07-30,Online order,food,31.48
+2022-02-14,Bus pass,utilities,64.7
+2022-02-22,"Lunch, downtown",food,-24.78
+2024-11-25,Weekly shop,FOOD,115.7
+2023-04-14,Streaming,Education,88.08
+2022-02-01,Weekly shop,ENTERTAINMENT,6.63
+2023-06-14,Coffee,Health,16.72
+2022-02-09,Parking,Dining Out,13.49
+2023-05-29,"Dinner, 4 people",Food,26.45
+2022-05-16,,RENT,17.26
+2024-07-18,Gas station,entertainment,38.68
+2022-04-15,Online order,UTILITIES,9.72
+2024-01-15,"Dinner, 4 people",food,28.8
+2024-11-07,Gas station,health,18.93
+2023-04-07,Monthly plan,groceries,20.69
+2023-01-13,"Book ""Dune""",fuel,6.19
+2023-06-23,Pharmacy,entertainment,43.87
+2024-09-06,"Lunch, downtown",FOOD,18.99
+2024-02-07,Cafe Zoe,travel,25.58
+2024-07-08,Cafe Zoe,fuel,46.88
+2023-02-13,Cafe Zoe,groceries,88.57
+2022-06-07,Bus pass,utilities,17.65
+2022-09-11,Cafe Zoe,Food,10.69
+2024-12-31,Parking,FOOD,78.82
+2024-04-30,Weekly shop,Groceries,34.48
+2024-10-11,Parking,Food,11.82
+2023-10-02,"Dinner, 4 people",Clothing,75.72
+2022-12-26,Coffee,DINING OUT,8.39
+2023-06-26,Parking,ENTERTAINMENT,66.42
+2024-10-31,Movie night,Subscriptions,12.35
+2023-10-15,"Gift, birthday",travel,27.89
+2022-09-09,Monthly plan,FOOD,8.82
+2022-04-21,Refund,subscriptions,32.85
+2024-05-13,Pharmacy,Utilities,67.39
+2024-05-14,Online order,FOOD,31.35
+2024-08-04,"Book ""Dune""",food,106.41
+2022-12-25,Gas station,health,197.34
+2023-12-22,Cafe Zoe,GROCERIES,12.5
+2023-10-25,Donation,groceries,51.74
+2023-04-24,Cafe Zoe,Education,98.95
+2023-03-05,"Gift, birthday",food,4
+2022-08-24,"Lunch, downtown",travel,19.58
+2023-04-15,"Gift, birthday",fuel,19.15
+2023-01-01,"Dinner, 4 people",food,24.97
+2023-05-24,"Lunch, downtown",utilities,29.01
+2022-11-20,Cafe Zoe,SUBSCRIPTIONS,26.54
+2023-07-18,Bus pass,food,37.77
+2024-07-17,"Taxi, airport",Groceries,32.81
+2022-06-06,Gas station,utilities,2.17
+2022-08-16,Weekly shop,Food,46.35
+2024-09-29,Weekly shop,health,137.43
+2024-12-10,"Gift, birthday",Travel,28.34
+2024-01-22,Electric bill,health,47.37
+2022-08-18,"Lunch, downtown",Food,44.63
+2022-01-05,Coffee,fuel,32.85
+2023-06-30,Online order,food,113.38
+2024-03-27,Weekly shop,GROCERIES,9.26
+2022-12-10,Weekly shop,entertainment,1.89
+2022-05-24,"Taxi, airport",Clothing,8.73
+2023-02-08,Donation,utilities,42.73
+2024-08-09,Streaming,SUBSCRIPTIONS,121.12
+2022-04-21,Movie night,food,21.4
+2024-01-26,"Gift, birthday",TRAVEL,47.69
+2023-04-05,Refund,clothing,6.23
+2022-11-30,"Lunch, downtown",health,18.96
+2023-06-27,Electric bill,Food,15.89
+2022-09-22,Bus pass,rent,25.91
+2024-05-28,"Dinner, 4 people",groceries,4.21
+2023-04-07,"Dinner, 4 people",charity,-47.92
+2022-09-29,Movie night,Groceries,55.51
+2024-02-24,"Taxi, airport",Groceries,203.53
+2022-01-03,,TRAVEL,11.68
+2022-01-16,Online order,groceries,57.20
+2024-09-03,"Taxi, airport",food,62.16
+2022-01-04,"Book ""Dune""",food,2.35
+2023-09-09,Electric bill,DINING OUT,11.72
+2023-04-01,"Taxi, airport",entertainment,17.00
+2024-07-16,Coffee,Utilities,6.66
+2022-10-26,Coffee,Groceries,57.4
+2024-04-27,Donation,travel,65.74
+2024-05-26,"Gift, birthday",GROCERIES,45.22
+2024-08-01,"Lunch, downtown",utilities,49.08
+2023-03-22,,FOOD,152.66
+2024-03-18,"Lunch, downtown",groceries,175.95
+2024-02-05,Movie night,SUBSCRIPTIONS,25.77
+2023-10-16,"Lunch, downtown",CLOTHING,-15.66
+2024-01-21,Coffee,fuel,12.09
+2023-10-13,Electric bill,education,39.91
+2024-12-27,Donation,food,44.61
+2022-08-23,Coffee,food,31.49
+2022-12-09,Weekly shop,dining out,19.89
+2024-09-24,Parking,Entertainment,16.81
+2024-11-24,,health,44.67
+2024-10-21,Electric bill,Entertainment,8.29
+2022-07-04,Cafe Zoe,GIFTS,24.73
+2022-07-29,Weekly shop,groceries,20.13
+2022-08-04,Online order,food,19.48
+2022-04-29,"Taxi, airport",gifts,12.87
+2024-01-05,,GROCERIES,-17.9
+2023-10-15,Gas station,education,32.21
+2024-12-08,Online order,Fuel,24.43
+2022-02-07,Electric bill,Food,28.41
+2022-12-24,Monthly plan,Groceries,129.04
+2023-10-26,,entertainment,65.18
+2024-01-09,Gas station,Food,22.32
+2024-01-03,Monthly plan,CHARITY,26.18
+2022-09-14,"Lunch, downtown",health,70.24
+2022-07-07,"Taxi, airport",Utilities,35.64
+2024-08-06,Parking,Groceries,31.51
+2022-11-06,Parking,utilities,-12.76
+2022-04-15,Pharmacy,health,12.99
+2022-11-05,Movie night,fuel,117.26
+2023-01-08,Refund,GROCERIES,5.01
+2022-10-13,,food,16.93
+2024-02-03,"Gift, birthday",dining out,9.93
+2022-04-04,"Lunch, downtown",food,6.44
+2023-10-19,Online order,food,15.14
+2024-07-26,Streaming,food,44.77
+2024-10-01,"Dinner, 4 people",FOOD,14.09
+2024-08-09,Monthly plan,groceries,8.23
+2023-04-28,Pharmacy,clothing,62.80
+2022-06-17,Gas station,GIFTS,105.65
+2024-03-15,Online order,education,39.08
+2022-03-29,"Lunch, downtown",Entertainment,51.63
+2022-04-27,"Gift, birthday",Food,43.30
+2023-04-23,Refund,utilities,18.39
+2022-09-04,"Book ""Dune""",GROCERIES,21.74
+2023-11-11,Weekly shop,charity,32.95
+2023-01-23,Streaming,entertainment,43.42
+2024-05-07,Donation,utilities,18.07
+2023-11-03,Refund,rent,43.59
+2024-06-06,"Book ""Dune""",groceries,32.20
+2024-09-10,"Gift, birthday",insurance,5.81
+2022-11-29,Cafe Zoe,utilities,9.35
+2022-01-10,Bus pass,Entertainment,92.3
+2023-11-19,"Gift, birthday",groceries,27.99
+2022-03-15,Pharmacy,groceries,4.24
+2024-07-20,Weekly shop,subscriptions,10.65
+2024-03-14,Coffee,UTILITIES,62.48
+2024-08-02,Weekly shop,SUBSCRIPTIONS,33.08
+2022-11-13,Pharmacy,food,5.65
+2024-01-30,Cafe Zoe,clothing,39.31
+2024-07-08,Movie night,rent,57.11
+2022-10-26,"Book ""Dune""",Groceries,33.68
+2022-05-03,Cafe Zoe,RENT,77.44
+2022-08-31,Cafe Zoe,health,8.79
+2022-03-15,,education,42.3
+2022-04-12,Streaming,TRAVEL,15.17
+2024-04-03,"Taxi, airport",utilities,22.04
+2024-02-18,,subscriptions,244.94
+2023-07-09,Bus pass,FUEL,47.24
+2023-01-17,Donation,clothing,16.78
+2024-02-25,"Dinner, 4 people",entertainment,26.92
+2024-12-03,Pharmacy,food,9.12
+2024-12-04,Donation,Rent,57.72
+2024-02-28,Movie night,entertainment,11.55
+2022-05-01,Coffee,charity,-49.8
+2022-06-29	,"Book ""Dune""",  Food, 80.97
+2022-06-30,"Taxi, airport",fuel,50.73
+2024-05-29,,groceries,8.43
+2023-03-15,Parking,Travel,82.85
+2022-01-03,"Lunch, downtown",food,12.22
+2023-09-27,,groceries,22.43
+2023-01-12,Cafe Zoe,Food,31.93
+2024-09-13,Streaming,charity,36.89
+2024-06-26,Streaming,Food,10.11
+2024-11-15,Gas station,Utilities,34.66
+2024-09-27,Coffee,Groceries,5.78
+2024-09-09,Online order,UTILITIES,-23.86
+2023-01-03,Pharmacy,Food,28.16
+2022-02-16,Weekly shop,groceries,15.04
+2022-04-12,Parking,food,26.39
+2023-10-13,"Book ""Dune""",entertainment,36.07
+2024-09-23,Cafe Zoe,Fuel,7.7
+2023-05-23,Gas station,insurance,15.71
+2023-04-04,"Gift, birthday",groceries,11.76
+2023-06-27,Weekly shop,Subscriptions,16.89
+2023-06-07,Bus pass,UTILITIES,18.8
+2022-09-14,"Gift, birthday",Entertainment,4.9
+2023-12-09,Parking,Clothing,9.28
+2024-04-20,Bus pass,groceries,67.34
+2022-08-19,Streaming,Fuel,52.55
+2022-08-25,Streaming,gifts,81.96
+2024-06-17,"Dinner, 4 people",TRAVEL,23.90
+2023-03-15,Streaming,dining out,512.14
+2024-12-30,"Book ""Dune""",rent,35.36
+2022-10-08,Streaming,entertainment,113.75
+2024-12-10,Gas station,FOOD,9.6
+2022-10-14,"Gift, birthday",CLOTHING,109.26
+2023-07-22,"Dinner, 4 people",Subscriptions,15.12
+2022-04-22,Coffee,Food,-11.45
+2022-07-05,Pharmacy,clothing,79.25
+2024-12-05,"Book ""Dune""",entertainment,72.78
+2022-04-11,"Book ""Dune""",fuel,13.70
+2022-01-11,"Dinner, 4 people",groceries,-227.18
+2024-07-08,Coffee,FUEL,18.03
+2024-06-29,Movie night,FOOD,11.06
+2024-02-01,Pharmacy,food,37.64
+2022-05-08,Refund,RENT,21.05
+2022-10-25,Donation,subscriptions,28.56
+2024-02-27,Weekly shop,groceries,12.02
+2024-10-27,Online order,education,50.96
+2022-10-25,Bus pass,food,15.01
+2024-02-01,Bus pass,DINING OUT,45.77
+2022-10-29,Monthly plan,Health,45.33
+2023-08-29,"Taxi, airport",food,38.72
+2023-10-03,"Dinner, 4 people",food,182.96
+2024-06-08,"Lunch, downtown",HEALTH,17.47
+2022-01-12,Refund,food,124.98
+2022-07-05,Donation,charity,93.88
+2023-06-20,"Gift, birthday",food,146.09
+2023-07-26,Bus pass,health,31.60
+2023-01-23,Movie night,education,29.74
+2024-07-17,Pharmacy,food,-33.82
+2023-07-27,Refund,Groceries,176.47
+2023-01-01,"Gift, birthday",rent,107.9
+2023-12-02,"Book ""Dune""",Utilities,37.08
+2022-11-13,Parking,food,83.39
+2024-07-02,Weekly shop,subscriptions,55.82
+2022-02-13,Gas station,Food,14.6
+2023-10-13,Movie night,UTILITIES,-13.76
+2023-01-19,Bus pass,FOOD,72.98
+2023-10-04,"Book ""Dune""",GROCERIES,6.68
+2024-12-12,"Book ""Dune""",Fuel,11.24
+2024-06-05,"Book ""Dune""",utilities,9
+2022-08-23,Coffee,utilities,14.60
+2022-02-15,Cafe Zoe,clothing,52.08
+2023-05-04,Movie night,Utilities,31.87
+2024-06-21,Refund,groceries,57.41
+  2023-02-16	,Refund, food,347.28
+2023-04-25,Cafe Zoe,entertainment,184.26
+2022-09-29,"Dinner, 4 people",Groceries,62.56
+2023-07-25,Movie night,food,6.89
+2022-11-01,Monthly plan,TRAVEL,21.18
+2024-07-20,Weekly shop,Groceries,166.1
+2023-09-06,"Dinner, 4 people",food,75.51
+2024-10-21,"Dinner, 4 people",rent,31.11
+2024-06-09,Bus pass,fuel,19.50
+2024-01-03,Online order,groceries,43.89
+2023-04-01,Donation,travel,-23.52
+2024-12-17,Cafe Zoe,groceries,29.67
+ 2022-08-05,Online order,subscriptions  , 9.71  
+2023-08-14,Gas station,Food,77.59
+2022-01-10,"Gift, birthday",HEALTH,6.54
+2022-03-28,Monthly plan,FOOD,77.89
+2023-09-20,,Dining Out,250.07
+2024-01-13,"Dinner, 4 people",SUBSCRIPTIONS,70.83
+2024-09-06,"Gift, birthday",UTILITIES,23.37
+2023-09-27,"Taxi, airport",groceries,58.57
+2022-04-16,Cafe Zoe,dining out,-19.78
+2022-12-23,Pharmacy,FUEL,20.57
+2023-04-24,Donation,gifts,26.72
+2023-09-27,"Gift, birthday",INSURANCE,62.05
+2024-11-08,,insurance,34.59
+2022-04-04,Streaming,Groceries,17.69
+2022-01-05,Gas station,travel,50.06
+2024-07-31,Weekly shop,travel,42.1
+2022-09-06,Monthly plan,food,38.04
+2024-12-28,"Gift, birthday",groceries,5.65
+2024-01-25,Bus pass,Food,6.42
+2023-09-16,Refund,clothing,29.69
+2024-07-24,Parking,Fuel,1.51
+2023-09-21,,Food,81.05
+2022-07-03,"Taxi, airport",food,74.11
+2022-06-03,Refund,FOOD,12.95
+2022-09-18,Weekly shop,subscriptions,51.95
+2022-03-14,Pharmacy,charity,43.05
+2022-11-10,"Dinner, 4 people",GROCERIES,138.61
+2022-05-20,Coffee,food,27.05
+2024-10-28,Coffee,   ,100.15
+2024-02-21,"Book ""Dune""",health,25.4
+2022-05-05,Pharmacy,travel,153.43
+2024-05-23,Electric bill,insurance,26.29
+2023-11-30,Bus pass,groceries,38.87
+2023-10-02
+2023-11-27,,entertainment,27.64
+2022-07-15,Streaming,travel,79.38
+2024-09-25,Monthly plan,fuel,21.85
+2023-09-24,"Gift, birthday",insurance,6.41
+2024-12-13,Cafe Zoe,SUBSCRIPTIONS,21.53
+2022-09-19,Parking,entertainment,23.76
+2022-08-15,Gas station,entertainment,10.41
+2024-02-18,Streaming,RENT,24.45
+2023-10-22,Movie night,education,11.31
+2022-11-05,Weekly shop,food,78.68
+2023-09-08,Donation,Health,10.13
+2023-09-30,Pharmacy,subscriptions,27.62
+2024-04-10,Electric bill,Dining Out,31.61
+2023-05-10,Bus pass,gifts,9.39
+2024-06-23,"Gift, birthday",food,27.48
+2024-06-22,Gas station,Education,63.20
+2024-06-12,Online order,travel,30.92
+2024-03-03,"Dinner, 4 people",UTILITIES,53.52
+2022-04-10,Weekly shop,entertainment,15.75
+2024-10-14,Movie night,Food,6.86
+2023-01-11,Coffee,utilities,109.95
+2024-06-05,,dining out,23.79
+2023-10-08,Movie night,dining out,28.64
+2023-01-24,"Dinner, 4 people",Utilities,18.07
+2024-07-14,Movie night,Health,31.16
+2022-08-03,Bus pass,groceries,-86.43
+2022-08-14,Cafe Zoe,Utilities,4.48
+2024-11-12,Monthly plan,Food,11.81
+2024-10-21,"Dinner, 4 people",subscriptions,31.85
+2024-01-09,Cafe Zoe,food,14.02
+2022-09-27,Refund,Groceries,129.74
+2023-06-13,Cafe Zoe,GROCERIES,97.69
+2022-11-12,Parking,TRAVEL,4.17
+2022-02-21,Electric bill,EDUCATION,11.54
+2024-12-09,Parking,groceries,71.42
+2024-07-04,,food,13.72
+2024-08-22,"Book ""Dune""",groceries,12.43
+2023-10-31,Streaming,utilities,31.10
+2024-02-26,Gas station,Clothing,8.09
+2024-02-01,"Gift, birthday",entertainment,62.1
+2024-06-08,"Taxi, airport",UTILITIES,-14.45
+2024-03-23,Coffee,food,149.19
+2023-09-25,,food,6.59
+2023-02-03,Refund,Groceries,69.41
+2022-08-16,"Gift, birthday",Clothing,38.87
+ 2022-10-24	,Donation,Food , 126.22 
+2023-02-08,Movie night,FOOD,14.18
+2024-03-04,"Lunch, downtown",food,23.83
+2022-11-06,Movie night,Food,57.17
+2024-08-27,Pharmacy,subscriptions,70.9
+2024-07-10,"Lunch, downtown",Groceries,5.96
+2022-08-30,Pharmacy," groceries ","24.71"
+2024-08-05,Parking,groceries,-55.84
+2023-08-07,Cafe Zoe,food,23.78
+2022-06-29,Movie night,Food,14.19
+2022-03-05,Movie night,Clothing,42.24
+2023-03-28,Gas station,Fuel,33.76
+2023-01-02,"Lunch, downtown",travel,25.99
+2022-07-18,Bus pass,GROCERIES,28.36
+2023-10-21,"Taxi, airport",FOOD,46.28
+2024-07-29,"Taxi, airport",fuel,23.92
+2022-11-13,Parking,GROCERIES,2.5
+2024-07-16,"Dinner, 4 people",Travel,28.11
+2024-04-01,,Insurance,7.17
+2023-10-10,,Utilities,64.49
+2023-03-24,Gas station,rent,14.01
+2024-01-07,"Dinner, 4 people",FOOD,46.37
+2022-06-19,Monthly plan,Food,56.89
+2023-05-14,"Gift, birthday",Utilities,114.52
+2022-05-22,"Book ""Dune""",DINING OUT,4.81
+2022-08-04,"Gift, birthday",fuel,13.67
+2024-02-25,"Lunch, downtown",dining out,19.52
+2022-09-07,Coffee,Food,30.72
+2022-05-17,Pharmacy,Health,60
+2022-09-09,Coffee,utilities,12.66
+2023-10-16,Bus pass,FOOD,74.25
+2023-12-24,Streaming,groceries,11.6
+2023-12-18,Donation,Fuel,145.26
+2023-09-04,"Gift, birthday",Subscriptions,35.42
+2024-07-29,Movie night,food,110.63
+2023-01-13 ,"Lunch, downtown",  Travel	, 133.39	
+2024-04-24,Parking,subscriptions,6.74
+2023-11-05,Refund,food,17.62
+2023-04-04,Weekly shop,Travel,138.27
+2022-02-07,,groceries,7.2
+2024-08-29,Refund,groceries,15.41
+2024-11-12,"Book ""Dune""",Charity,103.24
+2022-09-25,"Taxi, airport",groceries,10.77
+2023-08-19,"Book ""Dune""",utilities,101.45
+2022-08-23,Pharmacy,FOOD,26.02
+2022-12-22,Weekly shop,Entertainment,29.77
+2022-05-25,Parking,utilities,14.48
+2023-07-02,Weekly shop,groceries,29.22
+2023-12-31,Refund,Groceries,303.72
+2023-11-17,Cafe Zoe,health,54.99
+2024-10-26,Bus pass,travel,-17.41
+2023-11-01,Coffee,ENTERTAINMENT,40.73
+2024-03-23,Online order,groceries,60.97
+2023-06-13,Refund,Utilities,15.17
+2022-02-24,"Taxi, airport",CLOTHING,63.31
+2022-05-03,Weekly shop,DINING OUT,16.02
+2022-03-10,Pharmacy,Groceries,83.48
+2023-02-16,Pharmacy,Dining Out,17.54
+2023-12-19,"Dinner, 4 people",groceries,7.1
+2024-12-27,"Book ""Dune""",food,21.62
+2024-12-14,Monthly plan,food,59.15
+2022-05-16,"Dinner, 4 people",fuel,2.88
+2023-09-21,"Gift, birthday",Food,16.29
+2024-03-30,Donation,Fuel,42.10
+2024-02-06,Parking,FUEL,29.9
+2023-10-07,"Dinner, 4 people"," INSURANCE ","18.73"
+2023-03-28,Gas station,food,51.99
+2024-07-08,Donation,utilities,99.25
+2023-07-17,Weekly shop,Utilities,25.68
+2022-09-16,Weekly shop,food,10.62
+2023-04-03,,food,37.95
+2022-11-27,"Lunch, downtown",FOOD,6.82
+2022-07-29,"Gift, birthday",subscriptions,106.63
+2022-06-01,,FOOD,30.48
+2022-11-21,"Lunch, downtown",insurance,78.76
+2023-02-11,Refund," SUBSCRIPTIONS ","14.81"
+2022-07-21,"Lunch, downtown",travel,120.22
+2022-03-25,"Taxi, airport",Fuel,13.82
+2024-04-16,Cafe Zoe,groceries,7.04
+2022-04-10,"Dinner, 4 people",groceries,31.61
+2022-03-27,Electric bill,HEALTH,224.44
+2024-02-10,Pharmacy,food,-12.08
+2023-01-24,Monthly plan,GROCERIES,22.32
+2022-04-19,Monthly plan,subscriptions,16.06
+2023-10-25,Coffee,clothing,-6.92
+2024-11-22,"Book ""Dune""",food,14.18
+2024-11-22,Parking,FOOD,47.90
+2024-09-06,Cafe Zoe,dining out,105.88
+2022-07-12,Bus pass,GIFTS,29.85
+2023-08-30,,Utilities,10.25
+2023-10-11,Pharmacy,FUEL,91.81
+2022-05-23,"Dinner, 4 people",Travel,11.16
+2023-08-21,Movie night,Entertainment,12.58
+2024-11-13,Online order,RENT,62.01
+2023-09-12,Donation,food,59.72
+2022-06-29,Monthly plan,utilities,16.3
+2024-05-07,Streaming,dining out,112.84
+2024-05-06,,DINING OUT,7.24
+2023-11-12,Streaming,groceries,17.81
+2023-07-30,Online order,ENTERTAINMENT,3.65
+2023-07-26,Coffee,Groceries,-7.47
+2023-08-09,Pharmacy,Education,10.45
+2022-12-11,Monthly plan,food,85.06
+2023-10-26,Pharmacy,CHARITY,-7.21
+2023-01-25,Electric bill,Groceries,26.36
+2023-12-12,Streaming,GROCERIES,10.38
+2023-04-23,Cafe Zoe,food,88.32
+2023-02-03,Movie night,Utilities,15.03
+2022-08-10,"Book ""Dune""",health,177.95
+2022-01-27,Pharmacy,gifts,26.33
+2022-12-31,Online order,Gifts,23.59
+2024-06-15,Gas station,CLOTHING,31.89
+2023-03-14,Refund,FOOD,7.65
+2024-03-08,"Taxi, airport",food,155.44
+2024-08-03,"Book ""Dune""",Travel,31.79
+2023-12-10,Cafe Zoe,food,24.67
+2024-05-22,,dining out,19.91
+2024-01-15,Coffee,clothing,-27.01
+2023-10-15,Electric bill,fuel,8.51
+2024-01-22,"Book ""Dune""",entertainment,7.48
+2024-02-10,Pharmacy,Food,9.45
+2023-08-06,Coffee,travel,28.64
+2022-07-04,Streaming,food,97.43
+2024-01-09,Bus pass,food,52.48
+2023-08-01,"Book ""Dune""",groceries,23.27
+2022-09-18,"Taxi, airport",food,5.31
+2024-12-05,"Lunch, downtown",FOOD,4.2
+2023-10-05,Cafe Zoe,dining out,9.79
+2024-06-25,Electric bill,CLOTHING,14.38
+2022-08-26,Donation,Groceries,37.74
+2023-01-20,"Lunch, downtown",fuel,59.36
+2023-04-22,Electric bill,groceries,18.72
+2024-12-03,,Education,19.53
+2022-06-06,Movie night,groceries,12.91
+2023-06-02,Online order,groceries,63.96
+2024-08-21,"Taxi, airport",groceries,105.21
+2023-03-09,Streaming,rent,16.50
+2024-11-29,Pharmacy,Health,108.41
+2022-04-01,"Book ""Dune""",Education,35.15
+2024-05-07,"Dinner, 4 people",ENTERTAINMENT,11.62
+2023-07-31,Pharmacy,utilities,7.60
+2023-05-31,Movie night,food,36.95
+2022-11-22,Online order,GROCERIES,34.61
+2023-09-15,Parking,food,3.02
+2024-12-16,Donation,charity,5.32
+2023-04-24,Donation,groceries,29.84
+2023-01-23,"Taxi, airport",gifts,15.78
+2022-11-23,"Dinner, 4 people",Food,11.81
+2023-11-20,"Taxi, airport",FUEL,16.38
+2023-10-13,"Gift, birthday",subscriptions,6.84
+2024-04-23,Parking,TRAVEL,60.39
+2024-10-21,Weekly shop,dining out,59.83
+2024-09-28,Bus pass,food,17.96
+2022-10-27,Movie night,RENT,6.72
+2024-06-29,Monthly plan,education,45.02
+2024-07-20,Monthly plan,Entertainment,20.61
+2024-07-12,Gas station,subscriptions,7.61
+2024-02-21,"Gift, birthday",food,7.39
+2024-04-27,Electric bill,food,11.39
+2024-10-06,Streaming,utilities,5.4
+2024-10-08,Electric bill,travel,39.27
+2022-01-06,"Dinner, 4 people",food,49.18
+2022-09-06,Online order,UTILITIES,13.85
+2023-09-03,Gas station,Food,22.14
+2022-03-22,Parking,groceries,60.46
+2022-09-01,Electric bill,clothing,-8.66
+2023-06-04,"Taxi, airport",entertainment,14.81
+2024-01-24,Streaming,Food,154.52
+2024-08-17,Gas station,health,29.33
+2022-02-15,Weekly shop,subscriptions,30.18
+2023-08-11,Parking,Travel,36.05
+2024-01-07,Streaming," groceries ","27.12"
+2023-03-12,Bus pass,dining out,45.57
+2023-05-05,"Book ""Dune""",groceries,11.28
+2023-11-02,"Lunch, downtown",entertainment,31.13
+2023-10-31,Refund,Food,8.69
+2024-11-08,Gas station,GROCERIES,28.74
+2023-12-20,"Lunch, downtown",groceries,37.36
+2024-02-19,Donation," Health ","45.62"
+2024-03-01,Streaming,health,27.11
+2024-10-07,Refund,DINING OUT,35.43
+2024-12-26,Online order
+2022-06-02,Monthly plan,entertainment,21.44
+2022-11-18,Streaming,GROCERIES,42.67
+2023-03-08,Monthly plan,Food,11.98
+2024-12-21,,utilities,27.86
+2024-02-15,Online order,dining out,54.20
+2023-05-30,Gas station,groceries,14.32
+2023-12-31
+2024-08-22,Cafe Zoe,Food,8.59
+2024-01-14,Gas station,Fuel,28.22
+2024-10-25,Pharmacy,Subscriptions,28.62
+2022-05-17,Gas station,travel,24.98
+2023-12-31,Donation,FOOD,24.22
+2023-11-11,Bus pass,food,51.59
+2024-01-30,Monthly plan,entertainment,18.17
+2024-11-27,"Taxi, airport",DINING OUT,7.58
+2022-07-04,Monthly plan,food,94.77
+	2024-08-01  ,"Taxi, airport",	gifts ,48.2	
+2022-08-20,Monthly plan,food,24.52
+2024-08-09,Parking,food,44.96
+2023-01-06,"Lunch, downtown",GROCERIES,23.32
+2024-09-17,"Book ""Dune""",health,20.04
+2022-10-05,Streaming,Food,93
+2024-09-03,Refund,GROCERIES,7.9
+2022-11-15,,food,15.2
+2022-02-07,Bus pass,Entertainment,18.39
+2024-10-21,Coffee,groceries,37.44
+2023-01-14,"Dinner, 4 people",fuel,48.37
+2022-02-23,,groceries,14.84
+2024-08-16,Online order,fuel,15.98
+2024-06-30,Refund,HEALTH,89.56
+2022-09-06,,GROCERIES,10.67
+2022-12-08,Online order,food,23.80
+2023-08-24,Movie night,GROCERIES,123.34
+2022-02-25,Weekly shop,Gifts,79.05
+2023-02-21,Gas station,GROCERIES,32.83
+2022-10-30,Movie night,GROCERIES,6.04
+2023-08-29,Weekly shop,utilities,21.25
+2022-10-13,Online order,charity,64.32
+2023-09-14,Monthly plan,groceries,38.87
+2024-09-03,Streaming,FOOD,34.81
+2024-02-24,"Gift, birthday",Food,36.08
+2024-03-11,Parking,GROCERIES,16.62
+2023-03-04,Coffee,HEALTH,39.3
+2024-12-28,"Gift, birthday",Groceries,20.64
+2023-02-25,,GIFTS,11.83
+2023-01-18,Movie night,Food,44.97
+2024-07-26,"Book ""Dune""",food,226.06
+2023-12-27,Parking,FUEL,22.33
+2024-09-11,"Taxi, airport",groceries,48.65
+2023-12-05,Streaming,food,11.94
+2024-10-22,,entertainment,4.43
+2023-06-12,"Dinner, 4 people",fuel,52.22
+2023-03-13,Movie night,Groceries,23.79
+2024-02-26,Online order,GROCERIES,143.54
+2024-11-14,Electric bill,groceries,47.47
+2022-11-09,"Lunch, downtown",Dining Out,-29.61
+2022-10-11,,Entertainment,87.13
+2023-06-15,Electric bill,Entertainment,25.37
+2024-12-31,Movie night,travel,42.06
+2024-09-02,"Lunch, downtown",Food,11.61
+2024-05-31,"Book ""Dune""",UTILITIES,68.49
+2022-09-03,Weekly shop,utilities,121.35
+2022-05-16,Electric bill,FOOD,57.19
+2022-03-07,Cafe Zoe,entertainment,29.13
+2022-10-25,Online order,Food,88.39
+2024-07-30,Streaming," TRAVEL ","132.69"
+2022-05-29,Streaming,GROCERIES,29.75
+2023-01-17,Cafe Zoe,,6.84
+2022-04-21,Monthly plan,Health,25.25
+2022-10-21,Coffee,food,33.68
+2022-09-11,Electric bill,utilities,55.78
+2022-03-20,,utilities,35.59
+2024-08-05,"Gift, birthday",fuel,258.58
+2023-04-02,Bus pass,subscriptions,60.26
+2022-04-23,"Book ""Dune""",FOOD,39.31
+2024-10-15,Coffee,food,40.33
+2023-04-28,Gas station,Groceries,58.33
+2022-05-25,,groceries,19.12
+2022-12-24,"Book ""Dune""",dining out,93.97
+2023-06-03,Weekly shop,Utilities,11.56
+	2024-10-06  ,Donation,groceries	,  45.38
+2023-08-11,Pharmacy,Travel,33.65
+2024-10-01,"Taxi, airport",Entertainment,16.75
+2023-07-01,Gas station,UTILITIES,+4
+2023-04-23,Movie night,Travel,217.37
+2023-08-25,Streaming,gifts,30.13
+2023-09-05,,GROCERIES,38.73
+2022-06-16,Cafe Zoe,subscriptions,10.98
+2023-09-04,Bus pass,groceries,13.63
+2022-09-24,,Food,9.97
+2022-10-18,Cafe Zoe,CHARITY,13.22
+2024-10-21,Donation,food,17.75
+2023-09-20,Parking,FOOD,57.60
+2023-10-06,"Taxi, airport",ENTERTAINMENT,21.25
+2023-11-25,Online order,Fuel,153.47
+2022-07-23,Cafe Zoe,food,17.78
+2023-10-27,Movie night,Utilities,15.25
+2022-08-25,Monthly plan,UTILITIES,-56.44
+2023-02-30,Coffee,Gifts,13.99
+2022-07-12,"Taxi, airport",groceries,36.29
+2022-04-17,,FOOD,26.40
+2024-02-27,"Taxi, airport",charity,59.78
+2022-06-01,"Dinner, 4 people",insurance,22.73
+2022-05-18,Refund,ENTERTAINMENT,28.89
+2022-01-19,Cafe Zoe,Groceries,36.48
+2023-05-03,Monthly plan,food,105.19
+2022-09-11,Streaming,CHARITY,40.12
+2023-06-13,Movie night,Health,70.40
+2022-09-06,"Gift, birthday",utilities,5.96
+2024-09-05,Streaming,subscriptions,15.63
+2024-02-03,Online order,fuel,40.37
+2024-03-15,"Taxi, airport",FUEL,14.98
+2022-02-02,Electric bill,health,19.02
+2022-03-15,"Taxi, airport",food,7.45
+2022-10-07,Bus pass," entertainment ","68.20"
+2022-04-27,Cafe Zoe,Entertainment,37.99
+2023-04-13,Donation,Dining Out,17.2
+2023-07-14,Pharmacy,subscriptions,9.86
+2024-06-19,"Book ""Dune""",GROCERIES,22.09
+2024-08-08,"Lunch, downtown",subscriptions,18.00
+2023-06-07,"Taxi, airport",groceries,-33.65
+2024-01-17,Bus pass,Subscriptions,25.20
+2023-01-16,Parking,entertainment,39.21
+2024-11-14,"Taxi, airport",food,165.28
+2022-01-02,Online order,groceries,13.16
+2022-04-13,Coffee,dining out,45.97
+2023-09-02,Electric bill,fuel,21.96
+2023-04-26,"Dinner, 4 people",Groceries,37.87
+2022-01-18,Bus pass,SUBSCRIPTIONS,10.63
+2022-01-20,Bus pass,food,25.06
+2023-09-23,"Taxi, airport",utilities,16.91
+2022-01-24,Pharmacy,UTILITIES,23.03
+2023-08-13,"Lunch, downtown",Fuel,26.94
+2023-10-02,Refund,clothing,6.69
+2022-03-22,Cafe Zoe,travel,12.12
+2022-02-17,"Gift, birthday",travel,14.96
+2023-06-28,"Dinner, 4 people",Clothing,36.95
+2022-08-07,"Gift, birthday",subscriptions,18.43
+2024-01-22,Streaming,subscriptions,7.74
+2022-10-25,"Lunch, downtown",groceries,55.96
+2023-01-14,Streaming,Insurance,8.68
+2023-07-14,Gas station," FOOD ","101.14"
+2024-12-01,"Gift, birthday",Food,14.17
+2022-07-15,Refund,groceries,17.34
+2022-01-05,Streaming,food,37.26
+2024-03-30,Bus pass,groceries,65.84
+2022-01-18,Refund,ENTERTAINMENT,16.79
+2024-06-04,Parking,SUBSCRIPTIONS,25.86
+2023-01-22,Bus pass,health,28.62
+2022-01-28,Coffee,groceries,120.22
+2023-04-17,Online order," dining out ","7.51"
+2023-02-20,Donation,Fuel,122.72
+2022-12-09,Refund,UTILITIES,14.09
+2024-08-02,,Rent,21.86
+2024-03-11,,fuel,4.40
+2022-07-23,Online order,FOOD,13.42
+2022-03-29,Cafe Zoe,insurance,7.07
+2022-06-01,Monthly plan,travel,23.26
+2022-08-29,Gas station,travel,95.30
+2022-07-28,"Taxi, airport",DINING OUT,6.77
+2023-08-25,Bus pass,subscriptions,7.97
+2022-05-14,Pharmacy,DINING OUT,29.55
+2022-04-19,Cafe Zoe,DINING OUT,11.07
+2023-11-10,Parking
+2024-05-30,Bus pass,DINING OUT,-71.12
+2023-05-19,Donation,Health,11.01
+2023-11-19,Movie night,clothing,97.64
+2024-11-20,Movie night,,39.69
+2022-04-22,Pharmacy," food ","46.23"
+ 2024-07-15  ,Coffee,dining out	,188.61  
+2022-06-26,Donation,groceries,211.37
+2024-11-09,Online order,HEALTH,80.36
+2022-08-13,"Gift, birthday",travel,31.8
+2022-11-05,"Gift, birthday",HEALTH,5-
+2022-07-21,Movie night,food,14.91
+2023-12-03,Streaming,TRAVEL,4.28
+2022-03-17,Parking,food,88.16
+2023-09-24,Monthly plan,groceries,19.38
+2022-10-17,,fuel,5.59
+2022-10-04,"Taxi, airport",subscriptions,72.34
+2023-13-05,Bus pass,Fuel,46.18
+2023-05-22,Streaming,food,202.1
+2022-06-08,Movie night,DINING OUT,42.37
+2022-07-26,"Dinner, 4 people",Clothing,13.33
+2023-02-18,Donation,subscriptions,7.10
+2023-05-04,Electric bill,gifts,169.51
+2022-10-26,Electric bill,utilities,25.36
+2023-02-21,"Taxi, airport",Groceries,20.16
+2024-06-13,"Taxi, airport",groceries,23.84
+2024-03-31,"Taxi, airport",Food,6.74
+2024-02-16,Pharmacy,UTILITIES,48.08
+2022-03-03,"Lunch, downtown",food,33.16
+2022-07-21,Donation,Groceries,22.5
+2024-10-02,"Taxi, airport",Subscriptions,52.59
+2024-05-19,"Taxi, airport",groceries,74.00
+2024-11-02,Bus pass,entertainment,27.34
+2022-05-20,"Dinner, 4 people",food,13.81
+2022-02-06,Monthly plan,FOOD,5.47
+2022-01-30,Movie night,CLOTHING,46.29
+2024-01-19,Gas station,entertainment,23.98
+2024-10-22,Streaming,Groceries,24.13
+2024-08-12,"Gift, birthday",DINING OUT,87.74
+2022-02-24,Gas station,Groceries,41.36
+2023-10-09,"Gift, birthday",,5.96
+2022-08-02,Gas station,food,43.36
+2023-06-02,Online order,RENT,43.71
+2022-09-09,Electric bill,groceries,17.43
+2024-11-05,"Dinner, 4 people",insurance,34.91
+2024-02-28,Refund,Insurance,7.06
+2024-08-14,"Dinner, 4 people",Health,85.89
+2023-04-01,Donation,Gifts,164.25
+2023-04-25,"Gift, birthday",FOOD,2.03
+2022-10-30,"Taxi, airport",travel,276.69
+2022-03-16,"Book ""Dune""",Clothing,16.26
+2022-01-25,Bus pass,groceries,34.05
+2022-12-19,,FOOD,226.04
+2022-06-07,,insurance,39.44
+2024-10-28,"Gift, birthday",food,12.35
+2022-09-10,"Lunch, downtown",travel
+2024-07-04,Coffee,GROCERIES,7.16
+2024-03-28,"Lunch, downtown",utilities,18.13
+2022-10-14,Streaming,Groceries,60.64
+2022-03-29,Bus pass,gifts,63.37
+2022-07-08,,entertainment,68.61
+2024-05-04,Movie night,food,22.17
+2023-04-18,,Rent,3.92
+2023-06-05,Pharmacy,Utilities,65.91
+2024-05-03,Cafe Zoe,groceries,17.99
+2023-09-27,"Book ""Dune""",Groceries,47.39
+2023-11-12,Movie night,groceries,58.41
+2022-01-11,Monthly plan,Food,8.13
+2022-01-26,"Book ""Dune""",Fuel,26.98
+2024-05-06,"Lunch, downtown",dining out,154.27
+2022-03-01,Coffee,DINING OUT,58.21
+2022-02-13,Monthly plan,GROCERIES,31.23
+2024-12-05,Coffee,groceries,81.52
+2023-09-11,Gas station,fuel,12.84
+2024-08-24,Streaming,rent,27.21
+2023-01-17,"Taxi, airport",Travel,44.37
+2023-09-01,"Book ""Dune""",GIFTS,44.81
+2023-09-17,Cafe Zoe,entertainment,12.61
+2022-05-31,Parking,FOOD,57.22
+2024-09-30,Monthly plan,groceries,29.29
+2024-04-01,"Dinner, 4 people",food,22.21
+2022-08-10,Gas station,food,43.49
+2023-03-06,Bus pass,food,90.34
+2022-07-15,Donation,utilities,13.43
+2022-11-20,Coffee,utilities,4.77
+2024-05-26,Donation,ENTERTAINMENT,-45.62
+2023-08-03,"Gift, birthday",utilities,53.33
+2023-08-19,Gas station,rent,14.79
+2022-06-11,Bus pass,Education,37.25
+2023-06-17,Movie night,groceries,10.17
+2023-05-14,Parking,health,56.44
+2024-01-05 ,Refund,Entertainment  ,	41.93  
+2024-08-24,Donation,GROCERIES,54.64
+2022-05-15,Weekly shop,groceries,108.63
+2023-08-28,Streaming,food,47.89
+2024-10-29,Bus pass,fuel,14.55
+2022-03-17,Parking,clothing,79.46
+2023-02-25,Weekly shop,Travel,-45.57
+2022-09-08,Coffee,utilities,52.55
+2023-05-04,Online order,travel,8.74
+2022-01-11,Electric bill,Groceries,24.82
+2022-04-06,Gas station,insurance,63.37
+2023-10-22,Cafe Zoe,FOOD,119.59
+2024-06-09,"Lunch, downtown",clothing,32.44
+2024-05-27,Pharmacy,subscriptions,16.87
+2024-07-08,Electric bill,GROCERIES,-51.53
+2023-11-21,Bus pass,clothing,61.07
+2023-05-07,,FOOD,20.06
+2024-03-13,"Lunch, downtown",Food,14.59
+2023-08-18,Weekly shop,Dining Out,144.95
+2022-01-02,"Lunch, downtown",Travel,17.09
+2022-02-23,Streaming,groceries,41.42
+2022-02-04,Bus pass,fuel,50.92
+2023-06-09,Electric bill,GROCERIES,114.84
+2024-10-08,,Food,24.88
+2023-04-02,"Lunch, downtown",fuel,-49.98
+2024-05-07,Streaming,food,19.2
+2022-03-05,Monthly plan,travel,2.53
+2024-03-26,Coffee,FOOD,88.03
+2024-09-30,Pharmacy," Food ","15.00"
+2022-10-01,,EDUCATION,43.39
+2023-01-02,Online order,Food,48.3
+2023-10-20,Donation,Utilities,-11.36
+2024-06-18,Cafe Zoe,food,11.96
+2024-08-16,"Dinner, 4 people",travel,4.41
+2023-06-18,Monthly plan,entertainment,78.33
+2024-05-20,Monthly plan,dining out,48.97
+2024-01-23,Refund,TRAVEL,52.36
+2023-01-03,"Dinner, 4 people",EDUCATION,8.54
+2022-08-09,Movie night,gifts,40.04
+2022-07-14,,GROCERIES,-12.74
+2024-03-26,Monthly plan,fuel,22.29
+2024-04-30,Cafe Zoe,UTILITIES,33.21
+2022-05-06,"Book ""Dune""",Food,36.17
+2024-10-18,Donation,Utilities,26.83
+2024-12-25,Movie night,ENTERTAINMENT,7.08
+2024-12-10,Pharmacy,food,160.53
+2023-03-18,Cafe Zoe,Rent,7.74
+2024-02-09
+2022-07-03,"Gift, birthday",groceries,23.38
+2022-01-11,Streaming,GROCERIES,22.48
+2022-01-31,"Dinner, 4 people",Groceries,77.66
+2022-04-29,Refund,Food,16.27
+2023-06-10,Bus pass,food,56.84
+2024-05-23,Online order,CHARITY,39.73
+2022-10-07,Movie night,Food,4.48
+2023-07-01,"Lunch, downtown",health,55.11
+2022-05-22,Streaming,food,20.65
+2024-01-23,"Gift, birthday",FOOD,28.48
+2024-12-23,Parking,Clothing,20.12
+2023-12-21,"Gift, birthday",Food,7.15
+2023-07-30,"Gift, birthday",groceries,233.74
+2024-01-16,Donation,Subscriptions,6.61
+2022-10-02,"Dinner, 4 people",Utilities,95.4
+2023-01-16,Monthly plan,utilities,15.42
+2022-05-14,Bus pass," Fuel ","-60.37"
+2022-12-18,"Lunch, downtown",Clothing,13.92
+2024-04-22,Pharmacy,entertainment,88.55
+2024-01-17,Bus pass,Utilities,7.25
+2022-08-28,"Dinner, 4 people"," groceries ","17.07"
+2024-07-25,"Book ""Dune""",food,74.9
+2022-03-24,Electric bill,entertainment,17.07
+2024-02-22,"Lunch, downtown",GROCERIES,53.51
+2024-05-20,,Groceries,44.34
+2022-05-11,Cafe Zoe,Fuel,21.50
+2022-06-22,"Dinner, 4 people",DINING OUT,80.56
+2023-04-11,Weekly shop,entertainment,83.63
+2022-02-24,Movie night,food,19.11
+2023-06-22,Parking,travel,12.08
+2024-12-04,Pharmacy,DINING OUT,24.83
+2023-03-10,Pharmacy,food,21.15
+2022-06-16,"Gift, birthday",food,27.58
+2024-11-17,Weekly shop,Insurance,48.33
+2024-08-19,Online order,Food,35.97
+2022-07-17,Parking,FOOD,6.68
+2022-11-05,Online order,groceries,63.83
+2023-03-15,Coffee,groceries,18.45
+2022-09-15,Gas station,education,18.95
+2022-11-26,Pharmacy,groceries,13.86
+2024-12-19,Gas station,groceries,44.47
+2023-09-08,Streaming,groceries,24.03
+2022-06-11,Streaming,entertainment,18.89
+2024-03-16,Online order,subscriptions,17.07
+2022-11-30,Gas station,groceries,58.09
+2024-12-31,Gas station,FOOD,2.89
+2024-07-09,Electric bill,Food,6.72
+2022-06-24,Refund,RENT,109.70
+2023-03-20,Weekly shop,groceries,147.25
+2023-07-15,Online order,subscriptions,83.94

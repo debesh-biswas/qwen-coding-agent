@@ -1,0 +1,938 @@
+2026-09-17T14:00:00.982+00:00 INFO  [inv-w2] task=task-24993 class=ReservationExpirySweeper started batch=51
+2026-09-17T14:00:02.486+00:00 INFO  [inv-w2] task=task-24993 class=ReservationExpirySweeper completed in 1504ms
+2026-09-17T14:00:25.278+00:00 INFO  inventory-api hold=H-b4c8bf sku=SKU-18899 qty=2 worker=inv-w2 granted wait=28ms
+2026-09-17T14:00:25.347+00:00 INFO  inventory-api hold=H-33f7d1 sku=SKU-42527 qty=1 worker=inv-w1 granted wait=9ms
+2026-09-17T14:00:25.416+00:00 DEBUG inventory-api hold=H-b4c8bf released
+2026-09-17T14:00:25.419+00:00 DEBUG inventory-api hold=H-33f7d1 released
+2026-09-17T14:00:31.096+00:00 DEBUG inventory-api hold=H-a6922b released
+2026-09-17T14:00:35.227+00:00 INFO  [inv-w4] task=task-64804 class=StockLedgerCompactor started batch=5
+2026-09-17T14:00:36.055+00:00 WARN  [inv-w4] task=task-64804 class=StockLedgerCompactor retrying after transient error (attempt 2/5)
+2026-09-17T14:00:36.884+00:00 INFO  [inv-w4] task=task-64804 class=StockLedgerCompactor completed in 1657ms
+2026-09-17T14:00:44.152+00:00 DEBUG inventory-api hold=H-2f452b released
+2026-09-17T14:00:50.033+00:00 DEBUG inventory-api hold=H-b435fb released
+2026-09-17T14:01:00.074+00:00 INFO  [inv-w4] task=task-99730 class=StockLedgerCompactor started batch=21
+2026-09-17T14:01:00.262+00:00 DEBUG inventory-api hold=H-2706b4 released
+2026-09-17T14:01:01.701+00:00 DEBUG inventory-api hold=H-99a2ce released
+2026-09-17T14:01:03.587+00:00 INFO  [inv-w4] task=task-99730 class=StockLedgerCompactor completed in 3513ms
+2026-09-17T14:01:17.367+00:00 INFO  [inv-w4] task=task-50816 class=StockLedgerCompactor started batch=49
+2026-09-17T14:01:18.840+00:00 INFO  [inv-w1] task=task-62139 class=ReservationExpirySweeper started batch=21
+2026-09-17T14:01:20.919+00:00 INFO  [inv-w1] task=task-62139 class=ReservationExpirySweeper completed in 2079ms
+2026-09-17T14:01:21.341+00:00 INFO  [inv-w4] task=task-50816 class=StockLedgerCompactor completed in 3974ms
+2026-09-17T14:01:29.997+00:00 INFO  inventory-api hold=H-db168c sku=SKU-29058 qty=2 worker=inv-w1 granted wait=23ms
+2026-09-17T14:01:30.114+00:00 INFO  inventory-api hold=H-8a6649 sku=SKU-24305 qty=1 worker=inv-w2 granted wait=63ms
+2026-09-17T14:01:30.347+00:00 DEBUG inventory-api hold=H-db168c released
+2026-09-17T14:01:30.350+00:00 DEBUG inventory-api hold=H-8a6649 released
+2026-09-17T14:01:40.652+00:00 INFO  inventory-api hold=H-87030f sku=SKU-32810 qty=2 worker=inv-w1 granted wait=28ms
+2026-09-17T14:01:40.720+00:00 INFO  inventory-api hold=H-98690b sku=SKU-49075 qty=1 worker=inv-w6 granted wait=51ms
+2026-09-17T14:01:40.879+00:00 DEBUG inventory-api hold=H-87030f released
+2026-09-17T14:01:40.882+00:00 DEBUG inventory-api hold=H-98690b released
+2026-09-17T14:02:06.878+00:00 INFO  inventory-api hold=H-819376 sku=SKU-27013 qty=2 worker=inv-w4 granted wait=32ms
+2026-09-17T14:02:06.948+00:00 INFO  inventory-api hold=H-b27795 sku=SKU-30379 qty=1 worker=inv-w6 granted wait=30ms
+2026-09-17T14:02:07.146+00:00 DEBUG inventory-api hold=H-819376 released
+2026-09-17T14:02:07.149+00:00 DEBUG inventory-api hold=H-b27795 released
+2026-09-17T14:02:28.427+00:00 INFO  [inv-w3] task=task-91567 class=SkuCacheWarmer started batch=48
+2026-09-17T14:02:29.331+00:00 INFO  [inv-w3] task=task-91567 class=SkuCacheWarmer completed in 904ms
+2026-09-17T14:02:29.438+00:00 DEBUG inventory-api hold=H-9e8970 released
+2026-09-17T14:02:34.610+00:00 INFO  [inv-w5] task=task-95291 class=StockLedgerCompactor started batch=17
+2026-09-17T14:02:35.880+00:00 INFO  [inv-w5] task=task-95291 class=StockLedgerCompactor completed in 1270ms
+2026-09-17T14:02:58.856+00:00 DEBUG inventory-api hold=H-1844af released
+2026-09-17T14:03:19.465+00:00 DEBUG inventory-api hold=H-213ef0 released
+2026-09-17T14:03:19.501+00:00 DEBUG inventory-api hold=H-9442c8 released
+2026-09-17T14:03:25.182+00:00 DEBUG inventory-api hold=H-4bab6a released
+2026-09-17T14:03:27.140+00:00 INFO  [inv-w4] task=task-77169 class=StockLedgerCompactor started batch=36
+2026-09-17T14:03:28.084+00:00 INFO  [inv-w4] task=task-77169 class=StockLedgerCompactor completed in 944ms
+2026-09-17T14:03:35.107+00:00 INFO  [inv-w5] task=task-41218 class=ReservationExpirySweeper started batch=47
+2026-09-17T14:03:38.205+00:00 INFO  [inv-w5] task=task-41218 class=ReservationExpirySweeper completed in 3098ms
+2026-09-17T14:03:41.596+00:00 DEBUG inventory-api hold=H-1816d8 released
+2026-09-17T14:03:50.217+00:00 INFO  [inv-w2] task=task-89715 class=BackorderReconciler started batch=56
+2026-09-17T14:03:53.605+00:00 INFO  [inv-w2] task=task-89715 class=BackorderReconciler completed in 3388ms
+2026-09-17T14:04:00.071+00:00 DEBUG inventory-api hold=H-49a0dd released
+2026-09-17T14:04:00.602+00:00 INFO  [inv-w2] task=task-11827 class=SkuCacheWarmer started batch=37
+2026-09-17T14:04:03.991+00:00 INFO  [inv-w2] task=task-11827 class=SkuCacheWarmer completed in 3389ms
+2026-09-17T14:04:33.865+00:00 DEBUG inventory-api hold=H-9afe5a released
+2026-09-17T14:04:43.497+00:00 INFO  inventory-api hold=H-efaa19 sku=SKU-52380 qty=2 worker=inv-w4 granted wait=27ms
+2026-09-17T14:04:43.559+00:00 INFO  inventory-api hold=H-287f83 sku=SKU-38691 qty=1 worker=inv-w6 granted wait=30ms
+2026-09-17T14:04:43.748+00:00 DEBUG inventory-api hold=H-efaa19 released
+2026-09-17T14:04:43.751+00:00 DEBUG inventory-api hold=H-287f83 released
+2026-09-17T14:04:44.088+00:00 INFO  [inv-w6] task=task-57498 class=SkuCacheWarmer started batch=16
+2026-09-17T14:04:47.490+00:00 INFO  [inv-w6] task=task-57498 class=SkuCacheWarmer completed in 3402ms
+2026-09-17T14:04:54.641+00:00 INFO  [inv-w6] task=task-44695 class=BackorderReconciler started batch=38
+2026-09-17T14:04:55.598+00:00 INFO  [inv-w6] task=task-44695 class=BackorderReconciler completed in 957ms
+2026-09-17T14:04:57.831+00:00 DEBUG inventory-api hold=H-91f40a released
+2026-09-17T14:05:04.219+00:00 INFO  [inv-w6] task=task-53610 class=StockLedgerCompactor started batch=58
+2026-09-17T14:05:04.650+00:00 WARN  [inv-w6] task=task-53610 class=StockLedgerCompactor slow scan 2167ms
+2026-09-17T14:05:05.082+00:00 INFO  [inv-w6] task=task-53610 class=StockLedgerCompactor completed in 863ms
+2026-09-17T14:05:11.700+00:00 INFO  [inv-w3] task=task-30696 class=StockLedgerCompactor started segment=ledger-2026-09-17 mode=full
+2026-09-17T14:05:15.259+00:00 DEBUG inventory-api hold=H-29908f released
+2026-09-17T14:05:16.213+00:00 INFO  [inv-w5] task=task-43008 class=StockLedgerCompactor started batch=38
+2026-09-17T14:05:19.776+00:00 INFO  [inv-w5] task=task-43008 class=StockLedgerCompactor completed in 3563ms
+2026-09-17T14:05:20.700+00:00 WARN  [inv-w3] task=task-30696 class=StockLedgerCompactor waiting for ledger segment lock held by txn-4471 (waited 5000ms)
+2026-09-17T14:05:22.632+00:00 INFO  [inv-w5] task=task-85899 class=ReservationExpirySweeper started batch=11
+2026-09-17T14:05:24.152+00:00 INFO  [inv-w5] task=task-85899 class=ReservationExpirySweeper completed in 1520ms
+2026-09-17T14:05:25.357+00:00 DEBUG inventory-api hold=H-7fc570 released
+2026-09-17T14:05:25.800+00:00 INFO  [inv-w3] task=task-30696 class=StockLedgerCompactor completed in 14100ms
+2026-09-17T14:05:29.481+00:00 DEBUG inventory-api hold=H-afb3f1 released
+2026-09-17T14:05:51.724+00:00 INFO  [inv-w4] task=task-59282 class=SkuCacheWarmer started batch=17
+2026-09-17T14:05:52.565+00:00 DEBUG inventory-api hold=H-8079e2 released
+2026-09-17T14:05:53.890+00:00 DEBUG inventory-api hold=H-0eaa89 released
+2026-09-17T14:05:55.377+00:00 ERROR [inv-w4] task=task-59282 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.call(SkuCacheWarmer.java:433)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:05:59.596+00:00 DEBUG inventory-api hold=H-3b1229 released
+2026-09-17T14:06:08.416+00:00 INFO  [inv-w6] task=task-68014 class=BackorderReconciler started batch=13
+2026-09-17T14:06:11.973+00:00 INFO  [inv-w6] task=task-68014 class=BackorderReconciler completed in 3557ms
+2026-09-17T14:06:22.834+00:00 DEBUG inventory-api hold=H-2c70b0 released
+2026-09-17T14:06:31.847+00:00 INFO  [inv-w2] task=task-25287 class=BackorderReconciler started batch=36
+2026-09-17T14:06:32.690+00:00 INFO  [inv-w2] task=task-25287 class=BackorderReconciler completed in 843ms
+2026-09-17T14:06:36.913+00:00 INFO  [inv-w1] task=task-60285 class=CycleCountExporter started batch=27
+2026-09-17T14:06:38.359+00:00 ERROR [inv-w1] task=task-60285 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.dispatch(CycleCountExporter.java:373)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:06:39.747+00:00 DEBUG inventory-api hold=H-54e3df released
+2026-09-17T14:06:43.595+00:00 INFO  inventory-api hold=H-84f123 sku=SKU-56598 qty=2 worker=inv-w1 granted wait=24ms
+2026-09-17T14:06:43.684+00:00 INFO  inventory-api hold=H-02491d sku=SKU-57950 qty=1 worker=inv-w2 granted wait=50ms
+2026-09-17T14:06:43.892+00:00 DEBUG inventory-api hold=H-84f123 released
+2026-09-17T14:06:43.895+00:00 DEBUG inventory-api hold=H-02491d released
+2026-09-17T14:06:50.670+00:00 INFO  inventory-api hold=H-500378 sku=SKU-27124 qty=2 worker=inv-w6 granted wait=24ms
+2026-09-17T14:06:50.787+00:00 INFO  inventory-api hold=H-0db03f sku=SKU-10792 qty=1 worker=inv-w6 granted wait=61ms
+2026-09-17T14:06:50.948+00:00 DEBUG inventory-api hold=H-500378 released
+2026-09-17T14:06:50.951+00:00 DEBUG inventory-api hold=H-0db03f released
+2026-09-17T14:06:51.828+00:00 INFO  inventory-api hold=H-95128b sku=SKU-49136 qty=2 worker=inv-w4 granted wait=54ms
+2026-09-17T14:06:51.944+00:00 INFO  inventory-api hold=H-472fcc sku=SKU-18917 qty=1 worker=inv-w4 granted wait=20ms
+2026-09-17T14:06:52.087+00:00 DEBUG inventory-api hold=H-95128b released
+2026-09-17T14:06:52.090+00:00 DEBUG inventory-api hold=H-472fcc released
+2026-09-17T14:06:59.376+00:00 INFO  [inv-w4] task=task-77814 class=SkuCacheWarmer started batch=29
+2026-09-17T14:07:00.848+00:00 DEBUG inventory-api hold=H-605aab released
+2026-09-17T14:07:01.916+00:00 INFO  [inv-w4] task=task-77814 class=SkuCacheWarmer completed in 2540ms
+2026-09-17T14:07:08.523+00:00 INFO  inventory-api hold=H-836ca1 sku=SKU-58970 qty=2 worker=inv-w1 granted wait=22ms
+2026-09-17T14:07:08.591+00:00 INFO  inventory-api hold=H-c26b89 sku=SKU-26993 qty=1 worker=inv-w1 granted wait=26ms
+2026-09-17T14:07:08.711+00:00 DEBUG inventory-api hold=H-836ca1 released
+2026-09-17T14:07:08.714+00:00 DEBUG inventory-api hold=H-c26b89 released
+2026-09-17T14:07:14.073+00:00 DEBUG inventory-api hold=H-fb8319 released
+2026-09-17T14:07:34.052+00:00 DEBUG inventory-api hold=H-52b605 released
+2026-09-17T14:07:35.973+00:00 INFO  [inv-w5] task=task-77345 class=ReservationExpirySweeper started batch=13
+2026-09-17T14:07:37.489+00:00 WARN  [inv-w5] task=task-77345 class=ReservationExpirySweeper slow scan 2298ms
+2026-09-17T14:07:39.006+00:00 INFO  [inv-w5] task=task-77345 class=ReservationExpirySweeper completed in 3033ms
+2026-09-17T14:07:56.988+00:00 INFO  inventory-api hold=H-7bb949 sku=SKU-12006 qty=2 worker=inv-w2 granted wait=48ms
+2026-09-17T14:07:57.085+00:00 INFO  inventory-api hold=H-eb4b04 sku=SKU-34523 qty=1 worker=inv-w6 granted wait=20ms
+2026-09-17T14:07:57.199+00:00 DEBUG inventory-api hold=H-7bb949 released
+2026-09-17T14:07:57.202+00:00 DEBUG inventory-api hold=H-eb4b04 released
+2026-09-17T14:08:08.564+00:00 INFO  [inv-w1] task=task-96858 class=SkuCacheWarmer started batch=1
+2026-09-17T14:08:12.525+00:00 ERROR [inv-w1] task=task-96858 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.invoke(SkuCacheWarmer.java:516)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:08:28.642+00:00 DEBUG inventory-api hold=H-e52dc1 released
+2026-09-17T14:08:38.147+00:00 DEBUG inventory-api hold=H-b564b0 released
+2026-09-17T14:09:04.367+00:00 INFO  inventory-api hold=H-c0dc9e sku=SKU-56340 qty=2 worker=inv-w1 granted wait=56ms
+2026-09-17T14:09:04.434+00:00 INFO  inventory-api hold=H-9a0e81 sku=SKU-37360 qty=1 worker=inv-w4 granted wait=65ms
+2026-09-17T14:09:04.635+00:00 DEBUG inventory-api hold=H-c0dc9e released
+2026-09-17T14:09:04.638+00:00 DEBUG inventory-api hold=H-9a0e81 released
+2026-09-17T14:09:28.179+00:00 DEBUG inventory-api hold=H-ed03e6 released
+2026-09-17T14:09:55.617+00:00 INFO  [inv-w5] task=task-23761 class=BackorderReconciler started batch=54
+2026-09-17T14:09:59.582+00:00 INFO  [inv-w5] task=task-23761 class=BackorderReconciler completed in 3965ms
+2026-09-17T14:10:07.455+00:00 INFO  [inv-w1] task=task-71021 class=BackorderReconciler started batch=45
+2026-09-17T14:10:08.718+00:00 WARN  [inv-w1] task=task-71021 class=BackorderReconciler retrying after transient error (attempt 2/5)
+2026-09-17T14:10:09.981+00:00 INFO  [inv-w1] task=task-71021 class=BackorderReconciler completed in 2526ms
+2026-09-17T14:10:13.321+00:00 DEBUG inventory-api hold=H-621019 released
+2026-09-17T14:10:23.709+00:00 INFO  [inv-w4] task=task-69607 class=SkuCacheWarmer started batch=12
+2026-09-17T14:10:24.341+00:00 INFO  inventory-api hold=H-bbd5b9 sku=SKU-16967 qty=2 worker=inv-w1 granted wait=55ms
+2026-09-17T14:10:24.428+00:00 INFO  inventory-api hold=H-bd124a sku=SKU-45990 qty=1 worker=inv-w2 granted wait=50ms
+2026-09-17T14:10:24.601+00:00 DEBUG inventory-api hold=H-bbd5b9 released
+2026-09-17T14:10:24.604+00:00 DEBUG inventory-api hold=H-bd124a released
+2026-09-17T14:10:26.085+00:00 ERROR [inv-w4] task=task-69607 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.dispatch(SkuCacheWarmer.java:423)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:10:28.904+00:00 DEBUG inventory-api hold=H-380821 released
+2026-09-17T14:10:35.411+00:00 DEBUG inventory-api hold=H-4f12c5 released
+2026-09-17T14:10:52.753+00:00 DEBUG inventory-api hold=H-e3de8c released
+2026-09-17T14:11:09.801+00:00 DEBUG inventory-api hold=H-96cde1 released
+2026-09-17T14:11:12.849+00:00 INFO  inventory-api hold=H-46b175 sku=SKU-49116 qty=2 worker=inv-w1 granted wait=52ms
+2026-09-17T14:11:12.910+00:00 INFO  inventory-api hold=H-b88f66 sku=SKU-16065 qty=1 worker=inv-w2 granted wait=62ms
+2026-09-17T14:11:13.081+00:00 DEBUG inventory-api hold=H-46b175 released
+2026-09-17T14:11:13.084+00:00 DEBUG inventory-api hold=H-b88f66 released
+2026-09-17T14:11:14.537+00:00 INFO  [inv-w2] task=task-75650 class=BackorderReconciler started batch=52
+2026-09-17T14:11:16.265+00:00 WARN  [inv-w2] task=task-75650 class=BackorderReconciler lag behind schedule by 4s
+2026-09-17T14:11:17.994+00:00 INFO  [inv-w2] task=task-75650 class=BackorderReconciler completed in 3457ms
+2026-09-17T14:11:35.501+00:00 DEBUG inventory-api hold=H-83a49f released
+2026-09-17T14:11:38.629+00:00 INFO  inventory-api hold=H-45910d sku=SKU-30396 qty=2 worker=inv-w6 granted wait=38ms
+2026-09-17T14:11:38.721+00:00 INFO  inventory-api hold=H-776a9c sku=SKU-25110 qty=1 worker=inv-w4 granted wait=19ms
+2026-09-17T14:11:38.878+00:00 DEBUG inventory-api hold=H-45910d released
+2026-09-17T14:11:38.881+00:00 DEBUG inventory-api hold=H-776a9c released
+2026-09-17T14:11:40.200+00:00 INFO  [inv-w5] task=task-82397 class=StockLedgerCompactor started segment=ledger-2026-09-17 mode=full
+2026-09-17T14:11:41.843+00:00 DEBUG inventory-api hold=H-9363c6 released
+2026-09-17T14:11:42.831+00:00 DEBUG inventory-api hold=H-168a69 released
+2026-09-17T14:11:47.526+00:00 INFO  [inv-w5] task=task-82397 class=StockLedgerCompactor progress 18% segments_done=3
+2026-09-17T14:11:47.945+00:00 INFO  [inv-w4] task=task-96284 class=BackorderReconciler started batch=9
+2026-09-17T14:11:49.182+00:00 WARN  [inv-w4] task=task-96284 class=BackorderReconciler retrying after transient error (attempt 2/5)
+2026-09-17T14:11:50.420+00:00 INFO  [inv-w4] task=task-96284 class=BackorderReconciler completed in 2475ms
+2026-09-17T14:11:53.173+00:00 INFO  [inv-w2] task=task-46561 class=SkuCacheWarmer started batch=15
+2026-09-17T14:11:55.023+00:00 INFO  [inv-w6] task=task-43743 class=SkuCacheWarmer started batch=13
+2026-09-17T14:11:55.628+00:00 INFO  [inv-w2] task=task-46561 class=SkuCacheWarmer completed in 2455ms
+2026-09-17T14:11:55.731+00:00 INFO  [inv-w5] task=task-82397 class=StockLedgerCompactor progress 37% segments_done=6
+2026-09-17T14:11:57.116+00:00 INFO  [inv-w6] task=task-43743 class=SkuCacheWarmer completed in 2093ms
+2026-09-17T14:11:57.161+00:00 DEBUG inventory-api hold=H-5db6ca released
+2026-09-17T14:12:04.387+00:00 INFO  [inv-w5] task=task-82397 class=StockLedgerCompactor progress 52% segments_done=8
+2026-09-17T14:12:26.383+00:00 INFO  [inv-w2] task=task-31397 class=ReservationExpirySweeper started batch=7
+2026-09-17T14:12:27.733+00:00 INFO  inventory-api hold=H-ffb712 sku=SKU-47801 qty=2 worker=inv-w1 granted wait=26ms
+2026-09-17T14:12:27.817+00:00 INFO  inventory-api hold=H-f5e686 sku=SKU-39883 qty=1 worker=inv-w6 granted wait=40ms
+2026-09-17T14:12:28.016+00:00 DEBUG inventory-api hold=H-ffb712 released
+2026-09-17T14:12:28.019+00:00 DEBUG inventory-api hold=H-f5e686 released
+2026-09-17T14:12:29.531+00:00 INFO  [inv-w2] task=task-31397 class=ReservationExpirySweeper completed in 3148ms
+2026-09-17T14:12:31.800+00:00 WARN  [inv-w5] task=task-82397 class=StockLedgerCompactor waiting for ledger segment lock held by txn-4471 (waited 5000ms)
+2026-09-17T14:12:40.061+00:00 INFO  inventory-api hold=H-3efe59 sku=SKU-51820 qty=2 worker=inv-w2 granted wait=28ms
+2026-09-17T14:12:40.170+00:00 INFO  inventory-api hold=H-ed075e worker=inv-w5 queued behind task=task-82397 pos=1
+2026-09-17T14:12:41.354+00:00 WARN  [inv-w5] task=task-82397 class=StockLedgerCompactor still waiting for ledger segment lock (waited 14500ms)
+2026-09-17T14:12:48.597+00:00 DEBUG inventory-api hold=H-b8e5bd released
+2026-09-17T14:12:52.500+00:00 ERROR [inv-w5] task=task-82397 class=StockLedgerCompactor failed: LedgerLockTimeoutException: could not acquire segment lock ledger-2026-09-17 within 30000ms blocked_holds=1
+	at com.shop.inventory.worker.LedgerLockManager.acquire(LedgerLockManager.java:294)
+	at com.shop.inventory.worker.StockLedgerCompactor.compactSegment(StockLedgerCompactor.java:246)
+	at com.shop.inventory.worker.StockLedgerCompactor.execute(StockLedgerCompactor.java:322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:12:52.525+00:00 WARN  inventory-api hold=H-ed075e expired: worker=inv-w5 task=task-82397 aborted
+2026-09-17T14:13:13.677+00:00 INFO  [inv-w1] task=task-25028 class=BackorderReconciler started batch=21
+2026-09-17T14:13:15.833+00:00 ERROR [inv-w1] task=task-25028 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=1
+	at com.shop.inventory.worker.BackorderReconciler.dispatch(BackorderReconciler.java:719)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:13:38.866+00:00 INFO  inventory-api hold=H-9c2f0b sku=SKU-36489 qty=2 worker=inv-w6 granted wait=8ms
+2026-09-17T14:13:38.942+00:00 INFO  inventory-api hold=H-ec0b8b sku=SKU-26186 qty=1 worker=inv-w2 granted wait=13ms
+2026-09-17T14:13:39.082+00:00 DEBUG inventory-api hold=H-9c2f0b released
+2026-09-17T14:13:39.085+00:00 DEBUG inventory-api hold=H-ec0b8b released
+2026-09-17T14:14:06.004+00:00 DEBUG inventory-api hold=H-48cd50 released
+2026-09-17T14:14:07.292+00:00 INFO  [inv-w1] task=task-20047 class=BackorderReconciler started batch=33
+2026-09-17T14:14:08.770+00:00 INFO  [inv-w2] task=task-77230 class=SkuCacheWarmer started batch=20
+2026-09-17T14:14:10.031+00:00 ERROR [inv-w1] task=task-20047 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=1
+	at com.shop.inventory.worker.BackorderReconciler.handle(BackorderReconciler.java:860)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:14:10.265+00:00 WARN  [inv-w2] task=task-77230 class=SkuCacheWarmer slow scan 1967ms
+2026-09-17T14:14:10.440+00:00 INFO  [inv-w5] task=task-39679 class=BackorderReconciler started batch=26
+2026-09-17T14:14:11.091+00:00 INFO  inventory-api hold=H-38fd09 sku=SKU-52894 qty=2 worker=inv-w4 granted wait=59ms
+2026-09-17T14:14:11.194+00:00 INFO  inventory-api hold=H-be24b0 sku=SKU-36884 qty=1 worker=inv-w1 granted wait=25ms
+2026-09-17T14:14:11.323+00:00 DEBUG inventory-api hold=H-38fd09 released
+2026-09-17T14:14:11.326+00:00 DEBUG inventory-api hold=H-be24b0 released
+2026-09-17T14:14:11.761+00:00 INFO  [inv-w2] task=task-77230 class=SkuCacheWarmer completed in 2991ms
+2026-09-17T14:14:12.398+00:00 WARN  [inv-w5] task=task-39679 class=BackorderReconciler retrying after transient error (attempt 2/5)
+2026-09-17T14:14:14.356+00:00 INFO  [inv-w5] task=task-39679 class=BackorderReconciler completed in 3916ms
+2026-09-17T14:14:21.635+00:00 DEBUG inventory-api hold=H-64b2a1 released
+2026-09-17T14:15:11.676+00:00 DEBUG inventory-api hold=H-be8d4e released
+2026-09-17T14:15:19.098+00:00 INFO  [inv-w3] task=task-24921 class=SkuCacheWarmer started batch=7
+2026-09-17T14:15:20.624+00:00 WARN  [inv-w3] task=task-24921 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:15:22.151+00:00 INFO  [inv-w3] task=task-24921 class=SkuCacheWarmer completed in 3053ms
+2026-09-17T14:15:22.259+00:00 INFO  inventory-api hold=H-152b5d sku=SKU-32109 qty=2 worker=inv-w6 granted wait=31ms
+2026-09-17T14:15:22.336+00:00 INFO  inventory-api hold=H-0a7677 sku=SKU-22769 qty=1 worker=inv-w4 granted wait=59ms
+2026-09-17T14:15:22.482+00:00 DEBUG inventory-api hold=H-152b5d released
+2026-09-17T14:15:22.485+00:00 DEBUG inventory-api hold=H-0a7677 released
+2026-09-17T14:15:31.449+00:00 DEBUG inventory-api hold=H-3055fd released
+2026-09-17T14:15:56.504+00:00 INFO  [inv-w6] task=task-55813 class=SkuCacheWarmer started batch=17
+2026-09-17T14:15:56.962+00:00 DEBUG inventory-api hold=H-30253e released
+2026-09-17T14:15:59.346+00:00 INFO  [inv-w6] task=task-55813 class=SkuCacheWarmer completed in 2842ms
+2026-09-17T14:16:02.766+00:00 DEBUG inventory-api hold=H-e29a85 released
+2026-09-17T14:16:08.755+00:00 INFO  [inv-w6] task=task-33117 class=BackorderReconciler started batch=58
+2026-09-17T14:16:10.750+00:00 INFO  [inv-w6] task=task-23959 class=StockLedgerCompactor started batch=28
+2026-09-17T14:16:10.783+00:00 INFO  [inv-w6] task=task-33117 class=BackorderReconciler completed in 2028ms
+2026-09-17T14:16:12.499+00:00 INFO  [inv-w6] task=task-23959 class=StockLedgerCompactor completed in 1749ms
+2026-09-17T14:16:26.704+00:00 DEBUG inventory-api hold=H-afa68b released
+2026-09-17T14:16:27.777+00:00 INFO  [inv-w1] task=task-58480 class=BackorderReconciler started batch=37
+2026-09-17T14:16:31.537+00:00 ERROR [inv-w1] task=task-58480 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=0
+	at com.shop.inventory.worker.BackorderReconciler.call(BackorderReconciler.java:854)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:16:39.689+00:00 INFO  inventory-api hold=H-39371c sku=SKU-44099 qty=2 worker=inv-w4 granted wait=49ms
+2026-09-17T14:16:39.792+00:00 INFO  inventory-api hold=H-f116ef sku=SKU-37255 qty=1 worker=inv-w2 granted wait=20ms
+2026-09-17T14:16:39.911+00:00 DEBUG inventory-api hold=H-39371c released
+2026-09-17T14:16:39.914+00:00 DEBUG inventory-api hold=H-f116ef released
+2026-09-17T14:16:46.338+00:00 DEBUG inventory-api hold=H-b29ee2 released
+2026-09-17T14:16:48.640+00:00 DEBUG inventory-api hold=H-83cd77 released
+2026-09-17T14:16:54.118+00:00 DEBUG inventory-api hold=H-768858 released
+2026-09-17T14:17:28.716+00:00 DEBUG inventory-api hold=H-f67286 released
+2026-09-17T14:17:34.682+00:00 INFO  [inv-w6] task=task-46421 class=BackorderReconciler started batch=26
+2026-09-17T14:17:35.244+00:00 WARN  [inv-w6] task=task-46421 class=BackorderReconciler lag behind schedule by 8s
+2026-09-17T14:17:35.806+00:00 INFO  [inv-w6] task=task-46421 class=BackorderReconciler completed in 1124ms
+2026-09-17T14:17:40.750+00:00 INFO  inventory-api hold=H-1442d3 sku=SKU-37780 qty=2 worker=inv-w2 granted wait=35ms
+2026-09-17T14:17:40.825+00:00 INFO  inventory-api hold=H-91b844 sku=SKU-35053 qty=1 worker=inv-w1 granted wait=52ms
+2026-09-17T14:17:40.973+00:00 DEBUG inventory-api hold=H-1442d3 released
+2026-09-17T14:17:40.976+00:00 DEBUG inventory-api hold=H-91b844 released
+2026-09-17T14:17:42.469+00:00 INFO  [inv-w5] task=task-39629 class=SkuCacheWarmer started batch=29
+2026-09-17T14:17:43.459+00:00 INFO  [inv-w5] task=task-39629 class=SkuCacheWarmer completed in 990ms
+2026-09-17T14:17:56.043+00:00 DEBUG inventory-api hold=H-91f2b2 released
+2026-09-17T14:18:25.427+00:00 DEBUG inventory-api hold=H-a9a33f released
+2026-09-17T14:18:26.733+00:00 INFO  inventory-api hold=H-aea633 sku=SKU-51679 qty=2 worker=inv-w2 granted wait=54ms
+2026-09-17T14:18:26.831+00:00 INFO  inventory-api hold=H-b3c7b5 sku=SKU-38776 qty=1 worker=inv-w1 granted wait=46ms
+2026-09-17T14:18:27.027+00:00 DEBUG inventory-api hold=H-aea633 released
+2026-09-17T14:18:27.030+00:00 DEBUG inventory-api hold=H-b3c7b5 released
+2026-09-17T14:18:30.873+00:00 INFO  [inv-w6] task=task-72315 class=SkuCacheWarmer started batch=19
+2026-09-17T14:18:32.050+00:00 ERROR [inv-w6] task=task-72315 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=1
+	at com.shop.inventory.worker.SkuCacheWarmer.call(SkuCacheWarmer.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:18:32.322+00:00 INFO  [inv-w1] task=task-75643 class=SkuCacheWarmer started batch=18
+2026-09-17T14:18:32.677+00:00 WARN  [inv-w1] task=task-75643 class=SkuCacheWarmer lag behind schedule by 6s
+2026-09-17T14:18:33.032+00:00 INFO  [inv-w1] task=task-75643 class=SkuCacheWarmer completed in 710ms
+2026-09-17T14:18:41.691+00:00 INFO  [inv-w1] task=task-40155 class=BackorderReconciler started batch=24
+2026-09-17T14:18:43.115+00:00 INFO  [inv-w1] task=task-40155 class=BackorderReconciler completed in 1424ms
+2026-09-17T14:18:50.988+00:00 DEBUG inventory-api hold=H-384ea7 released
+2026-09-17T14:19:06.612+00:00 DEBUG inventory-api hold=H-898016 released
+2026-09-17T14:19:06.613+00:00 INFO  inventory-api hold=H-411e39 sku=SKU-14028 qty=2 worker=inv-w1 granted wait=46ms
+2026-09-17T14:19:06.718+00:00 INFO  inventory-api hold=H-cb08f1 sku=SKU-12564 qty=1 worker=inv-w2 granted wait=48ms
+2026-09-17T14:19:06.918+00:00 DEBUG inventory-api hold=H-411e39 released
+2026-09-17T14:19:06.921+00:00 DEBUG inventory-api hold=H-cb08f1 released
+2026-09-17T14:19:08.640+00:00 INFO  inventory-api hold=H-dc4dc5 sku=SKU-57715 qty=2 worker=inv-w1 granted wait=39ms
+2026-09-17T14:19:08.748+00:00 INFO  inventory-api hold=H-66d3d5 sku=SKU-35458 qty=1 worker=inv-w4 granted wait=44ms
+2026-09-17T14:19:08.955+00:00 DEBUG inventory-api hold=H-dc4dc5 released
+2026-09-17T14:19:08.958+00:00 DEBUG inventory-api hold=H-66d3d5 released
+2026-09-17T14:19:23.426+00:00 INFO  [inv-w5] task=task-63514 class=ReservationExpirySweeper started batch=57
+2026-09-17T14:19:24.167+00:00 DEBUG inventory-api hold=H-faaa81 released
+2026-09-17T14:19:27.071+00:00 INFO  [inv-w5] task=task-63514 class=ReservationExpirySweeper completed in 3645ms
+2026-09-17T14:19:27.226+00:00 DEBUG inventory-api hold=H-4e6f07 released
+2026-09-17T14:19:36.558+00:00 INFO  [inv-w1] task=task-99059 class=StockLedgerCompactor started batch=2
+2026-09-17T14:19:39.279+00:00 INFO  [inv-w1] task=task-99059 class=StockLedgerCompactor completed in 2721ms
+2026-09-17T14:19:40.247+00:00 INFO  inventory-api hold=H-de7f9f sku=SKU-17497 qty=2 worker=inv-w6 granted wait=45ms
+2026-09-17T14:19:40.335+00:00 INFO  inventory-api hold=H-f21908 sku=SKU-23327 qty=1 worker=inv-w1 granted wait=24ms
+2026-09-17T14:19:40.458+00:00 DEBUG inventory-api hold=H-de7f9f released
+2026-09-17T14:19:40.461+00:00 DEBUG inventory-api hold=H-f21908 released
+2026-09-17T14:19:48.542+00:00 DEBUG inventory-api hold=H-2584fb released
+2026-09-17T14:19:54.361+00:00 INFO  inventory-api hold=H-93aded sku=SKU-47162 qty=2 worker=inv-w4 granted wait=55ms
+2026-09-17T14:19:54.454+00:00 INFO  inventory-api hold=H-d400bc sku=SKU-35328 qty=1 worker=inv-w4 granted wait=20ms
+2026-09-17T14:19:54.537+00:00 DEBUG inventory-api hold=H-93aded released
+2026-09-17T14:19:54.540+00:00 DEBUG inventory-api hold=H-d400bc released
+2026-09-17T14:19:54.761+00:00 INFO  inventory-api hold=H-4dedef sku=SKU-38595 qty=2 worker=inv-w1 granted wait=45ms
+2026-09-17T14:19:54.836+00:00 INFO  inventory-api hold=H-88f431 sku=SKU-57277 qty=1 worker=inv-w1 granted wait=32ms
+2026-09-17T14:19:55.003+00:00 DEBUG inventory-api hold=H-4dedef released
+2026-09-17T14:19:55.006+00:00 DEBUG inventory-api hold=H-88f431 released
+2026-09-17T14:19:57.952+00:00 DEBUG inventory-api hold=H-9ba5e0 released
+2026-09-17T14:20:22.705+00:00 INFO  [inv-w3] task=task-39281 class=ReservationExpirySweeper started batch=51
+2026-09-17T14:20:25.478+00:00 DEBUG inventory-api hold=H-c278bf released
+2026-09-17T14:20:26.382+00:00 INFO  [inv-w3] task=task-39281 class=ReservationExpirySweeper completed in 3677ms
+2026-09-17T14:20:37.447+00:00 INFO  [inv-w1] task=task-83781 class=SkuCacheWarmer started batch=11
+2026-09-17T14:20:37.831+00:00 INFO  [inv-w1] task=task-83781 class=SkuCacheWarmer completed in 384ms
+2026-09-17T14:20:53.568+00:00 INFO  inventory-api hold=H-b1700f sku=SKU-33326 qty=2 worker=inv-w2 granted wait=38ms
+2026-09-17T14:20:53.686+00:00 INFO  inventory-api hold=H-a9e5b7 sku=SKU-53274 qty=1 worker=inv-w1 granted wait=27ms
+2026-09-17T14:20:53.817+00:00 DEBUG inventory-api hold=H-b1700f released
+2026-09-17T14:20:53.820+00:00 DEBUG inventory-api hold=H-a9e5b7 released
+2026-09-17T14:21:04.033+00:00 DEBUG inventory-api hold=H-bcd5b8 released
+2026-09-17T14:21:28.106+00:00 INFO  [inv-w2] task=task-89259 class=SkuCacheWarmer started batch=12
+2026-09-17T14:21:29.852+00:00 WARN  [inv-w2] task=task-89259 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:21:31.599+00:00 INFO  [inv-w2] task=task-89259 class=SkuCacheWarmer completed in 3493ms
+2026-09-17T14:21:47.147+00:00 INFO  [inv-w5] task=task-68081 class=SkuCacheWarmer started batch=8
+2026-09-17T14:21:48.362+00:00 WARN  [inv-w5] task=task-68081 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:21:49.577+00:00 INFO  [inv-w5] task=task-68081 class=SkuCacheWarmer completed in 2430ms
+2026-09-17T14:22:21.323+00:00 DEBUG inventory-api hold=H-fa2b64 released
+2026-09-17T14:22:29.736+00:00 INFO  inventory-api hold=H-e7c8b8 sku=SKU-34477 qty=2 worker=inv-w6 granted wait=50ms
+2026-09-17T14:22:29.851+00:00 INFO  inventory-api hold=H-dc7337 sku=SKU-55293 qty=1 worker=inv-w2 granted wait=31ms
+2026-09-17T14:22:29.954+00:00 DEBUG inventory-api hold=H-e7c8b8 released
+2026-09-17T14:22:29.957+00:00 DEBUG inventory-api hold=H-dc7337 released
+2026-09-17T14:22:34.024+00:00 INFO  inventory-api hold=H-e0a46a sku=SKU-48599 qty=2 worker=inv-w4 granted wait=36ms
+2026-09-17T14:22:34.142+00:00 INFO  inventory-api hold=H-5c2760 sku=SKU-12278 qty=1 worker=inv-w1 granted wait=39ms
+2026-09-17T14:22:34.256+00:00 DEBUG inventory-api hold=H-e0a46a released
+2026-09-17T14:22:34.259+00:00 DEBUG inventory-api hold=H-5c2760 released
+2026-09-17T14:22:38.203+00:00 DEBUG inventory-api hold=H-6ba695 released
+2026-09-17T14:22:47.990+00:00 DEBUG inventory-api hold=H-3f4e55 released
+2026-09-17T14:22:48.050+00:00 INFO  inventory-api hold=H-c3e624 sku=SKU-16423 qty=2 worker=inv-w1 granted wait=34ms
+2026-09-17T14:22:48.144+00:00 INFO  inventory-api hold=H-a6cb49 sku=SKU-40143 qty=1 worker=inv-w2 granted wait=51ms
+2026-09-17T14:22:48.347+00:00 DEBUG inventory-api hold=H-c3e624 released
+2026-09-17T14:22:48.350+00:00 DEBUG inventory-api hold=H-a6cb49 released
+2026-09-17T14:22:54.060+00:00 INFO  [inv-w3] task=task-79466 class=SkuCacheWarmer started batch=10
+2026-09-17T14:22:54.365+00:00 INFO  [inv-w3] task=task-79466 class=SkuCacheWarmer completed in 305ms
+2026-09-17T14:22:57.912+00:00 DEBUG inventory-api hold=H-13cb0b released
+2026-09-17T14:23:06.363+00:00 INFO  inventory-api hold=H-39c50b sku=SKU-32878 qty=2 worker=inv-w2 granted wait=32ms
+2026-09-17T14:23:06.443+00:00 INFO  inventory-api hold=H-539edf sku=SKU-44767 qty=1 worker=inv-w1 granted wait=30ms
+2026-09-17T14:23:06.615+00:00 DEBUG inventory-api hold=H-39c50b released
+2026-09-17T14:23:06.618+00:00 DEBUG inventory-api hold=H-539edf released
+2026-09-17T14:23:11.003+00:00 INFO  inventory-api hold=H-6a024b sku=SKU-52146 qty=2 worker=inv-w4 granted wait=60ms
+2026-09-17T14:23:11.108+00:00 INFO  inventory-api hold=H-b1b4d4 sku=SKU-11262 qty=1 worker=inv-w4 granted wait=29ms
+2026-09-17T14:23:11.194+00:00 DEBUG inventory-api hold=H-6a024b released
+2026-09-17T14:23:11.197+00:00 DEBUG inventory-api hold=H-b1b4d4 released
+2026-09-17T14:23:21.668+00:00 INFO  [inv-w6] task=task-26046 class=CycleCountExporter started batch=18
+2026-09-17T14:23:24.132+00:00 ERROR [inv-w6] task=task-26046 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.invoke(CycleCountExporter.java:306)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:23:28.356+00:00 INFO  inventory-api hold=H-3ebe78 sku=SKU-30504 qty=2 worker=inv-w2 granted wait=46ms
+2026-09-17T14:23:28.460+00:00 INFO  inventory-api hold=H-b61ff4 sku=SKU-42733 qty=1 worker=inv-w4 granted wait=19ms
+2026-09-17T14:23:28.648+00:00 DEBUG inventory-api hold=H-3ebe78 released
+2026-09-17T14:23:28.651+00:00 DEBUG inventory-api hold=H-b61ff4 released
+2026-09-17T14:23:31.533+00:00 INFO  [inv-w5] task=task-46876 class=StockLedgerCompactor started batch=26
+2026-09-17T14:23:32.485+00:00 INFO  [inv-w5] task=task-46876 class=StockLedgerCompactor completed in 952ms
+2026-09-17T14:23:45.738+00:00 INFO  inventory-api hold=H-61c2b0 sku=SKU-17132 qty=2 worker=inv-w6 granted wait=44ms
+2026-09-17T14:23:45.857+00:00 INFO  inventory-api hold=H-2807e8 sku=SKU-36807 qty=1 worker=inv-w6 granted wait=62ms
+2026-09-17T14:23:46.037+00:00 DEBUG inventory-api hold=H-61c2b0 released
+2026-09-17T14:23:46.040+00:00 DEBUG inventory-api hold=H-2807e8 released
+2026-09-17T14:23:46.455+00:00 DEBUG inventory-api hold=H-603433 released
+2026-09-17T14:24:02.358+00:00 DEBUG inventory-api hold=H-3ad2f3 released
+2026-09-17T14:24:04.347+00:00 DEBUG inventory-api hold=H-69034c released
+2026-09-17T14:24:14.186+00:00 INFO  [inv-w3] task=task-87391 class=BackorderReconciler started batch=35
+2026-09-17T14:24:15.087+00:00 INFO  inventory-api hold=H-a125ac sku=SKU-41921 qty=2 worker=inv-w4 granted wait=40ms
+2026-09-17T14:24:15.207+00:00 INFO  inventory-api hold=H-c1e4da sku=SKU-44857 qty=1 worker=inv-w2 granted wait=34ms
+2026-09-17T14:24:15.304+00:00 DEBUG inventory-api hold=H-a125ac released
+2026-09-17T14:24:15.307+00:00 DEBUG inventory-api hold=H-c1e4da released
+2026-09-17T14:24:15.340+00:00 WARN  [inv-w3] task=task-87391 class=BackorderReconciler lag behind schedule by 7s
+2026-09-17T14:24:16.495+00:00 INFO  [inv-w3] task=task-87391 class=BackorderReconciler completed in 2309ms
+2026-09-17T14:24:30.593+00:00 DEBUG inventory-api hold=H-f49028 released
+2026-09-17T14:24:39.718+00:00 INFO  [inv-w2] task=task-26150 class=SkuCacheWarmer started batch=39
+2026-09-17T14:24:40.898+00:00 INFO  [inv-w2] task=task-26150 class=SkuCacheWarmer completed in 1180ms
+2026-09-17T14:24:49.231+00:00 DEBUG inventory-api hold=H-204bfc released
+2026-09-17T14:25:05.832+00:00 INFO  [inv-w5] task=task-84947 class=ReservationExpirySweeper started batch=27
+2026-09-17T14:25:05.992+00:00 DEBUG inventory-api hold=H-363009 released
+2026-09-17T14:25:06.334+00:00 INFO  [inv-w5] task=task-84947 class=ReservationExpirySweeper completed in 502ms
+2026-09-17T14:25:06.932+00:00 DEBUG inventory-api hold=H-0b7ba0 released
+2026-09-17T14:25:29.971+00:00 INFO  [inv-w5] task=task-62130 class=SkuCacheWarmer started batch=12
+2026-09-17T14:25:30.188+00:00 WARN  [inv-w5] task=task-62130 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:25:30.406+00:00 INFO  [inv-w5] task=task-62130 class=SkuCacheWarmer completed in 435ms
+2026-09-17T14:25:33.592+00:00 INFO  inventory-api hold=H-13f5fe sku=SKU-57959 qty=2 worker=inv-w4 granted wait=17ms
+2026-09-17T14:25:33.686+00:00 INFO  inventory-api hold=H-966f5d sku=SKU-48481 qty=1 worker=inv-w2 granted wait=24ms
+2026-09-17T14:25:33.875+00:00 DEBUG inventory-api hold=H-13f5fe released
+2026-09-17T14:25:33.878+00:00 DEBUG inventory-api hold=H-966f5d released
+2026-09-17T14:25:37.329+00:00 DEBUG inventory-api hold=H-26cbf4 released
+2026-09-17T14:25:46.644+00:00 DEBUG inventory-api hold=H-93b00b released
+2026-09-17T14:25:48.859+00:00 INFO  inventory-api hold=H-35d1e5 sku=SKU-44805 qty=2 worker=inv-w1 granted wait=22ms
+2026-09-17T14:25:48.971+00:00 INFO  inventory-api hold=H-8f288e sku=SKU-56109 qty=1 worker=inv-w1 granted wait=38ms
+2026-09-17T14:25:49.118+00:00 DEBUG inventory-api hold=H-35d1e5 released
+2026-09-17T14:25:49.121+00:00 DEBUG inventory-api hold=H-8f288e released
+2026-09-17T14:25:49.620+00:00 DEBUG inventory-api hold=H-2efac8 released
+2026-09-17T14:26:08.579+00:00 INFO  inventory-api hold=H-962ded sku=SKU-21361 qty=2 worker=inv-w2 granted wait=42ms
+2026-09-17T14:26:08.653+00:00 INFO  inventory-api hold=H-cde31f sku=SKU-57526 qty=1 worker=inv-w1 granted wait=49ms
+2026-09-17T14:26:08.770+00:00 DEBUG inventory-api hold=H-962ded released
+2026-09-17T14:26:08.773+00:00 DEBUG inventory-api hold=H-cde31f released
+2026-09-17T14:26:11.647+00:00 DEBUG inventory-api hold=H-4776fc released
+2026-09-17T14:26:15.568+00:00 DEBUG inventory-api hold=H-f29fff released
+2026-09-17T14:26:25.764+00:00 DEBUG inventory-api hold=H-67b5b8 released
+2026-09-17T14:26:34.894+00:00 INFO  [inv-w1] task=task-45900 class=StockLedgerCompactor started batch=13
+2026-09-17T14:26:37.115+00:00 DEBUG inventory-api hold=H-cdb8a9 released
+2026-09-17T14:26:37.241+00:00 INFO  [inv-w1] task=task-45900 class=StockLedgerCompactor completed in 2347ms
+2026-09-17T14:26:48.260+00:00 INFO  inventory-api hold=H-210417 sku=SKU-13134 qty=2 worker=inv-w4 granted wait=10ms
+2026-09-17T14:26:48.340+00:00 INFO  inventory-api hold=H-5ca34d sku=SKU-18159 qty=1 worker=inv-w2 granted wait=31ms
+2026-09-17T14:26:48.509+00:00 DEBUG inventory-api hold=H-210417 released
+2026-09-17T14:26:48.512+00:00 DEBUG inventory-api hold=H-5ca34d released
+2026-09-17T14:26:56.403+00:00 INFO  [inv-w3] task=task-83234 class=StockLedgerCompactor started batch=24
+2026-09-17T14:26:56.578+00:00 DEBUG inventory-api hold=H-f57f79 released
+2026-09-17T14:26:58.297+00:00 INFO  [inv-w3] task=task-83234 class=StockLedgerCompactor completed in 1894ms
+2026-09-17T14:27:02.892+00:00 INFO  [inv-w3] task=task-40015 class=ReservationExpirySweeper started batch=5
+2026-09-17T14:27:05.537+00:00 INFO  [inv-w3] task=task-40015 class=ReservationExpirySweeper completed in 2645ms
+2026-09-17T14:27:08.133+00:00 DEBUG inventory-api hold=H-0fc7aa released
+2026-09-17T14:27:13.490+00:00 INFO  [inv-w1] task=task-35692 class=BackorderReconciler started batch=37
+2026-09-17T14:27:15.441+00:00 DEBUG inventory-api hold=H-53ab5e released
+2026-09-17T14:27:15.631+00:00 DEBUG inventory-api hold=H-124a26 released
+2026-09-17T14:27:17.261+00:00 INFO  [inv-w1] task=task-35692 class=BackorderReconciler completed in 3771ms
+2026-09-17T14:27:46.816+00:00 INFO  inventory-api hold=H-7256e0 sku=SKU-42033 qty=2 worker=inv-w4 granted wait=60ms
+2026-09-17T14:27:46.929+00:00 INFO  inventory-api hold=H-23500c sku=SKU-33795 qty=1 worker=inv-w6 granted wait=61ms
+2026-09-17T14:27:47.112+00:00 DEBUG inventory-api hold=H-7256e0 released
+2026-09-17T14:27:47.115+00:00 DEBUG inventory-api hold=H-23500c released
+2026-09-17T14:27:48.239+00:00 INFO  [inv-w2] task=task-14231 class=BackorderReconciler started batch=17
+2026-09-17T14:27:51.883+00:00 INFO  [inv-w2] task=task-14231 class=BackorderReconciler completed in 3644ms
+2026-09-17T14:27:54.829+00:00 INFO  inventory-api hold=H-5fe2bd sku=SKU-31257 qty=2 worker=inv-w2 granted wait=56ms
+2026-09-17T14:27:54.905+00:00 INFO  inventory-api hold=H-e5ac9c sku=SKU-27553 qty=1 worker=inv-w6 granted wait=31ms
+2026-09-17T14:27:55.083+00:00 DEBUG inventory-api hold=H-5fe2bd released
+2026-09-17T14:27:55.086+00:00 DEBUG inventory-api hold=H-e5ac9c released
+2026-09-17T14:27:58.551+00:00 INFO  [inv-w1] task=task-23036 class=ReservationExpirySweeper started batch=32
+2026-09-17T14:27:59.242+00:00 INFO  [inv-w1] task=task-23036 class=ReservationExpirySweeper completed in 691ms
+2026-09-17T14:28:00.304+00:00 INFO  [inv-w4] task=task-58342 class=BackorderReconciler started batch=59
+2026-09-17T14:28:00.593+00:00 WARN  [inv-w4] task=task-58342 class=BackorderReconciler lag behind schedule by 8s
+2026-09-17T14:28:00.882+00:00 INFO  [inv-w4] task=task-58342 class=BackorderReconciler completed in 578ms
+2026-09-17T14:28:09.837+00:00 DEBUG inventory-api hold=H-2fc738 released
+2026-09-17T14:28:15.209+00:00 INFO  [inv-w2] task=task-13554 class=StockLedgerCompactor started batch=9
+2026-09-17T14:28:16.712+00:00 DEBUG inventory-api hold=H-937b7a released
+2026-09-17T14:28:18.060+00:00 INFO  [inv-w2] task=task-13554 class=StockLedgerCompactor completed in 2851ms
+2026-09-17T14:28:33.641+00:00 INFO  [inv-w3] task=task-88074 class=StockLedgerCompactor started batch=50
+2026-09-17T14:28:35.313+00:00 WARN  [inv-w3] task=task-88074 class=StockLedgerCompactor lag behind schedule by 6s
+2026-09-17T14:28:36.985+00:00 INFO  [inv-w3] task=task-88074 class=StockLedgerCompactor completed in 3344ms
+2026-09-17T14:28:45.884+00:00 INFO  inventory-api hold=H-7b967a sku=SKU-45102 qty=2 worker=inv-w2 granted wait=27ms
+2026-09-17T14:28:45.992+00:00 INFO  inventory-api hold=H-66d977 sku=SKU-39470 qty=1 worker=inv-w2 granted wait=46ms
+2026-09-17T14:28:46.187+00:00 DEBUG inventory-api hold=H-7b967a released
+2026-09-17T14:28:46.190+00:00 DEBUG inventory-api hold=H-66d977 released
+2026-09-17T14:29:00.293+00:00 INFO  inventory-api hold=H-058e6b sku=SKU-12169 qty=2 worker=inv-w1 granted wait=60ms
+2026-09-17T14:29:00.367+00:00 INFO  inventory-api hold=H-b89e3b sku=SKU-29714 qty=1 worker=inv-w6 granted wait=31ms
+2026-09-17T14:29:00.494+00:00 DEBUG inventory-api hold=H-058e6b released
+2026-09-17T14:29:00.497+00:00 DEBUG inventory-api hold=H-b89e3b released
+2026-09-17T14:29:19.142+00:00 INFO  inventory-api hold=H-26e60e sku=SKU-20404 qty=2 worker=inv-w6 granted wait=43ms
+2026-09-17T14:29:19.223+00:00 INFO  inventory-api hold=H-efb88d sku=SKU-41191 qty=1 worker=inv-w4 granted wait=42ms
+2026-09-17T14:29:19.322+00:00 DEBUG inventory-api hold=H-26e60e released
+2026-09-17T14:29:19.325+00:00 DEBUG inventory-api hold=H-efb88d released
+2026-09-17T14:29:24.654+00:00 INFO  [inv-w2] task=task-71498 class=StockLedgerCompactor started batch=24
+2026-09-17T14:29:26.262+00:00 INFO  [inv-w2] task=task-71498 class=StockLedgerCompactor completed in 1608ms
+2026-09-17T14:31:19.200+00:00 INFO  [inv-w3] task=task-37836 class=StockLedgerCompactor started segment=ledger-2026-09-17 mode=full
+2026-09-17T14:31:26.900+00:00 INFO  [inv-w3] task=task-37836 class=StockLedgerCompactor progress 18% segments_done=3
+2026-09-17T14:31:30.400+00:00 INFO  [inv-w5] task=task-60910 class=ReservationExpirySweeper started segment=ledger-2026-09-17 mode=full
+2026-09-17T14:31:35.043+00:00 INFO  [inv-w3] task=task-37836 class=StockLedgerCompactor progress 37% segments_done=6
+2026-09-17T14:31:36.000+00:00 INFO  [inv-w3] task=task-96560 class=ReservationExpirySweeper started batch=12
+2026-09-17T14:31:37.975+00:00 INFO  [inv-w5] task=task-60910 class=ReservationExpirySweeper progress 18% segments_done=3
+2026-09-17T14:31:41.173+00:00 INFO  inventory-api hold=H-e517c9 sku=SKU-46444 qty=2 worker=inv-w4 granted wait=58ms
+2026-09-17T14:31:41.616+00:00 DEBUG inventory-api hold=H-e517c9 released
+2026-09-17T14:31:41.916+00:00 INFO  [inv-w3] task=task-96560 class=ReservationExpirySweeper progress 30% scanned=400
+2026-09-17T14:31:42.863+00:00 INFO  [inv-w3] task=task-37836 class=StockLedgerCompactor progress 52% segments_done=8
+2026-09-17T14:31:43.622+00:00 INFO  inventory-api hold=H-3779a7 sku=SKU-45067 qty=2 worker=inv-w1 granted wait=30ms
+2026-09-17T14:31:43.705+00:00 INFO  inventory-api hold=H-b4605d worker=inv-w3 queued behind task=task-37836 pos=1
+2026-09-17T14:31:44.371+00:00 WARN  [inv-w3] task=task-37836 class=StockLedgerCompactor waiting for ledger segment lock held by txn-4471 (waited 5000ms)
+2026-09-17T14:31:46.439+00:00 INFO  [inv-w5] task=task-60910 class=ReservationExpirySweeper progress 37% segments_done=6
+2026-09-17T14:31:46.922+00:00 INFO  [inv-w2] task=task-41615 class=BackorderReconciler started batch=3
+2026-09-17T14:31:46.963+00:00 INFO  inventory-api hold=H-cf2b74 sku=SKU-40187 qty=2 worker=inv-w2 granted wait=51ms
+2026-09-17T14:31:47.082+00:00 INFO  inventory-api hold=H-cae538 worker=inv-w3 queued behind task=task-37836 pos=2
+2026-09-17T14:31:47.713+00:00 INFO  [inv-w3] task=task-96560 class=ReservationExpirySweeper progress 60% scanned=800
+2026-09-17T14:31:49.517+00:00 INFO  inventory-api hold=H-db51db sku=SKU-50173 qty=2 worker=inv-w6 granted wait=49ms
+2026-09-17T14:31:49.628+00:00 INFO  inventory-api hold=H-562347 worker=inv-w3 queued behind task=task-37836 pos=3
+2026-09-17T14:31:50.660+00:00 INFO  inventory-api hold=H-20e3b4 sku=SKU-26675 qty=2 worker=inv-w4 granted wait=57ms
+2026-09-17T14:31:50.700+00:00 ERROR [inv-w2] task=task-41615 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=0
+	at com.shop.inventory.worker.BackorderReconciler.execute(BackorderReconciler.java:677)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:31:50.759+00:00 INFO  inventory-api hold=H-ef08ae worker=inv-w5 queued behind task=task-60910 pos=1
+2026-09-17T14:31:52.631+00:00 INFO  inventory-api hold=H-8e5d2f sku=SKU-30863 qty=2 worker=inv-w4 granted wait=51ms
+2026-09-17T14:31:52.738+00:00 INFO  inventory-api hold=H-416c96 worker=inv-w3 queued behind task=task-37836 pos=4
+2026-09-17T14:31:52.900+00:00 WARN  [inv-w5] task=task-60910 class=ReservationExpirySweeper waiting for ledger segment lock held by txn-4471 (waited 5000ms)
+2026-09-17T14:31:53.011+00:00 INFO  [inv-w3] task=task-96560 class=ReservationExpirySweeper progress 90% scanned=1200
+2026-09-17T14:31:53.820+00:00 WARN  [inv-w3] task=task-37836 class=StockLedgerCompactor still waiting for ledger segment lock (waited 14500ms)
+2026-09-17T14:31:55.796+00:00 INFO  inventory-api hold=H-fa07f1 sku=SKU-50938 qty=2 worker=inv-w6 granted wait=29ms
+2026-09-17T14:31:55.865+00:00 INFO  inventory-api hold=H-783508 worker=inv-w3 queued behind task=task-37836 pos=5
+2026-09-17T14:31:56.763+00:00 INFO  inventory-api hold=H-4c16c1 sku=SKU-25151 qty=2 worker=inv-w6 granted wait=41ms
+2026-09-17T14:31:56.826+00:00 INFO  inventory-api hold=H-87cbcf worker=inv-w5 queued behind task=task-60910 pos=2
+2026-09-17T14:32:00.961+00:00 INFO  inventory-api hold=H-c34ea8 sku=SKU-21333 qty=2 worker=inv-w1 granted wait=31ms
+2026-09-17T14:32:01.021+00:00 INFO  inventory-api hold=H-2b97bb worker=inv-w5 queued behind task=task-60910 pos=3
+2026-09-17T14:32:01.855+00:00 INFO  inventory-api hold=H-72c732 sku=SKU-50067 qty=2 worker=inv-w1 granted wait=25ms
+2026-09-17T14:32:01.963+00:00 INFO  inventory-api hold=H-543bcd worker=inv-w3 queued behind task=task-37836 pos=6
+2026-09-17T14:32:02.570+00:00 WARN  [inv-w5] task=task-60910 class=ReservationExpirySweeper still waiting for ledger segment lock (waited 14500ms)
+2026-09-17T14:32:03.500+00:00 INFO  [inv-w3] task=task-96560 class=ReservationExpirySweeper completed in 87500ms
+2026-09-17T14:32:04.458+00:00 INFO  inventory-api hold=H-f7b49e sku=SKU-14532 qty=2 worker=inv-w1 granted wait=13ms
+2026-09-17T14:32:05.126+00:00 DEBUG inventory-api hold=H-f7b49e released
+2026-09-17T14:32:06.040+00:00 INFO  [inv-w1] task=task-20656 class=CycleCountExporter started batch=35
+2026-09-17T14:32:06.115+00:00 ERROR [inv-w5] task=task-60910 class=ReservationExpirySweeper failed: OptimisticLockException: could not acquire segment lock ledger-2026-09-17 within 30000ms blocked_holds=3
+	at com.shop.inventory.worker.ReservationTable.update(ReservationTable.java:376)
+	at com.shop.inventory.worker.ReservationExpirySweeper.sweepBatch(ReservationExpirySweeper.java:156)
+	at com.shop.inventory.worker.ReservationExpirySweeper.invoke(ReservationExpirySweeper.java:625)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:32:06.140+00:00 WARN  inventory-api hold=H-ef08ae expired: worker=inv-w5 task=task-60910 aborted
+2026-09-17T14:32:06.146+00:00 WARN  inventory-api hold=H-87cbcf expired: worker=inv-w5 task=task-60910 aborted
+2026-09-17T14:32:06.152+00:00 WARN  inventory-api hold=H-2b97bb expired: worker=inv-w5 task=task-60910 aborted
+2026-09-17T14:32:08.200+00:00 ERROR [inv-w1] task=task-20656 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:384)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:32:12.749+00:00 INFO  inventory-api hold=H-060dc8 sku=SKU-30221 qty=2 worker=inv-w4 granted wait=60ms
+2026-09-17T14:32:13.280+00:00 DEBUG inventory-api hold=H-060dc8 released
+2026-09-17T14:32:13.482+00:00 ERROR [inv-w3] task=task-37836 class=StockLedgerCompactor failed: LedgerLockTimeoutException: could not acquire segment lock ledger-2026-09-17 within 30000ms blocked_holds=6
+	at com.shop.inventory.worker.LedgerLockManager.acquire(LedgerLockManager.java:150)
+	at com.shop.inventory.worker.StockLedgerCompactor.compactSegment(StockLedgerCompactor.java:114)
+	at com.shop.inventory.worker.StockLedgerCompactor.execute(StockLedgerCompactor.java:325)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:32:13.507+00:00 WARN  inventory-api hold=H-b4605d expired: worker=inv-w3 task=task-37836 aborted
+2026-09-17T14:32:13.513+00:00 WARN  inventory-api hold=H-cae538 expired: worker=inv-w3 task=task-37836 aborted
+2026-09-17T14:32:13.519+00:00 WARN  inventory-api hold=H-562347 expired: worker=inv-w3 task=task-37836 aborted
+2026-09-17T14:32:13.525+00:00 WARN  inventory-api hold=H-416c96 expired: worker=inv-w3 task=task-37836 aborted
+2026-09-17T14:32:13.531+00:00 WARN  inventory-api hold=H-783508 expired: worker=inv-w3 task=task-37836 aborted
+2026-09-17T14:32:13.537+00:00 WARN  inventory-api hold=H-543bcd expired: worker=inv-w3 task=task-37836 aborted
+2026-09-17T14:34:32.565+00:00 INFO  [inv-w1] task=task-92049 class=SkuCacheWarmer started batch=56
+2026-09-17T14:34:32.947+00:00 INFO  [inv-w1] task=task-92049 class=SkuCacheWarmer completed in 382ms
+2026-09-17T14:34:53.595+00:00 INFO  [inv-w1] task=task-40124 class=BackorderReconciler started batch=16
+2026-09-17T14:34:53.649+00:00 INFO  inventory-api hold=H-30769f sku=SKU-25634 qty=2 worker=inv-w1 granted wait=57ms
+2026-09-17T14:34:53.738+00:00 INFO  inventory-api hold=H-549165 sku=SKU-24711 qty=1 worker=inv-w2 granted wait=62ms
+2026-09-17T14:34:53.901+00:00 DEBUG inventory-api hold=H-30769f released
+2026-09-17T14:34:53.904+00:00 DEBUG inventory-api hold=H-549165 released
+2026-09-17T14:34:55.871+00:00 ERROR [inv-w1] task=task-40124 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=0
+	at com.shop.inventory.worker.BackorderReconciler.handle(BackorderReconciler.java:651)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:35:03.383+00:00 INFO  inventory-api hold=H-26fbc9 sku=SKU-54010 qty=2 worker=inv-w6 granted wait=27ms
+2026-09-17T14:35:03.489+00:00 INFO  inventory-api hold=H-afca3e sku=SKU-13609 qty=1 worker=inv-w6 granted wait=36ms
+2026-09-17T14:35:03.626+00:00 DEBUG inventory-api hold=H-26fbc9 released
+2026-09-17T14:35:03.629+00:00 DEBUG inventory-api hold=H-afca3e released
+2026-09-17T14:35:11.716+00:00 DEBUG inventory-api hold=H-0bc2c4 released
+2026-09-17T14:35:12.517+00:00 INFO  inventory-api hold=H-2111d3 sku=SKU-39141 qty=2 worker=inv-w4 granted wait=13ms
+2026-09-17T14:35:12.614+00:00 INFO  inventory-api hold=H-9c09e2 sku=SKU-26031 qty=1 worker=inv-w4 granted wait=39ms
+2026-09-17T14:35:12.731+00:00 DEBUG inventory-api hold=H-2111d3 released
+2026-09-17T14:35:12.734+00:00 DEBUG inventory-api hold=H-9c09e2 released
+2026-09-17T14:35:17.125+00:00 DEBUG inventory-api hold=H-6d57d1 released
+2026-09-17T14:35:20.502+00:00 INFO  [inv-w2] task=task-81221 class=SkuCacheWarmer started batch=21
+2026-09-17T14:35:23.016+00:00 INFO  [inv-w2] task=task-81221 class=SkuCacheWarmer completed in 2514ms
+2026-09-17T14:35:26.416+00:00 INFO  [inv-w2] task=task-61863 class=SkuCacheWarmer started batch=58
+2026-09-17T14:35:29.407+00:00 INFO  [inv-w2] task=task-61863 class=SkuCacheWarmer completed in 2991ms
+2026-09-17T14:35:37.993+00:00 INFO  [inv-w2] task=task-13391 class=BackorderReconciler started batch=16
+2026-09-17T14:35:38.901+00:00 DEBUG inventory-api hold=H-82c450 released
+2026-09-17T14:35:40.898+00:00 DEBUG inventory-api hold=H-704b54 released
+2026-09-17T14:35:41.237+00:00 ERROR [inv-w2] task=task-13391 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=0
+	at com.shop.inventory.worker.BackorderReconciler.handle(BackorderReconciler.java:183)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:35:41.281+00:00 INFO  [inv-w4] task=task-17073 class=BackorderReconciler started batch=21
+2026-09-17T14:35:43.445+00:00 ERROR [inv-w4] task=task-17073 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=1
+	at com.shop.inventory.worker.BackorderReconciler.invoke(BackorderReconciler.java:717)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:35:45.358+00:00 INFO  [inv-w4] task=task-65420 class=BackorderReconciler started batch=22
+2026-09-17T14:35:47.865+00:00 DEBUG inventory-api hold=H-6d8a8c released
+2026-09-17T14:35:48.205+00:00 INFO  [inv-w4] task=task-65420 class=BackorderReconciler completed in 2847ms
+2026-09-17T14:35:59.901+00:00 DEBUG inventory-api hold=H-2a6d43 released
+2026-09-17T14:36:06.632+00:00 INFO  [inv-w2] task=task-83748 class=CycleCountExporter started batch=29
+2026-09-17T14:36:08.267+00:00 ERROR [inv-w2] task=task-83748 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:761)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:36:16.192+00:00 INFO  [inv-w3] task=task-94107 class=SkuCacheWarmer started batch=53
+2026-09-17T14:36:19.254+00:00 INFO  [inv-w3] task=task-94107 class=SkuCacheWarmer completed in 3062ms
+2026-09-17T14:36:32.013+00:00 INFO  [inv-w5] task=task-94408 class=BackorderReconciler started batch=17
+2026-09-17T14:36:33.772+00:00 WARN  [inv-w5] task=task-94408 class=BackorderReconciler slow scan 1280ms
+2026-09-17T14:36:34.582+00:00 INFO  [inv-w1] task=task-88689 class=BackorderReconciler started batch=39
+2026-09-17T14:36:35.531+00:00 INFO  [inv-w5] task=task-94408 class=BackorderReconciler completed in 3518ms
+2026-09-17T14:36:36.187+00:00 INFO  [inv-w1] task=task-88689 class=BackorderReconciler completed in 1605ms
+2026-09-17T14:36:38.064+00:00 DEBUG inventory-api hold=H-6f576b released
+2026-09-17T14:36:49.024+00:00 INFO  [inv-w6] task=task-50366 class=ReservationExpirySweeper started batch=47
+2026-09-17T14:36:50.216+00:00 INFO  [inv-w6] task=task-50366 class=ReservationExpirySweeper completed in 1192ms
+2026-09-17T14:36:59.386+00:00 DEBUG inventory-api hold=H-5a7503 released
+2026-09-17T14:37:03.402+00:00 DEBUG inventory-api hold=H-4af677 released
+2026-09-17T14:37:08.467+00:00 INFO  [inv-w6] task=task-53963 class=ReservationExpirySweeper started batch=34
+2026-09-17T14:37:11.476+00:00 INFO  [inv-w6] task=task-53963 class=ReservationExpirySweeper completed in 3009ms
+2026-09-17T14:37:15.530+00:00 INFO  [inv-w3] task=task-64727 class=StockLedgerCompactor started batch=57
+2026-09-17T14:37:16.049+00:00 WARN  [inv-w3] task=task-64727 class=StockLedgerCompactor lag behind schedule by 2s
+2026-09-17T14:37:16.568+00:00 INFO  [inv-w3] task=task-64727 class=StockLedgerCompactor completed in 1038ms
+2026-09-17T14:37:32.530+00:00 DEBUG inventory-api hold=H-ed3ff1 released
+2026-09-17T14:37:36.394+00:00 INFO  inventory-api hold=H-43ca2c sku=SKU-42676 qty=2 worker=inv-w1 granted wait=25ms
+2026-09-17T14:37:36.488+00:00 INFO  inventory-api hold=H-f42418 sku=SKU-23649 qty=1 worker=inv-w6 granted wait=14ms
+2026-09-17T14:37:36.635+00:00 DEBUG inventory-api hold=H-43ca2c released
+2026-09-17T14:37:36.638+00:00 DEBUG inventory-api hold=H-f42418 released
+2026-09-17T14:37:43.261+00:00 INFO  inventory-api hold=H-ec3f89 sku=SKU-59937 qty=2 worker=inv-w1 granted wait=54ms
+2026-09-17T14:37:43.359+00:00 INFO  inventory-api hold=H-69b118 sku=SKU-58210 qty=1 worker=inv-w2 granted wait=58ms
+2026-09-17T14:37:43.484+00:00 DEBUG inventory-api hold=H-ec3f89 released
+2026-09-17T14:37:43.487+00:00 DEBUG inventory-api hold=H-69b118 released
+2026-09-17T14:37:49.313+00:00 INFO  [inv-w2] task=task-59516 class=ReservationExpirySweeper started batch=23
+2026-09-17T14:37:52.082+00:00 INFO  [inv-w2] task=task-59516 class=ReservationExpirySweeper completed in 2769ms
+2026-09-17T14:38:04.013+00:00 INFO  [inv-w2] task=task-30119 class=SkuCacheWarmer started batch=41
+2026-09-17T14:38:04.525+00:00 INFO  inventory-api hold=H-52d102 sku=SKU-38123 qty=2 worker=inv-w1 granted wait=42ms
+2026-09-17T14:38:04.589+00:00 INFO  inventory-api hold=H-420e1e sku=SKU-22895 qty=1 worker=inv-w1 granted wait=20ms
+2026-09-17T14:38:04.686+00:00 DEBUG inventory-api hold=H-52d102 released
+2026-09-17T14:38:04.689+00:00 DEBUG inventory-api hold=H-420e1e released
+2026-09-17T14:38:06.057+00:00 INFO  inventory-api hold=H-2d9a04 sku=SKU-13341 qty=2 worker=inv-w6 granted wait=19ms
+2026-09-17T14:38:06.155+00:00 INFO  inventory-api hold=H-543ecd sku=SKU-14868 qty=1 worker=inv-w1 granted wait=15ms
+2026-09-17T14:38:06.318+00:00 DEBUG inventory-api hold=H-2d9a04 released
+2026-09-17T14:38:06.321+00:00 DEBUG inventory-api hold=H-543ecd released
+2026-09-17T14:38:07.090+00:00 INFO  [inv-w2] task=task-30119 class=SkuCacheWarmer completed in 3077ms
+2026-09-17T14:38:16.335+00:00 INFO  inventory-api hold=H-563375 sku=SKU-49445 qty=2 worker=inv-w2 granted wait=32ms
+2026-09-17T14:38:16.443+00:00 INFO  inventory-api hold=H-7b50f1 sku=SKU-35102 qty=1 worker=inv-w4 granted wait=42ms
+2026-09-17T14:38:16.641+00:00 DEBUG inventory-api hold=H-563375 released
+2026-09-17T14:38:16.644+00:00 DEBUG inventory-api hold=H-7b50f1 released
+2026-09-17T14:38:26.542+00:00 DEBUG inventory-api hold=H-f2f49a released
+2026-09-17T14:38:35.616+00:00 INFO  [inv-w5] task=task-71045 class=BackorderReconciler started batch=35
+2026-09-17T14:38:39.114+00:00 INFO  [inv-w5] task=task-71045 class=BackorderReconciler completed in 3498ms
+2026-09-17T14:38:55.521+00:00 INFO  [inv-w4] task=task-80599 class=ReservationExpirySweeper started batch=10
+2026-09-17T14:38:56.697+00:00 WARN  [inv-w4] task=task-80599 class=ReservationExpirySweeper slow scan 2023ms
+2026-09-17T14:38:57.874+00:00 INFO  [inv-w4] task=task-80599 class=ReservationExpirySweeper completed in 2353ms
+2026-09-17T14:39:15.451+00:00 DEBUG inventory-api hold=H-629566 released
+2026-09-17T14:39:26.681+00:00 DEBUG inventory-api hold=H-e8cec6 released
+2026-09-17T14:39:39.025+00:00 INFO  inventory-api hold=H-e78d46 sku=SKU-12727 qty=2 worker=inv-w1 granted wait=17ms
+2026-09-17T14:39:39.102+00:00 INFO  inventory-api hold=H-956196 sku=SKU-15595 qty=1 worker=inv-w6 granted wait=50ms
+2026-09-17T14:39:39.227+00:00 DEBUG inventory-api hold=H-e78d46 released
+2026-09-17T14:39:39.230+00:00 DEBUG inventory-api hold=H-956196 released
+2026-09-17T14:39:42.679+00:00 INFO  [inv-w3] task=task-79914 class=ReservationExpirySweeper started batch=6
+2026-09-17T14:39:42.960+00:00 WARN  [inv-w3] task=task-79914 class=ReservationExpirySweeper lag behind schedule by 8s
+2026-09-17T14:39:43.242+00:00 INFO  [inv-w3] task=task-79914 class=ReservationExpirySweeper completed in 563ms
+2026-09-17T14:39:47.328+00:00 INFO  [inv-w1] task=task-66489 class=CycleCountExporter started batch=7
+2026-09-17T14:39:48.774+00:00 INFO  inventory-api hold=H-d05762 sku=SKU-46481 qty=2 worker=inv-w1 granted wait=29ms
+2026-09-17T14:39:48.857+00:00 INFO  inventory-api hold=H-71e308 sku=SKU-43031 qty=1 worker=inv-w6 granted wait=53ms
+2026-09-17T14:39:49.051+00:00 DEBUG inventory-api hold=H-d05762 released
+2026-09-17T14:39:49.054+00:00 DEBUG inventory-api hold=H-71e308 released
+2026-09-17T14:39:50.390+00:00 ERROR [inv-w1] task=task-66489 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.call(CycleCountExporter.java:691)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:39:57.122+00:00 INFO  [inv-w5] task=task-72950 class=BackorderReconciler started batch=29
+2026-09-17T14:39:57.673+00:00 INFO  [inv-w1] task=task-93305 class=SkuCacheWarmer started batch=59
+2026-09-17T14:39:57.972+00:00 WARN  [inv-w5] task=task-72950 class=BackorderReconciler slow scan 2305ms
+2026-09-17T14:39:58.823+00:00 INFO  [inv-w5] task=task-72950 class=BackorderReconciler completed in 1701ms
+2026-09-17T14:40:01.067+00:00 INFO  [inv-w1] task=task-93305 class=SkuCacheWarmer completed in 3394ms
+2026-09-17T14:40:53.996+00:00 DEBUG inventory-api hold=H-2fdbf1 released
+2026-09-17T14:40:58.793+00:00 INFO  [inv-w5] task=task-38557 class=SkuCacheWarmer started batch=16
+2026-09-17T14:41:00.036+00:00 WARN  [inv-w5] task=task-38557 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:41:01.279+00:00 INFO  [inv-w5] task=task-38557 class=SkuCacheWarmer completed in 2486ms
+2026-09-17T14:41:01.319+00:00 INFO  inventory-api hold=H-9e2355 sku=SKU-51566 qty=2 worker=inv-w4 granted wait=52ms
+2026-09-17T14:41:01.405+00:00 INFO  inventory-api hold=H-f58c8e sku=SKU-41958 qty=1 worker=inv-w1 granted wait=23ms
+2026-09-17T14:41:01.598+00:00 DEBUG inventory-api hold=H-9e2355 released
+2026-09-17T14:41:01.601+00:00 DEBUG inventory-api hold=H-f58c8e released
+2026-09-17T14:41:07.920+00:00 INFO  [inv-w4] task=task-21755 class=CycleCountExporter started batch=26
+2026-09-17T14:41:08.925+00:00 ERROR [inv-w4] task=task-21755 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=1
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:564)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:41:14.875+00:00 INFO  inventory-api hold=H-1970c9 sku=SKU-39370 qty=2 worker=inv-w2 granted wait=24ms
+2026-09-17T14:41:14.972+00:00 INFO  inventory-api hold=H-179cb7 sku=SKU-31029 qty=1 worker=inv-w1 granted wait=33ms
+2026-09-17T14:41:15.136+00:00 DEBUG inventory-api hold=H-1970c9 released
+2026-09-17T14:41:15.139+00:00 DEBUG inventory-api hold=H-179cb7 released
+2026-09-17T14:41:32.215+00:00 INFO  [inv-w6] task=task-60524 class=BackorderReconciler started batch=59
+2026-09-17T14:41:35.449+00:00 INFO  [inv-w6] task=task-60524 class=BackorderReconciler completed in 3234ms
+2026-09-17T14:41:36.164+00:00 INFO  [inv-w3] task=task-73110 class=SkuCacheWarmer started batch=44
+2026-09-17T14:41:39.507+00:00 INFO  [inv-w3] task=task-73110 class=SkuCacheWarmer completed in 3343ms
+2026-09-17T14:42:05.741+00:00 INFO  [inv-w6] task=task-46234 class=BackorderReconciler started batch=36
+2026-09-17T14:42:06.426+00:00 DEBUG inventory-api hold=H-410a6b released
+2026-09-17T14:42:07.692+00:00 INFO  [inv-w1] task=task-79898 class=ReservationExpirySweeper started batch=49
+2026-09-17T14:42:09.114+00:00 ERROR [inv-w6] task=task-46234 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=0
+	at com.shop.inventory.worker.BackorderReconciler.call(BackorderReconciler.java:443)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:42:10.963+00:00 INFO  [inv-w1] task=task-79898 class=ReservationExpirySweeper completed in 3271ms
+2026-09-17T14:42:19.514+00:00 INFO  [inv-w3] task=task-43781 class=BackorderReconciler started batch=13
+2026-09-17T14:42:20.068+00:00 INFO  [inv-w3] task=task-43781 class=BackorderReconciler completed in 554ms
+2026-09-17T14:42:20.597+00:00 INFO  [inv-w3] task=task-57302 class=SkuCacheWarmer started batch=53
+2026-09-17T14:42:22.113+00:00 INFO  [inv-w3] task=task-57302 class=SkuCacheWarmer completed in 1516ms
+2026-09-17T14:42:28.722+00:00 DEBUG inventory-api hold=H-17aaac released
+2026-09-17T14:42:45.360+00:00 INFO  [inv-w4] task=task-31507 class=StockLedgerCompactor started batch=14
+2026-09-17T14:42:47.311+00:00 INFO  [inv-w4] task=task-31507 class=StockLedgerCompactor completed in 1951ms
+2026-09-17T14:42:49.953+00:00 INFO  [inv-w4] task=task-18626 class=BackorderReconciler started batch=18
+2026-09-17T14:42:53.381+00:00 INFO  [inv-w4] task=task-18626 class=BackorderReconciler completed in 3428ms
+2026-09-17T14:43:03.080+00:00 DEBUG inventory-api hold=H-e8dcd4 released
+2026-09-17T14:43:07.805+00:00 DEBUG inventory-api hold=H-2ce0da released
+2026-09-17T14:43:12.230+00:00 INFO  inventory-api hold=H-faa498 sku=SKU-21755 qty=2 worker=inv-w1 granted wait=29ms
+2026-09-17T14:43:12.350+00:00 INFO  inventory-api hold=H-ae89f6 sku=SKU-26368 qty=1 worker=inv-w6 granted wait=15ms
+2026-09-17T14:43:12.510+00:00 DEBUG inventory-api hold=H-faa498 released
+2026-09-17T14:43:12.513+00:00 DEBUG inventory-api hold=H-ae89f6 released
+2026-09-17T14:43:37.585+00:00 DEBUG inventory-api hold=H-df54f4 released
+2026-09-17T14:43:42.053+00:00 INFO  inventory-api hold=H-a04fae sku=SKU-39158 qty=2 worker=inv-w6 granted wait=55ms
+2026-09-17T14:43:42.063+00:00 INFO  [inv-w6] task=task-18460 class=SkuCacheWarmer started batch=54
+2026-09-17T14:43:42.155+00:00 INFO  inventory-api hold=H-096897 sku=SKU-45859 qty=1 worker=inv-w2 granted wait=20ms
+2026-09-17T14:43:42.334+00:00 DEBUG inventory-api hold=H-a04fae released
+2026-09-17T14:43:42.337+00:00 DEBUG inventory-api hold=H-096897 released
+2026-09-17T14:43:42.634+00:00 WARN  [inv-w6] task=task-18460 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:43:43.205+00:00 INFO  [inv-w6] task=task-18460 class=SkuCacheWarmer completed in 1142ms
+2026-09-17T14:44:08.985+00:00 DEBUG inventory-api hold=H-7de363 released
+2026-09-17T14:44:22.403+00:00 DEBUG inventory-api hold=H-829499 released
+2026-09-17T14:45:00.969+00:00 INFO  inventory-api hold=H-21b533 sku=SKU-47735 qty=2 worker=inv-w6 granted wait=45ms
+2026-09-17T14:45:01.087+00:00 INFO  inventory-api hold=H-737ea9 sku=SKU-41888 qty=1 worker=inv-w2 granted wait=13ms
+2026-09-17T14:45:01.170+00:00 DEBUG inventory-api hold=H-21b533 released
+2026-09-17T14:45:01.173+00:00 DEBUG inventory-api hold=H-737ea9 released
+2026-09-17T14:45:07.879+00:00 DEBUG inventory-api hold=H-a5598b released
+2026-09-17T14:45:14.358+00:00 DEBUG inventory-api hold=H-da5947 released
+2026-09-17T14:45:42.134+00:00 DEBUG inventory-api hold=H-e506b7 released
+2026-09-17T14:45:43.263+00:00 DEBUG inventory-api hold=H-629c39 released
+2026-09-17T14:45:53.535+00:00 DEBUG inventory-api hold=H-70b7ed released
+2026-09-17T14:46:35.311+00:00 INFO  [inv-w3] task=task-70555 class=ReservationExpirySweeper started batch=16
+2026-09-17T14:46:36.057+00:00 INFO  [inv-w3] task=task-70555 class=ReservationExpirySweeper completed in 746ms
+2026-09-17T14:46:39.497+00:00 DEBUG inventory-api hold=H-d2f87e released
+2026-09-17T14:46:53.475+00:00 INFO  [inv-w4] task=task-64241 class=BackorderReconciler started batch=24
+2026-09-17T14:46:57.038+00:00 INFO  [inv-w4] task=task-64241 class=BackorderReconciler completed in 3563ms
+2026-09-17T14:47:04.443+00:00 DEBUG inventory-api hold=H-146db5 released
+2026-09-17T14:47:09.056+00:00 INFO  [inv-w3] task=task-64870 class=ReservationExpirySweeper started batch=47
+2026-09-17T14:47:10.759+00:00 INFO  [inv-w5] task=task-90412 class=ReservationExpirySweeper started batch=50
+2026-09-17T14:47:11.098+00:00 WARN  [inv-w5] task=task-90412 class=ReservationExpirySweeper retrying after transient error (attempt 2/5)
+2026-09-17T14:47:11.407+00:00 DEBUG inventory-api hold=H-ac197a released
+2026-09-17T14:47:11.438+00:00 INFO  [inv-w5] task=task-90412 class=ReservationExpirySweeper completed in 679ms
+2026-09-17T14:47:11.727+00:00 INFO  [inv-w3] task=task-64870 class=ReservationExpirySweeper completed in 2671ms
+2026-09-17T14:47:17.316+00:00 INFO  [inv-w6] task=task-20600 class=SkuCacheWarmer started batch=8
+2026-09-17T14:47:17.939+00:00 WARN  [inv-w6] task=task-20600 class=SkuCacheWarmer slow scan 1389ms
+2026-09-17T14:47:18.563+00:00 INFO  [inv-w6] task=task-20600 class=SkuCacheWarmer completed in 1247ms
+2026-09-17T14:47:19.147+00:00 INFO  [inv-w1] task=task-16302 class=BackorderReconciler started batch=50
+2026-09-17T14:47:19.823+00:00 INFO  [inv-w1] task=task-16302 class=BackorderReconciler completed in 676ms
+2026-09-17T14:47:28.404+00:00 INFO  [inv-w3] task=task-94011 class=SkuCacheWarmer started batch=9
+2026-09-17T14:47:29.253+00:00 WARN  [inv-w3] task=task-94011 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:47:30.103+00:00 INFO  [inv-w3] task=task-94011 class=SkuCacheWarmer completed in 1699ms
+2026-09-17T14:47:32.431+00:00 DEBUG inventory-api hold=H-790fc0 released
+2026-09-17T14:47:33.303+00:00 DEBUG inventory-api hold=H-4dd05c released
+2026-09-17T14:47:36.215+00:00 INFO  inventory-api hold=H-48ec99 sku=SKU-34476 qty=2 worker=inv-w2 granted wait=59ms
+2026-09-17T14:47:36.328+00:00 INFO  inventory-api hold=H-33b78f sku=SKU-57000 qty=1 worker=inv-w4 granted wait=56ms
+2026-09-17T14:47:36.487+00:00 DEBUG inventory-api hold=H-48ec99 released
+2026-09-17T14:47:36.490+00:00 DEBUG inventory-api hold=H-33b78f released
+2026-09-17T14:47:49.239+00:00 DEBUG inventory-api hold=H-b1071d released
+2026-09-17T14:47:55.433+00:00 INFO  [inv-w5] task=task-47274 class=SkuCacheWarmer started batch=33
+2026-09-17T14:47:56.151+00:00 WARN  [inv-w5] task=task-47274 class=SkuCacheWarmer retrying after transient error (attempt 2/5)
+2026-09-17T14:47:56.869+00:00 INFO  [inv-w5] task=task-47274 class=SkuCacheWarmer completed in 1436ms
+2026-09-17T14:48:04.368+00:00 DEBUG inventory-api hold=H-254111 released
+2026-09-17T14:48:05.412+00:00 INFO  inventory-api hold=H-02c9f2 sku=SKU-38384 qty=2 worker=inv-w1 granted wait=27ms
+2026-09-17T14:48:05.479+00:00 INFO  inventory-api hold=H-60a7c7 sku=SKU-21800 qty=1 worker=inv-w1 granted wait=67ms
+2026-09-17T14:48:05.690+00:00 DEBUG inventory-api hold=H-02c9f2 released
+2026-09-17T14:48:05.693+00:00 DEBUG inventory-api hold=H-60a7c7 released
+2026-09-17T14:48:07.457+00:00 DEBUG inventory-api hold=H-bafb05 released
+2026-09-17T14:48:07.742+00:00 INFO  [inv-w6] task=task-40127 class=CycleCountExporter started batch=20
+2026-09-17T14:48:10.687+00:00 ERROR [inv-w6] task=task-40127 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.dispatch(CycleCountExporter.java:860)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:48:15.462+00:00 INFO  [inv-w1] task=task-54244 class=StockLedgerCompactor started batch=33
+2026-09-17T14:48:16.780+00:00 INFO  [inv-w1] task=task-54244 class=StockLedgerCompactor completed in 1318ms
+2026-09-17T14:48:23.587+00:00 INFO  [inv-w4] task=task-76399 class=SkuCacheWarmer started batch=20
+2026-09-17T14:48:27.245+00:00 ERROR [inv-w4] task=task-76399 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.process(SkuCacheWarmer.java:506)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:48:31.021+00:00 INFO  [inv-w1] task=task-16746 class=SkuCacheWarmer started batch=23
+2026-09-17T14:48:34.418+00:00 ERROR [inv-w1] task=task-16746 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.run(SkuCacheWarmer.java:735)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:48:34.479+00:00 DEBUG inventory-api hold=H-d34cc6 released
+2026-09-17T14:48:36.960+00:00 INFO  inventory-api hold=H-d8ab68 sku=SKU-56338 qty=2 worker=inv-w6 granted wait=50ms
+2026-09-17T14:48:37.020+00:00 INFO  inventory-api hold=H-f97930 sku=SKU-23828 qty=1 worker=inv-w2 granted wait=40ms
+2026-09-17T14:48:37.179+00:00 DEBUG inventory-api hold=H-d8ab68 released
+2026-09-17T14:48:37.182+00:00 DEBUG inventory-api hold=H-f97930 released
+2026-09-17T14:48:48.529+00:00 DEBUG inventory-api hold=H-58d351 released
+2026-09-17T14:48:58.932+00:00 DEBUG inventory-api hold=H-2fb6d3 released
+2026-09-17T14:49:01.857+00:00 INFO  [inv-w6] task=task-53342 class=SkuCacheWarmer started batch=12
+2026-09-17T14:49:02.988+00:00 DEBUG inventory-api hold=H-9b548c released
+2026-09-17T14:49:03.248+00:00 ERROR [inv-w6] task=task-53342 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.process(SkuCacheWarmer.java:465)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:49:35.993+00:00 DEBUG inventory-api hold=H-6f2e0b released
+2026-09-17T14:49:39.862+00:00 DEBUG inventory-api hold=H-71af56 released
+2026-09-17T14:49:49.090+00:00 INFO  [inv-w2] task=task-83842 class=StockLedgerCompactor started batch=30
+2026-09-17T14:49:50.273+00:00 INFO  [inv-w2] task=task-83842 class=StockLedgerCompactor completed in 1183ms
+2026-09-17T14:49:52.805+00:00 INFO  inventory-api hold=H-708f3e sku=SKU-28565 qty=2 worker=inv-w6 granted wait=54ms
+2026-09-17T14:49:52.898+00:00 INFO  inventory-api hold=H-58bb8a sku=SKU-57943 qty=1 worker=inv-w4 granted wait=39ms
+2026-09-17T14:49:53.095+00:00 DEBUG inventory-api hold=H-708f3e released
+2026-09-17T14:49:53.098+00:00 DEBUG inventory-api hold=H-58bb8a released
+2026-09-17T14:49:54.194+00:00 DEBUG inventory-api hold=H-95d117 released
+2026-09-17T14:49:54.666+00:00 DEBUG inventory-api hold=H-895557 released
+2026-09-17T14:50:04.889+00:00 DEBUG inventory-api hold=H-3437ad released
+2026-09-17T14:50:10.339+00:00 INFO  [inv-w5] task=task-86958 class=SkuCacheWarmer started batch=38
+2026-09-17T14:50:11.948+00:00 INFO  [inv-w5] task=task-86958 class=SkuCacheWarmer completed in 1609ms
+2026-09-17T14:50:17.730+00:00 INFO  [inv-w4] task=task-85429 class=SkuCacheWarmer started batch=45
+2026-09-17T14:50:18.235+00:00 INFO  [inv-w4] task=task-85429 class=SkuCacheWarmer completed in 505ms
+2026-09-17T14:50:19.222+00:00 INFO  [inv-w3] task=task-56544 class=ReservationExpirySweeper started batch=34
+2026-09-17T14:50:21.517+00:00 INFO  [inv-w3] task=task-56544 class=ReservationExpirySweeper completed in 2295ms
+2026-09-17T14:50:29.586+00:00 INFO  [inv-w5] task=task-67909 class=SkuCacheWarmer started batch=53
+2026-09-17T14:50:31.746+00:00 INFO  [inv-w5] task=task-67909 class=SkuCacheWarmer completed in 2160ms
+2026-09-17T14:51:33.903+00:00 INFO  [inv-w5] task=task-19028 class=BackorderReconciler started batch=36
+2026-09-17T14:51:35.641+00:00 WARN  [inv-w5] task=task-19028 class=BackorderReconciler slow scan 1482ms
+2026-09-17T14:51:36.769+00:00 DEBUG inventory-api hold=H-15e5a8 released
+2026-09-17T14:51:36.923+00:00 INFO  inventory-api hold=H-1460c7 sku=SKU-36290 qty=2 worker=inv-w4 granted wait=9ms
+2026-09-17T14:51:37.013+00:00 INFO  inventory-api hold=H-ffc0a3 sku=SKU-57094 qty=1 worker=inv-w6 granted wait=19ms
+2026-09-17T14:51:37.144+00:00 DEBUG inventory-api hold=H-1460c7 released
+2026-09-17T14:51:37.147+00:00 DEBUG inventory-api hold=H-ffc0a3 released
+2026-09-17T14:51:37.380+00:00 INFO  [inv-w5] task=task-19028 class=BackorderReconciler completed in 3477ms
+2026-09-17T14:51:46.079+00:00 DEBUG inventory-api hold=H-e02d43 released
+2026-09-17T14:51:49.310+00:00 INFO  inventory-api hold=H-56ba6f sku=SKU-12126 qty=2 worker=inv-w4 granted wait=29ms
+2026-09-17T14:51:49.406+00:00 INFO  inventory-api hold=H-2aee17 sku=SKU-45565 qty=1 worker=inv-w4 granted wait=22ms
+2026-09-17T14:51:49.547+00:00 DEBUG inventory-api hold=H-56ba6f released
+2026-09-17T14:51:49.550+00:00 DEBUG inventory-api hold=H-2aee17 released
+2026-09-17T14:52:02.795+00:00 DEBUG inventory-api hold=H-5e54f6 released
+2026-09-17T14:52:23.064+00:00 INFO  [inv-w2] task=task-63706 class=SkuCacheWarmer started batch=13
+2026-09-17T14:52:24.716+00:00 ERROR [inv-w2] task=task-63706 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.handle(SkuCacheWarmer.java:900)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:52:35.342+00:00 INFO  [inv-w6] task=task-38720 class=SkuCacheWarmer started batch=34
+2026-09-17T14:52:36.844+00:00 ERROR [inv-w6] task=task-38720 class=SkuCacheWarmer failed: ConnectException: Connection refused: redis-inv-2:6379 blocked_holds=0
+	at com.shop.inventory.worker.SkuCacheWarmer.call(SkuCacheWarmer.java:190)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:52:40.016+00:00 DEBUG inventory-api hold=H-6ff483 released
+2026-09-17T14:52:41.999+00:00 DEBUG inventory-api hold=H-18a6fa released
+2026-09-17T14:52:57.099+00:00 INFO  inventory-api hold=H-6fd20d sku=SKU-37826 qty=2 worker=inv-w2 granted wait=44ms
+2026-09-17T14:52:57.208+00:00 INFO  inventory-api hold=H-d91fb8 sku=SKU-13951 qty=1 worker=inv-w6 granted wait=44ms
+2026-09-17T14:52:57.342+00:00 DEBUG inventory-api hold=H-6fd20d released
+2026-09-17T14:52:57.345+00:00 DEBUG inventory-api hold=H-d91fb8 released
+2026-09-17T14:52:59.539+00:00 INFO  [inv-w4] task=task-99009 class=ReservationExpirySweeper started batch=13
+2026-09-17T14:53:00.091+00:00 DEBUG inventory-api hold=H-dc1e17 released
+2026-09-17T14:53:00.474+00:00 INFO  [inv-w4] task=task-99009 class=ReservationExpirySweeper completed in 935ms
+2026-09-17T14:53:10.943+00:00 INFO  [inv-w5] task=task-13346 class=SkuCacheWarmer started batch=23
+2026-09-17T14:53:11.207+00:00 WARN  [inv-w5] task=task-13346 class=SkuCacheWarmer slow scan 2105ms
+2026-09-17T14:53:11.472+00:00 INFO  [inv-w5] task=task-13346 class=SkuCacheWarmer completed in 529ms
+2026-09-17T14:53:22.153+00:00 INFO  [inv-w3] task=task-34858 class=BackorderReconciler started batch=38
+2026-09-17T14:53:23.094+00:00 WARN  [inv-w3] task=task-34858 class=BackorderReconciler lag behind schedule by 4s
+2026-09-17T14:53:24.035+00:00 INFO  [inv-w3] task=task-34858 class=BackorderReconciler completed in 1882ms
+2026-09-17T14:53:33.172+00:00 INFO  inventory-api hold=H-efa6b0 sku=SKU-58295 qty=2 worker=inv-w2 granted wait=42ms
+2026-09-17T14:53:33.245+00:00 INFO  inventory-api hold=H-628e97 sku=SKU-27823 qty=1 worker=inv-w2 granted wait=52ms
+2026-09-17T14:53:33.411+00:00 DEBUG inventory-api hold=H-efa6b0 released
+2026-09-17T14:53:33.414+00:00 DEBUG inventory-api hold=H-628e97 released
+2026-09-17T14:53:58.834+00:00 DEBUG inventory-api hold=H-27318a released
+2026-09-17T14:54:35.417+00:00 INFO  inventory-api hold=H-d98469 sku=SKU-16550 qty=2 worker=inv-w4 granted wait=50ms
+2026-09-17T14:54:35.496+00:00 INFO  inventory-api hold=H-645924 sku=SKU-11628 qty=1 worker=inv-w4 granted wait=9ms
+2026-09-17T14:54:35.586+00:00 DEBUG inventory-api hold=H-d98469 released
+2026-09-17T14:54:35.589+00:00 DEBUG inventory-api hold=H-645924 released
+2026-09-17T14:54:42.459+00:00 INFO  [inv-w3] task=task-42689 class=BackorderReconciler started batch=11
+2026-09-17T14:54:43.404+00:00 INFO  [inv-w3] task=task-42689 class=BackorderReconciler completed in 945ms
+2026-09-17T14:54:54.531+00:00 DEBUG inventory-api hold=H-b52798 released
+2026-09-17T14:55:28.611+00:00 INFO  [inv-w2] task=task-20739 class=CycleCountExporter started batch=25
+2026-09-17T14:55:29.580+00:00 DEBUG inventory-api hold=H-479eda released
+2026-09-17T14:55:29.835+00:00 ERROR [inv-w2] task=task-20739 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.handle(CycleCountExporter.java:733)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:55:39.086+00:00 DEBUG inventory-api hold=H-74663c released
+2026-09-17T14:55:47.821+00:00 INFO  [inv-w2] task=task-36888 class=SkuCacheWarmer started batch=54
+2026-09-17T14:55:48.289+00:00 WARN  [inv-w2] task=task-36888 class=SkuCacheWarmer slow scan 2340ms
+2026-09-17T14:55:48.758+00:00 INFO  [inv-w2] task=task-36888 class=SkuCacheWarmer completed in 937ms
+2026-09-17T14:55:50.993+00:00 INFO  [inv-w2] task=task-98537 class=BackorderReconciler started batch=7
+2026-09-17T14:55:53.444+00:00 INFO  [inv-w2] task=task-98537 class=BackorderReconciler completed in 2451ms
+2026-09-17T14:55:56.135+00:00 DEBUG inventory-api hold=H-386caf released
+2026-09-17T14:55:58.169+00:00 INFO  [inv-w6] task=task-23203 class=BackorderReconciler started batch=27
+2026-09-17T14:56:00.691+00:00 ERROR [inv-w6] task=task-23203 class=BackorderReconciler failed: SQLTransientConnectionException: connection pool exhausted (30/30) blocked_holds=0
+	at com.shop.inventory.worker.BackorderReconciler.execute(BackorderReconciler.java:448)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:56:02.363+00:00 DEBUG inventory-api hold=H-877a77 released
+2026-09-17T14:56:04.053+00:00 DEBUG inventory-api hold=H-ccb24a released
+2026-09-17T14:56:04.379+00:00 DEBUG inventory-api hold=H-0b5bcb released
+2026-09-17T14:56:11.454+00:00 DEBUG inventory-api hold=H-bac94a released
+2026-09-17T14:56:36.870+00:00 DEBUG inventory-api hold=H-466545 released
+2026-09-17T14:56:37.952+00:00 DEBUG inventory-api hold=H-ae36ff released
+2026-09-17T14:56:49.160+00:00 INFO  [inv-w6] task=task-63788 class=CycleCountExporter started batch=6
+2026-09-17T14:56:52.473+00:00 ERROR [inv-w6] task=task-63788 class=CycleCountExporter failed: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp blocked_holds=0
+	at com.shop.inventory.worker.CycleCountExporter.handle(CycleCountExporter.java:735)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17T14:56:53.392+00:00 DEBUG inventory-api hold=H-785b89 released
+2026-09-17T14:56:54.387+00:00 INFO  [inv-w3] task=task-57407 class=StockLedgerCompactor started batch=35
+2026-09-17T14:56:56.595+00:00 INFO  [inv-w3] task=task-57407 class=StockLedgerCompactor completed in 2208ms
+2026-09-17T14:57:06.919+00:00 DEBUG inventory-api hold=H-1647f7 released
+2026-09-17T14:57:11.459+00:00 DEBUG inventory-api hold=H-04d1ea released
+2026-09-17T14:57:33.452+00:00 DEBUG inventory-api hold=H-42a5a1 released
+2026-09-17T14:57:34.219+00:00 DEBUG inventory-api hold=H-f98364 released
+2026-09-17T14:57:43.443+00:00 INFO  [inv-w2] task=task-25168 class=BackorderReconciler started batch=56
+2026-09-17T14:57:46.432+00:00 INFO  [inv-w2] task=task-25168 class=BackorderReconciler completed in 2989ms
+2026-09-17T14:57:49.858+00:00 INFO  inventory-api hold=H-8f1245 sku=SKU-37496 qty=2 worker=inv-w1 granted wait=56ms
+2026-09-17T14:57:49.919+00:00 INFO  inventory-api hold=H-89a0dc sku=SKU-52974 qty=1 worker=inv-w6 granted wait=16ms
+2026-09-17T14:57:50.022+00:00 DEBUG inventory-api hold=H-8f1245 released
+2026-09-17T14:57:50.025+00:00 DEBUG inventory-api hold=H-89a0dc released
+2026-09-17T14:58:14.668+00:00 INFO  [inv-w3] task=task-65345 class=ReservationExpirySweeper started batch=8
+2026-09-17T14:58:15.039+00:00 WARN  [inv-w3] task=task-65345 class=ReservationExpirySweeper slow scan 2053ms
+2026-09-17T14:58:15.410+00:00 INFO  [inv-w3] task=task-65345 class=ReservationExpirySweeper completed in 742ms
+2026-09-17T14:58:26.205+00:00 DEBUG inventory-api hold=H-eaee81 released
+2026-09-17T14:58:31.624+00:00 DEBUG inventory-api hold=H-a1a5cd released
+2026-09-17T14:58:34.052+00:00 DEBUG inventory-api hold=H-15aef8 released
+2026-09-17T14:58:56.889+00:00 INFO  [inv-w5] task=task-54151 class=StockLedgerCompactor started batch=18
+2026-09-17T14:59:00.574+00:00 INFO  [inv-w5] task=task-54151 class=StockLedgerCompactor completed in 3685ms
+2026-09-17T14:59:01.189+00:00 INFO  [inv-w6] task=task-61883 class=StockLedgerCompactor started batch=46
+2026-09-17T14:59:04.332+00:00 INFO  [inv-w6] task=task-61883 class=StockLedgerCompactor completed in 3143ms
+2026-09-17T14:59:06.104+00:00 INFO  inventory-api hold=H-df7c4e sku=SKU-36579 qty=2 worker=inv-w1 granted wait=37ms
+2026-09-17T14:59:06.192+00:00 INFO  inventory-api hold=H-583413 sku=SKU-52376 qty=1 worker=inv-w4 granted wait=30ms
+2026-09-17T14:59:06.357+00:00 DEBUG inventory-api hold=H-df7c4e released
+2026-09-17T14:59:06.360+00:00 DEBUG inventory-api hold=H-583413 released
+2026-09-17T14:59:15.386+00:00 DEBUG inventory-api hold=H-a5cc9f released
+2026-09-17T14:59:18.470+00:00 INFO  inventory-api hold=H-a689f1 sku=SKU-29844 qty=2 worker=inv-w1 granted wait=11ms
+2026-09-17T14:59:18.589+00:00 INFO  inventory-api hold=H-8dfbbb sku=SKU-16891 qty=1 worker=inv-w1 granted wait=46ms
+2026-09-17T14:59:18.731+00:00 DEBUG inventory-api hold=H-a689f1 released
+2026-09-17T14:59:18.734+00:00 DEBUG inventory-api hold=H-8dfbbb released
+2026-09-17T14:59:57.105+00:00 DEBUG inventory-api hold=H-ddec97 released
+2026-09-17T14:59:59.067+00:00 INFO  [inv-w2] task=task-59989 class=ReservationExpirySweeper started batch=36
+2026-09-17T15:00:00.586+00:00 INFO  [inv-w2] task=task-59989 class=ReservationExpirySweeper completed in 1519ms

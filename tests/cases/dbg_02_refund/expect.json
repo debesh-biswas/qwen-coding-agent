@@ -1,0 +1,23 @@
+{
+  "status": "any",
+  "timeout": 300,
+  "allow_new_files": true,
+  "json_file": {
+    "path": "REPORT.json",
+    "equals": {
+      "gateway_request_id": "rq_ba24071db6",
+      "upstream_trace_id": "03ac4ad96567c1fbd81034a0fff3bceb",
+      "restock_ticket_id": "RS-2026-14728",
+      "worker": "stockd-b4",
+      "root_cause_component": "ShelfIndexRebuilder",
+      "refund_id": "re_bct3XSzuiLeydQKCx9R5",
+      "http_status": 504,
+      "gateway_timeout_ms": 12000,
+      "ticket_wait_ms": 11838,
+      "root_cause_error": "IndexSegmentLockedException",
+      "first_warning_at": "2026-10-03 09:46:44.371",
+      "stalled_tickets": 6
+    },
+    "exact_keys": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "any",
+  "timeout": 300,
+  "allow_new_files": true,
+  "json_file": {
+    "path": "REPORT.json",
+    "equals": {
+      "gateway_request_id": "r-3d0ee607",
+      "upstream_trace_id": "tr-377e5b648c02",
+      "hold_id": "H-543bcd",
+      "worker": "inv-w3",
+      "root_cause_component": "StockLedgerCompactor",
+      "payment_intent_id": "pi_PYIgoUmPklU6LYQV5mCicm5H",
+      "gateway_status": 502,
+      "upstream_timeout_ms": 8000,
+      "hold_wait_ms": 7850,
+      "root_cause_exception": "LedgerLockTimeoutException",
+      "first_failure_timestamp": "2026-09-17T14:31:44.371+00:00",
+      "blocked_holds_count": 6
+    },
+    "exact_keys": true
+  }
+}

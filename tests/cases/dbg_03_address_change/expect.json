@@ -1,0 +1,23 @@
+{
+  "status": "any",
+  "timeout": 300,
+  "allow_new_files": true,
+  "json_file": {
+    "path": "REPORT.json",
+    "equals": {
+      "gateway_request_id": "eb780506-8865-434f-a499-ab4a41919d1b",
+      "upstream_trace_id": "06bed2693f2c",
+      "lease_id": "LS-8933186",
+      "worker": "wh-agent-02",
+      "root_cause_component": "SlotRebalancer",
+      "payment_txn_id": "txn_054800a627dd258d",
+      "status_code": 503,
+      "upstream_timeout_ms": 5000,
+      "lease_wait_ms": 4853,
+      "exception_class": "SlotTableLockTimeoutException",
+      "blocking_task_started_at": "2026-10-21 21:37:19,200",
+      "queued_leases": 6
+    },
+    "exact_keys": true
+  }
+}

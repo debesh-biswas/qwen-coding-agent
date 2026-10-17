@@ -1,0 +1,664 @@
+ts=2026-10-03T09:00:05.123Z level=info svc=orders msg="refund started" trace_id=9206244ea0c12fabdeeaf8ed32c60d53 lines=3
+ts=2026-10-03T09:00:05.173Z level=info svc=orders msg="restock requested" trace_id=9206244ea0c12fabdeeaf8ed32c60d53 ticket=RS-2026-54006 sku=SKU-18846 qty=1
+ts=2026-10-03T09:00:05.229Z level=info svc=orders msg="restock ticket granted" trace_id=9206244ea0c12fabdeeaf8ed32c60d53 ticket=RS-2026-54006 wait_ms=53
+ts=2026-10-03T09:00:05.245Z level=info svc=orders msg="restock requested" trace_id=9206244ea0c12fabdeeaf8ed32c60d53 ticket=RS-2026-12804 sku=SKU-50174 qty=2
+ts=2026-10-03T09:00:05.321Z level=info svc=orders msg="restock ticket granted" trace_id=9206244ea0c12fabdeeaf8ed32c60d53 ticket=RS-2026-12804 wait_ms=73
+ts=2026-10-03T09:00:05.401Z level=info svc=orders msg="refund submitted" trace_id=9206244ea0c12fabdeeaf8ed32c60d53 amount=449.80
+ts=2026-10-03T09:00:21.260Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:00:49.376Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:01:13.289Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:01:18.162Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:01:19.480Z level=info svc=orders msg="refund started" trace_id=0cbaa3cc1cf9ea783c10b67a19b24024 lines=2
+ts=2026-10-03T09:01:19.528Z level=info svc=orders msg="restock requested" trace_id=0cbaa3cc1cf9ea783c10b67a19b24024 ticket=RS-2026-86716 sku=SKU-28676 qty=3
+ts=2026-10-03T09:01:19.565Z level=info svc=orders msg="restock ticket granted" trace_id=0cbaa3cc1cf9ea783c10b67a19b24024 ticket=RS-2026-86716 wait_ms=34
+ts=2026-10-03T09:01:19.614Z level=info svc=orders msg="restock requested" trace_id=0cbaa3cc1cf9ea783c10b67a19b24024 ticket=RS-2026-99186 sku=SKU-32801 qty=2
+ts=2026-10-03T09:01:19.684Z level=info svc=orders msg="restock ticket granted" trace_id=0cbaa3cc1cf9ea783c10b67a19b24024 ticket=RS-2026-99186 wait_ms=67
+ts=2026-10-03T09:01:19.743Z level=info svc=orders msg="refund submitted" trace_id=0cbaa3cc1cf9ea783c10b67a19b24024 amount=427.61
+ts=2026-10-03T09:01:24.554Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:01:31.921Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:01:35.531Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:01:41.290Z level=info svc=orders msg="refund started" trace_id=e9ce85c64fa4368d754fcd3d7c3f51aa lines=4
+ts=2026-10-03T09:01:41.321Z level=info svc=orders msg="restock requested" trace_id=e9ce85c64fa4368d754fcd3d7c3f51aa ticket=RS-2026-39813 sku=SKU-12997 qty=1
+ts=2026-10-03T09:01:41.341Z level=info svc=orders msg="restock ticket granted" trace_id=e9ce85c64fa4368d754fcd3d7c3f51aa ticket=RS-2026-39813 wait_ms=17
+ts=2026-10-03T09:01:41.423Z level=info svc=orders msg="restock requested" trace_id=e9ce85c64fa4368d754fcd3d7c3f51aa ticket=RS-2026-12095 sku=SKU-46094 qty=1
+ts=2026-10-03T09:01:41.488Z level=info svc=orders msg="restock ticket granted" trace_id=e9ce85c64fa4368d754fcd3d7c3f51aa ticket=RS-2026-12095 wait_ms=62
+ts=2026-10-03T09:01:41.585Z level=info svc=orders msg="refund submitted" trace_id=e9ce85c64fa4368d754fcd3d7c3f51aa amount=373.69
+ts=2026-10-03T09:01:47.255Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:01:51.148Z level=info svc=orders msg="refund started" trace_id=a91c5474e9d9ec2f1520151010a41edd lines=3
+ts=2026-10-03T09:01:51.198Z level=info svc=orders msg="restock requested" trace_id=a91c5474e9d9ec2f1520151010a41edd ticket=RS-2026-69540 sku=SKU-14412 qty=2
+ts=2026-10-03T09:01:51.262Z level=info svc=orders msg="restock ticket granted" trace_id=a91c5474e9d9ec2f1520151010a41edd ticket=RS-2026-69540 wait_ms=61
+ts=2026-10-03T09:01:51.273Z level=info svc=orders msg="restock requested" trace_id=a91c5474e9d9ec2f1520151010a41edd ticket=RS-2026-39198 sku=SKU-59109 qty=3
+ts=2026-10-03T09:01:51.347Z level=info svc=orders msg="restock ticket granted" trace_id=a91c5474e9d9ec2f1520151010a41edd ticket=RS-2026-39198 wait_ms=71
+ts=2026-10-03T09:01:51.430Z level=info svc=orders msg="refund submitted" trace_id=a91c5474e9d9ec2f1520151010a41edd amount=210.91
+ts=2026-10-03T09:02:25.358Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:02:50.046Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:03:33.623Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:03:43.363Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:03:59.609Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:05:00.765Z level=info svc=orders msg="refund started" trace_id=03cf9ae0986499e51e827188763df8bd lines=5
+ts=2026-10-03T09:05:00.815Z level=info svc=orders msg="restock requested" trace_id=03cf9ae0986499e51e827188763df8bd ticket=RS-2026-56764 sku=SKU-48889 qty=3
+ts=2026-10-03T09:05:00.840Z level=info svc=orders msg="restock ticket granted" trace_id=03cf9ae0986499e51e827188763df8bd ticket=RS-2026-56764 wait_ms=22
+ts=2026-10-03T09:05:00.913Z level=info svc=orders msg="restock requested" trace_id=03cf9ae0986499e51e827188763df8bd ticket=RS-2026-31804 sku=SKU-16109 qty=3
+ts=2026-10-03T09:05:00.954Z level=info svc=orders msg="restock ticket granted" trace_id=03cf9ae0986499e51e827188763df8bd ticket=RS-2026-31804 wait_ms=38
+ts=2026-10-03T09:05:01.085Z level=info svc=orders msg="refund submitted" trace_id=03cf9ae0986499e51e827188763df8bd amount=486.23
+ts=2026-10-03T09:05:01.868Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:05:17.817Z level=info svc=orders msg="refund started" trace_id=5849d06f49863bb3042142ca03134b80 lines=1
+ts=2026-10-03T09:05:17.858Z level=info svc=orders msg="restock requested" trace_id=5849d06f49863bb3042142ca03134b80 ticket=RS-2026-79710 sku=SKU-39302 qty=3
+ts=2026-10-03T09:05:17.920Z level=info svc=orders msg="restock ticket granted" trace_id=5849d06f49863bb3042142ca03134b80 ticket=RS-2026-79710 wait_ms=59
+ts=2026-10-03T09:05:17.973Z level=info svc=orders msg="restock requested" trace_id=5849d06f49863bb3042142ca03134b80 ticket=RS-2026-81422 sku=SKU-24390 qty=1
+ts=2026-10-03T09:05:18.015Z level=info svc=orders msg="restock ticket granted" trace_id=5849d06f49863bb3042142ca03134b80 ticket=RS-2026-81422 wait_ms=39
+ts=2026-10-03T09:05:18.138Z level=info svc=orders msg="refund submitted" trace_id=5849d06f49863bb3042142ca03134b80 amount=174.02
+ts=2026-10-03T09:05:38.439Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:05:46.887Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:05:49.404Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:06:15.610Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:06:20.664Z level=info svc=orders msg="refund started" trace_id=87f8b6cb6f9086d05e86522b43625629 lines=2
+ts=2026-10-03T09:06:20.713Z level=info svc=orders msg="restock requested" trace_id=87f8b6cb6f9086d05e86522b43625629 ticket=RS-2026-43887 sku=SKU-12255 qty=1
+ts=2026-10-03T09:06:20.730Z level=info svc=orders msg="restock ticket granted" trace_id=87f8b6cb6f9086d05e86522b43625629 ticket=RS-2026-43887 wait_ms=14
+ts=2026-10-03T09:06:20.833Z level=info svc=orders msg="restock requested" trace_id=87f8b6cb6f9086d05e86522b43625629 ticket=RS-2026-73227 sku=SKU-38292 qty=3
+ts=2026-10-03T09:06:20.869Z level=info svc=orders msg="restock ticket granted" trace_id=87f8b6cb6f9086d05e86522b43625629 ticket=RS-2026-73227 wait_ms=33
+ts=2026-10-03T09:06:21.000Z level=info svc=orders msg="refund submitted" trace_id=87f8b6cb6f9086d05e86522b43625629 amount=282.03
+ts=2026-10-03T09:06:25.162Z level=info svc=orders msg="refund started" trace_id=35d611af836f6a8c14c391f6711040a3 lines=1
+ts=2026-10-03T09:06:25.200Z level=info svc=orders msg="restock requested" trace_id=35d611af836f6a8c14c391f6711040a3 ticket=RS-2026-83922 sku=SKU-10569 qty=2
+ts=2026-10-03T09:06:25.240Z level=info svc=orders msg="restock ticket granted" trace_id=35d611af836f6a8c14c391f6711040a3 ticket=RS-2026-83922 wait_ms=37
+ts=2026-10-03T09:06:25.312Z level=info svc=orders msg="restock requested" trace_id=35d611af836f6a8c14c391f6711040a3 ticket=RS-2026-79240 sku=SKU-15342 qty=1
+ts=2026-10-03T09:06:25.341Z level=info svc=orders msg="restock ticket granted" trace_id=35d611af836f6a8c14c391f6711040a3 ticket=RS-2026-79240 wait_ms=26
+ts=2026-10-03T09:06:25.482Z level=info svc=orders msg="refund submitted" trace_id=35d611af836f6a8c14c391f6711040a3 amount=216.08
+ts=2026-10-03T09:06:36.790Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:06:51.541Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:06:55.724Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:07:41.331Z level=info svc=orders msg="refund started" trace_id=913da20a71b31d719204e13570f5aaeb lines=2
+ts=2026-10-03T09:07:41.386Z level=info svc=orders msg="restock requested" trace_id=913da20a71b31d719204e13570f5aaeb ticket=RS-2026-20122 sku=SKU-41558 qty=4
+ts=2026-10-03T09:07:41.432Z level=info svc=orders msg="restock ticket granted" trace_id=913da20a71b31d719204e13570f5aaeb ticket=RS-2026-20122 wait_ms=43
+ts=2026-10-03T09:07:41.450Z level=info svc=orders msg="restock requested" trace_id=913da20a71b31d719204e13570f5aaeb ticket=RS-2026-89654 sku=SKU-12776 qty=2
+ts=2026-10-03T09:07:41.517Z level=info svc=orders msg="restock ticket granted" trace_id=913da20a71b31d719204e13570f5aaeb ticket=RS-2026-89654 wait_ms=64
+ts=2026-10-03T09:07:41.647Z level=info svc=orders msg="refund submitted" trace_id=913da20a71b31d719204e13570f5aaeb amount=99.40
+ts=2026-10-03T09:08:08.908Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:08:12.348Z level=info svc=orders msg="refund started" trace_id=69f5972b235b7a6b86713a6ad5e8b394 lines=4
+ts=2026-10-03T09:08:12.404Z level=info svc=orders msg="restock requested" trace_id=69f5972b235b7a6b86713a6ad5e8b394 ticket=RS-2026-20906 sku=SKU-58442 qty=2
+ts=2026-10-03T09:08:12.461Z level=info svc=orders msg="restock ticket granted" trace_id=69f5972b235b7a6b86713a6ad5e8b394 ticket=RS-2026-20906 wait_ms=54
+ts=2026-10-03T09:08:12.512Z level=info svc=orders msg="restock requested" trace_id=69f5972b235b7a6b86713a6ad5e8b394 ticket=RS-2026-68951 sku=SKU-58114 qty=3
+ts=2026-10-03T09:08:12.529Z level=info svc=orders msg="restock ticket granted" trace_id=69f5972b235b7a6b86713a6ad5e8b394 ticket=RS-2026-68951 wait_ms=14
+ts=2026-10-03T09:08:12.615Z level=info svc=orders msg="refund submitted" trace_id=69f5972b235b7a6b86713a6ad5e8b394 amount=638.10
+ts=2026-10-03T09:08:52.831Z level=info svc=orders msg="refund started" trace_id=c9e2f72446bcbd8f4f1fec47d2975370 lines=3
+ts=2026-10-03T09:08:52.871Z level=info svc=orders msg="restock requested" trace_id=c9e2f72446bcbd8f4f1fec47d2975370 ticket=RS-2026-17798 sku=SKU-11703 qty=3
+ts=2026-10-03T09:08:52.919Z level=info svc=orders msg="restock ticket granted" trace_id=c9e2f72446bcbd8f4f1fec47d2975370 ticket=RS-2026-17798 wait_ms=45
+ts=2026-10-03T09:08:52.983Z level=info svc=orders msg="restock requested" trace_id=c9e2f72446bcbd8f4f1fec47d2975370 ticket=RS-2026-33009 sku=SKU-25198 qty=1
+ts=2026-10-03T09:08:53.035Z level=info svc=orders msg="restock ticket granted" trace_id=c9e2f72446bcbd8f4f1fec47d2975370 ticket=RS-2026-33009 wait_ms=49
+ts=2026-10-03T09:08:53.108Z level=info svc=orders msg="refund submitted" trace_id=c9e2f72446bcbd8f4f1fec47d2975370 amount=56.14
+ts=2026-10-03T09:09:01.398Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:09:15.191Z level=info svc=orders msg="refund started" trace_id=51b54c3bf9014409b4f1ed6f432b4a54 lines=4
+ts=2026-10-03T09:09:15.243Z level=info svc=orders msg="restock requested" trace_id=51b54c3bf9014409b4f1ed6f432b4a54 ticket=RS-2026-35172 sku=SKU-21305 qty=2
+ts=2026-10-03T09:09:15.279Z level=info svc=orders msg="restock ticket granted" trace_id=51b54c3bf9014409b4f1ed6f432b4a54 ticket=RS-2026-35172 wait_ms=33
+ts=2026-10-03T09:09:15.307Z level=info svc=orders msg="restock requested" trace_id=51b54c3bf9014409b4f1ed6f432b4a54 ticket=RS-2026-10835 sku=SKU-27228 qty=3
+ts=2026-10-03T09:09:15.346Z level=info svc=orders msg="restock ticket granted" trace_id=51b54c3bf9014409b4f1ed6f432b4a54 ticket=RS-2026-10835 wait_ms=36
+ts=2026-10-03T09:09:15.487Z level=info svc=orders msg="refund submitted" trace_id=51b54c3bf9014409b4f1ed6f432b4a54 amount=248.80
+ts=2026-10-03T09:09:23.740Z level=info svc=orders msg="refund started" trace_id=01b61e65a8944db00a775f8921aa07d1 lines=3
+ts=2026-10-03T09:09:23.784Z level=info svc=orders msg="restock requested" trace_id=01b61e65a8944db00a775f8921aa07d1 ticket=RS-2026-58765 sku=SKU-26261 qty=4
+ts=2026-10-03T09:09:23.820Z level=info svc=orders msg="restock ticket granted" trace_id=01b61e65a8944db00a775f8921aa07d1 ticket=RS-2026-58765 wait_ms=33
+ts=2026-10-03T09:09:23.863Z level=info svc=orders msg="restock requested" trace_id=01b61e65a8944db00a775f8921aa07d1 ticket=RS-2026-66665 sku=SKU-41079 qty=2
+ts=2026-10-03T09:09:23.901Z level=info svc=orders msg="restock ticket granted" trace_id=01b61e65a8944db00a775f8921aa07d1 ticket=RS-2026-66665 wait_ms=35
+ts=2026-10-03T09:09:24.034Z level=info svc=orders msg="refund submitted" trace_id=01b61e65a8944db00a775f8921aa07d1 amount=236.33
+ts=2026-10-03T09:09:49.636Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:10:05.359Z level=info svc=orders msg="refund started" trace_id=6252054caf23b79f6d84194613fed4af lines=2
+ts=2026-10-03T09:10:05.404Z level=info svc=orders msg="restock requested" trace_id=6252054caf23b79f6d84194613fed4af ticket=RS-2026-70508 sku=SKU-15445 qty=1
+ts=2026-10-03T09:10:05.467Z level=info svc=orders msg="restock ticket granted" trace_id=6252054caf23b79f6d84194613fed4af ticket=RS-2026-70508 wait_ms=60
+ts=2026-10-03T09:10:05.494Z level=info svc=orders msg="restock requested" trace_id=6252054caf23b79f6d84194613fed4af ticket=RS-2026-60246 sku=SKU-54480 qty=2
+ts=2026-10-03T09:10:05.539Z level=info svc=orders msg="restock ticket granted" trace_id=6252054caf23b79f6d84194613fed4af ticket=RS-2026-60246 wait_ms=42
+ts=2026-10-03T09:10:05.650Z level=info svc=orders msg="refund submitted" trace_id=6252054caf23b79f6d84194613fed4af amount=571.65
+ts=2026-10-03T09:10:25.336Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:10:30.452Z level=INFO svc=orders component=MetricsFlusher msg="flushed 418 samples"
+ts=2026-10-03T09:10:31.816Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:10:33.354Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:10:39.864Z level=info svc=orders msg="refund started" trace_id=51e2d5e8ad00e6a85369219d788006c7 lines=2
+ts=2026-10-03T09:10:39.920Z level=info svc=orders msg="restock requested" trace_id=51e2d5e8ad00e6a85369219d788006c7 ticket=RS-2026-13418 sku=SKU-58185 qty=1
+ts=2026-10-03T09:10:39.978Z level=info svc=orders msg="restock ticket granted" trace_id=51e2d5e8ad00e6a85369219d788006c7 ticket=RS-2026-13418 wait_ms=55
+ts=2026-10-03T09:10:40.030Z level=info svc=orders msg="restock requested" trace_id=51e2d5e8ad00e6a85369219d788006c7 ticket=RS-2026-69114 sku=SKU-38839 qty=3
+ts=2026-10-03T09:10:40.067Z level=info svc=orders msg="restock ticket granted" trace_id=51e2d5e8ad00e6a85369219d788006c7 ticket=RS-2026-69114 wait_ms=34
+ts=2026-10-03T09:10:40.091Z level=info svc=orders msg="refund submitted" trace_id=51e2d5e8ad00e6a85369219d788006c7 amount=570.93
+ts=2026-10-03T09:11:52.794Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:12:34.629Z level=info svc=orders msg="refund started" trace_id=4b5005f730a5c689bb9fc1a361580d76 lines=1
+ts=2026-10-03T09:12:34.675Z level=info svc=orders msg="restock requested" trace_id=4b5005f730a5c689bb9fc1a361580d76 ticket=RS-2026-54795 sku=SKU-19632 qty=3
+ts=2026-10-03T09:12:34.701Z level=info svc=orders msg="restock ticket granted" trace_id=4b5005f730a5c689bb9fc1a361580d76 ticket=RS-2026-54795 wait_ms=23
+ts=2026-10-03T09:12:34.750Z level=info svc=orders msg="restock requested" trace_id=4b5005f730a5c689bb9fc1a361580d76 ticket=RS-2026-25768 sku=SKU-37065 qty=1
+ts=2026-10-03T09:12:34.825Z level=info svc=orders msg="restock ticket granted" trace_id=4b5005f730a5c689bb9fc1a361580d76 ticket=RS-2026-25768 wait_ms=72
+ts=2026-10-03T09:12:34.944Z level=info svc=orders msg="refund submitted" trace_id=4b5005f730a5c689bb9fc1a361580d76 amount=69.11
+ts=2026-10-03T09:12:51.319Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:13:19.492Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:13:19.983Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:14:21.725Z level=ERROR svc=orders component=ShippingQuoteCache msg="ConcurrentModificationException: zone table changed during refresh"
+Traceback (most recent call last):
+  File "/srv/orders/ShippingQuoteCache.py", line 35, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ConcurrentModificationException: zone table changed during refresh
+ts=2026-10-03T09:15:12.656Z level=info svc=orders msg="refund started" trace_id=80508748ab6350df266bd1ecabc4a8ff lines=2
+ts=2026-10-03T09:15:12.710Z level=info svc=orders msg="restock requested" trace_id=80508748ab6350df266bd1ecabc4a8ff ticket=RS-2026-98921 sku=SKU-10558 qty=2
+ts=2026-10-03T09:15:12.746Z level=info svc=orders msg="restock ticket granted" trace_id=80508748ab6350df266bd1ecabc4a8ff ticket=RS-2026-98921 wait_ms=33
+ts=2026-10-03T09:15:12.775Z level=info svc=orders msg="restock requested" trace_id=80508748ab6350df266bd1ecabc4a8ff ticket=RS-2026-16139 sku=SKU-57235 qty=2
+ts=2026-10-03T09:15:12.794Z level=info svc=orders msg="restock ticket granted" trace_id=80508748ab6350df266bd1ecabc4a8ff ticket=RS-2026-16139 wait_ms=16
+ts=2026-10-03T09:15:12.915Z level=info svc=orders msg="refund submitted" trace_id=80508748ab6350df266bd1ecabc4a8ff amount=226.23
+ts=2026-10-03T09:15:18.033Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:15:20.582Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:15:38.216Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:15:58.757Z level=info svc=orders msg="refund started" trace_id=90b01019fff4101d4b6d8769b26800b4 lines=3
+ts=2026-10-03T09:15:58.802Z level=info svc=orders msg="restock requested" trace_id=90b01019fff4101d4b6d8769b26800b4 ticket=RS-2026-66224 sku=SKU-44053 qty=4
+ts=2026-10-03T09:15:58.855Z level=info svc=orders msg="restock ticket granted" trace_id=90b01019fff4101d4b6d8769b26800b4 ticket=RS-2026-66224 wait_ms=50
+ts=2026-10-03T09:15:58.896Z level=info svc=orders msg="restock requested" trace_id=90b01019fff4101d4b6d8769b26800b4 ticket=RS-2026-51547 sku=SKU-21737 qty=3
+ts=2026-10-03T09:15:58.943Z level=info svc=orders msg="restock ticket granted" trace_id=90b01019fff4101d4b6d8769b26800b4 ticket=RS-2026-51547 wait_ms=44
+ts=2026-10-03T09:15:59.050Z level=info svc=orders msg="refund submitted" trace_id=90b01019fff4101d4b6d8769b26800b4 amount=99.08
+ts=2026-10-03T09:15:59.178Z level=ERROR svc=orders component=InvoiceRenderer msg="IllegalStateException: font cache not initialised"
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 377, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+ts=2026-10-03T09:16:03.858Z level=ERROR svc=orders component=PromoCodeResolver msg="NullPointerException: Cannot invoke Promo.getRules() because promo is null"
+Traceback (most recent call last):
+  File "/srv/orders/PromoCodeResolver.py", line 166, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+NullPointerException: Cannot invoke Promo.getRules() because promo is null
+ts=2026-10-03T09:16:34.423Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:16:43.507Z level=info svc=orders msg="refund started" trace_id=eca4d35b99b655d3f1c6267c62c771ff lines=4
+ts=2026-10-03T09:16:43.547Z level=info svc=orders msg="restock requested" trace_id=eca4d35b99b655d3f1c6267c62c771ff ticket=RS-2026-34247 sku=SKU-15567 qty=3
+ts=2026-10-03T09:16:43.578Z level=info svc=orders msg="restock ticket granted" trace_id=eca4d35b99b655d3f1c6267c62c771ff ticket=RS-2026-34247 wait_ms=28
+ts=2026-10-03T09:16:43.629Z level=info svc=orders msg="restock requested" trace_id=eca4d35b99b655d3f1c6267c62c771ff ticket=RS-2026-46948 sku=SKU-43211 qty=2
+ts=2026-10-03T09:16:43.688Z level=info svc=orders msg="restock ticket granted" trace_id=eca4d35b99b655d3f1c6267c62c771ff ticket=RS-2026-46948 wait_ms=56
+ts=2026-10-03T09:16:43.795Z level=info svc=orders msg="refund submitted" trace_id=eca4d35b99b655d3f1c6267c62c771ff amount=449.73
+ts=2026-10-03T09:16:50.465Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:17:00.770Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:17:29.978Z level=INFO svc=orders component=MetricsFlusher msg="flushed 418 samples"
+ts=2026-10-03T09:17:47.259Z level=info svc=orders msg="refund started" trace_id=916d9f158489c8df897a49154d2940f6 lines=5
+ts=2026-10-03T09:17:47.310Z level=info svc=orders msg="restock requested" trace_id=916d9f158489c8df897a49154d2940f6 ticket=RS-2026-88411 sku=SKU-16462 qty=2
+ts=2026-10-03T09:17:47.331Z level=info svc=orders msg="restock ticket granted" trace_id=916d9f158489c8df897a49154d2940f6 ticket=RS-2026-88411 wait_ms=18
+ts=2026-10-03T09:17:47.397Z level=info svc=orders msg="restock requested" trace_id=916d9f158489c8df897a49154d2940f6 ticket=RS-2026-14188 sku=SKU-18095 qty=1
+ts=2026-10-03T09:17:47.421Z level=info svc=orders msg="restock ticket granted" trace_id=916d9f158489c8df897a49154d2940f6 ticket=RS-2026-14188 wait_ms=21
+ts=2026-10-03T09:17:47.520Z level=info svc=orders msg="refund submitted" trace_id=916d9f158489c8df897a49154d2940f6 amount=10.63
+ts=2026-10-03T09:18:23.779Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:18:27.514Z level=info svc=orders msg="refund started" trace_id=a0eb5ac6869e2c6895448fe3a5210649 lines=1
+ts=2026-10-03T09:18:27.565Z level=info svc=orders msg="restock requested" trace_id=a0eb5ac6869e2c6895448fe3a5210649 ticket=RS-2026-16931 sku=SKU-30722 qty=2
+ts=2026-10-03T09:18:27.599Z level=info svc=orders msg="restock ticket granted" trace_id=a0eb5ac6869e2c6895448fe3a5210649 ticket=RS-2026-16931 wait_ms=31
+ts=2026-10-03T09:18:27.659Z level=info svc=orders msg="restock requested" trace_id=a0eb5ac6869e2c6895448fe3a5210649 ticket=RS-2026-29440 sku=SKU-58607 qty=1
+ts=2026-10-03T09:18:27.710Z level=info svc=orders msg="restock ticket granted" trace_id=a0eb5ac6869e2c6895448fe3a5210649 ticket=RS-2026-29440 wait_ms=48
+ts=2026-10-03T09:18:27.781Z level=info svc=orders msg="refund submitted" trace_id=a0eb5ac6869e2c6895448fe3a5210649 amount=183.07
+ts=2026-10-03T09:18:51.008Z level=info svc=orders msg="refund started" trace_id=4d56cc50906909ecaad0a4b8dd0ce497 lines=3
+ts=2026-10-03T09:18:51.058Z level=info svc=orders msg="restock requested" trace_id=4d56cc50906909ecaad0a4b8dd0ce497 ticket=RS-2026-76392 sku=SKU-47363 qty=3
+ts=2026-10-03T09:18:51.108Z level=info svc=orders msg="restock ticket granted" trace_id=4d56cc50906909ecaad0a4b8dd0ce497 ticket=RS-2026-76392 wait_ms=47
+ts=2026-10-03T09:18:51.158Z level=info svc=orders msg="restock requested" trace_id=4d56cc50906909ecaad0a4b8dd0ce497 ticket=RS-2026-12359 sku=SKU-29148 qty=3
+ts=2026-10-03T09:18:51.212Z level=info svc=orders msg="restock ticket granted" trace_id=4d56cc50906909ecaad0a4b8dd0ce497 ticket=RS-2026-12359 wait_ms=51
+ts=2026-10-03T09:18:51.239Z level=info svc=orders msg="refund submitted" trace_id=4d56cc50906909ecaad0a4b8dd0ce497 amount=477.58
+ts=2026-10-03T09:19:07.250Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:19:13.348Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:19:27.357Z level=info svc=orders msg="refund started" trace_id=31d53d1f583037b210090d7fcf236bb2 lines=1
+ts=2026-10-03T09:19:27.414Z level=info svc=orders msg="restock requested" trace_id=31d53d1f583037b210090d7fcf236bb2 ticket=RS-2026-68471 sku=SKU-49691 qty=4
+ts=2026-10-03T09:19:27.451Z level=info svc=orders msg="restock ticket granted" trace_id=31d53d1f583037b210090d7fcf236bb2 ticket=RS-2026-68471 wait_ms=34
+ts=2026-10-03T09:19:27.513Z level=info svc=orders msg="restock requested" trace_id=31d53d1f583037b210090d7fcf236bb2 ticket=RS-2026-14587 sku=SKU-35826 qty=1
+ts=2026-10-03T09:19:27.580Z level=info svc=orders msg="restock ticket granted" trace_id=31d53d1f583037b210090d7fcf236bb2 ticket=RS-2026-14587 wait_ms=64
+ts=2026-10-03T09:19:27.649Z level=info svc=orders msg="refund submitted" trace_id=31d53d1f583037b210090d7fcf236bb2 amount=580.64
+ts=2026-10-03T09:20:16.176Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:20:30.669Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:20:33.045Z level=info svc=orders msg="refund started" trace_id=a35819c0ef73d1bd3651b374a3bc5091 lines=4
+ts=2026-10-03T09:20:33.105Z level=info svc=orders msg="restock requested" trace_id=a35819c0ef73d1bd3651b374a3bc5091 ticket=RS-2026-49188 sku=SKU-33119 qty=3
+ts=2026-10-03T09:20:33.142Z level=info svc=orders msg="restock ticket granted" trace_id=a35819c0ef73d1bd3651b374a3bc5091 ticket=RS-2026-49188 wait_ms=34
+ts=2026-10-03T09:20:33.171Z level=info svc=orders msg="restock requested" trace_id=a35819c0ef73d1bd3651b374a3bc5091 ticket=RS-2026-10038 sku=SKU-32845 qty=1
+ts=2026-10-03T09:20:33.236Z level=info svc=orders msg="restock ticket granted" trace_id=a35819c0ef73d1bd3651b374a3bc5091 ticket=RS-2026-10038 wait_ms=62
+ts=2026-10-03T09:20:33.275Z level=info svc=orders msg="refund submitted" trace_id=a35819c0ef73d1bd3651b374a3bc5091 amount=573.18
+ts=2026-10-03T09:20:40.706Z level=info svc=orders msg="refund started" trace_id=ebd52cca531d13c97a755e68ef1f08f9 lines=1
+ts=2026-10-03T09:20:40.756Z level=info svc=orders msg="restock requested" trace_id=ebd52cca531d13c97a755e68ef1f08f9 ticket=RS-2026-94875 sku=SKU-40044 qty=2
+ts=2026-10-03T09:20:40.813Z level=info svc=orders msg="restock ticket granted" trace_id=ebd52cca531d13c97a755e68ef1f08f9 ticket=RS-2026-94875 wait_ms=54
+ts=2026-10-03T09:20:40.868Z level=info svc=orders msg="restock requested" trace_id=ebd52cca531d13c97a755e68ef1f08f9 ticket=RS-2026-29151 sku=SKU-22058 qty=2
+ts=2026-10-03T09:20:40.885Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:20:40.915Z level=info svc=orders msg="restock ticket granted" trace_id=ebd52cca531d13c97a755e68ef1f08f9 ticket=RS-2026-29151 wait_ms=44
+ts=2026-10-03T09:20:41.042Z level=info svc=orders msg="refund submitted" trace_id=ebd52cca531d13c97a755e68ef1f08f9 amount=65.17
+ts=2026-10-03T09:20:43.455Z level=info svc=orders msg="refund started" trace_id=6ddf8b4c60c99a3285effe7300c05fd9 lines=4
+ts=2026-10-03T09:20:43.496Z level=info svc=orders msg="restock requested" trace_id=6ddf8b4c60c99a3285effe7300c05fd9 ticket=RS-2026-74160 sku=SKU-15262 qty=3
+ts=2026-10-03T09:20:43.545Z level=info svc=orders msg="restock ticket granted" trace_id=6ddf8b4c60c99a3285effe7300c05fd9 ticket=RS-2026-74160 wait_ms=46
+ts=2026-10-03T09:20:43.596Z level=info svc=orders msg="restock requested" trace_id=6ddf8b4c60c99a3285effe7300c05fd9 ticket=RS-2026-86412 sku=SKU-38365 qty=2
+ts=2026-10-03T09:20:43.624Z level=info svc=orders msg="restock ticket granted" trace_id=6ddf8b4c60c99a3285effe7300c05fd9 ticket=RS-2026-86412 wait_ms=25
+ts=2026-10-03T09:20:43.676Z level=info svc=orders msg="refund submitted" trace_id=6ddf8b4c60c99a3285effe7300c05fd9 amount=350.95
+ts=2026-10-03T09:20:48.274Z level=info svc=orders msg="refund started" trace_id=781ee81b6770986e972dcc2177598f23 lines=1
+ts=2026-10-03T09:20:48.324Z level=info svc=orders msg="restock requested" trace_id=781ee81b6770986e972dcc2177598f23 ticket=RS-2026-33530 sku=SKU-54274 qty=1
+ts=2026-10-03T09:20:48.349Z level=info svc=orders msg="restock ticket granted" trace_id=781ee81b6770986e972dcc2177598f23 ticket=RS-2026-33530 wait_ms=22
+ts=2026-10-03T09:20:48.394Z level=info svc=orders msg="restock requested" trace_id=781ee81b6770986e972dcc2177598f23 ticket=RS-2026-13368 sku=SKU-45169 qty=3
+ts=2026-10-03T09:20:48.460Z level=info svc=orders msg="restock ticket granted" trace_id=781ee81b6770986e972dcc2177598f23 ticket=RS-2026-13368 wait_ms=63
+ts=2026-10-03T09:20:48.494Z level=info svc=orders msg="refund submitted" trace_id=781ee81b6770986e972dcc2177598f23 amount=612.76
+ts=2026-10-03T09:20:59.645Z level=info svc=orders msg="refund started" trace_id=a93c48928d0deebfd761d79af888a6c8 lines=2
+ts=2026-10-03T09:20:59.684Z level=info svc=orders msg="restock requested" trace_id=a93c48928d0deebfd761d79af888a6c8 ticket=RS-2026-75394 sku=SKU-53720 qty=3
+ts=2026-10-03T09:20:59.729Z level=info svc=orders msg="restock ticket granted" trace_id=a93c48928d0deebfd761d79af888a6c8 ticket=RS-2026-75394 wait_ms=42
+ts=2026-10-03T09:20:59.768Z level=info svc=orders msg="restock requested" trace_id=a93c48928d0deebfd761d79af888a6c8 ticket=RS-2026-70626 sku=SKU-25518 qty=2
+ts=2026-10-03T09:20:59.785Z level=info svc=orders msg="restock ticket granted" trace_id=a93c48928d0deebfd761d79af888a6c8 ticket=RS-2026-70626 wait_ms=14
+ts=2026-10-03T09:20:59.920Z level=info svc=orders msg="refund submitted" trace_id=a93c48928d0deebfd761d79af888a6c8 amount=404.53
+ts=2026-10-03T09:21:24.976Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:21:26.819Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:21:28.580Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:21:32.441Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:22:26.113Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:22:31.768Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:22:35.426Z level=info svc=orders msg="refund started" trace_id=9fe71fa75b803cc42e0ee22cc1cf2286 lines=5
+ts=2026-10-03T09:22:35.480Z level=info svc=orders msg="restock requested" trace_id=9fe71fa75b803cc42e0ee22cc1cf2286 ticket=RS-2026-84754 sku=SKU-48683 qty=4
+ts=2026-10-03T09:22:35.545Z level=info svc=orders msg="restock ticket granted" trace_id=9fe71fa75b803cc42e0ee22cc1cf2286 ticket=RS-2026-84754 wait_ms=62
+ts=2026-10-03T09:22:35.554Z level=info svc=orders msg="restock requested" trace_id=9fe71fa75b803cc42e0ee22cc1cf2286 ticket=RS-2026-44409 sku=SKU-32678 qty=1
+ts=2026-10-03T09:22:35.600Z level=info svc=orders msg="restock ticket granted" trace_id=9fe71fa75b803cc42e0ee22cc1cf2286 ticket=RS-2026-44409 wait_ms=43
+ts=2026-10-03T09:22:35.671Z level=info svc=orders msg="refund submitted" trace_id=9fe71fa75b803cc42e0ee22cc1cf2286 amount=166.09
+ts=2026-10-03T09:22:56.686Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:23:58.620Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:23:59.791Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:24:09.475Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:24:10.420Z level=info svc=orders msg="refund started" trace_id=216efeb55c25c9f7ea628638499e9039 lines=4
+ts=2026-10-03T09:24:10.472Z level=info svc=orders msg="restock requested" trace_id=216efeb55c25c9f7ea628638499e9039 ticket=RS-2026-46212 sku=SKU-43857 qty=4
+ts=2026-10-03T09:24:10.509Z level=info svc=orders msg="restock ticket granted" trace_id=216efeb55c25c9f7ea628638499e9039 ticket=RS-2026-46212 wait_ms=34
+ts=2026-10-03T09:24:10.582Z level=info svc=orders msg="restock requested" trace_id=216efeb55c25c9f7ea628638499e9039 ticket=RS-2026-27579 sku=SKU-16252 qty=3
+ts=2026-10-03T09:24:10.636Z level=info svc=orders msg="restock ticket granted" trace_id=216efeb55c25c9f7ea628638499e9039 ticket=RS-2026-27579 wait_ms=51
+ts=2026-10-03T09:24:10.702Z level=info svc=orders msg="refund submitted" trace_id=216efeb55c25c9f7ea628638499e9039 amount=434.45
+ts=2026-10-03T09:24:28.531Z level=info svc=orders msg="refund started" trace_id=2445c69bf8b4202e501671a7c16e03b0 lines=3
+ts=2026-10-03T09:24:28.571Z level=info svc=orders msg="restock requested" trace_id=2445c69bf8b4202e501671a7c16e03b0 ticket=RS-2026-93738 sku=SKU-47510 qty=1
+ts=2026-10-03T09:24:28.597Z level=info svc=orders msg="restock ticket granted" trace_id=2445c69bf8b4202e501671a7c16e03b0 ticket=RS-2026-93738 wait_ms=23
+ts=2026-10-03T09:24:28.687Z level=info svc=orders msg="restock requested" trace_id=2445c69bf8b4202e501671a7c16e03b0 ticket=RS-2026-54138 sku=SKU-34345 qty=2
+ts=2026-10-03T09:24:28.718Z level=info svc=orders msg="restock ticket granted" trace_id=2445c69bf8b4202e501671a7c16e03b0 ticket=RS-2026-54138 wait_ms=28
+ts=2026-10-03T09:24:28.849Z level=info svc=orders msg="refund submitted" trace_id=2445c69bf8b4202e501671a7c16e03b0 amount=160.02
+ts=2026-10-03T09:24:48.928Z level=INFO svc=orders component=MetricsFlusher msg="flushed 418 samples"
+ts=2026-10-03T09:24:58.045Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:26:38.163Z level=info svc=orders msg="refund started" trace_id=691425ce2061788d3b4f3eb45224475f lines=2
+ts=2026-10-03T09:26:38.223Z level=info svc=orders msg="restock requested" trace_id=691425ce2061788d3b4f3eb45224475f ticket=RS-2026-74170 sku=SKU-42405 qty=3
+ts=2026-10-03T09:26:38.284Z level=info svc=orders msg="restock ticket granted" trace_id=691425ce2061788d3b4f3eb45224475f ticket=RS-2026-74170 wait_ms=58
+ts=2026-10-03T09:26:38.329Z level=info svc=orders msg="restock requested" trace_id=691425ce2061788d3b4f3eb45224475f ticket=RS-2026-82503 sku=SKU-45338 qty=1
+ts=2026-10-03T09:26:38.403Z level=info svc=orders msg="restock ticket granted" trace_id=691425ce2061788d3b4f3eb45224475f ticket=RS-2026-82503 wait_ms=71
+ts=2026-10-03T09:26:38.506Z level=info svc=orders msg="refund submitted" trace_id=691425ce2061788d3b4f3eb45224475f amount=323.43
+ts=2026-10-03T09:27:29.577Z level=info svc=orders msg="refund started" trace_id=3a45d3bad1604fd914f53bf9d764a32b lines=4
+ts=2026-10-03T09:27:29.624Z level=info svc=orders msg="restock requested" trace_id=3a45d3bad1604fd914f53bf9d764a32b ticket=RS-2026-61698 sku=SKU-37054 qty=1
+ts=2026-10-03T09:27:29.672Z level=info svc=orders msg="restock ticket granted" trace_id=3a45d3bad1604fd914f53bf9d764a32b ticket=RS-2026-61698 wait_ms=45
+ts=2026-10-03T09:27:29.694Z level=info svc=orders msg="restock requested" trace_id=3a45d3bad1604fd914f53bf9d764a32b ticket=RS-2026-37172 sku=SKU-28222 qty=2
+ts=2026-10-03T09:27:29.739Z level=info svc=orders msg="restock ticket granted" trace_id=3a45d3bad1604fd914f53bf9d764a32b ticket=RS-2026-37172 wait_ms=42
+ts=2026-10-03T09:27:29.786Z level=info svc=orders msg="refund submitted" trace_id=3a45d3bad1604fd914f53bf9d764a32b amount=483.85
+ts=2026-10-03T09:27:40.011Z level=info svc=orders msg="refund started" trace_id=69719702f1b82598ceed95348eee2226 lines=5
+ts=2026-10-03T09:27:40.056Z level=info svc=orders msg="restock requested" trace_id=69719702f1b82598ceed95348eee2226 ticket=RS-2026-95920 sku=SKU-56663 qty=4
+ts=2026-10-03T09:27:40.109Z level=info svc=orders msg="restock ticket granted" trace_id=69719702f1b82598ceed95348eee2226 ticket=RS-2026-95920 wait_ms=50
+ts=2026-10-03T09:27:40.128Z level=info svc=orders msg="restock requested" trace_id=69719702f1b82598ceed95348eee2226 ticket=RS-2026-23291 sku=SKU-27354 qty=3
+ts=2026-10-03T09:27:52.005Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=69719702f1b82598ceed95348eee2226 ticket=RS-2026-23291 waited_ms=11877
+ts=2026-10-03T09:28:23.831Z level=info svc=orders msg="refund started" trace_id=2d023f72fd31edd6bb7bc2e824410ec0 lines=1
+ts=2026-10-03T09:28:23.876Z level=info svc=orders msg="restock requested" trace_id=2d023f72fd31edd6bb7bc2e824410ec0 ticket=RS-2026-55598 sku=SKU-11358 qty=1
+ts=2026-10-03T09:28:23.932Z level=info svc=orders msg="restock ticket granted" trace_id=2d023f72fd31edd6bb7bc2e824410ec0 ticket=RS-2026-55598 wait_ms=53
+ts=2026-10-03T09:28:23.942Z level=info svc=orders msg="restock requested" trace_id=2d023f72fd31edd6bb7bc2e824410ec0 ticket=RS-2026-45855 sku=SKU-20120 qty=3
+ts=2026-10-03T09:28:23.967Z level=info svc=orders msg="restock ticket granted" trace_id=2d023f72fd31edd6bb7bc2e824410ec0 ticket=RS-2026-45855 wait_ms=22
+ts=2026-10-03T09:28:24.032Z level=info svc=orders msg="refund submitted" trace_id=2d023f72fd31edd6bb7bc2e824410ec0 amount=456.58
+ts=2026-10-03T09:28:30.016Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:28:41.643Z level=INFO svc=orders component=MetricsFlusher msg="flushed 418 samples"
+ts=2026-10-03T09:28:47.484Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:28:56.012Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:29:10.108Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:29:13.832Z level=ERROR svc=orders component=PromoCodeResolver msg="NullPointerException: Cannot invoke Promo.getRules() because promo is null"
+Traceback (most recent call last):
+  File "/srv/orders/PromoCodeResolver.py", line 143, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+NullPointerException: Cannot invoke Promo.getRules() because promo is null
+ts=2026-10-03T09:29:25.964Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:31:27.255Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:31:33.320Z level=info svc=orders msg="refund started" trace_id=c46567f0ca5247c666294ea200970d93 lines=1
+ts=2026-10-03T09:31:33.372Z level=info svc=orders msg="restock requested" trace_id=c46567f0ca5247c666294ea200970d93 ticket=RS-2026-23129 sku=SKU-41437 qty=2
+ts=2026-10-03T09:31:33.438Z level=info svc=orders msg="restock ticket granted" trace_id=c46567f0ca5247c666294ea200970d93 ticket=RS-2026-23129 wait_ms=63
+ts=2026-10-03T09:31:33.491Z level=info svc=orders msg="restock requested" trace_id=c46567f0ca5247c666294ea200970d93 ticket=RS-2026-50193 sku=SKU-40328 qty=3
+ts=2026-10-03T09:31:33.517Z level=info svc=orders msg="restock ticket granted" trace_id=c46567f0ca5247c666294ea200970d93 ticket=RS-2026-50193 wait_ms=23
+ts=2026-10-03T09:31:33.627Z level=info svc=orders msg="refund submitted" trace_id=c46567f0ca5247c666294ea200970d93 amount=483.34
+ts=2026-10-03T09:31:45.019Z level=info svc=orders msg="refund started" trace_id=29aa11d1a44c9e8507666a3d1fd766ef lines=3
+ts=2026-10-03T09:31:45.065Z level=info svc=orders msg="restock requested" trace_id=29aa11d1a44c9e8507666a3d1fd766ef ticket=RS-2026-31237 sku=SKU-31134 qty=3
+ts=2026-10-03T09:31:45.120Z level=info svc=orders msg="restock ticket granted" trace_id=29aa11d1a44c9e8507666a3d1fd766ef ticket=RS-2026-31237 wait_ms=52
+ts=2026-10-03T09:31:45.133Z level=info svc=orders msg="restock requested" trace_id=29aa11d1a44c9e8507666a3d1fd766ef ticket=RS-2026-91733 sku=SKU-26041 qty=2
+ts=2026-10-03T09:31:45.188Z level=info svc=orders msg="restock ticket granted" trace_id=29aa11d1a44c9e8507666a3d1fd766ef ticket=RS-2026-91733 wait_ms=52
+ts=2026-10-03T09:31:45.284Z level=info svc=orders msg="refund submitted" trace_id=29aa11d1a44c9e8507666a3d1fd766ef amount=386.37
+ts=2026-10-03T09:31:58.195Z level=info svc=orders msg="refund started" trace_id=e8ee2a6705d3f265ffbafa495a74b409 lines=4
+ts=2026-10-03T09:31:58.234Z level=info svc=orders msg="restock requested" trace_id=e8ee2a6705d3f265ffbafa495a74b409 ticket=RS-2026-81452 sku=SKU-16054 qty=3
+ts=2026-10-03T09:31:58.254Z level=info svc=orders msg="restock ticket granted" trace_id=e8ee2a6705d3f265ffbafa495a74b409 ticket=RS-2026-81452 wait_ms=17
+ts=2026-10-03T09:31:58.324Z level=info svc=orders msg="restock requested" trace_id=e8ee2a6705d3f265ffbafa495a74b409 ticket=RS-2026-73930 sku=SKU-56513 qty=2
+ts=2026-10-03T09:31:58.391Z level=info svc=orders msg="restock ticket granted" trace_id=e8ee2a6705d3f265ffbafa495a74b409 ticket=RS-2026-73930 wait_ms=64
+ts=2026-10-03T09:31:58.472Z level=info svc=orders msg="refund submitted" trace_id=e8ee2a6705d3f265ffbafa495a74b409 amount=467.72
+ts=2026-10-03T09:32:07.910Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:34:10.774Z level=info svc=orders msg="refund started" trace_id=721694a2a4960c1fcbbb15ba9b4cc0df lines=3
+ts=2026-10-03T09:34:10.808Z level=info svc=orders msg="restock requested" trace_id=721694a2a4960c1fcbbb15ba9b4cc0df ticket=RS-2026-90538 sku=SKU-35982 qty=4
+ts=2026-10-03T09:34:10.835Z level=info svc=orders msg="restock ticket granted" trace_id=721694a2a4960c1fcbbb15ba9b4cc0df ticket=RS-2026-90538 wait_ms=24
+ts=2026-10-03T09:34:10.881Z level=info svc=orders msg="restock requested" trace_id=721694a2a4960c1fcbbb15ba9b4cc0df ticket=RS-2026-68345 sku=SKU-38648 qty=3
+ts=2026-10-03T09:34:10.902Z level=info svc=orders msg="restock ticket granted" trace_id=721694a2a4960c1fcbbb15ba9b4cc0df ticket=RS-2026-68345 wait_ms=18
+ts=2026-10-03T09:34:11.019Z level=info svc=orders msg="refund submitted" trace_id=721694a2a4960c1fcbbb15ba9b4cc0df amount=233.35
+ts=2026-10-03T09:34:29.905Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:35:07.115Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:35:12.861Z level=info svc=orders msg="refund started" trace_id=30ce75d3e32256256d6f16e444429c49 lines=2
+ts=2026-10-03T09:35:12.896Z level=info svc=orders msg="restock requested" trace_id=30ce75d3e32256256d6f16e444429c49 ticket=RS-2026-78050 sku=SKU-55031 qty=2
+ts=2026-10-03T09:35:12.918Z level=info svc=orders msg="restock ticket granted" trace_id=30ce75d3e32256256d6f16e444429c49 ticket=RS-2026-78050 wait_ms=19
+ts=2026-10-03T09:35:12.994Z level=info svc=orders msg="restock requested" trace_id=30ce75d3e32256256d6f16e444429c49 ticket=RS-2026-29838 sku=SKU-37453 qty=3
+ts=2026-10-03T09:35:13.051Z level=info svc=orders msg="restock ticket granted" trace_id=30ce75d3e32256256d6f16e444429c49 ticket=RS-2026-29838 wait_ms=54
+ts=2026-10-03T09:35:13.099Z level=info svc=orders msg="refund submitted" trace_id=30ce75d3e32256256d6f16e444429c49 amount=578.98
+ts=2026-10-03T09:35:16.701Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:35:23.313Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:35:23.525Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:35:32.237Z level=ERROR svc=orders component=InvoiceRenderer msg="IllegalStateException: font cache not initialised"
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 376, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+ts=2026-10-03T09:36:13.058Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:36:27.287Z level=info svc=orders msg="refund started" trace_id=b624cb1863a04d710fbfb560b14bdcf7 lines=2
+ts=2026-10-03T09:36:27.326Z level=info svc=orders msg="restock requested" trace_id=b624cb1863a04d710fbfb560b14bdcf7 ticket=RS-2026-26525 sku=SKU-34008 qty=1
+ts=2026-10-03T09:36:27.383Z level=info svc=orders msg="restock ticket granted" trace_id=b624cb1863a04d710fbfb560b14bdcf7 ticket=RS-2026-26525 wait_ms=54
+ts=2026-10-03T09:36:27.438Z level=info svc=orders msg="restock requested" trace_id=b624cb1863a04d710fbfb560b14bdcf7 ticket=RS-2026-84430 sku=SKU-55016 qty=2
+ts=2026-10-03T09:36:27.491Z level=info svc=orders msg="restock ticket granted" trace_id=b624cb1863a04d710fbfb560b14bdcf7 ticket=RS-2026-84430 wait_ms=50
+ts=2026-10-03T09:36:27.605Z level=info svc=orders msg="refund submitted" trace_id=b624cb1863a04d710fbfb560b14bdcf7 amount=273.71
+ts=2026-10-03T09:36:38.270Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:36:56.761Z level=ERROR svc=orders component=PromoCodeResolver msg="NullPointerException: Cannot invoke Promo.getRules() because promo is null"
+Traceback (most recent call last):
+  File "/srv/orders/PromoCodeResolver.py", line 189, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+NullPointerException: Cannot invoke Promo.getRules() because promo is null
+ts=2026-10-03T09:37:18.322Z level=info svc=orders msg="refund started" trace_id=0043d59356459a1f3e8f8398dbf8c656 lines=2
+ts=2026-10-03T09:37:18.376Z level=info svc=orders msg="restock requested" trace_id=0043d59356459a1f3e8f8398dbf8c656 ticket=RS-2026-35845 sku=SKU-24443 qty=3
+ts=2026-10-03T09:37:18.439Z level=info svc=orders msg="restock ticket granted" trace_id=0043d59356459a1f3e8f8398dbf8c656 ticket=RS-2026-35845 wait_ms=60
+ts=2026-10-03T09:37:18.452Z level=info svc=orders msg="restock requested" trace_id=0043d59356459a1f3e8f8398dbf8c656 ticket=RS-2026-79702 sku=SKU-55260 qty=1
+ts=2026-10-03T09:37:18.529Z level=info svc=orders msg="restock ticket granted" trace_id=0043d59356459a1f3e8f8398dbf8c656 ticket=RS-2026-79702 wait_ms=74
+ts=2026-10-03T09:37:18.574Z level=info svc=orders msg="refund submitted" trace_id=0043d59356459a1f3e8f8398dbf8c656 amount=534.55
+ts=2026-10-03T09:37:48.014Z level=info svc=orders msg="refund started" trace_id=03ac4ad96567c1fbd81034a0fff3bce3 lines=1
+ts=2026-10-03T09:37:48.052Z level=info svc=orders msg="restock requested" trace_id=03ac4ad96567c1fbd81034a0fff3bce3 ticket=RS-2026-68220 sku=SKU-57976 qty=4
+ts=2026-10-03T09:37:48.102Z level=info svc=orders msg="restock ticket granted" trace_id=03ac4ad96567c1fbd81034a0fff3bce3 ticket=RS-2026-68220 wait_ms=47
+ts=2026-10-03T09:37:48.164Z level=info svc=orders msg="restock requested" trace_id=03ac4ad96567c1fbd81034a0fff3bce3 ticket=RS-2026-34171 sku=SKU-12027 qty=2
+ts=2026-10-03T09:37:48.191Z level=info svc=orders msg="restock ticket granted" trace_id=03ac4ad96567c1fbd81034a0fff3bce3 ticket=RS-2026-34171 wait_ms=24
+ts=2026-10-03T09:37:48.238Z level=info svc=orders msg="refund submitted" trace_id=03ac4ad96567c1fbd81034a0fff3bce3 amount=398.75
+ts=2026-10-03T09:37:48.451Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:37:52.757Z level=INFO svc=orders component=MetricsFlusher msg="flushed 418 samples"
+ts=2026-10-03T09:37:54.694Z level=info svc=orders msg="refund started" trace_id=43b367441daadd0b3fb48170446bc6f2 lines=3
+ts=2026-10-03T09:37:54.737Z level=info svc=orders msg="restock requested" trace_id=43b367441daadd0b3fb48170446bc6f2 ticket=RS-2026-66051 sku=SKU-54896 qty=3
+ts=2026-10-03T09:37:54.761Z level=info svc=orders msg="restock ticket granted" trace_id=43b367441daadd0b3fb48170446bc6f2 ticket=RS-2026-66051 wait_ms=21
+ts=2026-10-03T09:37:54.831Z level=info svc=orders msg="restock requested" trace_id=43b367441daadd0b3fb48170446bc6f2 ticket=RS-2026-64564 sku=SKU-40825 qty=1
+ts=2026-10-03T09:37:54.852Z level=info svc=orders msg="restock ticket granted" trace_id=43b367441daadd0b3fb48170446bc6f2 ticket=RS-2026-64564 wait_ms=18
+ts=2026-10-03T09:37:54.954Z level=info svc=orders msg="refund submitted" trace_id=43b367441daadd0b3fb48170446bc6f2 amount=434.59
+ts=2026-10-03T09:37:58.476Z level=ERROR svc=orders component=ShippingQuoteCache msg="ConcurrentModificationException: zone table changed during refresh"
+Traceback (most recent call last):
+  File "/srv/orders/ShippingQuoteCache.py", line 384, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ConcurrentModificationException: zone table changed during refresh
+ts=2026-10-03T09:38:05.339Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:38:31.568Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:39:00.849Z level=info svc=orders msg="refund started" trace_id=be0c0f97cbc5e40063b42979396f3195 lines=1
+ts=2026-10-03T09:39:00.892Z level=info svc=orders msg="restock requested" trace_id=be0c0f97cbc5e40063b42979396f3195 ticket=RS-2026-69759 sku=SKU-37514 qty=4
+ts=2026-10-03T09:39:00.916Z level=info svc=orders msg="restock ticket granted" trace_id=be0c0f97cbc5e40063b42979396f3195 ticket=RS-2026-69759 wait_ms=21
+ts=2026-10-03T09:39:00.966Z level=info svc=orders msg="restock requested" trace_id=be0c0f97cbc5e40063b42979396f3195 ticket=RS-2026-13473 sku=SKU-54583 qty=2
+ts=2026-10-03T09:39:01.021Z level=info svc=orders msg="restock ticket granted" trace_id=be0c0f97cbc5e40063b42979396f3195 ticket=RS-2026-13473 wait_ms=52
+ts=2026-10-03T09:39:01.086Z level=info svc=orders msg="refund submitted" trace_id=be0c0f97cbc5e40063b42979396f3195 amount=468.71
+ts=2026-10-03T09:39:16.281Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:39:26.134Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:39:41.807Z level=INFO svc=orders component=OrderRepository msg="vacuum hint applied table=orders_archive"
+ts=2026-10-03T09:39:52.710Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:40:20.502Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:40:30.899Z level=info svc=orders msg="refund started" trace_id=907817dfeb7a5c4a5da4081459e63092 lines=3
+ts=2026-10-03T09:40:30.950Z level=info svc=orders msg="restock requested" trace_id=907817dfeb7a5c4a5da4081459e63092 ticket=RS-2026-57440 sku=SKU-55900 qty=4
+ts=2026-10-03T09:40:31.017Z level=info svc=orders msg="restock ticket granted" trace_id=907817dfeb7a5c4a5da4081459e63092 ticket=RS-2026-57440 wait_ms=64
+ts=2026-10-03T09:40:31.028Z level=info svc=orders msg="restock requested" trace_id=907817dfeb7a5c4a5da4081459e63092 ticket=RS-2026-29437 sku=SKU-22193 qty=2
+ts=2026-10-03T09:40:31.062Z level=info svc=orders msg="restock ticket granted" trace_id=907817dfeb7a5c4a5da4081459e63092 ticket=RS-2026-29437 wait_ms=31
+ts=2026-10-03T09:40:31.121Z level=info svc=orders msg="refund submitted" trace_id=907817dfeb7a5c4a5da4081459e63092 amount=105.45
+ts=2026-10-03T09:40:37.266Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:41:04.264Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:41:10.294Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:41:11.124Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:41:14.704Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:41:34.367Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:41:44.765Z level=info svc=orders msg="refund started" trace_id=82662e8bf5fe41b417f82d421a9d39ee lines=1
+ts=2026-10-03T09:41:44.824Z level=info svc=orders msg="restock requested" trace_id=82662e8bf5fe41b417f82d421a9d39ee ticket=RS-2026-62661 sku=SKU-33884 qty=3
+ts=2026-10-03T09:41:44.867Z level=info svc=orders msg="restock ticket granted" trace_id=82662e8bf5fe41b417f82d421a9d39ee ticket=RS-2026-62661 wait_ms=40
+ts=2026-10-03T09:41:44.942Z level=info svc=orders msg="restock requested" trace_id=82662e8bf5fe41b417f82d421a9d39ee ticket=RS-2026-60500 sku=SKU-10694 qty=1
+ts=2026-10-03T09:41:44.971Z level=info svc=orders msg="restock ticket granted" trace_id=82662e8bf5fe41b417f82d421a9d39ee ticket=RS-2026-60500 wait_ms=26
+ts=2026-10-03T09:41:45.000Z level=info svc=orders msg="refund submitted" trace_id=82662e8bf5fe41b417f82d421a9d39ee amount=44.79
+ts=2026-10-03T09:42:36.518Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:42:48.040Z level=info svc=orders msg="refund started" trace_id=ccbee9dbe8b0353abf53c0d525e03110 lines=4
+ts=2026-10-03T09:42:48.084Z level=info svc=orders msg="restock requested" trace_id=ccbee9dbe8b0353abf53c0d525e03110 ticket=RS-2026-68980 sku=SKU-41518 qty=1
+ts=2026-10-03T09:42:48.123Z level=info svc=orders msg="restock ticket granted" trace_id=ccbee9dbe8b0353abf53c0d525e03110 ticket=RS-2026-68980 wait_ms=36
+ts=2026-10-03T09:42:48.185Z level=info svc=orders msg="restock requested" trace_id=ccbee9dbe8b0353abf53c0d525e03110 ticket=RS-2026-62861 sku=SKU-20028 qty=1
+ts=2026-10-03T09:42:48.251Z level=info svc=orders msg="restock ticket granted" trace_id=ccbee9dbe8b0353abf53c0d525e03110 ticket=RS-2026-62861 wait_ms=63
+ts=2026-10-03T09:42:48.388Z level=info svc=orders msg="refund submitted" trace_id=ccbee9dbe8b0353abf53c0d525e03110 amount=67.94
+ts=2026-10-03T09:43:08.993Z level=info svc=orders msg="refund started" trace_id=e118c9290c75d3d799ef48d17130c325 lines=4
+ts=2026-10-03T09:43:09.046Z level=info svc=orders msg="restock requested" trace_id=e118c9290c75d3d799ef48d17130c325 ticket=RS-2026-77928 sku=SKU-39018 qty=4
+ts=2026-10-03T09:43:09.110Z level=info svc=orders msg="restock ticket granted" trace_id=e118c9290c75d3d799ef48d17130c325 ticket=RS-2026-77928 wait_ms=61
+ts=2026-10-03T09:43:09.140Z level=info svc=orders msg="restock requested" trace_id=e118c9290c75d3d799ef48d17130c325 ticket=RS-2026-79915 sku=SKU-28643 qty=1
+ts=2026-10-03T09:43:09.199Z level=info svc=orders msg="restock ticket granted" trace_id=e118c9290c75d3d799ef48d17130c325 ticket=RS-2026-79915 wait_ms=56
+ts=2026-10-03T09:43:09.252Z level=info svc=orders msg="refund submitted" trace_id=e118c9290c75d3d799ef48d17130c325 amount=300.43
+ts=2026-10-03T09:43:12.811Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:43:19.137Z level=info svc=orders msg="refund started" trace_id=fbec188c00bc0e5e4d0b7656c18f94a6 lines=2
+ts=2026-10-03T09:43:19.194Z level=info svc=orders msg="restock requested" trace_id=fbec188c00bc0e5e4d0b7656c18f94a6 ticket=RS-2026-92714 sku=SKU-41050 qty=2
+ts=2026-10-03T09:43:19.220Z level=info svc=orders msg="restock ticket granted" trace_id=fbec188c00bc0e5e4d0b7656c18f94a6 ticket=RS-2026-92714 wait_ms=23
+ts=2026-10-03T09:43:19.292Z level=info svc=orders msg="restock requested" trace_id=fbec188c00bc0e5e4d0b7656c18f94a6 ticket=RS-2026-77530 sku=SKU-35747 qty=2
+ts=2026-10-03T09:43:19.326Z level=info svc=orders msg="restock ticket granted" trace_id=fbec188c00bc0e5e4d0b7656c18f94a6 ticket=RS-2026-77530 wait_ms=31
+ts=2026-10-03T09:43:19.420Z level=info svc=orders msg="refund submitted" trace_id=fbec188c00bc0e5e4d0b7656c18f94a6 amount=446.84
+ts=2026-10-03T09:43:52.905Z level=info svc=orders msg="refund started" trace_id=4d3b8d0bd1ba945c66b65de538dec63d lines=4
+ts=2026-10-03T09:43:52.948Z level=info svc=orders msg="restock requested" trace_id=4d3b8d0bd1ba945c66b65de538dec63d ticket=RS-2026-64736 sku=SKU-39767 qty=3
+ts=2026-10-03T09:43:53.001Z level=info svc=orders msg="restock ticket granted" trace_id=4d3b8d0bd1ba945c66b65de538dec63d ticket=RS-2026-64736 wait_ms=50
+ts=2026-10-03T09:43:53.013Z level=info svc=orders msg="restock requested" trace_id=4d3b8d0bd1ba945c66b65de538dec63d ticket=RS-2026-72884 sku=SKU-22641 qty=3
+ts=2026-10-03T09:43:53.036Z level=info svc=orders msg="restock ticket granted" trace_id=4d3b8d0bd1ba945c66b65de538dec63d ticket=RS-2026-72884 wait_ms=20
+ts=2026-10-03T09:43:53.142Z level=info svc=orders msg="refund submitted" trace_id=4d3b8d0bd1ba945c66b65de538dec63d amount=177.21
+ts=2026-10-03T09:46:41.111Z level=info svc=orders msg="refund started" trace_id=9fec223363b6db09d1564be59bbbf910 lines=2
+ts=2026-10-03T09:46:41.155Z level=info svc=orders msg="restock requested" trace_id=9fec223363b6db09d1564be59bbbf910 ticket=RS-2026-92900 sku=SKU-22134 qty=1
+ts=2026-10-03T09:46:41.216Z level=info svc=orders msg="restock ticket granted" trace_id=9fec223363b6db09d1564be59bbbf910 ticket=RS-2026-92900 wait_ms=58
+ts=2026-10-03T09:46:42.047Z level=error svc=orders msg="db pool exhausted, refund not persisted" trace_id=9fec223363b6db09d1564be59bbbf910 active=32 max=32
+Traceback (most recent call last):
+  File "/srv/orders/OrderRepository.py", line 67, in getConnection
+    self._step()
+  File "/srv/orders/OrderRepository.py", line 169, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SQLTransientConnectionException: pool
+ts=2026-10-03T09:46:44.056Z level=info svc=orders msg="refund started" trace_id=7e8837d23cc8d9303398fdc453743a2d lines=2
+ts=2026-10-03T09:46:44.104Z level=info svc=orders msg="restock requested" trace_id=7e8837d23cc8d9303398fdc453743a2d ticket=RS-2026-44171 sku=SKU-10761 qty=2
+ts=2026-10-03T09:46:44.132Z level=info svc=orders msg="restock ticket granted" trace_id=7e8837d23cc8d9303398fdc453743a2d ticket=RS-2026-44171 wait_ms=25
+ts=2026-10-03T09:46:44.171Z level=info svc=orders msg="restock requested" trace_id=7e8837d23cc8d9303398fdc453743a2d ticket=RS-2026-56904 sku=SKU-18355 qty=1
+ts=2026-10-03T09:46:46.344Z level=info svc=orders msg="refund started" trace_id=a66bb81ee525299c4ee33fee3cdfcf0b lines=2
+ts=2026-10-03T09:46:46.382Z level=info svc=orders msg="restock requested" trace_id=a66bb81ee525299c4ee33fee3cdfcf0b ticket=RS-2026-97282 sku=SKU-43055 qty=3
+ts=2026-10-03T09:46:46.433Z level=info svc=orders msg="restock ticket granted" trace_id=a66bb81ee525299c4ee33fee3cdfcf0b ticket=RS-2026-97282 wait_ms=48
+ts=2026-10-03T09:46:46.448Z level=info svc=orders msg="restock requested" trace_id=a66bb81ee525299c4ee33fee3cdfcf0b ticket=RS-2026-47737 sku=SKU-58333 qty=1
+ts=2026-10-03T09:46:49.687Z level=info svc=orders msg="refund started" trace_id=a767d78efd9970a84d624890b601197e lines=1
+ts=2026-10-03T09:46:49.734Z level=info svc=orders msg="restock requested" trace_id=a767d78efd9970a84d624890b601197e ticket=RS-2026-10824 sku=SKU-34056 qty=1
+ts=2026-10-03T09:46:49.782Z level=info svc=orders msg="restock ticket granted" trace_id=a767d78efd9970a84d624890b601197e ticket=RS-2026-10824 wait_ms=45
+ts=2026-10-03T09:46:49.807Z level=info svc=orders msg="restock requested" trace_id=a767d78efd9970a84d624890b601197e ticket=RS-2026-64027 sku=SKU-40637 qty=1
+ts=2026-10-03T09:46:50.612Z level=info svc=orders msg="refund started" trace_id=cb5ed81a2abf3e7249f1717d9f7ab96b lines=2
+ts=2026-10-03T09:46:50.660Z level=info svc=orders msg="restock requested" trace_id=cb5ed81a2abf3e7249f1717d9f7ab96b ticket=RS-2026-19865 sku=SKU-13397 qty=3
+ts=2026-10-03T09:46:50.699Z level=info svc=orders msg="restock ticket granted" trace_id=cb5ed81a2abf3e7249f1717d9f7ab96b ticket=RS-2026-19865 wait_ms=36
+ts=2026-10-03T09:46:50.753Z level=info svc=orders msg="restock requested" trace_id=cb5ed81a2abf3e7249f1717d9f7ab96b ticket=RS-2026-47692 sku=SKU-23358 qty=2
+ts=2026-10-03T09:46:52.378Z level=info svc=orders msg="refund started" trace_id=3bf7bdc5a68232b8c907eef93e5b01b0 lines=2
+ts=2026-10-03T09:46:52.431Z level=info svc=orders msg="restock requested" trace_id=3bf7bdc5a68232b8c907eef93e5b01b0 ticket=RS-2026-82253 sku=SKU-45213 qty=4
+ts=2026-10-03T09:46:52.474Z level=info svc=orders msg="restock ticket granted" trace_id=3bf7bdc5a68232b8c907eef93e5b01b0 ticket=RS-2026-82253 wait_ms=40
+ts=2026-10-03T09:46:52.515Z level=info svc=orders msg="restock requested" trace_id=3bf7bdc5a68232b8c907eef93e5b01b0 ticket=RS-2026-80645 sku=SKU-46393 qty=1
+ts=2026-10-03T09:46:55.945Z level=info svc=orders msg="refund started" trace_id=d73cd9928c6232747ddc93baa948501e lines=3
+ts=2026-10-03T09:46:55.985Z level=info svc=orders msg="restock requested" trace_id=d73cd9928c6232747ddc93baa948501e ticket=RS-2026-35726 sku=SKU-20331 qty=1
+ts=2026-10-03T09:46:56.001Z level=info svc=orders msg="restock ticket granted" trace_id=d73cd9928c6232747ddc93baa948501e ticket=RS-2026-35726 wait_ms=13
+ts=2026-10-03T09:46:56.056Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=7e8837d23cc8d9303398fdc453743a2d ticket=RS-2026-56904 waited_ms=11885
+ts=2026-10-03T09:46:56.089Z level=info svc=orders msg="restock requested" trace_id=d73cd9928c6232747ddc93baa948501e ticket=RS-2026-55043 sku=SKU-28930 qty=2
+ts=2026-10-03T09:46:56.713Z level=info svc=orders msg="refund started" trace_id=0ff4e24d3cb49652b838d3eab693c98a lines=5
+ts=2026-10-03T09:46:56.766Z level=info svc=orders msg="restock requested" trace_id=0ff4e24d3cb49652b838d3eab693c98a ticket=RS-2026-73502 sku=SKU-27437 qty=3
+ts=2026-10-03T09:46:56.782Z level=info svc=orders msg="restock ticket granted" trace_id=0ff4e24d3cb49652b838d3eab693c98a ticket=RS-2026-73502 wait_ms=13
+ts=2026-10-03T09:46:56.886Z level=info svc=orders msg="restock requested" trace_id=0ff4e24d3cb49652b838d3eab693c98a ticket=RS-2026-57943 sku=SKU-47810 qty=1
+ts=2026-10-03T09:46:58.341Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=a66bb81ee525299c4ee33fee3cdfcf0b ticket=RS-2026-47737 waited_ms=11893
+ts=2026-10-03T09:46:58.900Z level=ERROR svc=orders component=TaxRateClient msg="SocketTimeoutException: Read timed out calling tax-svc"
+Traceback (most recent call last):
+  File "/srv/orders/TaxRateClient.py", line 190, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SocketTimeoutException: Read timed out calling tax-svc
+ts=2026-10-03T09:47:00.910Z level=info svc=orders msg="refund started" trace_id=fe15e06b8430a244f579019f0fa34bf5 lines=2
+ts=2026-10-03T09:47:00.967Z level=info svc=orders msg="restock requested" trace_id=fe15e06b8430a244f579019f0fa34bf5 ticket=RS-2026-24193 sku=SKU-14121 qty=1
+ts=2026-10-03T09:47:01.016Z level=info svc=orders msg="restock ticket granted" trace_id=fe15e06b8430a244f579019f0fa34bf5 ticket=RS-2026-24193 wait_ms=46
+ts=2026-10-03T09:47:01.080Z level=info svc=orders msg="restock requested" trace_id=fe15e06b8430a244f579019f0fa34bf5 ticket=RS-2026-20225 sku=SKU-14767 qty=3
+ts=2026-10-03T09:47:01.685Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=a767d78efd9970a84d624890b601197e ticket=RS-2026-64027 waited_ms=11878
+ts=2026-10-03T09:47:01.820Z level=info svc=orders msg="refund started" trace_id=03ac4ad96567c1fbd81034a0fff3bceb lines=2
+ts=2026-10-03T09:47:01.871Z level=info svc=orders msg="restock requested" trace_id=03ac4ad96567c1fbd81034a0fff3bceb ticket=RS-2026-41100 sku=SKU-28717 qty=4
+ts=2026-10-03T09:47:01.887Z level=info svc=orders msg="restock ticket granted" trace_id=03ac4ad96567c1fbd81034a0fff3bceb ticket=RS-2026-41100 wait_ms=13
+ts=2026-10-03T09:47:01.976Z level=info svc=orders msg="restock requested" trace_id=03ac4ad96567c1fbd81034a0fff3bceb ticket=RS-2026-14728 sku=SKU-24137 qty=1
+ts=2026-10-03T09:47:02.604Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=cb5ed81a2abf3e7249f1717d9f7ab96b ticket=RS-2026-47692 waited_ms=11851
+ts=2026-10-03T09:47:04.373Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=3bf7bdc5a68232b8c907eef93e5b01b0 ticket=RS-2026-80645 waited_ms=11858
+ts=2026-10-03T09:47:04.412Z level=info svc=orders msg="refund started" trace_id=f236b093d94f47bdc7e976f00f10f4b7 lines=4
+ts=2026-10-03T09:47:04.470Z level=info svc=orders msg="restock requested" trace_id=f236b093d94f47bdc7e976f00f10f4b7 ticket=RS-2026-16622 sku=SKU-26897 qty=4
+ts=2026-10-03T09:47:04.527Z level=info svc=orders msg="restock ticket granted" trace_id=f236b093d94f47bdc7e976f00f10f4b7 ticket=RS-2026-16622 wait_ms=54
+ts=2026-10-03T09:47:05.300Z level=ERROR svc=orders component=TaxRateClient msg="SocketTimeoutException: Read timed out calling tax-svc"
+Traceback (most recent call last):
+  File "/srv/orders/TaxRateClient.py", line 69, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SocketTimeoutException: Read timed out calling tax-svc
+ts=2026-10-03T09:47:05.569Z level=error svc=orders msg="db pool exhausted, refund not persisted" trace_id=f236b093d94f47bdc7e976f00f10f4b7 active=32 max=32
+Traceback (most recent call last):
+  File "/srv/orders/OrderRepository.py", line 282, in getConnection
+    self._step()
+  File "/srv/orders/OrderRepository.py", line 317, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SQLTransientConnectionException: pool
+ts=2026-10-03T09:47:07.936Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=d73cd9928c6232747ddc93baa948501e ticket=RS-2026-55043 waited_ms=11847
+ts=2026-10-03T09:47:08.706Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=0ff4e24d3cb49652b838d3eab693c98a ticket=RS-2026-57943 waited_ms=11820
+ts=2026-10-03T09:47:12.709Z level=info svc=orders msg="refund started" trace_id=bfc73475edebc0e1179f01fd4c929739 lines=4
+ts=2026-10-03T09:47:12.754Z level=info svc=orders msg="restock requested" trace_id=bfc73475edebc0e1179f01fd4c929739 ticket=RS-2026-83498 sku=SKU-49236 qty=3
+ts=2026-10-03T09:47:12.810Z level=info svc=orders msg="restock ticket granted" trace_id=bfc73475edebc0e1179f01fd4c929739 ticket=RS-2026-83498 wait_ms=53
+ts=2026-10-03T09:47:12.906Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=fe15e06b8430a244f579019f0fa34bf5 ticket=RS-2026-20225 waited_ms=11826
+ts=2026-10-03T09:47:13.727Z level=error svc=orders msg="db pool exhausted, refund not persisted" trace_id=bfc73475edebc0e1179f01fd4c929739 active=32 max=32
+Traceback (most recent call last):
+  File "/srv/orders/OrderRepository.py", line 157, in getConnection
+    self._step()
+  File "/srv/orders/OrderRepository.py", line 328, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SQLTransientConnectionException: pool
+ts=2026-10-03T09:47:13.814Z level=warn svc=orders msg="restock ticket still pending, caller gone" trace_id=03ac4ad96567c1fbd81034a0fff3bceb ticket=RS-2026-14728 waited_ms=11838
+ts=2026-10-03T09:47:25.220Z level=info svc=orders msg="refund started" trace_id=ff445e51c1305d7fdc998a44b84a5536 lines=5
+ts=2026-10-03T09:47:25.222Z level=warn svc=orders msg="duplicate refund request rejected" trace_id=ff445e51c1305d7fdc998a44b84a5536
+ts=2026-10-03T09:49:40.432Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:49:55.192Z level=ERROR svc=orders component=InvoiceRenderer msg="IllegalStateException: font cache not initialised"
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 313, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+ts=2026-10-03T09:50:31.171Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:50:44.419Z level=info svc=orders msg="refund started" trace_id=94a0b3e94a1ffb395fa49417c3a2c7b7 lines=5
+ts=2026-10-03T09:50:44.463Z level=info svc=orders msg="restock requested" trace_id=94a0b3e94a1ffb395fa49417c3a2c7b7 ticket=RS-2026-71438 sku=SKU-52370 qty=2
+ts=2026-10-03T09:50:44.479Z level=info svc=orders msg="restock ticket granted" trace_id=94a0b3e94a1ffb395fa49417c3a2c7b7 ticket=RS-2026-71438 wait_ms=13
+ts=2026-10-03T09:50:44.524Z level=info svc=orders msg="restock requested" trace_id=94a0b3e94a1ffb395fa49417c3a2c7b7 ticket=RS-2026-25189 sku=SKU-26074 qty=1
+ts=2026-10-03T09:50:44.562Z level=info svc=orders msg="restock ticket granted" trace_id=94a0b3e94a1ffb395fa49417c3a2c7b7 ticket=RS-2026-25189 wait_ms=35
+ts=2026-10-03T09:50:44.661Z level=info svc=orders msg="refund submitted" trace_id=94a0b3e94a1ffb395fa49417c3a2c7b7 amount=11.85
+ts=2026-10-03T09:50:54.969Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:51:26.572Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:51:36.334Z level=ERROR svc=orders component=InvoiceRenderer msg="IllegalStateException: font cache not initialised"
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 135, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+ts=2026-10-03T09:51:40.127Z level=info svc=orders msg="refund started" trace_id=934502e91c5a816d650075c1c6cf3c8e lines=4
+ts=2026-10-03T09:51:40.171Z level=info svc=orders msg="restock requested" trace_id=934502e91c5a816d650075c1c6cf3c8e ticket=RS-2026-70207 sku=SKU-54818 qty=2
+ts=2026-10-03T09:51:40.199Z level=info svc=orders msg="restock ticket granted" trace_id=934502e91c5a816d650075c1c6cf3c8e ticket=RS-2026-70207 wait_ms=25
+ts=2026-10-03T09:51:40.285Z level=info svc=orders msg="restock requested" trace_id=934502e91c5a816d650075c1c6cf3c8e ticket=RS-2026-67618 sku=SKU-31604 qty=2
+ts=2026-10-03T09:51:40.321Z level=info svc=orders msg="restock ticket granted" trace_id=934502e91c5a816d650075c1c6cf3c8e ticket=RS-2026-67618 wait_ms=33
+ts=2026-10-03T09:51:40.452Z level=info svc=orders msg="refund submitted" trace_id=934502e91c5a816d650075c1c6cf3c8e amount=63.02
+ts=2026-10-03T09:52:51.120Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:53:06.011Z level=info svc=orders msg="refund started" trace_id=5e980030e26e9f4c140a4ff10c0e72a4 lines=4
+ts=2026-10-03T09:53:06.046Z level=info svc=orders msg="restock requested" trace_id=5e980030e26e9f4c140a4ff10c0e72a4 ticket=RS-2026-73619 sku=SKU-35648 qty=1
+ts=2026-10-03T09:53:06.091Z level=info svc=orders msg="restock ticket granted" trace_id=5e980030e26e9f4c140a4ff10c0e72a4 ticket=RS-2026-73619 wait_ms=42
+ts=2026-10-03T09:53:06.112Z level=info svc=orders msg="restock requested" trace_id=5e980030e26e9f4c140a4ff10c0e72a4 ticket=RS-2026-14724 sku=SKU-25964 qty=3
+ts=2026-10-03T09:53:06.184Z level=info svc=orders msg="restock ticket granted" trace_id=5e980030e26e9f4c140a4ff10c0e72a4 ticket=RS-2026-14724 wait_ms=69
+ts=2026-10-03T09:53:06.236Z level=info svc=orders msg="refund submitted" trace_id=5e980030e26e9f4c140a4ff10c0e72a4 amount=112.54
+ts=2026-10-03T09:53:27.983Z level=ERROR svc=orders component=InvoiceRenderer msg="IllegalStateException: font cache not initialised"
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 270, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+ts=2026-10-03T09:54:06.155Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:54:30.965Z level=info svc=orders msg="refund started" trace_id=cc315bb106b59696b5b4694688e0ea92 lines=2
+ts=2026-10-03T09:54:31.025Z level=info svc=orders msg="restock requested" trace_id=cc315bb106b59696b5b4694688e0ea92 ticket=RS-2026-13536 sku=SKU-48225 qty=4
+ts=2026-10-03T09:54:31.070Z level=info svc=orders msg="restock ticket granted" trace_id=cc315bb106b59696b5b4694688e0ea92 ticket=RS-2026-13536 wait_ms=42
+ts=2026-10-03T09:54:31.141Z level=info svc=orders msg="restock requested" trace_id=cc315bb106b59696b5b4694688e0ea92 ticket=RS-2026-88400 sku=SKU-10218 qty=2
+ts=2026-10-03T09:54:31.179Z level=info svc=orders msg="restock ticket granted" trace_id=cc315bb106b59696b5b4694688e0ea92 ticket=RS-2026-88400 wait_ms=35
+ts=2026-10-03T09:54:31.244Z level=info svc=orders msg="refund submitted" trace_id=cc315bb106b59696b5b4694688e0ea92 amount=375.90
+ts=2026-10-03T09:54:34.936Z level=info svc=orders msg="refund started" trace_id=6035d7c40cc2e66c496296e24267bd51 lines=5
+ts=2026-10-03T09:54:34.984Z level=info svc=orders msg="restock requested" trace_id=6035d7c40cc2e66c496296e24267bd51 ticket=RS-2026-83481 sku=SKU-47115 qty=2
+ts=2026-10-03T09:54:35.025Z level=info svc=orders msg="restock ticket granted" trace_id=6035d7c40cc2e66c496296e24267bd51 ticket=RS-2026-83481 wait_ms=38
+ts=2026-10-03T09:54:35.070Z level=info svc=orders msg="restock requested" trace_id=6035d7c40cc2e66c496296e24267bd51 ticket=RS-2026-29134 sku=SKU-52489 qty=3
+ts=2026-10-03T09:54:35.115Z level=info svc=orders msg="restock ticket granted" trace_id=6035d7c40cc2e66c496296e24267bd51 ticket=RS-2026-29134 wait_ms=42
+ts=2026-10-03T09:54:35.167Z level=info svc=orders msg="refund submitted" trace_id=6035d7c40cc2e66c496296e24267bd51 amount=494.61
+ts=2026-10-03T09:54:44.117Z level=info svc=orders msg="refund started" trace_id=6d0c88832158473a6fa5b026000d4b12 lines=4
+ts=2026-10-03T09:54:44.168Z level=info svc=orders msg="restock requested" trace_id=6d0c88832158473a6fa5b026000d4b12 ticket=RS-2026-42816 sku=SKU-51771 qty=3
+ts=2026-10-03T09:54:44.213Z level=info svc=orders msg="restock ticket granted" trace_id=6d0c88832158473a6fa5b026000d4b12 ticket=RS-2026-42816 wait_ms=42
+ts=2026-10-03T09:54:44.244Z level=info svc=orders msg="restock requested" trace_id=6d0c88832158473a6fa5b026000d4b12 ticket=RS-2026-31055 sku=SKU-17703 qty=2
+ts=2026-10-03T09:54:44.263Z level=info svc=orders msg="restock ticket granted" trace_id=6d0c88832158473a6fa5b026000d4b12 ticket=RS-2026-31055 wait_ms=16
+ts=2026-10-03T09:54:44.381Z level=info svc=orders msg="refund submitted" trace_id=6d0c88832158473a6fa5b026000d4b12 amount=536.13
+ts=2026-10-03T09:54:54.314Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:55:04.439Z level=info svc=orders msg="refund started" trace_id=fdfb2c701ab1123ece873bef64228371 lines=4
+ts=2026-10-03T09:55:04.482Z level=info svc=orders msg="restock requested" trace_id=fdfb2c701ab1123ece873bef64228371 ticket=RS-2026-74173 sku=SKU-19819 qty=1
+ts=2026-10-03T09:55:04.542Z level=info svc=orders msg="restock ticket granted" trace_id=fdfb2c701ab1123ece873bef64228371 ticket=RS-2026-74173 wait_ms=57
+ts=2026-10-03T09:55:04.553Z level=info svc=orders msg="restock requested" trace_id=fdfb2c701ab1123ece873bef64228371 ticket=RS-2026-34429 sku=SKU-42171 qty=1
+ts=2026-10-03T09:55:04.590Z level=info svc=orders msg="restock ticket granted" trace_id=fdfb2c701ab1123ece873bef64228371 ticket=RS-2026-34429 wait_ms=34
+ts=2026-10-03T09:55:04.718Z level=info svc=orders msg="refund submitted" trace_id=fdfb2c701ab1123ece873bef64228371 amount=546.36
+ts=2026-10-03T09:55:34.155Z level=WARN svc=orders component=PromoCodeResolver msg="promo code SPRING25 expired, ignoring"
+ts=2026-10-03T09:55:56.333Z level=DEBUG svc=orders component=CartCache msg="hit ratio 0.93"
+ts=2026-10-03T09:56:11.076Z level=info svc=orders msg="refund started" trace_id=d0a19252fff277fd4ed894d84aed1131 lines=2
+ts=2026-10-03T09:56:11.110Z level=info svc=orders msg="restock requested" trace_id=d0a19252fff277fd4ed894d84aed1131 ticket=RS-2026-36964 sku=SKU-30913 qty=4
+ts=2026-10-03T09:56:11.166Z level=info svc=orders msg="restock ticket granted" trace_id=d0a19252fff277fd4ed894d84aed1131 ticket=RS-2026-36964 wait_ms=53
+ts=2026-10-03T09:56:11.203Z level=info svc=orders msg="restock requested" trace_id=d0a19252fff277fd4ed894d84aed1131 ticket=RS-2026-14773 sku=SKU-32136 qty=3
+ts=2026-10-03T09:56:11.221Z level=info svc=orders msg="restock ticket granted" trace_id=d0a19252fff277fd4ed894d84aed1131 ticket=RS-2026-14773 wait_ms=15
+ts=2026-10-03T09:56:11.348Z level=info svc=orders msg="refund submitted" trace_id=d0a19252fff277fd4ed894d84aed1131 amount=189.70
+ts=2026-10-03T09:56:17.474Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:56:33.968Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:57:05.021Z level=INFO svc=orders component=CartCache msg="evicted 212 entries (ttl)"
+ts=2026-10-03T09:57:13.109Z level=info svc=orders msg="refund started" trace_id=733df0fa054a39efaf0f529f5eeb84ab lines=3
+ts=2026-10-03T09:57:13.163Z level=info svc=orders msg="restock requested" trace_id=733df0fa054a39efaf0f529f5eeb84ab ticket=RS-2026-99328 sku=SKU-29496 qty=1
+ts=2026-10-03T09:57:13.219Z level=info svc=orders msg="restock ticket granted" trace_id=733df0fa054a39efaf0f529f5eeb84ab ticket=RS-2026-99328 wait_ms=53
+ts=2026-10-03T09:57:13.234Z level=info svc=orders msg="restock requested" trace_id=733df0fa054a39efaf0f529f5eeb84ab ticket=RS-2026-68229 sku=SKU-53283 qty=2
+ts=2026-10-03T09:57:13.249Z level=info svc=orders msg="restock ticket granted" trace_id=733df0fa054a39efaf0f529f5eeb84ab ticket=RS-2026-68229 wait_ms=12
+ts=2026-10-03T09:57:13.317Z level=info svc=orders msg="refund submitted" trace_id=733df0fa054a39efaf0f529f5eeb84ab amount=567.88
+ts=2026-10-03T09:57:26.014Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:57:41.916Z level=info svc=orders msg="refund started" trace_id=131e47f939622d31bce25709180c7915 lines=5
+ts=2026-10-03T09:57:41.960Z level=info svc=orders msg="restock requested" trace_id=131e47f939622d31bce25709180c7915 ticket=RS-2026-37889 sku=SKU-22751 qty=1
+ts=2026-10-03T09:57:42.014Z level=info svc=orders msg="restock ticket granted" trace_id=131e47f939622d31bce25709180c7915 ticket=RS-2026-37889 wait_ms=51
+ts=2026-10-03T09:57:42.075Z level=info svc=orders msg="restock requested" trace_id=131e47f939622d31bce25709180c7915 ticket=RS-2026-55835 sku=SKU-46919 qty=2
+ts=2026-10-03T09:57:42.125Z level=info svc=orders msg="restock ticket granted" trace_id=131e47f939622d31bce25709180c7915 ticket=RS-2026-55835 wait_ms=47
+ts=2026-10-03T09:57:42.174Z level=info svc=orders msg="refund submitted" trace_id=131e47f939622d31bce25709180c7915 amount=224.07
+ts=2026-10-03T09:57:56.342Z level=info svc=orders msg="refund started" trace_id=dacc0790efd5a50ee91d0c685b409fb3 lines=2
+ts=2026-10-03T09:57:56.394Z level=info svc=orders msg="restock requested" trace_id=dacc0790efd5a50ee91d0c685b409fb3 ticket=RS-2026-64727 sku=SKU-25442 qty=3
+ts=2026-10-03T09:57:56.458Z level=info svc=orders msg="restock ticket granted" trace_id=dacc0790efd5a50ee91d0c685b409fb3 ticket=RS-2026-64727 wait_ms=61
+ts=2026-10-03T09:57:56.475Z level=info svc=orders msg="restock requested" trace_id=dacc0790efd5a50ee91d0c685b409fb3 ticket=RS-2026-73294 sku=SKU-54605 qty=2
+ts=2026-10-03T09:57:56.534Z level=info svc=orders msg="restock ticket granted" trace_id=dacc0790efd5a50ee91d0c685b409fb3 ticket=RS-2026-73294 wait_ms=56
+ts=2026-10-03T09:57:56.605Z level=info svc=orders msg="refund submitted" trace_id=dacc0790efd5a50ee91d0c685b409fb3 amount=413.23
+ts=2026-10-03T09:57:59.230Z level=INFO svc=orders component=PromoCodeResolver msg="loaded 31 active promos"
+ts=2026-10-03T09:58:12.035Z level=INFO svc=orders component=ShippingQuoteCache msg="refreshed 64 zones"
+ts=2026-10-03T09:58:12.064Z level=INFO svc=orders component=SchedulerTick msg="tick completed jobs=3 lag=4ms"
+ts=2026-10-03T09:58:34.134Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:58:42.014Z level=info svc=orders msg="refund started" trace_id=ea66622a451626df7d659e64791ec497 lines=5
+ts=2026-10-03T09:58:42.055Z level=info svc=orders msg="restock requested" trace_id=ea66622a451626df7d659e64791ec497 ticket=RS-2026-53205 sku=SKU-52431 qty=2
+ts=2026-10-03T09:58:42.102Z level=info svc=orders msg="restock ticket granted" trace_id=ea66622a451626df7d659e64791ec497 ticket=RS-2026-53205 wait_ms=44
+ts=2026-10-03T09:58:42.151Z level=info svc=orders msg="restock requested" trace_id=ea66622a451626df7d659e64791ec497 ticket=RS-2026-84657 sku=SKU-49063 qty=2
+ts=2026-10-03T09:58:42.194Z level=info svc=orders msg="restock ticket granted" trace_id=ea66622a451626df7d659e64791ec497 ticket=RS-2026-84657 wait_ms=40
+ts=2026-10-03T09:58:42.252Z level=info svc=orders msg="refund submitted" trace_id=ea66622a451626df7d659e64791ec497 amount=47.39
+ts=2026-10-03T09:58:48.307Z level=ERROR svc=orders component=InvoiceRenderer msg="IllegalStateException: font cache not initialised"
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 224, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+ts=2026-10-03T09:59:12.710Z level=WARN svc=orders component=TaxRateClient msg="tax-svc slow response 1210ms"
+ts=2026-10-03T09:59:32.853Z level=info svc=orders msg="refund started" trace_id=ff6b5edcb0eb85fa7d4969762beda105 lines=5
+ts=2026-10-03T09:59:32.909Z level=info svc=orders msg="restock requested" trace_id=ff6b5edcb0eb85fa7d4969762beda105 ticket=RS-2026-88597 sku=SKU-29255 qty=3
+ts=2026-10-03T09:59:32.933Z level=info svc=orders msg="restock ticket granted" trace_id=ff6b5edcb0eb85fa7d4969762beda105 ticket=RS-2026-88597 wait_ms=21
+ts=2026-10-03T09:59:33.000Z level=info svc=orders msg="restock requested" trace_id=ff6b5edcb0eb85fa7d4969762beda105 ticket=RS-2026-18252 sku=SKU-59663 qty=3
+ts=2026-10-03T09:59:33.038Z level=info svc=orders msg="restock ticket granted" trace_id=ff6b5edcb0eb85fa7d4969762beda105 ticket=RS-2026-18252 wait_ms=35
+ts=2026-10-03T09:59:33.148Z level=info svc=orders msg="refund submitted" trace_id=ff6b5edcb0eb85fa7d4969762beda105 amount=346.55

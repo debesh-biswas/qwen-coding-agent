@@ -6,14 +6,27 @@ A tool-calling agent written from scratch around Qwen3-14B. It uses only the Ope
 
 ```
 run_agent.sh          entry point: bash run_agent.sh "<prompt>" [session_id] (cwd = task workspace)
-agent.py              the agent harness (model loop, tools, sessions, JSON output)
+src/agent.py          script entry (run as a script so the workspace is never on sys.path)
+src/hw1_agent/
+  main.py             reads the prompt, picks normal or code mode, prints the one JSON result
+  state.py            run-wide state (deadline, mode, files written, test results)
+  prompts.py          system prompts and the programming-task step prompts
+  llm.py              streaming chat client, retries, context compaction, tool-call parsing
+  loop.py             the tool-calling loop
+  guards.py           which files may change, guessed-value checks, checks before finishing
+  programming.py      programming tasks: plan, candidate programs, best tested version
+  debugging.py        debugging tasks: independent investigations, per-key vote
+  session.py          session memory per (workspace, session ID)
+  util.py             Finish signal, logging, workspace path guard
+  tools/              tool schemas, dispatch, file/CSV/shell tools
 tests/run_tests.py    test runner
+tests/gen/            generators for the Checkpoint 3 test cases
 tests/cases/<name>/   one test case: prompt.txt or expect.json "turns", setup/ (initial workspace files), expect.json
 ```
 
 ## How it works
 
-`agent.py` sends the prompt to the model together with these tools: `list_files`, `read_file`, `write_file`, `delete_file`, `csv_stats`, `csv_row_sum`, `csv_update`, `csv_remove_rows`, `copy_file`, `calculate` and `finish`. It runs each tool call the model makes, returns the result to the model and repeats until the model calls `finish`. The limits are 12 model turns and 165 s.
+The agent sends the prompt to the model together with these tools: `list_files`, `read_file`, `write_file`, `delete_file`, `csv_stats`, `csv_row_sum`, `csv_update`, `csv_remove_rows`, `copy_file`, `calculate` and `finish`. It runs each tool call the model makes, returns the result to the model and repeats until the model calls `finish`. The limits are 12 model turns and 165 s.
 
 - All numbers are computed in code, never by the model. `csv_stats` gives sums, averages, min and max, with optional filters. `csv_row_sum` adds values in a row. `calculate` evaluates arithmetic. The model reports the tool's numbers.
 - The CSV tools keep the file's quoting, line endings and trailing newline. Files with CRLF line endings stay CRLF.

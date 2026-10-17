@@ -1,0 +1,1111 @@
+2026-10-21T21:00:00.710Z payments authz.decline txn=txn_6bbd1793d3889f44 order=ORD-60548 code=avs_mismatch
+2026-10-21T21:00:01.763Z payments DEBUG 3ds challenge completed
+2026-10-21T21:00:08.960Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 327, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:00:18.853Z payments authz.adjust txn=txn_a8801c769df8cdb7 order=ORD-60984 delta=377.66 state=pending
+2026-10-21T21:00:19.142Z payments authz.settle txn=txn_a8801c769df8cdb7 state=settled
+2026-10-21T21:00:22.191Z payments authz.adjust txn=txn_93bee518c21bfcd5 order=ORD-61275 delta=94.83 state=pending
+2026-10-21T21:00:22.432Z payments authz.settle txn=txn_93bee518c21bfcd5 state=settled
+2026-10-21T21:00:25.979Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:00:28.229Z payments authz.decline txn=txn_3f7a99be3d37b71a order=ORD-60904 code=do_not_honor
+2026-10-21T21:00:29.269Z payments INFO  settlement batch closed items=212
+2026-10-21T21:00:35.438Z payments authz.decline txn=txn_d8c78928cda21d29 order=ORD-60969 code=do_not_honor
+2026-10-21T21:00:39.048Z payments INFO  webhook evt_025871dad13bae verified
+2026-10-21T21:00:39.210Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:00:47.919Z payments authz.adjust txn=txn_79797e26b6d22ba8 order=ORD-61142 delta=473.38 state=pending
+2026-10-21T21:00:48.156Z payments authz.settle txn=txn_79797e26b6d22ba8 state=settled
+2026-10-21T21:01:05.183Z payments authz.adjust txn=txn_cd81c1a37c8e3265 order=ORD-61755 delta=263.73 state=pending
+2026-10-21T21:01:05.453Z payments authz.settle txn=txn_cd81c1a37c8e3265 state=settled
+2026-10-21T21:01:06.454Z payments authz.decline txn=txn_e33d3f02e3396169 order=ORD-61833 code=card_declined
+2026-10-21T21:01:15.175Z payments authz.adjust txn=txn_d44582ff4438f475 order=ORD-61774 delta=403.90 state=pending
+2026-10-21T21:01:15.509Z payments authz.settle txn=txn_d44582ff4438f475 state=settled
+2026-10-21T21:01:19.489Z payments authz.adjust txn=txn_d0913772b7ccf76b order=ORD-61109 delta=186.24 state=pending
+2026-10-21T21:01:19.779Z payments DEBUG webhook evt_b1996360fcac49 received type=charge.refunded
+2026-10-21T21:01:19.807Z payments authz.settle txn=txn_d0913772b7ccf76b state=settled
+2026-10-21T21:01:30.883Z payments INFO  3ds challenge completed
+2026-10-21T21:01:37.807Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 207, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:01:41.678Z payments DEBUG webhook evt_970c00e2f085bb received type=charge.refunded
+2026-10-21T21:01:43.119Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 23, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:01:45.688Z payments authz.decline txn=txn_25073ced2b29427a order=ORD-61377 code=expired_card
+2026-10-21T21:01:48.116Z payments authz.decline txn=txn_fbdc091bdcd3bccb order=ORD-61237 code=insufficient_funds
+2026-10-21T21:01:50.818Z payments INFO  webhook evt_8b17272d178e89 received type=charge.succeeded
+2026-10-21T21:02:00.240Z payments INFO  settlement batch closed items=212
+2026-10-21T21:02:04.547Z payments INFO  3ds challenge completed
+2026-10-21T21:02:05.492Z payments INFO  webhook evt_442bd88cb14fb5 verified
+2026-10-21T21:02:06.133Z payments INFO  settlement batch closed items=212
+2026-10-21T21:02:07.507Z payments INFO  3ds challenge completed
+2026-10-21T21:02:08.352Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 37, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:02:16.230Z payments authz.decline txn=txn_60af63becc59ee47 order=ORD-61597 code=card_declined
+2026-10-21T21:02:18.845Z payments authz.decline txn=txn_a56a35090f02b1da order=ORD-61008 code=avs_mismatch
+2026-10-21T21:02:22.759Z payments DEBUG webhook evt_e17c9e1f640196 received type=charge.succeeded
+2026-10-21T21:02:31.789Z payments authz.decline txn=txn_bd220da07eb3fbf8 order=ORD-60690 code=avs_mismatch
+2026-10-21T21:02:32.685Z payments authz.decline txn=txn_076fa37bd3b58d16 order=ORD-60617 code=do_not_honor
+2026-10-21T21:02:33.280Z payments INFO  settlement batch closed items=212
+2026-10-21T21:02:34.723Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 309, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:02:35.717Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:02:35.762Z payments DEBUG 3ds challenge completed
+2026-10-21T21:02:42.548Z payments DEBUG webhook evt_64d6446a520cea received type=charge.succeeded
+2026-10-21T21:02:53.536Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:02:59.443Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 273, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:03:02.013Z payments INFO  webhook evt_aa3f9c197c1ed3 received type=charge.refunded
+2026-10-21T21:03:03.988Z payments authz.adjust txn=txn_70779d4fb92c98d9 order=ORD-61538 delta=549.78 state=pending
+2026-10-21T21:03:04.166Z payments authz.settle txn=txn_70779d4fb92c98d9 state=settled
+2026-10-21T21:03:04.200Z payments authz.adjust txn=txn_f83e3f8e0f1e679f order=ORD-61660 delta=97.56 state=pending
+2026-10-21T21:03:04.469Z payments authz.settle txn=txn_f83e3f8e0f1e679f state=settled
+2026-10-21T21:03:16.253Z payments INFO  webhook evt_0cf024b3ea9296 received type=charge.refunded
+2026-10-21T21:03:16.588Z payments authz.adjust txn=txn_69cb5efeb98dd520 order=ORD-61133 delta=65.73 state=pending
+2026-10-21T21:03:16.765Z payments authz.settle txn=txn_69cb5efeb98dd520 state=settled
+2026-10-21T21:03:18.940Z payments authz.decline txn=txn_5ef362a4b451aedf order=ORD-61738 code=avs_mismatch
+2026-10-21T21:03:19.679Z payments authz.decline txn=txn_7827a590fab57fca order=ORD-61132 code=expired_card
+2026-10-21T21:03:22.806Z payments DEBUG webhook evt_ca640bdd2f8cbb received type=charge.succeeded
+2026-10-21T21:03:28.802Z payments INFO  webhook evt_91ad5394267c17 received type=charge.refunded
+2026-10-21T21:03:32.888Z payments INFO  webhook evt_b7cf71f6640e50 received type=charge.refunded
+2026-10-21T21:03:35.586Z payments INFO  settlement batch closed items=212
+2026-10-21T21:03:39.862Z payments DEBUG webhook evt_c5479a490bc615 verified
+2026-10-21T21:03:43.985Z payments INFO  webhook evt_14bdb8f4380693 verified
+2026-10-21T21:03:51.543Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 318, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:04:02.229Z payments DEBUG webhook evt_9489fef00d5ab8 received type=charge.succeeded
+2026-10-21T21:04:02.533Z payments INFO  webhook evt_b3c2b30145e00b verified
+2026-10-21T21:04:06.749Z payments DEBUG webhook evt_7a6bedfcecc476 received type=charge.refunded
+2026-10-21T21:04:15.769Z payments authz.decline txn=txn_01365c3e639c4d28 order=ORD-61337 code=do_not_honor
+2026-10-21T21:04:15.820Z payments DEBUG webhook evt_5a3817a79a21cf verified
+2026-10-21T21:04:24.237Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 393, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:04:33.723Z payments DEBUG 3ds challenge completed
+2026-10-21T21:04:35.094Z payments authz.decline txn=txn_52622531a80b3633 order=ORD-61937 code=card_declined
+2026-10-21T21:04:39.771Z payments authz.decline txn=txn_305681a10adc1644 order=ORD-60850 code=insufficient_funds
+2026-10-21T21:04:40.655Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:04:41.893Z payments authz.decline txn=txn_15f31e83c31bffb6 order=ORD-61600 code=expired_card
+2026-10-21T21:04:45.476Z payments INFO  webhook evt_9c03581c37a414 received type=charge.refunded
+2026-10-21T21:04:45.764Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:04:46.137Z payments INFO  webhook evt_bac896f88999a0 received type=charge.refunded
+2026-10-21T21:04:46.952Z payments authz.adjust txn=txn_5fdcf49f4a29630c order=ORD-61515 delta=590.51 state=pending
+2026-10-21T21:04:47.139Z payments authz.decline txn=txn_c03b9b4498fbb01c order=ORD-61701 code=expired_card
+2026-10-21T21:04:47.154Z payments authz.settle txn=txn_5fdcf49f4a29630c state=settled
+2026-10-21T21:04:49.721Z payments INFO  webhook evt_e365e341012905 received type=charge.succeeded
+2026-10-21T21:04:50.470Z payments authz.adjust txn=txn_45670b885aa69b58 order=ORD-61361 delta=551.86 state=pending
+2026-10-21T21:04:50.740Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:04:50.784Z payments authz.settle txn=txn_45670b885aa69b58 state=settled
+2026-10-21T21:05:01.199Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:05:04.428Z payments authz.decline txn=txn_8bdc86863416cb05 order=ORD-60921 code=do_not_honor
+2026-10-21T21:05:08.973Z payments INFO  webhook evt_142b172cb2fc1a received type=charge.refunded
+2026-10-21T21:05:09.376Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:05:27.827Z payments INFO  webhook evt_c95438cdbdc530 verified
+2026-10-21T21:05:41.641Z payments INFO  webhook evt_7e9359a42bf370 received type=charge.succeeded
+2026-10-21T21:05:50.897Z payments INFO  webhook evt_c32f854afae9cb received type=charge.succeeded
+2026-10-21T21:06:01.384Z payments authz.decline txn=txn_9ff5fc0f2a8c1a05 order=ORD-61103 code=expired_card
+2026-10-21T21:06:03.031Z payments INFO  webhook evt_875af21d9ad907 verified
+2026-10-21T21:06:03.225Z payments authz.decline txn=txn_f5d16374df2416d1 order=ORD-61736 code=avs_mismatch
+2026-10-21T21:06:07.509Z payments authz.adjust txn=txn_ccbf41131e8f17cb order=ORD-60696 delta=450.85 state=pending
+2026-10-21T21:06:07.587Z payments INFO  settlement batch closed items=212
+2026-10-21T21:06:07.840Z payments authz.settle txn=txn_ccbf41131e8f17cb state=settled
+2026-10-21T21:06:09.964Z payments INFO  webhook evt_39017e79bc636d verified
+2026-10-21T21:06:11.349Z payments INFO  webhook evt_96ad506b157fbd received type=charge.succeeded
+2026-10-21T21:06:14.406Z payments INFO  settlement batch closed items=212
+2026-10-21T21:06:23.912Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 265, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:06:24.981Z payments authz.decline txn=txn_c91f0b68a6fa51c3 order=ORD-60580 code=insufficient_funds
+2026-10-21T21:06:25.149Z payments INFO  webhook evt_fa6fc01954420b verified
+2026-10-21T21:06:26.202Z payments INFO  webhook evt_bd4f4004f724d8 verified
+2026-10-21T21:06:28.060Z payments authz.decline txn=txn_a55b7482a3669df8 order=ORD-60778 code=do_not_honor
+2026-10-21T21:06:29.168Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:06:31.758Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:06:35.388Z payments INFO  webhook evt_5ee39df7099ef4 received type=charge.refunded
+2026-10-21T21:06:37.371Z payments INFO  webhook evt_c5b866960f07c7 verified
+2026-10-21T21:06:42.321Z payments INFO  webhook evt_22700d1ebc63b9 received type=charge.succeeded
+2026-10-21T21:06:57.192Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:06:59.963Z payments INFO  settlement batch closed items=212
+2026-10-21T21:07:03.808Z payments authz.adjust txn=txn_33185202076d0891 order=ORD-60524 delta=621.02 state=pending
+2026-10-21T21:07:03.843Z payments authz.adjust txn=txn_cc6237bd62bf4dbf order=ORD-61399 delta=480.79 state=pending
+2026-10-21T21:07:04.124Z payments authz.settle txn=txn_cc6237bd62bf4dbf state=settled
+2026-10-21T21:07:04.157Z payments authz.settle txn=txn_33185202076d0891 state=settled
+2026-10-21T21:07:07.847Z payments INFO  webhook evt_98811955afe0a5 received type=charge.succeeded
+2026-10-21T21:07:11.127Z payments INFO  webhook evt_c373403e554ff7 received type=charge.refunded
+2026-10-21T21:07:14.634Z payments INFO  settlement batch closed items=212
+2026-10-21T21:07:14.662Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 305, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:07:17.330Z payments authz.decline txn=txn_d9a54d9b37805342 order=ORD-60576 code=insufficient_funds
+2026-10-21T21:07:20.689Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:07:24.258Z payments INFO  webhook evt_cfab9e1b61c41e verified
+2026-10-21T21:07:33.507Z payments INFO  3ds challenge completed
+2026-10-21T21:07:33.816Z payments INFO  webhook evt_4b42c1fab738cf verified
+2026-10-21T21:07:48.460Z payments authz.decline txn=txn_2c35d6925ed019dc order=ORD-61838 code=do_not_honor
+2026-10-21T21:07:53.538Z payments authz.decline txn=txn_3ea9735d4d2156eb order=ORD-60701 code=card_declined
+2026-10-21T21:07:53.602Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:07:59.189Z payments authz.adjust txn=txn_0fde547430c2da6c order=ORD-61805 delta=253.60 state=pending
+2026-10-21T21:07:59.429Z payments authz.settle txn=txn_0fde547430c2da6c state=settled
+2026-10-21T21:08:06.149Z payments INFO  3ds challenge completed
+2026-10-21T21:08:07.528Z payments DEBUG webhook evt_63ff3e399231dc received type=charge.refunded
+2026-10-21T21:08:08.124Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:08:11.828Z payments INFO  webhook evt_af6e76f67896be received type=charge.succeeded
+2026-10-21T21:08:12.288Z payments authz.decline txn=txn_719978568aa31e64 order=ORD-60990 code=expired_card
+2026-10-21T21:08:15.920Z payments INFO  webhook evt_74777b022d9bf5 received type=charge.refunded
+2026-10-21T21:08:21.993Z payments authz.adjust txn=txn_fdd4ddd45a378f02 order=ORD-60967 delta=11.58 state=pending
+2026-10-21T21:08:22.209Z payments authz.settle txn=txn_fdd4ddd45a378f02 state=settled
+2026-10-21T21:08:38.681Z payments authz.adjust txn=txn_478d3ba09d48495f order=ORD-61000 delta=373.91 state=pending
+2026-10-21T21:08:38.901Z payments authz.settle txn=txn_478d3ba09d48495f state=settled
+2026-10-21T21:08:40.146Z payments authz.adjust txn=txn_c42eff60e0e33525 order=ORD-61996 delta=349.29 state=pending
+2026-10-21T21:08:40.400Z payments authz.settle txn=txn_c42eff60e0e33525 state=settled
+2026-10-21T21:08:41.330Z payments DEBUG webhook evt_7ce3b044442905 received type=charge.succeeded
+2026-10-21T21:08:46.703Z payments INFO  settlement batch closed items=212
+2026-10-21T21:08:47.755Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 57, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:08:48.667Z payments authz.decline txn=txn_2423dff958e7177d order=ORD-61872 code=card_declined
+2026-10-21T21:09:02.074Z payments authz.adjust txn=txn_2e5aff3b764f2c25 order=ORD-61027 delta=42.66 state=pending
+2026-10-21T21:09:02.372Z payments authz.settle txn=txn_2e5aff3b764f2c25 state=settled
+2026-10-21T21:09:33.415Z payments INFO  webhook evt_6d7326ebab3c5c verified
+2026-10-21T21:09:33.612Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:09:46.360Z payments DEBUG 3ds challenge completed
+2026-10-21T21:09:46.567Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:10:04.895Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 263, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:10:06.340Z payments authz.adjust txn=txn_40dc3490e454b958 order=ORD-61487 delta=160.40 state=pending
+2026-10-21T21:10:06.562Z payments authz.settle txn=txn_40dc3490e454b958 state=settled
+2026-10-21T21:10:20.003Z payments INFO  webhook evt_9db2ae43701f74 received type=charge.succeeded
+2026-10-21T21:10:31.059Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:10:33.308Z payments authz.adjust txn=txn_8753bdb24ff7f27d order=ORD-61737 delta=599.79 state=pending
+2026-10-21T21:10:33.592Z payments authz.settle txn=txn_8753bdb24ff7f27d state=settled
+2026-10-21T21:10:33.996Z payments INFO  webhook evt_c4b45a749a0d81 received type=charge.refunded
+2026-10-21T21:10:38.427Z payments INFO  webhook evt_235f29cbdf364c received type=charge.succeeded
+2026-10-21T21:10:43.591Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 236, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:10:49.179Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:10:54.559Z payments DEBUG webhook evt_faefa96538734a received type=charge.refunded
+2026-10-21T21:10:59.610Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:11:03.097Z payments INFO  webhook evt_0cbd0d5d65ad7c received type=charge.refunded
+2026-10-21T21:11:09.360Z payments INFO  webhook evt_3bb95774259646 verified
+2026-10-21T21:11:10.685Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:11:11.813Z payments INFO  webhook evt_8d37b92a34d16f received type=charge.succeeded
+2026-10-21T21:11:17.824Z payments INFO  settlement batch closed items=212
+2026-10-21T21:11:18.711Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 150, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:11:27.988Z payments INFO  webhook evt_1b30fa5ee3bd49 received type=charge.succeeded
+2026-10-21T21:11:31.641Z payments DEBUG webhook evt_07ade20e46bac3 verified
+2026-10-21T21:11:44.256Z payments authz.adjust txn=txn_5f76f840275e4729 order=ORD-61927 delta=277.53 state=pending
+2026-10-21T21:11:44.517Z payments authz.settle txn=txn_5f76f840275e4729 state=settled
+2026-10-21T21:12:05.072Z payments INFO  webhook evt_4e242a24987366 received type=charge.succeeded
+2026-10-21T21:12:05.314Z payments DEBUG webhook evt_298a1d0adbfe1d verified
+2026-10-21T21:12:06.295Z payments authz.adjust txn=txn_575ac44616d65fe9 order=ORD-61848 delta=374.45 state=pending
+2026-10-21T21:12:06.496Z payments authz.settle txn=txn_575ac44616d65fe9 state=settled
+2026-10-21T21:12:09.488Z payments INFO  3ds challenge completed
+2026-10-21T21:12:11.014Z payments INFO  3ds challenge completed
+2026-10-21T21:12:20.927Z payments INFO  webhook evt_95cccd95eb60c4 verified
+2026-10-21T21:12:26.313Z payments INFO  webhook evt_4fca280a78b73f received type=charge.succeeded
+2026-10-21T21:12:26.333Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 243, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:12:35.121Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 366, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:12:37.841Z payments authz.adjust txn=txn_5d595eac24ed27bf order=ORD-61450 delta=227.57 state=pending
+2026-10-21T21:12:38.085Z payments authz.settle txn=txn_5d595eac24ed27bf state=settled
+2026-10-21T21:12:40.223Z payments authz.decline txn=txn_994dde27646558a5 order=ORD-61940 code=expired_card
+2026-10-21T21:12:42.611Z payments INFO  webhook evt_3bddbe5c363f4c received type=charge.refunded
+2026-10-21T21:12:47.993Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 185, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:12:48.443Z payments INFO  webhook evt_1a9108ec3ad6b5 received type=charge.succeeded
+2026-10-21T21:12:55.494Z payments INFO  webhook evt_174dfe7d5b8e6a verified
+2026-10-21T21:13:01.726Z payments authz.decline txn=txn_2f96c3d63fc44b27 order=ORD-60559 code=card_declined
+2026-10-21T21:13:11.717Z payments authz.decline txn=txn_d2caa2de9c610449 order=ORD-60501 code=avs_mismatch
+2026-10-21T21:13:23.633Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:13:24.738Z payments authz.decline txn=txn_0f916ee154d37bfb order=ORD-61193 code=expired_card
+2026-10-21T21:13:25.877Z payments INFO  3ds challenge completed
+2026-10-21T21:13:53.610Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 112, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:13:55.793Z payments DEBUG 3ds challenge completed
+2026-10-21T21:14:00.320Z payments INFO  webhook evt_e54eb87317abb9 received type=charge.refunded
+2026-10-21T21:14:09.622Z payments authz.decline txn=txn_25ba2a4ce90cd818 order=ORD-61809 code=do_not_honor
+2026-10-21T21:14:12.013Z payments DEBUG webhook evt_af19060123975f verified
+2026-10-21T21:14:27.560Z payments INFO  webhook evt_7420d1a82f606d verified
+2026-10-21T21:14:28.658Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:14:35.001Z payments authz.decline txn=txn_cc1b241e258d4c46 order=ORD-61159 code=do_not_honor
+2026-10-21T21:14:38.592Z payments INFO  settlement batch closed items=212
+2026-10-21T21:14:45.572Z payments INFO  3ds challenge completed
+2026-10-21T21:14:58.342Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:14:58.586Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:14:59.104Z payments INFO  webhook evt_49d76f866a047f received type=charge.succeeded
+2026-10-21T21:15:14.195Z payments INFO  settlement batch closed items=212
+2026-10-21T21:15:14.588Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 202, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:15:30.242Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:15:31.282Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:15:35.521Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:15:35.548Z payments authz.decline txn=txn_e75acaa68b08cba5 order=ORD-61821 code=avs_mismatch
+2026-10-21T21:15:41.184Z payments authz.adjust txn=txn_4e837df26f7e7a81 order=ORD-61584 delta=627.46 state=pending
+2026-10-21T21:15:41.456Z payments authz.settle txn=txn_4e837df26f7e7a81 state=settled
+2026-10-21T21:15:42.643Z payments authz.adjust txn=txn_89b0fc6cd3fabd91 order=ORD-61161 delta=159.52 state=pending
+2026-10-21T21:15:42.888Z payments authz.settle txn=txn_89b0fc6cd3fabd91 state=settled
+2026-10-21T21:15:44.183Z payments INFO  settlement batch closed items=212
+2026-10-21T21:15:45.036Z payments authz.adjust txn=txn_edc0282eb8cc58d6 order=ORD-60501 delta=193.74 state=pending
+2026-10-21T21:15:45.186Z payments authz.settle txn=txn_edc0282eb8cc58d6 state=settled
+2026-10-21T21:15:51.705Z payments authz.decline txn=txn_b5272a7333e53999 order=ORD-60681 code=do_not_honor
+2026-10-21T21:15:53.546Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:15:53.705Z payments INFO  3ds challenge completed
+2026-10-21T21:15:54.423Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:15:54.590Z payments authz.decline txn=txn_522ec471d6281dfd order=ORD-61730 code=card_declined
+2026-10-21T21:15:55.746Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:15:57.219Z payments DEBUG 3ds challenge completed
+2026-10-21T21:16:05.963Z payments authz.decline txn=txn_d74d81abac77bef1 order=ORD-61760 code=do_not_honor
+2026-10-21T21:16:08.826Z payments authz.decline txn=txn_16fbbd7912b57c64 order=ORD-60529 code=card_declined
+2026-10-21T21:16:18.621Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 166, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:16:23.289Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:16:28.497Z payments authz.decline txn=txn_8a56f369410d5eb5 order=ORD-61120 code=insufficient_funds
+2026-10-21T21:16:32.163Z payments authz.adjust txn=txn_99be69ae3954d684 order=ORD-61102 delta=356.18 state=pending
+2026-10-21T21:16:32.456Z payments authz.settle txn=txn_99be69ae3954d684 state=settled
+2026-10-21T21:16:34.134Z payments DEBUG webhook evt_21c0bde1f9701b received type=charge.refunded
+2026-10-21T21:16:46.947Z payments INFO  webhook evt_beb3d90991c2c9 received type=charge.refunded
+2026-10-21T21:16:51.494Z payments INFO  3ds challenge completed
+2026-10-21T21:16:55.866Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 181, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:17:10.635Z payments authz.decline txn=txn_cb61225bb2212118 order=ORD-61070 code=card_declined
+2026-10-21T21:17:23.497Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:17:25.161Z payments INFO  webhook evt_1caff33b7babc9 received type=charge.refunded
+2026-10-21T21:17:32.792Z payments authz.adjust txn=txn_aab771620e458e7a order=ORD-60688 delta=543.83 state=pending
+2026-10-21T21:17:33.014Z payments authz.settle txn=txn_aab771620e458e7a state=settled
+2026-10-21T21:17:37.942Z payments authz.adjust txn=txn_5fa825d36e82a727 order=ORD-61608 delta=140.35 state=pending
+2026-10-21T21:17:38.204Z payments authz.settle txn=txn_5fa825d36e82a727 state=settled
+2026-10-21T21:17:48.253Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 373, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:17:58.096Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 44, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:17:58.129Z payments INFO  3ds challenge completed
+2026-10-21T21:17:59.769Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:18:07.182Z payments authz.decline txn=txn_d359a5ac7872ebfc order=ORD-61723 code=card_declined
+2026-10-21T21:18:23.428Z payments INFO  webhook evt_3a4667382c3279 received type=charge.refunded
+2026-10-21T21:18:32.400Z payments INFO  webhook evt_d5ac1369b07f4c received type=charge.succeeded
+2026-10-21T21:18:34.546Z payments authz.decline txn=txn_79efe8dd8d749dfc order=ORD-61820 code=do_not_honor
+2026-10-21T21:18:36.286Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:18:40.019Z payments authz.adjust txn=txn_65e8966688943c83 order=ORD-60574 delta=348.61 state=pending
+2026-10-21T21:18:40.548Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:18:40.980Z payments INFO  webhook evt_240fee0faa0cea received type=charge.refunded
+2026-10-21T21:18:41.811Z payments INFO  webhook evt_68e53c401a2889 verified
+2026-10-21T21:18:42.351Z payments INFO  webhook evt_a2639ffacb0129 verified
+2026-10-21T21:18:43.259Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:18:45.016Z payments authz.void txn=txn_65e8966688943c83 reason=amend_aborted
+2026-10-21T21:18:46.783Z payments authz.adjust txn=txn_051bb89f4a7c10e9 order=ORD-61732 delta=550.75 state=pending
+2026-10-21T21:18:46.968Z payments authz.settle txn=txn_051bb89f4a7c10e9 state=settled
+2026-10-21T21:18:55.373Z payments authz.adjust txn=txn_fadbcf364757e5dd order=ORD-61393 delta=33.81 state=pending
+2026-10-21T21:18:55.642Z payments authz.settle txn=txn_fadbcf364757e5dd state=settled
+2026-10-21T21:19:09.114Z payments INFO  webhook evt_5f29aa7e8cf161 received type=charge.succeeded
+2026-10-21T21:19:20.899Z payments INFO  3ds challenge completed
+2026-10-21T21:19:33.962Z payments authz.adjust txn=txn_599982788a105343 order=ORD-61058 delta=299.09 state=pending
+2026-10-21T21:19:34.213Z payments authz.settle txn=txn_599982788a105343 state=settled
+2026-10-21T21:19:34.737Z payments authz.decline txn=txn_b8b54a26be72cbba order=ORD-60941 code=expired_card
+2026-10-21T21:19:43.404Z payments INFO  webhook evt_651685735d73c1 received type=charge.refunded
+2026-10-21T21:19:47.631Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:19:50.965Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:19:58.467Z payments INFO  webhook evt_f1b743e93a4c15 received type=charge.refunded
+2026-10-21T21:20:00.300Z payments authz.adjust txn=txn_b47ac095af8dc348 order=ORD-61781 delta=384.72 state=pending
+2026-10-21T21:20:00.475Z payments INFO  settlement batch closed items=212
+2026-10-21T21:20:00.603Z payments authz.settle txn=txn_b47ac095af8dc348 state=settled
+2026-10-21T21:20:03.192Z payments authz.decline txn=txn_7da9209df04ee89a order=ORD-61685 code=avs_mismatch
+2026-10-21T21:20:12.715Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:20:13.815Z payments authz.decline txn=txn_aec5c76c7f90ef0d order=ORD-61100 code=do_not_honor
+2026-10-21T21:20:24.106Z payments authz.decline txn=txn_19fdf8fdd31df780 order=ORD-61071 code=expired_card
+2026-10-21T21:20:30.938Z payments authz.decline txn=txn_b13bc4a7aa96199a order=ORD-61251 code=avs_mismatch
+2026-10-21T21:20:32.505Z payments authz.adjust txn=txn_a84e0da728c3a833 order=ORD-61884 delta=202.38 state=pending
+2026-10-21T21:20:32.731Z payments INFO  3ds challenge completed
+2026-10-21T21:20:32.766Z payments authz.settle txn=txn_a84e0da728c3a833 state=settled
+2026-10-21T21:20:33.707Z payments authz.adjust txn=txn_11fd6e6c76249385 order=ORD-61436 delta=583.94 state=pending
+2026-10-21T21:20:33.955Z payments authz.settle txn=txn_11fd6e6c76249385 state=settled
+2026-10-21T21:20:38.771Z payments authz.decline txn=txn_d99c309926ac729e order=ORD-61670 code=card_declined
+2026-10-21T21:20:45.823Z payments INFO  settlement batch closed items=212
+2026-10-21T21:20:46.348Z payments authz.adjust txn=txn_fe8b9518dcf60d5a order=ORD-60922 delta=453.12 state=pending
+2026-10-21T21:20:46.611Z payments authz.settle txn=txn_fe8b9518dcf60d5a state=settled
+2026-10-21T21:20:51.074Z payments INFO  webhook evt_2a41db175de73a received type=charge.refunded
+2026-10-21T21:20:56.866Z payments authz.decline txn=txn_c91a731a9ae1dd0c order=ORD-60634 code=avs_mismatch
+2026-10-21T21:20:59.319Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:21:02.357Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:21:04.847Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:21:11.038Z payments authz.adjust txn=txn_fd9d6b6fb25c7347 order=ORD-61920 delta=297.05 state=pending
+2026-10-21T21:21:11.320Z payments authz.settle txn=txn_fd9d6b6fb25c7347 state=settled
+2026-10-21T21:21:30.588Z payments DEBUG webhook evt_c9e87770d1d384 verified
+2026-10-21T21:21:41.215Z payments INFO  webhook evt_dfa6aa99692cf9 received type=charge.succeeded
+2026-10-21T21:21:41.344Z payments INFO  settlement batch closed items=212
+2026-10-21T21:21:42.973Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:22:07.138Z payments INFO  settlement batch closed items=212
+2026-10-21T21:22:21.983Z payments INFO  webhook evt_467b170ff78c33 verified
+2026-10-21T21:22:23.631Z payments authz.decline txn=txn_5813e80eb9705ece order=ORD-60959 code=insufficient_funds
+2026-10-21T21:22:27.573Z payments authz.adjust txn=txn_3f9f19360c3a987f order=ORD-61599 delta=82.89 state=pending
+2026-10-21T21:22:27.829Z payments authz.settle txn=txn_3f9f19360c3a987f state=settled
+2026-10-21T21:22:29.520Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:22:31.576Z payments INFO  webhook evt_c54105ed9ea94a verified
+2026-10-21T21:22:34.305Z payments authz.adjust txn=txn_ba12d4536313affc order=ORD-61574 delta=45.74 state=pending
+2026-10-21T21:22:34.546Z payments authz.settle txn=txn_ba12d4536313affc state=settled
+2026-10-21T21:22:47.277Z payments INFO  3ds challenge completed
+2026-10-21T21:22:53.641Z payments authz.adjust txn=txn_b4210d7427ce5d01 order=ORD-60990 delta=233.99 state=pending
+2026-10-21T21:22:53.958Z payments authz.settle txn=txn_b4210d7427ce5d01 state=settled
+2026-10-21T21:22:59.698Z payments INFO  3ds challenge completed
+2026-10-21T21:23:00.520Z payments INFO  webhook evt_21341d5cbf49b3 received type=charge.refunded
+2026-10-21T21:23:00.847Z payments authz.decline txn=txn_a402b2dac5b0012c order=ORD-60711 code=expired_card
+2026-10-21T21:23:23.665Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:23:24.330Z payments INFO  webhook evt_5c00ed1a932314 received type=charge.succeeded
+2026-10-21T21:23:26.006Z payments INFO  3ds challenge completed
+2026-10-21T21:23:32.934Z payments authz.decline txn=txn_719cb68f2a9afa98 order=ORD-61661 code=avs_mismatch
+2026-10-21T21:23:34.609Z payments INFO  3ds challenge completed
+2026-10-21T21:23:36.922Z payments authz.decline txn=txn_2092097d6a1f2f33 order=ORD-61792 code=expired_card
+2026-10-21T21:23:36.998Z payments INFO  webhook evt_73d557bd460011 verified
+2026-10-21T21:23:42.017Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 26, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:23:45.074Z payments DEBUG webhook evt_54e285cbbb7e0a verified
+2026-10-21T21:23:46.878Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:23:49.677Z payments authz.decline txn=txn_4661a9cc6442fb18 order=ORD-61296 code=expired_card
+2026-10-21T21:23:53.878Z payments authz.adjust txn=txn_2e907a80eaf91bb9 order=ORD-60972 delta=121.05 state=pending
+2026-10-21T21:23:54.169Z payments authz.settle txn=txn_2e907a80eaf91bb9 state=settled
+2026-10-21T21:23:56.877Z payments authz.adjust txn=txn_c090b1964dc9a058 order=ORD-61266 delta=420.17 state=pending
+2026-10-21T21:23:57.100Z payments authz.settle txn=txn_c090b1964dc9a058 state=settled
+2026-10-21T21:23:59.520Z payments INFO  webhook evt_e66ba68ae13a9f received type=charge.refunded
+2026-10-21T21:24:03.196Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:24:07.304Z payments authz.decline txn=txn_bf853000944ae2a8 order=ORD-61640 code=avs_mismatch
+2026-10-21T21:24:15.888Z payments authz.decline txn=txn_e7af6797c1fbb45e order=ORD-60806 code=avs_mismatch
+2026-10-21T21:24:16.218Z payments authz.adjust txn=txn_a8c0b650ed8975c4 order=ORD-60604 delta=542.21 state=pending
+2026-10-21T21:24:16.454Z payments authz.settle txn=txn_a8c0b650ed8975c4 state=settled
+2026-10-21T21:24:26.566Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:24:28.302Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:24:34.305Z payments INFO  webhook evt_fc0c33d0668644 received type=charge.succeeded
+2026-10-21T21:24:42.914Z payments INFO  3ds challenge completed
+2026-10-21T21:24:47.468Z payments authz.decline txn=txn_48c3d536b489e4da order=ORD-61752 code=insufficient_funds
+2026-10-21T21:24:48.990Z payments INFO  webhook evt_3496e0e9987267 verified
+2026-10-21T21:24:49.761Z payments INFO  settlement batch closed items=212
+2026-10-21T21:24:57.440Z payments authz.adjust txn=txn_c6e4c6063fba2e70 order=ORD-61271 delta=50.01 state=pending
+2026-10-21T21:24:57.723Z payments authz.settle txn=txn_c6e4c6063fba2e70 state=settled
+2026-10-21T21:24:59.459Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:25:01.418Z payments DEBUG webhook evt_274e87d4928584 received type=charge.refunded
+2026-10-21T21:25:01.438Z payments authz.decline txn=txn_23010b0baedb7ef8 order=ORD-61429 code=insufficient_funds
+2026-10-21T21:25:02.410Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 60, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:25:09.489Z payments authz.decline txn=txn_37fea54d1e9b75fa order=ORD-61578 code=avs_mismatch
+2026-10-21T21:25:12.472Z payments authz.adjust txn=txn_574e165fd06a212d order=ORD-61126 delta=343.98 state=pending
+2026-10-21T21:25:12.678Z payments authz.settle txn=txn_574e165fd06a212d state=settled
+2026-10-21T21:25:13.614Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:25:19.645Z payments authz.adjust txn=txn_1c0c4b8705581a24 order=ORD-61188 delta=479.55 state=pending
+2026-10-21T21:25:19.676Z payments authz.decline txn=txn_b4b4d3ca3512f404 order=ORD-61534 code=expired_card
+2026-10-21T21:25:19.882Z payments authz.settle txn=txn_1c0c4b8705581a24 state=settled
+2026-10-21T21:25:23.234Z payments INFO  settlement batch closed items=212
+2026-10-21T21:25:24.478Z payments INFO  webhook evt_8519e236086164 received type=charge.refunded
+2026-10-21T21:25:24.719Z payments INFO  webhook evt_ef34a5cc0a39ca verified
+2026-10-21T21:25:24.855Z payments authz.decline txn=txn_090cc116a7d76976 order=ORD-61518 code=expired_card
+2026-10-21T21:25:31.598Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:25:48.540Z payments authz.adjust txn=txn_a383412146e5b7d2 order=ORD-61746 delta=520.07 state=pending
+2026-10-21T21:25:48.831Z payments authz.settle txn=txn_a383412146e5b7d2 state=settled
+2026-10-21T21:26:09.230Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:26:16.621Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:26:20.283Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 81, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:26:21.618Z payments INFO  webhook evt_74ac34c5928222 verified
+2026-10-21T21:26:25.085Z payments INFO  webhook evt_745aaa8fdf4384 received type=charge.succeeded
+2026-10-21T21:26:26.657Z payments INFO  webhook evt_ce77e3542f6a5c received type=charge.refunded
+2026-10-21T21:26:30.140Z payments INFO  webhook evt_0a2ce218a1ef83 verified
+2026-10-21T21:26:30.917Z payments authz.decline txn=txn_b7e1e4ea5c76fe16 order=ORD-60624 code=do_not_honor
+2026-10-21T21:26:31.337Z payments authz.adjust txn=txn_8b03bb3c8484f5a5 order=ORD-61215 delta=635.98 state=pending
+2026-10-21T21:26:31.588Z payments authz.settle txn=txn_8b03bb3c8484f5a5 state=settled
+2026-10-21T21:26:35.047Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:26:38.933Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 352, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:26:40.036Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:26:43.109Z payments INFO  3ds challenge completed
+2026-10-21T21:26:52.030Z payments authz.decline txn=txn_9680fcd7e659fab1 order=ORD-60868 code=card_declined
+2026-10-21T21:26:56.166Z payments authz.decline txn=txn_b7946b9c2fdab856 order=ORD-61720 code=card_declined
+2026-10-21T21:27:02.663Z payments authz.decline txn=txn_79693174bdf6eb84 order=ORD-61337 code=card_declined
+2026-10-21T21:27:05.351Z payments authz.decline txn=txn_8244189fa4c9cf26 order=ORD-61957 code=do_not_honor
+2026-10-21T21:27:24.905Z payments authz.decline txn=txn_5e5c1ca2fb26c24b order=ORD-61280 code=avs_mismatch
+2026-10-21T21:27:26.432Z payments authz.adjust txn=txn_2735ba40c3e943d9 order=ORD-61437 delta=293.79 state=pending
+2026-10-21T21:27:26.663Z payments authz.settle txn=txn_2735ba40c3e943d9 state=settled
+2026-10-21T21:27:32.320Z payments INFO  settlement batch closed items=212
+2026-10-21T21:27:35.791Z payments authz.adjust txn=txn_0898ce6c46785b9e order=ORD-60517 delta=193.52 state=pending
+2026-10-21T21:27:36.099Z payments authz.settle txn=txn_0898ce6c46785b9e state=settled
+2026-10-21T21:27:40.511Z payments INFO  webhook evt_19c716acd1b78c verified
+2026-10-21T21:27:42.206Z payments authz.adjust txn=txn_2081cae999463ef0 order=ORD-61983 delta=96.84 state=pending
+2026-10-21T21:27:42.434Z payments authz.settle txn=txn_2081cae999463ef0 state=settled
+2026-10-21T21:27:43.477Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:27:46.589Z payments INFO  webhook evt_5343bb38cd182a received type=charge.refunded
+2026-10-21T21:27:46.780Z payments INFO  settlement batch closed items=212
+2026-10-21T21:27:46.896Z payments DEBUG webhook evt_b74bdf3ed585a9 verified
+2026-10-21T21:27:50.336Z payments authz.decline txn=txn_633fd55922f594bd order=ORD-61054 code=insufficient_funds
+2026-10-21T21:28:00.642Z payments INFO  settlement batch closed items=212
+2026-10-21T21:28:06.028Z payments INFO  3ds challenge completed
+2026-10-21T21:28:07.724Z payments INFO  webhook evt_12cd1409c8dd01 received type=charge.succeeded
+2026-10-21T21:28:09.982Z payments INFO  3ds challenge completed
+2026-10-21T21:28:10.646Z payments INFO  settlement batch closed items=212
+2026-10-21T21:28:13.846Z payments authz.adjust txn=txn_b8de8651df3cb45e order=ORD-60902 delta=77.78 state=pending
+2026-10-21T21:28:14.064Z payments authz.settle txn=txn_b8de8651df3cb45e state=settled
+2026-10-21T21:28:15.563Z payments DEBUG webhook evt_15836857eaa50b received type=charge.succeeded
+2026-10-21T21:28:17.983Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:28:18.405Z payments INFO  webhook evt_1cc390fe738a78 verified
+2026-10-21T21:28:26.195Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 375, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:28:31.143Z payments authz.decline txn=txn_c75bc00ae14c627a order=ORD-61445 code=expired_card
+2026-10-21T21:28:31.939Z payments authz.decline txn=txn_ff6d3872bc616f9c order=ORD-61956 code=card_declined
+2026-10-21T21:28:44.760Z payments INFO  webhook evt_fc4d2bfc883b72 received type=charge.succeeded
+2026-10-21T21:28:48.026Z payments authz.adjust txn=txn_054800a627dd2580 order=ORD-61290 delta=352.10 state=pending
+2026-10-21T21:28:48.304Z payments authz.settle txn=txn_054800a627dd2580 state=settled
+2026-10-21T21:29:00.605Z payments DEBUG 3ds challenge completed
+2026-10-21T21:29:02.645Z payments authz.decline txn=txn_ca9fceda65de13d2 order=ORD-60585 code=do_not_honor
+2026-10-21T21:29:03.353Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 112, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:29:04.059Z payments authz.adjust txn=txn_618640913c4f93c6 order=ORD-60652 delta=429.47 state=pending
+2026-10-21T21:29:04.331Z payments authz.settle txn=txn_618640913c4f93c6 state=settled
+2026-10-21T21:29:11.905Z payments INFO  webhook evt_db896e66caa424 verified
+2026-10-21T21:29:13.339Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:29:14.954Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:29:23.741Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 341, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:29:32.600Z payments authz.decline txn=txn_00365c921ddf3216 order=ORD-60647 code=insufficient_funds
+2026-10-21T21:29:37.252Z payments authz.decline txn=txn_1a26f338e5621f21 order=ORD-61856 code=card_declined
+2026-10-21T21:29:39.040Z payments authz.decline txn=txn_e8dcf2c32292c201 order=ORD-61555 code=expired_card
+2026-10-21T21:29:47.782Z payments authz.adjust txn=txn_b3bf2ef174d2a8b0 order=ORD-61303 delta=83.80 state=pending
+2026-10-21T21:29:47.945Z payments INFO  webhook evt_146a40957ec331 received type=charge.succeeded
+2026-10-21T21:29:47.978Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:29:48.006Z payments authz.settle txn=txn_b3bf2ef174d2a8b0 state=settled
+2026-10-21T21:29:55.711Z payments INFO  webhook evt_6cf6bd0144c2b0 received type=charge.refunded
+2026-10-21T21:29:59.195Z payments authz.adjust txn=txn_706c16bdc18fedad order=ORD-61976 delta=76.41 state=pending
+2026-10-21T21:29:59.492Z payments authz.settle txn=txn_706c16bdc18fedad state=settled
+2026-10-21T21:30:02.424Z payments authz.decline txn=txn_d9cba40150f02f41 order=ORD-60518 code=card_declined
+2026-10-21T21:30:06.208Z payments INFO  webhook evt_0ad3c676c446c9 verified
+2026-10-21T21:30:06.903Z payments DEBUG webhook evt_d6da508069a2f2 received type=charge.succeeded
+2026-10-21T21:30:08.284Z payments INFO  settlement batch closed items=212
+2026-10-21T21:30:08.312Z payments INFO  webhook evt_3c09f5fbabda3f verified
+2026-10-21T21:30:18.449Z payments authz.adjust txn=txn_9736bc0f0375b4fc order=ORD-60865 delta=54.25 state=pending
+2026-10-21T21:30:18.678Z payments authz.settle txn=txn_9736bc0f0375b4fc state=settled
+2026-10-21T21:30:32.523Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 213, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:30:41.468Z payments authz.decline txn=txn_cb6e494af9a53529 order=ORD-60828 code=do_not_honor
+2026-10-21T21:30:45.562Z payments authz.adjust txn=txn_0de53bae85481a75 order=ORD-60815 delta=323.81 state=pending
+2026-10-21T21:30:45.869Z payments authz.settle txn=txn_0de53bae85481a75 state=settled
+2026-10-21T21:30:46.663Z payments authz.decline txn=txn_0da9f6eb9374bcd0 order=ORD-61954 code=card_declined
+2026-10-21T21:30:48.132Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:30:50.070Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:30:58.467Z payments INFO  webhook evt_609025efef164c received type=charge.refunded
+2026-10-21T21:31:00.583Z payments authz.adjust txn=txn_6c784c5257d63dc2 order=ORD-61548 delta=344.99 state=pending
+2026-10-21T21:31:00.829Z payments authz.settle txn=txn_6c784c5257d63dc2 state=settled
+2026-10-21T21:31:00.987Z payments INFO  webhook evt_4150b7c140bee8 received type=charge.succeeded
+2026-10-21T21:31:09.678Z payments INFO  webhook evt_cbdb7af818881d received type=charge.succeeded
+2026-10-21T21:31:17.257Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:31:17.386Z payments INFO  webhook evt_909c095d38336f verified
+2026-10-21T21:31:24.902Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 24, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:31:28.541Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:31:35.251Z payments INFO  3ds challenge completed
+2026-10-21T21:31:36.761Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:31:46.636Z payments authz.decline txn=txn_15f78f1e1cc2653e order=ORD-61912 code=avs_mismatch
+2026-10-21T21:31:52.169Z payments authz.adjust txn=txn_4c6254e6d6b7bae7 order=ORD-61113 delta=527.07 state=pending
+2026-10-21T21:31:52.429Z payments authz.settle txn=txn_4c6254e6d6b7bae7 state=settled
+2026-10-21T21:31:52.839Z payments authz.adjust txn=txn_fdfa2fa5effcfdd8 order=ORD-60767 delta=136.41 state=pending
+2026-10-21T21:31:53.201Z payments authz.settle txn=txn_fdfa2fa5effcfdd8 state=settled
+2026-10-21T21:31:59.921Z payments authz.adjust txn=txn_0cab7884d2f98903 order=ORD-60575 delta=147.72 state=pending
+2026-10-21T21:32:00.274Z payments authz.settle txn=txn_0cab7884d2f98903 state=settled
+2026-10-21T21:32:00.532Z payments authz.adjust txn=txn_39fcc721825d5d91 order=ORD-61986 delta=263.95 state=pending
+2026-10-21T21:32:00.699Z payments authz.settle txn=txn_39fcc721825d5d91 state=settled
+2026-10-21T21:32:05.056Z payments INFO  webhook evt_8e1ee66e791a12 verified
+2026-10-21T21:32:20.497Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:32:24.188Z payments authz.adjust txn=txn_8c1921b11ab2faa0 order=ORD-60983 delta=497.76 state=pending
+2026-10-21T21:32:24.417Z payments authz.settle txn=txn_8c1921b11ab2faa0 state=settled
+2026-10-21T21:32:30.093Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 220, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:32:30.580Z payments authz.decline txn=txn_f95d8ce8d7db1dc7 order=ORD-60628 code=do_not_honor
+2026-10-21T21:32:37.284Z payments INFO  3ds challenge completed
+2026-10-21T21:32:43.638Z payments authz.decline txn=txn_627b317f506fa9fc order=ORD-60791 code=avs_mismatch
+2026-10-21T21:32:43.800Z payments authz.decline txn=txn_d86ca9183380a929 order=ORD-61094 code=insufficient_funds
+2026-10-21T21:32:43.897Z payments INFO  3ds challenge completed
+2026-10-21T21:32:48.645Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:32:49.265Z payments INFO  settlement batch closed items=212
+2026-10-21T21:33:04.097Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:33:04.565Z payments INFO  webhook evt_e5533268869a82 received type=charge.refunded
+2026-10-21T21:33:07.712Z payments INFO  3ds challenge completed
+2026-10-21T21:33:08.177Z payments INFO  3ds challenge completed
+2026-10-21T21:33:15.267Z payments DEBUG webhook evt_c3472f532d50e7 verified
+2026-10-21T21:33:18.210Z payments authz.adjust txn=txn_fb49d915fda8bd46 order=ORD-61818 delta=373.65 state=pending
+2026-10-21T21:33:18.426Z payments authz.settle txn=txn_fb49d915fda8bd46 state=settled
+2026-10-21T21:33:37.803Z payments authz.decline txn=txn_31ef827b1678709b order=ORD-60816 code=insufficient_funds
+2026-10-21T21:33:41.070Z payments INFO  3ds challenge completed
+2026-10-21T21:33:46.854Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:33:53.288Z payments INFO  settlement batch closed items=212
+2026-10-21T21:33:56.995Z payments INFO  webhook evt_706152eb736b89 received type=charge.refunded
+2026-10-21T21:33:58.792Z payments authz.decline txn=txn_ff020ae2801a9f11 order=ORD-60569 code=avs_mismatch
+2026-10-21T21:34:03.733Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:34:24.530Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:34:26.970Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:34:29.718Z payments INFO  settlement batch closed items=212
+2026-10-21T21:34:44.966Z payments INFO  webhook evt_1e7c66d637496e received type=charge.refunded
+2026-10-21T21:34:49.206Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:34:52.161Z payments INFO  webhook evt_2959ed76ff782d received type=charge.succeeded
+2026-10-21T21:34:56.505Z payments DEBUG settlement batch closed items=212
+2026-10-21T21:34:58.332Z payments authz.adjust txn=txn_962026eceb7f6625 order=ORD-60935 delta=487.05 state=pending
+2026-10-21T21:34:58.510Z payments authz.settle txn=txn_962026eceb7f6625 state=settled
+2026-10-21T21:35:06.607Z payments authz.decline txn=txn_5758ed007b71bec3 order=ORD-60646 code=avs_mismatch
+2026-10-21T21:35:06.664Z payments DEBUG webhook evt_33aa4e2afdb81d received type=charge.succeeded
+2026-10-21T21:35:10.273Z payments authz.adjust txn=txn_84ce932281951d1b order=ORD-61456 delta=108.11 state=pending
+2026-10-21T21:35:10.580Z payments authz.settle txn=txn_84ce932281951d1b state=settled
+2026-10-21T21:35:26.900Z payments DEBUG 3ds challenge completed
+2026-10-21T21:37:41.123Z payments authz.adjust txn=txn_f83ae894a8f7e2b0 order=ORD-62000 delta=60.71 state=pending
+2026-10-21T21:37:41.797Z payments authz.void txn=txn_f83ae894a8f7e2b0 reason=amend_aborted
+2026-10-21T21:37:44.232Z payments authz.adjust txn=txn_c59a61378b3dda8d order=ORD-61290 delta=431.35 state=pending
+2026-10-21T21:37:47.259Z payments authz.adjust txn=txn_868d9e3640615a78 order=ORD-60564 delta=285.70 state=pending
+2026-10-21T21:37:49.208Z payments authz.void txn=txn_c59a61378b3dda8d reason=amend_aborted
+2026-10-21T21:37:49.547Z payments authz.adjust txn=txn_b497dd061281a4aa order=ORD-60991 delta=535.80 state=pending
+2026-10-21T21:37:50.632Z payments authz.adjust txn=txn_60959e44b49ab7cc order=ORD-16209 delta=474.64 state=pending
+2026-10-21T21:37:52.255Z payments authz.void txn=txn_868d9e3640615a78 reason=amend_aborted
+2026-10-21T21:37:52.953Z payments authz.adjust txn=txn_93ed2804a6e6b25a order=ORD-60899 delta=439.43 state=pending
+2026-10-21T21:37:54.530Z payments authz.void txn=txn_b497dd061281a4aa reason=amend_aborted
+2026-10-21T21:37:55.618Z payments authz.void txn=txn_60959e44b49ab7cc reason=amend_aborted
+2026-10-21T21:37:55.915Z payments authz.adjust txn=txn_8e6e72598a1c41a2 order=ORD-60688 delta=249.46 state=pending
+2026-10-21T21:37:56.725Z payments authz.adjust txn=txn_44f798291ee48e81 order=ORD-60541 delta=472.80 state=pending
+2026-10-21T21:37:57.934Z payments authz.void txn=txn_93ed2804a6e6b25a reason=amend_aborted
+2026-10-21T21:38:00.896Z payments authz.void txn=txn_8e6e72598a1c41a2 reason=amend_aborted
+2026-10-21T21:38:00.933Z payments authz.adjust txn=txn_1468628418f15436 order=ORD-60597 delta=400.97 state=pending
+2026-10-21T21:38:01.715Z payments authz.void txn=txn_44f798291ee48e81 reason=amend_aborted
+2026-10-21T21:38:01.829Z payments authz.adjust txn=txn_054800a627dd258d order=ORD-61209 delta=281.66 state=pending
+2026-10-21T21:38:04.423Z payments authz.adjust txn=txn_c0a04879aa937e2b order=ORD-60522 delta=404.64 state=pending
+2026-10-21T21:38:05.617Z payments authz.void txn=txn_c0a04879aa937e2b reason=amend_aborted
+2026-10-21T21:38:05.917Z payments authz.void txn=txn_1468628418f15436 reason=amend_aborted
+2026-10-21T21:38:06.600Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 207, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:38:06.825Z payments authz.void txn=txn_054800a627dd258d reason=amend_aborted
+2026-10-21T21:38:11.900Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 157, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:38:12.734Z payments authz.adjust txn=txn_55c3434abca8a9b4 order=ORD-61360 delta=272.36 state=pending
+2026-10-21T21:38:13.883Z payments authz.void txn=txn_55c3434abca8a9b4 reason=amend_aborted
+2026-10-21T21:40:32.656Z payments INFO  3ds challenge completed
+2026-10-21T21:40:33.047Z payments INFO  webhook evt_9fe0ba8b9ccade received type=charge.refunded
+2026-10-21T21:40:41.433Z payments authz.decline txn=txn_ecb599428f4eddd0 order=ORD-61282 code=avs_mismatch
+2026-10-21T21:40:44.936Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:40:47.220Z payments INFO  settlement batch closed items=212
+2026-10-21T21:40:48.474Z payments authz.adjust txn=txn_fe929feecd8a90a4 order=ORD-60973 delta=538.36 state=pending
+2026-10-21T21:40:48.752Z payments authz.settle txn=txn_fe929feecd8a90a4 state=settled
+2026-10-21T21:40:58.786Z payments INFO  webhook evt_c65c9d29bec044 received type=charge.refunded
+2026-10-21T21:41:05.504Z payments DEBUG webhook evt_14b3c9b68d2420 received type=charge.succeeded
+2026-10-21T21:41:06.232Z payments INFO  settlement batch closed items=212
+2026-10-21T21:41:07.469Z payments INFO  webhook evt_3461f2bcc92ea6 received type=charge.succeeded
+2026-10-21T21:41:08.523Z payments INFO  3ds challenge completed
+2026-10-21T21:41:11.269Z payments INFO  settlement batch closed items=212
+2026-10-21T21:41:13.569Z payments DEBUG 3ds challenge completed
+2026-10-21T21:41:21.258Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:41:25.644Z payments authz.adjust txn=txn_590d4eef5741641b order=ORD-60592 delta=588.91 state=pending
+2026-10-21T21:41:25.826Z payments authz.settle txn=txn_590d4eef5741641b state=settled
+2026-10-21T21:41:30.178Z payments INFO  3ds challenge completed
+2026-10-21T21:41:30.416Z payments authz.adjust txn=txn_be9d8cea595551e3 order=ORD-61858 delta=142.77 state=pending
+2026-10-21T21:41:30.614Z payments authz.settle txn=txn_be9d8cea595551e3 state=settled
+2026-10-21T21:41:44.734Z payments DEBUG webhook evt_59f8852c448ce4 verified
+2026-10-21T21:41:49.203Z payments authz.adjust txn=txn_ca9e7db8828a529e order=ORD-60973 delta=618.18 state=pending
+2026-10-21T21:41:49.460Z payments authz.settle txn=txn_ca9e7db8828a529e state=settled
+2026-10-21T21:41:54.829Z payments INFO  3ds challenge completed
+2026-10-21T21:41:59.237Z payments INFO  webhook evt_c4fafe24884db1 verified
+2026-10-21T21:42:16.980Z payments DEBUG webhook evt_ef7621c906e1d3 received type=charge.succeeded
+2026-10-21T21:42:22.621Z payments authz.decline txn=txn_c7650de8af874b03 order=ORD-60866 code=card_declined
+2026-10-21T21:42:33.064Z payments INFO  settlement batch closed items=212
+2026-10-21T21:42:34.503Z payments INFO  webhook evt_4f5774d68fc513 received type=charge.succeeded
+2026-10-21T21:42:47.842Z payments authz.adjust txn=txn_6ef7cfdb3a44cb0b order=ORD-60950 delta=279.10 state=pending
+2026-10-21T21:42:48.137Z payments authz.settle txn=txn_6ef7cfdb3a44cb0b state=settled
+2026-10-21T21:42:49.064Z payments DEBUG webhook evt_8bbfdbd5161516 received type=charge.succeeded
+2026-10-21T21:42:53.141Z payments authz.adjust txn=txn_0de07a0148b99267 order=ORD-60989 delta=443.23 state=pending
+2026-10-21T21:42:53.414Z payments authz.settle txn=txn_0de07a0148b99267 state=settled
+2026-10-21T21:42:55.445Z payments authz.decline txn=txn_3b6bc8cab6477c25 order=ORD-61525 code=avs_mismatch
+2026-10-21T21:42:59.958Z payments INFO  webhook evt_191a394f983240 received type=charge.succeeded
+2026-10-21T21:43:00.223Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:43:10.207Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 105, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:43:16.890Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:43:25.057Z payments authz.decline txn=txn_88f54715c8ef7917 order=ORD-60669 code=avs_mismatch
+2026-10-21T21:43:32.204Z payments authz.decline txn=txn_927b2cb1f2ab227f order=ORD-61200 code=expired_card
+2026-10-21T21:43:38.619Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:43:38.621Z payments authz.adjust txn=txn_496b71fb407bf688 order=ORD-61440 delta=298.56 state=pending
+2026-10-21T21:43:38.624Z payments INFO  3ds challenge completed
+2026-10-21T21:43:38.883Z payments authz.settle txn=txn_496b71fb407bf688 state=settled
+2026-10-21T21:43:40.849Z payments INFO  webhook evt_e75b7edc91f1d0 received type=charge.refunded
+2026-10-21T21:43:49.985Z payments authz.decline txn=txn_23c785cdd7664aa9 order=ORD-60878 code=avs_mismatch
+2026-10-21T21:44:06.023Z payments authz.adjust txn=txn_f6d8c5a5e4aca8ee order=ORD-16209 delta=281.93 state=pending
+2026-10-21T21:44:06.243Z payments authz.settle txn=txn_f6d8c5a5e4aca8ee state=settled
+2026-10-21T21:44:13.277Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:44:14.122Z payments INFO  webhook evt_1d45a7360492c7 verified
+2026-10-21T21:44:17.996Z payments DEBUG webhook evt_5018f269411738 received type=charge.succeeded
+2026-10-21T21:44:18.383Z payments INFO  webhook evt_f57c6c2f299bf2 verified
+2026-10-21T21:44:19.408Z payments authz.decline txn=txn_65922cfd721f25f1 order=ORD-61018 code=insufficient_funds
+2026-10-21T21:44:24.725Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 28, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:44:28.119Z payments DEBUG webhook evt_5d2699f333fef3 received type=charge.succeeded
+2026-10-21T21:44:44.512Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:44:51.188Z payments authz.adjust txn=txn_881360ff7e4a388c order=ORD-60922 delta=43.50 state=pending
+2026-10-21T21:44:51.394Z payments authz.settle txn=txn_881360ff7e4a388c state=settled
+2026-10-21T21:44:55.318Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 271, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:45:01.786Z payments authz.adjust txn=txn_bf462802e336e57b order=ORD-61430 delta=373.98 state=pending
+2026-10-21T21:45:02.070Z payments authz.settle txn=txn_bf462802e336e57b state=settled
+2026-10-21T21:45:02.592Z payments INFO  webhook evt_a48c910dc65518 verified
+2026-10-21T21:45:04.968Z payments authz.decline txn=txn_5b2b480a9ac03ed7 order=ORD-61503 code=do_not_honor
+2026-10-21T21:45:09.300Z payments DEBUG webhook evt_0417a6b71a4f42 received type=charge.succeeded
+2026-10-21T21:45:09.512Z payments INFO  webhook evt_ef3cb2d38af99e verified
+2026-10-21T21:45:17.039Z payments INFO  webhook evt_b0c1f0a500f4a0 verified
+2026-10-21T21:45:18.478Z payments INFO  webhook evt_9a182e46e55a5e verified
+2026-10-21T21:45:18.737Z payments INFO  3ds challenge completed
+2026-10-21T21:45:25.149Z payments INFO  webhook evt_3b499180db9ec6 received type=charge.refunded
+2026-10-21T21:45:26.173Z payments authz.decline txn=txn_6eae2d0a7d505c6d order=ORD-61705 code=card_declined
+2026-10-21T21:45:35.426Z payments INFO  3ds challenge completed
+2026-10-21T21:45:40.713Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 350, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:45:41.949Z payments INFO  webhook evt_76ce2bb635883b received type=charge.refunded
+2026-10-21T21:45:51.768Z payments authz.decline txn=txn_8580581a940c21c7 order=ORD-60528 code=avs_mismatch
+2026-10-21T21:45:56.534Z payments authz.adjust txn=txn_4af9cacdebeb5c47 order=ORD-61706 delta=509.30 state=pending
+2026-10-21T21:45:56.851Z payments authz.settle txn=txn_4af9cacdebeb5c47 state=settled
+2026-10-21T21:46:05.497Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:46:06.569Z payments authz.decline txn=txn_1e8de64678ae5f32 order=ORD-61127 code=do_not_honor
+2026-10-21T21:46:08.354Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 400, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:46:17.621Z payments authz.decline txn=txn_9a2612086d9a0668 order=ORD-61801 code=insufficient_funds
+2026-10-21T21:46:22.053Z payments authz.adjust txn=txn_289fe9b53f376b3d order=ORD-60644 delta=309.83 state=pending
+2026-10-21T21:46:22.262Z payments authz.settle txn=txn_289fe9b53f376b3d state=settled
+2026-10-21T21:46:31.202Z payments INFO  3ds challenge completed
+2026-10-21T21:46:33.219Z payments INFO  webhook evt_ed10359f577e5d received type=charge.refunded
+2026-10-21T21:46:37.058Z payments INFO  3ds challenge completed
+2026-10-21T21:46:37.524Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:46:45.795Z payments INFO  settlement batch closed items=212
+2026-10-21T21:46:47.357Z payments INFO  webhook evt_9fca7db7ce446f verified
+2026-10-21T21:46:48.814Z payments INFO  webhook evt_51125d73341cfe verified
+2026-10-21T21:46:55.865Z payments authz.decline txn=txn_b8e1aac56f00525d order=ORD-60529 code=insufficient_funds
+2026-10-21T21:47:01.707Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:47:05.817Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 47, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:47:06.541Z payments authz.adjust txn=txn_752ed9f3d237b7c0 order=ORD-60884 delta=493.40 state=pending
+2026-10-21T21:47:06.832Z payments authz.settle txn=txn_752ed9f3d237b7c0 state=settled
+2026-10-21T21:47:09.351Z payments DEBUG webhook evt_e9c98732a97eb2 received type=charge.succeeded
+2026-10-21T21:47:13.747Z payments INFO  3ds challenge completed
+2026-10-21T21:47:16.811Z payments authz.adjust txn=txn_774ccc06242d7d09 order=ORD-61948 delta=233.97 state=pending
+2026-10-21T21:47:17.012Z payments authz.settle txn=txn_774ccc06242d7d09 state=settled
+2026-10-21T21:47:17.746Z payments INFO  settlement batch closed items=212
+2026-10-21T21:47:19.012Z payments DEBUG webhook evt_87c37dbe327459 received type=charge.succeeded
+2026-10-21T21:47:49.148Z payments INFO  3ds challenge completed
+2026-10-21T21:47:51.274Z payments INFO  webhook evt_f0262d39b9715d received type=charge.succeeded
+2026-10-21T21:47:56.772Z payments INFO  webhook evt_aa0ff4cabcd90f verified
+2026-10-21T21:48:04.534Z payments authz.decline txn=txn_0893cecd0f1e6dc1 order=ORD-61672 code=card_declined
+2026-10-21T21:48:07.422Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:48:12.960Z payments authz.decline txn=txn_24028ca30c697126 order=ORD-61479 code=insufficient_funds
+2026-10-21T21:48:49.135Z payments authz.decline txn=txn_e10b973e1e34f799 order=ORD-60692 code=card_declined
+2026-10-21T21:49:00.302Z payments INFO  webhook evt_0ccc74e7c80b4d received type=charge.succeeded
+2026-10-21T21:49:00.589Z payments INFO  webhook evt_f9336ec3215eee verified
+2026-10-21T21:49:02.334Z payments INFO  webhook evt_5267d5e5f3763c received type=charge.succeeded
+2026-10-21T21:49:02.363Z payments DEBUG 3ds challenge completed
+2026-10-21T21:49:14.101Z payments INFO  webhook evt_75f6786bffe151 received type=charge.refunded
+2026-10-21T21:49:18.932Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:49:22.863Z payments authz.decline txn=txn_e2af54b02293a1a0 order=ORD-60905 code=expired_card
+2026-10-21T21:49:25.133Z payments DEBUG webhook evt_b847dfb8911171 verified
+2026-10-21T21:49:31.994Z payments INFO  3ds challenge completed
+2026-10-21T21:49:31.994Z payments authz.decline txn=txn_6275f3759dfc5247 order=ORD-61827 code=avs_mismatch
+2026-10-21T21:49:40.609Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:49:42.025Z payments authz.adjust txn=txn_60bda238d2365e01 order=ORD-61207 delta=357.66 state=pending
+2026-10-21T21:49:42.311Z payments authz.settle txn=txn_60bda238d2365e01 state=settled
+2026-10-21T21:49:45.608Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 201, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:49:54.696Z payments authz.decline txn=txn_2885f4fce5c779c3 order=ORD-61798 code=card_declined
+2026-10-21T21:49:56.375Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:49:57.098Z payments authz.adjust txn=txn_13746d72df8ab1d1 order=ORD-61850 delta=430.58 state=pending
+2026-10-21T21:49:57.406Z payments authz.settle txn=txn_13746d72df8ab1d1 state=settled
+2026-10-21T21:49:58.198Z payments authz.adjust txn=txn_74cadc23eacf2cad order=ORD-61005 delta=494.13 state=pending
+2026-10-21T21:49:58.452Z payments authz.settle txn=txn_74cadc23eacf2cad state=settled
+2026-10-21T21:50:09.286Z payments INFO  settlement batch closed items=212
+2026-10-21T21:50:12.845Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:50:15.737Z payments authz.decline txn=txn_a2e028a8b9255655 order=ORD-61444 code=insufficient_funds
+2026-10-21T21:50:16.554Z payments INFO  webhook evt_9da38c2456cc4c received type=charge.succeeded
+2026-10-21T21:50:20.397Z payments INFO  3ds challenge completed
+2026-10-21T21:50:26.080Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 240, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:50:39.378Z payments DEBUG 3ds challenge completed
+2026-10-21T21:50:39.786Z payments INFO  3ds challenge completed
+2026-10-21T21:50:48.189Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:50:52.135Z payments authz.adjust txn=txn_c040ab200fd9a9e9 order=ORD-61584 delta=363.42 state=pending
+2026-10-21T21:50:52.165Z payments INFO  webhook evt_d9f69f202dcc95 received type=charge.refunded
+2026-10-21T21:50:52.390Z payments authz.settle txn=txn_c040ab200fd9a9e9 state=settled
+2026-10-21T21:50:53.182Z payments authz.adjust txn=txn_159d60813ed18649 order=ORD-60910 delta=417.56 state=pending
+2026-10-21T21:50:53.423Z payments authz.settle txn=txn_159d60813ed18649 state=settled
+2026-10-21T21:50:54.753Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:51:01.994Z payments INFO  settlement batch closed items=212
+2026-10-21T21:51:03.663Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 44, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:51:03.860Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 368, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:51:15.569Z payments DEBUG webhook evt_1bb82971aab10b verified
+2026-10-21T21:51:19.925Z payments INFO  3ds challenge completed
+2026-10-21T21:51:28.776Z payments authz.decline txn=txn_014d981238bd224c order=ORD-60899 code=avs_mismatch
+2026-10-21T21:51:29.812Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:51:35.227Z payments INFO  webhook evt_f418a6f3bf9cde received type=charge.succeeded
+2026-10-21T21:51:56.075Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 308, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:51:57.599Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 233, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:51:58.894Z payments authz.decline txn=txn_7d2a04f983a5e6d2 order=ORD-60764 code=avs_mismatch
+2026-10-21T21:52:01.605Z payments INFO  webhook evt_2779571dcca205 received type=charge.refunded
+2026-10-21T21:52:04.640Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:52:04.688Z payments authz.decline txn=txn_f3b816e621c82916 order=ORD-61883 code=expired_card
+2026-10-21T21:52:06.122Z payments DEBUG token vault replica lag 90ms
+2026-10-21T21:52:06.954Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 369, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:52:12.697Z payments authz.adjust txn=txn_7536263c94a84f70 order=ORD-61328 delta=182.21 state=pending
+2026-10-21T21:52:12.906Z payments authz.settle txn=txn_7536263c94a84f70 state=settled
+2026-10-21T21:52:22.928Z payments INFO  webhook evt_73d86359616700 received type=charge.refunded
+2026-10-21T21:52:27.752Z payments DEBUG webhook evt_db38f63a64aa1a verified
+2026-10-21T21:52:28.875Z payments authz.adjust txn=txn_4deb637077966ab5 order=ORD-61603 delta=136.37 state=pending
+2026-10-21T21:52:29.108Z payments authz.settle txn=txn_4deb637077966ab5 state=settled
+2026-10-21T21:52:31.928Z payments INFO  settlement batch closed items=212
+2026-10-21T21:52:44.318Z payments INFO  webhook evt_9dd51cd4bf85b0 received type=charge.succeeded
+2026-10-21T21:52:45.424Z payments INFO  webhook evt_73180163958909 received type=charge.refunded
+2026-10-21T21:52:49.232Z payments INFO  settlement batch closed items=212
+2026-10-21T21:52:52.412Z payments authz.adjust txn=txn_521a79783ddbaa25 order=ORD-61918 delta=277.43 state=pending
+2026-10-21T21:52:52.581Z payments authz.settle txn=txn_521a79783ddbaa25 state=settled
+2026-10-21T21:52:53.646Z payments INFO  3ds challenge completed
+2026-10-21T21:53:00.931Z payments INFO  webhook evt_7d4a57d54adaf7 received type=charge.refunded
+2026-10-21T21:53:04.093Z payments authz.adjust txn=txn_d00ab51036dd0ba0 order=ORD-61687 delta=387.93 state=pending
+2026-10-21T21:53:04.407Z payments authz.settle txn=txn_d00ab51036dd0ba0 state=settled
+2026-10-21T21:53:08.061Z payments authz.adjust txn=txn_d7e0fb4a1014bd02 order=ORD-61016 delta=210.20 state=pending
+2026-10-21T21:53:08.368Z payments authz.settle txn=txn_d7e0fb4a1014bd02 state=settled
+2026-10-21T21:53:10.388Z payments authz.decline txn=txn_97e4a09957a5b236 order=ORD-61180 code=avs_mismatch
+2026-10-21T21:53:15.518Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:53:21.294Z payments DEBUG webhook evt_4e41f4729d451c received type=charge.succeeded
+2026-10-21T21:53:23.956Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:53:25.662Z payments authz.adjust txn=txn_b7310cfc2f76ea96 order=ORD-61430 delta=304.06 state=pending
+2026-10-21T21:53:25.901Z payments authz.settle txn=txn_b7310cfc2f76ea96 state=settled
+2026-10-21T21:53:26.756Z payments INFO  webhook evt_88a22f01ca8421 received type=charge.refunded
+2026-10-21T21:53:33.174Z payments authz.decline txn=txn_2dd4840b4ef9de0f order=ORD-61754 code=avs_mismatch
+2026-10-21T21:53:33.928Z payments INFO  settlement batch closed items=212
+2026-10-21T21:53:41.075Z payments authz.decline txn=txn_56321b92f74d4bcb order=ORD-61322 code=expired_card
+2026-10-21T21:53:42.982Z payments INFO  webhook evt_da95a0301af95c verified
+2026-10-21T21:53:50.743Z payments DEBUG webhook evt_244a921dcec745 received type=charge.succeeded
+2026-10-21T21:54:03.929Z payments INFO  settlement batch closed items=212
+2026-10-21T21:54:09.339Z payments INFO  webhook evt_300bd3cf133253 received type=charge.refunded
+2026-10-21T21:54:11.157Z payments authz.decline txn=txn_c0ecd1f895df4fad order=ORD-61201 code=expired_card
+2026-10-21T21:54:16.004Z payments authz.adjust txn=txn_da90c66d652b93cc order=ORD-61923 delta=162.92 state=pending
+2026-10-21T21:54:16.239Z payments authz.settle txn=txn_da90c66d652b93cc state=settled
+2026-10-21T21:54:19.810Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:54:22.523Z payments authz.decline txn=txn_00b26b6cc13e54c3 order=ORD-61180 code=card_declined
+2026-10-21T21:54:39.901Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:54:42.766Z payments INFO  webhook evt_2ca5998e0a3515 received type=charge.succeeded
+2026-10-21T21:54:44.676Z payments ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 188, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-10-21T21:54:47.294Z payments INFO  webhook evt_8dd714b0f22467 verified
+2026-10-21T21:54:48.852Z payments authz.adjust txn=txn_4647729c7a41a5c2 order=ORD-61915 delta=367.01 state=pending
+2026-10-21T21:54:49.121Z payments authz.settle txn=txn_4647729c7a41a5c2 state=settled
+2026-10-21T21:54:51.825Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:54:55.774Z payments authz.adjust txn=txn_9ed5f3eadc55ca84 order=ORD-61852 delta=555.21 state=pending
+2026-10-21T21:54:55.885Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:54:55.977Z payments authz.settle txn=txn_9ed5f3eadc55ca84 state=settled
+2026-10-21T21:54:56.269Z payments authz.adjust txn=txn_538fc032f6dfda59 order=ORD-60503 delta=448.16 state=pending
+2026-10-21T21:54:56.525Z payments authz.settle txn=txn_538fc032f6dfda59 state=settled
+2026-10-21T21:55:08.394Z payments authz.decline txn=txn_c8ed8d6458ec4ecd order=ORD-61262 code=insufficient_funds
+2026-10-21T21:55:09.662Z payments authz.decline txn=txn_e54a3632de24b95b order=ORD-61541 code=expired_card
+2026-10-21T21:55:46.356Z payments authz.decline txn=txn_983f9a300028741a order=ORD-60558 code=do_not_honor
+2026-10-21T21:55:52.585Z payments authz.decline txn=txn_f632ecd8f0ed9f14 order=ORD-61641 code=expired_card
+2026-10-21T21:56:00.693Z payments authz.decline txn=txn_544509e8db890f33 order=ORD-60851 code=avs_mismatch
+2026-10-21T21:56:02.013Z payments authz.adjust txn=txn_49b04a0b809d57c8 order=ORD-60624 delta=415.03 state=pending
+2026-10-21T21:56:02.300Z payments authz.settle txn=txn_49b04a0b809d57c8 state=settled
+2026-10-21T21:56:11.312Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:56:15.644Z payments INFO  webhook evt_10a53dac5899dd received type=charge.refunded
+2026-10-21T21:56:16.642Z payments authz.decline txn=txn_60a424cc9cc8fc7b order=ORD-60885 code=expired_card
+2026-10-21T21:56:20.273Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:56:22.950Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:56:31.677Z payments INFO  webhook evt_df48e5d81362a0 verified
+2026-10-21T21:56:33.781Z payments INFO  3ds challenge completed
+2026-10-21T21:56:34.970Z payments authz.adjust txn=txn_84c391fee8148e39 order=ORD-60623 delta=284.20 state=pending
+2026-10-21T21:56:35.252Z payments authz.settle txn=txn_84c391fee8148e39 state=settled
+2026-10-21T21:56:37.990Z payments DEBUG webhook evt_6ecaa0d636be8c verified
+2026-10-21T21:56:38.218Z payments DEBUG webhook evt_b11fe719950337 verified
+2026-10-21T21:56:39.091Z payments ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 145, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-10-21T21:56:40.400Z payments authz.decline txn=txn_14704d2dcd6905b6 order=ORD-61365 code=do_not_honor
+2026-10-21T21:56:42.403Z payments INFO  settlement batch closed items=212
+2026-10-21T21:56:44.352Z payments INFO  token vault replica lag 90ms
+2026-10-21T21:56:46.494Z payments ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 146, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-10-21T21:56:50.278Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:56:58.443Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:56:59.012Z payments INFO  3ds challenge completed
+2026-10-21T21:57:06.155Z payments authz.decline txn=txn_fe97609f15c0ebb1 order=ORD-61946 code=avs_mismatch
+2026-10-21T21:57:06.308Z payments INFO  webhook evt_844ade266173c5 received type=charge.succeeded
+2026-10-21T21:57:20.367Z payments DEBUG webhook evt_6db3621b4cc0a5 received type=charge.succeeded
+2026-10-21T21:57:30.213Z payments INFO  webhook evt_b1fce99e13e4c5 received type=charge.refunded
+2026-10-21T21:57:30.321Z payments authz.decline txn=txn_a7693ce352ff6135 order=ORD-61460 code=avs_mismatch
+2026-10-21T21:57:34.396Z payments INFO  settlement batch closed items=212
+2026-10-21T21:57:41.902Z payments INFO  webhook evt_00819bbd0c20a8 verified
+2026-10-21T21:58:17.465Z payments DEBUG webhook evt_51e5b3d9f05460 received type=charge.refunded
+2026-10-21T21:58:24.540Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:58:25.474Z payments INFO  webhook evt_42c75efbee601f received type=charge.succeeded
+2026-10-21T21:58:28.288Z payments INFO  settlement batch closed items=212
+2026-10-21T21:58:36.390Z payments authz.adjust txn=txn_4bb78720f8af8b86 order=ORD-60594 delta=24.20 state=pending
+2026-10-21T21:58:36.669Z payments authz.settle txn=txn_4bb78720f8af8b86 state=settled
+2026-10-21T21:58:41.877Z payments authz.adjust txn=txn_1fd917677a78d2ce order=ORD-60887 delta=519.32 state=pending
+2026-10-21T21:58:42.116Z payments authz.settle txn=txn_1fd917677a78d2ce state=settled
+2026-10-21T21:58:44.325Z payments INFO  webhook evt_75bd0a35b27b90 received type=charge.succeeded
+2026-10-21T21:58:46.566Z payments INFO  webhook evt_8c7cb3c642883d received type=charge.refunded
+2026-10-21T21:58:46.570Z payments INFO  webhook evt_31a6fa8d3ff9d6 received type=charge.refunded
+2026-10-21T21:58:58.515Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:59:00.800Z payments INFO  fraud-score ok p95=84ms
+2026-10-21T21:59:02.906Z payments DEBUG webhook evt_163b7028fad83f verified
+2026-10-21T21:59:04.225Z payments authz.decline txn=txn_db1fdc349fad086e order=ORD-61953 code=do_not_honor
+2026-10-21T21:59:12.630Z payments INFO  webhook evt_f4e544988e924b verified
+2026-10-21T21:59:15.515Z payments authz.decline txn=txn_00ca00dc9c83c003 order=ORD-60543 code=expired_card
+2026-10-21T21:59:17.558Z payments INFO  webhook evt_d8449c9785e530 received type=charge.refunded
+2026-10-21T21:59:20.377Z payments DEBUG webhook evt_b26e38835b9c60 received type=charge.refunded
+2026-10-21T21:59:30.436Z payments authz.adjust txn=txn_c7f9c19c9ca8357f order=ORD-61039 delta=272.47 state=pending
+2026-10-21T21:59:30.686Z payments authz.settle txn=txn_c7f9c19c9ca8357f state=settled
+2026-10-21T21:59:39.856Z payments INFO  webhook evt_7088ff6a634881 received type=charge.refunded
+2026-10-21T21:59:44.602Z payments DEBUG fraud-score ok p95=84ms
+2026-10-21T21:59:45.998Z payments authz.adjust txn=txn_3f8afc404a2c7793 order=ORD-60917 delta=490.67 state=pending
+2026-10-21T21:59:46.307Z payments authz.settle txn=txn_3f8afc404a2c7793 state=settled
+2026-10-21T21:59:51.653Z payments authz.adjust txn=txn_fbdfb7dacc24895a order=ORD-60894 delta=527.12 state=pending
+2026-10-21T21:59:51.833Z payments authz.settle txn=txn_fbdfb7dacc24895a state=settled

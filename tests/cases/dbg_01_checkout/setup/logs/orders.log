@@ -1,0 +1,691 @@
+2026-09-17 14:00:25,225 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-bbd67b57103d checkout begin items=4
+2026-09-17 14:00:25,275 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-bbd67b57103d reserve sku=SKU-18899 qty=1 hold=H-b4c8bf
+2026-09-17 14:00:25,310 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-bbd67b57103d hold=H-b4c8bf granted in 32ms
+2026-09-17 14:00:25,344 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-bbd67b57103d reserve sku=SKU-42527 qty=1 hold=H-33f7d1
+2026-09-17 14:00:25,360 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-bbd67b57103d hold=H-33f7d1 granted in 13ms
+2026-09-17 14:00:25,386 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-bbd67b57103d checkout complete total=133.38
+2026-09-17 14:00:30,697 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:00:42,094 [sched-3] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:01:29,953 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-3e82157bf710 checkout begin items=3
+2026-09-17 14:01:29,994 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3e82157bf710 reserve sku=SKU-29058 qty=2 hold=H-db168c
+2026-09-17 14:01:30,024 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3e82157bf710 hold=H-db168c granted in 27ms
+2026-09-17 14:01:30,111 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3e82157bf710 reserve sku=SKU-24305 qty=1 hold=H-8a6649
+2026-09-17 14:01:30,181 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3e82157bf710 hold=H-8a6649 granted in 67ms
+2026-09-17 14:01:30,317 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-3e82157bf710 checkout complete total=516.06
+2026-09-17 14:01:37,631 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:01:40,596 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-3c0f926e4fb0 checkout begin items=2
+2026-09-17 14:01:40,649 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-3c0f926e4fb0 reserve sku=SKU-32810 qty=2 hold=H-87030f
+2026-09-17 14:01:40,684 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-3c0f926e4fb0 hold=H-87030f granted in 32ms
+2026-09-17 14:01:40,717 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-3c0f926e4fb0 reserve sku=SKU-49075 qty=2 hold=H-98690b
+2026-09-17 14:01:40,775 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-3c0f926e4fb0 hold=H-98690b granted in 55ms
+2026-09-17 14:01:40,849 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-3c0f926e4fb0 checkout complete total=449.48
+2026-09-17 14:01:52,260 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:02:04,162 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:02:06,832 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-28db4c673b3f checkout begin items=2
+2026-09-17 14:02:06,875 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-28db4c673b3f reserve sku=SKU-27013 qty=1 hold=H-819376
+2026-09-17 14:02:06,914 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-28db4c673b3f hold=H-819376 granted in 36ms
+2026-09-17 14:02:06,945 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-28db4c673b3f reserve sku=SKU-30379 qty=3 hold=H-b27795
+2026-09-17 14:02:06,982 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-28db4c673b3f hold=H-b27795 granted in 34ms
+2026-09-17 14:02:07,116 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-28db4c673b3f checkout complete total=388.15
+2026-09-17 14:02:17,407 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:02:18,593 [sched-2] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:03:38,492 [sched-4] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:04:07,231 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:04:07,632 [sched-3] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:04:16,873 [sched-2] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:04:41,507 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:04:43,441 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-da4d00fcc1de checkout begin items=3
+2026-09-17 14:04:43,494 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-da4d00fcc1de reserve sku=SKU-52380 qty=4 hold=H-efaa19
+2026-09-17 14:04:43,528 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-da4d00fcc1de hold=H-efaa19 granted in 31ms
+2026-09-17 14:04:43,556 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-da4d00fcc1de reserve sku=SKU-38691 qty=2 hold=H-287f83
+2026-09-17 14:04:43,593 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-da4d00fcc1de hold=H-287f83 granted in 34ms
+2026-09-17 14:04:43,718 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-da4d00fcc1de checkout complete total=636.82
+2026-09-17 14:05:12,431 [sched-1] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:05:16,395 [sched-1] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:05:55,554 [sched-4] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:05:56,160 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:06:26,638 [sched-3] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:06:29,231 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:06:30,072 [http-nio-8086] ERROR c.shop.orders.TaxRateClient - SocketTimeoutException: Read timed out calling tax-svc
+	at com.shop.orders.TaxRateClient.execute(TaxRateClient.java:413)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:06:43,543 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-5acb47cac4c9 checkout begin items=1
+2026-09-17 14:06:43,592 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-5acb47cac4c9 reserve sku=SKU-56598 qty=2 hold=H-84f123
+2026-09-17 14:06:43,623 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-5acb47cac4c9 hold=H-84f123 granted in 28ms
+2026-09-17 14:06:43,681 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-5acb47cac4c9 reserve sku=SKU-57950 qty=2 hold=H-02491d
+2026-09-17 14:06:43,738 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-5acb47cac4c9 hold=H-02491d granted in 54ms
+2026-09-17 14:06:43,862 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-5acb47cac4c9 checkout complete total=559.50
+2026-09-17 14:06:50,614 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-45813ddb90a3 checkout begin items=1
+2026-09-17 14:06:50,667 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-45813ddb90a3 reserve sku=SKU-27124 qty=2 hold=H-500378
+2026-09-17 14:06:50,698 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-45813ddb90a3 hold=H-500378 granted in 28ms
+2026-09-17 14:06:50,784 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-45813ddb90a3 reserve sku=SKU-10792 qty=2 hold=H-0db03f
+2026-09-17 14:06:50,852 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-45813ddb90a3 hold=H-0db03f granted in 65ms
+2026-09-17 14:06:50,918 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-45813ddb90a3 checkout complete total=424.44
+2026-09-17 14:06:51,772 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-1fb7d6d7d687 checkout begin items=5
+2026-09-17 14:06:51,773 [sched-4] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:06:51,825 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-1fb7d6d7d687 reserve sku=SKU-49136 qty=3 hold=H-95128b
+2026-09-17 14:06:51,886 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-1fb7d6d7d687 hold=H-95128b granted in 58ms
+2026-09-17 14:06:51,941 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-1fb7d6d7d687 reserve sku=SKU-18917 qty=2 hold=H-472fcc
+2026-09-17 14:06:51,968 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-1fb7d6d7d687 hold=H-472fcc granted in 24ms
+2026-09-17 14:06:52,057 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-1fb7d6d7d687 checkout complete total=455.43
+2026-09-17 14:07:05,126 [sched-2] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:07:08,469 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-cb86045dbb50 checkout begin items=4
+2026-09-17 14:07:08,520 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-cb86045dbb50 reserve sku=SKU-58970 qty=4 hold=H-836ca1
+2026-09-17 14:07:08,549 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-cb86045dbb50 hold=H-836ca1 granted in 26ms
+2026-09-17 14:07:08,588 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-cb86045dbb50 reserve sku=SKU-26993 qty=2 hold=H-c26b89
+2026-09-17 14:07:08,621 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-cb86045dbb50 hold=H-c26b89 granted in 30ms
+2026-09-17 14:07:08,681 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-cb86045dbb50 checkout complete total=610.90
+2026-09-17 14:07:39,407 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:07:56,949 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-3d6197756e37 checkout begin items=1
+2026-09-17 14:07:56,985 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3d6197756e37 reserve sku=SKU-12006 qty=1 hold=H-7bb949
+2026-09-17 14:07:57,040 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3d6197756e37 hold=H-7bb949 granted in 52ms
+2026-09-17 14:07:57,082 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3d6197756e37 reserve sku=SKU-34523 qty=2 hold=H-eb4b04
+2026-09-17 14:07:57,109 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-3d6197756e37 hold=H-eb4b04 granted in 24ms
+2026-09-17 14:07:57,169 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-3d6197756e37 checkout complete total=451.42
+2026-09-17 14:08:22,999 [http-nio-8086] ERROR c.shop.orders.ShippingQuoteCache - ConcurrentModificationException: zone table changed during refresh
+	at com.shop.orders.ShippingQuoteCache.process(ShippingQuoteCache.java:868)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:08:23,351 [sched-2] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:08:56,230 [sched-3] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:09:04,310 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-0ec757c98a4a checkout begin items=2
+2026-09-17 14:09:04,364 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-0ec757c98a4a reserve sku=SKU-56340 qty=1 hold=H-c0dc9e
+2026-09-17 14:09:04,427 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-0ec757c98a4a hold=H-c0dc9e granted in 60ms
+2026-09-17 14:09:04,431 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-0ec757c98a4a reserve sku=SKU-37360 qty=1 hold=H-9a0e81
+2026-09-17 14:09:04,503 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-0ec757c98a4a hold=H-9a0e81 granted in 69ms
+2026-09-17 14:09:04,605 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-0ec757c98a4a checkout complete total=69.98
+2026-09-17 14:09:13,906 [sched-1] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:09:56,894 [sched-3] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:10:24,284 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-4e3ee652f991 checkout begin items=5
+2026-09-17 14:10:24,338 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-4e3ee652f991 reserve sku=SKU-16967 qty=3 hold=H-bbd5b9
+2026-09-17 14:10:24,400 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-4e3ee652f991 hold=H-bbd5b9 granted in 59ms
+2026-09-17 14:10:24,425 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-4e3ee652f991 reserve sku=SKU-45990 qty=2 hold=H-bd124a
+2026-09-17 14:10:24,482 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-4e3ee652f991 hold=H-bd124a granted in 54ms
+2026-09-17 14:10:24,571 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-4e3ee652f991 checkout complete total=548.00
+2026-09-17 14:10:52,733 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:10:53,768 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:10:59,233 [sched-1] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:11:00,500 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:11:12,799 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-eec3afdac70c checkout begin items=5
+2026-09-17 14:11:12,846 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-eec3afdac70c reserve sku=SKU-49116 qty=1 hold=H-46b175
+2026-09-17 14:11:12,905 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-eec3afdac70c hold=H-46b175 granted in 56ms
+2026-09-17 14:11:12,907 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-eec3afdac70c reserve sku=SKU-16065 qty=3 hold=H-b88f66
+2026-09-17 14:11:12,976 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-eec3afdac70c hold=H-b88f66 granted in 66ms
+2026-09-17 14:11:13,051 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-eec3afdac70c checkout complete total=414.93
+2026-09-17 14:11:31,193 [sched-4] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:11:38,591 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-bda229720448 checkout begin items=1
+2026-09-17 14:11:38,626 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-bda229720448 reserve sku=SKU-30396 qty=1 hold=H-45910d
+2026-09-17 14:11:38,671 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-bda229720448 hold=H-45910d granted in 42ms
+2026-09-17 14:11:38,718 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-bda229720448 reserve sku=SKU-25110 qty=3 hold=H-776a9c
+2026-09-17 14:11:38,744 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-bda229720448 hold=H-776a9c granted in 23ms
+2026-09-17 14:11:38,848 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-bda229720448 checkout complete total=592.01
+2026-09-17 14:11:58,114 [sched-3] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:12:06,961 [sched-4] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:12:12,302 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:12:19,912 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:12:27,691 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-602d241be101 checkout begin items=4
+2026-09-17 14:12:27,730 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-602d241be101 reserve sku=SKU-47801 qty=2 hold=H-ffb712
+2026-09-17 14:12:27,763 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-602d241be101 hold=H-ffb712 granted in 30ms
+2026-09-17 14:12:27,814 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-602d241be101 reserve sku=SKU-39883 qty=2 hold=H-f5e686
+2026-09-17 14:12:27,861 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-602d241be101 hold=H-f5e686 granted in 44ms
+2026-09-17 14:12:27,986 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-602d241be101 checkout complete total=246.19
+2026-09-17 14:12:37,894 [sched-4] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:12:40,010 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-1659b09d02e4 checkout begin items=3
+2026-09-17 14:12:40,058 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-1659b09d02e4 reserve sku=SKU-51820 qty=2 hold=H-3efe59
+2026-09-17 14:12:40,093 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-1659b09d02e4 hold=H-3efe59 granted in 32ms
+2026-09-17 14:12:40,167 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-1659b09d02e4 reserve sku=SKU-48069 qty=2 hold=H-ed075e
+2026-09-17 14:12:48,006 [http-nio-8089] WARN  c.shop.orders.StockClient - trace=tr-1659b09d02e4 hold=H-ed075e still pending, upstream closed connection; waited=7839ms
+2026-09-17 14:12:52,695 [http-nio-8083] ERROR c.shop.orders.ShippingQuoteCache - ConcurrentModificationException: zone table changed during refresh
+	at com.shop.orders.ShippingQuoteCache.dispatch(ShippingQuoteCache.java:537)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:13:38,829 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-3ef5cd8ff0be checkout begin items=1
+2026-09-17 14:13:38,863 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-3ef5cd8ff0be reserve sku=SKU-36489 qty=3 hold=H-9c2f0b
+2026-09-17 14:13:38,878 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-3ef5cd8ff0be hold=H-9c2f0b granted in 12ms
+2026-09-17 14:13:38,939 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-3ef5cd8ff0be reserve sku=SKU-26186 qty=1 hold=H-ec0b8b
+2026-09-17 14:13:38,959 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-3ef5cd8ff0be hold=H-ec0b8b granted in 17ms
+2026-09-17 14:13:39,052 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-3ef5cd8ff0be checkout complete total=471.01
+2026-09-17 14:13:50,901 [sched-2] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:14:03,912 [sched-4] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:14:05,201 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:14:11,056 [http-nio-8081] INFO  c.shop.orders.CheckoutService - trace=tr-6b6bf12cf798 checkout begin items=2
+2026-09-17 14:14:11,088 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-6b6bf12cf798 reserve sku=SKU-52894 qty=3 hold=H-38fd09
+2026-09-17 14:14:11,154 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-6b6bf12cf798 hold=H-38fd09 granted in 63ms
+2026-09-17 14:14:11,191 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-6b6bf12cf798 reserve sku=SKU-36884 qty=1 hold=H-be24b0
+2026-09-17 14:14:11,223 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-6b6bf12cf798 hold=H-be24b0 granted in 29ms
+2026-09-17 14:14:11,293 [http-nio-8081] INFO  c.shop.orders.CheckoutService - trace=tr-6b6bf12cf798 checkout complete total=626.21
+2026-09-17 14:14:42,517 [sched-4] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:14:54,725 [sched-3] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:15:06,069 [sched-1] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:15:22,214 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-735a16341784 checkout begin items=2
+2026-09-17 14:15:22,256 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-735a16341784 reserve sku=SKU-32109 qty=1 hold=H-152b5d
+2026-09-17 14:15:22,294 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-735a16341784 hold=H-152b5d granted in 35ms
+2026-09-17 14:15:22,333 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-735a16341784 reserve sku=SKU-22769 qty=2 hold=H-0a7677
+2026-09-17 14:15:22,399 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-735a16341784 hold=H-0a7677 granted in 63ms
+2026-09-17 14:15:22,452 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-735a16341784 checkout complete total=23.35
+2026-09-17 14:15:29,543 [sched-3] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:16:06,772 [sched-3] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:16:39,637 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-042e5da9104c checkout begin items=5
+2026-09-17 14:16:39,686 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-042e5da9104c reserve sku=SKU-44099 qty=2 hold=H-39371c
+2026-09-17 14:16:39,742 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-042e5da9104c hold=H-39371c granted in 53ms
+2026-09-17 14:16:39,789 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-042e5da9104c reserve sku=SKU-37255 qty=1 hold=H-f116ef
+2026-09-17 14:16:39,816 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-042e5da9104c hold=H-f116ef granted in 24ms
+2026-09-17 14:16:39,881 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-042e5da9104c checkout complete total=87.59
+2026-09-17 14:16:42,251 [sched-2] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:17:18,003 [sched-3] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:17:40,712 [http-nio-8081] INFO  c.shop.orders.CheckoutService - trace=tr-4d62053f5b6a checkout begin items=5
+2026-09-17 14:17:40,747 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-4d62053f5b6a reserve sku=SKU-37780 qty=1 hold=H-1442d3
+2026-09-17 14:17:40,789 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-4d62053f5b6a hold=H-1442d3 granted in 39ms
+2026-09-17 14:17:40,822 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-4d62053f5b6a reserve sku=SKU-35053 qty=1 hold=H-91b844
+2026-09-17 14:17:40,881 [http-nio-8081] INFO  c.shop.orders.StockClient - trace=tr-4d62053f5b6a hold=H-91b844 granted in 56ms
+2026-09-17 14:17:40,943 [http-nio-8081] INFO  c.shop.orders.CheckoutService - trace=tr-4d62053f5b6a checkout complete total=362.14
+2026-09-17 14:18:02,997 [sched-2] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:18:14,543 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:18:26,669 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-3c310f0573f3 checkout begin items=3
+2026-09-17 14:18:26,730 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3c310f0573f3 reserve sku=SKU-51679 qty=2 hold=H-aea633
+2026-09-17 14:18:26,791 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3c310f0573f3 hold=H-aea633 granted in 58ms
+2026-09-17 14:18:26,828 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3c310f0573f3 reserve sku=SKU-38776 qty=1 hold=H-b3c7b5
+2026-09-17 14:18:26,881 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3c310f0573f3 hold=H-b3c7b5 granted in 50ms
+2026-09-17 14:18:26,997 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-3c310f0573f3 checkout complete total=404.64
+2026-09-17 14:18:28,181 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:19:00,232 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:19:06,568 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-d6a8aa3c7e2b checkout begin items=2
+2026-09-17 14:19:06,610 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-d6a8aa3c7e2b reserve sku=SKU-14028 qty=2 hold=H-411e39
+2026-09-17 14:19:06,663 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-d6a8aa3c7e2b hold=H-411e39 granted in 50ms
+2026-09-17 14:19:06,715 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-d6a8aa3c7e2b reserve sku=SKU-12564 qty=1 hold=H-cb08f1
+2026-09-17 14:19:06,770 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-d6a8aa3c7e2b hold=H-cb08f1 granted in 52ms
+2026-09-17 14:19:06,888 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-d6a8aa3c7e2b checkout complete total=402.51
+2026-09-17 14:19:08,579 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-5d98401691de checkout begin items=3
+2026-09-17 14:19:08,637 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-5d98401691de reserve sku=SKU-57715 qty=4 hold=H-dc4dc5
+2026-09-17 14:19:08,683 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-5d98401691de hold=H-dc4dc5 granted in 43ms
+2026-09-17 14:19:08,745 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-5d98401691de reserve sku=SKU-35458 qty=3 hold=H-66d3d5
+2026-09-17 14:19:08,796 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-5d98401691de hold=H-66d3d5 granted in 48ms
+2026-09-17 14:19:08,925 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-5d98401691de checkout complete total=591.30
+2026-09-17 14:19:40,187 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-b1724dd281a4 checkout begin items=1
+2026-09-17 14:19:40,244 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b1724dd281a4 reserve sku=SKU-17497 qty=2 hold=H-de7f9f
+2026-09-17 14:19:40,296 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b1724dd281a4 hold=H-de7f9f granted in 49ms
+2026-09-17 14:19:40,332 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b1724dd281a4 reserve sku=SKU-23327 qty=1 hold=H-f21908
+2026-09-17 14:19:40,363 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b1724dd281a4 hold=H-f21908 granted in 28ms
+2026-09-17 14:19:40,428 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-b1724dd281a4 checkout complete total=255.15
+2026-09-17 14:19:42,764 [sched-4] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:19:54,301 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-2da6eeb6cf31 checkout begin items=2
+2026-09-17 14:19:54,358 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-2da6eeb6cf31 reserve sku=SKU-47162 qty=4 hold=H-93aded
+2026-09-17 14:19:54,420 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-2da6eeb6cf31 hold=H-93aded granted in 59ms
+2026-09-17 14:19:54,451 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-2da6eeb6cf31 reserve sku=SKU-35328 qty=3 hold=H-d400bc
+2026-09-17 14:19:54,478 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-2da6eeb6cf31 hold=H-d400bc granted in 24ms
+2026-09-17 14:19:54,507 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-2da6eeb6cf31 checkout complete total=524.16
+2026-09-17 14:19:54,706 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-ba58cd35bdb2 checkout begin items=2
+2026-09-17 14:19:54,758 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-ba58cd35bdb2 reserve sku=SKU-38595 qty=3 hold=H-4dedef
+2026-09-17 14:19:54,810 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-ba58cd35bdb2 hold=H-4dedef granted in 49ms
+2026-09-17 14:19:54,833 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-ba58cd35bdb2 reserve sku=SKU-57277 qty=1 hold=H-88f431
+2026-09-17 14:19:54,872 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-ba58cd35bdb2 hold=H-88f431 granted in 36ms
+2026-09-17 14:19:54,973 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-ba58cd35bdb2 checkout complete total=567.35
+2026-09-17 14:20:53,508 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-5d04c64f7306 checkout begin items=3
+2026-09-17 14:20:53,565 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5d04c64f7306 reserve sku=SKU-33326 qty=4 hold=H-b1700f
+2026-09-17 14:20:53,610 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5d04c64f7306 hold=H-b1700f granted in 42ms
+2026-09-17 14:20:53,683 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5d04c64f7306 reserve sku=SKU-53274 qty=1 hold=H-a9e5b7
+2026-09-17 14:20:53,717 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5d04c64f7306 hold=H-a9e5b7 granted in 31ms
+2026-09-17 14:20:53,787 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-5d04c64f7306 checkout complete total=152.97
+2026-09-17 14:20:58,266 [sched-3] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:21:41,963 [http-nio-8084] ERROR c.shop.orders.TaxRateClient - SocketTimeoutException: Read timed out calling tax-svc
+	at com.shop.orders.TaxRateClient.process(TaxRateClient.java:681)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:22:29,681 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-49cc168a96de checkout begin items=2
+2026-09-17 14:22:29,733 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-49cc168a96de reserve sku=SKU-34477 qty=2 hold=H-e7c8b8
+2026-09-17 14:22:29,790 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-49cc168a96de hold=H-e7c8b8 granted in 54ms
+2026-09-17 14:22:29,848 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-49cc168a96de reserve sku=SKU-55293 qty=3 hold=H-dc7337
+2026-09-17 14:22:29,886 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-49cc168a96de hold=H-dc7337 granted in 35ms
+2026-09-17 14:22:29,924 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-49cc168a96de checkout complete total=562.53
+2026-09-17 14:22:31,352 [sched-3] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:22:33,977 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-5df248da474e checkout begin items=2
+2026-09-17 14:22:34,021 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-5df248da474e reserve sku=SKU-48599 qty=1 hold=H-e0a46a
+2026-09-17 14:22:34,064 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-5df248da474e hold=H-e0a46a granted in 40ms
+2026-09-17 14:22:34,139 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-5df248da474e reserve sku=SKU-12278 qty=1 hold=H-5c2760
+2026-09-17 14:22:34,185 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-5df248da474e hold=H-5c2760 granted in 43ms
+2026-09-17 14:22:34,226 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-5df248da474e checkout complete total=78.52
+2026-09-17 14:22:35,179 [sched-2] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:22:39,625 [sched-2] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:22:44,343 [sched-4] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:22:48,012 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-377e5b648102 checkout begin items=5
+2026-09-17 14:22:48,047 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-377e5b648102 reserve sku=SKU-16423 qty=2 hold=H-c3e624
+2026-09-17 14:22:48,088 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-377e5b648102 hold=H-c3e624 granted in 38ms
+2026-09-17 14:22:48,141 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-377e5b648102 reserve sku=SKU-40143 qty=3 hold=H-a6cb49
+2026-09-17 14:22:48,199 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-377e5b648102 hold=H-a6cb49 granted in 55ms
+2026-09-17 14:22:48,317 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-377e5b648102 checkout complete total=269.67
+2026-09-17 14:23:06,305 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-ac7aadafcf39 checkout begin items=3
+2026-09-17 14:23:06,360 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-ac7aadafcf39 reserve sku=SKU-32878 qty=1 hold=H-39c50b
+2026-09-17 14:23:06,399 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-ac7aadafcf39 hold=H-39c50b granted in 36ms
+2026-09-17 14:23:06,440 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-ac7aadafcf39 reserve sku=SKU-44767 qty=3 hold=H-539edf
+2026-09-17 14:23:06,477 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-ac7aadafcf39 hold=H-539edf granted in 34ms
+2026-09-17 14:23:06,585 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-ac7aadafcf39 checkout complete total=576.54
+2026-09-17 14:23:10,955 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-3cd8c42c0b69 checkout begin items=4
+2026-09-17 14:23:11,000 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3cd8c42c0b69 reserve sku=SKU-52146 qty=1 hold=H-6a024b
+2026-09-17 14:23:11,067 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3cd8c42c0b69 hold=H-6a024b granted in 64ms
+2026-09-17 14:23:11,105 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3cd8c42c0b69 reserve sku=SKU-11262 qty=2 hold=H-b1b4d4
+2026-09-17 14:23:11,141 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-3cd8c42c0b69 hold=H-b1b4d4 granted in 33ms
+2026-09-17 14:23:11,164 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-3cd8c42c0b69 checkout complete total=53.36
+2026-09-17 14:23:19,718 [sched-3] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:23:26,230 [sched-3] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:23:28,317 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-7c380b2e15d9 checkout begin items=3
+2026-09-17 14:23:28,353 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-7c380b2e15d9 reserve sku=SKU-30504 qty=1 hold=H-3ebe78
+2026-09-17 14:23:28,406 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-7c380b2e15d9 hold=H-3ebe78 granted in 50ms
+2026-09-17 14:23:28,457 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-7c380b2e15d9 reserve sku=SKU-42733 qty=2 hold=H-b61ff4
+2026-09-17 14:23:28,483 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-7c380b2e15d9 hold=H-b61ff4 granted in 23ms
+2026-09-17 14:23:28,618 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-7c380b2e15d9 checkout complete total=440.67
+2026-09-17 14:23:45,682 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-f66e0b5efc8b checkout begin items=5
+2026-09-17 14:23:45,735 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-f66e0b5efc8b reserve sku=SKU-17132 qty=3 hold=H-61c2b0
+2026-09-17 14:23:45,786 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-f66e0b5efc8b hold=H-61c2b0 granted in 48ms
+2026-09-17 14:23:45,854 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-f66e0b5efc8b reserve sku=SKU-36807 qty=2 hold=H-2807e8
+2026-09-17 14:23:45,923 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-f66e0b5efc8b hold=H-2807e8 granted in 66ms
+2026-09-17 14:23:46,007 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-f66e0b5efc8b checkout complete total=190.40
+2026-09-17 14:24:08,743 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:24:15,042 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-0be187feeb92 checkout begin items=5
+2026-09-17 14:24:15,084 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-0be187feeb92 reserve sku=SKU-41921 qty=2 hold=H-a125ac
+2026-09-17 14:24:15,131 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-0be187feeb92 hold=H-a125ac granted in 44ms
+2026-09-17 14:24:15,204 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-0be187feeb92 reserve sku=SKU-44857 qty=2 hold=H-c1e4da
+2026-09-17 14:24:15,245 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-0be187feeb92 hold=H-c1e4da granted in 38ms
+2026-09-17 14:24:15,274 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-0be187feeb92 checkout complete total=429.80
+2026-09-17 14:24:49,405 [sched-1] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:24:53,724 [sched-4] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:25:14,937 [sched-4] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:25:33,533 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-5cb2328a89ca checkout begin items=1
+2026-09-17 14:25:33,589 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5cb2328a89ca reserve sku=SKU-57959 qty=1 hold=H-13f5fe
+2026-09-17 14:25:33,613 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5cb2328a89ca hold=H-13f5fe granted in 21ms
+2026-09-17 14:25:33,683 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5cb2328a89ca reserve sku=SKU-48481 qty=1 hold=H-966f5d
+2026-09-17 14:25:33,714 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-5cb2328a89ca hold=H-966f5d granted in 28ms
+2026-09-17 14:25:33,845 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-5cb2328a89ca checkout complete total=619.83
+2026-09-17 14:25:48,815 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-0cab14be5d43 checkout begin items=5
+2026-09-17 14:25:48,856 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-0cab14be5d43 reserve sku=SKU-44805 qty=4 hold=H-35d1e5
+2026-09-17 14:25:48,885 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-0cab14be5d43 hold=H-35d1e5 granted in 26ms
+2026-09-17 14:25:48,968 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-0cab14be5d43 reserve sku=SKU-56109 qty=2 hold=H-8f288e
+2026-09-17 14:25:49,013 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-0cab14be5d43 hold=H-8f288e granted in 42ms
+2026-09-17 14:25:49,088 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-0cab14be5d43 checkout complete total=385.81
+2026-09-17 14:26:08,525 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-5814cbd2eadd checkout begin items=3
+2026-09-17 14:26:08,576 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-5814cbd2eadd reserve sku=SKU-21361 qty=2 hold=H-962ded
+2026-09-17 14:26:08,625 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-5814cbd2eadd hold=H-962ded granted in 46ms
+2026-09-17 14:26:08,650 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-5814cbd2eadd reserve sku=SKU-57526 qty=1 hold=H-cde31f
+2026-09-17 14:26:08,706 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-5814cbd2eadd hold=H-cde31f granted in 53ms
+2026-09-17 14:26:08,740 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-5814cbd2eadd checkout complete total=588.82
+2026-09-17 14:26:24,379 [sched-1] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:26:27,967 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:26:48,221 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-d2335e371162 checkout begin items=2
+2026-09-17 14:26:48,257 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d2335e371162 reserve sku=SKU-13134 qty=3 hold=H-210417
+2026-09-17 14:26:48,274 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d2335e371162 hold=H-210417 granted in 14ms
+2026-09-17 14:26:48,337 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d2335e371162 reserve sku=SKU-18159 qty=1 hold=H-5ca34d
+2026-09-17 14:26:48,375 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d2335e371162 hold=H-5ca34d granted in 35ms
+2026-09-17 14:26:48,479 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-d2335e371162 checkout complete total=606.16
+2026-09-17 14:26:56,825 [sched-3] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:27:09,988 [sched-2] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:27:23,068 [sched-2] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:27:46,775 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-45134ac16f28 checkout begin items=5
+2026-09-17 14:27:46,813 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-45134ac16f28 reserve sku=SKU-42033 qty=3 hold=H-7256e0
+2026-09-17 14:27:46,880 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-45134ac16f28 hold=H-7256e0 granted in 64ms
+2026-09-17 14:27:46,926 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-45134ac16f28 reserve sku=SKU-33795 qty=2 hold=H-23500c
+2026-09-17 14:27:46,994 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-45134ac16f28 hold=H-23500c granted in 65ms
+2026-09-17 14:27:47,082 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-45134ac16f28 checkout complete total=514.27
+2026-09-17 14:27:54,783 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-6eb34666ff93 checkout begin items=5
+2026-09-17 14:27:54,826 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-6eb34666ff93 reserve sku=SKU-31257 qty=4 hold=H-5fe2bd
+2026-09-17 14:27:54,889 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-6eb34666ff93 hold=H-5fe2bd granted in 60ms
+2026-09-17 14:27:54,902 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-6eb34666ff93 reserve sku=SKU-27553 qty=2 hold=H-e5ac9c
+2026-09-17 14:27:54,940 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-6eb34666ff93 hold=H-e5ac9c granted in 35ms
+2026-09-17 14:27:55,053 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-6eb34666ff93 checkout complete total=565.59
+2026-09-17 14:28:45,830 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-a6b192ad33ca checkout begin items=3
+2026-09-17 14:28:45,881 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-a6b192ad33ca reserve sku=SKU-45102 qty=4 hold=H-7b967a
+2026-09-17 14:28:45,915 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-a6b192ad33ca hold=H-7b967a granted in 31ms
+2026-09-17 14:28:45,989 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-a6b192ad33ca reserve sku=SKU-39470 qty=1 hold=H-66d977
+2026-09-17 14:28:46,042 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-a6b192ad33ca hold=H-66d977 granted in 50ms
+2026-09-17 14:28:46,157 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-a6b192ad33ca checkout complete total=636.50
+2026-09-17 14:28:55,206 [sched-3] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:29:00,249 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-b00a8062a568 checkout begin items=5
+2026-09-17 14:29:00,290 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b00a8062a568 reserve sku=SKU-12169 qty=4 hold=H-058e6b
+2026-09-17 14:29:00,357 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b00a8062a568 hold=H-058e6b granted in 64ms
+2026-09-17 14:29:00,364 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b00a8062a568 reserve sku=SKU-29714 qty=1 hold=H-b89e3b
+2026-09-17 14:29:00,402 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b00a8062a568 hold=H-b89e3b granted in 35ms
+2026-09-17 14:29:00,464 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-b00a8062a568 checkout complete total=125.48
+2026-09-17 14:29:03,833 [sched-2] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:29:19,088 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-e3e22aedc465 checkout begin items=1
+2026-09-17 14:29:19,139 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-e3e22aedc465 reserve sku=SKU-20404 qty=3 hold=H-26e60e
+2026-09-17 14:29:19,189 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-e3e22aedc465 hold=H-26e60e granted in 47ms
+2026-09-17 14:29:19,220 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-e3e22aedc465 reserve sku=SKU-41191 qty=3 hold=H-efb88d
+2026-09-17 14:29:19,269 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-e3e22aedc465 hold=H-efb88d granted in 46ms
+2026-09-17 14:29:19,292 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-e3e22aedc465 checkout complete total=129.89
+2026-09-17 14:29:20,281 [sched-1] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:31:41,113 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-d2e56f8ef4aa checkout begin items=1
+2026-09-17 14:31:41,170 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d2e56f8ef4aa reserve sku=SKU-46444 qty=1 hold=H-e517c9
+2026-09-17 14:31:41,235 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d2e56f8ef4aa hold=H-e517c9 granted in 62ms
+2026-09-17 14:31:41,576 [http-nio-8089] ERROR c.shop.orders.OrderRepository - trace=tr-d2e56f8ef4aa could not obtain connection from pool (active=40 max=40, waiting=17)
+	at com.shop.orders.OrderRepository.getConnection(OrderRepository.java:216)
+	at com.shop.orders.OrderRepository.run(OrderRepository.java:425)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:31:43,572 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-1202701f9706 checkout begin items=1
+2026-09-17 14:31:43,619 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-1202701f9706 reserve sku=SKU-45067 qty=1 hold=H-3779a7
+2026-09-17 14:31:43,656 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-1202701f9706 hold=H-3779a7 granted in 34ms
+2026-09-17 14:31:43,702 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-1202701f9706 reserve sku=SKU-33567 qty=1 hold=H-b4605d
+2026-09-17 14:31:46,909 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-08dafc51be5a checkout begin items=4
+2026-09-17 14:31:46,960 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08dafc51be5a reserve sku=SKU-40187 qty=2 hold=H-cf2b74
+2026-09-17 14:31:47,018 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08dafc51be5a hold=H-cf2b74 granted in 55ms
+2026-09-17 14:31:47,079 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08dafc51be5a reserve sku=SKU-23163 qty=3 hold=H-cae538
+2026-09-17 14:31:49,471 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-14ca23b04e8b checkout begin items=2
+2026-09-17 14:31:49,514 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-14ca23b04e8b reserve sku=SKU-50173 qty=1 hold=H-db51db
+2026-09-17 14:31:49,570 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-14ca23b04e8b hold=H-db51db granted in 53ms
+2026-09-17 14:31:49,625 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-14ca23b04e8b reserve sku=SKU-25631 qty=2 hold=H-562347
+2026-09-17 14:31:50,611 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-da6fcbf8a96f checkout begin items=5
+2026-09-17 14:31:50,657 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-da6fcbf8a96f reserve sku=SKU-26675 qty=4 hold=H-20e3b4
+2026-09-17 14:31:50,721 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-da6fcbf8a96f hold=H-20e3b4 granted in 61ms
+2026-09-17 14:31:50,756 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-da6fcbf8a96f reserve sku=SKU-27289 qty=1 hold=H-ef08ae
+2026-09-17 14:31:51,566 [http-nio-8089] WARN  c.shop.orders.StockClient - trace=tr-1202701f9706 hold=H-b4605d still pending, upstream closed connection; waited=7864ms
+2026-09-17 14:31:52,580 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-890c97d6d46b checkout begin items=5
+2026-09-17 14:31:52,628 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-890c97d6d46b reserve sku=SKU-30863 qty=3 hold=H-8e5d2f
+2026-09-17 14:31:52,686 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-890c97d6d46b hold=H-8e5d2f granted in 55ms
+2026-09-17 14:31:52,735 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-890c97d6d46b reserve sku=SKU-25775 qty=2 hold=H-416c96
+2026-09-17 14:31:54,904 [http-nio-8088] WARN  c.shop.orders.StockClient - trace=tr-08dafc51be5a hold=H-cae538 still pending, upstream closed connection; waited=7825ms
+2026-09-17 14:31:55,760 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-3efe0a5e976b checkout begin items=3
+2026-09-17 14:31:55,793 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-3efe0a5e976b reserve sku=SKU-50938 qty=1 hold=H-fa07f1
+2026-09-17 14:31:55,829 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-3efe0a5e976b hold=H-fa07f1 granted in 33ms
+2026-09-17 14:31:55,862 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-3efe0a5e976b reserve sku=SKU-56768 qty=2 hold=H-783508
+2026-09-17 14:31:56,712 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-a9482d2b6732 checkout begin items=2
+2026-09-17 14:31:56,760 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-a9482d2b6732 reserve sku=SKU-25151 qty=1 hold=H-4c16c1
+2026-09-17 14:31:56,808 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-a9482d2b6732 hold=H-4c16c1 granted in 45ms
+2026-09-17 14:31:56,823 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-a9482d2b6732 reserve sku=SKU-17034 qty=3 hold=H-87cbcf
+2026-09-17 14:31:57,464 [http-nio-8083] WARN  c.shop.orders.StockClient - trace=tr-14ca23b04e8b hold=H-562347 still pending, upstream closed connection; waited=7839ms
+2026-09-17 14:31:58,607 [http-nio-8083] WARN  c.shop.orders.StockClient - trace=tr-da6fcbf8a96f hold=H-ef08ae still pending, upstream closed connection; waited=7851ms
+2026-09-17 14:31:58,900 [http-nio-8086] ERROR c.shop.orders.TaxRateClient - SocketTimeoutException: Read timed out calling tax-svc
+	at com.shop.orders.TaxRateClient.call(TaxRateClient.java:421)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:32:00,571 [http-nio-8085] WARN  c.shop.orders.StockClient - trace=tr-890c97d6d46b hold=H-416c96 still pending, upstream closed connection; waited=7836ms
+2026-09-17 14:32:00,910 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-49387d6a5f87 checkout begin items=5
+2026-09-17 14:32:00,958 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-49387d6a5f87 reserve sku=SKU-21333 qty=1 hold=H-c34ea8
+2026-09-17 14:32:00,996 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-49387d6a5f87 hold=H-c34ea8 granted in 35ms
+2026-09-17 14:32:01,018 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-49387d6a5f87 reserve sku=SKU-26735 qty=3 hold=H-2b97bb
+2026-09-17 14:32:01,819 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-377e5b648c02 checkout begin items=4
+2026-09-17 14:32:01,852 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-377e5b648c02 reserve sku=SKU-50067 qty=4 hold=H-72c732
+2026-09-17 14:32:01,884 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-377e5b648c02 hold=H-72c732 granted in 29ms
+2026-09-17 14:32:01,960 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-377e5b648c02 reserve sku=SKU-18776 qty=3 hold=H-543bcd
+2026-09-17 14:32:03,750 [http-nio-8084] WARN  c.shop.orders.StockClient - trace=tr-3efe0a5e976b hold=H-783508 still pending, upstream closed connection; waited=7888ms
+2026-09-17 14:32:04,409 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-de71cbb3e413 checkout begin items=1
+2026-09-17 14:32:04,455 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-de71cbb3e413 reserve sku=SKU-14532 qty=4 hold=H-f7b49e
+2026-09-17 14:32:04,475 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-de71cbb3e413 hold=H-f7b49e granted in 17ms
+2026-09-17 14:32:04,709 [http-nio-8087] WARN  c.shop.orders.StockClient - trace=tr-a9482d2b6732 hold=H-87cbcf still pending, upstream closed connection; waited=7886ms
+2026-09-17 14:32:05,086 [http-nio-8086] ERROR c.shop.orders.OrderRepository - trace=tr-de71cbb3e413 could not obtain connection from pool (active=40 max=40, waiting=17)
+	at com.shop.orders.OrderRepository.getConnection(OrderRepository.java:170)
+	at com.shop.orders.OrderRepository.execute(OrderRepository.java:258)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:32:05,300 [http-nio-8081] ERROR c.shop.orders.ShippingQuoteCache - ConcurrentModificationException: zone table changed during refresh
+	at com.shop.orders.ShippingQuoteCache.handle(ShippingQuoteCache.java:380)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:32:08,905 [http-nio-8087] WARN  c.shop.orders.StockClient - trace=tr-49387d6a5f87 hold=H-2b97bb still pending, upstream closed connection; waited=7887ms
+2026-09-17 14:32:09,810 [http-nio-8088] WARN  c.shop.orders.StockClient - trace=tr-377e5b648c02 hold=H-543bcd still pending, upstream closed connection; waited=7850ms
+2026-09-17 14:32:12,714 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-895fd7e2908d checkout begin items=5
+2026-09-17 14:32:12,746 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-895fd7e2908d reserve sku=SKU-30221 qty=2 hold=H-060dc8
+2026-09-17 14:32:12,813 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-895fd7e2908d hold=H-060dc8 granted in 64ms
+2026-09-17 14:32:13,240 [http-nio-8089] ERROR c.shop.orders.OrderRepository - trace=tr-895fd7e2908d could not obtain connection from pool (active=40 max=40, waiting=17)
+	at com.shop.orders.OrderRepository.getConnection(OrderRepository.java:117)
+	at com.shop.orders.OrderRepository.call(OrderRepository.java:368)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:32:25,218 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-e970293a482d checkout begin items=1
+2026-09-17 14:32:25,222 [http-nio-8089] WARN  c.shop.orders.CheckoutService - trace=tr-e970293a482d rejected: checkout already pending for this cart
+2026-09-17 14:34:33,151 [sched-4] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:34:53,594 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-3084bfe9257c checkout begin items=4
+2026-09-17 14:34:53,646 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-3084bfe9257c reserve sku=SKU-25634 qty=3 hold=H-30769f
+2026-09-17 14:34:53,710 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-3084bfe9257c hold=H-30769f granted in 61ms
+2026-09-17 14:34:53,735 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-3084bfe9257c reserve sku=SKU-24711 qty=2 hold=H-549165
+2026-09-17 14:34:53,804 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-3084bfe9257c hold=H-549165 granted in 66ms
+2026-09-17 14:34:53,871 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-3084bfe9257c checkout complete total=471.55
+2026-09-17 14:34:55,698 [sched-2] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:35:03,324 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-f69afe5b7ac7 checkout begin items=4
+2026-09-17 14:35:03,380 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-f69afe5b7ac7 reserve sku=SKU-54010 qty=4 hold=H-26fbc9
+2026-09-17 14:35:03,414 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-f69afe5b7ac7 hold=H-26fbc9 granted in 31ms
+2026-09-17 14:35:03,486 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-f69afe5b7ac7 reserve sku=SKU-13609 qty=1 hold=H-afca3e
+2026-09-17 14:35:03,529 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-f69afe5b7ac7 hold=H-afca3e granted in 40ms
+2026-09-17 14:35:03,596 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-f69afe5b7ac7 checkout complete total=39.53
+2026-09-17 14:35:12,464 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-d5e8a8a02a0b checkout begin items=3
+2026-09-17 14:35:12,514 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d5e8a8a02a0b reserve sku=SKU-39141 qty=3 hold=H-2111d3
+2026-09-17 14:35:12,534 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d5e8a8a02a0b hold=H-2111d3 granted in 17ms
+2026-09-17 14:35:12,611 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d5e8a8a02a0b reserve sku=SKU-26031 qty=3 hold=H-9c09e2
+2026-09-17 14:35:12,657 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-d5e8a8a02a0b hold=H-9c09e2 granted in 43ms
+2026-09-17 14:35:12,701 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-d5e8a8a02a0b checkout complete total=358.35
+2026-09-17 14:35:44,011 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:35:49,117 [http-nio-8088] ERROR c.shop.orders.InvoiceRenderer - IllegalStateException: font cache not initialised
+	at com.shop.orders.InvoiceRenderer.invoke(InvoiceRenderer.java:139)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:35:50,309 [http-nio-8088] ERROR c.shop.orders.InvoiceRenderer - IllegalStateException: font cache not initialised
+	at com.shop.orders.InvoiceRenderer.dispatch(InvoiceRenderer.java:891)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:35:59,116 [sched-4] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:36:13,637 [sched-2] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:36:16,240 [sched-1] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:36:23,995 [sched-2] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:37:07,438 [sched-2] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:37:36,360 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-9e2c53a838f1 checkout begin items=4
+2026-09-17 14:37:36,391 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-9e2c53a838f1 reserve sku=SKU-42676 qty=2 hold=H-43ca2c
+2026-09-17 14:37:36,423 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-9e2c53a838f1 hold=H-43ca2c granted in 29ms
+2026-09-17 14:37:36,485 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-9e2c53a838f1 reserve sku=SKU-23649 qty=2 hold=H-f42418
+2026-09-17 14:37:36,506 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-9e2c53a838f1 hold=H-f42418 granted in 18ms
+2026-09-17 14:37:36,605 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-9e2c53a838f1 checkout complete total=42.29
+2026-09-17 14:37:43,218 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-302de8c8774d checkout begin items=3
+2026-09-17 14:37:43,258 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-302de8c8774d reserve sku=SKU-59937 qty=2 hold=H-ec3f89
+2026-09-17 14:37:43,319 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-302de8c8774d hold=H-ec3f89 granted in 58ms
+2026-09-17 14:37:43,356 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-302de8c8774d reserve sku=SKU-58210 qty=3 hold=H-69b118
+2026-09-17 14:37:43,421 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-302de8c8774d hold=H-69b118 granted in 62ms
+2026-09-17 14:37:43,454 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-302de8c8774d checkout complete total=581.74
+2026-09-17 14:37:54,569 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:38:04,483 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-b83fa2885e7c checkout begin items=2
+2026-09-17 14:38:04,522 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-b83fa2885e7c reserve sku=SKU-38123 qty=2 hold=H-52d102
+2026-09-17 14:38:04,571 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-b83fa2885e7c hold=H-52d102 granted in 46ms
+2026-09-17 14:38:04,586 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-b83fa2885e7c reserve sku=SKU-22895 qty=3 hold=H-420e1e
+2026-09-17 14:38:04,613 [http-nio-8082] INFO  c.shop.orders.StockClient - trace=tr-b83fa2885e7c hold=H-420e1e granted in 24ms
+2026-09-17 14:38:04,656 [http-nio-8082] INFO  c.shop.orders.CheckoutService - trace=tr-b83fa2885e7c checkout complete total=459.99
+2026-09-17 14:38:06,009 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-2e921f7daa61 checkout begin items=3
+2026-09-17 14:38:06,054 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-2e921f7daa61 reserve sku=SKU-13341 qty=3 hold=H-2d9a04
+2026-09-17 14:38:06,080 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-2e921f7daa61 hold=H-2d9a04 granted in 23ms
+2026-09-17 14:38:06,152 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-2e921f7daa61 reserve sku=SKU-14868 qty=1 hold=H-543ecd
+2026-09-17 14:38:06,174 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-2e921f7daa61 hold=H-543ecd granted in 19ms
+2026-09-17 14:38:06,288 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-2e921f7daa61 checkout complete total=78.09
+2026-09-17 14:38:09,972 [sched-1] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:38:16,295 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-fcec276fd6d3 checkout begin items=4
+2026-09-17 14:38:16,332 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-fcec276fd6d3 reserve sku=SKU-49445 qty=2 hold=H-563375
+2026-09-17 14:38:16,371 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-fcec276fd6d3 hold=H-563375 granted in 36ms
+2026-09-17 14:38:16,440 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-fcec276fd6d3 reserve sku=SKU-35102 qty=2 hold=H-7b50f1
+2026-09-17 14:38:16,489 [http-nio-8086] INFO  c.shop.orders.StockClient - trace=tr-fcec276fd6d3 hold=H-7b50f1 granted in 46ms
+2026-09-17 14:38:16,611 [http-nio-8086] INFO  c.shop.orders.CheckoutService - trace=tr-fcec276fd6d3 checkout complete total=132.89
+2026-09-17 14:38:24,664 [sched-1] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:38:50,641 [sched-4] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:39:38,974 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-c08a2d079960 checkout begin items=2
+2026-09-17 14:39:39,022 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-c08a2d079960 reserve sku=SKU-12727 qty=3 hold=H-e78d46
+2026-09-17 14:39:39,046 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-c08a2d079960 hold=H-e78d46 granted in 21ms
+2026-09-17 14:39:39,099 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-c08a2d079960 reserve sku=SKU-15595 qty=2 hold=H-956196
+2026-09-17 14:39:39,156 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-c08a2d079960 hold=H-956196 granted in 54ms
+2026-09-17 14:39:39,197 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-c08a2d079960 checkout complete total=97.04
+2026-09-17 14:39:48,713 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-7dc209b9cfb4 checkout begin items=1
+2026-09-17 14:39:48,771 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-7dc209b9cfb4 reserve sku=SKU-46481 qty=1 hold=H-d05762
+2026-09-17 14:39:48,807 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-7dc209b9cfb4 hold=H-d05762 granted in 33ms
+2026-09-17 14:39:48,854 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-7dc209b9cfb4 reserve sku=SKU-43031 qty=3 hold=H-71e308
+2026-09-17 14:39:48,914 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-7dc209b9cfb4 hold=H-71e308 granted in 57ms
+2026-09-17 14:39:49,021 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-7dc209b9cfb4 checkout complete total=352.10
+2026-09-17 14:40:25,632 [sched-2] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:40:40,724 [sched-2] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:41:01,262 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-10f789093fe1 checkout begin items=4
+2026-09-17 14:41:01,316 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-10f789093fe1 reserve sku=SKU-51566 qty=2 hold=H-9e2355
+2026-09-17 14:41:01,375 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-10f789093fe1 hold=H-9e2355 granted in 56ms
+2026-09-17 14:41:01,402 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-10f789093fe1 reserve sku=SKU-41958 qty=3 hold=H-f58c8e
+2026-09-17 14:41:01,432 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-10f789093fe1 hold=H-f58c8e granted in 27ms
+2026-09-17 14:41:01,568 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-10f789093fe1 checkout complete total=384.48
+2026-09-17 14:41:14,818 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-a4f8b0e5af91 checkout begin items=4
+2026-09-17 14:41:14,872 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-a4f8b0e5af91 reserve sku=SKU-39370 qty=3 hold=H-1970c9
+2026-09-17 14:41:14,903 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-a4f8b0e5af91 hold=H-1970c9 granted in 28ms
+2026-09-17 14:41:14,969 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-a4f8b0e5af91 reserve sku=SKU-31029 qty=3 hold=H-179cb7
+2026-09-17 14:41:15,009 [http-nio-8085] INFO  c.shop.orders.StockClient - trace=tr-a4f8b0e5af91 hold=H-179cb7 granted in 37ms
+2026-09-17 14:41:15,106 [http-nio-8085] INFO  c.shop.orders.CheckoutService - trace=tr-a4f8b0e5af91 checkout complete total=536.31
+2026-09-17 14:42:20,008 [sched-3] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:42:58,634 [sched-3] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:43:04,712 [sched-1] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:43:12,171 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-f76bdcbf0e00 checkout begin items=5
+2026-09-17 14:43:12,227 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-f76bdcbf0e00 reserve sku=SKU-21755 qty=2 hold=H-faa498
+2026-09-17 14:43:12,263 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-f76bdcbf0e00 hold=H-faa498 granted in 33ms
+2026-09-17 14:43:12,347 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-f76bdcbf0e00 reserve sku=SKU-26368 qty=2 hold=H-ae89f6
+2026-09-17 14:43:12,369 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-f76bdcbf0e00 hold=H-ae89f6 granted in 19ms
+2026-09-17 14:43:12,480 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-f76bdcbf0e00 checkout complete total=295.62
+2026-09-17 14:43:42,013 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-b756a08c28de checkout begin items=2
+2026-09-17 14:43:42,050 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-b756a08c28de reserve sku=SKU-39158 qty=3 hold=H-a04fae
+2026-09-17 14:43:42,112 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-b756a08c28de hold=H-a04fae granted in 59ms
+2026-09-17 14:43:42,152 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-b756a08c28de reserve sku=SKU-45859 qty=3 hold=H-096897
+2026-09-17 14:43:42,179 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-b756a08c28de hold=H-096897 granted in 24ms
+2026-09-17 14:43:42,304 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-b756a08c28de checkout complete total=47.23
+2026-09-17 14:43:42,385 [sched-1] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:43:51,896 [sched-2] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:44:31,084 [sched-3] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:44:48,812 [sched-4] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:45:00,930 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-0c24538e957d checkout begin items=1
+2026-09-17 14:45:00,966 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-0c24538e957d reserve sku=SKU-47735 qty=4 hold=H-21b533
+2026-09-17 14:45:01,018 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-0c24538e957d hold=H-21b533 granted in 49ms
+2026-09-17 14:45:01,084 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-0c24538e957d reserve sku=SKU-41888 qty=3 hold=H-737ea9
+2026-09-17 14:45:01,104 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-0c24538e957d hold=H-737ea9 granted in 17ms
+2026-09-17 14:45:01,140 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-0c24538e957d checkout complete total=71.33
+2026-09-17 14:46:04,196 [sched-3] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:46:07,012 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:46:23,427 [sched-4] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:46:42,346 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:46:44,623 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:47:21,128 [sched-1] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:47:30,014 [sched-3] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:47:33,325 [sched-3] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:47:36,156 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-b57bd30c017f checkout begin items=1
+2026-09-17 14:47:36,212 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b57bd30c017f reserve sku=SKU-34476 qty=4 hold=H-48ec99
+2026-09-17 14:47:36,278 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b57bd30c017f hold=H-48ec99 granted in 63ms
+2026-09-17 14:47:36,325 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b57bd30c017f reserve sku=SKU-57000 qty=2 hold=H-33b78f
+2026-09-17 14:47:36,388 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-b57bd30c017f hold=H-33b78f granted in 60ms
+2026-09-17 14:47:36,457 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-b57bd30c017f checkout complete total=228.85
+2026-09-17 14:48:05,365 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-f02206f5f701 checkout begin items=2
+2026-09-17 14:48:05,409 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-f02206f5f701 reserve sku=SKU-38384 qty=4 hold=H-02c9f2
+2026-09-17 14:48:05,443 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-f02206f5f701 hold=H-02c9f2 granted in 31ms
+2026-09-17 14:48:05,476 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-f02206f5f701 reserve sku=SKU-21800 qty=3 hold=H-60a7c7
+2026-09-17 14:48:05,550 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-f02206f5f701 hold=H-60a7c7 granted in 71ms
+2026-09-17 14:48:05,660 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-f02206f5f701 checkout complete total=213.28
+2026-09-17 14:48:24,584 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:48:33,225 [sched-3] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:48:33,898 [sched-3] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:48:36,914 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-c319048f49e9 checkout begin items=4
+2026-09-17 14:48:36,957 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-c319048f49e9 reserve sku=SKU-56338 qty=1 hold=H-d8ab68
+2026-09-17 14:48:37,014 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-c319048f49e9 hold=H-d8ab68 granted in 54ms
+2026-09-17 14:48:37,017 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-c319048f49e9 reserve sku=SKU-23828 qty=1 hold=H-f97930
+2026-09-17 14:48:37,064 [http-nio-8087] INFO  c.shop.orders.StockClient - trace=tr-c319048f49e9 hold=H-f97930 granted in 44ms
+2026-09-17 14:48:37,149 [http-nio-8087] INFO  c.shop.orders.CheckoutService - trace=tr-c319048f49e9 checkout complete total=156.52
+2026-09-17 14:48:47,994 [sched-1] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:48:52,741 [http-nio-8082] ERROR c.shop.orders.ShippingQuoteCache - ConcurrentModificationException: zone table changed during refresh
+	at com.shop.orders.ShippingQuoteCache.invoke(ShippingQuoteCache.java:532)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:48:53,036 [sched-2] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:49:21,287 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:49:31,650 [sched-4] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:49:32,703 [sched-3] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:49:46,103 [sched-2] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:49:52,764 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-b7349e787662 checkout begin items=3
+2026-09-17 14:49:52,802 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b7349e787662 reserve sku=SKU-28565 qty=4 hold=H-708f3e
+2026-09-17 14:49:52,863 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b7349e787662 hold=H-708f3e granted in 58ms
+2026-09-17 14:49:52,895 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b7349e787662 reserve sku=SKU-57943 qty=2 hold=H-58bb8a
+2026-09-17 14:49:52,941 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-b7349e787662 hold=H-58bb8a granted in 43ms
+2026-09-17 14:49:53,065 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-b7349e787662 checkout complete total=259.73
+2026-09-17 14:49:53,928 [sched-4] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:50:41,815 [sched-3] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:50:53,256 [http-nio-8087] ERROR c.shop.orders.TaxRateClient - SocketTimeoutException: Read timed out calling tax-svc
+	at com.shop.orders.TaxRateClient.handle(TaxRateClient.java:857)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:51:11,698 [sched-4] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:51:36,649 [sched-1] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:51:36,874 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-344fc34ee9b1 checkout begin items=5
+2026-09-17 14:51:36,920 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-344fc34ee9b1 reserve sku=SKU-36290 qty=4 hold=H-1460c7
+2026-09-17 14:51:36,936 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-344fc34ee9b1 hold=H-1460c7 granted in 13ms
+2026-09-17 14:51:37,010 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-344fc34ee9b1 reserve sku=SKU-57094 qty=2 hold=H-ffc0a3
+2026-09-17 14:51:37,036 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-344fc34ee9b1 hold=H-ffc0a3 granted in 23ms
+2026-09-17 14:51:37,114 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-344fc34ee9b1 checkout complete total=582.89
+2026-09-17 14:51:49,251 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-8cf8ddf36d0f checkout begin items=2
+2026-09-17 14:51:49,307 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-8cf8ddf36d0f reserve sku=SKU-12126 qty=3 hold=H-56ba6f
+2026-09-17 14:51:49,343 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-8cf8ddf36d0f hold=H-56ba6f granted in 33ms
+2026-09-17 14:51:49,403 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-8cf8ddf36d0f reserve sku=SKU-45565 qty=2 hold=H-2aee17
+2026-09-17 14:51:49,432 [http-nio-8083] INFO  c.shop.orders.StockClient - trace=tr-8cf8ddf36d0f hold=H-2aee17 granted in 26ms
+2026-09-17 14:51:49,517 [http-nio-8083] INFO  c.shop.orders.CheckoutService - trace=tr-8cf8ddf36d0f checkout complete total=580.55
+2026-09-17 14:51:50,826 [sched-2] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:52:52,650 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:52:57,055 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-98cc767ded67 checkout begin items=5
+2026-09-17 14:52:57,096 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-98cc767ded67 reserve sku=SKU-37826 qty=4 hold=H-6fd20d
+2026-09-17 14:52:57,147 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-98cc767ded67 hold=H-6fd20d granted in 48ms
+2026-09-17 14:52:57,205 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-98cc767ded67 reserve sku=SKU-13951 qty=1 hold=H-d91fb8
+2026-09-17 14:52:57,256 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-98cc767ded67 hold=H-d91fb8 granted in 48ms
+2026-09-17 14:52:57,312 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-98cc767ded67 checkout complete total=163.27
+2026-09-17 14:53:33,115 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-e495f20c064f checkout begin items=3
+2026-09-17 14:53:33,169 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-e495f20c064f reserve sku=SKU-58295 qty=4 hold=H-efa6b0
+2026-09-17 14:53:33,218 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-e495f20c064f hold=H-efa6b0 granted in 46ms
+2026-09-17 14:53:33,242 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-e495f20c064f reserve sku=SKU-27823 qty=2 hold=H-628e97
+2026-09-17 14:53:33,301 [http-nio-8089] INFO  c.shop.orders.StockClient - trace=tr-e495f20c064f hold=H-628e97 granted in 56ms
+2026-09-17 14:53:33,381 [http-nio-8089] INFO  c.shop.orders.CheckoutService - trace=tr-e495f20c064f checkout complete total=171.05
+2026-09-17 14:53:44,519 [sched-2] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:53:45,474 [sched-4] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:54:19,925 [sched-4] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:54:24,758 [sched-2] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:54:35,376 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-dba2591dd61e checkout begin items=3
+2026-09-17 14:54:35,414 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-dba2591dd61e reserve sku=SKU-16550 qty=3 hold=H-d98469
+2026-09-17 14:54:35,471 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-dba2591dd61e hold=H-d98469 granted in 54ms
+2026-09-17 14:54:35,493 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-dba2591dd61e reserve sku=SKU-11628 qty=2 hold=H-645924
+2026-09-17 14:54:35,509 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-dba2591dd61e hold=H-645924 granted in 13ms
+2026-09-17 14:54:35,556 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-dba2591dd61e checkout complete total=479.87
+2026-09-17 14:54:53,984 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:55:40,218 [sched-4] INFO  c.shop.orders.CartCache - evicted 212 entries (ttl)
+2026-09-17 14:56:04,014 [sched-1] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:56:06,519 [sched-4] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:56:16,671 [http-nio-8083] ERROR c.shop.orders.InvoiceRenderer - IllegalStateException: font cache not initialised
+	at com.shop.orders.InvoiceRenderer.dispatch(InvoiceRenderer.java:492)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-17 14:56:31,005 [sched-3] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:56:36,501 [sched-1] WARN  c.shop.orders.TaxRateClient - tax-svc slow response 1210ms
+2026-09-17 14:56:47,377 [sched-2] DEBUG c.shop.orders.CartCache - hit ratio 0.93
+2026-09-17 14:57:23,571 [sched-1] INFO  c.shop.orders.PromoCodeResolver - loaded 31 active promos
+2026-09-17 14:57:49,801 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-9e5fdbe716f3 checkout begin items=1
+2026-09-17 14:57:49,855 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-9e5fdbe716f3 reserve sku=SKU-37496 qty=4 hold=H-8f1245
+2026-09-17 14:57:49,916 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-9e5fdbe716f3 reserve sku=SKU-52974 qty=2 hold=H-89a0dc
+2026-09-17 14:57:49,918 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-9e5fdbe716f3 hold=H-8f1245 granted in 60ms
+2026-09-17 14:57:49,939 [http-nio-8084] INFO  c.shop.orders.StockClient - trace=tr-9e5fdbe716f3 hold=H-89a0dc granted in 20ms
+2026-09-17 14:57:49,992 [http-nio-8084] INFO  c.shop.orders.CheckoutService - trace=tr-9e5fdbe716f3 checkout complete total=292.61
+2026-09-17 14:57:52,468 [sched-3] INFO  c.shop.orders.OrderRepository - vacuum hint applied table=orders_archive
+2026-09-17 14:58:29,672 [sched-4] INFO  c.shop.orders.SchedulerTick - tick completed jobs=3 lag=4ms
+2026-09-17 14:59:06,042 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-20ee064dc271 checkout begin items=4
+2026-09-17 14:59:06,101 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-20ee064dc271 reserve sku=SKU-36579 qty=3 hold=H-df7c4e
+2026-09-17 14:59:06,145 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-20ee064dc271 hold=H-df7c4e granted in 41ms
+2026-09-17 14:59:06,189 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-20ee064dc271 reserve sku=SKU-52376 qty=2 hold=H-583413
+2026-09-17 14:59:06,226 [http-nio-8080] INFO  c.shop.orders.StockClient - trace=tr-20ee064dc271 hold=H-583413 granted in 34ms
+2026-09-17 14:59:06,327 [http-nio-8080] INFO  c.shop.orders.CheckoutService - trace=tr-20ee064dc271 checkout complete total=367.26
+2026-09-17 14:59:09,901 [sched-2] INFO  c.shop.orders.ShippingQuoteCache - refreshed 64 zones
+2026-09-17 14:59:18,408 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-08104ace8d19 checkout begin items=5
+2026-09-17 14:59:18,467 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08104ace8d19 reserve sku=SKU-29844 qty=1 hold=H-a689f1
+2026-09-17 14:59:18,485 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08104ace8d19 hold=H-a689f1 granted in 15ms
+2026-09-17 14:59:18,586 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08104ace8d19 reserve sku=SKU-16891 qty=3 hold=H-8dfbbb
+2026-09-17 14:59:18,639 [http-nio-8088] INFO  c.shop.orders.StockClient - trace=tr-08104ace8d19 hold=H-8dfbbb granted in 50ms
+2026-09-17 14:59:18,701 [http-nio-8088] INFO  c.shop.orders.CheckoutService - trace=tr-08104ace8d19 checkout complete total=28.68
+2026-09-17 14:59:24,778 [sched-4] WARN  c.shop.orders.PromoCodeResolver - promo code SPRING25 expired, ignoring
+2026-09-17 14:59:45,853 [sched-1] INFO  c.shop.orders.MetricsFlusher - flushed 418 samples
+2026-09-17 14:59:46,786 [sched-2] DEBUG c.shop.orders.CartCache - hit ratio 0.93

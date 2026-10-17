@@ -1,0 +1,680 @@
+[2026-10-21 21:00:01.885] gw-edge-1 INFO  rid=c920fe22-dc96-4ce9-a0df-5f8055de4c32 POST /api/login client=192.164.88.159
+[2026-10-21 21:00:02.069] gw-edge-1 INFO  rid=c920fe22-dc96-4ce9-a0df-5f8055de4c32 <- 200 in 184ms
+[2026-10-21 21:00:06.615] gw-edge-1 INFO  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:00:18.820] gw-edge-1 INFO  rid=51e28d29-39df-4275-87f8-9e5120611b0f PATCH /api/orders/ORD-60984/address client=198.144.174.18
+[2026-10-21 21:00:18.824] gw-edge-1 INFO  rid=51e28d29-39df-4275-87f8-9e5120611b0f -> orders-svc x-trace-id=aa58092f179c timeout=5000ms
+[2026-10-21 21:00:19.134] gw-edge-1 INFO  rid=51e28d29-39df-4275-87f8-9e5120611b0f <- 200 in 314ms
+[2026-10-21 21:00:22.158] gw-edge-1 INFO  rid=e9f9e38b-6d63-4351-8971-f8ad54794953 PATCH /api/orders/ORD-61275/address client=10.30.157.189
+[2026-10-21 21:00:22.162] gw-edge-1 INFO  rid=e9f9e38b-6d63-4351-8971-f8ad54794953 -> orders-svc x-trace-id=9c9ddc2be5a5 timeout=5000ms
+[2026-10-21 21:00:22.424] gw-edge-1 INFO  rid=e9f9e38b-6d63-4351-8971-f8ad54794953 <- 200 in 266ms
+[2026-10-21 21:00:24.755] gw-edge-3 WARN  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:00:46.350] gw-edge-2 INFO  rid=5b0f39f3-e93f-421f-954b-ebd41305e3fa GET /api/products/SKU-10443 client=198.180.70.86
+[2026-10-21 21:00:46.490] gw-edge-2 INFO  rid=5b0f39f3-e93f-421f-954b-ebd41305e3fa <- 200 in 140ms
+[2026-10-21 21:00:47.889] gw-edge-1 INFO  rid=c705b0da-60e8-468c-ac1e-79a8aee12608 PATCH /api/orders/ORD-61142/address client=192.134.53.229
+[2026-10-21 21:00:47.893] gw-edge-1 INFO  rid=c705b0da-60e8-468c-ac1e-79a8aee12608 -> orders-svc x-trace-id=be6ad57ad2a0 timeout=5000ms
+[2026-10-21 21:00:48.148] gw-edge-1 INFO  rid=c705b0da-60e8-468c-ac1e-79a8aee12608 <- 200 in 259ms
+[2026-10-21 21:01:05.148] gw-edge-3 INFO  rid=6e798b50-c790-41a1-ba4b-17a6acaf5ee3 PATCH /api/orders/ORD-61755/address client=172.195.63.231
+[2026-10-21 21:01:05.154] gw-edge-3 INFO  rid=6e798b50-c790-41a1-ba4b-17a6acaf5ee3 -> orders-svc x-trace-id=0c9632368102 timeout=5000ms
+[2026-10-21 21:01:05.445] gw-edge-3 INFO  rid=6e798b50-c790-41a1-ba4b-17a6acaf5ee3 <- 200 in 297ms
+[2026-10-21 21:01:07.415] gw-edge-1 INFO  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:01:15.157] gw-edge-1 INFO  rid=56e300f8-c3c7-4616-8853-f6a7c76d50be PATCH /api/orders/ORD-61774/address client=10.246.67.70
+[2026-10-21 21:01:15.162] gw-edge-1 INFO  rid=56e300f8-c3c7-4616-8853-f6a7c76d50be -> orders-svc x-trace-id=573ec3f23b45 timeout=5000ms
+[2026-10-21 21:01:15.501] gw-edge-1 INFO  rid=56e300f8-c3c7-4616-8853-f6a7c76d50be <- 200 in 344ms
+[2026-10-21 21:01:19.470] gw-edge-2 INFO  rid=52a417bb-14be-4c4b-978f-1e65806c512f PATCH /api/orders/ORD-61109/address client=203.64.66.236
+[2026-10-21 21:01:19.476] gw-edge-2 INFO  rid=52a417bb-14be-4c4b-978f-1e65806c512f -> orders-svc x-trace-id=58fa948b8da2 timeout=5000ms
+[2026-10-21 21:01:19.799] gw-edge-2 INFO  rid=52a417bb-14be-4c4b-978f-1e65806c512f <- 200 in 329ms
+[2026-10-21 21:01:38.005] gw-edge-3 INFO  rid=b3f1e07b-52e5-4c6a-acee-38a391f35089 POST /api/login client=203.72.155.163
+[2026-10-21 21:01:38.008] gw-edge-3 WARN  rid=b3f1e07b-52e5-4c6a-acee-38a391f35089 <- 429 in 3ms
+[2026-10-21 21:01:54.410] gw-edge-2 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:01:55.521] gw-edge-2 INFO  rid=a997faaf-c38c-46bb-8ad9-ceb364bdc0a0 GET /healthz client=192.145.168.200
+[2026-10-21 21:01:55.707] gw-edge-2 INFO  rid=a997faaf-c38c-46bb-8ad9-ceb364bdc0a0 <- 200 in 186ms
+[2026-10-21 21:02:11.330] gw-edge-2 INFO  rid=1e7dd515-5477-4b5d-9767-efb5571b082b GET /api/products/SKU-51929 client=10.29.157.121
+[2026-10-21 21:02:11.393] gw-edge-2 INFO  rid=1e7dd515-5477-4b5d-9767-efb5571b082b <- 200 in 63ms
+[2026-10-21 21:02:16.756] gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:02:19.807] gw-edge-2 INFO  rid=4d312e0b-7e86-444f-9923-488d18dc333a GET /api/orders client=192.254.58.240
+[2026-10-21 21:02:19.978] gw-edge-2 INFO  rid=4d312e0b-7e86-444f-9923-488d18dc333a <- 200 in 171ms
+[2026-10-21 21:02:21.768] gw-edge-2 INFO  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:02:31.768] gw-edge-1 INFO  rid=76ed79dd-1c74-4391-a8bf-804cf7349f0a GET /api/orders client=172.138.56.202
+[2026-10-21 21:02:31.880] gw-edge-1 INFO  rid=76ed79dd-1c74-4391-a8bf-804cf7349f0a <- 200 in 112ms
+[2026-10-21 21:02:39.465] gw-edge-1 INFO  upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:03:03.949] gw-edge-1 INFO  rid=75cb9eed-994d-4510-8856-f8e35236728b PATCH /api/orders/ORD-61538/address client=192.235.21.30
+[2026-10-21 21:03:03.955] gw-edge-1 INFO  rid=75cb9eed-994d-4510-8856-f8e35236728b -> orders-svc x-trace-id=327b81ea10b2 timeout=5000ms
+[2026-10-21 21:03:04.158] gw-edge-1 INFO  rid=75cb9eed-994d-4510-8856-f8e35236728b <- 200 in 209ms
+[2026-10-21 21:03:04.177] gw-edge-2 INFO  rid=b5e15ba3-762e-4d7e-be94-9ce6006713c8 PATCH /api/orders/ORD-61660/address client=192.83.23.170
+[2026-10-21 21:03:04.183] gw-edge-2 INFO  rid=b5e15ba3-762e-4d7e-be94-9ce6006713c8 -> orders-svc x-trace-id=ed11a9f00c8d timeout=5000ms
+[2026-10-21 21:03:04.461] gw-edge-2 INFO  rid=b5e15ba3-762e-4d7e-be94-9ce6006713c8 <- 200 in 284ms
+[2026-10-21 21:03:09.481] gw-edge-3 WARN  config reload ok routes=148
+[2026-10-21 21:03:16.564] gw-edge-3 INFO  rid=65bd78f1-cc2d-4f33-b9b0-40a39e378173 PATCH /api/orders/ORD-61133/address client=10.62.140.68
+[2026-10-21 21:03:16.567] gw-edge-3 INFO  rid=65bd78f1-cc2d-4f33-b9b0-40a39e378173 -> orders-svc x-trace-id=59a1bb64f6a7 timeout=5000ms
+[2026-10-21 21:03:16.757] gw-edge-3 INFO  rid=65bd78f1-cc2d-4f33-b9b0-40a39e378173 <- 200 in 193ms
+[2026-10-21 21:03:22.165] gw-edge-1 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:03:51.079] gw-edge-2 INFO  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:04:01.167] gw-edge-3 ERROR upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:04:12.884] gw-edge-1 INFO  rid=0b3892d0-4004-4fc2-9d89-773dcc17cdd8 PUT /api/addresses/default client=198.153.190.185
+[2026-10-21 21:04:13.001] gw-edge-1 INFO  rid=0b3892d0-4004-4fc2-9d89-773dcc17cdd8 <- 200 in 117ms
+[2026-10-21 21:04:21.076] gw-edge-1 INFO  rid=ef8772a5-b9d4-42a4-bc62-666932fb3973 GET /api/addresses client=203.233.207.105
+[2026-10-21 21:04:21.285] gw-edge-1 INFO  rid=ef8772a5-b9d4-42a4-bc62-666932fb3973 <- 200 in 209ms
+[2026-10-21 21:04:32.256] gw-edge-2 INFO  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:04:46.913] gw-edge-2 INFO  rid=eabb276a-f195-4f53-bb4d-eadb652c563d PATCH /api/orders/ORD-61515/address client=198.64.196.248
+[2026-10-21 21:04:46.919] gw-edge-2 INFO  rid=eabb276a-f195-4f53-bb4d-eadb652c563d -> orders-svc x-trace-id=7ba5ef2840ec timeout=5000ms
+[2026-10-21 21:04:47.146] gw-edge-2 INFO  rid=eabb276a-f195-4f53-bb4d-eadb652c563d <- 200 in 233ms
+[2026-10-21 21:04:48.362] gw-edge-1 INFO  rid=1d04f8ba-97d6-4b09-8ba2-4fc2eaf6a8cf GET /api/orders/ORD-61460 client=10.68.204.103
+[2026-10-21 21:04:48.373] gw-edge-1 WARN  rid=1d04f8ba-97d6-4b09-8ba2-4fc2eaf6a8cf <- 400 in 11ms
+[2026-10-21 21:04:50.447] gw-edge-2 INFO  rid=6ccc6f57-8a74-47c0-bd9d-b0f51a4d3cf2 PATCH /api/orders/ORD-61361/address client=203.152.75.144
+[2026-10-21 21:04:50.452] gw-edge-2 INFO  rid=6ccc6f57-8a74-47c0-bd9d-b0f51a4d3cf2 -> orders-svc x-trace-id=496bbcc3d6d7 timeout=5000ms
+[2026-10-21 21:04:50.776] gw-edge-2 INFO  rid=6ccc6f57-8a74-47c0-bd9d-b0f51a4d3cf2 <- 200 in 329ms
+[2026-10-21 21:04:56.275] gw-edge-3 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:05:00.924] gw-edge-3 WARN  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:05:16.271] gw-edge-2 WARN  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:05:21.367] gw-edge-2 INFO  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:05:35.293] gw-edge-2 INFO  rid=21602d98-06b6-42ab-8f8e-7bc2369aa665 GET /api/addresses client=198.29.189.147
+[2026-10-21 21:05:35.410] gw-edge-2 INFO  rid=21602d98-06b6-42ab-8f8e-7bc2369aa665 <- 200 in 117ms
+[2026-10-21 21:06:03.629] gw-edge-3 INFO  rid=5a64ea82-4003-4116-8ced-1f4255d62d80 GET /api/addresses client=10.114.28.242
+[2026-10-21 21:06:03.695] gw-edge-3 INFO  rid=5a64ea82-4003-4116-8ced-1f4255d62d80 <- 200 in 66ms
+[2026-10-21 21:06:07.481] gw-edge-2 INFO  rid=969fd970-9c96-4953-bd2b-3b4671e4aa49 PATCH /api/orders/ORD-60696/address client=10.156.126.121
+[2026-10-21 21:06:07.483] gw-edge-2 INFO  rid=969fd970-9c96-4953-bd2b-3b4671e4aa49 -> orders-svc x-trace-id=24c1578fd7a6 timeout=5000ms
+[2026-10-21 21:06:07.832] gw-edge-2 INFO  rid=969fd970-9c96-4953-bd2b-3b4671e4aa49 <- 200 in 351ms
+[2026-10-21 21:06:20.066] gw-edge-1 INFO  rid=d4f1813d-8f12-4342-8748-7bf97ce0aa55 GET /api/products/SKU-40645 client=10.215.100.4
+[2026-10-21 21:06:20.282] gw-edge-1 INFO  rid=d4f1813d-8f12-4342-8748-7bf97ce0aa55 <- 200 in 216ms
+[2026-10-21 21:06:45.476] gw-edge-1 INFO  rid=f6a501c1-5002-46b2-bd7a-ecadaa1cf8d8 PUT /api/addresses/default client=10.203.207.239
+[2026-10-21 21:06:45.516] gw-edge-1 INFO  rid=f6a501c1-5002-46b2-bd7a-ecadaa1cf8d8 <- 200 in 40ms
+[2026-10-21 21:07:03.786] gw-edge-2 INFO  rid=05dfc16c-0d9e-4514-8f77-c5af68defc41 PATCH /api/orders/ORD-60524/address client=172.96.94.54
+[2026-10-21 21:07:03.791] gw-edge-2 INFO  rid=05dfc16c-0d9e-4514-8f77-c5af68defc41 -> orders-svc x-trace-id=3bffb3cbfa5b timeout=5000ms
+[2026-10-21 21:07:03.817] gw-edge-3 INFO  rid=f3f6678f-5e49-4d7d-91b0-80f38163e3f1 PATCH /api/orders/ORD-61399/address client=198.157.16.223
+[2026-10-21 21:07:03.821] gw-edge-3 INFO  rid=f3f6678f-5e49-4d7d-91b0-80f38163e3f1 -> orders-svc x-trace-id=6bd8597324f1 timeout=5000ms
+[2026-10-21 21:07:04.116] gw-edge-3 INFO  rid=f3f6678f-5e49-4d7d-91b0-80f38163e3f1 <- 200 in 299ms
+[2026-10-21 21:07:04.149] gw-edge-2 INFO  rid=05dfc16c-0d9e-4514-8f77-c5af68defc41 <- 200 in 363ms
+[2026-10-21 21:07:22.126] gw-edge-2 INFO  rid=993ec2d1-60a8-42f8-98d3-5850a2418766 GET /api/orders client=198.64.38.103
+[2026-10-21 21:07:22.151] gw-edge-2 INFO  rid=993ec2d1-60a8-42f8-98d3-5850a2418766 <- 200 in 25ms
+[2026-10-21 21:07:50.163] gw-edge-1 WARN  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:07:58.916] gw-edge-3 INFO  rid=86e56ba1-1e13-44b9-ab2e-7ba952683285 POST /api/login client=192.249.53.209
+[2026-10-21 21:07:58.925] gw-edge-3 WARN  rid=86e56ba1-1e13-44b9-ab2e-7ba952683285 <- 404 in 9ms
+[2026-10-21 21:07:59.165] gw-edge-1 INFO  rid=cc7e53c9-357f-4671-9e70-6a6bac4f654c PATCH /api/orders/ORD-61805/address client=203.254.159.156
+[2026-10-21 21:07:59.171] gw-edge-1 INFO  rid=cc7e53c9-357f-4671-9e70-6a6bac4f654c -> orders-svc x-trace-id=930fc8be7fff timeout=5000ms
+[2026-10-21 21:07:59.421] gw-edge-1 INFO  rid=cc7e53c9-357f-4671-9e70-6a6bac4f654c <- 200 in 256ms
+[2026-10-21 21:08:21.957] gw-edge-2 INFO  rid=d1c6da2f-5b72-4940-af3c-a488c142c5e6 PATCH /api/orders/ORD-60967/address client=198.153.175.47
+[2026-10-21 21:08:21.959] gw-edge-2 INFO  rid=d1c6da2f-5b72-4940-af3c-a488c142c5e6 -> orders-svc x-trace-id=4afe8047f4e3 timeout=5000ms
+[2026-10-21 21:08:22.201] gw-edge-2 INFO  rid=d1c6da2f-5b72-4940-af3c-a488c142c5e6 <- 200 in 244ms
+[2026-10-21 21:08:25.289] gw-edge-2 INFO  rid=4fbeec39-ad03-49f1-b5d1-6debccd0c93d POST /api/login client=203.63.79.109
+[2026-10-21 21:08:25.297] gw-edge-2 INFO  rid=4fbeec39-ad03-49f1-b5d1-6debccd0c93d <- 200 in 8ms
+[2026-10-21 21:08:33.341] gw-edge-3 INFO  rid=cbb02368-3c59-4bb0-aed0-d5784c4a8bde GET /healthz client=198.233.208.114
+[2026-10-21 21:08:33.408] gw-edge-3 INFO  rid=cbb02368-3c59-4bb0-aed0-d5784c4a8bde <- 200 in 67ms
+[2026-10-21 21:08:38.645] gw-edge-3 INFO  rid=675f4229-fb5a-40c2-9bce-420339070e56 PATCH /api/orders/ORD-61000/address client=192.40.58.42
+[2026-10-21 21:08:38.648] gw-edge-3 INFO  rid=675f4229-fb5a-40c2-9bce-420339070e56 -> orders-svc x-trace-id=97ab83748fbc timeout=5000ms
+[2026-10-21 21:08:38.893] gw-edge-3 INFO  rid=675f4229-fb5a-40c2-9bce-420339070e56 <- 200 in 248ms
+[2026-10-21 21:08:40.123] gw-edge-2 INFO  rid=93d38409-62c4-484a-a019-c825b275f79a PATCH /api/orders/ORD-61996/address client=192.176.149.7
+[2026-10-21 21:08:40.129] gw-edge-2 INFO  rid=93d38409-62c4-484a-a019-c825b275f79a -> orders-svc x-trace-id=4f50cd5df5c3 timeout=5000ms
+[2026-10-21 21:08:40.392] gw-edge-2 INFO  rid=93d38409-62c4-484a-a019-c825b275f79a <- 200 in 269ms
+[2026-10-21 21:09:02.040] gw-edge-2 INFO  rid=1e19dafc-6fe1-43da-8c03-feb8de27a1bb PATCH /api/orders/ORD-61027/address client=172.117.146.210
+[2026-10-21 21:09:02.045] gw-edge-2 INFO  rid=1e19dafc-6fe1-43da-8c03-feb8de27a1bb -> orders-svc x-trace-id=6bd8086209b2 timeout=5000ms
+[2026-10-21 21:09:02.364] gw-edge-2 INFO  rid=1e19dafc-6fe1-43da-8c03-feb8de27a1bb <- 200 in 324ms
+[2026-10-21 21:09:10.018] gw-edge-2 WARN  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:09:16.451] gw-edge-2 ERROR upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:09:23.323] gw-edge-3 ERROR upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:09:47.378] gw-edge-2 WARN  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:09:53.712] gw-edge-2 INFO  rid=6737063c-0055-472c-9f6e-075771ed1645 GET /api/orders/ORD-60846 client=192.75.146.161
+[2026-10-21 21:09:53.871] gw-edge-2 INFO  rid=6737063c-0055-472c-9f6e-075771ed1645 <- 200 in 159ms
+[2026-10-21 21:10:06.314] gw-edge-3 INFO  rid=534455e9-954a-4312-84e8-99472caa9d06 PATCH /api/orders/ORD-61487/address client=10.71.93.206
+[2026-10-21 21:10:06.319] gw-edge-3 INFO  rid=534455e9-954a-4312-84e8-99472caa9d06 -> orders-svc x-trace-id=361c8893990a timeout=5000ms
+[2026-10-21 21:10:06.554] gw-edge-3 INFO  rid=534455e9-954a-4312-84e8-99472caa9d06 <- 200 in 240ms
+[2026-10-21 21:10:07.124] gw-edge-3 INFO  rid=27fc27be-4fe7-4e5e-8e51-9304b2e9dcfe GET /api/addresses client=10.226.111.73
+[2026-10-21 21:10:07.229] gw-edge-3 INFO  rid=27fc27be-4fe7-4e5e-8e51-9304b2e9dcfe <- 200 in 105ms
+[2026-10-21 21:10:15.966] gw-edge-2 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:10:22.588] gw-edge-3 INFO  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:10:33.270] gw-edge-3 INFO  rid=503a25c8-47d8-445b-bea8-59524cecd3f0 PATCH /api/orders/ORD-61737/address client=192.63.1.133
+[2026-10-21 21:10:33.276] gw-edge-3 INFO  rid=503a25c8-47d8-445b-bea8-59524cecd3f0 -> orders-svc x-trace-id=655fd16d1e7d timeout=5000ms
+[2026-10-21 21:10:33.584] gw-edge-3 INFO  rid=503a25c8-47d8-445b-bea8-59524cecd3f0 <- 200 in 314ms
+[2026-10-21 21:10:47.513] gw-edge-1 INFO  rid=2941080e-cf7c-4127-a156-6ac2d5e3999d GET /api/orders/ORD-61495 client=203.90.176.116
+[2026-10-21 21:10:47.619] gw-edge-1 INFO  rid=2941080e-cf7c-4127-a156-6ac2d5e3999d <- 200 in 106ms
+[2026-10-21 21:10:47.944] gw-edge-3 ERROR rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:11:13.893] gw-edge-2 INFO  rid=93b0193e-f859-41b4-8f78-d74936a6240c POST /api/login client=198.63.187.242
+[2026-10-21 21:11:14.055] gw-edge-2 INFO  rid=93b0193e-f859-41b4-8f78-d74936a6240c <- 200 in 162ms
+[2026-10-21 21:11:19.220] gw-edge-1 WARN  upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:11:24.230] gw-edge-1 WARN  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:11:44.223] gw-edge-2 INFO  rid=e3ec81bb-1e75-4ad5-9cde-8a9cb245a8c2 PATCH /api/orders/ORD-61927/address client=172.133.236.126
+[2026-10-21 21:11:44.228] gw-edge-2 INFO  rid=e3ec81bb-1e75-4ad5-9cde-8a9cb245a8c2 -> orders-svc x-trace-id=7c0527e16b1a timeout=5000ms
+[2026-10-21 21:11:44.509] gw-edge-2 INFO  rid=e3ec81bb-1e75-4ad5-9cde-8a9cb245a8c2 <- 200 in 286ms
+[2026-10-21 21:11:45.768] gw-edge-2 WARN  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:11:58.315] gw-edge-1 INFO  rid=a29283f6-5778-474c-a51f-a2594ed09c2d POST /api/login client=198.25.205.169
+[2026-10-21 21:11:58.321] gw-edge-1 INFO  rid=a29283f6-5778-474c-a51f-a2594ed09c2d <- 200 in 6ms
+[2026-10-21 21:12:06.270] gw-edge-2 INFO  rid=555f1775-17af-44cc-9b53-35e75e5dd4b4 PATCH /api/orders/ORD-61848/address client=203.88.93.29
+[2026-10-21 21:12:06.275] gw-edge-2 INFO  rid=555f1775-17af-44cc-9b53-35e75e5dd4b4 -> orders-svc x-trace-id=cea342c41424 timeout=5000ms
+[2026-10-21 21:12:06.488] gw-edge-2 INFO  rid=555f1775-17af-44cc-9b53-35e75e5dd4b4 <- 200 in 218ms
+[2026-10-21 21:12:08.780] gw-edge-2 INFO  rid=8187dec2-123a-42e6-82c3-11de1510baf4 GET /api/products/SKU-15042 client=10.41.172.10
+[2026-10-21 21:12:08.802] gw-edge-2 INFO  rid=8187dec2-123a-42e6-82c3-11de1510baf4 <- 200 in 22ms
+[2026-10-21 21:12:13.016] gw-edge-1 INFO  rid=ca22a1d0-10fa-4610-a57d-69510cd184f6 GET /api/orders/ORD-61476 client=198.171.99.25
+[2026-10-21 21:12:13.168] gw-edge-1 INFO  rid=ca22a1d0-10fa-4610-a57d-69510cd184f6 <- 200 in 152ms
+[2026-10-21 21:12:37.813] gw-edge-3 INFO  rid=afa60407-9608-4c9f-8ecd-ed1107a6c119 PATCH /api/orders/ORD-61450/address client=10.196.253.116
+[2026-10-21 21:12:37.816] gw-edge-3 INFO  rid=afa60407-9608-4c9f-8ecd-ed1107a6c119 -> orders-svc x-trace-id=9f4d9e8f978a timeout=5000ms
+[2026-10-21 21:12:38.077] gw-edge-3 INFO  rid=afa60407-9608-4c9f-8ecd-ed1107a6c119 <- 200 in 264ms
+[2026-10-21 21:12:51.843] gw-edge-2 INFO  rid=a4d1e42f-c8de-4371-88c2-fd1114d6beb1 GET /api/orders client=192.20.13.231
+[2026-10-21 21:12:51.948] gw-edge-2 INFO  rid=a4d1e42f-c8de-4371-88c2-fd1114d6beb1 <- 200 in 105ms
+[2026-10-21 21:13:02.630] gw-edge-3 INFO  rid=6cf17764-2886-4b74-9f77-513f5283d733 GET /healthz client=203.211.79.139
+[2026-10-21 21:13:02.730] gw-edge-3 INFO  rid=6cf17764-2886-4b74-9f77-513f5283d733 <- 200 in 100ms
+[2026-10-21 21:13:25.900] gw-edge-1 INFO  rid=6ded195a-8e05-4cf3-ac98-c5e86fef8f38 POST /api/login client=172.48.107.41
+[2026-10-21 21:13:26.116] gw-edge-1 INFO  rid=6ded195a-8e05-4cf3-ac98-c5e86fef8f38 <- 200 in 216ms
+[2026-10-21 21:14:16.052] gw-edge-2 INFO  rid=1da88977-6d9e-4a12-a618-a604033e8f5d PUT /api/addresses/default client=192.239.210.59
+[2026-10-21 21:14:16.143] gw-edge-2 INFO  rid=1da88977-6d9e-4a12-a618-a604033e8f5d <- 200 in 91ms
+[2026-10-21 21:14:18.064] gw-edge-2 INFO  rid=e8083079-f8b7-4a04-9b32-f158ed9cecaa GET /api/addresses client=198.43.9.186
+[2026-10-21 21:14:18.085] gw-edge-2 INFO  rid=e8083079-f8b7-4a04-9b32-f158ed9cecaa <- 200 in 21ms
+[2026-10-21 21:14:46.325] gw-edge-1 WARN  upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:15:08.837] gw-edge-2 INFO  rid=874725e8-8a11-4ad0-bc43-56544004e645 POST /api/login client=203.191.167.218
+[2026-10-21 21:15:08.979] gw-edge-2 INFO  rid=874725e8-8a11-4ad0-bc43-56544004e645 <- 200 in 142ms
+[2026-10-21 21:15:41.166] gw-edge-2 INFO  rid=05b48f11-7f92-4655-8a69-4a4bb4d895cc PATCH /api/orders/ORD-61584/address client=203.115.60.247
+[2026-10-21 21:15:41.171] gw-edge-2 INFO  rid=05b48f11-7f92-4655-8a69-4a4bb4d895cc -> orders-svc x-trace-id=e9475cda7f9c timeout=5000ms
+[2026-10-21 21:15:41.448] gw-edge-2 INFO  rid=05b48f11-7f92-4655-8a69-4a4bb4d895cc <- 200 in 282ms
+[2026-10-21 21:15:42.608] gw-edge-1 INFO  rid=fd624904-98ef-44b5-aa32-541dc196dc4c PATCH /api/orders/ORD-61161/address client=10.44.176.16
+[2026-10-21 21:15:42.613] gw-edge-1 INFO  rid=fd624904-98ef-44b5-aa32-541dc196dc4c -> orders-svc x-trace-id=663cd3117d69 timeout=5000ms
+[2026-10-21 21:15:42.880] gw-edge-1 INFO  rid=fd624904-98ef-44b5-aa32-541dc196dc4c <- 200 in 272ms
+[2026-10-21 21:15:45.000] gw-edge-3 INFO  rid=bb1ccd3b-ea5c-4da4-bdd0-120d302570dc PATCH /api/orders/ORD-60501/address client=172.30.3.85
+[2026-10-21 21:15:45.004] gw-edge-3 INFO  rid=bb1ccd3b-ea5c-4da4-bdd0-120d302570dc -> orders-svc x-trace-id=77f94b66e27d timeout=5000ms
+[2026-10-21 21:15:45.178] gw-edge-3 INFO  rid=bb1ccd3b-ea5c-4da4-bdd0-120d302570dc <- 200 in 178ms
+[2026-10-21 21:16:25.969] gw-edge-3 ERROR route cache refreshed entries=148 took=12ms
+[2026-10-21 21:16:32.136] gw-edge-3 INFO  rid=143d8b87-7509-4e50-86ff-b1a23a6b3fd4 PATCH /api/orders/ORD-61102/address client=10.129.139.96
+[2026-10-21 21:16:32.142] gw-edge-3 INFO  rid=143d8b87-7509-4e50-86ff-b1a23a6b3fd4 -> orders-svc x-trace-id=6d0a5b8e60fc timeout=5000ms
+[2026-10-21 21:16:32.448] gw-edge-3 INFO  rid=143d8b87-7509-4e50-86ff-b1a23a6b3fd4 <- 200 in 312ms
+[2026-10-21 21:16:41.045] gw-edge-2 INFO  rid=66185be6-bfc9-4f59-82b9-9f3a7574126e GET /api/orders client=172.222.238.221
+[2026-10-21 21:16:41.133] gw-edge-2 INFO  rid=66185be6-bfc9-4f59-82b9-9f3a7574126e <- 200 in 88ms
+[2026-10-21 21:16:44.275] gw-edge-1 INFO  rid=43d514ca-8648-4972-b184-1c68766e4e93 GET /api/addresses client=203.234.19.153
+[2026-10-21 21:16:44.362] gw-edge-1 INFO  rid=43d514ca-8648-4972-b184-1c68766e4e93 <- 200 in 87ms
+[2026-10-21 21:16:47.401] gw-edge-2 INFO  rid=ff9a9afa-6973-4464-ae21-ccd4d369a582 GET /api/products/SKU-10789 client=172.145.187.76
+[2026-10-21 21:16:47.478] gw-edge-2 INFO  rid=ff9a9afa-6973-4464-ae21-ccd4d369a582 <- 200 in 77ms
+[2026-10-21 21:17:03.532] gw-edge-2 INFO  rid=88214773-4071-4c94-9ba7-e5ff55359b59 GET /api/orders/ORD-60604 client=198.55.239.235
+[2026-10-21 21:17:03.548] gw-edge-2 INFO  rid=88214773-4071-4c94-9ba7-e5ff55359b59 <- 200 in 16ms
+[2026-10-21 21:17:06.246] gw-edge-2 INFO  rid=ceb32a4c-2dfb-44d6-8f95-f9a6572078f3 GET /api/orders client=10.149.16.34
+[2026-10-21 21:17:06.341] gw-edge-2 INFO  rid=ceb32a4c-2dfb-44d6-8f95-f9a6572078f3 <- 200 in 95ms
+[2026-10-21 21:17:09.455] gw-edge-3 WARN  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:17:18.028] gw-edge-1 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:17:18.805] gw-edge-1 INFO  rid=cb81b7c0-0532-4fb5-99d3-f9efb40d41a1 PUT /api/addresses/default client=10.31.203.71
+[2026-10-21 21:17:18.856] gw-edge-1 INFO  rid=cb81b7c0-0532-4fb5-99d3-f9efb40d41a1 <- 200 in 51ms
+[2026-10-21 21:17:19.414] gw-edge-2 INFO  rid=9032052d-a92d-46f3-9c42-adfec75070ca GET /api/products/SKU-46403 client=10.253.201.42
+[2026-10-21 21:17:19.445] gw-edge-2 INFO  rid=9032052d-a92d-46f3-9c42-adfec75070ca <- 200 in 31ms
+[2026-10-21 21:17:24.034] gw-edge-2 ERROR upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:17:32.758] gw-edge-3 INFO  rid=7c3f0e28-f124-49f9-bef9-dd224cd0a2eb PATCH /api/orders/ORD-60688/address client=198.37.151.209
+[2026-10-21 21:17:32.761] gw-edge-3 INFO  rid=7c3f0e28-f124-49f9-bef9-dd224cd0a2eb -> orders-svc x-trace-id=efc64b80a658 timeout=5000ms
+[2026-10-21 21:17:33.006] gw-edge-3 INFO  rid=7c3f0e28-f124-49f9-bef9-dd224cd0a2eb <- 200 in 248ms
+[2026-10-21 21:17:37.923] gw-edge-3 INFO  rid=5c327f04-f61e-49cf-ab15-e8e0421b7f44 PATCH /api/orders/ORD-61608/address client=172.61.150.129
+[2026-10-21 21:17:37.929] gw-edge-3 INFO  rid=5c327f04-f61e-49cf-ab15-e8e0421b7f44 -> orders-svc x-trace-id=a90b99487b8e timeout=5000ms
+[2026-10-21 21:17:38.196] gw-edge-3 INFO  rid=5c327f04-f61e-49cf-ab15-e8e0421b7f44 <- 200 in 273ms
+[2026-10-21 21:17:40.923] gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:18:19.216] gw-edge-2 INFO  rid=7c64eb4e-e87a-41d0-b37b-f0c27c18c5d3 GET /api/products/SKU-44772 client=198.197.225.64
+[2026-10-21 21:18:19.293] gw-edge-2 INFO  rid=7c64eb4e-e87a-41d0-b37b-f0c27c18c5d3 <- 200 in 77ms
+[2026-10-21 21:18:40.000] gw-edge-3 INFO  rid=44f708a5-efcb-4081-989a-d07afa685b73 PATCH /api/orders/ORD-60574/address client=192.215.11.123
+[2026-10-21 21:18:40.006] gw-edge-3 INFO  rid=44f708a5-efcb-4081-989a-d07afa685b73 -> orders-svc x-trace-id=9c98e064796f timeout=5000ms
+[2026-10-21 21:18:45.003] gw-edge-3 ERROR rid=44f708a5-efcb-4081-989a-d07afa685b73 <- 503 in 5003ms
+[2026-10-21 21:18:46.748] gw-edge-3 INFO  rid=cb7116f2-2768-47e5-9b83-747725a1b20e PATCH /api/orders/ORD-61732/address client=10.137.254.207
+[2026-10-21 21:18:46.750] gw-edge-3 INFO  rid=cb7116f2-2768-47e5-9b83-747725a1b20e -> orders-svc x-trace-id=c0af252fde0d timeout=5000ms
+[2026-10-21 21:18:46.960] gw-edge-3 INFO  rid=cb7116f2-2768-47e5-9b83-747725a1b20e <- 200 in 212ms
+[2026-10-21 21:18:55.334] gw-edge-2 INFO  rid=e30109a5-f657-4349-9b26-1afa65f53ac9 PATCH /api/orders/ORD-61393/address client=172.175.228.218
+[2026-10-21 21:18:55.337] gw-edge-2 INFO  rid=e30109a5-f657-4349-9b26-1afa65f53ac9 -> orders-svc x-trace-id=f450e54e3d2b timeout=5000ms
+[2026-10-21 21:18:55.634] gw-edge-2 INFO  rid=e30109a5-f657-4349-9b26-1afa65f53ac9 <- 200 in 300ms
+[2026-10-21 21:19:14.831] gw-edge-3 INFO  rid=81297e6a-54f4-4df8-ac1e-faf365873b3f GET /api/products/SKU-20346 client=10.72.18.194
+[2026-10-21 21:19:15.009] gw-edge-3 INFO  rid=81297e6a-54f4-4df8-ac1e-faf365873b3f <- 200 in 178ms
+[2026-10-21 21:19:16.794] gw-edge-3 INFO  rid=7afde51b-65ca-4cf3-8b9c-cfec895a1bef GET /healthz client=172.208.106.242
+[2026-10-21 21:19:16.822] gw-edge-3 INFO  rid=7afde51b-65ca-4cf3-8b9c-cfec895a1bef <- 200 in 28ms
+[2026-10-21 21:19:33.931] gw-edge-2 INFO  rid=a3435c09-d455-4ca3-ae2f-3d59608c99c1 PATCH /api/orders/ORD-61058/address client=192.124.120.70
+[2026-10-21 21:19:33.933] gw-edge-2 INFO  rid=a3435c09-d455-4ca3-ae2f-3d59608c99c1 -> orders-svc x-trace-id=61d598173d81 timeout=5000ms
+[2026-10-21 21:19:34.205] gw-edge-2 INFO  rid=a3435c09-d455-4ca3-ae2f-3d59608c99c1 <- 200 in 274ms
+[2026-10-21 21:20:00.281] gw-edge-3 INFO  rid=8b221d57-5bff-486f-a931-1c59c5f29339 PATCH /api/orders/ORD-61781/address client=172.89.178.50
+[2026-10-21 21:20:00.283] gw-edge-3 INFO  rid=8b221d57-5bff-486f-a931-1c59c5f29339 -> orders-svc x-trace-id=c2529a601718 timeout=5000ms
+[2026-10-21 21:20:00.595] gw-edge-3 INFO  rid=8b221d57-5bff-486f-a931-1c59c5f29339 <- 200 in 314ms
+[2026-10-21 21:20:04.797] gw-edge-2 INFO  rid=f086e8c2-6424-459b-a9ea-95dfe2b314df GET /healthz client=198.132.182.9
+[2026-10-21 21:20:04.909] gw-edge-2 INFO  rid=f086e8c2-6424-459b-a9ea-95dfe2b314df <- 200 in 112ms
+[2026-10-21 21:20:15.368] gw-edge-3 INFO  rid=6bf518f4-da8c-4882-bff0-5e58e5fc0e9b GET /api/addresses client=192.216.231.38
+[2026-10-21 21:20:15.731] gw-edge-3 ERROR rid=6bf518f4-da8c-4882-bff0-5e58e5fc0e9b <- 500 in 363ms
+[2026-10-21 21:20:32.484] gw-edge-3 INFO  rid=4bf9afe1-769b-45d4-abe5-5f3736174bca PATCH /api/orders/ORD-61884/address client=198.72.85.135
+[2026-10-21 21:20:32.490] gw-edge-3 INFO  rid=4bf9afe1-769b-45d4-abe5-5f3736174bca -> orders-svc x-trace-id=c2dcc3e72d84 timeout=5000ms
+[2026-10-21 21:20:32.758] gw-edge-3 INFO  rid=4bf9afe1-769b-45d4-abe5-5f3736174bca <- 200 in 274ms
+[2026-10-21 21:20:33.680] gw-edge-2 INFO  rid=b5ff4e6e-1843-484a-9f51-db0f6d21cc6b PATCH /api/orders/ORD-61436/address client=198.7.58.127
+[2026-10-21 21:20:33.685] gw-edge-2 INFO  rid=b5ff4e6e-1843-484a-9f51-db0f6d21cc6b -> orders-svc x-trace-id=d3c2ed8eea4f timeout=5000ms
+[2026-10-21 21:20:33.947] gw-edge-2 INFO  rid=b5ff4e6e-1843-484a-9f51-db0f6d21cc6b <- 200 in 267ms
+[2026-10-21 21:20:36.903] gw-edge-1 WARN  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:20:46.309] gw-edge-3 INFO  rid=06b07432-29ca-4c3b-8dec-4de7e17361ac PATCH /api/orders/ORD-60922/address client=198.65.90.32
+[2026-10-21 21:20:46.312] gw-edge-3 INFO  rid=06b07432-29ca-4c3b-8dec-4de7e17361ac -> orders-svc x-trace-id=e5f956bb5636 timeout=5000ms
+[2026-10-21 21:20:46.603] gw-edge-3 INFO  rid=06b07432-29ca-4c3b-8dec-4de7e17361ac <- 200 in 294ms
+[2026-10-21 21:21:01.939] gw-edge-1 INFO  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:21:04.890] gw-edge-2 INFO  rid=63a32da3-6930-482e-9e0a-6fbc702414e1 GET /api/addresses client=203.13.106.196
+[2026-10-21 21:21:04.927] gw-edge-2 INFO  rid=63a32da3-6930-482e-9e0a-6fbc702414e1 <- 200 in 37ms
+[2026-10-21 21:21:11.011] gw-edge-3 INFO  rid=4c48bd96-529c-43a1-a772-0f03b59dfe16 PATCH /api/orders/ORD-61920/address client=172.19.2.177
+[2026-10-21 21:21:11.016] gw-edge-3 INFO  rid=4c48bd96-529c-43a1-a772-0f03b59dfe16 -> orders-svc x-trace-id=433d43a6831b timeout=5000ms
+[2026-10-21 21:21:11.312] gw-edge-3 INFO  rid=4c48bd96-529c-43a1-a772-0f03b59dfe16 <- 200 in 301ms
+[2026-10-21 21:21:46.982] gw-edge-1 INFO  rid=18a3be22-c03b-497a-9ade-770263c86f83 POST /api/login client=198.187.173.19
+[2026-10-21 21:21:47.003] gw-edge-1 INFO  rid=18a3be22-c03b-497a-9ade-770263c86f83 <- 200 in 21ms
+[2026-10-21 21:21:47.041] gw-edge-1 INFO  rid=94afb6da-d670-4198-9d71-dd386122d3fa GET /api/products/SKU-27894 client=172.222.177.6
+[2026-10-21 21:21:47.148] gw-edge-1 INFO  rid=94afb6da-d670-4198-9d71-dd386122d3fa <- 200 in 107ms
+[2026-10-21 21:22:10.283] gw-edge-2 INFO  rid=84bfe59f-cb0e-4031-a52a-1eb945e382c6 GET /api/addresses client=10.3.160.61
+[2026-10-21 21:22:10.434] gw-edge-2 INFO  rid=84bfe59f-cb0e-4031-a52a-1eb945e382c6 <- 200 in 151ms
+[2026-10-21 21:22:27.550] gw-edge-1 INFO  rid=dc7c6536-f578-472e-82f1-89cbb8c7db75 PATCH /api/orders/ORD-61599/address client=172.0.151.128
+[2026-10-21 21:22:27.554] gw-edge-1 INFO  rid=dc7c6536-f578-472e-82f1-89cbb8c7db75 -> orders-svc x-trace-id=93b6c4e755bf timeout=5000ms
+[2026-10-21 21:22:27.821] gw-edge-1 INFO  rid=dc7c6536-f578-472e-82f1-89cbb8c7db75 <- 200 in 271ms
+[2026-10-21 21:22:34.272] gw-edge-1 INFO  rid=dfee1f7f-eb8a-4e0b-a2f5-e6349f7491ee PATCH /api/orders/ORD-61574/address client=10.229.58.140
+[2026-10-21 21:22:34.275] gw-edge-1 INFO  rid=dfee1f7f-eb8a-4e0b-a2f5-e6349f7491ee -> orders-svc x-trace-id=35cf7cdcd1dd timeout=5000ms
+[2026-10-21 21:22:34.538] gw-edge-1 INFO  rid=dfee1f7f-eb8a-4e0b-a2f5-e6349f7491ee <- 200 in 266ms
+[2026-10-21 21:22:41.486] gw-edge-1 ERROR rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:22:51.315] gw-edge-3 WARN  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:22:53.620] gw-edge-1 INFO  rid=6d0ccff9-e3ca-43c8-ba3b-d2ec408571a5 PATCH /api/orders/ORD-60990/address client=192.108.87.191
+[2026-10-21 21:22:53.626] gw-edge-1 INFO  rid=6d0ccff9-e3ca-43c8-ba3b-d2ec408571a5 -> orders-svc x-trace-id=f71506e184a3 timeout=5000ms
+[2026-10-21 21:22:53.950] gw-edge-1 INFO  rid=6d0ccff9-e3ca-43c8-ba3b-d2ec408571a5 <- 200 in 330ms
+[2026-10-21 21:23:03.292] gw-edge-3 WARN  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:23:39.540] gw-edge-3 INFO  rid=091d768e-ad66-43da-a302-cc618ee4cc2b GET /healthz client=203.78.255.63
+[2026-10-21 21:23:39.796] gw-edge-3 ERROR rid=091d768e-ad66-43da-a302-cc618ee4cc2b <- 500 in 256ms
+[2026-10-21 21:23:53.851] gw-edge-1 INFO  rid=c712933f-7660-48dd-a784-ddbc1957395f PATCH /api/orders/ORD-60972/address client=172.160.236.78
+[2026-10-21 21:23:53.856] gw-edge-1 INFO  rid=c712933f-7660-48dd-a784-ddbc1957395f -> orders-svc x-trace-id=37e4b664c1d2 timeout=5000ms
+[2026-10-21 21:23:54.161] gw-edge-1 INFO  rid=c712933f-7660-48dd-a784-ddbc1957395f <- 200 in 310ms
+[2026-10-21 21:23:56.851] gw-edge-3 INFO  rid=a70c5d2b-bf1b-4bff-8576-bad883019fb6 PATCH /api/orders/ORD-61266/address client=198.208.82.38
+[2026-10-21 21:23:56.854] gw-edge-3 INFO  rid=a70c5d2b-bf1b-4bff-8576-bad883019fb6 -> orders-svc x-trace-id=07bbcb551107 timeout=5000ms
+[2026-10-21 21:23:57.092] gw-edge-3 INFO  rid=a70c5d2b-bf1b-4bff-8576-bad883019fb6 <- 200 in 241ms
+[2026-10-21 21:24:01.543] gw-edge-1 ERROR upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:24:10.036] gw-edge-1 ERROR rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:24:16.181] gw-edge-1 INFO  rid=9131db9b-c5c0-4c9b-8f97-0594c0c018b2 PATCH /api/orders/ORD-60604/address client=10.168.31.221
+[2026-10-21 21:24:16.184] gw-edge-1 INFO  rid=9131db9b-c5c0-4c9b-8f97-0594c0c018b2 -> orders-svc x-trace-id=1c0a3be46772 timeout=5000ms
+[2026-10-21 21:24:16.446] gw-edge-1 INFO  rid=9131db9b-c5c0-4c9b-8f97-0594c0c018b2 <- 200 in 265ms
+[2026-10-21 21:24:40.035] gw-edge-1 INFO  rid=9910f731-d1ca-4308-9fb7-929f4cbe4afc GET /api/addresses client=172.204.169.60
+[2026-10-21 21:24:40.148] gw-edge-1 INFO  rid=9910f731-d1ca-4308-9fb7-929f4cbe4afc <- 200 in 113ms
+[2026-10-21 21:24:57.412] gw-edge-2 INFO  rid=9f800219-b5fc-4545-9d51-5070302880a1 PATCH /api/orders/ORD-61271/address client=198.82.87.244
+[2026-10-21 21:24:57.416] gw-edge-2 INFO  rid=9f800219-b5fc-4545-9d51-5070302880a1 -> orders-svc x-trace-id=e2e20d25ca8e timeout=5000ms
+[2026-10-21 21:24:57.715] gw-edge-2 INFO  rid=9f800219-b5fc-4545-9d51-5070302880a1 <- 200 in 303ms
+[2026-10-21 21:25:01.510] gw-edge-3 INFO  rid=611089c3-8cb1-4789-81f5-42f5706e3c58 GET /api/orders client=198.39.65.223
+[2026-10-21 21:25:01.521] gw-edge-3 WARN  rid=611089c3-8cb1-4789-81f5-42f5706e3c58 <- 400 in 11ms
+[2026-10-21 21:25:10.793] gw-edge-3 INFO  rid=be0d7d58-7f09-4365-b29c-61bbac8c1f11 GET /api/addresses client=198.225.87.113
+[2026-10-21 21:25:10.975] gw-edge-3 INFO  rid=be0d7d58-7f09-4365-b29c-61bbac8c1f11 <- 200 in 182ms
+[2026-10-21 21:25:12.438] gw-edge-2 INFO  rid=48ea60b4-7333-41f8-b35e-ab0caa682dcb PATCH /api/orders/ORD-61126/address client=203.106.169.110
+[2026-10-21 21:25:12.440] gw-edge-2 INFO  rid=48ea60b4-7333-41f8-b35e-ab0caa682dcb -> orders-svc x-trace-id=28f8209689bb timeout=5000ms
+[2026-10-21 21:25:12.670] gw-edge-2 INFO  rid=48ea60b4-7333-41f8-b35e-ab0caa682dcb <- 200 in 232ms
+[2026-10-21 21:25:19.619] gw-edge-2 INFO  rid=48fb18d0-b457-4666-bbb7-2c27dcd5d1c3 PATCH /api/orders/ORD-61188/address client=192.254.162.174
+[2026-10-21 21:25:19.625] gw-edge-2 INFO  rid=48fb18d0-b457-4666-bbb7-2c27dcd5d1c3 -> orders-svc x-trace-id=a6af2791f48c timeout=5000ms
+[2026-10-21 21:25:19.874] gw-edge-2 INFO  rid=48fb18d0-b457-4666-bbb7-2c27dcd5d1c3 <- 200 in 255ms
+[2026-10-21 21:25:48.503] gw-edge-3 INFO  rid=09bcef08-2633-4ca8-b303-be683fdc2852 PATCH /api/orders/ORD-61746/address client=203.75.171.57
+[2026-10-21 21:25:48.505] gw-edge-3 INFO  rid=09bcef08-2633-4ca8-b303-be683fdc2852 -> orders-svc x-trace-id=73567ac0ab87 timeout=5000ms
+[2026-10-21 21:25:48.823] gw-edge-3 INFO  rid=09bcef08-2633-4ca8-b303-be683fdc2852 <- 200 in 320ms
+[2026-10-21 21:26:31.305] gw-edge-1 INFO  rid=06414b5f-6389-46c8-966d-edbf6b612eb1 PATCH /api/orders/ORD-61215/address client=10.187.104.102
+[2026-10-21 21:26:31.310] gw-edge-1 INFO  rid=06414b5f-6389-46c8-966d-edbf6b612eb1 -> orders-svc x-trace-id=447951d5423a timeout=5000ms
+[2026-10-21 21:26:31.580] gw-edge-1 INFO  rid=06414b5f-6389-46c8-966d-edbf6b612eb1 <- 200 in 275ms
+[2026-10-21 21:26:38.135] gw-edge-2 INFO  upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:26:54.792] gw-edge-3 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+[2026-10-21 21:27:26.393] gw-edge-1 INFO  rid=7f368c5a-3013-4549-ac2f-b91b2748861f PATCH /api/orders/ORD-61437/address client=172.15.29.123
+[2026-10-21 21:27:26.396] gw-edge-1 INFO  rid=7f368c5a-3013-4549-ac2f-b91b2748861f -> orders-svc x-trace-id=0f9c5c308dc1 timeout=5000ms
+[2026-10-21 21:27:26.655] gw-edge-1 INFO  rid=7f368c5a-3013-4549-ac2f-b91b2748861f <- 200 in 262ms
+[2026-10-21 21:27:30.189] gw-edge-3 WARN  client 198.51.100.23 sent malformed Content-Length, closing
+[2026-10-21 21:27:35.763] gw-edge-2 INFO  rid=6cf16fcd-af75-48f1-91ec-e01ac7ab5b07 PATCH /api/orders/ORD-60517/address client=203.234.166.85
+[2026-10-21 21:27:35.769] gw-edge-2 INFO  rid=6cf16fcd-af75-48f1-91ec-e01ac7ab5b07 -> orders-svc x-trace-id=552c57b0aefa timeout=5000ms
+[2026-10-21 21:27:36.091] gw-edge-2 INFO  rid=6cf16fcd-af75-48f1-91ec-e01ac7ab5b07 <- 200 in 328ms
+[2026-10-21 21:27:42.181] gw-edge-3 INFO  rid=e879bafa-9494-4d53-bf50-9530f8e79a70 PATCH /api/orders/ORD-61983/address client=192.91.221.191
+[2026-10-21 21:27:42.184] gw-edge-3 INFO  rid=e879bafa-9494-4d53-bf50-9530f8e79a70 -> orders-svc x-trace-id=04665369b79e timeout=5000ms
+[2026-10-21 21:27:42.426] gw-edge-3 INFO  rid=e879bafa-9494-4d53-bf50-9530f8e79a70 <- 200 in 245ms
+[2026-10-21 21:27:48.221] gw-edge-2 INFO  rid=a764af98-23fc-44ab-8fb0-c59205461943 GET /api/products/SKU-42032 client=198.159.88.138
+[2026-10-21 21:27:48.391] gw-edge-2 INFO  rid=a764af98-23fc-44ab-8fb0-c59205461943 <- 200 in 170ms
+[2026-10-21 21:28:13.811] gw-edge-3 INFO  rid=0ac89f5e-5866-43ad-8147-9f2581a8ff4d PATCH /api/orders/ORD-60902/address client=203.191.1.38
+[2026-10-21 21:28:13.816] gw-edge-3 INFO  rid=0ac89f5e-5866-43ad-8147-9f2581a8ff4d -> orders-svc x-trace-id=db7eae757736 timeout=5000ms
+[2026-10-21 21:28:14.056] gw-edge-3 INFO  rid=0ac89f5e-5866-43ad-8147-9f2581a8ff4d <- 200 in 245ms
+[2026-10-21 21:28:19.948] gw-edge-2 INFO  rid=d82a89d9-7cf7-40d0-8b25-a935f7bfd013 GET /api/orders/ORD-61478 client=198.73.155.89
+[2026-10-21 21:28:20.102] gw-edge-2 INFO  rid=d82a89d9-7cf7-40d0-8b25-a935f7bfd013 <- 200 in 154ms
+[2026-10-21 21:28:40.110] gw-edge-2 WARN  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:28:48.000] gw-edge-2 INFO  rid=eb780506-8865-434f-a499-ab4a41919d15 PATCH /api/orders/ORD-61290/address client=203.213.155.247
+[2026-10-21 21:28:48.006] gw-edge-2 INFO  rid=eb780506-8865-434f-a499-ab4a41919d15 -> orders-svc x-trace-id=06bed2693f2f timeout=5000ms
+[2026-10-21 21:28:48.296] gw-edge-2 INFO  rid=eb780506-8865-434f-a499-ab4a41919d15 <- 200 in 296ms
+[2026-10-21 21:29:02.032] gw-edge-3 INFO  rid=b2d8223d-4da1-4a9f-bf4b-4a56aebef541 GET /api/products/SKU-53551 client=10.4.34.34
+[2026-10-21 21:29:02.151] gw-edge-3 INFO  rid=b2d8223d-4da1-4a9f-bf4b-4a56aebef541 <- 200 in 119ms
+[2026-10-21 21:29:03.097] gw-edge-3 INFO  rid=f96c8d55-f574-461b-9df6-fd2a68c7fcf6 PUT /api/addresses/default client=203.175.149.183
+[2026-10-21 21:29:03.225] gw-edge-3 INFO  rid=f96c8d55-f574-461b-9df6-fd2a68c7fcf6 <- 200 in 128ms
+[2026-10-21 21:29:04.038] gw-edge-1 INFO  rid=84b8e72a-aba2-4e57-94d8-1cd4202c4b20 PATCH /api/orders/ORD-60652/address client=203.3.195.64
+[2026-10-21 21:29:04.043] gw-edge-1 INFO  rid=84b8e72a-aba2-4e57-94d8-1cd4202c4b20 -> orders-svc x-trace-id=bafe86176d98 timeout=5000ms
+[2026-10-21 21:29:04.323] gw-edge-1 INFO  rid=84b8e72a-aba2-4e57-94d8-1cd4202c4b20 <- 200 in 285ms
+[2026-10-21 21:29:21.183] gw-edge-3 INFO  rid=ce16fd7d-416f-4eef-bd27-2a9bc67f2b99 GET /api/products/SKU-19483 client=198.95.237.73
+[2026-10-21 21:29:21.284] gw-edge-3 INFO  rid=ce16fd7d-416f-4eef-bd27-2a9bc67f2b99 <- 200 in 101ms
+[2026-10-21 21:29:33.000] gw-edge-1 WARN  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:29:37.576] gw-edge-3 INFO  rid=a27ec776-a251-4764-955e-faf5aa9a0a79 GET /healthz client=10.64.32.167
+[2026-10-21 21:29:37.579] gw-edge-3 WARN  rid=a27ec776-a251-4764-955e-faf5aa9a0a79 <- 429 in 3ms
+[2026-10-21 21:29:43.076] gw-edge-3 INFO  rid=adade1c4-6ae5-4432-b379-0a2a870a1aeb GET /api/products/SKU-57340 client=10.203.224.215
+[2026-10-21 21:29:43.146] gw-edge-3 INFO  rid=adade1c4-6ae5-4432-b379-0a2a870a1aeb <- 200 in 70ms
+[2026-10-21 21:29:46.334] gw-edge-2 INFO  rid=accff8bb-6816-43ae-98f9-4d1f8f9b3848 GET /healthz client=192.252.73.25
+[2026-10-21 21:29:46.447] gw-edge-2 INFO  rid=accff8bb-6816-43ae-98f9-4d1f8f9b3848 <- 200 in 113ms
+[2026-10-21 21:29:47.426] gw-edge-1 INFO  rid=e69e49f0-3537-4be7-b15e-f6e53ec8aefe GET /api/addresses client=198.95.107.151
+[2026-10-21 21:29:47.749] gw-edge-3 INFO  rid=4d0fd926-7dc4-4000-8690-199883f362cc PATCH /api/orders/ORD-61303/address client=172.116.68.150
+[2026-10-21 21:29:47.751] gw-edge-3 INFO  rid=4d0fd926-7dc4-4000-8690-199883f362cc -> orders-svc x-trace-id=762597e62e87 timeout=5000ms
+[2026-10-21 21:29:47.784] gw-edge-1 ERROR rid=e69e49f0-3537-4be7-b15e-f6e53ec8aefe <- 500 in 358ms
+[2026-10-21 21:29:47.998] gw-edge-3 INFO  rid=4d0fd926-7dc4-4000-8690-199883f362cc <- 200 in 249ms
+[2026-10-21 21:29:51.022] gw-edge-3 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+[2026-10-21 21:29:59.157] gw-edge-2 INFO  rid=85098b69-20f7-4bd3-8df4-8b7ff3e399d3 PATCH /api/orders/ORD-61976/address client=172.63.79.155
+[2026-10-21 21:29:59.159] gw-edge-2 INFO  rid=85098b69-20f7-4bd3-8df4-8b7ff3e399d3 -> orders-svc x-trace-id=004cbfb3bd79 timeout=5000ms
+[2026-10-21 21:29:59.484] gw-edge-2 INFO  rid=85098b69-20f7-4bd3-8df4-8b7ff3e399d3 <- 200 in 327ms
+[2026-10-21 21:30:12.540] gw-edge-2 INFO  rid=2eb2265d-e73a-4ff3-8763-12249d11f393 GET /api/addresses client=203.80.144.90
+[2026-10-21 21:30:12.646] gw-edge-2 INFO  rid=2eb2265d-e73a-4ff3-8763-12249d11f393 <- 200 in 106ms
+[2026-10-21 21:30:18.426] gw-edge-3 INFO  rid=62352eee-4756-4b55-b0ef-f108c213ce18 PATCH /api/orders/ORD-60865/address client=192.173.210.107
+[2026-10-21 21:30:18.430] gw-edge-3 INFO  rid=62352eee-4756-4b55-b0ef-f108c213ce18 -> orders-svc x-trace-id=61d45c0d9717 timeout=5000ms
+[2026-10-21 21:30:18.670] gw-edge-3 INFO  rid=62352eee-4756-4b55-b0ef-f108c213ce18 <- 200 in 244ms
+[2026-10-21 21:30:43.092] gw-edge-1 INFO  rid=464fdb0e-9260-4117-a4f6-9c781ef2cfbc GET /api/orders client=192.23.47.156
+[2026-10-21 21:30:43.310] gw-edge-1 INFO  rid=464fdb0e-9260-4117-a4f6-9c781ef2cfbc <- 200 in 218ms
+[2026-10-21 21:30:45.528] gw-edge-3 INFO  rid=62be3702-aa0f-4f19-8954-75b91e90006b PATCH /api/orders/ORD-60815/address client=172.194.76.246
+[2026-10-21 21:30:45.534] gw-edge-3 INFO  rid=62be3702-aa0f-4f19-8954-75b91e90006b -> orders-svc x-trace-id=5ce4aa900be0 timeout=5000ms
+[2026-10-21 21:30:45.861] gw-edge-3 INFO  rid=62be3702-aa0f-4f19-8954-75b91e90006b <- 200 in 333ms
+[2026-10-21 21:31:00.559] gw-edge-3 INFO  rid=cf81baa1-b355-4be9-901b-0bc62036793f PATCH /api/orders/ORD-61548/address client=198.92.148.58
+[2026-10-21 21:31:00.563] gw-edge-3 INFO  rid=cf81baa1-b355-4be9-901b-0bc62036793f -> orders-svc x-trace-id=4dd72b04f11b timeout=5000ms
+[2026-10-21 21:31:00.821] gw-edge-3 INFO  rid=cf81baa1-b355-4be9-901b-0bc62036793f <- 200 in 262ms
+[2026-10-21 21:31:19.856] gw-edge-1 INFO  rid=5a064acb-8d21-432c-a35f-8b39150f927d GET /api/orders/ORD-61792 client=172.244.45.101
+[2026-10-21 21:31:20.073] gw-edge-1 INFO  rid=5a064acb-8d21-432c-a35f-8b39150f927d <- 200 in 217ms
+[2026-10-21 21:31:48.591] gw-edge-3 INFO  rid=c7999bf6-cd34-4148-84e2-638d217e5832 GET /healthz client=192.182.98.110
+[2026-10-21 21:31:48.809] gw-edge-3 INFO  rid=c7999bf6-cd34-4148-84e2-638d217e5832 <- 200 in 218ms
+[2026-10-21 21:31:52.140] gw-edge-3 INFO  rid=261f7955-1417-4796-83b0-1ff8ebf659d2 PATCH /api/orders/ORD-61113/address client=198.108.239.35
+[2026-10-21 21:31:52.144] gw-edge-3 INFO  rid=261f7955-1417-4796-83b0-1ff8ebf659d2 -> orders-svc x-trace-id=2d15a44659ba timeout=5000ms
+[2026-10-21 21:31:52.421] gw-edge-3 INFO  rid=261f7955-1417-4796-83b0-1ff8ebf659d2 <- 200 in 281ms
+[2026-10-21 21:31:52.815] gw-edge-1 INFO  rid=d8bd5d4f-d60f-471c-a294-41145ea717e6 PATCH /api/orders/ORD-60767/address client=10.218.136.234
+[2026-10-21 21:31:52.820] gw-edge-1 INFO  rid=d8bd5d4f-d60f-471c-a294-41145ea717e6 -> orders-svc x-trace-id=96e2e453d4a9 timeout=5000ms
+[2026-10-21 21:31:53.193] gw-edge-1 INFO  rid=d8bd5d4f-d60f-471c-a294-41145ea717e6 <- 200 in 378ms
+[2026-10-21 21:31:59.893] gw-edge-3 INFO  rid=21dd42d6-0613-42eb-a088-a24a7994965a PATCH /api/orders/ORD-60575/address client=203.16.88.221
+[2026-10-21 21:31:59.899] gw-edge-3 INFO  rid=21dd42d6-0613-42eb-a088-a24a7994965a -> orders-svc x-trace-id=5c5569818320 timeout=5000ms
+[2026-10-21 21:32:00.266] gw-edge-3 INFO  rid=21dd42d6-0613-42eb-a088-a24a7994965a <- 200 in 373ms
+[2026-10-21 21:32:00.495] gw-edge-3 INFO  rid=e1679365-42ca-48c6-ae97-be80c18ada7e PATCH /api/orders/ORD-61986/address client=192.103.33.130
+[2026-10-21 21:32:00.498] gw-edge-3 INFO  rid=e1679365-42ca-48c6-ae97-be80c18ada7e -> orders-svc x-trace-id=548097f32c09 timeout=5000ms
+[2026-10-21 21:32:00.691] gw-edge-3 INFO  rid=e1679365-42ca-48c6-ae97-be80c18ada7e <- 200 in 196ms
+[2026-10-21 21:32:02.463] gw-edge-3 ERROR upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:32:08.716] gw-edge-2 WARN  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:32:11.991] gw-edge-3 ERROR rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:32:23.430] gw-edge-2 INFO  rid=c9d4c3f1-9e28-44ab-85d9-225226d08b2d POST /api/login client=172.215.146.142
+[2026-10-21 21:32:23.441] gw-edge-2 WARN  rid=c9d4c3f1-9e28-44ab-85d9-225226d08b2d <- 400 in 11ms
+[2026-10-21 21:32:23.847] gw-edge-2 WARN  upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:32:24.160] gw-edge-2 INFO  rid=e603d0a7-f147-4923-9212-51fc0d30ae2d PATCH /api/orders/ORD-60983/address client=172.234.217.44
+[2026-10-21 21:32:24.164] gw-edge-2 INFO  rid=e603d0a7-f147-4923-9212-51fc0d30ae2d -> orders-svc x-trace-id=ae3086c265f6 timeout=5000ms
+[2026-10-21 21:32:24.409] gw-edge-2 INFO  rid=e603d0a7-f147-4923-9212-51fc0d30ae2d <- 200 in 249ms
+[2026-10-21 21:32:50.890] gw-edge-3 WARN  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:33:02.415] gw-edge-1 ERROR config reload ok routes=148
+[2026-10-21 21:33:09.628] gw-edge-1 ERROR upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:33:18.184] gw-edge-3 INFO  rid=6ef9ae72-220d-406f-a6c9-c082f50b60bb PATCH /api/orders/ORD-61818/address client=192.230.30.67
+[2026-10-21 21:33:18.190] gw-edge-3 INFO  rid=6ef9ae72-220d-406f-a6c9-c082f50b60bb -> orders-svc x-trace-id=14946ff50c73 timeout=5000ms
+[2026-10-21 21:33:18.418] gw-edge-3 INFO  rid=6ef9ae72-220d-406f-a6c9-c082f50b60bb <- 200 in 234ms
+[2026-10-21 21:33:44.603] gw-edge-3 INFO  rid=c406096c-6556-4ab0-8133-85607b092aa0 GET /api/addresses client=10.116.21.143
+[2026-10-21 21:33:44.704] gw-edge-3 INFO  rid=c406096c-6556-4ab0-8133-85607b092aa0 <- 200 in 101ms
+[2026-10-21 21:33:47.810] gw-edge-2 INFO  rid=1534538b-72ff-4179-ac25-714de8a01ef7 GET /api/orders client=172.205.35.97
+[2026-10-21 21:33:48.018] gw-edge-2 INFO  rid=1534538b-72ff-4179-ac25-714de8a01ef7 <- 200 in 208ms
+[2026-10-21 21:33:48.038] gw-edge-1 WARN  upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:34:17.843] gw-edge-2 INFO  rid=67c4cae1-0dd9-48c5-8772-c9d67a2520a4 GET /api/orders client=10.10.84.156
+[2026-10-21 21:34:17.937] gw-edge-2 INFO  rid=67c4cae1-0dd9-48c5-8772-c9d67a2520a4 <- 200 in 94ms
+[2026-10-21 21:34:36.849] gw-edge-1 INFO  config reload ok routes=148
+[2026-10-21 21:34:41.775] gw-edge-2 WARN  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:34:53.947] gw-edge-3 INFO  rid=1748d7a5-5246-46ec-a1f8-db16c7c96115 GET /api/orders client=172.239.200.145
+[2026-10-21 21:34:54.088] gw-edge-3 INFO  rid=1748d7a5-5246-46ec-a1f8-db16c7c96115 <- 200 in 141ms
+[2026-10-21 21:34:58.309] gw-edge-3 INFO  rid=34c0e88d-1e42-4b0c-9d82-3f95c83a8f07 PATCH /api/orders/ORD-60935/address client=198.113.197.89
+[2026-10-21 21:34:58.315] gw-edge-3 INFO  rid=34c0e88d-1e42-4b0c-9d82-3f95c83a8f07 -> orders-svc x-trace-id=a59b3bab6908 timeout=5000ms
+[2026-10-21 21:34:58.502] gw-edge-3 INFO  rid=34c0e88d-1e42-4b0c-9d82-3f95c83a8f07 <- 200 in 193ms
+[2026-10-21 21:35:02.858] gw-edge-3 INFO  rid=743803df-256f-4488-acac-6d76fe70b6de GET /api/products/SKU-36838 client=192.83.204.249
+[2026-10-21 21:35:02.903] gw-edge-3 INFO  rid=743803df-256f-4488-acac-6d76fe70b6de <- 200 in 45ms
+[2026-10-21 21:35:10.252] gw-edge-3 INFO  rid=71772d67-deba-402b-8031-7aa2a7b489f3 PATCH /api/orders/ORD-61456/address client=10.115.179.114
+[2026-10-21 21:35:10.254] gw-edge-3 INFO  rid=71772d67-deba-402b-8031-7aa2a7b489f3 -> orders-svc x-trace-id=9b3d9476be28 timeout=5000ms
+[2026-10-21 21:35:10.572] gw-edge-3 INFO  rid=71772d67-deba-402b-8031-7aa2a7b489f3 <- 200 in 320ms
+[2026-10-21 21:35:19.605] gw-edge-3 INFO  rid=b982df23-3bce-45f3-b44a-fe6363d7d2d3 PUT /api/addresses/default client=192.225.59.246
+[2026-10-21 21:35:19.721] gw-edge-3 INFO  rid=b982df23-3bce-45f3-b44a-fe6363d7d2d3 <- 200 in 116ms
+[2026-10-21 21:37:17.806] gw-edge-1 INFO  rid=d89ebc45-721f-4527-b42d-f08ff90fc717 GET /api/orders/ORD-61209 client=10.126.168.197
+[2026-10-21 21:37:17.837] gw-edge-1 INFO  rid=d89ebc45-721f-4527-b42d-f08ff90fc717 <- 200 in 31ms
+[2026-10-21 21:37:41.100] gw-edge-1 INFO  rid=75c8b82d-efa2-4082-9340-4fae2c6d788c PATCH /api/orders/ORD-62000/address client=203.195.26.120
+[2026-10-21 21:37:41.104] gw-edge-1 INFO  rid=75c8b82d-efa2-4082-9340-4fae2c6d788c -> orders-svc x-trace-id=45fede6e302a timeout=5000ms
+[2026-10-21 21:37:41.789] gw-edge-1 ERROR rid=75c8b82d-efa2-4082-9340-4fae2c6d788c <- 503 in 689ms
+[2026-10-21 21:37:44.193] gw-edge-3 INFO  rid=1699fd1d-d3e6-4f5f-952c-b98dca28e0ce PATCH /api/orders/ORD-61290/address client=192.62.200.37
+[2026-10-21 21:37:44.197] gw-edge-3 INFO  rid=1699fd1d-d3e6-4f5f-952c-b98dca28e0ce -> orders-svc x-trace-id=874e41ac9159 timeout=5000ms
+[2026-10-21 21:37:47.236] gw-edge-1 INFO  rid=8615c87c-b3d2-4e9d-b66d-41eed3c3a764 PATCH /api/orders/ORD-60564/address client=203.140.65.203
+[2026-10-21 21:37:47.238] gw-edge-1 INFO  rid=8615c87c-b3d2-4e9d-b66d-41eed3c3a764 -> orders-svc x-trace-id=ebaea73497e9 timeout=5000ms
+[2026-10-21 21:37:49.196] gw-edge-3 ERROR rid=1699fd1d-d3e6-4f5f-952c-b98dca28e0ce <- 503 in 5003ms
+[2026-10-21 21:37:49.510] gw-edge-2 INFO  rid=f681caa8-2a7f-47b6-aea4-dbc53c6ced63 PATCH /api/orders/ORD-60991/address client=10.165.69.45
+[2026-10-21 21:37:49.513] gw-edge-2 INFO  rid=f681caa8-2a7f-47b6-aea4-dbc53c6ced63 -> orders-svc x-trace-id=a038b7897a0c timeout=5000ms
+[2026-10-21 21:37:50.600] gw-edge-3 INFO  rid=ec1b1d2d-7c7d-4b97-bc71-7d51fd42f458 PATCH /api/orders/ORD-16209/address client=172.230.38.120
+[2026-10-21 21:37:50.604] gw-edge-3 INFO  rid=ec1b1d2d-7c7d-4b97-bc71-7d51fd42f458 -> orders-svc x-trace-id=5433c8ac97ec timeout=5000ms
+[2026-10-21 21:37:52.239] gw-edge-1 ERROR rid=8615c87c-b3d2-4e9d-b66d-41eed3c3a764 <- 503 in 5003ms
+[2026-10-21 21:37:52.919] gw-edge-1 INFO  rid=276c1681-8011-49f6-b576-52107eabbbad PATCH /api/orders/ORD-60899/address client=198.210.76.56
+[2026-10-21 21:37:52.924] gw-edge-1 INFO  rid=276c1681-8011-49f6-b576-52107eabbbad -> orders-svc x-trace-id=2f3d93e17355 timeout=5000ms
+[2026-10-21 21:37:54.512] gw-edge-2 ERROR rid=f681caa8-2a7f-47b6-aea4-dbc53c6ced63 <- 503 in 5002ms
+[2026-10-21 21:37:55.602] gw-edge-3 ERROR rid=ec1b1d2d-7c7d-4b97-bc71-7d51fd42f458 <- 503 in 5002ms
+[2026-10-21 21:37:55.877] gw-edge-2 INFO  rid=28d38b2c-bf7d-401e-8111-e1b9e87bd01b PATCH /api/orders/ORD-60688/address client=10.131.79.40
+[2026-10-21 21:37:55.881] gw-edge-2 INFO  rid=28d38b2c-bf7d-401e-8111-e1b9e87bd01b -> orders-svc x-trace-id=513ee4e2ef66 timeout=5000ms
+[2026-10-21 21:37:56.700] gw-edge-2 INFO  rid=0166a244-568f-4897-ab51-7edbaad34ba7 PATCH /api/orders/ORD-60541/address client=10.207.200.162
+[2026-10-21 21:37:56.702] gw-edge-2 INFO  rid=0166a244-568f-4897-ab51-7edbaad34ba7 -> orders-svc x-trace-id=1345f0215602 timeout=5000ms
+[2026-10-21 21:37:57.920] gw-edge-1 ERROR rid=276c1681-8011-49f6-b576-52107eabbbad <- 503 in 5001ms
+[2026-10-21 21:38:00.880] gw-edge-2 ERROR rid=28d38b2c-bf7d-401e-8111-e1b9e87bd01b <- 503 in 5003ms
+[2026-10-21 21:38:00.900] gw-edge-2 INFO  rid=a0191b1d-fd1e-4167-9fca-b641ac1ed8b7 PATCH /api/orders/ORD-60597/address client=192.157.216.154
+[2026-10-21 21:38:00.903] gw-edge-2 INFO  rid=a0191b1d-fd1e-4167-9fca-b641ac1ed8b7 -> orders-svc x-trace-id=34c53720581f timeout=5000ms
+[2026-10-21 21:38:01.703] gw-edge-2 ERROR rid=0166a244-568f-4897-ab51-7edbaad34ba7 <- 503 in 5003ms
+[2026-10-21 21:38:01.806] gw-edge-3 INFO  rid=eb780506-8865-434f-a499-ab4a41919d1b PATCH /api/orders/ORD-61209/address client=203.139.13.109
+[2026-10-21 21:38:01.809] gw-edge-3 INFO  rid=eb780506-8865-434f-a499-ab4a41919d1b -> orders-svc x-trace-id=06bed2693f2c timeout=5000ms
+[2026-10-21 21:38:04.400] gw-edge-2 INFO  rid=1ea8edb2-d553-4e93-9369-a5df942b8e48 PATCH /api/orders/ORD-60522/address client=203.40.44.9
+[2026-10-21 21:38:04.405] gw-edge-2 INFO  rid=1ea8edb2-d553-4e93-9369-a5df942b8e48 -> orders-svc x-trace-id=e1bb02fe2e93 timeout=5000ms
+[2026-10-21 21:38:05.609] gw-edge-2 ERROR rid=1ea8edb2-d553-4e93-9369-a5df942b8e48 <- 503 in 1209ms
+[2026-10-21 21:38:05.902] gw-edge-2 ERROR rid=a0191b1d-fd1e-4167-9fca-b641ac1ed8b7 <- 503 in 5002ms
+[2026-10-21 21:38:06.808] gw-edge-3 ERROR rid=eb780506-8865-434f-a499-ab4a41919d1b <- 503 in 5002ms
+[2026-10-21 21:38:12.700] gw-edge-2 INFO  rid=9c594775-ac3b-4d16-9de3-941a89079439 PATCH /api/orders/ORD-61360/address client=198.240.84.170
+[2026-10-21 21:38:12.704] gw-edge-2 INFO  rid=9c594775-ac3b-4d16-9de3-941a89079439 -> orders-svc x-trace-id=381be4e9680e timeout=5000ms
+[2026-10-21 21:38:13.875] gw-edge-2 ERROR rid=9c594775-ac3b-4d16-9de3-941a89079439 <- 503 in 1175ms
+[2026-10-21 21:38:25.206] gw-edge-2 INFO  rid=872d0f45-4bf9-49ec-b335-9f0eed844488 PATCH /api/orders/ORD-61209/address client=192.58.159.97
+[2026-10-21 21:38:25.208] gw-edge-2 INFO  rid=872d0f45-4bf9-49ec-b335-9f0eed844488 -> orders-svc x-trace-id=bad3eb501ec4 timeout=5000ms
+[2026-10-21 21:38:25.227] gw-edge-2 WARN  rid=872d0f45-4bf9-49ec-b335-9f0eed844488 <- 409 in 17ms
+[2026-10-21 21:39:12.806] gw-edge-1 INFO  rid=b34f0fae-a742-4dcb-832d-d038a2e61a01 GET /api/orders/ORD-61209 client=10.244.144.186
+[2026-10-21 21:39:12.837] gw-edge-1 INFO  rid=b34f0fae-a742-4dcb-832d-d038a2e61a01 <- 200 in 31ms
+[2026-10-21 21:40:39.801] gw-edge-3 INFO  rid=1cd46e82-d15e-4c51-a567-a9784f6673d5 GET /api/orders client=198.150.67.158
+[2026-10-21 21:40:39.953] gw-edge-3 INFO  rid=1cd46e82-d15e-4c51-a567-a9784f6673d5 <- 200 in 152ms
+[2026-10-21 21:40:46.545] gw-edge-2 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:40:48.450] gw-edge-2 INFO  rid=5094bef2-38ee-412d-af3b-cd64e944affc PATCH /api/orders/ORD-60973/address client=192.25.41.18
+[2026-10-21 21:40:48.453] gw-edge-2 INFO  rid=5094bef2-38ee-412d-af3b-cd64e944affc -> orders-svc x-trace-id=f854dffbea16 timeout=5000ms
+[2026-10-21 21:40:48.744] gw-edge-2 INFO  rid=5094bef2-38ee-412d-af3b-cd64e944affc <- 200 in 294ms
+[2026-10-21 21:40:49.693] gw-edge-2 INFO  rid=e2ae5b48-a34c-4663-afee-cef0eacf19f9 GET /api/orders/ORD-60827 client=198.227.140.171
+[2026-10-21 21:40:49.741] gw-edge-2 INFO  rid=e2ae5b48-a34c-4663-afee-cef0eacf19f9 <- 200 in 48ms
+[2026-10-21 21:40:51.661] gw-edge-3 INFO  rid=55f207be-25f0-4111-b912-5cf47b80c692 POST /api/login client=10.143.154.25
+[2026-10-21 21:40:51.812] gw-edge-3 INFO  rid=55f207be-25f0-4111-b912-5cf47b80c692 <- 200 in 151ms
+[2026-10-21 21:40:56.589] gw-edge-3 WARN  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:41:25.605] gw-edge-2 INFO  rid=d4cd80d7-f797-46c1-a4c1-84db3efb4370 PATCH /api/orders/ORD-60592/address client=198.61.219.184
+[2026-10-21 21:41:25.610] gw-edge-2 INFO  rid=d4cd80d7-f797-46c1-a4c1-84db3efb4370 -> orders-svc x-trace-id=5dd7618acb3e timeout=5000ms
+[2026-10-21 21:41:25.818] gw-edge-2 INFO  rid=d4cd80d7-f797-46c1-a4c1-84db3efb4370 <- 200 in 213ms
+[2026-10-21 21:41:30.397] gw-edge-3 INFO  rid=8457c1a7-5e38-43bd-9ab1-ac677049475b PATCH /api/orders/ORD-61858/address client=10.87.254.15
+[2026-10-21 21:41:30.399] gw-edge-3 INFO  rid=8457c1a7-5e38-43bd-9ab1-ac677049475b -> orders-svc x-trace-id=5cda9e995684 timeout=5000ms
+[2026-10-21 21:41:30.606] gw-edge-3 INFO  rid=8457c1a7-5e38-43bd-9ab1-ac677049475b <- 200 in 209ms
+[2026-10-21 21:41:37.587] gw-edge-3 INFO  rid=c920952d-af93-42d6-8bec-228d05729165 GET /api/products/SKU-17145 client=10.178.31.141
+[2026-10-21 21:41:37.739] gw-edge-3 INFO  rid=c920952d-af93-42d6-8bec-228d05729165 <- 200 in 152ms
+[2026-10-21 21:41:49.178] gw-edge-3 INFO  rid=a14834b0-2b6b-452d-82dd-b8e7a071f690 PATCH /api/orders/ORD-60973/address client=192.242.248.14
+[2026-10-21 21:41:49.181] gw-edge-3 INFO  rid=a14834b0-2b6b-452d-82dd-b8e7a071f690 -> orders-svc x-trace-id=033685c38112 timeout=5000ms
+[2026-10-21 21:41:49.452] gw-edge-3 INFO  rid=a14834b0-2b6b-452d-82dd-b8e7a071f690 <- 200 in 274ms
+[2026-10-21 21:41:58.330] gw-edge-2 INFO  rid=1756f752-f34e-45d3-9302-ec7423c92df5 GET /api/orders/ORD-60522 client=10.192.17.202
+[2026-10-21 21:41:58.712] gw-edge-2 ERROR rid=1756f752-f34e-45d3-9302-ec7423c92df5 <- 500 in 382ms
+[2026-10-21 21:42:00.959] gw-edge-2 INFO  rid=66aa1377-2741-491d-a161-3c7a49e58db6 GET /api/orders client=198.128.252.17
+[2026-10-21 21:42:01.164] gw-edge-2 INFO  rid=66aa1377-2741-491d-a161-3c7a49e58db6 <- 200 in 205ms
+[2026-10-21 21:42:03.204] gw-edge-1 INFO  rid=c8ccdccf-bb5c-45c8-b49e-c8fd613e9397 GET /healthz client=198.137.14.33
+[2026-10-21 21:42:03.418] gw-edge-1 INFO  rid=c8ccdccf-bb5c-45c8-b49e-c8fd613e9397 <- 200 in 214ms
+[2026-10-21 21:42:10.372] gw-edge-2 INFO  upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:42:22.751] gw-edge-2 WARN  config reload ok routes=148
+[2026-10-21 21:42:36.986] gw-edge-1 INFO  rid=f6f4957c-d054-4701-a1f6-b4775bddef9e PUT /api/addresses/default client=192.184.96.183
+[2026-10-21 21:42:37.128] gw-edge-1 INFO  rid=f6f4957c-d054-4701-a1f6-b4775bddef9e <- 200 in 142ms
+[2026-10-21 21:42:47.823] gw-edge-2 INFO  rid=fec2e488-eaca-431e-bec6-987f7716b6aa PATCH /api/orders/ORD-60950/address client=198.75.68.242
+[2026-10-21 21:42:47.829] gw-edge-2 INFO  rid=fec2e488-eaca-431e-bec6-987f7716b6aa -> orders-svc x-trace-id=8bf87ceb8300 timeout=5000ms
+[2026-10-21 21:42:48.129] gw-edge-2 INFO  rid=fec2e488-eaca-431e-bec6-987f7716b6aa <- 200 in 306ms
+[2026-10-21 21:42:53.120] gw-edge-3 INFO  rid=cb265951-a83a-4b6c-96ac-78d63b68695f PATCH /api/orders/ORD-60989/address client=10.34.69.112
+[2026-10-21 21:42:53.125] gw-edge-3 INFO  rid=cb265951-a83a-4b6c-96ac-78d63b68695f -> orders-svc x-trace-id=60643a851862 timeout=5000ms
+[2026-10-21 21:42:53.406] gw-edge-3 INFO  rid=cb265951-a83a-4b6c-96ac-78d63b68695f <- 200 in 286ms
+[2026-10-21 21:43:07.536] gw-edge-1 ERROR jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:43:37.008] gw-edge-1 INFO  rid=13e62e21-d4d2-41cf-82b0-182eba969924 GET /api/orders client=172.74.11.220
+[2026-10-21 21:43:37.048] gw-edge-1 ERROR rid=13e62e21-d4d2-41cf-82b0-182eba969924 <- 503 in 40ms
+[2026-10-21 21:43:38.601] gw-edge-3 INFO  rid=578beb22-0b1d-4a1f-82bc-2b9017770582 PATCH /api/orders/ORD-61440/address client=192.17.230.34
+[2026-10-21 21:43:38.607] gw-edge-3 INFO  rid=578beb22-0b1d-4a1f-82bc-2b9017770582 -> orders-svc x-trace-id=c353f8783405 timeout=5000ms
+[2026-10-21 21:43:38.875] gw-edge-3 INFO  rid=578beb22-0b1d-4a1f-82bc-2b9017770582 <- 200 in 274ms
+[2026-10-21 21:43:42.463] gw-edge-2 INFO  rid=dc0799f9-78c2-409e-a913-d04527ad2fd5 GET /api/orders/ORD-61712 client=10.184.5.64
+[2026-10-21 21:43:42.621] gw-edge-2 INFO  rid=dc0799f9-78c2-409e-a913-d04527ad2fd5 <- 200 in 158ms
+[2026-10-21 21:44:06.000] gw-edge-1 INFO  rid=aea6a7c9-3ee4-4dc2-af22-6543efd56b97 PATCH /api/orders/ORD-16209/address client=192.189.102.177
+[2026-10-21 21:44:06.002] gw-edge-1 INFO  rid=aea6a7c9-3ee4-4dc2-af22-6543efd56b97 -> orders-svc x-trace-id=d31fb379d5d7 timeout=5000ms
+[2026-10-21 21:44:06.235] gw-edge-1 INFO  rid=aea6a7c9-3ee4-4dc2-af22-6543efd56b97 <- 200 in 235ms
+[2026-10-21 21:44:08.693] gw-edge-1 INFO  rid=c980f627-2100-4545-aead-2115ad20d830 GET /api/orders/ORD-60556 client=203.214.1.182
+[2026-10-21 21:44:08.828] gw-edge-1 INFO  rid=c980f627-2100-4545-aead-2115ad20d830 <- 200 in 135ms
+[2026-10-21 21:44:11.731] gw-edge-3 WARN  upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:44:19.256] gw-edge-1 INFO  rid=da9f46d4-af69-41f7-b7ec-f49f20f785c0 GET /api/orders/ORD-61468 client=203.171.53.225
+[2026-10-21 21:44:19.259] gw-edge-1 WARN  rid=da9f46d4-af69-41f7-b7ec-f49f20f785c0 <- 429 in 3ms
+[2026-10-21 21:44:21.531] gw-edge-3 INFO  rid=dac8d4f7-a9f5-4469-a3f0-7729266f0269 POST /api/login client=10.81.159.27
+[2026-10-21 21:44:21.678] gw-edge-3 INFO  rid=dac8d4f7-a9f5-4469-a3f0-7729266f0269 <- 200 in 147ms
+[2026-10-21 21:44:38.617] gw-edge-2 INFO  rid=e5d237c1-5074-4805-81f1-7e981b7058ac PUT /api/addresses/default client=192.206.29.189
+[2026-10-21 21:44:38.737] gw-edge-2 INFO  rid=e5d237c1-5074-4805-81f1-7e981b7058ac <- 200 in 120ms
+[2026-10-21 21:44:51.159] gw-edge-2 INFO  rid=a63fe35a-2b67-4e41-8cab-25fb9b62d3a2 PATCH /api/orders/ORD-60922/address client=10.50.251.38
+[2026-10-21 21:44:51.161] gw-edge-2 INFO  rid=a63fe35a-2b67-4e41-8cab-25fb9b62d3a2 -> orders-svc x-trace-id=e775403d914e timeout=5000ms
+[2026-10-21 21:44:51.386] gw-edge-2 INFO  rid=a63fe35a-2b67-4e41-8cab-25fb9b62d3a2 <- 200 in 227ms
+[2026-10-21 21:44:57.386] gw-edge-1 INFO  rid=451940e8-4d95-4f5a-9fa6-b433d6f4ac6d GET /healthz client=10.121.225.19
+[2026-10-21 21:44:57.444] gw-edge-1 INFO  rid=451940e8-4d95-4f5a-9fa6-b433d6f4ac6d <- 200 in 58ms
+[2026-10-21 21:45:01.767] gw-edge-1 INFO  rid=1a359b6b-d2ee-480d-9fa2-81dabd00f091 PATCH /api/orders/ORD-61430/address client=203.172.248.127
+[2026-10-21 21:45:01.770] gw-edge-1 INFO  rid=1a359b6b-d2ee-480d-9fa2-81dabd00f091 -> orders-svc x-trace-id=e3f255b7efc5 timeout=5000ms
+[2026-10-21 21:45:02.062] gw-edge-1 INFO  rid=1a359b6b-d2ee-480d-9fa2-81dabd00f091 <- 200 in 295ms
+[2026-10-21 21:45:17.688] gw-edge-3 INFO  rid=d4b08d70-3c05-42bb-9d3a-62f7df371498 GET /api/orders client=192.59.165.228
+[2026-10-21 21:45:17.751] gw-edge-3 INFO  rid=d4b08d70-3c05-42bb-9d3a-62f7df371498 <- 200 in 63ms
+[2026-10-21 21:45:19.162] gw-edge-3 INFO  rid=baed55d4-c8b2-4606-90d8-50e4d754935e GET /api/orders client=10.199.161.165
+[2026-10-21 21:45:19.349] gw-edge-3 INFO  rid=baed55d4-c8b2-4606-90d8-50e4d754935e <- 200 in 187ms
+[2026-10-21 21:45:38.833] gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:45:56.504] gw-edge-1 INFO  rid=be51dabd-8af3-4493-9afc-8b491dcef651 PATCH /api/orders/ORD-61706/address client=172.139.226.6
+[2026-10-21 21:45:56.506] gw-edge-1 INFO  rid=be51dabd-8af3-4493-9afc-8b491dcef651 -> orders-svc x-trace-id=b7c42892d913 timeout=5000ms
+[2026-10-21 21:45:56.843] gw-edge-1 INFO  rid=be51dabd-8af3-4493-9afc-8b491dcef651 <- 200 in 339ms
+[2026-10-21 21:46:20.259] gw-edge-2 INFO  rid=211d09c8-27fb-4be6-b889-7a973c8fa3da GET /api/addresses client=192.9.72.9
+[2026-10-21 21:46:20.345] gw-edge-2 INFO  rid=211d09c8-27fb-4be6-b889-7a973c8fa3da <- 200 in 86ms
+[2026-10-21 21:46:22.033] gw-edge-1 INFO  rid=e2e72de4-b3e5-4468-877d-4a6bae5e00a2 PATCH /api/orders/ORD-60644/address client=203.27.160.233
+[2026-10-21 21:46:22.036] gw-edge-1 INFO  rid=e2e72de4-b3e5-4468-877d-4a6bae5e00a2 -> orders-svc x-trace-id=e3b5d80490e8 timeout=5000ms
+[2026-10-21 21:46:22.254] gw-edge-1 INFO  rid=e2e72de4-b3e5-4468-877d-4a6bae5e00a2 <- 200 in 221ms
+[2026-10-21 21:46:24.806] gw-edge-1 INFO  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:46:39.092] gw-edge-3 INFO  rid=8ce0002a-50b6-4aed-9f4b-b2ee3113cd22 PUT /api/addresses/default client=192.203.110.222
+[2026-10-21 21:46:39.186] gw-edge-3 INFO  rid=8ce0002a-50b6-4aed-9f4b-b2ee3113cd22 <- 200 in 94ms
+[2026-10-21 21:46:45.527] gw-edge-2 INFO  rid=eb37d478-b049-4504-959d-b3ebbcca9b0f GET /healthz client=203.89.54.117
+[2026-10-21 21:46:45.609] gw-edge-2 INFO  rid=eb37d478-b049-4504-959d-b3ebbcca9b0f <- 200 in 82ms
+[2026-10-21 21:47:06.519] gw-edge-1 INFO  rid=19ef744e-676a-4cb6-b1d9-92b41fc45579 PATCH /api/orders/ORD-60884/address client=203.206.82.201
+[2026-10-21 21:47:06.522] gw-edge-1 INFO  rid=19ef744e-676a-4cb6-b1d9-92b41fc45579 -> orders-svc x-trace-id=ca5556f02a02 timeout=5000ms
+[2026-10-21 21:47:06.824] gw-edge-1 INFO  rid=19ef744e-676a-4cb6-b1d9-92b41fc45579 <- 200 in 305ms
+[2026-10-21 21:47:10.469] gw-edge-2 INFO  rid=e434a426-be54-4dd9-8afb-86c96d956f52 GET /api/orders/ORD-61948 client=10.10.6.32
+[2026-10-21 21:47:10.485] gw-edge-2 INFO  rid=e434a426-be54-4dd9-8afb-86c96d956f52 <- 200 in 16ms
+[2026-10-21 21:47:16.792] gw-edge-1 INFO  rid=07e44238-bc69-4c40-809f-1d1ab8df73bd PATCH /api/orders/ORD-61948/address client=10.56.53.178
+[2026-10-21 21:47:16.797] gw-edge-1 INFO  rid=07e44238-bc69-4c40-809f-1d1ab8df73bd -> orders-svc x-trace-id=464d3c41363b timeout=5000ms
+[2026-10-21 21:47:17.004] gw-edge-1 INFO  rid=07e44238-bc69-4c40-809f-1d1ab8df73bd <- 200 in 212ms
+[2026-10-21 21:47:29.464] gw-edge-2 WARN  rate limit exceeded for client 203.0.113.9 (429)
+[2026-10-21 21:47:40.296] gw-edge-2 INFO  rid=18f6c68a-0ce9-4e6b-80d3-d6970f8dee4a GET /healthz client=203.50.115.157
+[2026-10-21 21:47:40.321] gw-edge-2 INFO  rid=18f6c68a-0ce9-4e6b-80d3-d6970f8dee4a <- 200 in 25ms
+[2026-10-21 21:48:24.148] gw-edge-1 WARN  upstream catalog-svc responded slowly: 1840ms
+[2026-10-21 21:48:29.120] gw-edge-3 INFO  rid=f61e3f2c-0492-47d9-838c-d432fc87759a GET /api/orders/ORD-61404 client=10.80.36.212
+[2026-10-21 21:48:29.159] gw-edge-3 INFO  rid=f61e3f2c-0492-47d9-838c-d432fc87759a <- 200 in 39ms
+[2026-10-21 21:48:45.360] gw-edge-3 INFO  rid=984e2c33-e1a9-443f-b14d-fafb155ffd15 GET /healthz client=10.3.11.55
+[2026-10-21 21:48:45.483] gw-edge-3 INFO  rid=984e2c33-e1a9-443f-b14d-fafb155ffd15 <- 200 in 123ms
+[2026-10-21 21:49:03.649] gw-edge-2 INFO  rid=8ec426cb-078e-42d9-8b72-96731a2bc47d GET /api/products/SKU-57076 client=10.64.15.120
+[2026-10-21 21:49:03.756] gw-edge-2 INFO  rid=8ec426cb-078e-42d9-8b72-96731a2bc47d <- 200 in 107ms
+[2026-10-21 21:49:42.000] gw-edge-2 INFO  rid=cb7526c3-de0a-4086-a046-e973ba652864 PATCH /api/orders/ORD-61207/address client=10.92.122.208
+[2026-10-21 21:49:42.003] gw-edge-2 INFO  rid=cb7526c3-de0a-4086-a046-e973ba652864 -> orders-svc x-trace-id=6c2625a1127f timeout=5000ms
+[2026-10-21 21:49:42.303] gw-edge-2 INFO  rid=cb7526c3-de0a-4086-a046-e973ba652864 <- 200 in 303ms
+[2026-10-21 21:49:57.064] gw-edge-3 INFO  rid=82337dae-77a1-4187-9ed8-65eed9e2e889 PATCH /api/orders/ORD-61850/address client=192.23.40.147
+[2026-10-21 21:49:57.068] gw-edge-3 INFO  rid=82337dae-77a1-4187-9ed8-65eed9e2e889 -> orders-svc x-trace-id=267d42332ea5 timeout=5000ms
+[2026-10-21 21:49:57.398] gw-edge-3 INFO  rid=82337dae-77a1-4187-9ed8-65eed9e2e889 <- 200 in 334ms
+[2026-10-21 21:49:58.179] gw-edge-1 INFO  rid=bcfddd8e-8e51-47ad-b3f8-8da9f3b4076a PATCH /api/orders/ORD-61005/address client=172.3.219.96
+[2026-10-21 21:49:58.185] gw-edge-1 INFO  rid=bcfddd8e-8e51-47ad-b3f8-8da9f3b4076a -> orders-svc x-trace-id=d2481da3ffa2 timeout=5000ms
+[2026-10-21 21:49:58.444] gw-edge-1 INFO  rid=bcfddd8e-8e51-47ad-b3f8-8da9f3b4076a <- 200 in 265ms
+[2026-10-21 21:49:58.815] gw-edge-2 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+[2026-10-21 21:50:01.713] gw-edge-2 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:50:07.222] gw-edge-3 WARN  upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:50:10.350] gw-edge-3 INFO  rid=f0e9a7d3-649d-4c0f-aea6-2b86cbceb423 POST /api/login client=198.18.133.152
+[2026-10-21 21:50:10.538] gw-edge-3 INFO  rid=f0e9a7d3-649d-4c0f-aea6-2b86cbceb423 <- 200 in 188ms
+[2026-10-21 21:50:13.450] gw-edge-2 INFO  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:50:32.518] gw-edge-2 INFO  config reload ok routes=148
+[2026-10-21 21:50:37.091] gw-edge-1 INFO  rid=0f5ca024-6d19-485f-8fce-75276c38c62d GET /healthz client=203.143.113.149
+[2026-10-21 21:50:37.281] gw-edge-1 INFO  rid=0f5ca024-6d19-485f-8fce-75276c38c62d <- 200 in 190ms
+[2026-10-21 21:50:52.114] gw-edge-2 INFO  rid=b00774bb-8d5b-45dd-8caf-5958268e86fc PATCH /api/orders/ORD-61584/address client=172.95.32.193
+[2026-10-21 21:50:52.119] gw-edge-2 INFO  rid=b00774bb-8d5b-45dd-8caf-5958268e86fc -> orders-svc x-trace-id=707596a7bbdc timeout=5000ms
+[2026-10-21 21:50:52.382] gw-edge-2 INFO  rid=b00774bb-8d5b-45dd-8caf-5958268e86fc <- 200 in 268ms
+[2026-10-21 21:50:53.152] gw-edge-3 INFO  rid=7dfaec5a-be66-441f-bba3-3c7420f28b18 PATCH /api/orders/ORD-60910/address client=192.20.6.196
+[2026-10-21 21:50:53.154] gw-edge-3 INFO  rid=7dfaec5a-be66-441f-bba3-3c7420f28b18 -> orders-svc x-trace-id=24f7c093319a timeout=5000ms
+[2026-10-21 21:50:53.415] gw-edge-3 INFO  rid=7dfaec5a-be66-441f-bba3-3c7420f28b18 <- 200 in 263ms
+[2026-10-21 21:51:35.134] gw-edge-2 INFO  rid=b9b1f0b4-6305-4830-8400-8c66f20d64d2 PUT /api/addresses/default client=10.23.31.228
+[2026-10-21 21:51:35.242] gw-edge-2 INFO  rid=b9b1f0b4-6305-4830-8400-8c66f20d64d2 <- 200 in 108ms
+[2026-10-21 21:51:49.257] gw-edge-1 INFO  route cache refreshed entries=148 took=12ms
+[2026-10-21 21:52:12.678] gw-edge-1 INFO  rid=179b8bd1-e712-4d3c-bf95-792adc50b1a3 PATCH /api/orders/ORD-61328/address client=192.146.133.56
+[2026-10-21 21:52:12.681] gw-edge-1 INFO  rid=179b8bd1-e712-4d3c-bf95-792adc50b1a3 -> orders-svc x-trace-id=e0142367f803 timeout=5000ms
+[2026-10-21 21:52:12.723] gw-edge-1 INFO  rid=f452b651-cb6a-4ba4-b542-226c58601b02 GET /api/addresses client=172.174.123.215
+[2026-10-21 21:52:12.726] gw-edge-1 WARN  rid=f452b651-cb6a-4ba4-b542-226c58601b02 <- 429 in 3ms
+[2026-10-21 21:52:12.898] gw-edge-1 INFO  rid=179b8bd1-e712-4d3c-bf95-792adc50b1a3 <- 200 in 220ms
+[2026-10-21 21:52:13.711] gw-edge-2 INFO  rid=5f5ccb0d-e28b-458d-9ef8-ce17d13a760b GET /api/orders client=10.157.49.117
+[2026-10-21 21:52:13.848] gw-edge-2 INFO  rid=5f5ccb0d-e28b-458d-9ef8-ce17d13a760b <- 200 in 137ms
+[2026-10-21 21:52:14.379] gw-edge-3 INFO  rid=21288096-da8d-4c13-a3bd-272402d0cdd3 GET /api/products/SKU-25127 client=172.16.230.178
+[2026-10-21 21:52:14.436] gw-edge-3 INFO  rid=21288096-da8d-4c13-a3bd-272402d0cdd3 <- 200 in 57ms
+[2026-10-21 21:52:21.466] gw-edge-1 INFO  rid=ca6ed23e-3be2-4916-b20d-5916920c577d GET /api/orders/ORD-60629 client=172.58.226.13
+[2026-10-21 21:52:21.602] gw-edge-1 INFO  rid=ca6ed23e-3be2-4916-b20d-5916920c577d <- 200 in 136ms
+[2026-10-21 21:52:25.520] gw-edge-1 INFO  rid=abab3742-8bc1-4a13-be59-5d39398968a4 GET /api/orders/ORD-61751 client=10.42.57.46
+[2026-10-21 21:52:25.531] gw-edge-1 WARN  rid=abab3742-8bc1-4a13-be59-5d39398968a4 <- 400 in 11ms
+[2026-10-21 21:52:28.845] gw-edge-2 INFO  rid=e9201111-29f7-479f-8d79-de49b3af4e76 PATCH /api/orders/ORD-61603/address client=198.160.13.205
+[2026-10-21 21:52:28.847] gw-edge-2 INFO  rid=e9201111-29f7-479f-8d79-de49b3af4e76 -> orders-svc x-trace-id=bdbea795ece7 timeout=5000ms
+[2026-10-21 21:52:29.100] gw-edge-2 INFO  rid=e9201111-29f7-479f-8d79-de49b3af4e76 <- 200 in 255ms
+[2026-10-21 21:52:36.654] gw-edge-1 ERROR route cache refreshed entries=148 took=12ms
+[2026-10-21 21:52:41.357] gw-edge-2 INFO  rid=3dfb289f-afca-4ffa-bbc4-a2f5b5ca8eb7 GET /api/orders client=192.139.194.110
+[2026-10-21 21:52:41.446] gw-edge-2 INFO  rid=3dfb289f-afca-4ffa-bbc4-a2f5b5ca8eb7 <- 200 in 89ms
+[2026-10-21 21:52:50.148] gw-edge-2 INFO  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:52:51.190] gw-edge-1 INFO  rid=ff0d67f6-49a2-4204-8188-b2553bffaf00 GET /api/orders/ORD-61252 client=172.5.108.19
+[2026-10-21 21:52:51.194] gw-edge-1 INFO  rid=ff0d67f6-49a2-4204-8188-b2553bffaf00 <- 200 in 4ms
+[2026-10-21 21:52:52.380] gw-edge-1 INFO  rid=bd382bb3-057e-49e7-9eec-937fd171231b PATCH /api/orders/ORD-61918/address client=198.236.60.59
+[2026-10-21 21:52:52.386] gw-edge-1 INFO  rid=bd382bb3-057e-49e7-9eec-937fd171231b -> orders-svc x-trace-id=9d52f42ba28a timeout=5000ms
+[2026-10-21 21:52:52.573] gw-edge-1 INFO  rid=bd382bb3-057e-49e7-9eec-937fd171231b <- 200 in 193ms
+[2026-10-21 21:53:04.067] gw-edge-2 INFO  rid=dfd3b065-5972-45e3-a56f-059891c3c2e8 PATCH /api/orders/ORD-61687/address client=192.188.118.110
+[2026-10-21 21:53:04.071] gw-edge-2 INFO  rid=dfd3b065-5972-45e3-a56f-059891c3c2e8 -> orders-svc x-trace-id=6fdaad0dd81c timeout=5000ms
+[2026-10-21 21:53:04.399] gw-edge-2 INFO  rid=dfd3b065-5972-45e3-a56f-059891c3c2e8 <- 200 in 332ms
+[2026-10-21 21:53:08.029] gw-edge-2 INFO  rid=28c7f62f-1171-4a61-bf5b-178737b09fc5 PATCH /api/orders/ORD-61016/address client=203.10.62.236
+[2026-10-21 21:53:08.034] gw-edge-2 INFO  rid=28c7f62f-1171-4a61-bf5b-178737b09fc5 -> orders-svc x-trace-id=21dbe56c86ae timeout=5000ms
+[2026-10-21 21:53:08.360] gw-edge-2 INFO  rid=28c7f62f-1171-4a61-bf5b-178737b09fc5 <- 200 in 331ms
+[2026-10-21 21:53:25.622] gw-edge-1 INFO  rid=4a281f29-7e44-47c9-ae8d-d304fe0059d0 PATCH /api/orders/ORD-61430/address client=10.250.91.200
+[2026-10-21 21:53:25.625] gw-edge-1 INFO  rid=4a281f29-7e44-47c9-ae8d-d304fe0059d0 -> orders-svc x-trace-id=bbe2311a7902 timeout=5000ms
+[2026-10-21 21:53:25.893] gw-edge-1 INFO  rid=4a281f29-7e44-47c9-ae8d-d304fe0059d0 <- 200 in 271ms
+[2026-10-21 21:53:28.590] gw-edge-3 INFO  rid=50747985-9a81-43c4-ad61-1faadd8705be GET /healthz client=192.123.132.22
+[2026-10-21 21:53:28.630] gw-edge-3 ERROR rid=50747985-9a81-43c4-ad61-1faadd8705be <- 503 in 40ms
+[2026-10-21 21:53:29.529] gw-edge-1 INFO  rid=3d2517da-6052-419f-ad3c-a6a49777b74e POST /api/login client=10.62.62.20
+[2026-10-21 21:53:31.060] gw-edge-1 ERROR rid=3d2517da-6052-419f-ad3c-a6a49777b74e <- 502 in 1531ms
+[2026-10-21 21:53:36.529] gw-edge-3 ERROR upstream health check ok orders-svc 3/3 healthy
+[2026-10-21 21:53:42.410] gw-edge-2 INFO  rid=f5cc0583-af81-4a11-a873-f55c0d1eee0e GET /healthz client=10.127.153.176
+[2026-10-21 21:53:42.586] gw-edge-2 INFO  rid=f5cc0583-af81-4a11-a873-f55c0d1eee0e <- 200 in 176ms
+[2026-10-21 21:53:46.953] gw-edge-3 WARN  upstream recs-svc connect timeout after 1500ms
+[2026-10-21 21:54:15.985] gw-edge-1 INFO  rid=c0806806-4186-4ecb-afbf-afc0fd5f26d1 PATCH /api/orders/ORD-61923/address client=10.202.201.121
+[2026-10-21 21:54:15.990] gw-edge-1 INFO  rid=c0806806-4186-4ecb-afbf-afc0fd5f26d1 -> orders-svc x-trace-id=314e4144ee20 timeout=5000ms
+[2026-10-21 21:54:16.231] gw-edge-1 INFO  rid=c0806806-4186-4ecb-afbf-afc0fd5f26d1 <- 200 in 246ms
+[2026-10-21 21:54:39.468] gw-edge-1 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:54:48.820] gw-edge-3 INFO  rid=b9f05636-eeea-4d5e-9e4f-4edcf4620dfe PATCH /api/orders/ORD-61915/address client=172.52.35.12
+[2026-10-21 21:54:48.826] gw-edge-3 INFO  rid=b9f05636-eeea-4d5e-9e4f-4edcf4620dfe -> orders-svc x-trace-id=215149ab5230 timeout=5000ms
+[2026-10-21 21:54:48.867] gw-edge-1 INFO  rid=d646ff03-dac2-470b-b306-b649d5942be2 GET /api/addresses client=198.52.216.37
+[2026-10-21 21:54:49.079] gw-edge-1 INFO  rid=d646ff03-dac2-470b-b306-b649d5942be2 <- 200 in 212ms
+[2026-10-21 21:54:49.113] gw-edge-3 INFO  rid=b9f05636-eeea-4d5e-9e4f-4edcf4620dfe <- 200 in 293ms
+[2026-10-21 21:54:55.746] gw-edge-2 INFO  rid=60170e35-1d98-4c77-83f9-090e78e1bbca PATCH /api/orders/ORD-61852/address client=203.107.25.17
+[2026-10-21 21:54:55.749] gw-edge-2 INFO  rid=60170e35-1d98-4c77-83f9-090e78e1bbca -> orders-svc x-trace-id=54e0767135b3 timeout=5000ms
+[2026-10-21 21:54:55.969] gw-edge-2 INFO  rid=60170e35-1d98-4c77-83f9-090e78e1bbca <- 200 in 223ms
+[2026-10-21 21:54:56.238] gw-edge-1 INFO  rid=7b93672c-84a7-45fd-a576-e24f9ff51e2a PATCH /api/orders/ORD-60503/address client=198.73.235.70
+[2026-10-21 21:54:56.240] gw-edge-1 INFO  rid=7b93672c-84a7-45fd-a576-e24f9ff51e2a -> orders-svc x-trace-id=f70ac1b38932 timeout=5000ms
+[2026-10-21 21:54:56.517] gw-edge-1 INFO  rid=7b93672c-84a7-45fd-a576-e24f9ff51e2a <- 200 in 279ms
+[2026-10-21 21:54:58.444] gw-edge-3 INFO  rid=641ab608-2dc9-42f0-900a-fc108b515eff GET /api/addresses client=198.3.55.239
+[2026-10-21 21:54:58.571] gw-edge-3 ERROR rid=641ab608-2dc9-42f0-900a-fc108b515eff <- 500 in 127ms
+[2026-10-21 21:55:00.843] gw-edge-2 WARN  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:55:37.778] gw-edge-2 WARN  upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:55:56.841] gw-edge-1 INFO  rid=84393787-fb2b-4f91-bf50-9e311da8bd17 GET /api/orders client=192.69.232.248
+[2026-10-21 21:55:57.030] gw-edge-1 INFO  rid=84393787-fb2b-4f91-bf50-9e311da8bd17 <- 200 in 189ms
+[2026-10-21 21:56:01.974] gw-edge-2 INFO  rid=b9541ad3-9bc6-4f0c-a760-be42a7a54306 PATCH /api/orders/ORD-60624/address client=10.89.156.106
+[2026-10-21 21:56:01.980] gw-edge-2 INFO  rid=b9541ad3-9bc6-4f0c-a760-be42a7a54306 -> orders-svc x-trace-id=661f1daa779d timeout=5000ms
+[2026-10-21 21:56:02.292] gw-edge-2 INFO  rid=b9541ad3-9bc6-4f0c-a760-be42a7a54306 <- 200 in 318ms
+[2026-10-21 21:56:15.519] gw-edge-2 INFO  rid=9697eec4-736d-429e-957b-7dcba70afa84 PUT /api/addresses/default client=192.84.42.185
+[2026-10-21 21:56:15.621] gw-edge-2 INFO  rid=9697eec4-736d-429e-957b-7dcba70afa84 <- 200 in 102ms
+[2026-10-21 21:56:23.046] gw-edge-3 INFO  rid=dd1ff061-5f52-492a-9080-15717c1341be GET /api/addresses client=203.4.125.180
+[2026-10-21 21:56:23.217] gw-edge-3 INFO  rid=dd1ff061-5f52-492a-9080-15717c1341be <- 200 in 171ms
+[2026-10-21 21:56:28.615] gw-edge-3 INFO  rid=47b0f438-47e8-4cb7-8994-680a9e1a7a50 GET /healthz client=172.215.45.109
+[2026-10-21 21:56:28.621] gw-edge-3 WARN  rid=47b0f438-47e8-4cb7-8994-680a9e1a7a50 <- 401 in 6ms
+[2026-10-21 21:56:34.949] gw-edge-1 INFO  rid=96c498f1-079d-4bb6-82dd-23841260af1b PATCH /api/orders/ORD-60623/address client=10.254.165.74
+[2026-10-21 21:56:34.952] gw-edge-1 INFO  rid=96c498f1-079d-4bb6-82dd-23841260af1b -> orders-svc x-trace-id=297c58a6d03b timeout=5000ms
+[2026-10-21 21:56:35.244] gw-edge-1 INFO  rid=96c498f1-079d-4bb6-82dd-23841260af1b <- 200 in 295ms
+[2026-10-21 21:56:40.033] gw-edge-3 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+[2026-10-21 21:57:10.728] gw-edge-2 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+[2026-10-21 21:57:39.270] gw-edge-3 INFO  rid=c985eec3-6035-4242-96a4-aa8873931109 GET /api/products/SKU-44950 client=10.241.200.196
+[2026-10-21 21:57:39.284] gw-edge-3 INFO  rid=c985eec3-6035-4242-96a4-aa8873931109 <- 200 in 14ms
+[2026-10-21 21:57:43.954] gw-edge-2 INFO  rid=491d417f-e735-4ee0-a41a-4d2b138b33c5 GET /api/orders client=172.138.112.98
+[2026-10-21 21:57:44.035] gw-edge-2 INFO  rid=491d417f-e735-4ee0-a41a-4d2b138b33c5 <- 200 in 81ms
+[2026-10-21 21:58:07.885] gw-edge-2 WARN  upstream health check ok payments-svc 2/2 healthy
+[2026-10-21 21:58:08.298] gw-edge-1 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+[2026-10-21 21:58:36.353] gw-edge-3 INFO  rid=d29e5e3a-24cc-4c55-87d6-a3eb04c15977 PATCH /api/orders/ORD-60594/address client=10.94.4.45
+[2026-10-21 21:58:36.358] gw-edge-3 INFO  rid=d29e5e3a-24cc-4c55-87d6-a3eb04c15977 -> orders-svc x-trace-id=c3c9a799eb4e timeout=5000ms
+[2026-10-21 21:58:36.661] gw-edge-3 INFO  rid=d29e5e3a-24cc-4c55-87d6-a3eb04c15977 <- 200 in 308ms
+[2026-10-21 21:58:37.336] gw-edge-2 INFO  rid=947f295d-5283-41ab-b800-52576f0f9dfe GET /api/orders client=172.174.66.246
+[2026-10-21 21:58:37.367] gw-edge-2 INFO  rid=947f295d-5283-41ab-b800-52576f0f9dfe <- 200 in 31ms
+[2026-10-21 21:58:41.841] gw-edge-2 INFO  rid=15a5fd8a-0b41-417f-8e36-ffcc7e49e800 PATCH /api/orders/ORD-60887/address client=203.140.172.88
+[2026-10-21 21:58:41.846] gw-edge-2 INFO  rid=15a5fd8a-0b41-417f-8e36-ffcc7e49e800 -> orders-svc x-trace-id=d928986d53a3 timeout=5000ms
+[2026-10-21 21:58:42.108] gw-edge-2 INFO  rid=15a5fd8a-0b41-417f-8e36-ffcc7e49e800 <- 200 in 267ms
+[2026-10-21 21:58:59.296] gw-edge-2 INFO  jwt validation failed: token expired (sub=u_104233)
+[2026-10-21 21:59:30.415] gw-edge-2 INFO  rid=13276d7e-fab3-4ee8-8c22-9aca44dbdfda PATCH /api/orders/ORD-61039/address client=192.150.49.97
+[2026-10-21 21:59:30.418] gw-edge-2 INFO  rid=13276d7e-fab3-4ee8-8c22-9aca44dbdfda -> orders-svc x-trace-id=c18aa480c090 timeout=5000ms
+[2026-10-21 21:59:30.678] gw-edge-2 INFO  rid=13276d7e-fab3-4ee8-8c22-9aca44dbdfda <- 200 in 263ms
+[2026-10-21 21:59:33.629] gw-edge-3 INFO  rid=a2e03e1b-5705-4361-878f-e0f887cfc895 GET /api/orders client=10.92.235.95
+[2026-10-21 21:59:33.756] gw-edge-3 INFO  rid=a2e03e1b-5705-4361-878f-e0f887cfc895 <- 200 in 127ms
+[2026-10-21 21:59:45.958] gw-edge-1 INFO  rid=d1f2661d-a282-48d8-ade9-d9e969022fd4 PATCH /api/orders/ORD-60917/address client=203.224.199.152
+[2026-10-21 21:59:45.961] gw-edge-1 INFO  rid=d1f2661d-a282-48d8-ade9-d9e969022fd4 -> orders-svc x-trace-id=6d99ee1bd544 timeout=5000ms
+[2026-10-21 21:59:46.299] gw-edge-1 INFO  rid=d1f2661d-a282-48d8-ade9-d9e969022fd4 <- 200 in 341ms
+[2026-10-21 21:59:51.629] gw-edge-2 INFO  rid=9f6f87e0-4163-43c2-87ef-41189eb607b3 PATCH /api/orders/ORD-60894/address client=203.12.37.34
+[2026-10-21 21:59:51.631] gw-edge-2 INFO  rid=9f6f87e0-4163-43c2-87ef-41189eb607b3 -> orders-svc x-trace-id=91db943e4098 timeout=5000ms
+[2026-10-21 21:59:51.825] gw-edge-2 INFO  rid=9f6f87e0-4163-43c2-87ef-41189eb607b3 <- 200 in 196ms

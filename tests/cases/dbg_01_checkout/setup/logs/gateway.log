@@ -1,0 +1,752 @@
+2026-09-17T14:00:13.569Z gw-edge-1 INFO  req=r-010c39a6 POST /api/cart/items order=- client=203.106.12.58 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:00:13.755Z gw-edge-1 INFO  req=r-010c39a6 status=200 dur_ms=186 bytes=766
+2026-09-17T14:00:19.841Z gw-edge-2 INFO  req=r-f3f48e3c GET /api/products/SKU-15800 order=- client=172.234.2.146 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:00:20.025Z gw-edge-2 INFO  req=r-f3f48e3c status=200 dur_ms=184 bytes=1873
+2026-09-17T14:00:25.213Z gw-edge-1 INFO  req=r-f66e09c1 POST /api/checkout order=ORD-79151 client=172.67.10.203 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:00:25.216Z gw-edge-1 INFO  req=r-f66e09c1 upstream=orders-svc trace=tr-bbd67b57103d attempt=1 timeout_ms=8000
+2026-09-17T14:00:25.390Z gw-edge-1 INFO  req=r-f66e09c1 status=200 dur_ms=177 bytes=711
+2026-09-17T14:00:34.006Z gw-edge-3 INFO  req=r-f926de96 GET /api/recommendations order=- client=203.161.214.60 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:00:34.032Z gw-edge-3 INFO  req=r-f926de96 status=200 dur_ms=26 bytes=1071
+2026-09-17T14:00:41.573Z gw-edge-1 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:00:44.686Z gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:00:49.224Z gw-edge-3 INFO  req=r-b7706a55 POST /api/cart/items order=- client=203.102.169.84 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:00:49.374Z gw-edge-3 INFO  req=r-b7706a55 status=200 dur_ms=150 bytes=3369
+2026-09-17T14:00:54.240Z gw-edge-2 INFO  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:01:29.941Z gw-edge-2 INFO  req=r-f6232320 POST /api/checkout order=ORD-74094 client=203.186.92.235 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:01:29.943Z gw-edge-2 INFO  req=r-f6232320 upstream=orders-svc trace=tr-3e82157bf710 attempt=1 timeout_ms=8000
+2026-09-17T14:01:30.321Z gw-edge-2 INFO  req=r-f6232320 status=200 dur_ms=380 bytes=694
+2026-09-17T14:01:32.404Z gw-edge-3 INFO  req=r-7bc00081 GET /api/products/SKU-14103 order=- client=198.77.53.246 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:01:32.542Z gw-edge-3 INFO  req=r-7bc00081 status=200 dur_ms=138 bytes=1588
+2026-09-17T14:01:40.583Z gw-edge-1 INFO  req=r-f1662914 POST /api/checkout order=ORD-74154 client=192.202.156.40 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:01:40.589Z gw-edge-1 INFO  req=r-f1662914 upstream=orders-svc trace=tr-3c0f926e4fb0 attempt=1 timeout_ms=8000
+2026-09-17T14:01:40.853Z gw-edge-1 INFO  req=r-f1662914 status=200 dur_ms=270 bytes=352
+2026-09-17T14:02:05.294Z gw-edge-3 INFO  req=r-8ccd97a9 GET /api/recommendations order=- client=198.247.0.87 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:02:05.327Z gw-edge-3 INFO  req=r-8ccd97a9 status=200 dur_ms=33 bytes=3545
+2026-09-17T14:02:06.821Z gw-edge-3 INFO  req=r-26dc004d POST /api/checkout order=ORD-78352 client=172.212.10.88 ua="shop-android/8.2.1"
+2026-09-17T14:02:06.827Z gw-edge-3 INFO  req=r-26dc004d upstream=orders-svc trace=tr-28db4c673b3f attempt=1 timeout_ms=8000
+2026-09-17T14:02:07.120Z gw-edge-3 INFO  req=r-26dc004d status=200 dur_ms=299 bytes=319
+2026-09-17T14:02:11.829Z gw-edge-1 INFO  req=r-b7abcc3e GET /api/products/SKU-50269 order=- client=198.14.53.217 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:02:11.889Z gw-edge-1 INFO  req=r-b7abcc3e status=200 dur_ms=60 bytes=545
+2026-09-17T14:02:20.816Z gw-edge-1 INFO  req=r-d484aef4 POST /api/cart/items order=- client=192.147.131.136 ua="shop-android/8.2.1"
+2026-09-17T14:02:20.822Z gw-edge-1 INFO  req=r-d484aef4 status=200 dur_ms=6 bytes=2739
+2026-09-17T14:02:24.351Z gw-edge-1 INFO  req=r-f742de1a POST /api/cart/items order=- client=198.1.38.174 ua="shop-android/8.2.1"
+2026-09-17T14:02:24.415Z gw-edge-1 INFO  req=r-f742de1a status=200 dur_ms=64 bytes=2928
+2026-09-17T14:02:39.693Z gw-edge-1 INFO  req=r-52759375 GET /api/orders/ORD-71203 order=ORD-71203 client=198.100.81.146 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:02:39.786Z gw-edge-1 INFO  req=r-52759375 status=200 dur_ms=93 bytes=1128
+2026-09-17T14:02:49.146Z gw-edge-1 INFO  req=r-30c56715 GET /api/cart order=- client=198.16.149.10 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:02:49.149Z gw-edge-1 WARN  req=r-30c56715 status=429 dur_ms=3 bytes=3230
+2026-09-17T14:02:49.278Z gw-edge-3 INFO  req=r-81254534 GET /api/orders/ORD-77195 order=ORD-77195 client=10.23.81.182 ua="shop-android/8.2.1"
+2026-09-17T14:02:49.315Z gw-edge-3 INFO  req=r-81254534 status=200 dur_ms=37 bytes=1010
+2026-09-17T14:02:49.882Z gw-edge-2 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:03:08.445Z gw-edge-3 INFO  req=r-1524e6fe POST /api/cart/items order=- client=192.53.141.28 ua="shop-android/8.2.1"
+2026-09-17T14:03:08.660Z gw-edge-3 INFO  req=r-1524e6fe status=200 dur_ms=215 bytes=1706
+2026-09-17T14:03:13.436Z gw-edge-1 ERROR upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:03:13.495Z gw-edge-1 WARN  rate limit exceeded for client 203.0.113.9 (429)
+2026-09-17T14:03:19.157Z gw-edge-1 INFO  req=r-5e26902a POST /api/cart/items order=- client=192.102.162.191 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:03:19.317Z gw-edge-1 INFO  req=r-5e26902a status=200 dur_ms=160 bytes=1541
+2026-09-17T14:03:31.688Z gw-edge-2 INFO  req=r-e342d7a2 GET /api/products/SKU-50733 order=- client=192.144.239.124 ua="okhttp/4.12.0"
+2026-09-17T14:03:31.783Z gw-edge-2 INFO  req=r-e342d7a2 status=200 dur_ms=95 bytes=2718
+2026-09-17T14:03:38.256Z gw-edge-3 INFO  req=r-4a6a31e2 GET /api/orders/ORD-71651 order=ORD-71651 client=10.110.54.217 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:03:38.376Z gw-edge-3 INFO  req=r-4a6a31e2 status=200 dur_ms=120 bytes=2078
+2026-09-17T14:03:57.114Z gw-edge-3 INFO  req=r-79322009 POST /api/cart/items order=- client=203.181.128.169 ua="shop-android/8.2.1"
+2026-09-17T14:03:57.154Z gw-edge-3 ERROR req=r-79322009 status=503 dur_ms=40 bytes=1825
+2026-09-17T14:04:07.769Z gw-edge-3 INFO  req=r-0694862f POST /api/cart/items order=- client=172.115.199.169 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:04:07.788Z gw-edge-3 INFO  req=r-0694862f status=200 dur_ms=19 bytes=1885
+2026-09-17T14:04:14.857Z gw-edge-1 INFO  req=r-c52c2417 GET /healthz order=- client=203.103.174.2 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:04:14.883Z gw-edge-1 INFO  req=r-c52c2417 status=200 dur_ms=26 bytes=3584
+2026-09-17T14:04:22.039Z gw-edge-3 INFO  req=r-31dd34bc GET /api/recommendations order=- client=192.54.98.58 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:04:22.176Z gw-edge-3 INFO  req=r-31dd34bc status=200 dur_ms=137 bytes=1622
+2026-09-17T14:04:28.718Z gw-edge-1 INFO  req=r-0050b080 GET /api/products/SKU-52893 order=- client=192.147.219.164 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:04:28.778Z gw-edge-1 INFO  req=r-0050b080 status=200 dur_ms=60 bytes=3871
+2026-09-17T14:04:35.101Z gw-edge-3 INFO  req=r-d2552321 GET /api/products/SKU-35490 order=- client=203.51.222.96 ua="shop-android/8.2.1"
+2026-09-17T14:04:35.178Z gw-edge-3 INFO  req=r-d2552321 status=200 dur_ms=77 bytes=2905
+2026-09-17T14:04:43.429Z gw-edge-3 INFO  req=r-ed3851e1 POST /api/checkout order=ORD-72035 client=10.236.128.16 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:04:43.432Z gw-edge-3 INFO  req=r-ed3851e1 upstream=orders-svc trace=tr-da4d00fcc1de attempt=1 timeout_ms=8000
+2026-09-17T14:04:43.722Z gw-edge-3 INFO  req=r-ed3851e1 status=200 dur_ms=293 bytes=805
+2026-09-17T14:04:55.163Z gw-edge-3 INFO  req=r-1351f6d0 GET /api/cart order=- client=10.136.184.70 ua="shop-android/8.2.1"
+2026-09-17T14:04:55.348Z gw-edge-3 INFO  req=r-1351f6d0 status=200 dur_ms=185 bytes=1033
+2026-09-17T14:05:09.631Z gw-edge-1 INFO  req=r-f15a004b GET /api/cart order=- client=203.4.14.38 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:05:09.653Z gw-edge-1 INFO  req=r-f15a004b status=200 dur_ms=22 bytes=595
+2026-09-17T14:05:14.770Z gw-edge-3 WARN  config reload ok routes=148
+2026-09-17T14:05:18.401Z gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:06:00.944Z gw-edge-3 INFO  rate limit exceeded for client 203.0.113.9 (429)
+2026-09-17T14:06:02.231Z gw-edge-3 INFO  req=r-d1697bdf GET /api/orders/ORD-77720 order=ORD-77720 client=198.99.193.75 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:06:02.381Z gw-edge-3 INFO  req=r-d1697bdf status=200 dur_ms=150 bytes=2850
+2026-09-17T14:06:15.221Z gw-edge-2 INFO  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:06:18.630Z gw-edge-2 INFO  req=r-12062cb7 POST /api/cart/items order=- client=192.227.119.185 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:06:18.721Z gw-edge-2 INFO  req=r-12062cb7 status=200 dur_ms=91 bytes=1871
+2026-09-17T14:06:24.516Z gw-edge-3 INFO  req=r-7edac123 GET /api/orders/ORD-73315 order=ORD-73315 client=192.95.174.74 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:06:24.725Z gw-edge-3 INFO  req=r-7edac123 status=200 dur_ms=209 bytes=2361
+2026-09-17T14:06:42.761Z gw-edge-3 INFO  req=r-fbd227d7 GET /api/cart order=- client=10.50.28.44 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:06:42.940Z gw-edge-3 INFO  req=r-fbd227d7 status=200 dur_ms=179 bytes=983
+2026-09-17T14:06:43.534Z gw-edge-3 INFO  req=r-f86d68d9 POST /api/checkout order=ORD-77523 client=198.91.171.66 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:06:43.540Z gw-edge-3 INFO  req=r-f86d68d9 upstream=orders-svc trace=tr-5acb47cac4c9 attempt=1 timeout_ms=8000
+2026-09-17T14:06:43.866Z gw-edge-3 INFO  req=r-f86d68d9 status=200 dur_ms=332 bytes=877
+2026-09-17T14:06:50.600Z gw-edge-3 INFO  req=r-e17877f0 POST /api/checkout order=ORD-71344 client=203.170.195.188 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:06:50.603Z gw-edge-3 INFO  req=r-e17877f0 upstream=orders-svc trace=tr-45813ddb90a3 attempt=1 timeout_ms=8000
+2026-09-17T14:06:50.922Z gw-edge-3 INFO  req=r-e17877f0 status=200 dur_ms=322 bytes=484
+2026-09-17T14:06:51.762Z gw-edge-3 INFO  req=r-3f607f14 POST /api/checkout order=ORD-79256 client=10.95.195.12 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:06:51.764Z gw-edge-3 INFO  req=r-3f607f14 upstream=orders-svc trace=tr-1fb7d6d7d687 attempt=1 timeout_ms=8000
+2026-09-17T14:06:52.061Z gw-edge-3 INFO  req=r-3f607f14 status=200 dur_ms=299 bytes=565
+2026-09-17T14:06:54.467Z gw-edge-3 WARN  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:07:08.456Z gw-edge-3 INFO  req=r-4c10e7d3 POST /api/checkout order=ORD-72492 client=172.171.223.135 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:07:08.460Z gw-edge-3 INFO  req=r-4c10e7d3 upstream=orders-svc trace=tr-cb86045dbb50 attempt=1 timeout_ms=8000
+2026-09-17T14:07:08.685Z gw-edge-3 INFO  req=r-4c10e7d3 status=200 dur_ms=229 bytes=544
+2026-09-17T14:07:56.003Z gw-edge-2 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:07:56.938Z gw-edge-3 INFO  req=r-bdcb29a9 POST /api/checkout order=ORD-76115 client=203.18.189.166 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:07:56.942Z gw-edge-3 INFO  req=r-bdcb29a9 upstream=orders-svc trace=tr-3d6197756e37 attempt=1 timeout_ms=8000
+2026-09-17T14:07:57.173Z gw-edge-3 INFO  req=r-bdcb29a9 status=200 dur_ms=235 bytes=512
+2026-09-17T14:08:02.732Z gw-edge-3 INFO  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:08:21.014Z gw-edge-3 ERROR jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:08:25.255Z gw-edge-3 INFO  req=r-00a6d17a POST /api/login order=- client=203.63.56.174 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:08:25.403Z gw-edge-3 INFO  req=r-00a6d17a status=200 dur_ms=148 bytes=2221
+2026-09-17T14:08:36.850Z gw-edge-3 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:08:39.888Z gw-edge-2 WARN  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:08:42.701Z gw-edge-2 INFO  req=r-70a63c1c GET /api/cart order=- client=10.106.60.43 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:08:42.836Z gw-edge-2 INFO  req=r-70a63c1c status=200 dur_ms=135 bytes=1503
+2026-09-17T14:09:01.793Z gw-edge-3 INFO  req=r-e26c3339 GET /api/orders/ORD-70740 order=ORD-70740 client=172.110.29.112 ua="okhttp/4.12.0"
+2026-09-17T14:09:01.804Z gw-edge-3 WARN  req=r-e26c3339 status=400 dur_ms=11 bytes=2462
+2026-09-17T14:09:04.299Z gw-edge-3 INFO  req=r-b8dccd06 POST /api/checkout order=ORD-72141 client=10.102.149.243 ua="shop-android/8.2.1"
+2026-09-17T14:09:04.305Z gw-edge-3 INFO  req=r-b8dccd06 upstream=orders-svc trace=tr-0ec757c98a4a attempt=1 timeout_ms=8000
+2026-09-17T14:09:04.609Z gw-edge-3 INFO  req=r-b8dccd06 status=200 dur_ms=310 bytes=468
+2026-09-17T14:09:05.459Z gw-edge-1 INFO  req=r-f84ee5bb GET /healthz order=- client=172.143.24.194 ua="okhttp/4.12.0"
+2026-09-17T14:09:05.470Z gw-edge-1 WARN  req=r-f84ee5bb status=400 dur_ms=11 bytes=991
+2026-09-17T14:09:10.194Z gw-edge-3 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:09:11.162Z gw-edge-2 INFO  req=r-d7f94ebf GET /api/products/SKU-10256 order=- client=192.209.2.30 ua="shop-android/8.2.1"
+2026-09-17T14:09:11.191Z gw-edge-2 INFO  req=r-d7f94ebf status=200 dur_ms=29 bytes=1382
+2026-09-17T14:09:22.800Z gw-edge-1 INFO  req=r-25798cce GET /api/recommendations order=- client=203.71.240.150 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:09:22.879Z gw-edge-1 INFO  req=r-25798cce status=200 dur_ms=79 bytes=2840
+2026-09-17T14:09:27.319Z gw-edge-1 INFO  req=r-87ea4e04 POST /api/login order=- client=192.244.57.156 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:09:27.454Z gw-edge-1 ERROR req=r-87ea4e04 status=500 dur_ms=135 bytes=3476
+2026-09-17T14:09:34.339Z gw-edge-1 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:09:47.943Z gw-edge-1 INFO  req=r-4adc3714 POST /api/cart/items order=- client=192.233.118.51 ua="okhttp/4.12.0"
+2026-09-17T14:09:48.001Z gw-edge-1 INFO  req=r-4adc3714 status=200 dur_ms=58 bytes=2019
+2026-09-17T14:10:07.937Z gw-edge-2 INFO  req=r-177846c1 GET /healthz order=- client=203.59.33.245 ua="shop-android/8.2.1"
+2026-09-17T14:10:08.096Z gw-edge-2 INFO  req=r-177846c1 status=200 dur_ms=159 bytes=2438
+2026-09-17T14:10:17.819Z gw-edge-1 INFO  req=r-14b60c33 GET /api/products/SKU-48357 order=- client=10.205.15.232 ua="okhttp/4.12.0"
+2026-09-17T14:10:17.900Z gw-edge-1 INFO  req=r-14b60c33 status=200 dur_ms=81 bytes=1608
+2026-09-17T14:10:19.233Z gw-edge-3 INFO  req=r-3b0b3ed3 GET /api/products/SKU-56111 order=- client=203.166.7.98 ua="shop-android/8.2.1"
+2026-09-17T14:10:19.239Z gw-edge-3 INFO  req=r-3b0b3ed3 status=200 dur_ms=6 bytes=1179
+2026-09-17T14:10:24.274Z gw-edge-2 INFO  req=r-3e37965e POST /api/checkout order=ORD-79660 client=203.220.229.134 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:10:24.277Z gw-edge-2 INFO  req=r-3e37965e upstream=orders-svc trace=tr-4e3ee652f991 attempt=1 timeout_ms=8000
+2026-09-17T14:10:24.575Z gw-edge-2 INFO  req=r-3e37965e status=200 dur_ms=301 bytes=569
+2026-09-17T14:10:36.041Z gw-edge-3 INFO  req=r-6582f5fe GET /api/products/SKU-36474 order=- client=203.41.248.46 ua="okhttp/4.12.0"
+2026-09-17T14:10:36.055Z gw-edge-3 INFO  req=r-6582f5fe status=200 dur_ms=14 bytes=1097
+2026-09-17T14:10:39.411Z gw-edge-3 INFO  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:10:40.334Z gw-edge-2 ERROR upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:11:09.508Z gw-edge-3 INFO  config reload ok routes=148
+2026-09-17T14:11:12.789Z gw-edge-3 INFO  req=r-02b6243e POST /api/checkout order=ORD-77076 client=10.48.88.116 ua="okhttp/4.12.0"
+2026-09-17T14:11:12.791Z gw-edge-3 INFO  req=r-02b6243e upstream=orders-svc trace=tr-eec3afdac70c attempt=1 timeout_ms=8000
+2026-09-17T14:11:13.055Z gw-edge-3 INFO  req=r-02b6243e status=200 dur_ms=266 bytes=366
+2026-09-17T14:11:18.502Z gw-edge-1 INFO  req=r-c8a7ee20 GET /api/products/SKU-22083 order=- client=172.201.37.141 ua="okhttp/4.12.0"
+2026-09-17T14:11:18.694Z gw-edge-1 INFO  req=r-c8a7ee20 status=200 dur_ms=192 bytes=1049
+2026-09-17T14:11:38.578Z gw-edge-1 INFO  req=r-acc0d215 POST /api/checkout order=ORD-77265 client=198.122.158.187 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:11:38.581Z gw-edge-1 INFO  req=r-acc0d215 upstream=orders-svc trace=tr-bda229720448 attempt=1 timeout_ms=8000
+2026-09-17T14:11:38.852Z gw-edge-1 INFO  req=r-acc0d215 status=200 dur_ms=274 bytes=852
+2026-09-17T14:11:39.388Z gw-edge-3 INFO  req=r-ba4ae393 GET /api/products/SKU-30226 order=- client=172.16.104.121 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:11:39.592Z gw-edge-3 INFO  req=r-ba4ae393 status=200 dur_ms=204 bytes=3589
+2026-09-17T14:12:11.492Z gw-edge-3 INFO  req=r-b8f58c74 POST /api/login order=- client=203.29.177.73 ua="okhttp/4.12.0"
+2026-09-17T14:12:11.571Z gw-edge-3 INFO  req=r-b8f58c74 status=200 dur_ms=79 bytes=1101
+2026-09-17T14:12:19.963Z gw-edge-1 INFO  req=r-dd6abe8b GET /api/recommendations order=- client=10.104.50.25 ua="okhttp/4.12.0"
+2026-09-17T14:12:20.064Z gw-edge-1 INFO  req=r-dd6abe8b status=200 dur_ms=101 bytes=3743
+2026-09-17T14:12:27.677Z gw-edge-2 INFO  req=r-bd1e713b POST /api/checkout order=ORD-73580 client=203.10.76.144 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:12:27.680Z gw-edge-2 INFO  req=r-bd1e713b upstream=orders-svc trace=tr-602d241be101 attempt=1 timeout_ms=8000
+2026-09-17T14:12:27.990Z gw-edge-2 INFO  req=r-bd1e713b status=200 dur_ms=313 bytes=478
+2026-09-17T14:12:28.443Z gw-edge-3 INFO  req=r-2ed8e3d9 GET /api/cart order=- client=10.196.109.30 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:12:28.513Z gw-edge-3 INFO  req=r-2ed8e3d9 status=200 dur_ms=70 bytes=1033
+2026-09-17T14:12:39.987Z gw-edge-3 INFO  req=r-60e706f9 GET /api/products/SKU-19393 order=- client=203.210.252.25 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:12:40.000Z gw-edge-1 INFO  req=r-bb35388f POST /api/checkout order=ORD-79227 client=203.91.2.3 ua="okhttp/4.12.0"
+2026-09-17T14:12:40.002Z gw-edge-1 INFO  req=r-bb35388f upstream=orders-svc trace=tr-1659b09d02e4 attempt=1 timeout_ms=8000
+2026-09-17T14:12:40.080Z gw-edge-3 INFO  req=r-60e706f9 status=200 dur_ms=93 bytes=182
+2026-09-17T14:12:47.885Z gw-edge-3 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:12:48.003Z gw-edge-1 ERROR req=r-bb35388f status=502 dur_ms=8003 bytes=144
+2026-09-17T14:12:56.951Z gw-edge-1 INFO  req=r-981fbccf GET /api/cart order=- client=203.224.234.184 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:12:57.133Z gw-edge-1 INFO  req=r-981fbccf status=200 dur_ms=182 bytes=533
+2026-09-17T14:13:03.881Z gw-edge-3 INFO  req=r-515005f5 GET /api/recommendations order=- client=198.199.25.87 ua="okhttp/4.12.0"
+2026-09-17T14:13:04.037Z gw-edge-3 INFO  req=r-515005f5 status=200 dur_ms=156 bytes=2931
+2026-09-17T14:13:04.522Z gw-edge-1 WARN  config reload ok routes=148
+2026-09-17T14:13:05.841Z gw-edge-1 INFO  req=r-bd498605 GET /api/recommendations order=- client=10.120.226.169 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:13:06.239Z gw-edge-1 ERROR req=r-bd498605 status=500 dur_ms=398 bytes=428
+2026-09-17T14:13:15.680Z gw-edge-2 ERROR upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:13:17.300Z gw-edge-1 INFO  req=r-6d6b610c GET /api/products/SKU-34692 order=- client=203.56.184.235 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:13:17.342Z gw-edge-1 INFO  req=r-6d6b610c status=200 dur_ms=42 bytes=2380
+2026-09-17T14:13:17.810Z gw-edge-1 INFO  req=r-66d16495 GET /api/recommendations order=- client=203.15.220.119 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:13:17.819Z gw-edge-1 WARN  req=r-66d16495 status=404 dur_ms=9 bytes=2826
+2026-09-17T14:13:18.401Z gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:13:26.073Z gw-edge-3 WARN  rate limit exceeded for client 203.0.113.9 (429)
+2026-09-17T14:13:28.440Z gw-edge-2 INFO  req=r-4697973a GET /api/products/SKU-30067 order=- client=203.249.72.185 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:13:28.616Z gw-edge-2 INFO  req=r-4697973a status=200 dur_ms=176 bytes=3134
+2026-09-17T14:13:38.815Z gw-edge-3 INFO  req=r-5963abf9 POST /api/checkout order=ORD-71934 client=198.5.126.75 ua="okhttp/4.12.0"
+2026-09-17T14:13:38.819Z gw-edge-3 INFO  req=r-5963abf9 upstream=orders-svc trace=tr-3ef5cd8ff0be attempt=1 timeout_ms=8000
+2026-09-17T14:13:39.056Z gw-edge-3 INFO  req=r-5963abf9 status=200 dur_ms=241 bytes=817
+2026-09-17T14:13:39.820Z gw-edge-1 INFO  req=r-8d8e991e GET /api/cart order=- client=203.145.195.250 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:13:39.871Z gw-edge-1 INFO  req=r-8d8e991e status=200 dur_ms=51 bytes=883
+2026-09-17T14:14:11.042Z gw-edge-2 INFO  req=r-d2616fb6 POST /api/checkout order=ORD-74401 client=172.77.244.192 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:14:11.045Z gw-edge-2 INFO  req=r-d2616fb6 upstream=orders-svc trace=tr-6b6bf12cf798 attempt=1 timeout_ms=8000
+2026-09-17T14:14:11.297Z gw-edge-2 INFO  req=r-d2616fb6 status=200 dur_ms=255 bytes=389
+2026-09-17T14:14:23.696Z gw-edge-3 INFO  req=r-79630ac5 GET /api/products/SKU-16951 order=- client=198.255.214.86 ua="okhttp/4.12.0"
+2026-09-17T14:14:23.858Z gw-edge-3 INFO  req=r-79630ac5 status=200 dur_ms=162 bytes=444
+2026-09-17T14:14:31.604Z gw-edge-3 INFO  req=r-ccd76246 GET /api/recommendations order=- client=198.99.169.103 ua="okhttp/4.12.0"
+2026-09-17T14:14:31.679Z gw-edge-3 INFO  req=r-ccd76246 status=200 dur_ms=75 bytes=959
+2026-09-17T14:14:34.422Z gw-edge-3 ERROR upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:14:35.731Z gw-edge-1 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:14:38.157Z gw-edge-1 ERROR config reload ok routes=148
+2026-09-17T14:14:38.509Z gw-edge-1 WARN  config reload ok routes=148
+2026-09-17T14:14:53.494Z gw-edge-2 WARN  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:14:55.368Z gw-edge-3 ERROR jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:14:55.917Z gw-edge-3 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:15:00.297Z gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:15:07.384Z gw-edge-1 INFO  req=r-e48b5845 GET /api/cart order=- client=192.165.244.210 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:15:07.411Z gw-edge-1 INFO  req=r-e48b5845 status=200 dur_ms=27 bytes=3880
+2026-09-17T14:15:16.029Z gw-edge-2 INFO  req=r-e363a27f POST /api/login order=- client=203.233.101.106 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:15:16.040Z gw-edge-2 WARN  req=r-e363a27f status=400 dur_ms=11 bytes=3017
+2026-09-17T14:15:21.541Z gw-edge-3 WARN  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:15:22.201Z gw-edge-2 INFO  req=r-8f7cf6ea POST /api/checkout order=ORD-74498 client=10.31.185.67 ua="shop-android/8.2.1"
+2026-09-17T14:15:22.204Z gw-edge-2 INFO  req=r-8f7cf6ea upstream=orders-svc trace=tr-735a16341784 attempt=1 timeout_ms=8000
+2026-09-17T14:15:22.456Z gw-edge-2 INFO  req=r-8f7cf6ea status=200 dur_ms=255 bytes=874
+2026-09-17T14:15:37.646Z gw-edge-3 WARN  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:15:58.726Z gw-edge-3 INFO  req=r-d64d420a GET /api/orders/ORD-78180 order=ORD-78180 client=172.61.73.119 ua="shop-android/8.2.1"
+2026-09-17T14:15:58.918Z gw-edge-3 INFO  req=r-d64d420a status=200 dur_ms=192 bytes=1151
+2026-09-17T14:16:04.132Z gw-edge-1 INFO  config reload ok routes=148
+2026-09-17T14:16:11.991Z gw-edge-3 INFO  req=r-1852ba5c GET /api/orders/ORD-75927 order=ORD-75927 client=198.205.207.231 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:16:12.158Z gw-edge-3 INFO  req=r-1852ba5c status=200 dur_ms=167 bytes=3241
+2026-09-17T14:16:14.558Z gw-edge-2 INFO  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:16:17.512Z gw-edge-3 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:16:39.627Z gw-edge-1 INFO  req=r-fbda9a34 POST /api/checkout order=ORD-76145 client=203.195.190.247 ua="okhttp/4.12.0"
+2026-09-17T14:16:39.632Z gw-edge-1 INFO  req=r-fbda9a34 upstream=orders-svc trace=tr-042e5da9104c attempt=1 timeout_ms=8000
+2026-09-17T14:16:39.885Z gw-edge-1 INFO  req=r-fbda9a34 status=200 dur_ms=258 bytes=468
+2026-09-17T14:16:41.061Z gw-edge-3 INFO  req=r-ddb5d0e4 GET /api/cart order=- client=172.173.192.224 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:16:41.227Z gw-edge-3 INFO  req=r-ddb5d0e4 status=200 dur_ms=166 bytes=1773
+2026-09-17T14:16:58.826Z gw-edge-2 INFO  req=r-850a6533 GET /api/products/SKU-32742 order=- client=192.118.2.76 ua="shop-android/8.2.1"
+2026-09-17T14:16:58.905Z gw-edge-2 INFO  req=r-850a6533 status=200 dur_ms=79 bytes=2098
+2026-09-17T14:17:03.007Z gw-edge-1 INFO  config reload ok routes=148
+2026-09-17T14:17:13.984Z gw-edge-1 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:17:21.016Z gw-edge-3 INFO  req=r-813ce367 GET /api/orders/ORD-79324 order=ORD-79324 client=203.43.88.104 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:17:21.019Z gw-edge-3 WARN  req=r-813ce367 status=429 dur_ms=3 bytes=2341
+2026-09-17T14:17:22.819Z gw-edge-2 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:17:30.281Z gw-edge-2 INFO  req=r-11b5be9f GET /api/cart order=- client=172.61.64.57 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:17:30.352Z gw-edge-2 INFO  req=r-11b5be9f status=200 dur_ms=71 bytes=3553
+2026-09-17T14:17:30.586Z gw-edge-2 INFO  req=r-4b04d0c0 GET /api/orders/ORD-78516 order=ORD-78516 client=10.87.50.197 ua="shop-android/8.2.1"
+2026-09-17T14:17:30.651Z gw-edge-2 INFO  req=r-4b04d0c0 status=200 dur_ms=65 bytes=1159
+2026-09-17T14:17:40.699Z gw-edge-1 INFO  req=r-cb571284 POST /api/checkout order=ORD-74840 client=172.94.18.223 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:17:40.705Z gw-edge-1 INFO  req=r-cb571284 upstream=orders-svc trace=tr-4d62053f5b6a attempt=1 timeout_ms=8000
+2026-09-17T14:17:40.947Z gw-edge-1 INFO  req=r-cb571284 status=200 dur_ms=248 bytes=817
+2026-09-17T14:18:26.660Z gw-edge-3 INFO  req=r-e7989fd7 POST /api/checkout order=ORD-76316 client=192.147.75.45 ua="okhttp/4.12.0"
+2026-09-17T14:18:26.663Z gw-edge-3 INFO  req=r-e7989fd7 upstream=orders-svc trace=tr-3c310f0573f3 attempt=1 timeout_ms=8000
+2026-09-17T14:18:27.001Z gw-edge-3 INFO  req=r-e7989fd7 status=200 dur_ms=341 bytes=655
+2026-09-17T14:19:06.558Z gw-edge-2 INFO  req=r-e9e69732 POST /api/checkout order=ORD-70332 client=10.251.237.218 ua="shop-android/8.2.1"
+2026-09-17T14:19:06.560Z gw-edge-2 INFO  req=r-e9e69732 upstream=orders-svc trace=tr-d6a8aa3c7e2b attempt=1 timeout_ms=8000
+2026-09-17T14:19:06.892Z gw-edge-2 INFO  req=r-e9e69732 status=200 dur_ms=334 bytes=606
+2026-09-17T14:19:08.568Z gw-edge-1 INFO  req=r-4ea79840 POST /api/checkout order=ORD-76108 client=10.223.163.51 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:19:08.574Z gw-edge-1 INFO  req=r-4ea79840 upstream=orders-svc trace=tr-5d98401691de attempt=1 timeout_ms=8000
+2026-09-17T14:19:08.929Z gw-edge-1 INFO  req=r-4ea79840 status=200 dur_ms=361 bytes=637
+2026-09-17T14:19:13.733Z gw-edge-3 INFO  req=r-e85aef1c GET /api/orders/ORD-75291 order=ORD-75291 client=198.141.237.147 ua="okhttp/4.12.0"
+2026-09-17T14:19:13.835Z gw-edge-3 INFO  req=r-e85aef1c status=200 dur_ms=102 bytes=2397
+2026-09-17T14:19:32.186Z gw-edge-2 INFO  req=r-d185ea84 GET /api/cart order=- client=198.202.195.27 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:19:32.264Z gw-edge-2 INFO  req=r-d185ea84 status=200 dur_ms=78 bytes=581
+2026-09-17T14:19:40.176Z gw-edge-1 INFO  req=r-e01cde7e POST /api/checkout order=ORD-70302 client=10.8.25.95 ua="okhttp/4.12.0"
+2026-09-17T14:19:40.179Z gw-edge-1 INFO  req=r-e01cde7e upstream=orders-svc trace=tr-b1724dd281a4 attempt=1 timeout_ms=8000
+2026-09-17T14:19:40.432Z gw-edge-1 INFO  req=r-e01cde7e status=200 dur_ms=256 bytes=544
+2026-09-17T14:19:51.068Z gw-edge-3 INFO  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:19:54.288Z gw-edge-2 INFO  req=r-951eb117 POST /api/checkout order=ORD-70906 client=10.120.10.86 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:19:54.294Z gw-edge-2 INFO  req=r-951eb117 upstream=orders-svc trace=tr-2da6eeb6cf31 attempt=1 timeout_ms=8000
+2026-09-17T14:19:54.511Z gw-edge-2 INFO  req=r-951eb117 status=200 dur_ms=223 bytes=308
+2026-09-17T14:19:54.697Z gw-edge-3 INFO  req=r-c10f5237 POST /api/checkout order=ORD-79861 client=198.224.223.158 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:19:54.703Z gw-edge-3 INFO  req=r-c10f5237 upstream=orders-svc trace=tr-ba58cd35bdb2 attempt=1 timeout_ms=8000
+2026-09-17T14:19:54.977Z gw-edge-3 INFO  req=r-c10f5237 status=200 dur_ms=280 bytes=369
+2026-09-17T14:20:29.497Z gw-edge-1 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:20:30.444Z gw-edge-3 ERROR tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:20:53.498Z gw-edge-3 INFO  req=r-dd511bfb POST /api/checkout order=ORD-77215 client=172.17.208.92 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:20:53.503Z gw-edge-3 INFO  req=r-dd511bfb upstream=orders-svc trace=tr-5d04c64f7306 attempt=1 timeout_ms=8000
+2026-09-17T14:20:53.791Z gw-edge-3 INFO  req=r-dd511bfb status=200 dur_ms=293 bytes=685
+2026-09-17T14:21:08.241Z gw-edge-2 INFO  req=r-c6c1a424 POST /api/login order=- client=10.199.189.7 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:21:08.342Z gw-edge-2 INFO  req=r-c6c1a424 status=200 dur_ms=101 bytes=451
+2026-09-17T14:21:19.769Z gw-edge-3 INFO  req=r-5e8e62f4 GET /api/products/SKU-37785 order=- client=10.36.35.159 ua="okhttp/4.12.0"
+2026-09-17T14:21:19.821Z gw-edge-3 INFO  req=r-5e8e62f4 status=200 dur_ms=52 bytes=1904
+2026-09-17T14:21:21.171Z gw-edge-3 INFO  req=r-f244f88d GET /healthz order=- client=198.38.75.53 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:21:21.174Z gw-edge-3 WARN  req=r-f244f88d status=429 dur_ms=3 bytes=1417
+2026-09-17T14:21:22.857Z gw-edge-3 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:21:36.129Z gw-edge-1 INFO  req=r-f05f2833 POST /api/login order=- client=192.134.8.115 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:21:36.135Z gw-edge-1 WARN  req=r-f05f2833 status=401 dur_ms=6 bytes=2751
+2026-09-17T14:21:41.248Z gw-edge-2 INFO  req=r-42dd7014 GET /api/products/SKU-19721 order=- client=198.206.207.115 ua="shop-android/8.2.1"
+2026-09-17T14:21:41.379Z gw-edge-2 INFO  req=r-42dd7014 status=200 dur_ms=131 bytes=2120
+2026-09-17T14:21:46.545Z gw-edge-3 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:21:48.652Z gw-edge-2 WARN  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:22:01.521Z gw-edge-1 INFO  req=r-86e1f348 GET /api/products/SKU-12999 order=- client=172.22.88.145 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:22:01.599Z gw-edge-1 INFO  req=r-86e1f348 status=200 dur_ms=78 bytes=2409
+2026-09-17T14:22:07.566Z gw-edge-2 INFO  req=r-e8084605 GET /api/products/SKU-23994 order=- client=203.150.179.107 ua="okhttp/4.12.0"
+2026-09-17T14:22:07.724Z gw-edge-2 INFO  req=r-e8084605 status=200 dur_ms=158 bytes=1106
+2026-09-17T14:22:29.667Z gw-edge-2 INFO  req=r-cf337818 POST /api/checkout order=ORD-74257 client=203.79.161.202 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:22:29.672Z gw-edge-2 INFO  req=r-cf337818 upstream=orders-svc trace=tr-49cc168a96de attempt=1 timeout_ms=8000
+2026-09-17T14:22:29.928Z gw-edge-2 INFO  req=r-cf337818 status=200 dur_ms=261 bytes=762
+2026-09-17T14:22:33.968Z gw-edge-1 INFO  req=r-6c476e94 POST /api/checkout order=ORD-72515 client=172.166.101.17 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:22:33.971Z gw-edge-1 INFO  req=r-6c476e94 upstream=orders-svc trace=tr-5df248da474e attempt=1 timeout_ms=8000
+2026-09-17T14:22:34.230Z gw-edge-1 INFO  req=r-6c476e94 status=200 dur_ms=262 bytes=790
+2026-09-17T14:22:42.732Z gw-edge-1 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:22:48.000Z gw-edge-1 INFO  req=r-3d0ee687 POST /api/checkout order=ORD-77314 client=198.43.199.40 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:22:48.003Z gw-edge-1 INFO  req=r-3d0ee687 upstream=orders-svc trace=tr-377e5b648102 attempt=1 timeout_ms=8000
+2026-09-17T14:22:48.321Z gw-edge-1 INFO  req=r-3d0ee687 status=200 dur_ms=321 bytes=877
+2026-09-17T14:23:03.616Z gw-edge-1 INFO  req=r-421d4218 POST /api/cart/items order=- client=10.207.252.211 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:23:03.700Z gw-edge-1 INFO  req=r-421d4218 status=200 dur_ms=84 bytes=2762
+2026-09-17T14:23:06.296Z gw-edge-2 INFO  req=r-1c249588 POST /api/checkout order=ORD-79168 client=198.42.222.204 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:23:06.299Z gw-edge-2 INFO  req=r-1c249588 upstream=orders-svc trace=tr-ac7aadafcf39 attempt=1 timeout_ms=8000
+2026-09-17T14:23:06.365Z gw-edge-2 INFO  req=r-3c69f728 GET /api/cart order=- client=172.255.217.9 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:23:06.431Z gw-edge-2 INFO  req=r-3c69f728 status=200 dur_ms=66 bytes=3943
+2026-09-17T14:23:06.589Z gw-edge-2 INFO  req=r-1c249588 status=200 dur_ms=293 bytes=534
+2026-09-17T14:23:10.946Z gw-edge-1 INFO  req=r-218616f6 POST /api/checkout order=ORD-74065 client=198.217.77.113 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:23:10.952Z gw-edge-1 INFO  req=r-218616f6 upstream=orders-svc trace=tr-3cd8c42c0b69 attempt=1 timeout_ms=8000
+2026-09-17T14:23:11.168Z gw-edge-1 INFO  req=r-218616f6 status=200 dur_ms=222 bytes=447
+2026-09-17T14:23:27.720Z gw-edge-1 INFO  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:23:28.305Z gw-edge-1 INFO  req=r-f445a506 POST /api/checkout order=ORD-75653 client=10.0.195.83 ua="okhttp/4.12.0"
+2026-09-17T14:23:28.307Z gw-edge-1 INFO  req=r-f445a506 upstream=orders-svc trace=tr-7c380b2e15d9 attempt=1 timeout_ms=8000
+2026-09-17T14:23:28.622Z gw-edge-1 INFO  req=r-f445a506 status=200 dur_ms=317 bytes=634
+2026-09-17T14:23:45.669Z gw-edge-2 INFO  req=r-9f34d347 POST /api/checkout order=ORD-75104 client=198.187.71.55 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:23:45.671Z gw-edge-2 INFO  req=r-9f34d347 upstream=orders-svc trace=tr-f66e0b5efc8b attempt=1 timeout_ms=8000
+2026-09-17T14:23:46.011Z gw-edge-2 INFO  req=r-9f34d347 status=200 dur_ms=342 bytes=763
+2026-09-17T14:23:46.481Z gw-edge-2 INFO  req=r-2cd7e548 GET /api/products/SKU-43585 order=- client=192.107.203.139 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:23:46.648Z gw-edge-2 INFO  req=r-2cd7e548 status=200 dur_ms=167 bytes=2186
+2026-09-17T14:23:53.926Z gw-edge-1 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:24:01.850Z gw-edge-2 ERROR client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:24:04.532Z gw-edge-2 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:24:14.854Z gw-edge-1 INFO  req=r-a157dd25 GET /healthz order=- client=198.186.127.128 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:24:15.016Z gw-edge-1 INFO  req=r-a157dd25 status=200 dur_ms=162 bytes=504
+2026-09-17T14:24:15.031Z gw-edge-2 INFO  req=r-9f8a3cc4 POST /api/checkout order=ORD-72209 client=172.245.233.226 ua="okhttp/4.12.0"
+2026-09-17T14:24:15.035Z gw-edge-2 INFO  req=r-9f8a3cc4 upstream=orders-svc trace=tr-0be187feeb92 attempt=1 timeout_ms=8000
+2026-09-17T14:24:15.278Z gw-edge-2 INFO  req=r-9f8a3cc4 status=200 dur_ms=247 bytes=372
+2026-09-17T14:24:23.722Z gw-edge-1 INFO  req=r-76dfc7e8 POST /api/cart/items order=- client=192.249.3.218 ua="shop-android/8.2.1"
+2026-09-17T14:24:23.883Z gw-edge-1 INFO  req=r-76dfc7e8 status=200 dur_ms=161 bytes=3939
+2026-09-17T14:24:25.618Z gw-edge-3 WARN  config reload ok routes=148
+2026-09-17T14:24:39.804Z gw-edge-2 INFO  req=r-169d4ab8 GET /api/orders/ORD-71106 order=ORD-71106 client=198.114.162.187 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:24:41.481Z gw-edge-2 ERROR req=r-169d4ab8 status=502 dur_ms=1677 bytes=1513
+2026-09-17T14:24:48.310Z gw-edge-1 WARN  rate limit exceeded for client 203.0.113.9 (429)
+2026-09-17T14:24:53.575Z gw-edge-3 INFO  req=r-2d5c5ba0 GET /healthz order=- client=172.54.236.13 ua="shop-android/8.2.1"
+2026-09-17T14:24:53.581Z gw-edge-3 WARN  req=r-2d5c5ba0 status=401 dur_ms=6 bytes=3819
+2026-09-17T14:25:07.185Z gw-edge-3 INFO  req=r-e82b77ff GET /api/products/SKU-45951 order=- client=203.117.2.56 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:25:07.225Z gw-edge-3 ERROR req=r-e82b77ff status=503 dur_ms=40 bytes=3814
+2026-09-17T14:25:33.523Z gw-edge-2 INFO  req=r-8bc75ea4 POST /api/checkout order=ORD-76596 client=10.167.63.99 ua="shop-android/8.2.1"
+2026-09-17T14:25:33.528Z gw-edge-2 INFO  req=r-8bc75ea4 upstream=orders-svc trace=tr-5cb2328a89ca attempt=1 timeout_ms=8000
+2026-09-17T14:25:33.849Z gw-edge-2 INFO  req=r-8bc75ea4 status=200 dur_ms=326 bytes=404
+2026-09-17T14:25:42.619Z gw-edge-1 INFO  req=r-e8647e3e GET /api/cart order=- client=198.110.43.43 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:25:42.759Z gw-edge-1 INFO  req=r-e8647e3e status=200 dur_ms=140 bytes=1196
+2026-09-17T14:25:44.092Z gw-edge-2 INFO  req=r-d169a793 GET /api/recommendations order=- client=10.1.203.168 ua="shop-android/8.2.1"
+2026-09-17T14:25:44.273Z gw-edge-2 INFO  req=r-d169a793 status=200 dur_ms=181 bytes=765
+2026-09-17T14:25:48.803Z gw-edge-2 INFO  req=r-b6f6f593 POST /api/checkout order=ORD-75227 client=172.30.54.187 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:25:48.809Z gw-edge-2 INFO  req=r-b6f6f593 upstream=orders-svc trace=tr-0cab14be5d43 attempt=1 timeout_ms=8000
+2026-09-17T14:25:49.092Z gw-edge-2 INFO  req=r-b6f6f593 status=200 dur_ms=289 bytes=666
+2026-09-17T14:25:49.550Z gw-edge-2 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:25:52.329Z gw-edge-3 INFO  req=r-785e8078 POST /api/cart/items order=- client=198.216.179.128 ua="okhttp/4.12.0"
+2026-09-17T14:25:52.441Z gw-edge-3 INFO  req=r-785e8078 status=200 dur_ms=112 bytes=3399
+2026-09-17T14:26:00.780Z gw-edge-3 ERROR upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:26:08.513Z gw-edge-3 INFO  req=r-037e20f2 POST /api/checkout order=ORD-70542 client=172.89.47.56 ua="shop-android/8.2.1"
+2026-09-17T14:26:08.518Z gw-edge-3 INFO  req=r-037e20f2 upstream=orders-svc trace=tr-5814cbd2eadd attempt=1 timeout_ms=8000
+2026-09-17T14:26:08.744Z gw-edge-3 INFO  req=r-037e20f2 status=200 dur_ms=231 bytes=596
+2026-09-17T14:26:17.692Z gw-edge-3 INFO  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:26:20.136Z gw-edge-3 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:26:48.207Z gw-edge-3 INFO  req=r-ea300f7d POST /api/checkout order=ORD-70154 client=172.35.148.130 ua="okhttp/4.12.0"
+2026-09-17T14:26:48.212Z gw-edge-3 INFO  req=r-ea300f7d upstream=orders-svc trace=tr-d2335e371162 attempt=1 timeout_ms=8000
+2026-09-17T14:26:48.483Z gw-edge-3 INFO  req=r-ea300f7d status=200 dur_ms=276 bytes=525
+2026-09-17T14:26:51.978Z gw-edge-3 WARN  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:26:55.966Z gw-edge-2 INFO  req=r-e06a97fe GET /healthz order=- client=192.201.65.46 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:26:56.055Z gw-edge-2 INFO  req=r-e06a97fe status=200 dur_ms=89 bytes=1032
+2026-09-17T14:27:10.594Z gw-edge-2 INFO  req=r-02935a0e GET /api/products/SKU-28961 order=- client=10.85.189.177 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:27:10.634Z gw-edge-2 INFO  req=r-02935a0e status=200 dur_ms=40 bytes=1989
+2026-09-17T14:27:16.839Z gw-edge-2 INFO  req=r-1abc110a GET /api/products/SKU-25353 order=- client=192.179.210.175 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:27:16.846Z gw-edge-2 INFO  req=r-1abc110a status=200 dur_ms=7 bytes=3130
+2026-09-17T14:27:43.955Z gw-edge-3 ERROR upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:27:44.159Z gw-edge-1 INFO  req=r-24e79dcd GET /api/products/SKU-43366 order=- client=203.76.68.229 ua="okhttp/4.12.0"
+2026-09-17T14:27:44.180Z gw-edge-1 INFO  req=r-24e79dcd status=200 dur_ms=21 bytes=2161
+2026-09-17T14:27:46.230Z gw-edge-2 INFO  req=r-de1bda3c GET /api/recommendations order=- client=203.187.167.213 ua="shop-android/8.2.1"
+2026-09-17T14:27:46.370Z gw-edge-2 INFO  req=r-de1bda3c status=200 dur_ms=140 bytes=2699
+2026-09-17T14:27:46.761Z gw-edge-1 INFO  req=r-dced9b30 POST /api/checkout order=ORD-70310 client=10.242.87.126 ua="okhttp/4.12.0"
+2026-09-17T14:27:46.764Z gw-edge-1 INFO  req=r-dced9b30 upstream=orders-svc trace=tr-45134ac16f28 attempt=1 timeout_ms=8000
+2026-09-17T14:27:47.086Z gw-edge-1 INFO  req=r-dced9b30 status=200 dur_ms=325 bytes=363
+2026-09-17T14:27:52.381Z gw-edge-1 WARN  config reload ok routes=148
+2026-09-17T14:27:52.893Z gw-edge-3 INFO  req=r-79234937 GET /api/products/SKU-29513 order=- client=192.86.155.79 ua="okhttp/4.12.0"
+2026-09-17T14:27:53.111Z gw-edge-3 INFO  req=r-79234937 status=200 dur_ms=218 bytes=3223
+2026-09-17T14:27:54.521Z gw-edge-2 WARN  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:27:54.774Z gw-edge-3 INFO  req=r-06b9487f POST /api/checkout order=ORD-71538 client=192.214.243.66 ua="okhttp/4.12.0"
+2026-09-17T14:27:54.780Z gw-edge-3 INFO  req=r-06b9487f upstream=orders-svc trace=tr-6eb34666ff93 attempt=1 timeout_ms=8000
+2026-09-17T14:27:55.057Z gw-edge-3 INFO  req=r-06b9487f status=200 dur_ms=283 bytes=359
+2026-09-17T14:28:11.804Z gw-edge-1 INFO  req=r-a625db5d GET /healthz order=- client=192.145.167.69 ua="shop-android/8.2.1"
+2026-09-17T14:28:11.882Z gw-edge-1 INFO  req=r-a625db5d status=200 dur_ms=78 bytes=1954
+2026-09-17T14:28:22.587Z gw-edge-2 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:28:45.816Z gw-edge-1 INFO  req=r-6ff2eeda POST /api/checkout order=ORD-78068 client=198.152.67.157 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:28:45.820Z gw-edge-1 INFO  req=r-6ff2eeda upstream=orders-svc trace=tr-a6b192ad33ca attempt=1 timeout_ms=8000
+2026-09-17T14:28:46.161Z gw-edge-1 INFO  req=r-6ff2eeda status=200 dur_ms=345 bytes=663
+2026-09-17T14:28:51.069Z gw-edge-1 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:28:52.073Z gw-edge-2 INFO  req=r-9d998a5e GET /api/products/SKU-58390 order=- client=198.136.236.87 ua="okhttp/4.12.0"
+2026-09-17T14:28:52.247Z gw-edge-2 INFO  req=r-9d998a5e status=200 dur_ms=174 bytes=1841
+2026-09-17T14:29:00.237Z gw-edge-1 INFO  req=r-b8923134 POST /api/checkout order=ORD-75050 client=198.74.142.188 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:29:00.243Z gw-edge-1 INFO  req=r-b8923134 upstream=orders-svc trace=tr-b00a8062a568 attempt=1 timeout_ms=8000
+2026-09-17T14:29:00.468Z gw-edge-1 INFO  req=r-b8923134 status=200 dur_ms=231 bytes=611
+2026-09-17T14:29:05.999Z gw-edge-1 INFO  req=r-ee1d0786 GET /api/products/SKU-14338 order=- client=172.174.203.204 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:29:06.082Z gw-edge-1 INFO  req=r-ee1d0786 status=200 dur_ms=83 bytes=3213
+2026-09-17T14:29:13.837Z gw-edge-3 INFO  req=r-b1e83331 GET /api/recommendations order=- client=10.137.78.150 ua="okhttp/4.12.0"
+2026-09-17T14:29:14.041Z gw-edge-3 INFO  req=r-b1e83331 status=200 dur_ms=204 bytes=264
+2026-09-17T14:29:14.485Z gw-edge-3 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:29:18.470Z gw-edge-2 INFO  req=r-9b8881c0 GET /api/products/SKU-14975 order=- client=203.246.52.34 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:29:18.671Z gw-edge-2 INFO  req=r-9b8881c0 status=200 dur_ms=201 bytes=1108
+2026-09-17T14:29:19.077Z gw-edge-1 INFO  req=r-bd1ba24f POST /api/checkout order=ORD-75726 client=198.174.7.116 ua="shop-android/8.2.1"
+2026-09-17T14:29:19.079Z gw-edge-1 INFO  req=r-bd1ba24f upstream=orders-svc trace=tr-e3e22aedc465 attempt=1 timeout_ms=8000
+2026-09-17T14:29:19.296Z gw-edge-1 INFO  req=r-bd1ba24f status=200 dur_ms=219 bytes=654
+2026-09-17T14:29:28.220Z gw-edge-2 INFO  req=r-f0b3bb75 GET /api/recommendations order=- client=203.177.65.245 ua="okhttp/4.12.0"
+2026-09-17T14:29:28.345Z gw-edge-2 INFO  req=r-f0b3bb75 status=200 dur_ms=125 bytes=634
+2026-09-17T14:31:17.806Z gw-edge-2 INFO  req=r-8c16a91e GET /api/orders/ORD-77341 order=ORD-77341 client=198.37.214.52 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:31:17.837Z gw-edge-2 INFO  req=r-8c16a91e status=200 dur_ms=31 bytes=412
+2026-09-17T14:31:41.100Z gw-edge-1 INFO  req=r-871bc8d1 POST /api/checkout order=ORD-71773 client=172.207.31.238 ua="shop-android/8.2.1"
+2026-09-17T14:31:41.104Z gw-edge-1 INFO  req=r-871bc8d1 upstream=orders-svc trace=tr-d2e56f8ef4aa attempt=1 timeout_ms=8000
+2026-09-17T14:31:41.628Z gw-edge-1 ERROR req=r-871bc8d1 status=502 dur_ms=528 bytes=165
+2026-09-17T14:31:43.560Z gw-edge-3 INFO  req=r-f89a6643 POST /api/checkout order=ORD-77314 client=203.136.202.202 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:31:43.563Z gw-edge-3 INFO  req=r-f89a6643 upstream=orders-svc trace=tr-1202701f9706 attempt=1 timeout_ms=8000
+2026-09-17T14:31:46.896Z gw-edge-3 INFO  req=r-27430a5c POST /api/checkout order=ORD-79521 client=10.43.33.10 ua="shop-android/8.2.1"
+2026-09-17T14:31:46.900Z gw-edge-3 INFO  req=r-27430a5c upstream=orders-svc trace=tr-08dafc51be5a attempt=1 timeout_ms=8000
+2026-09-17T14:31:49.457Z gw-edge-2 INFO  req=r-f7fd7331 POST /api/checkout order=ORD-73190 client=198.57.163.64 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:31:49.461Z gw-edge-2 INFO  req=r-f7fd7331 upstream=orders-svc trace=tr-14ca23b04e8b attempt=1 timeout_ms=8000
+2026-09-17T14:31:50.600Z gw-edge-2 INFO  req=r-26c36828 POST /api/checkout order=ORD-77431 client=203.13.97.86 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:31:50.603Z gw-edge-2 INFO  req=r-26c36828 upstream=orders-svc trace=tr-da6fcbf8a96f attempt=1 timeout_ms=8000
+2026-09-17T14:31:51.563Z gw-edge-3 ERROR req=r-f89a6643 status=502 dur_ms=8003 bytes=172
+2026-09-17T14:31:52.566Z gw-edge-1 INFO  req=r-8d65f68c POST /api/checkout order=ORD-78834 client=10.229.103.175 ua="okhttp/4.12.0"
+2026-09-17T14:31:52.572Z gw-edge-1 INFO  req=r-8d65f68c upstream=orders-svc trace=tr-890c97d6d46b attempt=1 timeout_ms=8000
+2026-09-17T14:31:54.898Z gw-edge-3 ERROR req=r-27430a5c status=502 dur_ms=8002 bytes=176
+2026-09-17T14:31:55.746Z gw-edge-2 INFO  req=r-c058ab2d POST /api/checkout order=ORD-75876 client=192.73.249.193 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:31:55.748Z gw-edge-2 INFO  req=r-c058ab2d upstream=orders-svc trace=tr-3efe0a5e976b attempt=1 timeout_ms=8000
+2026-09-17T14:31:56.700Z gw-edge-3 INFO  req=r-176b1077 POST /api/checkout order=ORD-79148 client=203.188.109.177 ua="shop-android/8.2.1"
+2026-09-17T14:31:56.704Z gw-edge-3 INFO  req=r-176b1077 upstream=orders-svc trace=tr-a9482d2b6732 attempt=1 timeout_ms=8000
+2026-09-17T14:31:57.460Z gw-edge-2 ERROR req=r-f7fd7331 status=502 dur_ms=8003 bytes=132
+2026-09-17T14:31:58.603Z gw-edge-2 ERROR req=r-26c36828 status=502 dur_ms=8003 bytes=139
+2026-09-17T14:32:00.568Z gw-edge-1 ERROR req=r-8d65f68c status=502 dur_ms=8002 bytes=139
+2026-09-17T14:32:00.900Z gw-edge-3 INFO  req=r-b242f52d POST /api/checkout order=ORD-76209 client=203.177.195.44 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:32:00.906Z gw-edge-3 INFO  req=r-b242f52d upstream=orders-svc trace=tr-49387d6a5f87 attempt=1 timeout_ms=8000
+2026-09-17T14:32:01.806Z gw-edge-3 INFO  req=r-3d0ee607 POST /api/checkout order=ORD-77341 client=172.53.6.87 ua="shop-android/8.2.1"
+2026-09-17T14:32:01.809Z gw-edge-3 INFO  req=r-3d0ee607 upstream=orders-svc trace=tr-377e5b648c02 attempt=1 timeout_ms=8000
+2026-09-17T14:32:03.748Z gw-edge-2 ERROR req=r-c058ab2d status=502 dur_ms=8002 bytes=120
+2026-09-17T14:32:04.400Z gw-edge-1 INFO  req=r-3364126e POST /api/checkout order=ORD-78259 client=198.181.19.180 ua="okhttp/4.12.0"
+2026-09-17T14:32:04.405Z gw-edge-1 INFO  req=r-3364126e upstream=orders-svc trace=tr-de71cbb3e413 attempt=1 timeout_ms=8000
+2026-09-17T14:32:04.701Z gw-edge-3 ERROR req=r-176b1077 status=502 dur_ms=8001 bytes=168
+2026-09-17T14:32:05.138Z gw-edge-1 ERROR req=r-3364126e status=502 dur_ms=738 bytes=171
+2026-09-17T14:32:08.903Z gw-edge-3 ERROR req=r-b242f52d status=502 dur_ms=8003 bytes=128
+2026-09-17T14:32:09.807Z gw-edge-3 ERROR req=r-3d0ee607 status=502 dur_ms=8001 bytes=138
+2026-09-17T14:32:12.700Z gw-edge-2 INFO  req=r-2c9d97c8 POST /api/checkout order=ORD-73564 client=203.191.172.193 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:32:12.705Z gw-edge-2 INFO  req=r-2c9d97c8 upstream=orders-svc trace=tr-895fd7e2908d attempt=1 timeout_ms=8000
+2026-09-17T14:32:13.292Z gw-edge-2 ERROR req=r-2c9d97c8 status=502 dur_ms=592 bytes=124
+2026-09-17T14:32:25.206Z gw-edge-1 INFO  req=r-cab151f9 POST /api/checkout order=ORD-77341 client=203.20.93.91 ua="shop-android/8.2.1"
+2026-09-17T14:32:25.208Z gw-edge-1 INFO  req=r-cab151f9 upstream=orders-svc trace=tr-e970293a482d attempt=1 timeout_ms=8000
+2026-09-17T14:32:25.227Z gw-edge-1 WARN  req=r-cab151f9 status=409 dur_ms=19 bytes=96
+2026-09-17T14:33:12.806Z gw-edge-1 INFO  req=r-39af9d5e GET /api/orders/ORD-77341 order=ORD-77341 client=198.81.56.23 ua="shop-android/8.2.1"
+2026-09-17T14:33:12.837Z gw-edge-1 INFO  req=r-39af9d5e status=200 dur_ms=31 bytes=412
+2026-09-17T14:34:40.213Z gw-edge-1 INFO  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:34:53.580Z gw-edge-3 INFO  req=r-42e4f7ae POST /api/checkout order=ORD-79363 client=10.88.8.100 ua="shop-android/8.2.1"
+2026-09-17T14:34:53.585Z gw-edge-3 INFO  req=r-42e4f7ae upstream=orders-svc trace=tr-3084bfe9257c attempt=1 timeout_ms=8000
+2026-09-17T14:34:53.875Z gw-edge-3 INFO  req=r-42e4f7ae status=200 dur_ms=295 bytes=786
+2026-09-17T14:35:00.406Z gw-edge-3 INFO  req=r-469972a2 GET /healthz order=- client=10.151.157.50 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:35:00.472Z gw-edge-3 INFO  req=r-469972a2 status=200 dur_ms=66 bytes=2279
+2026-09-17T14:35:03.315Z gw-edge-3 INFO  req=r-804d6f30 POST /api/checkout order=ORD-70728 client=198.200.67.33 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:35:03.317Z gw-edge-3 INFO  req=r-804d6f30 upstream=orders-svc trace=tr-f69afe5b7ac7 attempt=1 timeout_ms=8000
+2026-09-17T14:35:03.600Z gw-edge-3 INFO  req=r-804d6f30 status=200 dur_ms=285 bytes=303
+2026-09-17T14:35:07.725Z gw-edge-2 INFO  req=r-2b4ee629 GET /healthz order=- client=203.27.242.150 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:35:07.835Z gw-edge-2 INFO  req=r-2b4ee629 status=200 dur_ms=110 bytes=1907
+2026-09-17T14:35:08.148Z gw-edge-3 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:35:12.450Z gw-edge-3 INFO  req=r-5183fed1 POST /api/checkout order=ORD-71294 client=203.87.133.5 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:35:12.456Z gw-edge-3 INFO  req=r-5183fed1 upstream=orders-svc trace=tr-d5e8a8a02a0b attempt=1 timeout_ms=8000
+2026-09-17T14:35:12.705Z gw-edge-3 INFO  req=r-5183fed1 status=200 dur_ms=255 bytes=459
+2026-09-17T14:35:28.317Z gw-edge-2 ERROR upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:35:50.251Z gw-edge-3 INFO  req=r-e257cc98 GET /healthz order=- client=198.30.7.155 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:35:50.256Z gw-edge-3 INFO  req=r-e257cc98 status=200 dur_ms=5 bytes=2488
+2026-09-17T14:36:02.466Z gw-edge-3 ERROR route cache refreshed entries=148 took=12ms
+2026-09-17T14:36:02.969Z gw-edge-1 INFO  req=r-e4ee6589 GET /healthz order=- client=198.168.12.43 ua="shop-android/8.2.1"
+2026-09-17T14:36:03.179Z gw-edge-1 INFO  req=r-e4ee6589 status=200 dur_ms=210 bytes=3589
+2026-09-17T14:36:28.325Z gw-edge-3 ERROR upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:36:56.533Z gw-edge-2 INFO  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:37:14.322Z gw-edge-1 INFO  req=r-c79c211f GET /api/recommendations order=- client=192.170.254.77 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:37:14.334Z gw-edge-1 INFO  req=r-c79c211f status=200 dur_ms=12 bytes=3792
+2026-09-17T14:37:14.455Z gw-edge-1 INFO  rate limit exceeded for client 203.0.113.9 (429)
+2026-09-17T14:37:31.232Z gw-edge-1 INFO  req=r-73c0ee75 POST /api/login order=- client=198.47.199.186 ua="shop-android/8.2.1"
+2026-09-17T14:37:31.357Z gw-edge-1 INFO  req=r-73c0ee75 status=200 dur_ms=125 bytes=2690
+2026-09-17T14:37:36.346Z gw-edge-1 INFO  req=r-69440c5b POST /api/checkout order=ORD-73781 client=172.246.24.236 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:37:36.351Z gw-edge-1 INFO  req=r-69440c5b upstream=orders-svc trace=tr-9e2c53a838f1 attempt=1 timeout_ms=8000
+2026-09-17T14:37:36.609Z gw-edge-1 INFO  req=r-69440c5b status=200 dur_ms=263 bytes=737
+2026-09-17T14:37:43.209Z gw-edge-2 INFO  req=r-3f8be760 POST /api/checkout order=ORD-76238 client=203.50.144.48 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:37:43.213Z gw-edge-2 INFO  req=r-3f8be760 upstream=orders-svc trace=tr-302de8c8774d attempt=1 timeout_ms=8000
+2026-09-17T14:37:43.458Z gw-edge-2 INFO  req=r-3f8be760 status=200 dur_ms=249 bytes=882
+2026-09-17T14:37:47.699Z gw-edge-3 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:38:04.473Z gw-edge-3 INFO  req=r-b26315c4 POST /api/checkout order=ORD-77129 client=172.74.21.208 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:38:04.477Z gw-edge-3 INFO  req=r-b26315c4 upstream=orders-svc trace=tr-b83fa2885e7c attempt=1 timeout_ms=8000
+2026-09-17T14:38:04.660Z gw-edge-3 INFO  req=r-b26315c4 status=200 dur_ms=187 bytes=374
+2026-09-17T14:38:06.000Z gw-edge-1 INFO  req=r-b5630aaf POST /api/checkout order=ORD-77431 client=172.127.253.219 ua="shop-android/8.2.1"
+2026-09-17T14:38:06.005Z gw-edge-1 INFO  req=r-b5630aaf upstream=orders-svc trace=tr-2e921f7daa61 attempt=1 timeout_ms=8000
+2026-09-17T14:38:06.292Z gw-edge-1 INFO  req=r-b5630aaf status=200 dur_ms=292 bytes=443
+2026-09-17T14:38:08.938Z gw-edge-2 INFO  req=r-133e6882 POST /api/cart/items order=- client=198.35.242.91 ua="okhttp/4.12.0"
+2026-09-17T14:38:09.004Z gw-edge-2 INFO  req=r-133e6882 status=200 dur_ms=66 bytes=275
+2026-09-17T14:38:12.999Z gw-edge-2 INFO  req=r-66dc9d2d GET /api/orders/ORD-71280 order=ORD-71280 client=192.10.81.212 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:38:13.010Z gw-edge-2 WARN  req=r-66dc9d2d status=400 dur_ms=11 bytes=3076
+2026-09-17T14:38:16.283Z gw-edge-2 INFO  req=r-e262b150 POST /api/checkout order=ORD-71560 client=192.184.92.92 ua="shop-android/8.2.1"
+2026-09-17T14:38:16.289Z gw-edge-2 INFO  req=r-e262b150 upstream=orders-svc trace=tr-fcec276fd6d3 attempt=1 timeout_ms=8000
+2026-09-17T14:38:16.615Z gw-edge-2 INFO  req=r-e262b150 status=200 dur_ms=332 bytes=558
+2026-09-17T14:38:22.401Z gw-edge-3 INFO  req=r-df4377b2 GET /api/products/SKU-15753 order=- client=198.78.21.20 ua="shop-android/8.2.1"
+2026-09-17T14:38:22.519Z gw-edge-3 INFO  req=r-df4377b2 status=200 dur_ms=118 bytes=3801
+2026-09-17T14:38:25.126Z gw-edge-3 INFO  req=r-94152b81 GET /api/recommendations order=- client=172.30.184.161 ua="shop-android/8.2.1"
+2026-09-17T14:38:25.237Z gw-edge-3 INFO  req=r-94152b81 status=200 dur_ms=111 bytes=834
+2026-09-17T14:38:35.833Z gw-edge-3 INFO  req=r-000f810c POST /api/cart/items order=- client=198.124.144.75 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:38:35.926Z gw-edge-3 INFO  req=r-000f810c status=200 dur_ms=93 bytes=2837
+2026-09-17T14:38:43.558Z gw-edge-3 INFO  req=r-229b92dc GET /api/products/SKU-23965 order=- client=198.36.250.47 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:38:43.743Z gw-edge-3 INFO  req=r-229b92dc status=200 dur_ms=185 bytes=3911
+2026-09-17T14:38:55.685Z gw-edge-2 INFO  route cache refreshed entries=148 took=12ms
+2026-09-17T14:39:02.111Z gw-edge-3 ERROR upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:39:04.463Z gw-edge-2 WARN  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:39:11.892Z gw-edge-2 INFO  req=r-38c84b64 POST /api/cart/items order=- client=198.0.219.92 ua="okhttp/4.12.0"
+2026-09-17T14:39:12.034Z gw-edge-2 INFO  req=r-38c84b64 status=200 dur_ms=142 bytes=2400
+2026-09-17T14:39:26.098Z gw-edge-3 INFO  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:39:38.962Z gw-edge-2 INFO  req=r-ce7feda9 POST /api/checkout order=ORD-79956 client=10.116.126.72 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:39:38.967Z gw-edge-2 INFO  req=r-ce7feda9 upstream=orders-svc trace=tr-c08a2d079960 attempt=1 timeout_ms=8000
+2026-09-17T14:39:39.201Z gw-edge-2 INFO  req=r-ce7feda9 status=200 dur_ms=239 bytes=501
+2026-09-17T14:39:44.972Z gw-edge-2 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:39:48.703Z gw-edge-2 INFO  req=r-7ab827d3 POST /api/checkout order=ORD-76564 client=10.138.78.31 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:39:48.708Z gw-edge-2 INFO  req=r-7ab827d3 upstream=orders-svc trace=tr-7dc209b9cfb4 attempt=1 timeout_ms=8000
+2026-09-17T14:39:49.025Z gw-edge-2 INFO  req=r-7ab827d3 status=200 dur_ms=322 bytes=746
+2026-09-17T14:39:50.872Z gw-edge-3 INFO  req=r-6222d680 POST /api/cart/items order=- client=10.46.246.103 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:39:51.033Z gw-edge-3 INFO  req=r-6222d680 status=200 dur_ms=161 bytes=3524
+2026-09-17T14:40:04.209Z gw-edge-1 INFO  req=r-d5ee380d GET /api/products/SKU-14972 order=- client=203.25.186.174 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:40:04.404Z gw-edge-1 INFO  req=r-d5ee380d status=200 dur_ms=195 bytes=1754
+2026-09-17T14:40:13.328Z gw-edge-1 INFO  req=r-595d8e99 POST /api/cart/items order=- client=198.169.97.229 ua="okhttp/4.12.0"
+2026-09-17T14:40:14.935Z gw-edge-1 ERROR req=r-595d8e99 status=502 dur_ms=1607 bytes=1487
+2026-09-17T14:41:01.249Z gw-edge-1 INFO  req=r-f142ae0b POST /api/checkout order=ORD-74679 client=198.210.76.52 ua="okhttp/4.12.0"
+2026-09-17T14:41:01.255Z gw-edge-1 INFO  req=r-f142ae0b upstream=orders-svc trace=tr-10f789093fe1 attempt=1 timeout_ms=8000
+2026-09-17T14:41:01.471Z gw-edge-2 INFO  req=r-f2b22700 GET /api/products/SKU-10654 order=- client=203.192.42.90 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:41:01.572Z gw-edge-1 INFO  req=r-f142ae0b status=200 dur_ms=323 bytes=820
+2026-09-17T14:41:01.668Z gw-edge-2 INFO  req=r-f2b22700 status=200 dur_ms=197 bytes=3300
+2026-09-17T14:41:06.972Z gw-edge-1 INFO  req=r-132a2ecc GET /api/recommendations order=- client=203.210.123.163 ua="shop-android/8.2.1"
+2026-09-17T14:41:07.110Z gw-edge-1 INFO  req=r-132a2ecc status=200 dur_ms=138 bytes=3912
+2026-09-17T14:41:12.447Z gw-edge-1 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:41:12.691Z gw-edge-2 ERROR rate limit exceeded for client 203.0.113.9 (429)
+2026-09-17T14:41:13.922Z gw-edge-2 INFO  req=r-6454eceb GET /api/cart order=- client=10.37.59.137 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:41:13.932Z gw-edge-2 INFO  req=r-6454eceb status=200 dur_ms=10 bytes=1561
+2026-09-17T14:41:14.808Z gw-edge-3 INFO  req=r-f160a586 POST /api/checkout order=ORD-79779 client=198.172.149.32 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:41:14.812Z gw-edge-3 INFO  req=r-f160a586 upstream=orders-svc trace=tr-a4f8b0e5af91 attempt=1 timeout_ms=8000
+2026-09-17T14:41:15.110Z gw-edge-3 INFO  req=r-f160a586 status=200 dur_ms=302 bytes=400
+2026-09-17T14:41:50.335Z gw-edge-3 INFO  req=r-43fdde03 GET /healthz order=- client=10.252.171.176 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:41:50.732Z gw-edge-3 ERROR req=r-43fdde03 status=500 dur_ms=397 bytes=2685
+2026-09-17T14:41:54.289Z gw-edge-3 INFO  req=r-edc37221 POST /api/cart/items order=- client=172.138.40.76 ua="shop-android/8.2.1"
+2026-09-17T14:41:54.467Z gw-edge-3 INFO  req=r-edc37221 status=200 dur_ms=178 bytes=1665
+2026-09-17T14:41:57.630Z gw-edge-3 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:42:00.238Z gw-edge-1 INFO  req=r-e2dc4771 GET /api/cart order=- client=198.12.36.200 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:42:00.282Z gw-edge-1 INFO  req=r-e2dc4771 status=200 dur_ms=44 bytes=2608
+2026-09-17T14:42:07.873Z gw-edge-2 INFO  req=r-37ee7c5c GET /api/products/SKU-33389 order=- client=172.141.100.35 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:42:07.988Z gw-edge-2 INFO  req=r-37ee7c5c status=200 dur_ms=115 bytes=2522
+2026-09-17T14:42:09.819Z gw-edge-1 INFO  req=r-63aedf75 GET /healthz order=- client=198.65.92.115 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:42:10.017Z gw-edge-1 INFO  req=r-63aedf75 status=200 dur_ms=198 bytes=3873
+2026-09-17T14:42:33.782Z gw-edge-2 INFO  req=r-6cb38cec GET /api/orders/ORD-77237 order=ORD-77237 client=192.74.142.212 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:42:33.832Z gw-edge-2 INFO  req=r-6cb38cec status=200 dur_ms=50 bytes=1987
+2026-09-17T14:42:43.657Z gw-edge-2 INFO  req=r-94ba1c92 GET /api/products/SKU-59808 order=- client=10.141.37.63 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:42:43.858Z gw-edge-2 INFO  req=r-94ba1c92 status=200 dur_ms=201 bytes=548
+2026-09-17T14:42:45.512Z gw-edge-3 INFO  req=r-47cbd2d6 GET /api/products/SKU-53051 order=- client=10.87.111.21 ua="shop-android/8.2.1"
+2026-09-17T14:42:45.516Z gw-edge-3 INFO  req=r-47cbd2d6 status=200 dur_ms=4 bytes=83
+2026-09-17T14:42:47.916Z gw-edge-1 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:42:58.365Z gw-edge-1 INFO  req=r-d7ecadee GET /healthz order=- client=172.73.182.210 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:42:59.957Z gw-edge-1 ERROR req=r-d7ecadee status=502 dur_ms=1592 bytes=2338
+2026-09-17T14:43:00.683Z gw-edge-3 INFO  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:43:12.159Z gw-edge-3 INFO  req=r-20b3efd8 POST /api/checkout order=ORD-74736 client=172.73.234.147 ua="shop-android/8.2.1"
+2026-09-17T14:43:12.163Z gw-edge-3 INFO  req=r-20b3efd8 upstream=orders-svc trace=tr-f76bdcbf0e00 attempt=1 timeout_ms=8000
+2026-09-17T14:43:12.484Z gw-edge-3 INFO  req=r-20b3efd8 status=200 dur_ms=325 bytes=585
+2026-09-17T14:43:19.681Z gw-edge-1 INFO  req=r-fe0400c0 POST /api/cart/items order=- client=198.186.112.53 ua="shop-android/8.2.1"
+2026-09-17T14:43:19.737Z gw-edge-1 INFO  req=r-fe0400c0 status=200 dur_ms=56 bytes=1981
+2026-09-17T14:43:28.029Z gw-edge-3 INFO  req=r-7651934c GET /api/products/SKU-48833 order=- client=192.127.245.33 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:43:28.163Z gw-edge-3 INFO  req=r-7651934c status=200 dur_ms=134 bytes=299
+2026-09-17T14:43:29.513Z gw-edge-3 INFO  req=r-e29ce4d9 GET /api/recommendations order=- client=10.183.106.88 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:43:29.553Z gw-edge-3 INFO  req=r-e29ce4d9 status=200 dur_ms=40 bytes=3135
+2026-09-17T14:43:40.671Z gw-edge-3 INFO  req=r-11face75 GET /api/products/SKU-59695 order=- client=10.136.57.52 ua="okhttp/4.12.0"
+2026-09-17T14:43:40.755Z gw-edge-3 INFO  req=r-11face75 status=200 dur_ms=84 bytes=3217
+2026-09-17T14:43:42.000Z gw-edge-1 INFO  req=r-f876b797 POST /api/checkout order=ORD-67341 client=203.78.175.210 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:43:42.006Z gw-edge-1 INFO  req=r-f876b797 upstream=orders-svc trace=tr-b756a08c28de attempt=1 timeout_ms=8000
+2026-09-17T14:43:42.308Z gw-edge-1 INFO  req=r-f876b797 status=200 dur_ms=308 bytes=756
+2026-09-17T14:43:49.385Z gw-edge-3 INFO  req=r-bb64078e POST /api/login order=- client=192.243.249.100 ua="okhttp/4.12.0"
+2026-09-17T14:43:49.586Z gw-edge-3 INFO  req=r-bb64078e status=200 dur_ms=201 bytes=3438
+2026-09-17T14:43:54.745Z gw-edge-1 INFO  req=r-4bc060c6 POST /api/cart/items order=- client=192.162.168.24 ua="shop-android/8.2.1"
+2026-09-17T14:43:54.756Z gw-edge-1 WARN  req=r-4bc060c6 status=400 dur_ms=11 bytes=711
+2026-09-17T14:44:18.307Z gw-edge-2 INFO  req=r-4799d4e4 GET /api/orders/ORD-79321 order=ORD-79321 client=198.3.17.9 ua="okhttp/4.12.0"
+2026-09-17T14:44:18.457Z gw-edge-2 INFO  req=r-4799d4e4 status=200 dur_ms=150 bytes=1485
+2026-09-17T14:44:20.389Z gw-edge-1 INFO  req=r-3223ef92 GET /api/cart order=- client=192.208.0.170 ua="okhttp/4.12.0"
+2026-09-17T14:44:20.581Z gw-edge-1 INFO  req=r-3223ef92 status=200 dur_ms=192 bytes=3718
+2026-09-17T14:44:47.098Z gw-edge-2 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:44:47.894Z gw-edge-1 INFO  req=r-fb3f2b9c GET /api/orders/ORD-74290 order=ORD-74290 client=198.223.136.176 ua="shop-android/8.2.1"
+2026-09-17T14:44:47.940Z gw-edge-1 INFO  req=r-fb3f2b9c status=200 dur_ms=46 bytes=3789
+2026-09-17T14:45:00.916Z gw-edge-2 INFO  req=r-156ea429 POST /api/checkout order=ORD-79334 client=198.59.166.45 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:45:00.918Z gw-edge-2 INFO  req=r-156ea429 upstream=orders-svc trace=tr-0c24538e957d attempt=1 timeout_ms=8000
+2026-09-17T14:45:01.144Z gw-edge-2 INFO  req=r-156ea429 status=200 dur_ms=228 bytes=364
+2026-09-17T14:45:02.398Z gw-edge-3 INFO  req=r-c8e30b69 GET /api/orders/ORD-75276 order=ORD-75276 client=198.22.131.185 ua="shop-android/8.2.1"
+2026-09-17T14:45:02.437Z gw-edge-3 INFO  req=r-c8e30b69 status=200 dur_ms=39 bytes=1377
+2026-09-17T14:45:03.923Z gw-edge-1 INFO  req=r-5d93b306 GET /api/products/SKU-45149 order=- client=198.118.11.73 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:45:04.012Z gw-edge-1 INFO  req=r-5d93b306 status=200 dur_ms=89 bytes=3134
+2026-09-17T14:45:10.228Z gw-edge-3 INFO  req=r-cead6588 GET /api/products/SKU-27148 order=- client=192.179.112.226 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:45:10.358Z gw-edge-3 INFO  req=r-cead6588 status=200 dur_ms=130 bytes=1739
+2026-09-17T14:45:15.842Z gw-edge-3 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:45:30.801Z gw-edge-3 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:45:33.259Z gw-edge-3 INFO  req=r-3c697182 POST /api/login order=- client=198.78.53.174 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:45:33.270Z gw-edge-3 WARN  req=r-3c697182 status=400 dur_ms=11 bytes=2659
+2026-09-17T14:45:38.206Z gw-edge-3 INFO  req=r-f8240ffe GET /api/products/SKU-18079 order=- client=10.204.71.191 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:45:38.217Z gw-edge-3 WARN  req=r-f8240ffe status=400 dur_ms=11 bytes=612
+2026-09-17T14:45:55.630Z gw-edge-1 INFO  req=r-9dcfc5a0 GET /api/cart order=- client=198.242.58.242 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:45:55.824Z gw-edge-1 INFO  req=r-9dcfc5a0 status=200 dur_ms=194 bytes=1197
+2026-09-17T14:46:40.304Z gw-edge-1 INFO  req=r-592b7b55 GET /api/cart order=- client=198.58.231.41 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:46:40.310Z gw-edge-1 WARN  req=r-592b7b55 status=401 dur_ms=6 bytes=3538
+2026-09-17T14:47:13.413Z gw-edge-2 INFO  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:47:21.634Z gw-edge-3 INFO  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:47:23.900Z gw-edge-2 INFO  req=r-35f04b41 POST /api/cart/items order=- client=10.191.2.212 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:47:24.750Z gw-edge-1 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:47:24.989Z gw-edge-2 INFO  req=r-17fd8fd7 GET /api/cart order=- client=198.163.14.65 ua="okhttp/4.12.0"
+2026-09-17T14:47:25.154Z gw-edge-2 INFO  req=r-17fd8fd7 status=200 dur_ms=165 bytes=1034
+2026-09-17T14:47:25.480Z gw-edge-2 ERROR req=r-35f04b41 status=502 dur_ms=1580 bytes=817
+2026-09-17T14:47:36.143Z gw-edge-1 INFO  req=r-ac2310bf POST /api/checkout order=ORD-79293 client=192.207.170.160 ua="shop-android/8.2.1"
+2026-09-17T14:47:36.148Z gw-edge-1 INFO  req=r-ac2310bf upstream=orders-svc trace=tr-b57bd30c017f attempt=1 timeout_ms=8000
+2026-09-17T14:47:36.461Z gw-edge-1 INFO  req=r-ac2310bf status=200 dur_ms=318 bytes=617
+2026-09-17T14:47:39.697Z gw-edge-1 INFO  req=r-d0f0dca9 POST /api/cart/items order=- client=198.251.52.206 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:47:39.822Z gw-edge-1 INFO  req=r-d0f0dca9 status=200 dur_ms=125 bytes=3011
+2026-09-17T14:47:48.496Z gw-edge-2 INFO  req=r-2de0efa0 GET /api/orders/ORD-78037 order=ORD-78037 client=10.246.147.56 ua="shop-android/8.2.1"
+2026-09-17T14:47:48.543Z gw-edge-2 INFO  req=r-2de0efa0 status=200 dur_ms=47 bytes=3648
+2026-09-17T14:48:02.861Z gw-edge-1 WARN  upstream health check ok payments-svc 2/2 healthy
+2026-09-17T14:48:05.353Z gw-edge-3 INFO  req=r-bbe6eb61 POST /api/checkout order=ORD-70858 client=192.230.209.117 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:48:05.358Z gw-edge-3 INFO  req=r-bbe6eb61 upstream=orders-svc trace=tr-f02206f5f701 attempt=1 timeout_ms=8000
+2026-09-17T14:48:05.664Z gw-edge-3 INFO  req=r-bbe6eb61 status=200 dur_ms=311 bytes=804
+2026-09-17T14:48:07.131Z gw-edge-2 INFO  route cache refreshed entries=148 took=12ms
+2026-09-17T14:48:11.279Z gw-edge-3 INFO  req=r-75224873 POST /api/login order=- client=192.206.177.175 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:48:11.493Z gw-edge-3 INFO  req=r-75224873 status=200 dur_ms=214 bytes=2744
+2026-09-17T14:48:17.604Z gw-edge-2 INFO  req=r-3192d53c GET /api/products/SKU-23345 order=- client=192.93.36.45 ua="shop-android/8.2.1"
+2026-09-17T14:48:17.725Z gw-edge-2 INFO  req=r-3192d53c status=200 dur_ms=121 bytes=3122
+2026-09-17T14:48:18.366Z gw-edge-1 INFO  req=r-98009b28 POST /api/cart/items order=- client=198.70.215.153 ua="shop-android/8.2.1"
+2026-09-17T14:48:18.552Z gw-edge-1 INFO  req=r-98009b28 status=200 dur_ms=186 bytes=1282
+2026-09-17T14:48:23.296Z gw-edge-1 INFO  req=r-2a2fd3d1 GET /api/recommendations order=- client=192.32.156.5 ua="okhttp/4.12.0"
+2026-09-17T14:48:23.457Z gw-edge-1 INFO  req=r-2a2fd3d1 status=200 dur_ms=161 bytes=2960
+2026-09-17T14:48:36.901Z gw-edge-2 INFO  req=r-0abf443b POST /api/checkout order=ORD-73301 client=203.79.211.84 ua="shop-android/8.2.1"
+2026-09-17T14:48:36.904Z gw-edge-2 INFO  req=r-0abf443b upstream=orders-svc trace=tr-c319048f49e9 attempt=1 timeout_ms=8000
+2026-09-17T14:48:37.153Z gw-edge-2 INFO  req=r-0abf443b status=200 dur_ms=252 bytes=665
+2026-09-17T14:48:57.413Z gw-edge-1 INFO  req=r-92bbc45e GET /healthz order=- client=198.196.95.245 ua="shop-android/8.2.1"
+2026-09-17T14:48:57.556Z gw-edge-1 INFO  req=r-92bbc45e status=200 dur_ms=143 bytes=990
+2026-09-17T14:49:08.701Z gw-edge-3 INFO  req=r-41a6a9ec GET /healthz order=- client=192.151.128.166 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:49:08.900Z gw-edge-3 INFO  req=r-41a6a9ec status=200 dur_ms=199 bytes=3558
+2026-09-17T14:49:24.438Z gw-edge-1 INFO  req=r-6a09acd0 GET /api/products/SKU-57640 order=- client=10.53.150.198 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:49:24.641Z gw-edge-1 INFO  req=r-6a09acd0 status=200 dur_ms=203 bytes=126
+2026-09-17T14:49:24.959Z gw-edge-3 INFO  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:49:36.871Z gw-edge-3 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:49:49.699Z gw-edge-3 WARN  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:49:50.578Z gw-edge-3 INFO  req=r-476aa6df GET /api/cart order=- client=172.5.95.167 ua="shop-android/8.2.1"
+2026-09-17T14:49:50.877Z gw-edge-3 ERROR req=r-476aa6df status=500 dur_ms=299 bytes=1238
+2026-09-17T14:49:52.750Z gw-edge-3 INFO  req=r-4de1b512 POST /api/checkout order=ORD-78498 client=192.142.228.132 ua="shop-android/8.2.1"
+2026-09-17T14:49:52.752Z gw-edge-3 INFO  req=r-4de1b512 upstream=orders-svc trace=tr-b7349e787662 attempt=1 timeout_ms=8000
+2026-09-17T14:49:53.069Z gw-edge-3 INFO  req=r-4de1b512 status=200 dur_ms=319 bytes=681
+2026-09-17T14:50:04.598Z gw-edge-3 INFO  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:50:04.620Z gw-edge-3 WARN  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:50:12.485Z gw-edge-1 WARN  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:50:13.054Z gw-edge-2 INFO  req=r-07583b69 POST /api/login order=- client=10.19.187.92 ua="shop-android/8.2.1"
+2026-09-17T14:50:13.274Z gw-edge-2 INFO  req=r-07583b69 status=200 dur_ms=220 bytes=2356
+2026-09-17T14:50:38.706Z gw-edge-2 ERROR upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:50:39.110Z gw-edge-3 INFO  req=r-826e62be POST /api/cart/items order=- client=10.127.197.72 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:50:39.113Z gw-edge-3 WARN  req=r-826e62be status=429 dur_ms=3 bytes=1845
+2026-09-17T14:50:47.842Z gw-edge-1 WARN  route cache refreshed entries=148 took=12ms
+2026-09-17T14:50:52.704Z gw-edge-1 INFO  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:51:17.579Z gw-edge-3 INFO  req=r-31d25c42 GET /api/orders/ORD-72552 order=ORD-72552 client=10.54.36.39 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:51:17.720Z gw-edge-3 INFO  req=r-31d25c42 status=200 dur_ms=141 bytes=261
+2026-09-17T14:51:21.074Z gw-edge-3 INFO  req=r-1e418efb POST /api/login order=- client=203.212.232.102 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:51:21.099Z gw-edge-3 INFO  req=r-1e418efb status=200 dur_ms=25 bytes=1672
+2026-09-17T14:51:28.638Z gw-edge-3 INFO  req=r-bd8dca45 GET /api/recommendations order=- client=203.165.117.102 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:51:28.649Z gw-edge-3 WARN  req=r-bd8dca45 status=400 dur_ms=11 bytes=1019
+2026-09-17T14:51:34.497Z gw-edge-3 INFO  req=r-c858647c GET /api/orders/ORD-70874 order=ORD-70874 client=192.0.81.99 ua="shop-android/8.2.1"
+2026-09-17T14:51:34.514Z gw-edge-3 INFO  req=r-c858647c status=200 dur_ms=17 bytes=347
+2026-09-17T14:51:36.862Z gw-edge-2 INFO  req=r-707bff90 POST /api/checkout order=ORD-73787 client=10.75.40.105 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:51:36.865Z gw-edge-2 INFO  req=r-707bff90 upstream=orders-svc trace=tr-344fc34ee9b1 attempt=1 timeout_ms=8000
+2026-09-17T14:51:37.118Z gw-edge-2 INFO  req=r-707bff90 status=200 dur_ms=256 bytes=457
+2026-09-17T14:51:47.222Z gw-edge-1 INFO  req=r-8cd0a707 GET /api/cart order=- client=198.159.229.83 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:51:47.252Z gw-edge-1 INFO  req=r-8cd0a707 status=200 dur_ms=30 bytes=920
+2026-09-17T14:51:49.238Z gw-edge-1 INFO  req=r-662a6f67 POST /api/checkout order=ORD-78762 client=198.208.198.116 ua="shop-android/8.2.1"
+2026-09-17T14:51:49.242Z gw-edge-1 INFO  req=r-662a6f67 upstream=orders-svc trace=tr-8cf8ddf36d0f attempt=1 timeout_ms=8000
+2026-09-17T14:51:49.521Z gw-edge-1 INFO  req=r-662a6f67 status=200 dur_ms=283 bytes=591
+2026-09-17T14:51:52.804Z gw-edge-3 WARN  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:51:56.005Z gw-edge-3 INFO  req=r-c3f657d8 GET /api/products/SKU-50131 order=- client=198.128.178.211 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:51:56.009Z gw-edge-3 INFO  req=r-c3f657d8 status=200 dur_ms=4 bytes=2071
+2026-09-17T14:52:00.185Z gw-edge-2 ERROR jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:52:11.772Z gw-edge-3 WARN  jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:52:15.294Z gw-edge-2 INFO  req=r-26410820 GET /api/orders/ORD-79556 order=ORD-79556 client=192.206.155.123 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:52:15.510Z gw-edge-2 INFO  req=r-26410820 status=200 dur_ms=216 bytes=3034
+2026-09-17T14:52:20.629Z gw-edge-1 WARN  config reload ok routes=148
+2026-09-17T14:52:27.663Z gw-edge-2 WARN  upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:52:29.787Z gw-edge-3 INFO  req=r-e0db6a64 GET /api/cart order=- client=203.19.156.193 ua="okhttp/4.12.0"
+2026-09-17T14:52:29.905Z gw-edge-3 INFO  req=r-e0db6a64 status=200 dur_ms=118 bytes=1504
+2026-09-17T14:52:32.919Z gw-edge-3 INFO  req=r-68553ea0 GET /api/cart order=- client=198.166.14.3 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:52:32.935Z gw-edge-3 INFO  req=r-68553ea0 status=200 dur_ms=16 bytes=2106
+2026-09-17T14:52:36.470Z gw-edge-3 ERROR upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:52:36.532Z gw-edge-2 INFO  req=r-d9f85615 GET /api/products/SKU-21556 order=- client=203.41.212.98 ua="okhttp/4.12.0"
+2026-09-17T14:52:36.728Z gw-edge-2 INFO  req=r-d9f85615 status=200 dur_ms=196 bytes=2820
+2026-09-17T14:52:44.424Z gw-edge-1 INFO  req=r-f074f96a POST /api/login order=- client=192.58.216.243 ua="okhttp/4.12.0"
+2026-09-17T14:52:44.439Z gw-edge-1 INFO  req=r-f074f96a status=200 dur_ms=15 bytes=2712
+2026-09-17T14:52:53.680Z gw-edge-3 WARN  upstream catalog-svc responded slowly: 1840ms
+2026-09-17T14:52:57.041Z gw-edge-1 INFO  req=r-4a087023 POST /api/checkout order=ORD-70381 client=198.160.91.92 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:52:57.046Z gw-edge-1 INFO  req=r-4a087023 upstream=orders-svc trace=tr-98cc767ded67 attempt=1 timeout_ms=8000
+2026-09-17T14:52:57.316Z gw-edge-1 INFO  req=r-4a087023 status=200 dur_ms=275 bytes=838
+2026-09-17T14:53:03.571Z gw-edge-1 INFO  req=r-a15c80b7 POST /api/cart/items order=- client=192.237.252.54 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:53:03.669Z gw-edge-1 INFO  req=r-a15c80b7 status=200 dur_ms=98 bytes=936
+2026-09-17T14:53:04.793Z gw-edge-2 INFO  upstream recs-svc connect timeout after 1500ms
+2026-09-17T14:53:33.106Z gw-edge-2 INFO  req=r-d7095d73 POST /api/checkout order=ORD-71880 client=198.77.175.176 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:53:33.110Z gw-edge-2 INFO  req=r-d7095d73 upstream=orders-svc trace=tr-e495f20c064f attempt=1 timeout_ms=8000
+2026-09-17T14:53:33.385Z gw-edge-2 INFO  req=r-d7095d73 status=200 dur_ms=279 bytes=341
+2026-09-17T14:53:37.791Z gw-edge-2 INFO  req=r-978dc4f6 GET /api/orders/ORD-73099 order=ORD-73099 client=203.5.252.173 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:53:37.800Z gw-edge-2 WARN  req=r-978dc4f6 status=404 dur_ms=9 bytes=3249
+2026-09-17T14:53:41.893Z gw-edge-3 INFO  req=r-e07d62a0 POST /api/login order=- client=198.20.153.74 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:53:42.091Z gw-edge-3 INFO  req=r-e07d62a0 status=200 dur_ms=198 bytes=324
+2026-09-17T14:54:13.077Z gw-edge-3 INFO  req=r-0664c070 GET /api/recommendations order=- client=10.124.76.100 ua="okhttp/4.12.0"
+2026-09-17T14:54:13.124Z gw-edge-3 INFO  req=r-0664c070 status=200 dur_ms=47 bytes=287
+2026-09-17T14:54:35.365Z gw-edge-3 INFO  req=r-81bb0b1a POST /api/checkout order=ORD-78129 client=198.66.69.110 ua="okhttp/4.12.0"
+2026-09-17T14:54:35.369Z gw-edge-3 INFO  req=r-81bb0b1a upstream=orders-svc trace=tr-dba2591dd61e attempt=1 timeout_ms=8000
+2026-09-17T14:54:35.560Z gw-edge-3 INFO  req=r-81bb0b1a status=200 dur_ms=195 bytes=613
+2026-09-17T14:55:15.024Z gw-edge-2 INFO  req=r-773389df GET /api/recommendations order=- client=172.46.217.185 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:55:15.226Z gw-edge-2 INFO  req=r-773389df status=200 dur_ms=202 bytes=2478
+2026-09-17T14:55:27.680Z gw-edge-3 INFO  req=r-331ea3b0 GET /healthz order=- client=203.197.23.110 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:55:27.746Z gw-edge-3 INFO  req=r-331ea3b0 status=200 dur_ms=66 bytes=3620
+2026-09-17T14:55:46.469Z gw-edge-3 ERROR config reload ok routes=148
+2026-09-17T14:56:12.686Z gw-edge-3 INFO  req=r-a3e049e8 GET /api/products/SKU-32920 order=- client=198.42.136.134 ua="shop-android/8.2.1"
+2026-09-17T14:56:12.740Z gw-edge-3 INFO  req=r-a3e049e8 status=200 dur_ms=54 bytes=672
+2026-09-17T14:56:13.019Z gw-edge-3 ERROR tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:56:47.142Z gw-edge-3 INFO  req=r-258a29b5 GET /api/products/SKU-29476 order=- client=203.21.80.221 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:56:47.208Z gw-edge-3 INFO  req=r-258a29b5 status=200 dur_ms=66 bytes=2863
+2026-09-17T14:56:48.183Z gw-edge-3 ERROR upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:56:50.482Z gw-edge-3 INFO  req=r-edd1576c POST /api/cart/items order=- client=172.141.0.182 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:56:50.571Z gw-edge-3 INFO  req=r-edd1576c status=200 dur_ms=89 bytes=989
+2026-09-17T14:56:54.620Z gw-edge-1 INFO  req=r-8cfdb977 GET /api/orders/ORD-72947 order=ORD-72947 client=10.3.19.236 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:56:54.756Z gw-edge-1 INFO  req=r-8cfdb977 status=200 dur_ms=136 bytes=1075
+2026-09-17T14:57:13.679Z gw-edge-2 INFO  req=r-2c7de591 GET /api/cart order=- client=10.206.18.176 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:57:13.877Z gw-edge-2 INFO  req=r-2c7de591 status=200 dur_ms=198 bytes=1283
+2026-09-17T14:57:15.921Z gw-edge-3 INFO  req=r-55473beb POST /api/login order=- client=198.81.187.49 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:57:15.982Z gw-edge-3 INFO  req=r-55473beb status=200 dur_ms=61 bytes=3773
+2026-09-17T14:57:18.680Z gw-edge-2 INFO  req=r-a5000cd8 GET /api/products/SKU-59135 order=- client=203.128.51.86 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:57:18.732Z gw-edge-2 INFO  req=r-a5000cd8 status=200 dur_ms=52 bytes=1317
+2026-09-17T14:57:26.700Z gw-edge-3 INFO  req=r-e8e99ea2 GET /api/products/SKU-35766 order=- client=192.194.67.160 ua="shop-android/8.2.1"
+2026-09-17T14:57:26.849Z gw-edge-3 INFO  req=r-e8e99ea2 status=200 dur_ms=149 bytes=1788
+2026-09-17T14:57:39.066Z gw-edge-3 INFO  req=r-bf77ffb8 POST /api/login order=- client=203.88.163.193 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:57:39.148Z gw-edge-3 INFO  req=r-bf77ffb8 status=200 dur_ms=82 bytes=1402
+2026-09-17T14:57:49.792Z gw-edge-1 INFO  req=r-6e1603b8 POST /api/checkout order=ORD-70850 client=10.47.199.241 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:57:49.796Z gw-edge-1 INFO  req=r-6e1603b8 upstream=orders-svc trace=tr-9e5fdbe716f3 attempt=1 timeout_ms=8000
+2026-09-17T14:57:49.996Z gw-edge-1 INFO  req=r-6e1603b8 status=200 dur_ms=204 bytes=533
+2026-09-17T14:57:55.410Z gw-edge-1 INFO  client 198.51.100.23 sent malformed Content-Length, closing
+2026-09-17T14:58:08.694Z gw-edge-2 ERROR upstream health check ok orders-svc 3/3 healthy
+2026-09-17T14:58:14.302Z gw-edge-2 INFO  req=r-ec315a4b GET /api/cart order=- client=172.165.237.222 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:58:14.308Z gw-edge-2 WARN  req=r-ec315a4b status=401 dur_ms=6 bytes=3506
+2026-09-17T14:58:18.648Z gw-edge-3 INFO  req=r-f83c6c86 POST /api/cart/items order=- client=198.189.136.66 ua="shop-android/8.2.1"
+2026-09-17T14:58:18.659Z gw-edge-3 WARN  req=r-f83c6c86 status=400 dur_ms=11 bytes=3570
+2026-09-17T14:58:20.450Z gw-edge-1 INFO  req=r-2c752a6e GET /healthz order=- client=203.81.244.126 ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) Firefox/125.0"
+2026-09-17T14:58:21.990Z gw-edge-1 ERROR req=r-2c752a6e status=502 dur_ms=1540 bytes=3103
+2026-09-17T14:58:37.755Z gw-edge-3 INFO  req=r-e71c934a GET /api/orders/ORD-77128 order=ORD-77128 client=172.234.97.239 ua="okhttp/4.12.0"
+2026-09-17T14:58:38.063Z gw-edge-3 ERROR req=r-e71c934a status=500 dur_ms=308 bytes=3444
+2026-09-17T14:58:50.380Z gw-edge-3 WARN  tls handshake error from 10.4.2.17: remote error: unknown certificate
+2026-09-17T14:58:52.615Z gw-edge-1 INFO  req=r-5e674708 GET /api/cart order=- client=198.66.177.136 ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0"
+2026-09-17T14:58:52.624Z gw-edge-1 WARN  req=r-5e674708 status=404 dur_ms=9 bytes=263
+2026-09-17T14:58:59.527Z gw-edge-1 INFO  req=r-974252df GET /api/products/SKU-34430 order=- client=192.173.13.151 ua="okhttp/4.12.0"
+2026-09-17T14:58:59.725Z gw-edge-1 INFO  req=r-974252df status=200 dur_ms=198 bytes=1600
+2026-09-17T14:59:06.032Z gw-edge-2 INFO  req=r-7b952f2e POST /api/checkout order=ORD-72087 client=203.116.202.33 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:59:06.037Z gw-edge-2 INFO  req=r-7b952f2e upstream=orders-svc trace=tr-20ee064dc271 attempt=1 timeout_ms=8000
+2026-09-17T14:59:06.331Z gw-edge-2 INFO  req=r-7b952f2e status=200 dur_ms=299 bytes=570
+2026-09-17T14:59:11.471Z gw-edge-3 ERROR jwt validation failed: token expired (sub=u_104233)
+2026-09-17T14:59:18.397Z gw-edge-3 INFO  req=r-087ecc2f POST /api/checkout order=ORD-78156 client=172.90.213.157 ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4) Safari/605.1"
+2026-09-17T14:59:18.399Z gw-edge-3 INFO  req=r-087ecc2f upstream=orders-svc trace=tr-08104ace8d19 attempt=1 timeout_ms=8000
+2026-09-17T14:59:18.705Z gw-edge-3 INFO  req=r-087ecc2f status=200 dur_ms=308 bytes=341
+2026-09-17T14:59:21.063Z gw-edge-2 INFO  req=r-1c8fc9df GET /api/products/SKU-23080 order=- client=172.217.194.27 ua="shop-android/8.2.1"
+2026-09-17T14:59:22.738Z gw-edge-2 ERROR req=r-1c8fc9df status=502 dur_ms=1675 bytes=1178
+2026-09-17T14:59:25.289Z gw-edge-2 INFO  req=r-0456cdf9 GET /api/recommendations order=- client=10.67.105.228 ua="shop-android/8.2.1"
+2026-09-17T14:59:25.317Z gw-edge-2 INFO  req=r-0456cdf9 status=200 dur_ms=28 bytes=2911
+2026-09-17T14:59:51.316Z gw-edge-2 WARN  rate limit exceeded for client 203.0.113.9 (429)

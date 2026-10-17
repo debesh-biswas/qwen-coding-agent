@@ -1,0 +1,957 @@
+2026-09-17 14:00:05.576 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:00:16.247 pay-core INFO  webhook evt_0d81affa527128 received type=charge.refunded
+2026-09-17 14:00:17.943 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:00:21.727 pay-core INFO  webhook evt_f309e8f3e282a8 received type=charge.succeeded
+2026-09-17 14:00:25.236 pay-core INFO  intent.create id=pi_MqrJ3amJGZECfpff3f8GLYVf order_ref=ORD-79151 amount=421.02 currency=USD status=requires_confirmation
+2026-09-17 14:00:25.398 pay-core INFO  intent.capture id=pi_MqrJ3amJGZECfpff3f8GLYVf status=succeeded
+2026-09-17 14:00:30.559 pay-core DEBUG webhook evt_2f008a85bb65f3 received type=charge.refunded
+2026-09-17 14:00:38.337 pay-core INFO  webhook evt_8ddbbcd3994899 received type=charge.refunded
+2026-09-17 14:00:55.503 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:00:58.220 pay-core INFO  webhook evt_e4eba3f0ff5090 verified
+2026-09-17 14:01:00.796 pay-core WARN  charge.declined intent=pi_PjIUC0FDocxnW84PCGCLFqav order_ref=ORD-71192 code=card_declined
+2026-09-17 14:01:02.261 pay-core INFO  webhook evt_ede7cf4a540441 verified
+2026-09-17 14:01:11.109 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 216, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:01:21.355 pay-core INFO  3ds challenge completed
+2026-09-17 14:01:29.204 pay-core INFO  3ds challenge completed
+2026-09-17 14:01:29.963 pay-core INFO  intent.create id=pi_QeLEhin4yB2JlEn0bCwifPDc order_ref=ORD-74094 amount=346.31 currency=USD status=requires_confirmation
+2026-09-17 14:01:30.329 pay-core INFO  intent.capture id=pi_QeLEhin4yB2JlEn0bCwifPDc status=succeeded
+2026-09-17 14:01:40.616 pay-core INFO  intent.create id=pi_2e42z7nEhVpCBm3RIiQm8SFu order_ref=ORD-74154 amount=226.08 currency=USD status=requires_confirmation
+2026-09-17 14:01:40.861 pay-core INFO  intent.capture id=pi_2e42z7nEhVpCBm3RIiQm8SFu status=succeeded
+2026-09-17 14:01:45.337 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:01:46.299 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 150, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:01:57.687 pay-core INFO  webhook evt_db3d92f1800567 received type=charge.refunded
+2026-09-17 14:02:06.851 pay-core INFO  intent.create id=pi_N4vRN5ofLSyZvLDge5r7W14M order_ref=ORD-78352 amount=145.65 currency=USD status=requires_confirmation
+2026-09-17 14:02:07.128 pay-core INFO  intent.capture id=pi_N4vRN5ofLSyZvLDge5r7W14M status=succeeded
+2026-09-17 14:02:17.027 pay-core INFO  webhook evt_14010449c05b21 received type=charge.refunded
+2026-09-17 14:02:29.323 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:02:37.018 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:02:44.716 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:02:46.953 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:02:49.003 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:02:54.573 pay-core INFO  3ds challenge completed
+2026-09-17 14:02:55.804 pay-core WARN  charge.declined intent=pi_5rtTJvkxc5xkRz4V4l3V5jzg order_ref=ORD-79809 code=insufficient_funds
+2026-09-17 14:03:05.719 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:03:11.211 pay-core WARN  charge.declined intent=pi_wxtL08ipimQtYobs7Pd4cwpF order_ref=ORD-74400 code=expired_card
+2026-09-17 14:03:11.412 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 339, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:03:11.797 pay-core INFO  3ds challenge completed
+2026-09-17 14:03:12.536 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:03:21.830 pay-core DEBUG webhook evt_8f79556715605a received type=charge.succeeded
+2026-09-17 14:03:24.638 pay-core DEBUG webhook evt_c19fea32996a87 received type=charge.refunded
+2026-09-17 14:03:24.785 pay-core INFO  3ds challenge completed
+2026-09-17 14:03:27.684 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:03:28.425 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:03:29.872 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:03:31.689 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:03:44.294 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:03:52.091 pay-core WARN  charge.declined intent=pi_hO9rSufJLUuW62fYXgMucm12 order_ref=ORD-71282 code=avs_mismatch
+2026-09-17 14:03:53.915 pay-core INFO  3ds challenge completed
+2026-09-17 14:04:07.994 pay-core INFO  3ds challenge completed
+2026-09-17 14:04:08.836 pay-core WARN  charge.declined intent=pi_7zCzWOLG2W1XtsgWFyNnYvvO order_ref=ORD-79977 code=avs_mismatch
+2026-09-17 14:04:18.628 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:04:28.225 pay-core INFO  webhook evt_1cece4360ec3fa received type=charge.refunded
+2026-09-17 14:04:28.646 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:04:29.569 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:04:35.344 pay-core INFO  webhook evt_b19f8803b4ebd5 verified
+2026-09-17 14:04:35.459 pay-core DEBUG webhook evt_97ddcbd81b0fed verified
+2026-09-17 14:04:37.115 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:04:38.690 pay-core INFO  webhook evt_3384c1c8bb5d2f verified
+2026-09-17 14:04:43.465 pay-core INFO  intent.create id=pi_dCJF9w96KZj2hi4hXBOX86JB order_ref=ORD-72035 amount=433.87 currency=USD status=requires_confirmation
+2026-09-17 14:04:43.730 pay-core INFO  intent.capture id=pi_dCJF9w96KZj2hi4hXBOX86JB status=succeeded
+2026-09-17 14:04:47.438 pay-core INFO  3ds challenge completed
+2026-09-17 14:04:53.945 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:04:58.158 pay-core WARN  charge.declined intent=pi_jcoNUIpVhIHSDv9YsTjDPD8e order_ref=ORD-74497 code=insufficient_funds
+2026-09-17 14:05:04.015 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:05:07.192 pay-core WARN  charge.declined intent=pi_7KfGA3pU7b3pzrndvGQ5cHy3 order_ref=ORD-78719 code=do_not_honor
+2026-09-17 14:05:26.954 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:05:48.013 pay-core INFO  webhook evt_efba99265693fc received type=charge.succeeded
+2026-09-17 14:05:58.655 pay-core INFO  webhook evt_a76ce0a851be40 verified
+2026-09-17 14:06:04.933 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:06:14.264 pay-core WARN  charge.declined intent=pi_25atLc3SlGew9wKYNAxTPs6R order_ref=ORD-72817 code=do_not_honor
+2026-09-17 14:06:18.069 pay-core INFO  webhook evt_d8a0b0ccc690d5 verified
+2026-09-17 14:06:28.443 pay-core WARN  charge.declined intent=pi_ZZSANzqBRKh1EcNLGM03Y3L6 order_ref=ORD-77837 code=insufficient_funds
+2026-09-17 14:06:40.256 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 70, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:06:43.574 pay-core INFO  intent.create id=pi_rqApAvnMRv7b8HluogAWMHSX order_ref=ORD-77523 amount=384.27 currency=USD status=requires_confirmation
+2026-09-17 14:06:43.874 pay-core INFO  intent.capture id=pi_rqApAvnMRv7b8HluogAWMHSX status=succeeded
+2026-09-17 14:06:46.314 pay-core WARN  charge.declined intent=pi_UsxycUSOCAfC67TWpG74ceNz order_ref=ORD-74048 code=expired_card
+2026-09-17 14:06:50.639 pay-core INFO  intent.create id=pi_MLhFNnc7v6YVGvv6WqTAfRJh order_ref=ORD-71344 amount=592.00 currency=USD status=requires_confirmation
+2026-09-17 14:06:50.930 pay-core INFO  intent.capture id=pi_MLhFNnc7v6YVGvv6WqTAfRJh status=succeeded
+2026-09-17 14:06:51.737 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:06:51.781 pay-core INFO  intent.create id=pi_h1wXEdY2Vf7b7V37oUSreoGy order_ref=ORD-79256 amount=192.94 currency=USD status=requires_confirmation
+2026-09-17 14:06:52.069 pay-core INFO  intent.capture id=pi_h1wXEdY2Vf7b7V37oUSreoGy status=succeeded
+2026-09-17 14:06:56.032 pay-core INFO  webhook evt_491b4cf2fdfb1d received type=charge.refunded
+2026-09-17 14:06:56.217 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 329, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:06:58.745 pay-core WARN  charge.declined intent=pi_LRJOmzyYaMLwgIV565Ub5YX5 order_ref=ORD-75165 code=card_declined
+2026-09-17 14:07:05.397 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 399, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:07:08.490 pay-core INFO  intent.create id=pi_LtWrl9eWUAHcWXzuzEmJ8Xcp order_ref=ORD-72492 amount=461.03 currency=USD status=requires_confirmation
+2026-09-17 14:07:08.693 pay-core INFO  intent.capture id=pi_LtWrl9eWUAHcWXzuzEmJ8Xcp status=succeeded
+2026-09-17 14:07:15.875 pay-core WARN  charge.declined intent=pi_xf4uH2YezwW4XW4JoGbpI3CX order_ref=ORD-73033 code=insufficient_funds
+2026-09-17 14:07:18.434 pay-core INFO  webhook evt_e04f2488babb6b received type=charge.refunded
+2026-09-17 14:07:30.191 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 155, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:07:34.831 pay-core INFO  webhook evt_dc1bbdcf3eb570 received type=charge.succeeded
+2026-09-17 14:07:37.642 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:07:40.090 pay-core DEBUG webhook evt_fc2bd0233f8f42 received type=charge.succeeded
+2026-09-17 14:07:51.274 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:07:56.963 pay-core INFO  intent.create id=pi_AazXQvpyslDj7BzsedoYHZFP order_ref=ORD-76115 amount=543.47 currency=USD status=requires_confirmation
+2026-09-17 14:07:57.181 pay-core INFO  intent.capture id=pi_AazXQvpyslDj7BzsedoYHZFP status=succeeded
+2026-09-17 14:07:57.558 pay-core INFO  webhook evt_8c7b05236062bc verified
+2026-09-17 14:08:03.592 pay-core DEBUG webhook evt_a0601c22f68d88 received type=charge.succeeded
+2026-09-17 14:08:17.398 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:08:27.709 pay-core INFO  3ds challenge completed
+2026-09-17 14:08:28.766 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:08:29.772 pay-core WARN  charge.declined intent=pi_OPGMXWg9QjyLYgWfkIDczr52 order_ref=ORD-78640 code=card_declined
+2026-09-17 14:08:38.916 pay-core INFO  webhook evt_db6dca325a91b3 received type=charge.succeeded
+2026-09-17 14:08:51.088 pay-core INFO  3ds challenge completed
+2026-09-17 14:08:52.796 pay-core INFO  webhook evt_03a189356cd51a received type=charge.refunded
+2026-09-17 14:08:59.858 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:09:01.270 pay-core WARN  charge.declined intent=pi_hrBwT2CbpOkfZq3JWKER4IOi order_ref=ORD-78678 code=do_not_honor
+2026-09-17 14:09:04.335 pay-core INFO  intent.create id=pi_kkhENpbo3wkAMzlIuZhCf1b2 order_ref=ORD-72141 amount=367.89 currency=USD status=requires_confirmation
+2026-09-17 14:09:04.617 pay-core INFO  intent.capture id=pi_kkhENpbo3wkAMzlIuZhCf1b2 status=succeeded
+2026-09-17 14:09:08.194 pay-core INFO  webhook evt_73e1de6b77f254 received type=charge.refunded
+2026-09-17 14:09:10.330 pay-core INFO  webhook evt_5d6442b1f60807 verified
+2026-09-17 14:09:13.200 pay-core WARN  charge.declined intent=pi_GpMZk43WXFn3we5iFxjJuWuE order_ref=ORD-73405 code=avs_mismatch
+2026-09-17 14:09:14.807 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:09:14.914 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:09:15.488 pay-core INFO  3ds challenge completed
+2026-09-17 14:09:17.484 pay-core WARN  charge.declined intent=pi_2uwp6qO02ELHa8ZZNkzyH0Xu order_ref=ORD-78953 code=do_not_honor
+2026-09-17 14:09:19.177 pay-core INFO  webhook evt_c0f19fa44198b1 received type=charge.refunded
+2026-09-17 14:09:23.318 pay-core INFO  3ds challenge completed
+2026-09-17 14:09:38.752 pay-core INFO  3ds challenge completed
+2026-09-17 14:09:57.228 pay-core WARN  charge.declined intent=pi_6rxkgXd06TQRG1mpuZrlP3c1 order_ref=ORD-73651 code=expired_card
+2026-09-17 14:10:00.026 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:10:21.213 pay-core INFO  webhook evt_a040551f847b2d verified
+2026-09-17 14:10:22.172 pay-core INFO  3ds challenge completed
+2026-09-17 14:10:22.891 pay-core INFO  webhook evt_d4c60ebe603b53 verified
+2026-09-17 14:10:24.297 pay-core INFO  intent.create id=pi_yOdjAnyFpBlr4FCrgzUYALLC order_ref=ORD-79660 amount=83.08 currency=USD status=requires_confirmation
+2026-09-17 14:10:24.583 pay-core INFO  intent.capture id=pi_yOdjAnyFpBlr4FCrgzUYALLC status=succeeded
+2026-09-17 14:10:25.190 pay-core WARN  charge.declined intent=pi_dpQzSTHMU0xZPOdDK1WeiMI5 order_ref=ORD-75119 code=card_declined
+2026-09-17 14:10:25.293 pay-core WARN  charge.declined intent=pi_ozJoNxH9T4xlBlyhUxV6NdYZ order_ref=ORD-78867 code=card_declined
+2026-09-17 14:10:35.939 pay-core WARN  charge.declined intent=pi_ab0Xa8uTNnmH0OZYi0YvK3Cv order_ref=ORD-75389 code=avs_mismatch
+2026-09-17 14:10:54.936 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 302, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:11:06.663 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:11:06.962 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:11:11.481 pay-core WARN  charge.declined intent=pi_uavT7WWgDHkop8KNm8J46FRE order_ref=ORD-75319 code=do_not_honor
+2026-09-17 14:11:12.817 pay-core INFO  intent.create id=pi_Oh8E9b2s9wVyZHH9KNBCn11D order_ref=ORD-77076 amount=116.57 currency=USD status=requires_confirmation
+2026-09-17 14:11:13.063 pay-core INFO  intent.capture id=pi_Oh8E9b2s9wVyZHH9KNBCn11D status=succeeded
+2026-09-17 14:11:16.253 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:11:19.562 pay-core WARN  charge.declined intent=pi_1XzQNO9GVqA3f2wqxFlTejle order_ref=ORD-70805 code=avs_mismatch
+2026-09-17 14:11:20.202 pay-core DEBUG webhook evt_274e884a771482 received type=charge.succeeded
+2026-09-17 14:11:24.810 pay-core INFO  webhook evt_09571b500c8bd2 received type=charge.refunded
+2026-09-17 14:11:25.043 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:11:26.071 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:11:30.702 pay-core INFO  webhook evt_494f71f14ec6c8 verified
+2026-09-17 14:11:32.497 pay-core INFO  webhook evt_af64942062a598 verified
+2026-09-17 14:11:36.323 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:11:38.610 pay-core INFO  intent.create id=pi_7iJzjT07pgX6uiqVRvcGH3ai order_ref=ORD-77265 amount=109.21 currency=USD status=requires_confirmation
+2026-09-17 14:11:38.860 pay-core INFO  intent.capture id=pi_7iJzjT07pgX6uiqVRvcGH3ai status=succeeded
+2026-09-17 14:11:48.473 pay-core INFO  3ds challenge completed
+2026-09-17 14:11:50.621 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:11:55.625 pay-core WARN  charge.declined intent=pi_heMHBrG8EEVioZ0phkwQp9dJ order_ref=ORD-71714 code=avs_mismatch
+2026-09-17 14:12:06.523 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:12:08.662 pay-core WARN  charge.declined intent=pi_FY3YQInWV6YG8YPqTRv8hgfJ order_ref=ORD-79519 code=avs_mismatch
+2026-09-17 14:12:09.259 pay-core WARN  charge.declined intent=pi_0nIHJuFSONfztFTm6nzQNM6R order_ref=ORD-72577 code=avs_mismatch
+2026-09-17 14:12:13.198 pay-core INFO  3ds challenge completed
+2026-09-17 14:12:20.788 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:12:21.272 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 162, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:12:24.616 pay-core INFO  webhook evt_136805d04c860f received type=charge.refunded
+2026-09-17 14:12:27.108 pay-core INFO  webhook evt_e9565c015b7701 verified
+2026-09-17 14:12:27.711 pay-core INFO  intent.create id=pi_mM8xdRYU1xYFiQ4prZY7DtRY order_ref=ORD-73580 amount=472.43 currency=USD status=requires_confirmation
+2026-09-17 14:12:27.998 pay-core INFO  intent.capture id=pi_mM8xdRYU1xYFiQ4prZY7DtRY status=succeeded
+2026-09-17 14:12:31.098 pay-core WARN  charge.declined intent=pi_1mYqbFeWEsSNkHeuiOxDyyaB order_ref=ORD-76357 code=do_not_honor
+2026-09-17 14:12:31.134 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 361, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:12:33.634 pay-core INFO  webhook evt_45e494352204c5 received type=charge.refunded
+2026-09-17 14:12:39.647 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:12:40.025 pay-core INFO  intent.create id=pi_midJm0EhMjEFtlilkFBEYdkw order_ref=ORD-79227 amount=172.92 currency=USD status=requires_confirmation
+2026-09-17 14:12:43.791 pay-core INFO  webhook evt_8c3c40044ba1da verified
+2026-09-17 14:12:46.846 pay-core WARN  charge.declined intent=pi_c3Hoex9Gbku580hBU1iyDxNM order_ref=ORD-71474 code=insufficient_funds
+2026-09-17 14:12:48.017 pay-core WARN  intent.cancel id=pi_midJm0EhMjEFtlilkFBEYdkw reason=checkout_aborted
+2026-09-17 14:12:51.260 pay-core INFO  3ds challenge completed
+2026-09-17 14:12:52.783 pay-core DEBUG webhook evt_604770f4bc49ef received type=charge.succeeded
+2026-09-17 14:12:53.215 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:12:55.939 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:12:56.416 pay-core INFO  webhook evt_c9f3c39fd1fc5a received type=charge.succeeded
+2026-09-17 14:12:58.864 pay-core INFO  webhook evt_9a745a3a92641d received type=charge.refunded
+2026-09-17 14:13:09.033 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 333, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:13:10.463 pay-core WARN  charge.declined intent=pi_LZIYuajXzYkXFyaBqWmyJNmx order_ref=ORD-75260 code=card_declined
+2026-09-17 14:13:18.359 pay-core WARN  charge.declined intent=pi_haHeZPtWupAFtm3WuQjOLQhJ order_ref=ORD-72991 code=insufficient_funds
+2026-09-17 14:13:20.552 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:13:21.111 pay-core INFO  3ds challenge completed
+2026-09-17 14:13:22.981 pay-core INFO  3ds challenge completed
+2026-09-17 14:13:32.778 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:13:37.246 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:13:38.852 pay-core INFO  intent.create id=pi_AMWggvJTTvVAlfpX2cYWGTbG order_ref=ORD-71934 amount=244.87 currency=USD status=requires_confirmation
+2026-09-17 14:13:39.064 pay-core INFO  intent.capture id=pi_AMWggvJTTvVAlfpX2cYWGTbG status=succeeded
+2026-09-17 14:13:44.079 pay-core WARN  charge.declined intent=pi_vmhXm8yXuezZh5ii8AaxdRrn order_ref=ORD-74295 code=expired_card
+2026-09-17 14:13:44.684 pay-core WARN  charge.declined intent=pi_e0l3GYqkWXm8i70oc0VCYQ5X order_ref=ORD-71694 code=expired_card
+2026-09-17 14:13:47.636 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:13:57.079 pay-core INFO  webhook evt_017163e394aaae verified
+2026-09-17 14:14:09.170 pay-core WARN  charge.declined intent=pi_rHrSJbAUvhB1siOoyzDlGueC order_ref=ORD-78163 code=insufficient_funds
+2026-09-17 14:14:11.076 pay-core INFO  intent.create id=pi_4KfahLBamevOjj3N7qD7yk07 order_ref=ORD-74401 amount=332.53 currency=USD status=requires_confirmation
+2026-09-17 14:14:11.305 pay-core INFO  intent.capture id=pi_4KfahLBamevOjj3N7qD7yk07 status=succeeded
+2026-09-17 14:14:13.525 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:14:24.562 pay-core INFO  webhook evt_b0d47cc6a1363c received type=charge.succeeded
+2026-09-17 14:14:34.373 pay-core INFO  webhook evt_7474409db99d0c received type=charge.refunded
+2026-09-17 14:14:47.208 pay-core INFO  webhook evt_1565cddc0f05d6 verified
+2026-09-17 14:14:51.925 pay-core INFO  webhook evt_3693df7ba9a2ad received type=charge.succeeded
+2026-09-17 14:15:22.238 pay-core INFO  intent.create id=pi_J6zDdZIbtuMUNoQFJXBd5Vyi order_ref=ORD-74498 amount=262.73 currency=USD status=requires_confirmation
+2026-09-17 14:15:22.464 pay-core INFO  intent.capture id=pi_J6zDdZIbtuMUNoQFJXBd5Vyi status=succeeded
+2026-09-17 14:15:30.160 pay-core WARN  charge.declined intent=pi_fMrg20lXJc2KKxHqSTUMdMho order_ref=ORD-72058 code=insufficient_funds
+2026-09-17 14:15:37.089 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 257, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:15:42.420 pay-core WARN  charge.declined intent=pi_8Uqf8aN4B8YXPVol7Ma96U9i order_ref=ORD-72660 code=do_not_honor
+2026-09-17 14:15:45.300 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:15:49.189 pay-core WARN  charge.declined intent=pi_a73Np9GHZuQs36B5icxMacEk order_ref=ORD-73899 code=do_not_honor
+2026-09-17 14:16:10.860 pay-core WARN  charge.declined intent=pi_EtXKC5kMRso6KwClP2aAX6e1 order_ref=ORD-74975 code=do_not_honor
+2026-09-17 14:16:23.069 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:16:27.032 pay-core INFO  webhook evt_f13e340b537123 received type=charge.refunded
+2026-09-17 14:16:39.660 pay-core INFO  intent.create id=pi_gZ7NNPfJNJScjylpcWJ09Wu8 order_ref=ORD-76145 amount=228.81 currency=USD status=requires_confirmation
+2026-09-17 14:16:39.893 pay-core INFO  intent.capture id=pi_gZ7NNPfJNJScjylpcWJ09Wu8 status=succeeded
+2026-09-17 14:16:42.183 pay-core DEBUG webhook evt_3c94440bf1bda2 received type=charge.refunded
+2026-09-17 14:16:53.952 pay-core INFO  3ds challenge completed
+2026-09-17 14:16:54.707 pay-core WARN  charge.declined intent=pi_PRXY67XG6n9kRhdZA4BeONp0 order_ref=ORD-79036 code=expired_card
+2026-09-17 14:16:58.838 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:17:11.517 pay-core WARN  charge.declined intent=pi_kiFH3vbHMvx1XOnWuLAbkynW order_ref=ORD-76409 code=expired_card
+2026-09-17 14:17:11.569 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 378, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:17:15.035 pay-core INFO  webhook evt_4e683f7a415a14 received type=charge.refunded
+2026-09-17 14:17:31.165 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:17:38.638 pay-core INFO  webhook evt_ca1dfd73728b60 received type=charge.succeeded
+2026-09-17 14:17:40.734 pay-core INFO  intent.create id=pi_pH8xgOGlSxKrqLMKu38QPazW order_ref=ORD-74840 amount=311.30 currency=USD status=requires_confirmation
+2026-09-17 14:17:40.955 pay-core INFO  intent.capture id=pi_pH8xgOGlSxKrqLMKu38QPazW status=succeeded
+2026-09-17 14:17:45.499 pay-core INFO  webhook evt_adbb61eb652cd5 verified
+2026-09-17 14:17:50.679 pay-core DEBUG webhook evt_7853a3b6984b43 received type=charge.refunded
+2026-09-17 14:17:52.761 pay-core WARN  charge.declined intent=pi_FfFM9QUX8hOocXTjJ1g8T19l order_ref=ORD-75403 code=insufficient_funds
+2026-09-17 14:17:59.069 pay-core WARN  charge.declined intent=pi_z44VIhGkVpsmXxgu60p2IPPE order_ref=ORD-71414 code=insufficient_funds
+2026-09-17 14:17:59.677 pay-core INFO  3ds challenge completed
+2026-09-17 14:18:10.558 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 145, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:18:11.852 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:18:12.170 pay-core WARN  charge.declined intent=pi_TkSBlDV7qRK6lsz4v4QCGtSy order_ref=ORD-70660 code=do_not_honor
+2026-09-17 14:18:15.151 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:18:26.685 pay-core INFO  intent.create id=pi_FsAmsVuhOz0yVOIIcjz4K4T0 order_ref=ORD-76316 amount=474.07 currency=USD status=requires_confirmation
+2026-09-17 14:18:27.009 pay-core INFO  intent.capture id=pi_FsAmsVuhOz0yVOIIcjz4K4T0 status=succeeded
+2026-09-17 14:18:33.377 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 141, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:18:33.597 pay-core INFO  3ds challenge completed
+2026-09-17 14:18:40.070 pay-core INFO  webhook evt_e56e934184176d verified
+2026-09-17 14:18:42.493 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:18:55.630 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 347, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:18:56.541 pay-core DEBUG webhook evt_e0bab2631d1d7d received type=charge.succeeded
+2026-09-17 14:19:06.587 pay-core INFO  intent.create id=pi_vMtrV1iyjrT8r3XEV1tzvoEC order_ref=ORD-70332 amount=349.02 currency=USD status=requires_confirmation
+2026-09-17 14:19:06.900 pay-core INFO  intent.capture id=pi_vMtrV1iyjrT8r3XEV1tzvoEC status=succeeded
+2026-09-17 14:19:08.588 pay-core INFO  intent.create id=pi_bU4nJrdTtF7p05WRrybhRIU1 order_ref=ORD-76108 amount=383.71 currency=USD status=requires_confirmation
+2026-09-17 14:19:08.937 pay-core INFO  intent.capture id=pi_bU4nJrdTtF7p05WRrybhRIU1 status=succeeded
+2026-09-17 14:19:11.568 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:19:12.801 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:19:15.023 pay-core INFO  webhook evt_30a828cc20f567 received type=charge.succeeded
+2026-09-17 14:19:29.176 pay-core INFO  webhook evt_46cca6163f40cd received type=charge.succeeded
+2026-09-17 14:19:36.888 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:19:37.499 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:19:40.199 pay-core INFO  intent.create id=pi_tDRO86TihuzIzsJNtjDa4Eh3 order_ref=ORD-70302 amount=167.67 currency=USD status=requires_confirmation
+2026-09-17 14:19:40.440 pay-core INFO  intent.capture id=pi_tDRO86TihuzIzsJNtjDa4Eh3 status=succeeded
+2026-09-17 14:19:54.318 pay-core INFO  intent.create id=pi_ZbKLa7xxqiAHh9OCulsWwV3F order_ref=ORD-70906 amount=576.66 currency=USD status=requires_confirmation
+2026-09-17 14:19:54.519 pay-core INFO  intent.capture id=pi_ZbKLa7xxqiAHh9OCulsWwV3F status=succeeded
+2026-09-17 14:19:54.725 pay-core INFO  intent.create id=pi_BjNADv7ObN5BYw0tm7AqJk8S order_ref=ORD-79861 amount=511.98 currency=USD status=requires_confirmation
+2026-09-17 14:19:54.985 pay-core INFO  intent.capture id=pi_BjNADv7ObN5BYw0tm7AqJk8S status=succeeded
+2026-09-17 14:19:56.758 pay-core INFO  webhook evt_114aee7de2ff2c received type=charge.refunded
+2026-09-17 14:20:10.901 pay-core WARN  charge.declined intent=pi_roTkob7rJtpJy4qyNXVjQkQb order_ref=ORD-74837 code=insufficient_funds
+2026-09-17 14:20:23.974 pay-core INFO  webhook evt_eb121234208b07 received type=charge.refunded
+2026-09-17 14:20:28.684 pay-core INFO  webhook evt_1773fe39fe13f6 received type=charge.succeeded
+2026-09-17 14:20:35.793 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:20:39.829 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:20:41.680 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:20:42.432 pay-core WARN  charge.declined intent=pi_tznvmCHdSRQta8v1e4J0iU54 order_ref=ORD-71656 code=avs_mismatch
+2026-09-17 14:20:50.536 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:20:51.402 pay-core INFO  webhook evt_a6ea476909ce51 received type=charge.succeeded
+2026-09-17 14:20:51.763 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 313, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:20:53.516 pay-core INFO  intent.create id=pi_axNH1z2RVgG1hRz2mY5ObDg5 order_ref=ORD-77215 amount=242.22 currency=USD status=requires_confirmation
+2026-09-17 14:20:53.799 pay-core INFO  intent.capture id=pi_axNH1z2RVgG1hRz2mY5ObDg5 status=succeeded
+2026-09-17 14:20:57.432 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 48, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:20:59.240 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:21:16.016 pay-core INFO  webhook evt_9131f8f988f00f received type=charge.succeeded
+2026-09-17 14:21:20.876 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:21:26.520 pay-core INFO  webhook evt_9b83fdb40bf496 received type=charge.refunded
+2026-09-17 14:21:40.860 pay-core DEBUG webhook evt_d5ee736ee3aa38 received type=charge.refunded
+2026-09-17 14:21:47.790 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:21:50.357 pay-core INFO  webhook evt_3164fb86650f3e received type=charge.succeeded
+2026-09-17 14:21:57.967 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:22:03.928 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:22:23.440 pay-core INFO  webhook evt_6344ea6abd10ed verified
+2026-09-17 14:22:29.699 pay-core INFO  intent.create id=pi_tBNa7SuVHBgEreZ5uzm2s4mm order_ref=ORD-74257 amount=26.15 currency=USD status=requires_confirmation
+2026-09-17 14:22:29.936 pay-core INFO  intent.capture id=pi_tBNa7SuVHBgEreZ5uzm2s4mm status=succeeded
+2026-09-17 14:22:34.006 pay-core INFO  intent.create id=pi_kLGPzFuEGWWNTUHzf7Thae6g order_ref=ORD-72515 amount=290.63 currency=USD status=requires_confirmation
+2026-09-17 14:22:34.238 pay-core INFO  intent.capture id=pi_kLGPzFuEGWWNTUHzf7Thae6g status=succeeded
+2026-09-17 14:22:40.483 pay-core INFO  webhook evt_aa507b0f3d0e5e received type=charge.succeeded
+2026-09-17 14:22:43.193 pay-core DEBUG webhook evt_56883540faff45 received type=charge.succeeded
+2026-09-17 14:22:48.037 pay-core INFO  intent.create id=pi_PYIgoUmPklU6LYQV5mCicn5H order_ref=ORD-77314 amount=347.64 currency=USD status=requires_confirmation
+2026-09-17 14:22:48.329 pay-core INFO  intent.capture id=pi_PYIgoUmPklU6LYQV5mCicn5H status=succeeded
+2026-09-17 14:22:50.182 pay-core INFO  webhook evt_50ffef5022f8a3 received type=charge.refunded
+2026-09-17 14:22:52.274 pay-core WARN  charge.declined intent=pi_TKY8TbL8iXuXzYy1fbVi0t5l order_ref=ORD-72872 code=card_declined
+2026-09-17 14:23:06.323 pay-core INFO  intent.create id=pi_qoOyQ0fEv7wCq6MzSUGswOGW order_ref=ORD-79168 amount=278.68 currency=USD status=requires_confirmation
+2026-09-17 14:23:06.597 pay-core INFO  intent.capture id=pi_qoOyQ0fEv7wCq6MzSUGswOGW status=succeeded
+2026-09-17 14:23:10.984 pay-core INFO  intent.create id=pi_duekP3gPRuQVFWHuFWdVxYY0 order_ref=ORD-74065 amount=436.42 currency=USD status=requires_confirmation
+2026-09-17 14:23:11.176 pay-core INFO  intent.capture id=pi_duekP3gPRuQVFWHuFWdVxYY0 status=succeeded
+2026-09-17 14:23:18.817 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:23:20.441 pay-core WARN  charge.declined intent=pi_3o6ujHgqeNs8wylqLjmx2TVL order_ref=ORD-74382 code=card_declined
+2026-09-17 14:23:25.434 pay-core INFO  3ds challenge completed
+2026-09-17 14:23:28.336 pay-core INFO  intent.create id=pi_Jl3469VzX4hE9v4gDNuo6qAr order_ref=ORD-75653 amount=254.87 currency=USD status=requires_confirmation
+2026-09-17 14:23:28.630 pay-core INFO  intent.capture id=pi_Jl3469VzX4hE9v4gDNuo6qAr status=succeeded
+2026-09-17 14:23:29.782 pay-core DEBUG webhook evt_f59f98457371d0 verified
+2026-09-17 14:23:30.189 pay-core INFO  webhook evt_7e76bd31ce57c9 received type=charge.succeeded
+2026-09-17 14:23:45.696 pay-core INFO  intent.create id=pi_ZZFHrCbnFrGtIPoIsLCMIfKu order_ref=ORD-75104 amount=429.57 currency=USD status=requires_confirmation
+2026-09-17 14:23:46.019 pay-core INFO  intent.capture id=pi_ZZFHrCbnFrGtIPoIsLCMIfKu status=succeeded
+2026-09-17 14:23:47.835 pay-core INFO  webhook evt_20c8ae71607f02 received type=charge.refunded
+2026-09-17 14:23:53.060 pay-core INFO  webhook evt_6226e71f880b6d received type=charge.refunded
+2026-09-17 14:23:58.125 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:24:00.804 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:24:07.844 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 259, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:24:09.053 pay-core WARN  charge.declined intent=pi_I04WODwoUHjFH7kRDkaE3QLI order_ref=ORD-75639 code=avs_mismatch
+2026-09-17 14:24:10.990 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:24:15.054 pay-core INFO  intent.create id=pi_VnNkhSkItGJm10YsAOoleAoN order_ref=ORD-72209 amount=295.44 currency=USD status=requires_confirmation
+2026-09-17 14:24:15.286 pay-core INFO  intent.capture id=pi_VnNkhSkItGJm10YsAOoleAoN status=succeeded
+2026-09-17 14:24:15.776 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 21, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:24:16.428 pay-core INFO  webhook evt_7b5dfddbb36c29 received type=charge.refunded
+2026-09-17 14:24:31.020 pay-core WARN  charge.declined intent=pi_Y1QPzw83L1Uh7pNEuVfCL5JO order_ref=ORD-72360 code=card_declined
+2026-09-17 14:24:36.581 pay-core WARN  charge.declined intent=pi_g9HE1GmPOKnSKZ1jJnuR8p9m order_ref=ORD-78336 code=avs_mismatch
+2026-09-17 14:24:41.181 pay-core INFO  3ds challenge completed
+2026-09-17 14:25:04.117 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 234, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:25:08.791 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 231, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:25:12.477 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 163, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:25:15.177 pay-core INFO  webhook evt_5d8883ed58041a received type=charge.refunded
+2026-09-17 14:25:22.433 pay-core WARN  charge.declined intent=pi_NREZlWJQTIgGVugRVtToBaC7 order_ref=ORD-77626 code=do_not_honor
+2026-09-17 14:25:27.447 pay-core INFO  3ds challenge completed
+2026-09-17 14:25:27.471 pay-core WARN  charge.declined intent=pi_nSdDTI1HyXCfQYFGsLGEkObv order_ref=ORD-70356 code=avs_mismatch
+2026-09-17 14:25:33.551 pay-core INFO  intent.create id=pi_4Gj2brMfv9Kkgmws49xJn0TT order_ref=ORD-76596 amount=39.91 currency=USD status=requires_confirmation
+2026-09-17 14:25:33.857 pay-core INFO  intent.capture id=pi_4Gj2brMfv9Kkgmws49xJn0TT status=succeeded
+2026-09-17 14:25:37.610 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:25:41.698 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:25:48.834 pay-core INFO  intent.create id=pi_eh0hEhRA8KP20DRnvVzATko1 order_ref=ORD-75227 amount=60.81 currency=USD status=requires_confirmation
+2026-09-17 14:25:49.100 pay-core INFO  intent.capture id=pi_eh0hEhRA8KP20DRnvVzATko1 status=succeeded
+2026-09-17 14:25:56.147 pay-core INFO  3ds challenge completed
+2026-09-17 14:26:00.566 pay-core DEBUG webhook evt_b231732bd2c82b received type=charge.refunded
+2026-09-17 14:26:06.196 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 358, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:26:08.540 pay-core INFO  intent.create id=pi_y0fwa4IXM7trZ1QtNrvM883D order_ref=ORD-70542 amount=430.84 currency=USD status=requires_confirmation
+2026-09-17 14:26:08.752 pay-core INFO  intent.capture id=pi_y0fwa4IXM7trZ1QtNrvM883D status=succeeded
+2026-09-17 14:26:40.481 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:26:46.970 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 110, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:26:48.246 pay-core INFO  intent.create id=pi_ZWOCvz9orbsobNvmnZ75ZFM9 order_ref=ORD-70154 amount=640.20 currency=USD status=requires_confirmation
+2026-09-17 14:26:48.491 pay-core INFO  intent.capture id=pi_ZWOCvz9orbsobNvmnZ75ZFM9 status=succeeded
+2026-09-17 14:26:52.568 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:26:56.580 pay-core DEBUG webhook evt_14d02e3f767624 received type=charge.refunded
+2026-09-17 14:27:01.151 pay-core INFO  webhook evt_9ff8f0c887bc8e verified
+2026-09-17 14:27:05.475 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:27:19.724 pay-core WARN  charge.declined intent=pi_ciqW0P1vJMroeUMEQ3Cck9zi order_ref=ORD-70366 code=expired_card
+2026-09-17 14:27:23.884 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 128, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:27:26.021 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:27:28.125 pay-core INFO  3ds challenge completed
+2026-09-17 14:27:31.292 pay-core INFO  webhook evt_125d6a76597354 received type=charge.succeeded
+2026-09-17 14:27:33.960 pay-core WARN  charge.declined intent=pi_bljVxp5hnQJl84MW715l1uYw order_ref=ORD-72480 code=expired_card
+2026-09-17 14:27:44.998 pay-core WARN  charge.declined intent=pi_0yptS3mj76kgMcAjNLPZUzKZ order_ref=ORD-72973 code=insufficient_funds
+2026-09-17 14:27:46.784 pay-core INFO  intent.create id=pi_Wf3Vj84C9qR3U5GrTDn64Un9 order_ref=ORD-70310 amount=170.77 currency=USD status=requires_confirmation
+2026-09-17 14:27:47.094 pay-core INFO  intent.capture id=pi_Wf3Vj84C9qR3U5GrTDn64Un9 status=succeeded
+2026-09-17 14:27:48.292 pay-core WARN  charge.declined intent=pi_izsB6kseQ1jdgAhIF5SWfiQD order_ref=ORD-76811 code=do_not_honor
+2026-09-17 14:27:49.981 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:27:54.793 pay-core INFO  intent.create id=pi_Eu83xSMLFTlYuiT6QLWhtjNZ order_ref=ORD-71538 amount=494.07 currency=USD status=requires_confirmation
+2026-09-17 14:27:55.065 pay-core INFO  intent.capture id=pi_Eu83xSMLFTlYuiT6QLWhtjNZ status=succeeded
+2026-09-17 14:28:07.381 pay-core WARN  charge.declined intent=pi_JmWFgUJOhpH12aRCpq9GXFOh order_ref=ORD-79737 code=insufficient_funds
+2026-09-17 14:28:10.867 pay-core WARN  charge.declined intent=pi_VMdacYGYkQRhrQphhowNrASc order_ref=ORD-73725 code=expired_card
+2026-09-17 14:28:35.531 pay-core INFO  webhook evt_a47cdf552107ee received type=charge.succeeded
+2026-09-17 14:28:38.491 pay-core INFO  webhook evt_e939e74339807d verified
+2026-09-17 14:28:40.687 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:28:45.847 pay-core INFO  intent.create id=pi_A9RGxmpur4XUwNlgLaNFjurt order_ref=ORD-78068 amount=273.15 currency=USD status=requires_confirmation
+2026-09-17 14:28:45.883 pay-core INFO  webhook evt_0d202084c40afd received type=charge.refunded
+2026-09-17 14:28:46.169 pay-core INFO  intent.capture id=pi_A9RGxmpur4XUwNlgLaNFjurt status=succeeded
+2026-09-17 14:28:50.137 pay-core INFO  webhook evt_607d14cb9f40e9 received type=charge.refunded
+2026-09-17 14:28:50.166 pay-core INFO  webhook evt_5244301c1b54d9 received type=charge.succeeded
+2026-09-17 14:29:00.255 pay-core INFO  intent.create id=pi_akjjBIDoFIPNA4vnrcWAblaE order_ref=ORD-75050 amount=173.39 currency=USD status=requires_confirmation
+2026-09-17 14:29:00.476 pay-core INFO  intent.capture id=pi_akjjBIDoFIPNA4vnrcWAblaE status=succeeded
+2026-09-17 14:29:02.050 pay-core WARN  charge.declined intent=pi_dX3Mkgd5FUBEFADSOTThvA9T order_ref=ORD-75104 code=do_not_honor
+2026-09-17 14:29:13.804 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:29:19.108 pay-core INFO  intent.create id=pi_lUgzbdMCUlmJManDLD836rQd order_ref=ORD-75726 amount=387.41 currency=USD status=requires_confirmation
+2026-09-17 14:29:19.304 pay-core INFO  intent.capture id=pi_lUgzbdMCUlmJManDLD836rQd status=succeeded
+2026-09-17 14:29:19.449 pay-core WARN  charge.declined intent=pi_EIT8VVGQlWtJhuD4dauVGyPE order_ref=ORD-74788 code=avs_mismatch
+2026-09-17 14:29:26.466 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 91, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:29:28.251 pay-core INFO  webhook evt_254dd5a448c25c received type=charge.succeeded
+2026-09-17 14:29:28.405 pay-core INFO  webhook evt_eb7a65bb2176a1 received type=charge.succeeded
+2026-09-17 14:31:41.139 pay-core INFO  intent.create id=pi_4X3lqnCF7KnigfA5RZ3z4Xat order_ref=ORD-71773 amount=190.26 currency=USD status=requires_confirmation
+2026-09-17 14:31:41.636 pay-core WARN  intent.cancel id=pi_4X3lqnCF7KnigfA5RZ3z4Xat reason=checkout_aborted
+2026-09-17 14:31:43.590 pay-core INFO  intent.create id=pi_qmkfCXIxmEYupOYzBneBDtnh order_ref=ORD-77314 amount=437.00 currency=USD status=requires_confirmation
+2026-09-17 14:31:46.917 pay-core INFO  intent.create id=pi_BlreWjzRU0x5PKEkF24Gt33l order_ref=ORD-79521 amount=633.99 currency=USD status=requires_confirmation
+2026-09-17 14:31:49.475 pay-core INFO  intent.create id=pi_9j4tvyedJJSwDdmrR0ufr7jq order_ref=ORD-73190 amount=23.81 currency=USD status=requires_confirmation
+2026-09-17 14:31:50.626 pay-core INFO  intent.create id=pi_46TWT7OvScpty5pEpmAjMkFC order_ref=ORD-77431 amount=43.96 currency=USD status=requires_confirmation
+2026-09-17 14:31:51.577 pay-core WARN  intent.cancel id=pi_qmkfCXIxmEYupOYzBneBDtnh reason=checkout_aborted
+2026-09-17 14:31:52.590 pay-core INFO  intent.create id=pi_uvb7iswRx5zzOdVoHenjQhjv order_ref=ORD-78834 amount=139.58 currency=USD status=requires_confirmation
+2026-09-17 14:31:54.915 pay-core WARN  intent.cancel id=pi_BlreWjzRU0x5PKEkF24Gt33l reason=checkout_aborted
+2026-09-17 14:31:55.783 pay-core INFO  intent.create id=pi_dLvV4CCQdrJTn8cX5DN71daA order_ref=ORD-75876 amount=133.88 currency=USD status=requires_confirmation
+2026-09-17 14:31:56.723 pay-core INFO  intent.create id=pi_bxE2c28ycwdoayiFz1g6UlAS order_ref=ORD-79148 amount=537.84 currency=USD status=requires_confirmation
+2026-09-17 14:31:57.475 pay-core WARN  intent.cancel id=pi_9j4tvyedJJSwDdmrR0ufr7jq reason=checkout_aborted
+2026-09-17 14:31:58.618 pay-core WARN  intent.cancel id=pi_46TWT7OvScpty5pEpmAjMkFC reason=checkout_aborted
+2026-09-17 14:32:00.582 pay-core WARN  intent.cancel id=pi_uvb7iswRx5zzOdVoHenjQhjv reason=checkout_aborted
+2026-09-17 14:32:00.934 pay-core INFO  intent.create id=pi_DOxNsix8EpXiXCVeygNWEgId order_ref=ORD-76209 amount=436.94 currency=USD status=requires_confirmation
+2026-09-17 14:32:01.828 pay-core INFO  intent.create id=pi_PYIgoUmPklU6LYQV5mCicm5H order_ref=ORD-77341 amount=121.14 currency=USD status=requires_confirmation
+2026-09-17 14:32:03.761 pay-core WARN  intent.cancel id=pi_dLvV4CCQdrJTn8cX5DN71daA reason=checkout_aborted
+2026-09-17 14:32:04.429 pay-core INFO  intent.create id=pi_P21SHESjoZxlaFDW5OQpt4Cu order_ref=ORD-78259 amount=364.73 currency=USD status=requires_confirmation
+2026-09-17 14:32:04.720 pay-core WARN  intent.cancel id=pi_bxE2c28ycwdoayiFz1g6UlAS reason=checkout_aborted
+2026-09-17 14:32:05.146 pay-core WARN  intent.cancel id=pi_P21SHESjoZxlaFDW5OQpt4Cu reason=checkout_aborted
+2026-09-17 14:32:06.600 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 232, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:32:08.916 pay-core WARN  intent.cancel id=pi_DOxNsix8EpXiXCVeygNWEgId reason=checkout_aborted
+2026-09-17 14:32:09.821 pay-core WARN  intent.cancel id=pi_PYIgoUmPklU6LYQV5mCicm5H reason=checkout_aborted
+2026-09-17 14:32:11.900 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 152, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:32:12.734 pay-core INFO  intent.create id=pi_m59iHGsrY3Lg4TjwSNb7lNAQ order_ref=ORD-73564 amount=240.55 currency=USD status=requires_confirmation
+2026-09-17 14:32:13.300 pay-core WARN  intent.cancel id=pi_m59iHGsrY3Lg4TjwSNb7lNAQ reason=checkout_aborted
+2026-09-17 14:34:30.286 pay-core INFO  3ds challenge completed
+2026-09-17 14:34:44.985 pay-core DEBUG webhook evt_9e12b12faafbb5 received type=charge.succeeded
+2026-09-17 14:34:47.839 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 114, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:34:49.256 pay-core INFO  webhook evt_b2c98298f2da9f verified
+2026-09-17 14:34:53.606 pay-core INFO  intent.create id=pi_mTAfJZIU3cHYvnrgJWo77x5s order_ref=ORD-79363 amount=37.48 currency=USD status=requires_confirmation
+2026-09-17 14:34:53.873 pay-core INFO  webhook evt_9c22c2c1e559f9 received type=charge.succeeded
+2026-09-17 14:34:53.883 pay-core INFO  intent.capture id=pi_mTAfJZIU3cHYvnrgJWo77x5s status=succeeded
+2026-09-17 14:34:56.882 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:35:03.336 pay-core INFO  intent.create id=pi_RW9AYOW3UjmhI6UzgEOAAKaN order_ref=ORD-70728 amount=245.94 currency=USD status=requires_confirmation
+2026-09-17 14:35:03.608 pay-core INFO  intent.capture id=pi_RW9AYOW3UjmhI6UzgEOAAKaN status=succeeded
+2026-09-17 14:35:08.893 pay-core INFO  webhook evt_e24bbcb9c5da35 received type=charge.refunded
+2026-09-17 14:35:09.573 pay-core INFO  webhook evt_5462c79f175195 received type=charge.refunded
+2026-09-17 14:35:10.522 pay-core WARN  charge.declined intent=pi_0EWjClHZYDCKyQXnoIzp3FtH order_ref=ORD-76143 code=insufficient_funds
+2026-09-17 14:35:12.468 pay-core INFO  intent.create id=pi_Q3nFFmtrmU3t7gXK0aNaiYew order_ref=ORD-71294 amount=566.84 currency=USD status=requires_confirmation
+2026-09-17 14:35:12.713 pay-core INFO  intent.capture id=pi_Q3nFFmtrmU3t7gXK0aNaiYew status=succeeded
+2026-09-17 14:35:18.556 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:35:23.774 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:35:24.066 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:35:27.941 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:35:30.544 pay-core WARN  charge.declined intent=pi_g2oT1x3JHLiikuO582OD05fp order_ref=ORD-74801 code=expired_card
+2026-09-17 14:35:37.435 pay-core WARN  charge.declined intent=pi_ZvCCqOfr8qgpI0cDBf2cp8GY order_ref=ORD-73679 code=do_not_honor
+2026-09-17 14:35:40.623 pay-core INFO  webhook evt_78a59cab0e8d30 verified
+2026-09-17 14:35:41.313 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:35:53.380 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:35:55.356 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:35:58.393 pay-core DEBUG webhook evt_4d6ed0176060bf received type=charge.succeeded
+2026-09-17 14:35:58.458 pay-core WARN  charge.declined intent=pi_RnR7OZtt8TLfxsNh74WxB2o6 order_ref=ORD-79154 code=expired_card
+2026-09-17 14:36:17.702 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:36:32.612 pay-core WARN  charge.declined intent=pi_wWwyclwdVUCsX5VkCn6efBbQ order_ref=ORD-70533 code=avs_mismatch
+2026-09-17 14:36:41.535 pay-core WARN  charge.declined intent=pi_uoYLUd2mcuoNKHgft6mzBRKA order_ref=ORD-71940 code=avs_mismatch
+2026-09-17 14:36:42.091 pay-core INFO  webhook evt_e692812ac3dbf3 received type=charge.succeeded
+2026-09-17 14:36:54.450 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:36:58.837 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:37:01.852 pay-core INFO  3ds challenge completed
+2026-09-17 14:37:14.214 pay-core DEBUG webhook evt_3b4450eeb07e65 verified
+2026-09-17 14:37:19.492 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:37:22.796 pay-core INFO  webhook evt_b7ac5b1808176d received type=charge.refunded
+2026-09-17 14:37:36.372 pay-core INFO  intent.create id=pi_aMUeqjtRX9yVgsiQyHzvPWCs order_ref=ORD-73781 amount=253.14 currency=USD status=requires_confirmation
+2026-09-17 14:37:36.617 pay-core INFO  intent.capture id=pi_aMUeqjtRX9yVgsiQyHzvPWCs status=succeeded
+2026-09-17 14:37:43.249 pay-core INFO  intent.create id=pi_Tx2XHxy36HNMY4KQxZRd2DIg order_ref=ORD-76238 amount=577.63 currency=USD status=requires_confirmation
+2026-09-17 14:37:43.466 pay-core INFO  intent.capture id=pi_Tx2XHxy36HNMY4KQxZRd2DIg status=succeeded
+2026-09-17 14:37:51.011 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:37:55.257 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:37:59.503 pay-core DEBUG webhook evt_5f851d2ee857ee received type=charge.refunded
+2026-09-17 14:38:04.513 pay-core INFO  intent.create id=pi_AjWyhE5XMB81F8XTyktkNqs8 order_ref=ORD-77129 amount=284.07 currency=USD status=requires_confirmation
+2026-09-17 14:38:04.668 pay-core INFO  intent.capture id=pi_AjWyhE5XMB81F8XTyktkNqs8 status=succeeded
+2026-09-17 14:38:06.020 pay-core INFO  intent.create id=pi_gQCl8mSodH6ZUOMTaitnvpEf order_ref=ORD-77431 amount=257.40 currency=USD status=requires_confirmation
+2026-09-17 14:38:06.300 pay-core INFO  intent.capture id=pi_gQCl8mSodH6ZUOMTaitnvpEf status=succeeded
+2026-09-17 14:38:07.517 pay-core INFO  webhook evt_abdaad44e463ef verified
+2026-09-17 14:38:14.488 pay-core DEBUG webhook evt_9c8135a4c26971 received type=charge.refunded
+2026-09-17 14:38:16.303 pay-core INFO  intent.create id=pi_czo4HUCsYyYQZo8u89ov6yaD order_ref=ORD-71560 amount=466.84 currency=USD status=requires_confirmation
+2026-09-17 14:38:16.623 pay-core INFO  intent.capture id=pi_czo4HUCsYyYQZo8u89ov6yaD status=succeeded
+2026-09-17 14:38:21.598 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:38:39.250 pay-core INFO  webhook evt_11e383c74dadea verified
+2026-09-17 14:38:41.860 pay-core WARN  charge.declined intent=pi_otxvieNjpIGQCKqxjz2DSLyv order_ref=ORD-75628 code=insufficient_funds
+2026-09-17 14:38:43.199 pay-core INFO  webhook evt_3582ac4cfc6fc9 verified
+2026-09-17 14:38:58.639 pay-core WARN  charge.declined intent=pi_q5f5CzrDYeJwmz0FTHZYnfDS order_ref=ORD-73201 code=avs_mismatch
+2026-09-17 14:39:05.399 pay-core INFO  webhook evt_ee6175619bc245 received type=charge.succeeded
+2026-09-17 14:39:20.604 pay-core INFO  webhook evt_88171608d2a25c received type=charge.refunded
+2026-09-17 14:39:22.779 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:39:23.255 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 244, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:39:29.855 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:39:30.120 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:39:30.602 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:39:32.118 pay-core WARN  charge.declined intent=pi_BOqv8dumCowmDRe5ZQ48YnCj order_ref=ORD-74908 code=do_not_honor
+2026-09-17 14:39:38.432 pay-core DEBUG webhook evt_457d12d70fd0a1 verified
+2026-09-17 14:39:38.981 pay-core INFO  intent.create id=pi_lsgsiddrOURyWoBoqxKXiOv7 order_ref=ORD-79956 amount=107.47 currency=USD status=requires_confirmation
+2026-09-17 14:39:39.209 pay-core INFO  intent.capture id=pi_lsgsiddrOURyWoBoqxKXiOv7 status=succeeded
+2026-09-17 14:39:48.673 pay-core DEBUG webhook evt_7f398f42e3d89b received type=charge.succeeded
+2026-09-17 14:39:48.727 pay-core INFO  intent.create id=pi_3p4luHBXhx7ee8BkbJ3qSXRK order_ref=ORD-76564 amount=629.63 currency=USD status=requires_confirmation
+2026-09-17 14:39:49.033 pay-core INFO  intent.capture id=pi_3p4luHBXhx7ee8BkbJ3qSXRK status=succeeded
+2026-09-17 14:39:49.100 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:40:02.123 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:40:04.087 pay-core INFO  webhook evt_57a61d87426b27 received type=charge.succeeded
+2026-09-17 14:40:06.674 pay-core INFO  webhook evt_7d39357815515b verified
+2026-09-17 14:40:11.919 pay-core INFO  webhook evt_3dca3b2ce03b68 received type=charge.refunded
+2026-09-17 14:40:21.325 pay-core INFO  webhook evt_28bd05a68b84cb verified
+2026-09-17 14:40:24.524 pay-core WARN  charge.declined intent=pi_CBb0p9bdrkR7TrC3H9wIc3So order_ref=ORD-73412 code=expired_card
+2026-09-17 14:40:28.383 pay-core INFO  webhook evt_8a78824a73f4c6 verified
+2026-09-17 14:40:31.430 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:40:31.899 pay-core INFO  webhook evt_8c5616502ba1f2 received type=charge.refunded
+2026-09-17 14:40:35.591 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:40:37.235 pay-core INFO  3ds challenge completed
+2026-09-17 14:40:41.478 pay-core INFO  3ds challenge completed
+2026-09-17 14:40:41.893 pay-core WARN  charge.declined intent=pi_66rVGfh0FuWpWMYY9sOpMXKE order_ref=ORD-79361 code=avs_mismatch
+2026-09-17 14:40:45.831 pay-core WARN  charge.declined intent=pi_KVJDskeYGtxMerkQFjqH5lO5 order_ref=ORD-75862 code=do_not_honor
+2026-09-17 14:40:48.736 pay-core INFO  webhook evt_7642ccdc35398a received type=charge.refunded
+2026-09-17 14:40:55.388 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:40:58.060 pay-core WARN  charge.declined intent=pi_VCjXLOE0bPt0djIECxyAt1MK order_ref=ORD-79035 code=expired_card
+2026-09-17 14:41:01.287 pay-core INFO  intent.create id=pi_JgZsTiKJUal4FfpbxqXqYSFe order_ref=ORD-74679 amount=584.81 currency=USD status=requires_confirmation
+2026-09-17 14:41:01.580 pay-core INFO  intent.capture id=pi_JgZsTiKJUal4FfpbxqXqYSFe status=succeeded
+2026-09-17 14:41:06.805 pay-core WARN  charge.declined intent=pi_XGUxkTsWwBfzTJAAgrKDitsy order_ref=ORD-71697 code=do_not_honor
+2026-09-17 14:41:14.841 pay-core INFO  intent.create id=pi_FdvWL21PY0THWNB9dAnDEmG1 order_ref=ORD-79779 amount=158.72 currency=USD status=requires_confirmation
+2026-09-17 14:41:15.118 pay-core INFO  intent.capture id=pi_FdvWL21PY0THWNB9dAnDEmG1 status=succeeded
+2026-09-17 14:41:18.412 pay-core WARN  charge.declined intent=pi_2oYY5nZ2Fd223IduJ5xZWO6m order_ref=ORD-78894 code=card_declined
+2026-09-17 14:41:21.488 pay-core INFO  3ds challenge completed
+2026-09-17 14:41:24.953 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:41:27.750 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:41:33.879 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:41:47.844 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:41:48.290 pay-core WARN  charge.declined intent=pi_fxLM1BEhdRIPTgsYvuakQf3G order_ref=ORD-78944 code=expired_card
+2026-09-17 14:41:57.671 pay-core INFO  3ds challenge completed
+2026-09-17 14:42:07.802 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:42:09.779 pay-core WARN  charge.declined intent=pi_hocYIVxWYU7OmQ3GcfpIxLMl order_ref=ORD-74744 code=card_declined
+2026-09-17 14:42:25.217 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 390, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:42:30.732 pay-core DEBUG webhook evt_dc4e09dc635b5b received type=charge.succeeded
+2026-09-17 14:42:50.032 pay-core DEBUG webhook evt_7481122f1a6262 verified
+2026-09-17 14:42:50.842 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:42:52.060 pay-core WARN  charge.declined intent=pi_b1upFcRmKyZyIj8XIfjbIxFk order_ref=ORD-72253 code=card_declined
+2026-09-17 14:42:54.389 pay-core INFO  webhook evt_5faaff3003d606 verified
+2026-09-17 14:43:02.800 pay-core INFO  webhook evt_05b042884a46a2 received type=charge.refunded
+2026-09-17 14:43:04.917 pay-core WARN  charge.declined intent=pi_nr6j7Qs26UvoUoBuxV1bKVii order_ref=ORD-75596 code=avs_mismatch
+2026-09-17 14:43:08.916 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:43:12.199 pay-core INFO  intent.create id=pi_lA30H5rWVGyBxPxnJV0JUhBP order_ref=ORD-74736 amount=489.13 currency=USD status=requires_confirmation
+2026-09-17 14:43:12.492 pay-core INFO  intent.capture id=pi_lA30H5rWVGyBxPxnJV0JUhBP status=succeeded
+2026-09-17 14:43:25.396 pay-core INFO  webhook evt_3b38b517813c45 received type=charge.succeeded
+2026-09-17 14:43:37.759 pay-core DEBUG webhook evt_43618b5e3d1a6c received type=charge.succeeded
+2026-09-17 14:43:42.028 pay-core INFO  intent.create id=pi_TNYz621sOdOZXd5TiPJhFBPr order_ref=ORD-67341 amount=590.18 currency=USD status=requires_confirmation
+2026-09-17 14:43:42.274 pay-core WARN  charge.declined intent=pi_8AHIKVKvRcgPJYaYI2CWIPoF order_ref=ORD-79057 code=avs_mismatch
+2026-09-17 14:43:42.316 pay-core INFO  intent.capture id=pi_TNYz621sOdOZXd5TiPJhFBPr status=succeeded
+2026-09-17 14:43:42.737 pay-core INFO  3ds challenge completed
+2026-09-17 14:43:44.637 pay-core INFO  3ds challenge completed
+2026-09-17 14:43:48.874 pay-core INFO  webhook evt_e3e3875e946a42 verified
+2026-09-17 14:43:50.036 pay-core WARN  charge.declined intent=pi_ZsjYXlQcpWTahsH0oFSNq7Yt order_ref=ORD-73921 code=card_declined
+2026-09-17 14:43:54.432 pay-core WARN  charge.declined intent=pi_2xmjQewqkd9LZ4BJDIhkPJdK order_ref=ORD-77056 code=do_not_honor
+2026-09-17 14:43:58.477 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:44:16.153 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:44:35.595 pay-core WARN  charge.declined intent=pi_JfHFfpH6alptM5bPrB0i1ksl order_ref=ORD-76362 code=expired_card
+2026-09-17 14:44:40.638 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 322, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:44:45.425 pay-core DEBUG webhook evt_4047f1c78f776f received type=charge.succeeded
+2026-09-17 14:44:50.632 pay-core INFO  3ds challenge completed
+2026-09-17 14:44:53.840 pay-core WARN  charge.declined intent=pi_PUgnXvVIN8bbIWrQ2mY3RMPV order_ref=ORD-79323 code=do_not_honor
+2026-09-17 14:45:00.942 pay-core INFO  intent.create id=pi_ePcaUR2tbmJDZmkg6eg7mC6Y order_ref=ORD-79334 amount=439.83 currency=USD status=requires_confirmation
+2026-09-17 14:45:01.152 pay-core INFO  intent.capture id=pi_ePcaUR2tbmJDZmkg6eg7mC6Y status=succeeded
+2026-09-17 14:45:09.569 pay-core INFO  3ds challenge completed
+2026-09-17 14:45:38.742 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:45:44.196 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:45:44.949 pay-core WARN  charge.declined intent=pi_so8tFVZKJr3VdxcLn7sUnftc order_ref=ORD-70884 code=expired_card
+2026-09-17 14:45:57.250 pay-core INFO  3ds challenge completed
+2026-09-17 14:45:58.629 pay-core WARN  charge.declined intent=pi_D8DedIveYJWGye4rfhDPyNIY order_ref=ORD-71400 code=avs_mismatch
+2026-09-17 14:46:01.367 pay-core INFO  webhook evt_4a31eb8df60390 received type=charge.refunded
+2026-09-17 14:46:04.284 pay-core INFO  webhook evt_e439359b299dbb received type=charge.refunded
+2026-09-17 14:46:16.718 pay-core WARN  charge.declined intent=pi_eiJTFwumDRZqUlXBOuibCMvx order_ref=ORD-77476 code=do_not_honor
+2026-09-17 14:46:27.980 pay-core WARN  charge.declined intent=pi_2dpiBVa1Tyf7rxfeQI1w8mKZ order_ref=ORD-76888 code=insufficient_funds
+2026-09-17 14:46:50.057 pay-core INFO  3ds challenge completed
+2026-09-17 14:46:51.372 pay-core INFO  3ds challenge completed
+2026-09-17 14:46:53.579 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:47:00.141 pay-core WARN  charge.declined intent=pi_IXI58i9ZCIwJW6fsY9ba5g4e order_ref=ORD-75732 code=avs_mismatch
+2026-09-17 14:47:02.304 pay-core INFO  webhook evt_88f1b9dc7273eb received type=charge.succeeded
+2026-09-17 14:47:10.100 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:47:29.180 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:47:31.440 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:47:36.177 pay-core INFO  intent.create id=pi_Fvd5XDOF0YwxeFZRTNSPJiyR order_ref=ORD-79293 amount=34.69 currency=USD status=requires_confirmation
+2026-09-17 14:47:36.469 pay-core INFO  intent.capture id=pi_Fvd5XDOF0YwxeFZRTNSPJiyR status=succeeded
+2026-09-17 14:47:38.134 pay-core WARN  charge.declined intent=pi_v23O0ehlOyJfwsS1YffJSmFV order_ref=ORD-75662 code=card_declined
+2026-09-17 14:47:42.513 pay-core DEBUG token vault replica lag 90ms
+2026-09-17 14:47:43.862 pay-core INFO  webhook evt_59ef585398854f received type=charge.refunded
+2026-09-17 14:47:44.586 pay-core INFO  webhook evt_fd0fe3d63b6104 received type=charge.succeeded
+2026-09-17 14:47:45.943 pay-core INFO  webhook evt_7200c10cc6ea27 received type=charge.succeeded
+2026-09-17 14:47:53.042 pay-core INFO  webhook evt_e9d7fc2d52b69b received type=charge.succeeded
+2026-09-17 14:48:00.647 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:48:05.382 pay-core INFO  intent.create id=pi_MyjS5IgvK84y0UpuAcqUMUtO order_ref=ORD-70858 amount=89.02 currency=USD status=requires_confirmation
+2026-09-17 14:48:05.672 pay-core INFO  intent.capture id=pi_MyjS5IgvK84y0UpuAcqUMUtO status=succeeded
+2026-09-17 14:48:34.268 pay-core WARN  charge.declined intent=pi_QAjqn3MIm61qkOURkoH0Pgmv order_ref=ORD-75113 code=insufficient_funds
+2026-09-17 14:48:35.398 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:48:36.936 pay-core INFO  intent.create id=pi_0kIgXWPQEChit5Dpgi1VPoE5 order_ref=ORD-73301 amount=503.48 currency=USD status=requires_confirmation
+2026-09-17 14:48:37.161 pay-core INFO  intent.capture id=pi_0kIgXWPQEChit5Dpgi1VPoE5 status=succeeded
+2026-09-17 14:48:40.347 pay-core INFO  webhook evt_3ff63fd6054de9 verified
+2026-09-17 14:49:19.150 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:49:48.840 pay-core INFO  webhook evt_35e5d1311e468a received type=charge.refunded
+2026-09-17 14:49:52.772 pay-core INFO  intent.create id=pi_q0A5STeZdis5ZJvzd3D1k0Av order_ref=ORD-78498 amount=18.12 currency=USD status=requires_confirmation
+2026-09-17 14:49:52.910 pay-core INFO  3ds challenge completed
+2026-09-17 14:49:53.077 pay-core INFO  intent.capture id=pi_q0A5STeZdis5ZJvzd3D1k0Av status=succeeded
+2026-09-17 14:49:56.267 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:49:56.747 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 119, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:50:01.744 pay-core DEBUG webhook evt_43a6d795fd9110 received type=charge.succeeded
+2026-09-17 14:50:03.545 pay-core INFO  webhook evt_e7134c6197584c verified
+2026-09-17 14:50:07.773 pay-core WARN  charge.declined intent=pi_hoWBeBo0XRSXT5BglJ8cE1OJ order_ref=ORD-73505 code=card_declined
+2026-09-17 14:50:12.304 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:50:30.313 pay-core INFO  webhook evt_b4739a1b0541ad verified
+2026-09-17 14:50:49.742 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:50:58.886 pay-core WARN  charge.declined intent=pi_XRerv5Jk93wfjRtOxxf0ulzg order_ref=ORD-77224 code=insufficient_funds
+2026-09-17 14:51:02.820 pay-core INFO  webhook evt_8684c1cb82e2a1 received type=charge.succeeded
+2026-09-17 14:51:09.454 pay-core INFO  webhook evt_48500b1bb276d3 received type=charge.refunded
+2026-09-17 14:51:14.833 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:51:16.963 pay-core INFO  3ds challenge completed
+2026-09-17 14:51:23.419 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:51:31.633 pay-core WARN  charge.declined intent=pi_GmL1JKlhyQEP8tugHSOwdgyC order_ref=ORD-72930 code=card_declined
+2026-09-17 14:51:36.894 pay-core INFO  intent.create id=pi_CbpPqgw8BjZzCkj4Xyfz0qom order_ref=ORD-73787 amount=295.06 currency=USD status=requires_confirmation
+2026-09-17 14:51:37.126 pay-core INFO  intent.capture id=pi_CbpPqgw8BjZzCkj4Xyfz0qom status=succeeded
+2026-09-17 14:51:37.684 pay-core INFO  webhook evt_d79a22ac12c3ff verified
+2026-09-17 14:51:38.080 pay-core WARN  charge.declined intent=pi_1K5w0Osolsqx4OlfdSBgK28z order_ref=ORD-79864 code=avs_mismatch
+2026-09-17 14:51:49.277 pay-core INFO  intent.create id=pi_t4BMyezbY2oT4EcKUDrdVRnd order_ref=ORD-78762 amount=115.29 currency=USD status=requires_confirmation
+2026-09-17 14:51:49.529 pay-core INFO  intent.capture id=pi_t4BMyezbY2oT4EcKUDrdVRnd status=succeeded
+2026-09-17 14:51:53.591 pay-core WARN  charge.declined intent=pi_OxLRicwLebSvPAEcRA8xPbxy order_ref=ORD-72042 code=expired_card
+2026-09-17 14:51:53.706 pay-core INFO  3ds challenge completed
+2026-09-17 14:51:53.860 pay-core DEBUG webhook evt_c6ebc24c464e7b received type=charge.refunded
+2026-09-17 14:51:55.303 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 298, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:51:59.409 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 92, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:51:59.829 pay-core INFO  webhook evt_43320bf5f6ff9d received type=charge.succeeded
+2026-09-17 14:52:01.067 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:52:02.693 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 365, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:52:08.534 pay-core WARN  charge.declined intent=pi_U3l7ISXT0yXOukfbYF9RWTxO order_ref=ORD-70959 code=do_not_honor
+2026-09-17 14:52:16.479 pay-core WARN  charge.declined intent=pi_7wXviUd2N7JEYk21rC1oGtJ5 order_ref=ORD-77768 code=avs_mismatch
+2026-09-17 14:52:18.369 pay-core DEBUG webhook evt_2aa059b3330269 received type=charge.succeeded
+2026-09-17 14:52:21.368 pay-core INFO  webhook evt_8ebe2bd8405b7a received type=charge.refunded
+2026-09-17 14:52:22.623 pay-core INFO  webhook evt_24381452f66674 received type=charge.refunded
+2026-09-17 14:52:24.779 pay-core WARN  charge.declined intent=pi_99mpYVTA0tzliyLO9REXBKZP order_ref=ORD-79570 code=insufficient_funds
+2026-09-17 14:52:39.756 pay-core WARN  charge.declined intent=pi_iACGq3Hv5fP5XtNjEV5vPyVC order_ref=ORD-76372 code=card_declined
+2026-09-17 14:52:44.983 pay-core WARN  charge.declined intent=pi_yeJyHP14R0hJZcyAjKcRmjzs order_ref=ORD-78991 code=card_declined
+2026-09-17 14:52:46.294 pay-core WARN  charge.declined intent=pi_4Gl2qQnn1BkgLqtBrmS6Dzoy order_ref=ORD-78681 code=insufficient_funds
+2026-09-17 14:52:51.126 pay-core WARN  charge.declined intent=pi_2EyvCoq5rhccfDcSF2bNi8hz order_ref=ORD-73925 code=insufficient_funds
+2026-09-17 14:52:57.079 pay-core INFO  intent.create id=pi_u8vRVYvshHmfPspM5uWvNAOX order_ref=ORD-70381 amount=183.34 currency=USD status=requires_confirmation
+2026-09-17 14:52:57.324 pay-core INFO  intent.capture id=pi_u8vRVYvshHmfPspM5uWvNAOX status=succeeded
+2026-09-17 14:53:00.248 pay-core WARN  charge.declined intent=pi_2VgJ9GyKiRHP8c7YP9iYblrG order_ref=ORD-77868 code=avs_mismatch
+2026-09-17 14:53:12.112 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:53:19.434 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:53:19.492 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 45, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:53:21.175 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:53:33.142 pay-core INFO  intent.create id=pi_DLS81um0836PGlgnsjMbBv2S order_ref=ORD-71880 amount=479.96 currency=USD status=requires_confirmation
+2026-09-17 14:53:33.393 pay-core INFO  intent.capture id=pi_DLS81um0836PGlgnsjMbBv2S status=succeeded
+2026-09-17 14:53:45.627 pay-core WARN  charge.declined intent=pi_v3yqHAjq2iOMC58ng4ctnrLz order_ref=ORD-77371 code=avs_mismatch
+2026-09-17 14:53:45.770 pay-core INFO  3ds challenge completed
+2026-09-17 14:53:49.664 pay-core INFO  webhook evt_0998621d486b60 received type=charge.succeeded
+2026-09-17 14:53:50.360 pay-core INFO  webhook evt_bc1236bdca509f received type=charge.succeeded
+2026-09-17 14:54:04.892 pay-core DEBUG webhook evt_ba75d1be46ca1c received type=charge.refunded
+2026-09-17 14:54:08.870 pay-core DEBUG fraud-score ok p95=84ms
+2026-09-17 14:54:15.398 pay-core WARN  charge.declined intent=pi_lOIe5CFMsYU39OTpAWr90Oqc order_ref=ORD-70756 code=avs_mismatch
+2026-09-17 14:54:26.531 pay-core INFO  webhook evt_7f5a7511ef93a0 received type=charge.succeeded
+2026-09-17 14:54:29.656 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:54:35.396 pay-core INFO  intent.create id=pi_JjwtJ2Uuk5PHlXZpoqGhMoRI order_ref=ORD-78129 amount=635.87 currency=USD status=requires_confirmation
+2026-09-17 14:54:35.568 pay-core INFO  intent.capture id=pi_JjwtJ2Uuk5PHlXZpoqGhMoRI status=succeeded
+2026-09-17 14:54:39.103 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:54:51.334 pay-core INFO  webhook evt_26ee3d39758dec verified
+2026-09-17 14:54:55.196 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 203, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:55:01.021 pay-core INFO  webhook evt_a1ea03591e4b2b verified
+2026-09-17 14:55:04.132 pay-core WARN  charge.declined intent=pi_lQ9TgH5LQwRAWE8X0knXJdFa order_ref=ORD-79241 code=avs_mismatch
+2026-09-17 14:55:07.565 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:55:11.782 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:55:13.882 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 354, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:55:21.834 pay-core WARN  charge.declined intent=pi_3YjAC0JuORrxJMrIiwPmr4bO order_ref=ORD-76614 code=card_declined
+2026-09-17 14:55:23.929 pay-core INFO  webhook evt_8beac3a0d57914 received type=charge.succeeded
+2026-09-17 14:55:23.933 pay-core INFO  3ds challenge completed
+2026-09-17 14:55:30.036 pay-core INFO  3ds challenge completed
+2026-09-17 14:55:35.776 pay-core WARN  charge.declined intent=pi_hpOiPziiREPuvaHhwyjdJsFH order_ref=ORD-76830 code=card_declined
+2026-09-17 14:55:46.051 pay-core WARN  charge.declined intent=pi_7YeByGUJzR0v1xyECnBCBMbJ order_ref=ORD-71734 code=avs_mismatch
+2026-09-17 14:55:50.659 pay-core INFO  webhook evt_e7555d351a6b1e verified
+2026-09-17 14:55:54.203 pay-core ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+Traceback (most recent call last):
+  File "/srv/payments/WebhookSignatureVerifier.py", line 362, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+2026-09-17 14:55:59.119 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:56:04.323 pay-core INFO  webhook evt_312180335f3c4b received type=charge.succeeded
+2026-09-17 14:56:06.938 pay-core INFO  webhook evt_fba19d807d7485 received type=charge.refunded
+2026-09-17 14:56:18.762 pay-core INFO  webhook evt_eb551ff5c970be received type=charge.succeeded
+2026-09-17 14:56:19.417 pay-core INFO  webhook evt_4e7d9c775dd5dc verified
+2026-09-17 14:56:23.936 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:56:25.706 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:56:34.217 pay-core DEBUG webhook evt_65ac3d8dbfc557 received type=charge.succeeded
+2026-09-17 14:56:45.954 pay-core WARN  charge.declined intent=pi_sxi7MU6zrKaSdzW3lar41fMl order_ref=ORD-78944 code=avs_mismatch
+2026-09-17 14:56:46.793 pay-core INFO  webhook evt_4e6a16ffd410a0 received type=charge.refunded
+2026-09-17 14:56:55.001 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:57:07.797 pay-core INFO  webhook evt_524cd8c2b30a79 verified
+2026-09-17 14:57:12.058 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:57:19.125 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:57:19.208 pay-core INFO  webhook evt_584c4fe61751b7 received type=charge.succeeded
+2026-09-17 14:57:33.921 pay-core WARN  charge.declined intent=pi_U12nOeXOGzjwfzYpTJtL5fcS order_ref=ORD-73075 code=card_declined
+2026-09-17 14:57:45.001 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:57:49.827 pay-core INFO  intent.create id=pi_X85tjoqEV3RNgvcX9XUDyQE4 order_ref=ORD-70850 amount=167.81 currency=USD status=requires_confirmation
+2026-09-17 14:57:50.004 pay-core INFO  intent.capture id=pi_X85tjoqEV3RNgvcX9XUDyQE4 status=succeeded
+2026-09-17 14:57:52.629 pay-core DEBUG 3ds challenge completed
+2026-09-17 14:58:04.414 pay-core WARN  charge.declined intent=pi_An1NMj0wDOuzpLymqDHKc6jl order_ref=ORD-77368 code=do_not_honor
+2026-09-17 14:58:12.391 pay-core INFO  webhook evt_8f758107b610f1 received type=charge.succeeded
+2026-09-17 14:58:14.307 pay-core INFO  webhook evt_790ea4866bfcb4 received type=charge.refunded
+2026-09-17 14:58:19.127 pay-core INFO  3ds challenge completed
+2026-09-17 14:58:22.065 pay-core WARN  charge.declined intent=pi_6VD45NRCGAcV2wNAmhxJykTz order_ref=ORD-71875 code=avs_mismatch
+2026-09-17 14:58:35.472 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:58:37.860 pay-core INFO  webhook evt_92e68e20be8a95 received type=charge.succeeded
+2026-09-17 14:58:40.716 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:58:41.155 pay-core DEBUG settlement batch closed items=212
+2026-09-17 14:58:43.227 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 184, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:58:55.860 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:58:56.850 pay-core WARN  charge.declined intent=pi_cpVaY6bZA5ZSerazwQ5etiSI order_ref=ORD-72194 code=insufficient_funds
+2026-09-17 14:59:01.568 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:59:05.580 pay-core ERROR LedgerExporter: KeyError: 'merchant_ref'
+Traceback (most recent call last):
+  File "/srv/payments/LedgerExporter.py", line 152, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+KeyError: 'merchant_ref'
+2026-09-17 14:59:06.063 pay-core INFO  intent.create id=pi_QDBYVRYyQdqleSGQFe7BYchG order_ref=ORD-72087 amount=126.28 currency=USD status=requires_confirmation
+2026-09-17 14:59:06.339 pay-core INFO  intent.capture id=pi_QDBYVRYyQdqleSGQFe7BYchG status=succeeded
+2026-09-17 14:59:06.449 pay-core WARN  charge.declined intent=pi_dXg9gVXObwx4n4C48yzlBkVw order_ref=ORD-79861 code=avs_mismatch
+2026-09-17 14:59:13.157 pay-core WARN  charge.declined intent=pi_Dz6bbMVohCplwuIMuInmbNjv order_ref=ORD-72248 code=insufficient_funds
+2026-09-17 14:59:14.584 pay-core WARN  charge.declined intent=pi_aFjwxgQspkvqgRb3TOEw0Drv order_ref=ORD-73606 code=avs_mismatch
+2026-09-17 14:59:18.435 pay-core INFO  intent.create id=pi_vBpRO2xHp7uv0ZmpBbdZRiQ1 order_ref=ORD-78156 amount=27.57 currency=USD status=requires_confirmation
+2026-09-17 14:59:18.713 pay-core INFO  intent.capture id=pi_vBpRO2xHp7uv0ZmpBbdZRiQ1 status=succeeded
+2026-09-17 14:59:23.672 pay-core ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+Traceback (most recent call last):
+  File "/srv/payments/FraudScoreClient.py", line 256, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ReadTimeout: fraud-score read timed out after 2000ms
+2026-09-17 14:59:37.387 pay-core INFO  webhook evt_65914d8f4d65fd verified
+2026-09-17 14:59:42.582 pay-core WARN  charge.declined intent=pi_QFa6ioTDxQvuXPDaITvooMRl order_ref=ORD-72031 code=do_not_honor
+2026-09-17 14:59:43.313 pay-core INFO  fraud-score ok p95=84ms
+2026-09-17 14:59:47.421 pay-core INFO  token vault replica lag 90ms
+2026-09-17 14:59:52.351 pay-core INFO  webhook evt_073b8efb585e8f received type=charge.refunded
+2026-09-17 14:59:52.547 pay-core INFO  settlement batch closed items=212
+2026-09-17 14:59:59.707 pay-core INFO  3ds challenge completed

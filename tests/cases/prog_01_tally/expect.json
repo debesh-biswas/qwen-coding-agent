@@ -1,0 +1,720 @@
+{
+ "commands": [
+  {
+   "group": "R1",
+   "cmd": "python3 tally.py count",
+   "stdout": "39561\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R1",
+   "cmd": "python3 tally.py count --file transactions.csv",
+   "stdout": "39561\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R1",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,1\n2023-01-02,b,y,-2\n2023-01-03,c,x,3.5\nEOF\npython3 tally.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "3\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R1",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\nEOF\npython3 tally.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R2",
+   "cmd": "python3 tally.py total",
+   "stdout": "1628680.82\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R2",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.10\n2023-01-02,b,x,0.20\nEOF\npython3 tally.py total --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.30\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R2",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,5.00\n2023-01-02,b,x,-8\nEOF\npython3 tally.py total --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "-3.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R2",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\nEOF\npython3 tally.py total --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category food",
+   "stdout": "369231.29\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category Food",
+   "stdout": "369231.29\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category FOOD",
+   "stdout": "369231.29\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category subscriptions",
+   "stdout": "87047.50\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category INSURANCE",
+   "stdout": "28036.01\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category food --file transactions.csv",
+   "stdout": "369231.29\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --file transactions.csv --category GROCERIES",
+   "stdout": "288355.98\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 tally.py total --category nosuchcat",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,B,2.00\n2023-01-01,a,b,3.00\n2023-01-01,a,bb,9.00\n2023-01-01,a,,1.00\nEOF\npython3 tally.py total --category b --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "5.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "python3 tally.py top 1",
+   "stdout": "food\t369231.29\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "python3 tally.py top 3",
+   "stdout": "food\t369231.29\ngroceries\t288355.98\nfuel\t125394.42\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "python3 tally.py top 5",
+   "stdout": "food\t369231.29\ngroceries\t288355.98\nfuel\t125394.42\nentertainment\t113285.98\nutilities\t112208.26\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "python3 tally.py top 100",
+   "stdout": "food\t369231.29\ngroceries\t288355.98\nfuel\t125394.42\nentertainment\t113285.98\nutilities\t112208.26\ndining out\t104199.36\ntravel\t99197.67\nsubscriptions\t87047.50\nhealth\t72444.38\nclothing\t64947.54\neducation\t47964.45\ngifts\t45073.79\nrent\t42836.00\ncharity\t28458.19\ninsurance\t28036.01\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "python3 tally.py top 2 --file transactions.csv",
+   "stdout": "food\t369231.29\ngroceries\t288355.98\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,pear,5.00\n2023-01-01,a,apple,2.50\n2023-01-02,a,apple,2.50\n2023-01-02,a,zed,5\n2023-01-03,a,mango,7.00\n2023-01-03,a,kiwi,-1\nEOF\npython3 tally.py top 10 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "mango\t7.00\napple\t5.00\npear\t5.00\nzed\t5.00\nkiwi\t-1.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,pear,5.00\n2023-01-01,a,apple,2.50\n2023-01-02,a,apple,2.50\n2023-01-02,a,zed,5\n2023-01-03,a,mango,7.00\n2023-01-03,a,kiwi,-1\nEOF\npython3 tally.py top 2 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "mango\t7.00\napple\t5.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R5",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,Food,1.00\n2023-01-02,a,FOOD,2.00\n2023-01-03,a,food,3.50\n2023-01-03,a,Fuel,4.00\n2023-01-04,a,fUeL,0.25\nEOF\npython3 tally.py top 5 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "food\t6.50\nfuel\t4.25\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R5",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,Food,1.00\n2023-01-02,a,FOOD,2.00\n2023-01-03,a,food,3.50\n2023-01-03,a,Fuel,4.00\n2023-01-04,a,fUeL,0.25\nEOF\npython3 tally.py total --category FOOD --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "6.50\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R5",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,Food,1.00\n2023-01-02,a,FOOD,2.00\n2023-01-03,a,food,3.50\n2023-01-03,a,Fuel,4.00\n2023-01-04,a,fUeL,0.25\nEOF\npython3 tally.py total --category fUEL --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "4.25\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R5",
+   "cmd": "python3 tally.py top 40",
+   "stdout": "food\t369231.29\ngroceries\t288355.98\nfuel\t125394.42\nentertainment\t113285.98\nutilities\t112208.26\ndining out\t104199.36\ntravel\t99197.67\nsubscriptions\t87047.50\nhealth\t72444.38\nclothing\t64947.54\neducation\t47964.45\ngifts\t45073.79\nrent\t42836.00\ncharity\t28458.19\ninsurance\t28036.01\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R5",
+   "cmd": "python3 tally.py top 3 --json",
+   "stdout": "[{\"category\": \"food\", \"total\": \"369231.29\"}, {\"category\": \"groceries\", \"total\": \"288355.98\"}, {\"category\": \"fuel\", \"total\": \"125394.42\"}]\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2023-03-01 --to 2023-03-31",
+   "stdout": "count=1117 total=45899.84\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2022-01-01 --to 2022-01-01",
+   "stdout": "count=41 total=1829.89\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2024-12-31 --to 2024-12-31",
+   "stdout": "count=35 total=1209.52\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2024-02-29 --to 2024-02-29",
+   "stdout": "count=46 total=1589.81\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2022-06-15 --to 2023-09-20",
+   "stdout": "count=16704 total=690593.10\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2000-01-01 --to 2030-12-31",
+   "stdout": "count=39561 total=1628680.82\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2025-01-01 --to 2026-01-01",
+   "stdout": "count=0 total=0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --from 2023-05-10 --to 2023-05-09",
+   "stdout": "count=0 total=0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 tally.py range --to 2023-02-28 --from 2023-02-01 --file transactions.csv",
+   "stdout": "count=1009 total=39214.24\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,1.00\n2023-01-15,b,x,2.00\n2023-01-31,c,y,4.00\n2023-02-01,d,y,8.00\nEOF\npython3 tally.py range --from 2023-01-01 --to 2023-01-31 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "count=3 total=7.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,1.00\n2023-01-15,b,x,2.00\n2023-01-31,c,y,4.00\n2023-02-01,d,y,8.00\nEOF\npython3 tally.py range --from 2023-01-02 --to 2023-01-30 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "count=1 total=2.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,1.00\n2023-01-15,b,x,2.00\n2023-01-31,c,y,4.00\n2023-02-01,d,y,8.00\nEOF\npython3 tally.py range --from 2023-01-31 --to 2023-02-01 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "count=2 total=12.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,ok,x,1.00\n2023-01-02,three,x\n2023-01-03,five,x,1,000\n2023-01-04,bad,x,abc\n2023-01-05,bad,x,\"1,200.00\"\n2023-01-06,bad,x,$5\n2023-01-07,bad,x,1e3\n2023-01-08,bad,x,.50\n2023-01-09,bad,x,+5\n2023-01-10,bad,x,12.345\n2023-01-11,bad,x,\n2023-02-30,bad,x,9.00\n2023-13-01,bad,x,9.00\n2023-1-5,bad,x,9.00\n01/05/2023,bad,x,9.00\n,bad,x,9.00\n2023-01-12,bad,,9.00\n2023-01-13,bad,   ,9.00\n\n   \n2023-01-14,ok,x,7.5\n2024-02-29,leap,y,-3\n2023-02-29,notleap,y,9.00\n2023-01-15,ok,Y,2.25\nEOF\npython3 tally.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "4\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,ok,x,1.00\n2023-01-02,three,x\n2023-01-03,five,x,1,000\n2023-01-04,bad,x,abc\n2023-01-05,bad,x,\"1,200.00\"\n2023-01-06,bad,x,$5\n2023-01-07,bad,x,1e3\n2023-01-08,bad,x,.50\n2023-01-09,bad,x,+5\n2023-01-10,bad,x,12.345\n2023-01-11,bad,x,\n2023-02-30,bad,x,9.00\n2023-13-01,bad,x,9.00\n2023-1-5,bad,x,9.00\n01/05/2023,bad,x,9.00\n,bad,x,9.00\n2023-01-12,bad,,9.00\n2023-01-13,bad,   ,9.00\n\n   \n2023-01-14,ok,x,7.5\n2024-02-29,leap,y,-3\n2023-02-29,notleap,y,9.00\n2023-01-15,ok,Y,2.25\nEOF\npython3 tally.py total --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "7.75\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,ok,x,1.00\n2023-01-02,three,x\n2023-01-03,five,x,1,000\n2023-01-04,bad,x,abc\n2023-01-05,bad,x,\"1,200.00\"\n2023-01-06,bad,x,$5\n2023-01-07,bad,x,1e3\n2023-01-08,bad,x,.50\n2023-01-09,bad,x,+5\n2023-01-10,bad,x,12.345\n2023-01-11,bad,x,\n2023-02-30,bad,x,9.00\n2023-13-01,bad,x,9.00\n2023-1-5,bad,x,9.00\n01/05/2023,bad,x,9.00\n,bad,x,9.00\n2023-01-12,bad,,9.00\n2023-01-13,bad,   ,9.00\n\n   \n2023-01-14,ok,x,7.5\n2024-02-29,leap,y,-3\n2023-02-29,notleap,y,9.00\n2023-01-15,ok,Y,2.25\nEOF\npython3 tally.py top 5 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "x\t8.50\ny\t-0.75\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,ok,x,1.00\n2023-01-02,three,x\n2023-01-03,five,x,1,000\n2023-01-04,bad,x,abc\n2023-01-05,bad,x,\"1,200.00\"\n2023-01-06,bad,x,$5\n2023-01-07,bad,x,1e3\n2023-01-08,bad,x,.50\n2023-01-09,bad,x,+5\n2023-01-10,bad,x,12.345\n2023-01-11,bad,x,\n2023-02-30,bad,x,9.00\n2023-13-01,bad,x,9.00\n2023-1-5,bad,x,9.00\n01/05/2023,bad,x,9.00\n,bad,x,9.00\n2023-01-12,bad,,9.00\n2023-01-13,bad,   ,9.00\n\n   \n2023-01-14,ok,x,7.5\n2024-02-29,leap,y,-3\n2023-02-29,notleap,y,9.00\n2023-01-15,ok,Y,2.25\nEOF\npython3 tally.py range --from 2023-01-01 --to 2024-12-31 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "count=4 total=7.75\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,ok,x,1.00\n2023-01-02,three,x\n2023-01-03,five,x,1,000\n2023-01-04,bad,x,abc\n2023-01-05,bad,x,\"1,200.00\"\n2023-01-06,bad,x,$5\n2023-01-07,bad,x,1e3\n2023-01-08,bad,x,.50\n2023-01-09,bad,x,+5\n2023-01-10,bad,x,12.345\n2023-01-11,bad,x,\n2023-02-30,bad,x,9.00\n2023-13-01,bad,x,9.00\n2023-1-5,bad,x,9.00\n01/05/2023,bad,x,9.00\n,bad,x,9.00\n2023-01-12,bad,,9.00\n2023-01-13,bad,   ,9.00\n\n   \n2023-01-14,ok,x,7.5\n2024-02-29,leap,y,-3\n2023-02-29,notleap,y,9.00\n2023-01-15,ok,Y,2.25\nEOF\npython3 tally.py months --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "2023-01\t10.75\n2024-02\t-3.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,ok,x,1.00\n2023-01-02,three,x\n2023-01-03,five,x,1,000\n2023-01-04,bad,x,abc\n2023-01-05,bad,x,\"1,200.00\"\n2023-01-06,bad,x,$5\n2023-01-07,bad,x,1e3\n2023-01-08,bad,x,.50\n2023-01-09,bad,x,+5\n2023-01-10,bad,x,12.345\n2023-01-11,bad,x,\n2023-02-30,bad,x,9.00\n2023-13-01,bad,x,9.00\n2023-1-5,bad,x,9.00\n01/05/2023,bad,x,9.00\n,bad,x,9.00\n2023-01-12,bad,,9.00\n2023-01-13,bad,   ,9.00\n\n   \n2023-01-14,ok,x,7.5\n2024-02-29,leap,y,-3\n2023-02-29,notleap,y,9.00\n2023-01-15,ok,Y,2.25\nEOF\npython3 tally.py average --category x --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "4.25\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-02,a,x\n\nfoo\nEOF\npython3 tally.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py count --json",
+   "stdout": "{\"count\": 39561}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py total --json",
+   "stdout": "{\"total\": \"1628680.82\"}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py total --json --category Food",
+   "stdout": "{\"total\": \"369231.29\"}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py top 4 --json",
+   "stdout": "[{\"category\": \"food\", \"total\": \"369231.29\"}, {\"category\": \"groceries\", \"total\": \"288355.98\"}, {\"category\": \"fuel\", \"total\": \"125394.42\"}, {\"category\": \"entertainment\", \"total\": \"113285.98\"}]\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py range --json --from 2023-03-01 --to 2023-03-31",
+   "stdout": "{\"count\": 1117, \"total\": \"45899.84\"}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py months --json",
+   "stdout": "[{\"month\": \"2022-01\", \"total\": \"47705.99\"}, {\"month\": \"2022-02\", \"total\": \"38111.13\"}, {\"month\": \"2022-03\", \"total\": \"42920.58\"}, {\"month\": \"2022-04\", \"total\": \"46582.35\"}, {\"month\": \"2022-05\", \"total\": \"49228.79\"}, {\"month\": \"2022-06\", \"total\": \"48131.81\"}, {\"month\": \"2022-07\", \"total\": \"45213.00\"}, {\"month\": \"2022-08\", \"total\": \"48601.61\"}, {\"month\": \"2022-09\", \"total\": \"47699.87\"}, {\"month\": \"2022-10\", \"total\": \"44773.07\"}, {\"month\": \"2022-11\", \"total\": \"41628.45\"}, {\"month\": \"2022-12\", \"total\": \"48750.23\"}, {\"month\": \"2023-01\", \"total\": \"46749.08\"}, {\"month\": \"2023-02\", \"total\": \"39214.24\"}, {\"month\": \"2023-03\", \"total\": \"45899.84\"}, {\"month\": \"2023-04\", \"total\": \"46312.52\"}, {\"month\": \"2023-05\", \"total\": \"46573.55\"}, {\"month\": \"2023-06\", \"total\": \"42663.38\"}, {\"month\": \"2023-07\", \"total\": \"46116.24\"}, {\"month\": \"2023-08\", \"total\": \"45946.29\"}, {\"month\": \"2023-09\", \"total\": \"43915.13\"}, {\"month\": \"2023-10\", \"total\": \"41972.47\"}, {\"month\": \"2023-11\", \"total\": \"46190.68\"}, {\"month\": \"2023-12\", \"total\": \"50224.41\"}, {\"month\": \"2024-01\", \"total\": \"41623.87\"}, {\"month\": \"2024-02\", \"total\": \"49192.65\"}, {\"month\": \"2024-03\", \"total\": \"45182.86\"}, {\"month\": \"2024-04\", \"total\": \"43073.64\"}, {\"month\": \"2024-05\", \"total\": \"42687.61\"}, {\"month\": \"2024-06\", \"total\": \"46358.34\"}, {\"month\": \"2024-07\", \"total\": \"44388.53\"}, {\"month\": \"2024-08\", \"total\": \"48999.38\"}, {\"month\": \"2024-09\", \"total\": \"43225.08\"}, {\"month\": \"2024-10\", \"total\": \"47642.93\"}, {\"month\": \"2024-11\", \"total\": \"41681.87\"}, {\"month\": \"2024-12\", \"total\": \"43499.35\"}]\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py average --json",
+   "stdout": "{\"average\": \"41.17\"}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 tally.py average --category fuel --json --file transactions.csv",
+   "stdout": "{\"average\": \"41.17\"}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\nEOF\npython3 tally.py top 3 --json --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "[]\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,,1\nEOF\npython3 tally.py months --json --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "[]\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\nEOF\npython3 tally.py total --json --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "{\"total\": \"0.00\"}\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "python3 tally.py months",
+   "stdout": "2022-01\t47705.99\n2022-02\t38111.13\n2022-03\t42920.58\n2022-04\t46582.35\n2022-05\t49228.79\n2022-06\t48131.81\n2022-07\t45213.00\n2022-08\t48601.61\n2022-09\t47699.87\n2022-10\t44773.07\n2022-11\t41628.45\n2022-12\t48750.23\n2023-01\t46749.08\n2023-02\t39214.24\n2023-03\t45899.84\n2023-04\t46312.52\n2023-05\t46573.55\n2023-06\t42663.38\n2023-07\t46116.24\n2023-08\t45946.29\n2023-09\t43915.13\n2023-10\t41972.47\n2023-11\t46190.68\n2023-12\t50224.41\n2024-01\t41623.87\n2024-02\t49192.65\n2024-03\t45182.86\n2024-04\t43073.64\n2024-05\t42687.61\n2024-06\t46358.34\n2024-07\t44388.53\n2024-08\t48999.38\n2024-09\t43225.08\n2024-10\t47642.93\n2024-11\t41681.87\n2024-12\t43499.35\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "python3 tally.py months --file transactions.csv",
+   "stdout": "2022-01\t47705.99\n2022-02\t38111.13\n2022-03\t42920.58\n2022-04\t46582.35\n2022-05\t49228.79\n2022-06\t48131.81\n2022-07\t45213.00\n2022-08\t48601.61\n2022-09\t47699.87\n2022-10\t44773.07\n2022-11\t41628.45\n2022-12\t48750.23\n2023-01\t46749.08\n2023-02\t39214.24\n2023-03\t45899.84\n2023-04\t46312.52\n2023-05\t46573.55\n2023-06\t42663.38\n2023-07\t46116.24\n2023-08\t45946.29\n2023-09\t43915.13\n2023-10\t41972.47\n2023-11\t46190.68\n2023-12\t50224.41\n2024-01\t41623.87\n2024-02\t49192.65\n2024-03\t45182.86\n2024-04\t43073.64\n2024-05\t42687.61\n2024-06\t46358.34\n2024-07\t44388.53\n2024-08\t48999.38\n2024-09\t43225.08\n2024-10\t47642.93\n2024-11\t41681.87\n2024-12\t43499.35\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-03-31,a,x,1.10\n2022-12-01,a,x,2.20\n2023-03-01,a,y,3.30\n2023-01-15,a,y,-9\nEOF\npython3 tally.py months --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "2022-12\t2.20\n2023-01\t-9.00\n2023-03\t4.40\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\nEOF\npython3 tally.py months --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 tally.py average",
+   "stdout": "41.17\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 tally.py average --category food",
+   "stdout": "41.43\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 tally.py average --category TRAVEL",
+   "stdout": "41.61\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 tally.py average --category subscriptions",
+   "stdout": "40.51\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 tally.py average --category nosuchcat",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.01\n2023-01-01,a,x,0.00\n2023-01-01,a,y,-0.01\n2023-01-01,a,y,0\n2023-01-01,a,z,2.50\n2023-01-01,a,z,0.01\n2023-01-01,a,w,1\n2023-01-01,a,w,0.01\n2023-01-01,a,w,0.01\nEOF\npython3 tally.py average --category x --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.01\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.01\n2023-01-01,a,x,0.00\n2023-01-01,a,y,-0.01\n2023-01-01,a,y,0\n2023-01-01,a,z,2.50\n2023-01-01,a,z,0.01\n2023-01-01,a,w,1\n2023-01-01,a,w,0.01\n2023-01-01,a,w,0.01\nEOF\npython3 tally.py average --category y --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "-0.01\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.01\n2023-01-01,a,x,0.00\n2023-01-01,a,y,-0.01\n2023-01-01,a,y,0\n2023-01-01,a,z,2.50\n2023-01-01,a,z,0.01\n2023-01-01,a,w,1\n2023-01-01,a,w,0.01\n2023-01-01,a,w,0.01\nEOF\npython3 tally.py average --category z --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "1.26\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.01\n2023-01-01,a,x,0.00\n2023-01-01,a,y,-0.01\n2023-01-01,a,y,0\n2023-01-01,a,z,2.50\n2023-01-01,a,z,0.01\n2023-01-01,a,w,1\n2023-01-01,a,w,0.01\n2023-01-01,a,w,0.01\nEOF\npython3 tally.py average --category w --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.34\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.01\n2023-01-01,a,x,0.00\n2023-01-01,a,y,-0.01\n2023-01-01,a,y,0\n2023-01-01,a,z,2.50\n2023-01-01,a,z,0.01\n2023-01-01,a,w,1\n2023-01-01,a,w,0.01\n2023-01-01,a,w,0.01\nEOF\npython3 tally.py average --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.39\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,x,0.01\n2023-01-01,a,x,0.00\n2023-01-01,a,y,-0.01\n2023-01-01,a,y,0\n2023-01-01,a,z,2.50\n2023-01-01,a,z,0.01\n2023-01-01,a,w,1\n2023-01-01,a,w,0.01\n2023-01-01,a,w,0.01\nEOF\npython3 tally.py average --category none --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,q,0.001\n2023-01-01,a,r,5\nEOF\npython3 tally.py average --category q --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,q,-0.01\n2023-01-01,a,q,0.01\nEOF\npython3 tally.py average --category q --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n2023-01-01,a,r,-0.01\n2023-01-01,a,r,0\n2023-01-01,a,r,0\nEOF\npython3 tally.py average --category r --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py ",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py bogus",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top abc",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top 0",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top -1",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top 3.0",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top +3",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top 3 4",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py count extra",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py range --from 2023-01-01",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py range --to 2023-01-01",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py range --from 2023-02-30 --to 2023-03-01",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py range --from 2023-01-01 --to 01/02/2023",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py total --category",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py count --bogus",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py count --category food",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py months --from 2023-01-01",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top 3 --category food",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py total --file",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py total --json --file",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py total --category=food",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py range --from 2023-01-01 --to 2023-01-02 extra",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py average --from 2023-01-01",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py --json count",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py count --file /nonexistent/dir/none.csv",
+   "stdout": "",
+   "exit_code": 1,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py total --file /nonexistent/dir/none.csv --json",
+   "stdout": "",
+   "exit_code": 1,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py bogus --file /nonexistent/dir/none.csv",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R11",
+   "cmd": "python3 tally.py top x --file /nonexistent/dir/none.csv",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "4\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py total --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "16.25\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py top 5 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "food\t14.25\ndrink\t2.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py total --category food --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "14.25\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py range --from 2023-01-05 --to 2023-01-06 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "count=2 total=15.50\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py months --json --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "[{\"month\": \"2023-01\", \"total\": \"16.25\"}]\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.csv\"; cat > \"$f\" <<'EOF'\ndate,description,category,amount\n 2023-01-05 ,x, Food ,\t12.50 \n\t2023-01-06,\"a, b\",\"  FOOD\",  3\n2023-01-07 ,y,\"\tfood \", -1.25 \n2023-01-08,z,  ,5\n2023-01-09,z,food,  \n  2023-01-10  ,z,drink,\t2\t\n2023-02-30 ,z,drink,2\nEOF\npython3 tally.py average --category drink --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "2.00\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R12",
+   "cmd": "python3 tally.py count",
+   "stdout": "39561\n",
+   "exit_code": 0
+  }
+ ],
+ "status": "any",
+ "allow_new_files": true,
+ "timeout": 300
+}

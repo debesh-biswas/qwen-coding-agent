@@ -1,0 +1,783 @@
+2026-10-03 09:00:05,137 [pay-core] INFO  RefundService - refund.create id=re_JPi0osfK7ADCIUR7W8Ob order=ORD-21166 amount=462.18
+2026-10-03 09:00:05,413 [pay-core] INFO  RefundService - refund.settle id=re_JPi0osfK7ADCIUR7W8Ob status=succeeded
+2026-10-03 09:00:06,523 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:00:08,468 [pay-core] INFO  webhook evt_6ce86d05c8748a received type=charge.succeeded
+2026-10-03 09:00:08,912 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.process(WebhookSignatureVerifier.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:00:09,871 [pay-core] INFO  webhook evt_52a8aa2d3c3271 verified
+2026-10-03 09:00:17,607 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:00:18,130 [pay-core] DEBUG webhook evt_7a5ef58b881238 received type=charge.refunded
+2026-10-03 09:00:19,382 [pay-core] INFO  webhook evt_3c2a92580f5e35 received type=charge.succeeded
+2026-10-03 09:00:24,018 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:00:24,395 [pay-core] WARN  RefundService - refund.rejected id=re_1jrGsJXK1DCn0Ss73E3I order=ORD-21177 code=avs_mismatch
+2026-10-03 09:00:27,751 [pay-core] DEBUG webhook evt_6875aa784ed4f0 received type=charge.refunded
+2026-10-03 09:00:29,194 [pay-core] INFO  webhook evt_00ccd3d23bbb60 verified
+2026-10-03 09:00:40,819 [pay-core] WARN  RefundService - refund.rejected id=re_yYpnugF9csvv6Iydq5sz order=ORD-21195 code=avs_mismatch
+2026-10-03 09:00:46,185 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.handle(LedgerExporter.java:806)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:00:51,433 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.execute(WebhookSignatureVerifier.java:97)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:00:51,867 [pay-core] DEBUG webhook evt_959bc8bb3c2188 received type=charge.succeeded
+2026-10-03 09:00:57,351 [pay-core] INFO  webhook evt_236dcafef7cecb received type=charge.succeeded
+2026-10-03 09:01:11,680 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:01:15,475 [pay-core] INFO  webhook evt_0090a084ddcc63 received type=charge.refunded
+2026-10-03 09:01:19,510 [pay-core] INFO  RefundService - refund.create id=re_OEoyPAipBsZN1MpoKbNy order=ORD-20059 amount=209.78
+2026-10-03 09:01:19,755 [pay-core] INFO  RefundService - refund.settle id=re_OEoyPAipBsZN1MpoKbNy status=succeeded
+2026-10-03 09:01:25,207 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:01:25,673 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:01:31,599 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:01:32,195 [pay-core] WARN  RefundService - refund.rejected id=re_oRoRDFv72Cnss69Ch1ga order=ORD-20058 code=avs_mismatch
+2026-10-03 09:01:39,542 [pay-core] WARN  RefundService - refund.rejected id=re_b07MtBBD5Jxak66z3qCN order=ORD-20935 code=expired_card
+2026-10-03 09:01:41,300 [pay-core] INFO  RefundService - refund.create id=re_VHDQbAKM6cpk5y31l6NU order=ORD-20514 amount=328.37
+2026-10-03 09:01:41,597 [pay-core] INFO  RefundService - refund.settle id=re_VHDQbAKM6cpk5y31l6NU status=succeeded
+2026-10-03 09:01:51,162 [pay-core] INFO  RefundService - refund.create id=re_dOVdQVj81DkCEsV1WLUm order=ORD-19802 amount=299.27
+2026-10-03 09:01:51,442 [pay-core] INFO  RefundService - refund.settle id=re_dOVdQVj81DkCEsV1WLUm status=succeeded
+2026-10-03 09:02:02,725 [pay-core] WARN  RefundService - refund.rejected id=re_m4jnfcrBAM7p6dfnfePE order=ORD-21129 code=expired_card
+2026-10-03 09:02:08,984 [pay-core] INFO  webhook evt_c5fe8469386918 verified
+2026-10-03 09:02:11,644 [pay-core] INFO  webhook evt_8c820d2f93c9c2 received type=charge.succeeded
+2026-10-03 09:02:17,613 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:02:20,413 [pay-core] DEBUG webhook evt_c7c1b9552000d5 verified
+2026-10-03 09:02:28,043 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:02:30,820 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:02:31,764 [pay-core] INFO  webhook evt_fcfd0d1a389deb received type=charge.refunded
+2026-10-03 09:02:34,317 [pay-core] INFO  webhook evt_9f08da8ac1cb4a verified
+2026-10-03 09:02:36,371 [pay-core] WARN  RefundService - refund.rejected id=re_83cvekKyQC5S13UsGpox order=ORD-20471 code=expired_card
+2026-10-03 09:02:36,897 [pay-core] INFO  webhook evt_dd30f599780cc1 received type=charge.refunded
+2026-10-03 09:02:41,386 [pay-core] WARN  RefundService - refund.rejected id=re_ZdEL8BJgDpI51D2oSAt2 order=ORD-20051 code=expired_card
+2026-10-03 09:02:42,620 [pay-core] INFO  webhook evt_ffc21309975393 received type=charge.refunded
+2026-10-03 09:02:50,735 [pay-core] WARN  RefundService - refund.rejected id=re_rOTaXzSRvfZFMhco20v1 order=ORD-19957 code=card_declined
+2026-10-03 09:03:04,704 [pay-core] WARN  RefundService - refund.rejected id=re_zBoRslELXaWdi0FbksXh order=ORD-20472 code=insufficient_funds
+2026-10-03 09:03:05,459 [pay-core] WARN  RefundService - refund.rejected id=re_mQ0qQtLAF9AXw1CCL8Rx order=ORD-20913 code=do_not_honor
+2026-10-03 09:03:06,697 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.process(LedgerExporter.java:325)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:03:09,788 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:03:18,491 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.execute(WebhookSignatureVerifier.java:690)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:03:22,716 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:03:23,947 [pay-core] INFO  webhook evt_da8a26a3d2c617 received type=charge.refunded
+2026-10-03 09:03:31,383 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.run(WebhookSignatureVerifier.java:181)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:03:43,902 [pay-core] WARN  RefundService - refund.rejected id=re_BCKOPwjDTGR21lXVRYvV order=ORD-20718 code=expired_card
+2026-10-03 09:03:53,226 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.handle(WebhookSignatureVerifier.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:04:06,569 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:04:08,902 [pay-core] WARN  RefundService - refund.rejected id=re_mPsmfKvm7lZQnSjpSHlX order=ORD-20506 code=insufficient_funds
+2026-10-03 09:04:17,006 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:04:28,454 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.run(WebhookSignatureVerifier.java:479)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:04:29,971 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:04:34,342 [pay-core] WARN  RefundService - refund.rejected id=re_SobDCel87mAGnI2SRrFF order=ORD-19915 code=insufficient_funds
+2026-10-03 09:04:39,895 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:04:48,387 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:04:58,189 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:05:00,788 [pay-core] INFO  RefundService - refund.create id=re_uzGAlrSy5ZazILbWZl2i order=ORD-21146 amount=87.22
+2026-10-03 09:05:01,097 [pay-core] INFO  RefundService - refund.settle id=re_uzGAlrSy5ZazILbWZl2i status=succeeded
+2026-10-03 09:05:07,355 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:05:09,530 [pay-core] INFO  webhook evt_6e2c0e091ab468 verified
+2026-10-03 09:05:17,839 [pay-core] INFO  RefundService - refund.create id=re_tmLS4Ra0OInC9hW3Omn6 order=ORD-20492 amount=572.46
+2026-10-03 09:05:18,150 [pay-core] INFO  RefundService - refund.settle id=re_tmLS4Ra0OInC9hW3Omn6 status=succeeded
+2026-10-03 09:05:26,227 [pay-core] WARN  RefundService - refund.rejected id=re_nmgibaOabywhnz6RJEYu order=ORD-20815 code=insufficient_funds
+2026-10-03 09:05:28,101 [pay-core] WARN  RefundService - refund.rejected id=re_Ox6awKrzyHz8AHJ8f7Kh order=ORD-20763 code=insufficient_funds
+2026-10-03 09:05:28,194 [pay-core] WARN  RefundService - refund.rejected id=re_KqadHJoe3Mcd4i8bthd1 order=ORD-21143 code=expired_card
+2026-10-03 09:05:31,483 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:05:38,802 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:05:46,144 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:05:56,396 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:06:05,886 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:06:09,589 [pay-core] INFO  webhook evt_4158b95175795a verified
+2026-10-03 09:06:11,787 [pay-core] WARN  RefundService - refund.rejected id=re_87vbef9qCfuwmlL4oDkJ order=ORD-21103 code=insufficient_funds
+2026-10-03 09:06:12,756 [pay-core] WARN  RefundService - refund.rejected id=re_f3P0ZkStjFk0Dzxo6rXr order=ORD-20640 code=card_declined
+2026-10-03 09:06:20,495 [pay-core] INFO  webhook evt_2983af11ab1cb5 received type=charge.refunded
+2026-10-03 09:06:20,673 [pay-core] INFO  RefundService - refund.create id=re_ylSPk24suz7TtJOvmri6 order=ORD-19828 amount=551.49
+2026-10-03 09:06:21,012 [pay-core] INFO  RefundService - refund.settle id=re_ylSPk24suz7TtJOvmri6 status=succeeded
+2026-10-03 09:06:25,185 [pay-core] INFO  RefundService - refund.create id=re_IR33344NnKuOWaLDdq9P order=ORD-20907 amount=199.46
+2026-10-03 09:06:25,494 [pay-core] INFO  RefundService - refund.settle id=re_IR33344NnKuOWaLDdq9P status=succeeded
+2026-10-03 09:06:28,740 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:06:33,185 [pay-core] WARN  RefundService - refund.rejected id=re_KUWh3uQK9VMCDygfnORx order=ORD-20442 code=do_not_honor
+2026-10-03 09:06:35,920 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:06:41,997 [pay-core] WARN  RefundService - refund.rejected id=re_mN2B85gk5xmcCxL5xK35 order=ORD-20952 code=do_not_honor
+2026-10-03 09:06:43,843 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:07:16,290 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:07:18,331 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:07:24,215 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:07:26,599 [pay-core] WARN  RefundService - refund.rejected id=re_czdx5Ual0mfWqA1dQS4T order=ORD-20648 code=do_not_honor
+2026-10-03 09:07:29,084 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:07:35,517 [pay-core] WARN  RefundService - refund.rejected id=re_Mi9G4VdHKOTdXE4mcBZV order=ORD-20538 code=card_declined
+2026-10-03 09:07:41,344 [pay-core] INFO  RefundService - refund.create id=re_SIH3QBIbILcoG81v8IYU order=ORD-20348 amount=477.42
+2026-10-03 09:07:41,659 [pay-core] INFO  RefundService - refund.settle id=re_SIH3QBIbILcoG81v8IYU status=succeeded
+2026-10-03 09:07:46,306 [pay-core] INFO  webhook evt_2da8310af4f00f received type=charge.refunded
+2026-10-03 09:07:49,539 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:07:57,388 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:08:10,175 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:08:12,368 [pay-core] INFO  RefundService - refund.create id=re_VyI71QyTEj3KOV78j8JK order=ORD-20709 amount=133.02
+2026-10-03 09:08:12,627 [pay-core] INFO  RefundService - refund.settle id=re_VyI71QyTEj3KOV78j8JK status=succeeded
+2026-10-03 09:08:25,475 [pay-core] WARN  RefundService - refund.rejected id=re_mqAsNk1EAn6mzj0MASw2 order=ORD-20757 code=avs_mismatch
+2026-10-03 09:08:34,629 [pay-core] INFO  webhook evt_95cd6fda8d988f received type=charge.refunded
+2026-10-03 09:08:35,749 [pay-core] INFO  webhook evt_bd0b8751a9ce09 verified
+2026-10-03 09:08:39,127 [pay-core] INFO  webhook evt_46382d34b4c1c8 received type=charge.refunded
+2026-10-03 09:08:45,026 [pay-core] WARN  RefundService - refund.rejected id=re_SXURfDTVLoMJkGoFhTQw order=ORD-21032 code=do_not_honor
+2026-10-03 09:08:52,840 [pay-core] INFO  RefundService - refund.create id=re_Gr3EVqoT76X2JDGBXqNx order=ORD-20737 amount=375.78
+2026-10-03 09:08:53,120 [pay-core] INFO  RefundService - refund.settle id=re_Gr3EVqoT76X2JDGBXqNx status=succeeded
+2026-10-03 09:09:03,147 [pay-core] WARN  RefundService - refund.rejected id=re_24hv1umP6eEXYzNKBLI8 order=ORD-20236 code=card_declined
+2026-10-03 09:09:15,216 [pay-core] INFO  RefundService - refund.create id=re_zxZimDqSqIwrB1ukxfOQ order=ORD-19826 amount=304.71
+2026-10-03 09:09:15,499 [pay-core] INFO  RefundService - refund.settle id=re_zxZimDqSqIwrB1ukxfOQ status=succeeded
+2026-10-03 09:09:18,731 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:09:22,642 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:09:23,575 [pay-core] WARN  RefundService - refund.rejected id=re_zxU6NSTkv2bvvWkZJjw0 order=ORD-20372 code=expired_card
+2026-10-03 09:09:23,758 [pay-core] INFO  RefundService - refund.create id=re_j66qSal8B1IWfVjEIGax order=ORD-20405 amount=591.53
+2026-10-03 09:09:24,046 [pay-core] INFO  RefundService - refund.settle id=re_j66qSal8B1IWfVjEIGax status=succeeded
+2026-10-03 09:09:25,382 [pay-core] INFO  webhook evt_dd126141a897bf received type=charge.succeeded
+2026-10-03 09:09:34,353 [pay-core] DEBUG webhook evt_23ec82369c62f8 verified
+2026-10-03 09:09:37,635 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:09:51,173 [pay-core] DEBUG webhook evt_9b1722c6d81687 verified
+2026-10-03 09:10:00,194 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:10:05,381 [pay-core] INFO  RefundService - refund.create id=re_qWrOeZg2csfuxfDh0TOz order=ORD-21119 amount=68.73
+2026-10-03 09:10:05,662 [pay-core] INFO  RefundService - refund.settle id=re_qWrOeZg2csfuxfDh0TOz status=succeeded
+2026-10-03 09:10:10,190 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.call(FraudScoreClient.java:279)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:10:13,056 [pay-core] INFO  webhook evt_9c64b8a8eb566b verified
+2026-10-03 09:10:13,111 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:10:25,972 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:10:29,330 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:10:37,633 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:10:39,882 [pay-core] INFO  RefundService - refund.create id=re_Zg7I1J4J5UxAcWP3tolo order=ORD-19800 amount=104.09
+2026-10-03 09:10:40,103 [pay-core] INFO  RefundService - refund.settle id=re_Zg7I1J4J5UxAcWP3tolo status=succeeded
+2026-10-03 09:10:52,338 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:10:54,229 [pay-core] WARN  RefundService - refund.rejected id=re_gFUAqLr8yyPiXx57ySs8 order=ORD-20492 code=expired_card
+2026-10-03 09:10:56,900 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:10:59,226 [pay-core] INFO  webhook evt_529408e6f5f82c received type=charge.refunded
+2026-10-03 09:11:07,717 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:11:18,557 [pay-core] WARN  RefundService - refund.rejected id=re_3NejN5y97Pu5nLM0bBag order=ORD-21002 code=expired_card
+2026-10-03 09:11:53,871 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:12:05,153 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:12:09,638 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:12:30,586 [pay-core] DEBUG webhook evt_fff44520eb18d4 received type=charge.succeeded
+2026-10-03 09:12:31,450 [pay-core] DEBUG webhook evt_1231d91e3dc0e9 verified
+2026-10-03 09:12:32,260 [pay-core] INFO  webhook evt_cd23ff270bc7fc verified
+2026-10-03 09:12:32,394 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.execute(WebhookSignatureVerifier.java:473)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:12:34,651 [pay-core] INFO  RefundService - refund.create id=re_VWN4u0P4evCpL0kBLE0Y order=ORD-20732 amount=450.43
+2026-10-03 09:12:34,956 [pay-core] INFO  RefundService - refund.settle id=re_VWN4u0P4evCpL0kBLE0Y status=succeeded
+2026-10-03 09:12:37,161 [pay-core] WARN  RefundService - refund.rejected id=re_RVUF9hJSv8S54N1eB8kP order=ORD-20027 code=do_not_honor
+2026-10-03 09:12:42,528 [pay-core] DEBUG webhook evt_055e7e9869de5e received type=charge.refunded
+2026-10-03 09:12:52,327 [pay-core] WARN  RefundService - refund.rejected id=re_qybePMEgCP99rk3H8txB order=ORD-21187 code=insufficient_funds
+2026-10-03 09:12:58,863 [pay-core] INFO  webhook evt_8233817c8ae117 received type=charge.refunded
+2026-10-03 09:13:01,580 [pay-core] INFO  webhook evt_5783c4db89d2ec received type=charge.succeeded
+2026-10-03 09:13:04,206 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.invoke(LedgerExporter.java:310)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:13:11,113 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.run(FraudScoreClient.java:345)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:13:22,448 [pay-core] INFO  webhook evt_d6621bb201a422 verified
+2026-10-03 09:13:26,741 [pay-core] INFO  webhook evt_8f04731c213464 received type=charge.refunded
+2026-10-03 09:13:36,249 [pay-core] WARN  RefundService - refund.rejected id=re_tgmcM5g8BJzsCpz2THmB order=ORD-19904 code=expired_card
+2026-10-03 09:13:55,988 [pay-core] WARN  RefundService - refund.rejected id=re_JRNRx4qrrc0mesgY3g5z order=ORD-19811 code=card_declined
+2026-10-03 09:14:00,650 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:14:01,870 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:14:14,235 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:14:18,376 [pay-core] INFO  webhook evt_ceb35472eba095 received type=charge.succeeded
+2026-10-03 09:14:24,259 [pay-core] INFO  webhook evt_c3b39354a1e08e verified
+2026-10-03 09:14:24,582 [pay-core] WARN  RefundService - refund.rejected id=re_upk1UoqMvA673fPKZWFX order=ORD-20940 code=avs_mismatch
+2026-10-03 09:14:27,658 [pay-core] WARN  RefundService - refund.rejected id=re_VRLFAGSQaEPclrM9ZMro order=ORD-21115 code=card_declined
+2026-10-03 09:14:31,932 [pay-core] INFO  webhook evt_decb8c9dcb04d5 received type=charge.refunded
+2026-10-03 09:14:39,772 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:14:41,167 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:14:43,045 [pay-core] WARN  RefundService - refund.rejected id=re_T9fWJ9fFaIj1YMnxtjQd order=ORD-20608 code=avs_mismatch
+2026-10-03 09:14:53,649 [pay-core] DEBUG webhook evt_8c8510c6f54804 received type=charge.succeeded
+2026-10-03 09:14:56,967 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:15:05,968 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:15:12,684 [pay-core] INFO  RefundService - refund.create id=re_hQgw3jFIV24MOYpDxELY order=ORD-20473 amount=209.22
+2026-10-03 09:15:12,927 [pay-core] INFO  RefundService - refund.settle id=re_hQgw3jFIV24MOYpDxELY status=succeeded
+2026-10-03 09:15:20,988 [pay-core] INFO  webhook evt_3cc83084108c8c verified
+2026-10-03 09:15:21,179 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:15:21,812 [pay-core] DEBUG webhook evt_02b4830fb77e85 verified
+2026-10-03 09:15:25,322 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.call(LedgerExporter.java:594)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:15:37,382 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:15:38,103 [pay-core] INFO  webhook evt_7731eb1daba5a3 received type=charge.succeeded
+2026-10-03 09:15:38,634 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.handle(WebhookSignatureVerifier.java:252)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:15:50,470 [pay-core] DEBUG webhook evt_929cac9c333d32 received type=charge.succeeded
+2026-10-03 09:15:58,772 [pay-core] INFO  RefundService - refund.create id=re_y1lbJRbLbtGl3XNyRJEe order=ORD-20141 amount=585.91
+2026-10-03 09:15:59,062 [pay-core] INFO  RefundService - refund.settle id=re_y1lbJRbLbtGl3XNyRJEe status=succeeded
+2026-10-03 09:16:00,109 [pay-core] WARN  RefundService - refund.rejected id=re_rFLDpu2JaSkgdlY527H9 order=ORD-20738 code=insufficient_funds
+2026-10-03 09:16:03,588 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:16:08,563 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:16:17,151 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:16:17,899 [pay-core] WARN  RefundService - refund.rejected id=re_2tYp5DIPuV12tIIgrWlr order=ORD-20235 code=do_not_honor
+2026-10-03 09:16:26,179 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:16:39,194 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:16:40,974 [pay-core] INFO  webhook evt_ac897fa309d45e received type=charge.succeeded
+2026-10-03 09:16:43,519 [pay-core] INFO  RefundService - refund.create id=re_KChOu7ys7w0SN886dR5g order=ORD-20197 amount=103.81
+2026-10-03 09:16:43,807 [pay-core] INFO  RefundService - refund.settle id=re_KChOu7ys7w0SN886dR5g status=succeeded
+2026-10-03 09:16:45,701 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:16:56,366 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:16:58,632 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:17:02,077 [pay-core] WARN  RefundService - refund.rejected id=re_omZP3yNwRgD5KrBHSqMJ order=ORD-19893 code=expired_card
+2026-10-03 09:17:07,992 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:17:10,203 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:17:14,100 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:17:20,619 [pay-core] WARN  RefundService - refund.rejected id=re_kfzwjrwnLRHko6hedb27 order=ORD-19801 code=do_not_honor
+2026-10-03 09:17:21,447 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:17:24,423 [pay-core] WARN  RefundService - refund.rejected id=re_GbJS4jopz4ABCR4wj7bh order=ORD-20334 code=do_not_honor
+2026-10-03 09:17:24,590 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:17:26,924 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:17:31,560 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:17:36,732 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:17:37,515 [pay-core] WARN  RefundService - refund.rejected id=re_YBjYw4oi2opZkzuDza6K order=ORD-20626 code=avs_mismatch
+2026-10-03 09:17:46,554 [pay-core] DEBUG webhook evt_254d91692e9685 received type=charge.succeeded
+2026-10-03 09:17:47,066 [pay-core] INFO  webhook evt_a8d5323c83ba3f received type=charge.succeeded
+2026-10-03 09:17:47,271 [pay-core] INFO  RefundService - refund.create id=re_VBzZfaNVmVdzBAerkmR7 order=ORD-20820 amount=156.87
+2026-10-03 09:17:47,532 [pay-core] INFO  RefundService - refund.settle id=re_VBzZfaNVmVdzBAerkmR7 status=succeeded
+2026-10-03 09:17:48,830 [pay-core] WARN  RefundService - refund.rejected id=re_WziqBXH1hp4H5iV7l4L7 order=ORD-21200 code=expired_card
+2026-10-03 09:17:54,563 [pay-core] INFO  webhook evt_c9647fce4fa087 received type=charge.refunded
+2026-10-03 09:18:05,117 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:18:10,788 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:18:12,107 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:18:14,984 [pay-core] INFO  webhook evt_eaabddc292bf42 received type=charge.refunded
+2026-10-03 09:18:27,532 [pay-core] INFO  RefundService - refund.create id=re_vtUSzzOG7uPZfqath1SF order=ORD-20494 amount=545.69
+2026-10-03 09:18:27,793 [pay-core] INFO  RefundService - refund.settle id=re_vtUSzzOG7uPZfqath1SF status=succeeded
+2026-10-03 09:18:30,033 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:18:41,399 [pay-core] INFO  webhook evt_77fcac1eb8e980 received type=charge.refunded
+2026-10-03 09:18:51,026 [pay-core] INFO  RefundService - refund.create id=re_GPiNsI32k5LorYoeHrCt order=ORD-20995 amount=380.64
+2026-10-03 09:18:51,080 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:18:51,251 [pay-core] INFO  RefundService - refund.settle id=re_GPiNsI32k5LorYoeHrCt status=succeeded
+2026-10-03 09:18:56,301 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:19:02,833 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:19:13,431 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:19:27,378 [pay-core] INFO  RefundService - refund.create id=re_5QMSvfHJW5mG8s8tMwiA order=ORD-20707 amount=400.80
+2026-10-03 09:19:27,661 [pay-core] INFO  RefundService - refund.settle id=re_5QMSvfHJW5mG8s8tMwiA status=succeeded
+2026-10-03 09:19:30,121 [pay-core] INFO  webhook evt_a69b771a4a4636 verified
+2026-10-03 09:19:35,842 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:19:46,136 [pay-core] DEBUG webhook evt_f1a9118cd69e84 received type=charge.refunded
+2026-10-03 09:19:53,224 [pay-core] WARN  RefundService - refund.rejected id=re_OTfWk593jCWUXNnAsrjs order=ORD-20787 code=avs_mismatch
+2026-10-03 09:20:01,019 [pay-core] INFO  webhook evt_9555a97ba6af8b verified
+2026-10-03 09:20:06,861 [pay-core] WARN  RefundService - refund.rejected id=re_N4BPDqkLMmvAUH7IfC6T order=ORD-20177 code=expired_card
+2026-10-03 09:20:13,285 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:20:21,985 [pay-core] WARN  RefundService - refund.rejected id=re_J3LQddkK855ikCHnRxK1 order=ORD-21050 code=do_not_honor
+2026-10-03 09:20:29,134 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:20:33,070 [pay-core] INFO  RefundService - refund.create id=re_A2GoGdLc13DnxxFu4oNE order=ORD-20115 amount=232.42
+2026-10-03 09:20:33,287 [pay-core] INFO  RefundService - refund.settle id=re_A2GoGdLc13DnxxFu4oNE status=succeeded
+2026-10-03 09:20:34,694 [pay-core] WARN  RefundService - refund.rejected id=re_VxAX1GaOYMrzmAZVxQ0Z order=ORD-20926 code=card_declined
+2026-10-03 09:20:40,726 [pay-core] INFO  RefundService - refund.create id=re_1rTuBgAWZDzdluS4HGoJ order=ORD-19828 amount=175.92
+2026-10-03 09:20:41,054 [pay-core] INFO  RefundService - refund.settle id=re_1rTuBgAWZDzdluS4HGoJ status=succeeded
+2026-10-03 09:20:43,477 [pay-core] INFO  RefundService - refund.create id=re_XuDkhq4O0nCSkGEAmuFG order=ORD-20294 amount=579.26
+2026-10-03 09:20:43,688 [pay-core] INFO  RefundService - refund.settle id=re_XuDkhq4O0nCSkGEAmuFG status=succeeded
+2026-10-03 09:20:48,287 [pay-core] INFO  RefundService - refund.create id=re_Bmsl7QZIbE95wQMvHWmt order=ORD-19812 amount=107.06
+2026-10-03 09:20:48,506 [pay-core] INFO  RefundService - refund.settle id=re_Bmsl7QZIbE95wQMvHWmt status=succeeded
+2026-10-03 09:20:59,672 [pay-core] INFO  RefundService - refund.create id=re_R7jalUyBCTX7ki5YICcs order=ORD-20822 amount=271.32
+2026-10-03 09:20:59,932 [pay-core] INFO  RefundService - refund.settle id=re_R7jalUyBCTX7ki5YICcs status=succeeded
+2026-10-03 09:21:00,937 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:21:39,191 [pay-core] WARN  RefundService - refund.rejected id=re_q7mhXFbNbes02oxT6WkF order=ORD-20953 code=insufficient_funds
+2026-10-03 09:21:48,732 [pay-core] DEBUG webhook evt_55434a0c09089b verified
+2026-10-03 09:22:01,767 [pay-core] WARN  RefundService - refund.rejected id=re_yJQXFo0kikAV38HVKnpW order=ORD-20304 code=avs_mismatch
+2026-10-03 09:22:07,420 [pay-core] DEBUG webhook evt_b3369179305f6b received type=charge.refunded
+2026-10-03 09:22:10,670 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:22:17,814 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:22:31,750 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:22:32,348 [pay-core] INFO  webhook evt_11d42070b7c7da received type=charge.refunded
+2026-10-03 09:22:35,454 [pay-core] INFO  RefundService - refund.create id=re_R95ezr0R4PYRPXyThKm2 order=ORD-20319 amount=495.69
+2026-10-03 09:22:35,683 [pay-core] INFO  RefundService - refund.settle id=re_R95ezr0R4PYRPXyThKm2 status=succeeded
+2026-10-03 09:22:38,700 [pay-core] INFO  webhook evt_a4210062899a3a received type=charge.refunded
+2026-10-03 09:22:39,898 [pay-core] DEBUG webhook evt_780aafdfe57653 verified
+2026-10-03 09:22:51,964 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:23:05,262 [pay-core] INFO  webhook evt_f397c62183ba13 verified
+2026-10-03 09:23:25,682 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:23:26,667 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:23:26,704 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:23:27,436 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.invoke(LedgerExporter.java:190)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:23:31,342 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.process(FraudScoreClient.java:657)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:23:40,155 [pay-core] DEBUG webhook evt_7dcdbbc60429f7 verified
+2026-10-03 09:23:40,785 [pay-core] WARN  RefundService - refund.rejected id=re_9x7y7bnB4NY1hjE714yV order=ORD-20422 code=do_not_honor
+2026-10-03 09:23:48,522 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:23:54,326 [pay-core] INFO  webhook evt_e09e06b8e28d79 received type=charge.succeeded
+2026-10-03 09:24:01,498 [pay-core] INFO  webhook evt_02b13f47d238c9 received type=charge.succeeded
+2026-10-03 09:24:10,450 [pay-core] INFO  RefundService - refund.create id=re_VuUXOcT6tnoIhWtCK5hp order=ORD-20386 amount=168.55
+2026-10-03 09:24:10,714 [pay-core] INFO  RefundService - refund.settle id=re_VuUXOcT6tnoIhWtCK5hp status=succeeded
+2026-10-03 09:24:17,422 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:24:20,932 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:24:23,122 [pay-core] WARN  RefundService - refund.rejected id=re_qwuWdpAMR61jRw9SbcZn order=ORD-20569 code=do_not_honor
+2026-10-03 09:24:27,074 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:24:28,560 [pay-core] INFO  RefundService - refund.create id=re_NYkc1Vc6EttSlC7wsuxL order=ORD-20860 amount=282.43
+2026-10-03 09:24:28,861 [pay-core] INFO  RefundService - refund.settle id=re_NYkc1Vc6EttSlC7wsuxL status=succeeded
+2026-10-03 09:24:38,008 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:24:40,457 [pay-core] WARN  RefundService - refund.rejected id=re_rTT1kppqF3r6m8kvmu2j order=ORD-20340 code=avs_mismatch
+2026-10-03 09:24:46,155 [pay-core] WARN  RefundService - refund.rejected id=re_gIvaBBAaShHgMYlm84PY order=ORD-19927 code=expired_card
+2026-10-03 09:24:48,376 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:24:59,127 [pay-core] WARN  RefundService - refund.rejected id=re_67sA5wy0mP685FyTVpOU order=ORD-20373 code=avs_mismatch
+2026-10-03 09:25:08,037 [pay-core] WARN  RefundService - refund.rejected id=re_y3QmizBJJ5rjcVyNKhql order=ORD-20132 code=expired_card
+2026-10-03 09:25:08,646 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.handle(LedgerExporter.java:189)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:25:08,700 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:25:13,909 [pay-core] INFO  webhook evt_fb73e3cc754d00 received type=charge.refunded
+2026-10-03 09:25:14,622 [pay-core] INFO  webhook evt_c7bc17466ac9a7 received type=charge.refunded
+2026-10-03 09:25:22,936 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:25:28,098 [pay-core] INFO  webhook evt_919487e39f9b89 received type=charge.succeeded
+2026-10-03 09:25:38,668 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:25:44,465 [pay-core] INFO  webhook evt_b063c2bca8b6fd received type=charge.succeeded
+2026-10-03 09:25:44,923 [pay-core] DEBUG webhook evt_10712969dd5520 received type=charge.refunded
+2026-10-03 09:26:14,424 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:26:18,569 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:26:20,230 [pay-core] INFO  webhook evt_228c1ba3564f4b verified
+2026-10-03 09:26:26,998 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:26:37,484 [pay-core] INFO  webhook evt_bf9a1f7c41d8f8 received type=charge.succeeded
+2026-10-03 09:26:38,186 [pay-core] INFO  RefundService - refund.create id=re_i8SD6eVPKoutiL6r399s order=ORD-20649 amount=424.26
+2026-10-03 09:26:38,518 [pay-core] INFO  RefundService - refund.settle id=re_i8SD6eVPKoutiL6r399s status=succeeded
+2026-10-03 09:26:50,605 [pay-core] WARN  RefundService - refund.rejected id=re_z2EWO2nDO2vs64Bc5Lsd order=ORD-19988 code=avs_mismatch
+2026-10-03 09:27:12,963 [pay-core] INFO  webhook evt_63969b01876309 verified
+2026-10-03 09:27:15,199 [pay-core] WARN  RefundService - refund.rejected id=re_KU4HCejfRzLXutFk4LWT order=ORD-20229 code=insufficient_funds
+2026-10-03 09:27:17,908 [pay-core] INFO  webhook evt_1ef7d4015bedd6 received type=charge.succeeded
+2026-10-03 09:27:28,796 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:27:29,590 [pay-core] INFO  RefundService - refund.create id=re_zD72CpiKixsVsvyezxIy order=ORD-20941 amount=57.66
+2026-10-03 09:27:29,798 [pay-core] INFO  RefundService - refund.settle id=re_zD72CpiKixsVsvyezxIy status=succeeded
+2026-10-03 09:27:36,525 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:27:40,021 [pay-core] INFO  RefundService - refund.create id=re_pypfXMjaGvAYkdvzZJO9 order=ORD-20420 amount=219.74
+2026-10-03 09:27:41,366 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:27:50,722 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:27:52,016 [pay-core] WARN  RefundService - refund.cancel id=re_pypfXMjaGvAYkdvzZJO9 reason=caller_timeout
+2026-10-03 09:27:55,013 [pay-core] WARN  RefundService - refund.rejected id=re_gptBKZdM1rxEzdbKjda3 order=ORD-20552 code=insufficient_funds
+2026-10-03 09:28:02,725 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:28:06,594 [pay-core] INFO  webhook evt_9d59abbf8c742f verified
+2026-10-03 09:28:14,383 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:28:23,850 [pay-core] INFO  RefundService - refund.create id=re_o6PUYE7ktXmzuCp3w8Ya order=ORD-20778 amount=275.73
+2026-10-03 09:28:24,044 [pay-core] INFO  RefundService - refund.settle id=re_o6PUYE7ktXmzuCp3w8Ya status=succeeded
+2026-10-03 09:28:24,255 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:28:31,219 [pay-core] INFO  webhook evt_6090d93ec5f240 verified
+2026-10-03 09:28:45,941 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:28:46,227 [pay-core] DEBUG webhook evt_3a5901441b8b4c received type=charge.succeeded
+2026-10-03 09:28:49,147 [pay-core] INFO  webhook evt_4b8f9b8c50f495 verified
+2026-10-03 09:28:49,221 [pay-core] DEBUG webhook evt_08b3576256721d verified
+2026-10-03 09:28:55,163 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:28:57,911 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:29:15,736 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:29:19,162 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:29:23,295 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:29:34,058 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:29:51,533 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:29:54,554 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:29:56,341 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:29:59,153 [pay-core] WARN  RefundService - refund.rejected id=re_afLQItZgwxD0chppdE35 order=ORD-20409 code=avs_mismatch
+2026-10-03 09:30:00,901 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:30:05,936 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.process(LedgerExporter.java:428)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:30:19,948 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:30:30,784 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:30:35,206 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:30:38,404 [pay-core] WARN  RefundService - refund.rejected id=re_Q1SBE8ezGZiETN8Bl7md order=ORD-20504 code=insufficient_funds
+2026-10-03 09:30:38,455 [pay-core] INFO  webhook evt_eb3cabee0157ea received type=charge.succeeded
+2026-10-03 09:30:54,091 [pay-core] INFO  webhook evt_dfb13980948ff9 verified
+2026-10-03 09:31:05,980 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:31:09,465 [pay-core] INFO  webhook evt_1cb24d862dd7be verified
+2026-10-03 09:31:10,951 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.execute(LedgerExporter.java:498)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:31:21,320 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:31:33,336 [pay-core] INFO  RefundService - refund.create id=re_ApNTV1sQOvWGL4wYri9p order=ORD-21045 amount=90.93
+2026-10-03 09:31:33,639 [pay-core] INFO  RefundService - refund.settle id=re_ApNTV1sQOvWGL4wYri9p status=succeeded
+2026-10-03 09:31:36,089 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:31:45,037 [pay-core] INFO  RefundService - refund.create id=re_MAYWatJXUzV3H517a6zg order=ORD-21148 amount=173.87
+2026-10-03 09:31:45,296 [pay-core] INFO  RefundService - refund.settle id=re_MAYWatJXUzV3H517a6zg status=succeeded
+2026-10-03 09:31:48,628 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:31:58,219 [pay-core] INFO  RefundService - refund.create id=re_TJcWc3wm0kBvGYvOZ3CM order=ORD-20298 amount=178.59
+2026-10-03 09:31:58,484 [pay-core] INFO  RefundService - refund.settle id=re_TJcWc3wm0kBvGYvOZ3CM status=succeeded
+2026-10-03 09:32:01,174 [pay-core] INFO  webhook evt_342d9f836e5ff7 received type=charge.succeeded
+2026-10-03 09:32:08,719 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:32:14,671 [pay-core] DEBUG webhook evt_8f12f4c5c5f2e9 received type=charge.refunded
+2026-10-03 09:32:14,821 [pay-core] INFO  webhook evt_4a89e671ac0850 received type=charge.refunded
+2026-10-03 09:32:17,315 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.invoke(WebhookSignatureVerifier.java:164)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:32:42,509 [pay-core] WARN  RefundService - refund.rejected id=re_aA7lfPGrFHEWfEL9KRRs order=ORD-20928 code=avs_mismatch
+2026-10-03 09:32:54,796 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:32:58,764 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:33:05,367 [pay-core] INFO  webhook evt_c653b860ed67bd verified
+2026-10-03 09:33:07,111 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:33:12,587 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:33:16,310 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:33:23,995 [pay-core] WARN  RefundService - refund.rejected id=re_kiyXJ2TOrcrPQ6h7PX7q order=ORD-21188 code=insufficient_funds
+2026-10-03 09:33:33,523 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:33:33,791 [pay-core] INFO  webhook evt_cab2869934f856 received type=charge.succeeded
+2026-10-03 09:33:39,308 [pay-core] INFO  webhook evt_35f8bfeae940b9 verified
+2026-10-03 09:33:43,701 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:33:45,877 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:33:59,628 [pay-core] WARN  RefundService - refund.rejected id=re_5VPfLRz7CyuroOUEZFTz order=ORD-19865 code=do_not_honor
+2026-10-03 09:34:04,246 [pay-core] INFO  webhook evt_bdc9d34de014c3 received type=charge.refunded
+2026-10-03 09:34:10,789 [pay-core] INFO  RefundService - refund.create id=re_LlBH1D2v3rTreOVYEhXJ order=ORD-21123 amount=64.48
+2026-10-03 09:34:11,031 [pay-core] INFO  RefundService - refund.settle id=re_LlBH1D2v3rTreOVYEhXJ status=succeeded
+2026-10-03 09:34:26,280 [pay-core] WARN  RefundService - refund.rejected id=re_SC4U3XFvIW6LuYxR61jo order=ORD-20443 code=avs_mismatch
+2026-10-03 09:34:46,426 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:34:49,435 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:35:01,813 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:35:06,490 [pay-core] WARN  RefundService - refund.rejected id=re_oEtKCAivXWPDRaSQPehd order=ORD-21088 code=avs_mismatch
+2026-10-03 09:35:08,170 [pay-core] INFO  webhook evt_165c20ef38382f received type=charge.succeeded
+2026-10-03 09:35:10,648 [pay-core] INFO  webhook evt_4dc29c41483dc5 received type=charge.refunded
+2026-10-03 09:35:12,876 [pay-core] INFO  RefundService - refund.create id=re_WYJ1Si1XRCFy15Y7X8p8 order=ORD-20784 amount=114.08
+2026-10-03 09:35:13,111 [pay-core] INFO  RefundService - refund.settle id=re_WYJ1Si1XRCFy15Y7X8p8 status=succeeded
+2026-10-03 09:35:20,189 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:35:24,192 [pay-core] INFO  webhook evt_0fc52ae136c7c9 verified
+2026-10-03 09:35:34,646 [pay-core] INFO  webhook evt_65e950c2dc7c87 received type=charge.succeeded
+2026-10-03 09:35:36,580 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:35:42,820 [pay-core] INFO  webhook evt_ea1eadf4f6ea33 received type=charge.succeeded
+2026-10-03 09:35:45,934 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:35:46,180 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:36:02,688 [pay-core] INFO  webhook evt_d7b901ff9e5ca1 received type=charge.succeeded
+2026-10-03 09:36:05,346 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:36:06,902 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:36:26,931 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:36:27,302 [pay-core] INFO  RefundService - refund.create id=re_Qo8IbJwStbY77YwAzZdy order=ORD-20012 amount=255.25
+2026-10-03 09:36:27,617 [pay-core] INFO  RefundService - refund.settle id=re_Qo8IbJwStbY77YwAzZdy status=succeeded
+2026-10-03 09:36:39,694 [pay-core] WARN  RefundService - refund.rejected id=re_ZG7c42wXGaFEldup6fYW order=ORD-19992 code=expired_card
+2026-10-03 09:36:42,154 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:36:43,153 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:36:50,552 [pay-core] INFO  webhook evt_10dba9f2cb44fe received type=charge.refunded
+2026-10-03 09:36:52,958 [pay-core] INFO  webhook evt_61dbcbc85a1e23 verified
+2026-10-03 09:37:00,004 [pay-core] WARN  RefundService - refund.rejected id=re_g5vizAFTj3hGVmR6uFQZ order=ORD-20472 code=card_declined
+2026-10-03 09:37:00,644 [pay-core] WARN  RefundService - refund.rejected id=re_fNKYDmDwOWHSUOCkXtzm order=ORD-20739 code=card_declined
+2026-10-03 09:37:01,087 [pay-core] INFO  webhook evt_0655a53e5cf5fe received type=charge.succeeded
+2026-10-03 09:37:02,271 [pay-core] INFO  webhook evt_ef5266172500ff received type=charge.refunded
+2026-10-03 09:37:08,216 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:37:12,382 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:37:16,499 [pay-core] INFO  webhook evt_4575bb72e46982 received type=charge.refunded
+2026-10-03 09:37:17,891 [pay-core] DEBUG webhook evt_e3feb1b7b6e4d0 verified
+2026-10-03 09:37:18,337 [pay-core] INFO  RefundService - refund.create id=re_W8iAd4lFBBPrAsQQ04p8 order=ORD-19853 amount=462.25
+2026-10-03 09:37:18,586 [pay-core] INFO  RefundService - refund.settle id=re_W8iAd4lFBBPrAsQQ04p8 status=succeeded
+2026-10-03 09:37:28,882 [pay-core] INFO  webhook evt_4e2023d1462111 verified
+2026-10-03 09:37:48,025 [pay-core] INFO  RefundService - refund.create id=re_bct3XSzuiLeydQKCx0R5 order=ORD-20581 amount=242.81
+2026-10-03 09:37:48,250 [pay-core] INFO  RefundService - refund.settle id=re_bct3XSzuiLeydQKCx0R5 status=succeeded
+2026-10-03 09:37:54,722 [pay-core] INFO  RefundService - refund.create id=re_rXu37E0T4n1NFI7V428m order=ORD-21171 amount=44.51
+2026-10-03 09:37:54,966 [pay-core] INFO  RefundService - refund.settle id=re_rXu37E0T4n1NFI7V428m status=succeeded
+2026-10-03 09:38:02,133 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:38:09,723 [pay-core] INFO  webhook evt_5b1695e7df8cee received type=charge.succeeded
+2026-10-03 09:38:13,866 [pay-core] WARN  RefundService - refund.rejected id=re_nhOp2NgqhcwZa4tQq8P4 order=ORD-20201 code=card_declined
+2026-10-03 09:38:15,875 [pay-core] INFO  webhook evt_8fe207ac09f40a received type=charge.refunded
+2026-10-03 09:38:28,968 [pay-core] INFO  webhook evt_7cfd37525c2f0a received type=charge.succeeded
+2026-10-03 09:38:29,714 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:38:45,944 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.process(WebhookSignatureVerifier.java:394)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:38:51,473 [pay-core] WARN  RefundService - refund.rejected id=re_UAeGnq1NXZbUN2yMq2nq order=ORD-19825 code=expired_card
+2026-10-03 09:38:51,567 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.call(LedgerExporter.java:723)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:38:58,601 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.handle(WebhookSignatureVerifier.java:862)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:39:00,721 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:39:00,880 [pay-core] INFO  RefundService - refund.create id=re_nkU7yNCzsQSzA5bpn5js order=ORD-20291 amount=538.86
+2026-10-03 09:39:01,098 [pay-core] INFO  RefundService - refund.settle id=re_nkU7yNCzsQSzA5bpn5js status=succeeded
+2026-10-03 09:39:30,814 [pay-core] INFO  webhook evt_6609d394b58d38 received type=charge.refunded
+2026-10-03 09:39:31,983 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:39:34,643 [pay-core] INFO  webhook evt_58cbd4c6268397 received type=charge.refunded
+2026-10-03 09:39:40,887 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:39:54,623 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:39:57,110 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.call(LedgerExporter.java:299)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:40:02,450 [pay-core] INFO  webhook evt_2d574a09c53e2c received type=charge.succeeded
+2026-10-03 09:40:04,094 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:40:06,709 [pay-core] DEBUG webhook evt_63f3005db40a46 received type=charge.refunded
+2026-10-03 09:40:16,003 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:40:26,090 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:40:30,921 [pay-core] INFO  RefundService - refund.create id=re_bVd6BSCAzrljE5K8YKgI order=ORD-20635 amount=315.46
+2026-10-03 09:40:31,133 [pay-core] INFO  RefundService - refund.settle id=re_bVd6BSCAzrljE5K8YKgI status=succeeded
+2026-10-03 09:40:33,811 [pay-core] INFO  webhook evt_98a1b5f5bca592 received type=charge.refunded
+2026-10-03 09:40:49,489 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:40:57,317 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:40:57,946 [pay-core] INFO  webhook evt_19b37f918dd9fa received type=charge.refunded
+2026-10-03 09:41:00,986 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:41:07,252 [pay-core] INFO  webhook evt_49baef333ced2c received type=charge.succeeded
+2026-10-03 09:41:15,755 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:41:38,880 [pay-core] DEBUG webhook evt_5a0ae8524e2f7c received type=charge.succeeded
+2026-10-03 09:41:44,780 [pay-core] INFO  RefundService - refund.create id=re_gCapBg3w9kDvpqn6YjBu order=ORD-20108 amount=171.22
+2026-10-03 09:41:45,012 [pay-core] INFO  RefundService - refund.settle id=re_gCapBg3w9kDvpqn6YjBu status=succeeded
+2026-10-03 09:42:03,703 [pay-core] INFO  webhook evt_5988308148ff89 received type=charge.succeeded
+2026-10-03 09:42:06,652 [pay-core] DEBUG webhook evt_7f76e769bc8a87 received type=charge.succeeded
+2026-10-03 09:42:09,029 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:42:19,370 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:42:25,837 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:42:34,406 [pay-core] INFO  webhook evt_a34b3bcf1f055f received type=charge.refunded
+2026-10-03 09:42:36,378 [pay-core] WARN  RefundService - refund.rejected id=re_fIiPPHunzzMNAYrLIlbq order=ORD-20084 code=do_not_honor
+2026-10-03 09:42:38,455 [pay-core] WARN  RefundService - refund.rejected id=re_oDq60UqU5FVn2M5yswwT order=ORD-20394 code=card_declined
+2026-10-03 09:42:44,167 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.handle(LedgerExporter.java:511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:42:48,061 [pay-core] INFO  RefundService - refund.create id=re_05A7ia9WFcsJeAdM8XBl order=ORD-20577 amount=465.80
+2026-10-03 09:42:48,400 [pay-core] INFO  RefundService - refund.settle id=re_05A7ia9WFcsJeAdM8XBl status=succeeded
+2026-10-03 09:42:50,658 [pay-core] INFO  webhook evt_c617d57513f56c verified
+2026-10-03 09:43:00,679 [pay-core] INFO  webhook evt_cc9c08dfa75e3a verified
+2026-10-03 09:43:04,722 [pay-core] WARN  RefundService - refund.rejected id=re_Mvr7x9oZwRFvwYXssgOf order=ORD-20109 code=expired_card
+2026-10-03 09:43:06,054 [pay-core] WARN  RefundService - refund.rejected id=re_vXmYg5UNVZ0lOZyVrGtL order=ORD-20163 code=expired_card
+2026-10-03 09:43:06,829 [pay-core] INFO  webhook evt_7f8909f21efebf received type=charge.refunded
+2026-10-03 09:43:08,743 [pay-core] INFO  webhook evt_535a6fcacb909c received type=charge.succeeded
+2026-10-03 09:43:09,021 [pay-core] INFO  RefundService - refund.create id=re_ZD84Ndrnn36j6zuYyLyz order=ORD-19826 amount=161.19
+2026-10-03 09:43:09,264 [pay-core] INFO  RefundService - refund.settle id=re_ZD84Ndrnn36j6zuYyLyz status=succeeded
+2026-10-03 09:43:09,728 [pay-core] INFO  webhook evt_467a7a6b55e03e received type=charge.succeeded
+2026-10-03 09:43:10,709 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:43:12,467 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:43:19,148 [pay-core] INFO  RefundService - refund.create id=re_Ty6dLdnA5gbtVT6n9UV1 order=ORD-21159 amount=179.59
+2026-10-03 09:43:19,432 [pay-core] INFO  RefundService - refund.settle id=re_Ty6dLdnA5gbtVT6n9UV1 status=succeeded
+2026-10-03 09:43:19,740 [pay-core] WARN  RefundService - refund.rejected id=re_0IagWmjXthjuP2etlDxd order=ORD-21194 code=card_declined
+2026-10-03 09:43:23,296 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:43:30,263 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.call(WebhookSignatureVerifier.java:513)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:43:31,612 [pay-core] INFO  webhook evt_974ca96e499b8d received type=charge.refunded
+2026-10-03 09:43:40,730 [pay-core] INFO  webhook evt_6cdcc7cb99fd8a verified
+2026-10-03 09:43:43,349 [pay-core] WARN  RefundService - refund.rejected id=re_a9cr25DVlepRFxWcNUU7 order=ORD-20154 code=card_declined
+2026-10-03 09:43:52,926 [pay-core] INFO  RefundService - refund.create id=re_nwCVTSVdZRGdzqLgIvTy order=ORD-20303 amount=103.49
+2026-10-03 09:43:53,154 [pay-core] INFO  RefundService - refund.settle id=re_nwCVTSVdZRGdzqLgIvTy status=succeeded
+2026-10-03 09:44:05,425 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:44:09,079 [pay-core] INFO  webhook evt_851da7f7670c5a received type=charge.succeeded
+2026-10-03 09:44:09,755 [pay-core] DEBUG webhook evt_b340f6e6521be5 received type=charge.refunded
+2026-10-03 09:44:21,543 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:44:23,450 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:46:41,139 [pay-core] INFO  RefundService - refund.create id=re_jtEttMEBNIhGEdBh6i87 order=ORD-19844 amount=435.02
+2026-10-03 09:46:42,107 [pay-core] WARN  RefundService - refund.cancel id=re_jtEttMEBNIhGEdBh6i87 reason=caller_timeout
+2026-10-03 09:46:44,085 [pay-core] INFO  RefundService - refund.create id=re_ONW2PHm3zuEiBDVT1TQc order=ORD-20581 amount=111.04
+2026-10-03 09:46:46,371 [pay-core] INFO  RefundService - refund.create id=re_wmtsv3DXpwXdNmYyzHWK order=ORD-20589 amount=341.01
+2026-10-03 09:46:49,696 [pay-core] INFO  RefundService - refund.create id=re_P84iJlQJDiCd4alwUPCD order=ORD-21120 amount=98.63
+2026-10-03 09:46:50,618 [pay-core] INFO  RefundService - refund.create id=re_CLXXyxB19yLrIImeVfxo order=ORD-20158 amount=77.11
+2026-10-03 09:46:52,392 [pay-core] INFO  RefundService - refund.create id=re_2Q9E8MleoDENYofJnbcA order=ORD-20760 amount=204.12
+2026-10-03 09:46:55,969 [pay-core] INFO  RefundService - refund.create id=re_h8NS4rZoxMANDjd9LWJm order=ORD-20638 amount=207.25
+2026-10-03 09:46:56,067 [pay-core] WARN  RefundService - refund.cancel id=re_ONW2PHm3zuEiBDVT1TQc reason=caller_timeout
+2026-10-03 09:46:56,726 [pay-core] INFO  RefundService - refund.create id=re_mvIB0HmGv1jmxO4PDbGj order=ORD-20481 amount=383.38
+2026-10-03 09:46:58,352 [pay-core] WARN  RefundService - refund.cancel id=re_wmtsv3DXpwXdNmYyzHWK reason=caller_timeout
+2026-10-03 09:47:00,925 [pay-core] INFO  RefundService - refund.create id=re_L6HBEEjOp4iyXriH40W0 order=ORD-20434 amount=542.92
+2026-10-03 09:47:01,696 [pay-core] WARN  RefundService - refund.cancel id=re_P84iJlQJDiCd4alwUPCD reason=caller_timeout
+2026-10-03 09:47:01,837 [pay-core] INFO  RefundService - refund.create id=re_bct3XSzuiLeydQKCx9R5 order=ORD-20518 amount=363.57
+2026-10-03 09:47:02,615 [pay-core] WARN  RefundService - refund.cancel id=re_CLXXyxB19yLrIImeVfxo reason=caller_timeout
+2026-10-03 09:47:04,384 [pay-core] WARN  RefundService - refund.cancel id=re_2Q9E8MleoDENYofJnbcA reason=caller_timeout
+2026-10-03 09:47:04,430 [pay-core] INFO  RefundService - refund.create id=re_W4Pnw3zKPoWRzgkkKtoG order=ORD-20792 amount=232.95
+2026-10-03 09:47:05,629 [pay-core] WARN  RefundService - refund.cancel id=re_W4Pnw3zKPoWRzgkkKtoG reason=caller_timeout
+2026-10-03 09:47:06,600 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.invoke(FraudScoreClient.java:822)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:47:07,947 [pay-core] WARN  RefundService - refund.cancel id=re_h8NS4rZoxMANDjd9LWJm reason=caller_timeout
+2026-10-03 09:47:08,717 [pay-core] WARN  RefundService - refund.cancel id=re_mvIB0HmGv1jmxO4PDbGj reason=caller_timeout
+2026-10-03 09:47:11,900 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.dispatch(FraudScoreClient.java:855)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:47:12,719 [pay-core] INFO  RefundService - refund.create id=re_z1TSaQgM1IONVBMKkbFV order=ORD-20615 amount=259.59
+2026-10-03 09:47:12,917 [pay-core] WARN  RefundService - refund.cancel id=re_L6HBEEjOp4iyXriH40W0 reason=caller_timeout
+2026-10-03 09:47:13,787 [pay-core] WARN  RefundService - refund.cancel id=re_z1TSaQgM1IONVBMKkbFV reason=caller_timeout
+2026-10-03 09:47:13,825 [pay-core] WARN  RefundService - refund.cancel id=re_bct3XSzuiLeydQKCx9R5 reason=caller_timeout
+2026-10-03 09:49:30,798 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:49:39,034 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:49:42,535 [pay-core] DEBUG webhook evt_76b9400b503b0e verified
+2026-10-03 09:49:48,318 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.run(LedgerExporter.java:324)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:49:56,846 [pay-core] INFO  webhook evt_42b4def5d2a1f4 verified
+2026-10-03 09:50:03,095 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:50:05,642 [pay-core] INFO  webhook evt_458551cce98a9a received type=charge.succeeded
+2026-10-03 09:50:05,684 [pay-core] DEBUG webhook evt_4cb9a397f00d97 verified
+2026-10-03 09:50:06,405 [pay-core] WARN  RefundService - refund.rejected id=re_uk5PpuAeObM1N7O6fe33 order=ORD-20525 code=insufficient_funds
+2026-10-03 09:50:19,777 [pay-core] WARN  RefundService - refund.rejected id=re_PqpfKitsmi6syrb8pJAH order=ORD-20028 code=expired_card
+2026-10-03 09:50:22,533 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:50:24,546 [pay-core] INFO  webhook evt_087f97fcb75c8d verified
+2026-10-03 09:50:30,359 [pay-core] DEBUG 3ds challenge completed
+2026-10-03 09:50:36,021 [pay-core] INFO  webhook evt_d1eb1d9119bd4e received type=charge.succeeded
+2026-10-03 09:50:37,719 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:50:38,171 [pay-core] DEBUG webhook evt_90bd5bab1ff488 verified
+2026-10-03 09:50:38,199 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:50:42,022 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:50:44,445 [pay-core] INFO  RefundService - refund.create id=re_MAc9F9ZYLJDaCudLkQKA order=ORD-20425 amount=42.49
+2026-10-03 09:50:44,673 [pay-core] INFO  RefundService - refund.settle id=re_MAc9F9ZYLJDaCudLkQKA status=succeeded
+2026-10-03 09:50:46,030 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:50:51,500 [pay-core] WARN  RefundService - refund.rejected id=re_gAAyeiAW4axb7nXXYNYA order=ORD-20475 code=expired_card
+2026-10-03 09:50:52,848 [pay-core] DEBUG fraud-score ok p95=84ms
+2026-10-03 09:50:56,974 [pay-core] INFO  webhook evt_146b75ea019843 verified
+2026-10-03 09:51:02,211 [pay-core] WARN  RefundService - refund.rejected id=re_AVDdR4akhY0RHR6P4Dv4 order=ORD-20156 code=avs_mismatch
+2026-10-03 09:51:06,406 [pay-core] INFO  webhook evt_b616884c63bd4e received type=charge.succeeded
+2026-10-03 09:51:10,567 [pay-core] WARN  RefundService - refund.rejected id=re_vh6yAnjZLDTdR2ggOI1Z order=ORD-20385 code=do_not_honor
+2026-10-03 09:51:12,454 [pay-core] WARN  RefundService - refund.rejected id=re_0P8zPGaihTIy3dJkz6Gg order=ORD-21143 code=do_not_honor
+2026-10-03 09:51:22,780 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:51:26,173 [pay-core] INFO  webhook evt_31591d82cba770 received type=charge.refunded
+2026-10-03 09:51:40,147 [pay-core] INFO  RefundService - refund.create id=re_CuuCOw6RkvAi5jaDMeRa order=ORD-20935 amount=573.47
+2026-10-03 09:51:40,464 [pay-core] INFO  RefundService - refund.settle id=re_CuuCOw6RkvAi5jaDMeRa status=succeeded
+2026-10-03 09:51:45,946 [pay-core] INFO  webhook evt_1039eccf541586 verified
+2026-10-03 09:51:46,232 [pay-core] WARN  RefundService - refund.rejected id=re_N0eMhoKjLFsGWpN3hMAz order=ORD-20001 code=do_not_honor
+2026-10-03 09:51:52,576 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:51:55,067 [pay-core] INFO  webhook evt_4c3d44e9e5a896 received type=charge.refunded
+2026-10-03 09:51:58,925 [pay-core] DEBUG webhook evt_841530a827cc5e verified
+2026-10-03 09:52:01,010 [pay-core] WARN  RefundService - refund.rejected id=re_f79UdSUPfyrNzUVlVwhG order=ORD-20567 code=card_declined
+2026-10-03 09:52:01,751 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.execute(FraudScoreClient.java:886)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:52:03,404 [pay-core] INFO  webhook evt_573a21d076d4fe received type=charge.succeeded
+2026-10-03 09:52:07,052 [pay-core] WARN  RefundService - refund.rejected id=re_LuIsL02jaSDEj2PAswQj order=ORD-20822 code=do_not_honor
+2026-10-03 09:52:08,486 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:52:10,422 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:52:13,503 [pay-core] INFO  webhook evt_c53799305a059d received type=charge.refunded
+2026-10-03 09:52:13,593 [pay-core] INFO  webhook evt_b02f3a51a65c8c received type=charge.succeeded
+2026-10-03 09:52:23,943 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:52:27,050 [pay-core] WARN  RefundService - refund.rejected id=re_1iBgCDVWm18bhJgYobbl order=ORD-20991 code=card_declined
+2026-10-03 09:52:45,713 [pay-core] INFO  webhook evt_0d23b5da2c301a received type=charge.succeeded
+2026-10-03 09:53:02,649 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:53:05,396 [pay-core] ERROR LedgerExporter: KeyError: 'merchant_ref'
+	at com.shop.payments.LedgerExporter.call(LedgerExporter.java:339)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:53:05,646 [pay-core] INFO  webhook evt_e25d62c2f18249 received type=charge.refunded
+2026-10-03 09:53:06,021 [pay-core] INFO  RefundService - refund.create id=re_3J9gGzXYyyjHpEJXHqdY order=ORD-20158 amount=324.77
+2026-10-03 09:53:06,248 [pay-core] INFO  RefundService - refund.settle id=re_3J9gGzXYyyjHpEJXHqdY status=succeeded
+2026-10-03 09:53:07,040 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:53:14,744 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:53:26,443 [pay-core] WARN  RefundService - refund.rejected id=re_WKgTBatxNsniMaGYaroG order=ORD-20158 code=card_declined
+2026-10-03 09:53:26,580 [pay-core] INFO  webhook evt_681d746b838d9a received type=charge.refunded
+2026-10-03 09:54:15,384 [pay-core] INFO  webhook evt_e952f0119017e7 verified
+2026-10-03 09:54:22,351 [pay-core] INFO  webhook evt_72ac6860a571bd received type=charge.succeeded
+2026-10-03 09:54:30,981 [pay-core] INFO  RefundService - refund.create id=re_O76Wl3sCewWXeOylEFHF order=ORD-20786 amount=214.44
+2026-10-03 09:54:31,245 [pay-core] WARN  RefundService - refund.rejected id=re_7ZOOq4mcZQpnq8wg5j8n order=ORD-19986 code=expired_card
+2026-10-03 09:54:31,256 [pay-core] INFO  RefundService - refund.settle id=re_O76Wl3sCewWXeOylEFHF status=succeeded
+2026-10-03 09:54:34,947 [pay-core] INFO  RefundService - refund.create id=re_M7f2OhwjUKt5MEg52OZO order=ORD-20248 amount=237.71
+2026-10-03 09:54:35,179 [pay-core] INFO  RefundService - refund.settle id=re_M7f2OhwjUKt5MEg52OZO status=succeeded
+2026-10-03 09:54:40,179 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:54:44,145 [pay-core] INFO  RefundService - refund.create id=re_Y9eFba4oQhXOAKnd6Gh9 order=ORD-20862 amount=427.98
+2026-10-03 09:54:44,393 [pay-core] INFO  RefundService - refund.settle id=re_Y9eFba4oQhXOAKnd6Gh9 status=succeeded
+2026-10-03 09:54:58,276 [pay-core] DEBUG token vault replica lag 90ms
+2026-10-03 09:55:04,453 [pay-core] INFO  RefundService - refund.create id=re_L9lxxa4m84un8xJTeL1A order=ORD-20889 amount=476.72
+2026-10-03 09:55:04,730 [pay-core] INFO  RefundService - refund.settle id=re_L9lxxa4m84un8xJTeL1A status=succeeded
+2026-10-03 09:55:13,582 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:55:14,474 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:55:22,678 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:55:30,787 [pay-core] INFO  webhook evt_99e242f8831b93 verified
+2026-10-03 09:55:35,924 [pay-core] DEBUG webhook evt_e3757de93e5f78 received type=charge.succeeded
+2026-10-03 09:55:36,680 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:55:54,671 [pay-core] INFO  webhook evt_2cea800f64efab verified
+2026-10-03 09:55:58,609 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:56:02,395 [pay-core] ERROR FraudScoreClient: ReadTimeout: fraud-score read timed out after 2000ms
+	at com.shop.payments.FraudScoreClient.invoke(FraudScoreClient.java:110)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:56:10,867 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:56:11,095 [pay-core] INFO  RefundService - refund.create id=re_J4aDb3Ha8TJQsZTUFsbn order=ORD-21112 amount=207.14
+2026-10-03 09:56:11,360 [pay-core] INFO  RefundService - refund.settle id=re_J4aDb3Ha8TJQsZTUFsbn status=succeeded
+2026-10-03 09:56:17,832 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:56:18,195 [pay-core] INFO  webhook evt_4a1a2c7ef8bd8b received type=charge.refunded
+2026-10-03 09:56:19,588 [pay-core] INFO  webhook evt_894d46e0dfd7f0 received type=charge.refunded
+2026-10-03 09:56:27,710 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:56:56,372 [pay-core] DEBUG settlement batch closed items=212
+2026-10-03 09:57:00,464 [pay-core] WARN  RefundService - refund.rejected id=re_61bYLsMuD056Z5INJM1W order=ORD-20026 code=avs_mismatch
+2026-10-03 09:57:13,118 [pay-core] INFO  RefundService - refund.create id=re_WamKKy3YlmajrliQgF4r order=ORD-20345 amount=16.53
+2026-10-03 09:57:13,329 [pay-core] INFO  RefundService - refund.settle id=re_WamKKy3YlmajrliQgF4r status=succeeded
+2026-10-03 09:57:21,828 [pay-core] DEBUG webhook evt_c9f0194e6aae8a received type=charge.refunded
+2026-10-03 09:57:41,942 [pay-core] INFO  RefundService - refund.create id=re_fYlwfO8U1z4dgLTdAdCk order=ORD-20248 amount=368.20
+2026-10-03 09:57:42,186 [pay-core] INFO  RefundService - refund.settle id=re_fYlwfO8U1z4dgLTdAdCk status=succeeded
+2026-10-03 09:57:44,632 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:57:45,868 [pay-core] WARN  RefundService - refund.rejected id=re_JRbYMfDr5Vq2x2hB3sIE order=ORD-19901 code=insufficient_funds
+2026-10-03 09:57:46,781 [pay-core] ERROR WebhookSignatureVerifier: InvalidSignatureError: signature mismatch for endpoint /hooks/psp-b
+	at com.shop.payments.WebhookSignatureVerifier.run(WebhookSignatureVerifier.java:356)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:57:56,357 [pay-core] INFO  RefundService - refund.create id=re_3i1xSXQ3Xm5axQjlk04k order=ORD-19853 amount=64.05
+2026-10-03 09:57:56,617 [pay-core] INFO  RefundService - refund.settle id=re_3i1xSXQ3Xm5axQjlk04k status=succeeded
+2026-10-03 09:58:19,452 [pay-core] WARN  RefundService - refund.rejected id=re_AG9Y3rGUjFj6g81Hj3Dc order=ORD-20391 code=expired_card
+2026-10-03 09:58:23,942 [pay-core] DEBUG webhook evt_52c10fe6f7e391 received type=charge.refunded
+2026-10-03 09:58:29,524 [pay-core] INFO  webhook evt_d1e91e68ec0191 verified
+2026-10-03 09:58:30,469 [pay-core] WARN  RefundService - refund.rejected id=re_lSdpjdfc2rTIHSlenopH order=ORD-20849 code=expired_card
+2026-10-03 09:58:36,579 [pay-core] INFO  webhook evt_8666c1cc17aede received type=charge.refunded
+2026-10-03 09:58:40,994 [pay-core] INFO  webhook evt_919931286e57d1 verified
+2026-10-03 09:58:42,024 [pay-core] WARN  RefundService - refund.rejected id=re_7FhE5btWKkRJd8h8icOA order=ORD-20453 code=card_declined
+2026-10-03 09:58:42,028 [pay-core] INFO  RefundService - refund.create id=re_PVqADJgBLE8UZ5wA21AC order=ORD-20519 amount=126.15
+2026-10-03 09:58:42,264 [pay-core] INFO  RefundService - refund.settle id=re_PVqADJgBLE8UZ5wA21AC status=succeeded
+2026-10-03 09:58:43,243 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:58:44,875 [pay-core] INFO  3ds challenge completed
+2026-10-03 09:58:51,069 [pay-core] WARN  RefundService - refund.rejected id=re_IA5mflcyiLDqzvY8CtNM order=ORD-20222 code=insufficient_funds
+2026-10-03 09:58:51,892 [pay-core] WARN  RefundService - refund.rejected id=re_hdFslhROUNJaZ4Y71woz order=ORD-20508 code=expired_card
+2026-10-03 09:58:53,009 [pay-core] INFO  webhook evt_c8825082473756 received type=charge.succeeded
+2026-10-03 09:59:00,307 [pay-core] INFO  webhook evt_7466be03ad053d verified
+2026-10-03 09:59:09,728 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:59:13,348 [pay-core] INFO  fraud-score ok p95=84ms
+2026-10-03 09:59:24,936 [pay-core] INFO  webhook evt_d97a262dd80b37 received type=charge.refunded
+2026-10-03 09:59:31,208 [pay-core] INFO  webhook evt_d48ca41e78ef8b received type=charge.refunded
+2026-10-03 09:59:32,862 [pay-core] INFO  RefundService - refund.create id=re_fJ00NrrbBiJraADiouww order=ORD-20968 amount=512.67
+2026-10-03 09:59:33,160 [pay-core] INFO  RefundService - refund.settle id=re_fJ00NrrbBiJraADiouww status=succeeded
+2026-10-03 09:59:35,796 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:59:36,843 [pay-core] INFO  token vault replica lag 90ms
+2026-10-03 09:59:36,849 [pay-core] INFO  settlement batch closed items=212
+2026-10-03 09:59:50,117 [pay-core] INFO  webhook evt_647256a887d9ec received type=charge.refunded
+2026-10-03 09:59:50,985 [pay-core] WARN  RefundService - refund.rejected id=re_Rk5mPHIrY29gFhEL262h order=ORD-19832 code=expired_card
+2026-10-03 09:59:52,559 [pay-core] INFO  fraud-score ok p95=84ms

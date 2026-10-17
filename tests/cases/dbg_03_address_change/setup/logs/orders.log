@@ -1,0 +1,953 @@
+2026-10-21T21:00:01.081+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:00:18.829+00:00 INFO  orders.amend [aa58092f179c] address amend started (lines=4)
+2026-10-21T21:00:18.890+00:00 INFO  orders.slots [aa58092f179c] re-slot SKU-13173 x1 -> lease LS-2267428
+2026-10-21T21:00:18.939+00:00 INFO  orders.slots [aa58092f179c] lease LS-2267428 acquired (46 ms)
+2026-10-21T21:00:18.990+00:00 INFO  orders.slots [aa58092f179c] re-slot SKU-15348 x3 -> lease LS-5486774
+2026-10-21T21:00:19.066+00:00 INFO  orders.slots [aa58092f179c] lease LS-5486774 acquired (73 ms)
+2026-10-21T21:00:19.130+00:00 INFO  orders.amend [aa58092f179c] amend committed total=33.18
+2026-10-21T21:00:22.169+00:00 INFO  orders.amend [9c9ddc2be5a5] address amend started (lines=4)
+2026-10-21T21:00:22.212+00:00 INFO  orders.slots [9c9ddc2be5a5] re-slot SKU-19483 x2 -> lease LS-2275789
+2026-10-21T21:00:22.251+00:00 INFO  orders.slots [9c9ddc2be5a5] lease LS-2275789 acquired (36 ms)
+2026-10-21T21:00:22.305+00:00 INFO  orders.slots [9c9ddc2be5a5] re-slot SKU-18893 x1 -> lease LS-7961697
+2026-10-21T21:00:22.329+00:00 INFO  orders.slots [9c9ddc2be5a5] lease LS-7961697 acquired (21 ms)
+2026-10-21T21:00:22.420+00:00 INFO  orders.amend [9c9ddc2be5a5] amend committed total=261.39
+2026-10-21T21:00:26.619+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:00:37.897+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:00:38.163+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:00:40.205+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:00:47.901+00:00 INFO  orders.amend [be6ad57ad2a0] address amend started (lines=2)
+2026-10-21T21:00:47.958+00:00 INFO  orders.slots [be6ad57ad2a0] re-slot SKU-25526 x4 -> lease LS-2795617
+2026-10-21T21:00:48.008+00:00 INFO  orders.slots [be6ad57ad2a0] lease LS-2795617 acquired (47 ms)
+2026-10-21T21:00:48.038+00:00 INFO  orders.slots [be6ad57ad2a0] re-slot SKU-40141 x2 -> lease LS-9458118
+2026-10-21T21:00:48.085+00:00 INFO  orders.slots [be6ad57ad2a0] lease LS-9458118 acquired (44 ms)
+2026-10-21T21:00:48.144+00:00 INFO  orders.amend [be6ad57ad2a0] amend committed total=399.78
+2026-10-21T21:01:05.161+00:00 INFO  orders.amend [0c9632368102] address amend started (lines=4)
+2026-10-21T21:01:05.199+00:00 INFO  orders.slots [0c9632368102] re-slot SKU-23414 x2 -> lease LS-8701805
+2026-10-21T21:01:05.220+00:00 INFO  orders.slots [0c9632368102] lease LS-8701805 acquired (18 ms)
+2026-10-21T21:01:05.300+00:00 INFO  orders.slots [0c9632368102] re-slot SKU-16377 x3 -> lease LS-7025673
+2026-10-21T21:01:05.347+00:00 INFO  orders.slots [0c9632368102] lease LS-7025673 acquired (44 ms)
+2026-10-21T21:01:05.441+00:00 INFO  orders.amend [0c9632368102] amend committed total=529.27
+2026-10-21T21:01:09.568+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:01:15.166+00:00 INFO  orders.amend [573ec3f23b45] address amend started (lines=3)
+2026-10-21T21:01:15.218+00:00 INFO  orders.slots [573ec3f23b45] re-slot SKU-28263 x1 -> lease LS-1893525
+2026-10-21T21:01:15.246+00:00 INFO  orders.slots [573ec3f23b45] lease LS-1893525 acquired (25 ms)
+2026-10-21T21:01:15.308+00:00 INFO  orders.slots [573ec3f23b45] re-slot SKU-27630 x3 -> lease LS-1917973
+2026-10-21T21:01:15.361+00:00 INFO  orders.slots [573ec3f23b45] lease LS-1917973 acquired (50 ms)
+2026-10-21T21:01:15.497+00:00 INFO  orders.amend [573ec3f23b45] amend committed total=577.66
+2026-10-21T21:01:19.484+00:00 INFO  orders.amend [58fa948b8da2] address amend started (lines=5)
+2026-10-21T21:01:19.534+00:00 INFO  orders.slots [58fa948b8da2] re-slot SKU-26494 x3 -> lease LS-1141405
+2026-10-21T21:01:19.559+00:00 INFO  orders.slots [58fa948b8da2] lease LS-1141405 acquired (22 ms)
+2026-10-21T21:01:19.608+00:00 INFO  orders.slots [58fa948b8da2] re-slot SKU-16668 x3 -> lease LS-9925245
+2026-10-21T21:01:19.680+00:00 INFO  orders.slots [58fa948b8da2] lease LS-9925245 acquired (69 ms)
+2026-10-21T21:01:19.795+00:00 INFO  orders.amend [58fa948b8da2] amend committed total=34.81
+2026-10-21T21:01:36.600+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:01:52.533+00:00 ERROR orders.InvoiceRenderer IllegalStateException: font cache not initialised
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 50, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+2026-10-21T21:01:54.485+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:02:02.263+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:02:57.647+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:03:03.961+00:00 INFO  orders.amend [327b81ea10b2] address amend started (lines=5)
+2026-10-21T21:03:04.001+00:00 INFO  orders.slots [327b81ea10b2] re-slot SKU-23954 x2 -> lease LS-7716656
+2026-10-21T21:03:04.037+00:00 INFO  orders.slots [327b81ea10b2] lease LS-7716656 acquired (33 ms)
+2026-10-21T21:03:04.069+00:00 INFO  orders.slots [327b81ea10b2] re-slot SKU-32433 x3 -> lease LS-8761818
+2026-10-21T21:03:04.107+00:00 INFO  orders.slots [327b81ea10b2] lease LS-8761818 acquired (35 ms)
+2026-10-21T21:03:04.154+00:00 INFO  orders.amend [327b81ea10b2] amend committed total=220.71
+2026-10-21T21:03:04.187+00:00 INFO  orders.amend [ed11a9f00c8d] address amend started (lines=1)
+2026-10-21T21:03:04.239+00:00 INFO  orders.slots [ed11a9f00c8d] re-slot SKU-30269 x1 -> lease LS-5470198
+2026-10-21T21:03:04.263+00:00 INFO  orders.slots [ed11a9f00c8d] lease LS-5470198 acquired (21 ms)
+2026-10-21T21:03:04.337+00:00 INFO  orders.slots [ed11a9f00c8d] re-slot SKU-59237 x1 -> lease LS-2293276
+2026-10-21T21:03:04.394+00:00 INFO  orders.slots [ed11a9f00c8d] lease LS-2293276 acquired (54 ms)
+2026-10-21T21:03:04.457+00:00 INFO  orders.amend [ed11a9f00c8d] amend committed total=327.01
+2026-10-21T21:03:16.578+00:00 INFO  orders.amend [59a1bb64f6a7] address amend started (lines=3)
+2026-10-21T21:03:16.615+00:00 INFO  orders.slots [59a1bb64f6a7] re-slot SKU-48287 x2 -> lease LS-5968513
+2026-10-21T21:03:16.634+00:00 INFO  orders.slots [59a1bb64f6a7] lease LS-5968513 acquired (16 ms)
+2026-10-21T21:03:16.681+00:00 INFO  orders.slots [59a1bb64f6a7] re-slot SKU-40336 x1 -> lease LS-7652244
+2026-10-21T21:03:16.720+00:00 INFO  orders.slots [59a1bb64f6a7] lease LS-7652244 acquired (36 ms)
+2026-10-21T21:03:16.753+00:00 INFO  orders.amend [59a1bb64f6a7] amend committed total=207.13
+2026-10-21T21:03:35.216+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:04:14.716+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:04:15.854+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:04:37.621+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:04:39.196+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:04:46.927+00:00 INFO  orders.amend [7ba5ef2840ec] address amend started (lines=4)
+2026-10-21T21:04:46.973+00:00 INFO  orders.slots [7ba5ef2840ec] re-slot SKU-36995 x3 -> lease LS-9581485
+2026-10-21T21:04:47.038+00:00 INFO  orders.slots [7ba5ef2840ec] lease LS-9581485 acquired (62 ms)
+2026-10-21T21:04:47.075+00:00 INFO  orders.slots [7ba5ef2840ec] re-slot SKU-25010 x3 -> lease LS-9315448
+2026-10-21T21:04:47.093+00:00 INFO  orders.slots [7ba5ef2840ec] lease LS-9315448 acquired (15 ms)
+2026-10-21T21:04:47.142+00:00 INFO  orders.amend [7ba5ef2840ec] amend committed total=341.97
+2026-10-21T21:04:50.459+00:00 INFO  orders.amend [496bbcc3d6d7] address amend started (lines=4)
+2026-10-21T21:04:50.509+00:00 INFO  orders.slots [496bbcc3d6d7] re-slot SKU-47218 x1 -> lease LS-5506141
+2026-10-21T21:04:50.526+00:00 INFO  orders.slots [496bbcc3d6d7] lease LS-5506141 acquired (14 ms)
+2026-10-21T21:04:50.624+00:00 INFO  orders.slots [496bbcc3d6d7] re-slot SKU-40660 x3 -> lease LS-1848801
+2026-10-21T21:04:50.688+00:00 INFO  orders.slots [496bbcc3d6d7] lease LS-1848801 acquired (61 ms)
+2026-10-21T21:04:50.759+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:04:50.772+00:00 INFO  orders.amend [496bbcc3d6d7] amend committed total=564.04
+2026-10-21T21:04:56.066+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:05:47.331+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:05:52.919+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:05:57.836+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:06:01.219+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:06:07.491+00:00 INFO  orders.amend [24c1578fd7a6] address amend started (lines=3)
+2026-10-21T21:06:07.530+00:00 INFO  orders.slots [24c1578fd7a6] re-slot SKU-29869 x2 -> lease LS-7935529
+2026-10-21T21:06:07.588+00:00 INFO  orders.slots [24c1578fd7a6] lease LS-7935529 acquired (55 ms)
+2026-10-21T21:06:07.640+00:00 INFO  orders.slots [24c1578fd7a6] re-slot SKU-12909 x2 -> lease LS-7622021
+2026-10-21T21:06:07.709+00:00 INFO  orders.slots [24c1578fd7a6] lease LS-7622021 acquired (66 ms)
+2026-10-21T21:06:07.828+00:00 INFO  orders.amend [24c1578fd7a6] amend committed total=34.94
+2026-10-21T21:06:19.605+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:06:47.323+00:00 ERROR orders.InvoiceRenderer IllegalStateException: font cache not initialised
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 109, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+2026-10-21T21:07:03.800+00:00 INFO  orders.amend [3bffb3cbfa5b] address amend started (lines=3)
+2026-10-21T21:07:03.827+00:00 INFO  orders.amend [6bd8597324f1] address amend started (lines=4)
+2026-10-21T21:07:03.831+00:00 INFO  orders.slots [3bffb3cbfa5b] re-slot SKU-58898 x1 -> lease LS-5575956
+2026-10-21T21:07:03.873+00:00 INFO  orders.slots [3bffb3cbfa5b] lease LS-5575956 acquired (39 ms)
+2026-10-21T21:07:03.884+00:00 INFO  orders.slots [6bd8597324f1] re-slot SKU-44689 x4 -> lease LS-9916760
+2026-10-21T21:07:03.937+00:00 INFO  orders.slots [6bd8597324f1] lease LS-9916760 acquired (50 ms)
+2026-10-21T21:07:03.949+00:00 INFO  orders.slots [3bffb3cbfa5b] re-slot SKU-22237 x3 -> lease LS-5201002
+2026-10-21T21:07:03.953+00:00 INFO  orders.slots [6bd8597324f1] re-slot SKU-57491 x2 -> lease LS-1280998
+2026-10-21T21:07:03.987+00:00 INFO  orders.slots [6bd8597324f1] lease LS-1280998 acquired (31 ms)
+2026-10-21T21:07:04.011+00:00 INFO  orders.slots [3bffb3cbfa5b] lease LS-5201002 acquired (59 ms)
+2026-10-21T21:07:04.112+00:00 INFO  orders.amend [6bd8597324f1] amend committed total=60.06
+2026-10-21T21:07:04.145+00:00 INFO  orders.amend [3bffb3cbfa5b] amend committed total=487.25
+2026-10-21T21:07:08.668+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:07:19.021+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:07:22.082+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:07:24.128+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:07:37.246+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:07:59.178+00:00 INFO  orders.amend [930fc8be7fff] address amend started (lines=3)
+2026-10-21T21:07:59.231+00:00 INFO  orders.slots [930fc8be7fff] re-slot SKU-24932 x1 -> lease LS-2582150
+2026-10-21T21:07:59.264+00:00 INFO  orders.slots [930fc8be7fff] lease LS-2582150 acquired (30 ms)
+2026-10-21T21:07:59.303+00:00 INFO  orders.slots [930fc8be7fff] re-slot SKU-52767 x2 -> lease LS-1114658
+2026-10-21T21:07:59.322+00:00 INFO  orders.slots [930fc8be7fff] lease LS-1114658 acquired (16 ms)
+2026-10-21T21:07:59.417+00:00 INFO  orders.amend [930fc8be7fff] amend committed total=218.98
+2026-10-21T21:08:07.959+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:08:17.616+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:08:21.968+00:00 INFO  orders.amend [4afe8047f4e3] address amend started (lines=5)
+2026-10-21T21:08:22.016+00:00 INFO  orders.slots [4afe8047f4e3] re-slot SKU-29877 x3 -> lease LS-7327379
+2026-10-21T21:08:22.077+00:00 INFO  orders.slots [4afe8047f4e3] re-slot SKU-37909 x2 -> lease LS-9826772
+2026-10-21T21:08:22.079+00:00 INFO  orders.slots [4afe8047f4e3] lease LS-7327379 acquired (60 ms)
+2026-10-21T21:08:22.095+00:00 INFO  orders.slots [4afe8047f4e3] lease LS-9826772 acquired (15 ms)
+2026-10-21T21:08:22.197+00:00 INFO  orders.amend [4afe8047f4e3] amend committed total=161.42
+2026-10-21T21:08:31.896+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:08:38.654+00:00 INFO  orders.amend [97ab83748fbc] address amend started (lines=3)
+2026-10-21T21:08:38.701+00:00 INFO  orders.slots [97ab83748fbc] re-slot SKU-15384 x2 -> lease LS-9146841
+2026-10-21T21:08:38.764+00:00 INFO  orders.slots [97ab83748fbc] lease LS-9146841 acquired (60 ms)
+2026-10-21T21:08:38.804+00:00 INFO  orders.slots [97ab83748fbc] re-slot SKU-15466 x3 -> lease LS-5904331
+2026-10-21T21:08:38.829+00:00 INFO  orders.slots [97ab83748fbc] lease LS-5904331 acquired (22 ms)
+2026-10-21T21:08:38.889+00:00 INFO  orders.amend [97ab83748fbc] amend committed total=63.19
+2026-10-21T21:08:40.132+00:00 INFO  orders.amend [4f50cd5df5c3] address amend started (lines=1)
+2026-10-21T21:08:40.170+00:00 INFO  orders.slots [4f50cd5df5c3] re-slot SKU-47268 x2 -> lease LS-7191308
+2026-10-21T21:08:40.210+00:00 INFO  orders.slots [4f50cd5df5c3] lease LS-7191308 acquired (37 ms)
+2026-10-21T21:08:40.240+00:00 INFO  orders.slots [4f50cd5df5c3] re-slot SKU-51755 x1 -> lease LS-2346116
+2026-10-21T21:08:40.256+00:00 INFO  orders.slots [4f50cd5df5c3] lease LS-2346116 acquired (13 ms)
+2026-10-21T21:08:40.388+00:00 INFO  orders.amend [4f50cd5df5c3] amend committed total=454.66
+2026-10-21T21:08:56.089+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:09:02.054+00:00 INFO  orders.amend [6bd8086209b2] address amend started (lines=3)
+2026-10-21T21:09:02.110+00:00 INFO  orders.slots [6bd8086209b2] re-slot SKU-27685 x2 -> lease LS-4814946
+2026-10-21T21:09:02.146+00:00 INFO  orders.slots [6bd8086209b2] lease LS-4814946 acquired (33 ms)
+2026-10-21T21:09:02.203+00:00 INFO  orders.slots [6bd8086209b2] re-slot SKU-12889 x1 -> lease LS-9881692
+2026-10-21T21:09:02.227+00:00 INFO  orders.slots [6bd8086209b2] lease LS-9881692 acquired (21 ms)
+2026-10-21T21:09:02.360+00:00 INFO  orders.amend [6bd8086209b2] amend committed total=101.52
+2026-10-21T21:09:13.051+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:10:06.328+00:00 INFO  orders.amend [361c8893990a] address amend started (lines=5)
+2026-10-21T21:10:06.379+00:00 INFO  orders.slots [361c8893990a] re-slot SKU-12871 x3 -> lease LS-2312491
+2026-10-21T21:10:06.416+00:00 INFO  orders.slots [361c8893990a] lease LS-2312491 acquired (34 ms)
+2026-10-21T21:10:06.485+00:00 INFO  orders.slots [361c8893990a] re-slot SKU-14491 x3 -> lease LS-9232814
+2026-10-21T21:10:06.505+00:00 INFO  orders.slots [361c8893990a] lease LS-9232814 acquired (17 ms)
+2026-10-21T21:10:06.550+00:00 INFO  orders.amend [361c8893990a] amend committed total=403.12
+2026-10-21T21:10:16.412+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:10:33.282+00:00 INFO  orders.amend [655fd16d1e7d] address amend started (lines=1)
+2026-10-21T21:10:33.319+00:00 INFO  orders.slots [655fd16d1e7d] re-slot SKU-30340 x2 -> lease LS-2099286
+2026-10-21T21:10:33.370+00:00 INFO  orders.slots [655fd16d1e7d] lease LS-2099286 acquired (48 ms)
+2026-10-21T21:10:33.406+00:00 INFO  orders.slots [655fd16d1e7d] re-slot SKU-30404 x2 -> lease LS-5233070
+2026-10-21T21:10:33.448+00:00 INFO  orders.slots [655fd16d1e7d] lease LS-5233070 acquired (39 ms)
+2026-10-21T21:10:33.580+00:00 INFO  orders.amend [655fd16d1e7d] amend committed total=397.18
+2026-10-21T21:10:41.792+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:10:43.354+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:11:12.320+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:11:44.232+00:00 INFO  orders.amend [7c0527e16b1a] address amend started (lines=2)
+2026-10-21T21:11:44.284+00:00 INFO  orders.slots [7c0527e16b1a] re-slot SKU-57654 x4 -> lease LS-2968129
+2026-10-21T21:11:44.335+00:00 INFO  orders.slots [7c0527e16b1a] lease LS-2968129 acquired (48 ms)
+2026-10-21T21:11:44.376+00:00 INFO  orders.slots [7c0527e16b1a] re-slot SKU-38748 x2 -> lease LS-6396656
+2026-10-21T21:11:44.417+00:00 INFO  orders.slots [7c0527e16b1a] lease LS-6396656 acquired (38 ms)
+2026-10-21T21:11:44.505+00:00 INFO  orders.amend [7c0527e16b1a] amend committed total=606.53
+2026-10-21T21:12:06.280+00:00 INFO  orders.amend [cea342c41424] address amend started (lines=4)
+2026-10-21T21:12:06.331+00:00 INFO  orders.slots [cea342c41424] re-slot SKU-39537 x2 -> lease LS-3125080
+2026-10-21T21:12:06.396+00:00 INFO  orders.slots [cea342c41424] lease LS-3125080 acquired (62 ms)
+2026-10-21T21:12:06.404+00:00 INFO  orders.slots [cea342c41424] re-slot SKU-19692 x3 -> lease LS-5558852
+2026-10-21T21:12:06.439+00:00 INFO  orders.slots [cea342c41424] lease LS-5558852 acquired (32 ms)
+2026-10-21T21:12:06.484+00:00 INFO  orders.amend [cea342c41424] amend committed total=431.08
+2026-10-21T21:12:08.439+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:12:37.825+00:00 INFO  orders.amend [9f4d9e8f978a] address amend started (lines=1)
+2026-10-21T21:12:37.861+00:00 INFO  orders.slots [9f4d9e8f978a] re-slot SKU-17702 x1 -> lease LS-9527349
+2026-10-21T21:12:37.891+00:00 INFO  orders.slots [9f4d9e8f978a] lease LS-9527349 acquired (27 ms)
+2026-10-21T21:12:37.927+00:00 INFO  orders.slots [9f4d9e8f978a] re-slot SKU-14642 x1 -> lease LS-1702470
+2026-10-21T21:12:37.999+00:00 INFO  orders.slots [9f4d9e8f978a] lease LS-1702470 acquired (69 ms)
+2026-10-21T21:12:38.073+00:00 INFO  orders.amend [9f4d9e8f978a] amend committed total=597.60
+2026-10-21T21:12:50.625+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:12:51.234+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:13:00.205+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:13:10.062+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:13:39.786+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:13:56.835+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:14:11.372+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:14:23.760+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:14:35.516+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:14:41.233+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:15:03.949+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:15:17.581+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:15:27.190+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:15:41.179+00:00 INFO  orders.amend [e9475cda7f9c] address amend started (lines=2)
+2026-10-21T21:15:41.225+00:00 INFO  orders.slots [e9475cda7f9c] re-slot SKU-22041 x4 -> lease LS-6847842
+2026-10-21T21:15:41.289+00:00 INFO  orders.slots [e9475cda7f9c] lease LS-6847842 acquired (61 ms)
+2026-10-21T21:15:41.343+00:00 INFO  orders.slots [e9475cda7f9c] re-slot SKU-31407 x3 -> lease LS-9701283
+2026-10-21T21:15:41.412+00:00 INFO  orders.slots [e9475cda7f9c] lease LS-9701283 acquired (66 ms)
+2026-10-21T21:15:41.444+00:00 INFO  orders.amend [e9475cda7f9c] amend committed total=190.32
+2026-10-21T21:15:42.621+00:00 INFO  orders.amend [663cd3117d69] address amend started (lines=2)
+2026-10-21T21:15:42.654+00:00 INFO  orders.slots [663cd3117d69] re-slot SKU-39830 x1 -> lease LS-9448148
+2026-10-21T21:15:42.705+00:00 INFO  orders.slots [663cd3117d69] lease LS-9448148 acquired (48 ms)
+2026-10-21T21:15:42.765+00:00 INFO  orders.slots [663cd3117d69] re-slot SKU-57028 x2 -> lease LS-7502514
+2026-10-21T21:15:42.803+00:00 INFO  orders.slots [663cd3117d69] lease LS-7502514 acquired (35 ms)
+2026-10-21T21:15:42.876+00:00 INFO  orders.amend [663cd3117d69] amend committed total=525.78
+2026-10-21T21:15:42.881+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:15:45.014+00:00 INFO  orders.amend [77f94b66e27d] address amend started (lines=2)
+2026-10-21T21:15:45.051+00:00 INFO  orders.slots [77f94b66e27d] re-slot SKU-49893 x3 -> lease LS-1076727
+2026-10-21T21:15:45.083+00:00 INFO  orders.slots [77f94b66e27d] lease LS-1076727 acquired (29 ms)
+2026-10-21T21:15:45.127+00:00 INFO  orders.slots [77f94b66e27d] re-slot SKU-59591 x2 -> lease LS-3741916
+2026-10-21T21:15:45.142+00:00 INFO  orders.slots [77f94b66e27d] lease LS-3741916 acquired (12 ms)
+2026-10-21T21:15:45.174+00:00 INFO  orders.amend [77f94b66e27d] amend committed total=202.32
+2026-10-21T21:16:04.155+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:16:24.279+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:16:32.150+00:00 INFO  orders.amend [6d0a5b8e60fc] address amend started (lines=1)
+2026-10-21T21:16:32.200+00:00 INFO  orders.slots [6d0a5b8e60fc] re-slot SKU-51418 x1 -> lease LS-4952039
+2026-10-21T21:16:32.241+00:00 INFO  orders.slots [6d0a5b8e60fc] lease LS-4952039 acquired (38 ms)
+2026-10-21T21:16:32.317+00:00 INFO  orders.slots [6d0a5b8e60fc] re-slot SKU-51984 x2 -> lease LS-6316055
+2026-10-21T21:16:32.361+00:00 INFO  orders.slots [6d0a5b8e60fc] lease LS-6316055 acquired (41 ms)
+2026-10-21T21:16:32.444+00:00 INFO  orders.amend [6d0a5b8e60fc] amend committed total=324.40
+2026-10-21T21:16:41.572+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:16:47.139+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:16:57.939+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:17:26.479+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:17:32.770+00:00 INFO  orders.amend [efc64b80a658] address amend started (lines=1)
+2026-10-21T21:17:32.819+00:00 INFO  orders.slots [efc64b80a658] re-slot SKU-30544 x3 -> lease LS-5091968
+2026-10-21T21:17:32.863+00:00 INFO  orders.slots [efc64b80a658] lease LS-5091968 acquired (41 ms)
+2026-10-21T21:17:32.892+00:00 INFO  orders.slots [efc64b80a658] re-slot SKU-10547 x2 -> lease LS-7867897
+2026-10-21T21:17:32.939+00:00 INFO  orders.slots [efc64b80a658] lease LS-7867897 acquired (44 ms)
+2026-10-21T21:17:33.002+00:00 INFO  orders.amend [efc64b80a658] amend committed total=244.08
+2026-10-21T21:17:37.933+00:00 INFO  orders.amend [a90b99487b8e] address amend started (lines=2)
+2026-10-21T21:17:37.993+00:00 INFO  orders.slots [a90b99487b8e] re-slot SKU-43367 x2 -> lease LS-4438315
+2026-10-21T21:17:38.046+00:00 INFO  orders.slots [a90b99487b8e] lease LS-4438315 acquired (50 ms)
+2026-10-21T21:17:38.081+00:00 INFO  orders.slots [a90b99487b8e] re-slot SKU-22849 x2 -> lease LS-3545714
+2026-10-21T21:17:38.110+00:00 INFO  orders.slots [a90b99487b8e] lease LS-3545714 acquired (26 ms)
+2026-10-21T21:17:38.192+00:00 INFO  orders.amend [a90b99487b8e] amend committed total=337.60
+2026-10-21T21:17:39.308+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:18:08.306+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:18:21.470+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:18:40.014+00:00 INFO  orders.amend [9c98e064796f] address amend started (lines=2)
+2026-10-21T21:18:40.070+00:00 INFO  orders.slots [9c98e064796f] re-slot SKU-56311 x3 -> lease LS-2780165
+2026-10-21T21:18:40.093+00:00 INFO  orders.slots [9c98e064796f] lease LS-2780165 acquired (20 ms)
+2026-10-21T21:18:40.187+00:00 INFO  orders.slots [9c98e064796f] re-slot SKU-57865 x1 -> lease LS-2513466
+2026-10-21T21:18:45.005+00:00 WARN  orders.slots [9c98e064796f] lease LS-2513466 not acquired, caller disconnected after 4818 ms
+2026-10-21T21:18:46.759+00:00 INFO  orders.amend [c0af252fde0d] address amend started (lines=1)
+2026-10-21T21:18:46.812+00:00 INFO  orders.slots [c0af252fde0d] re-slot SKU-50299 x1 -> lease LS-4999609
+2026-10-21T21:18:46.871+00:00 INFO  orders.slots [c0af252fde0d] lease LS-4999609 acquired (56 ms)
+2026-10-21T21:18:46.884+00:00 INFO  orders.slots [c0af252fde0d] re-slot SKU-36312 x3 -> lease LS-3176899
+2026-10-21T21:18:46.902+00:00 INFO  orders.slots [c0af252fde0d] lease LS-3176899 acquired (15 ms)
+2026-10-21T21:18:46.956+00:00 INFO  orders.amend [c0af252fde0d] amend committed total=530.48
+2026-10-21T21:18:55.346+00:00 INFO  orders.amend [f450e54e3d2b] address amend started (lines=1)
+2026-10-21T21:18:55.386+00:00 INFO  orders.slots [f450e54e3d2b] re-slot SKU-22000 x2 -> lease LS-2471673
+2026-10-21T21:18:55.404+00:00 INFO  orders.slots [f450e54e3d2b] lease LS-2471673 acquired (15 ms)
+2026-10-21T21:18:55.479+00:00 INFO  orders.slots [f450e54e3d2b] re-slot SKU-56795 x3 -> lease LS-6526935
+2026-10-21T21:18:55.526+00:00 INFO  orders.slots [f450e54e3d2b] lease LS-6526935 acquired (44 ms)
+2026-10-21T21:18:55.630+00:00 INFO  orders.amend [f450e54e3d2b] amend committed total=579.41
+2026-10-21T21:19:25.491+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:19:33.941+00:00 INFO  orders.amend [61d598173d81] address amend started (lines=4)
+2026-10-21T21:19:33.996+00:00 INFO  orders.slots [61d598173d81] re-slot SKU-26082 x3 -> lease LS-9531610
+2026-10-21T21:19:34.022+00:00 INFO  orders.slots [61d598173d81] lease LS-9531610 acquired (23 ms)
+2026-10-21T21:19:34.080+00:00 INFO  orders.slots [61d598173d81] re-slot SKU-36627 x3 -> lease LS-9209208
+2026-10-21T21:19:34.155+00:00 INFO  orders.slots [61d598173d81] lease LS-9209208 acquired (72 ms)
+2026-10-21T21:19:34.201+00:00 INFO  orders.amend [61d598173d81] amend committed total=618.77
+2026-10-21T21:19:35.475+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:19:53.064+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:20:00.290+00:00 INFO  orders.amend [c2529a601718] address amend started (lines=5)
+2026-10-21T21:20:00.348+00:00 INFO  orders.slots [c2529a601718] re-slot SKU-10033 x4 -> lease LS-5817907
+2026-10-21T21:20:00.370+00:00 INFO  orders.slots [c2529a601718] lease LS-5817907 acquired (19 ms)
+2026-10-21T21:20:00.455+00:00 INFO  orders.slots [c2529a601718] re-slot SKU-49262 x3 -> lease LS-3593760
+2026-10-21T21:20:00.513+00:00 INFO  orders.slots [c2529a601718] lease LS-3593760 acquired (55 ms)
+2026-10-21T21:20:00.591+00:00 INFO  orders.amend [c2529a601718] amend committed total=467.78
+2026-10-21T21:20:09.992+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:20:32.495+00:00 INFO  orders.amend [c2dcc3e72d84] address amend started (lines=3)
+2026-10-21T21:20:32.547+00:00 INFO  orders.slots [c2dcc3e72d84] re-slot SKU-40063 x1 -> lease LS-1063616
+2026-10-21T21:20:32.597+00:00 INFO  orders.slots [c2dcc3e72d84] lease LS-1063616 acquired (47 ms)
+2026-10-21T21:20:32.655+00:00 INFO  orders.slots [c2dcc3e72d84] re-slot SKU-40572 x2 -> lease LS-4367598
+2026-10-21T21:20:32.682+00:00 INFO  orders.slots [c2dcc3e72d84] lease LS-4367598 acquired (24 ms)
+2026-10-21T21:20:32.754+00:00 INFO  orders.amend [c2dcc3e72d84] amend committed total=310.94
+2026-10-21T21:20:33.694+00:00 INFO  orders.amend [d3c2ed8eea4f] address amend started (lines=5)
+2026-10-21T21:20:33.733+00:00 INFO  orders.slots [d3c2ed8eea4f] re-slot SKU-37782 x3 -> lease LS-2426602
+2026-10-21T21:20:33.782+00:00 INFO  orders.slots [d3c2ed8eea4f] lease LS-2426602 acquired (46 ms)
+2026-10-21T21:20:33.828+00:00 INFO  orders.slots [d3c2ed8eea4f] re-slot SKU-59436 x3 -> lease LS-6963729
+2026-10-21T21:20:33.864+00:00 INFO  orders.slots [d3c2ed8eea4f] lease LS-6963729 acquired (33 ms)
+2026-10-21T21:20:33.943+00:00 INFO  orders.amend [d3c2ed8eea4f] amend committed total=592.33
+2026-10-21T21:20:36.645+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:20:41.943+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:20:46.186+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:20:46.318+00:00 INFO  orders.amend [e5f956bb5636] address amend started (lines=5)
+2026-10-21T21:20:46.361+00:00 INFO  orders.slots [e5f956bb5636] re-slot SKU-54131 x4 -> lease LS-2695661
+2026-10-21T21:20:46.391+00:00 INFO  orders.slots [e5f956bb5636] lease LS-2695661 acquired (27 ms)
+2026-10-21T21:20:46.469+00:00 INFO  orders.slots [e5f956bb5636] re-slot SKU-34900 x3 -> lease LS-1678895
+2026-10-21T21:20:46.542+00:00 INFO  orders.slots [e5f956bb5636] lease LS-1678895 acquired (70 ms)
+2026-10-21T21:20:46.599+00:00 INFO  orders.amend [e5f956bb5636] amend committed total=374.48
+2026-10-21T21:21:11.020+00:00 INFO  orders.amend [433d43a6831b] address amend started (lines=4)
+2026-10-21T21:21:11.080+00:00 INFO  orders.slots [433d43a6831b] re-slot SKU-16962 x1 -> lease LS-4587108
+2026-10-21T21:21:11.101+00:00 INFO  orders.slots [433d43a6831b] lease LS-4587108 acquired (18 ms)
+2026-10-21T21:21:11.192+00:00 INFO  orders.slots [433d43a6831b] re-slot SKU-51294 x1 -> lease LS-5495819
+2026-10-21T21:21:11.267+00:00 INFO  orders.slots [433d43a6831b] lease LS-5495819 acquired (72 ms)
+2026-10-21T21:21:11.308+00:00 INFO  orders.amend [433d43a6831b] amend committed total=414.16
+2026-10-21T21:21:14.434+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:21:48.054+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:21:53.391+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:21:57.668+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:21:58.176+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:21:58.604+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:22:00.610+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:22:18.262+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:22:27.561+00:00 INFO  orders.amend [93b6c4e755bf] address amend started (lines=2)
+2026-10-21T21:22:27.618+00:00 INFO  orders.slots [93b6c4e755bf] re-slot SKU-13857 x2 -> lease LS-4750927
+2026-10-21T21:22:27.653+00:00 INFO  orders.slots [93b6c4e755bf] lease LS-4750927 acquired (32 ms)
+2026-10-21T21:22:27.703+00:00 INFO  orders.slots [93b6c4e755bf] re-slot SKU-33628 x2 -> lease LS-8547474
+2026-10-21T21:22:27.759+00:00 INFO  orders.slots [93b6c4e755bf] lease LS-8547474 acquired (53 ms)
+2026-10-21T21:22:27.817+00:00 INFO  orders.amend [93b6c4e755bf] amend committed total=471.19
+2026-10-21T21:22:34.282+00:00 INFO  orders.amend [35cf7cdcd1dd] address amend started (lines=3)
+2026-10-21T21:22:34.326+00:00 INFO  orders.slots [35cf7cdcd1dd] re-slot SKU-55749 x2 -> lease LS-3258709
+2026-10-21T21:22:34.375+00:00 INFO  orders.slots [35cf7cdcd1dd] lease LS-3258709 acquired (46 ms)
+2026-10-21T21:22:34.399+00:00 INFO  orders.slots [35cf7cdcd1dd] re-slot SKU-30776 x1 -> lease LS-1092193
+2026-10-21T21:22:34.471+00:00 INFO  orders.slots [35cf7cdcd1dd] lease LS-1092193 acquired (69 ms)
+2026-10-21T21:22:34.534+00:00 INFO  orders.amend [35cf7cdcd1dd] amend committed total=359.68
+2026-10-21T21:22:53.324+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:22:53.630+00:00 INFO  orders.amend [f71506e184a3] address amend started (lines=2)
+2026-10-21T21:22:53.690+00:00 INFO  orders.slots [f71506e184a3] re-slot SKU-36269 x2 -> lease LS-7450348
+2026-10-21T21:22:53.725+00:00 INFO  orders.slots [f71506e184a3] lease LS-7450348 acquired (32 ms)
+2026-10-21T21:22:53.756+00:00 INFO  orders.slots [f71506e184a3] re-slot SKU-10575 x2 -> lease LS-7081846
+2026-10-21T21:22:53.825+00:00 INFO  orders.slots [f71506e184a3] lease LS-7081846 acquired (66 ms)
+2026-10-21T21:22:53.946+00:00 INFO  orders.amend [f71506e184a3] amend committed total=198.76
+2026-10-21T21:22:56.722+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:23:13.267+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:23:18.677+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:23:43.443+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:23:53.864+00:00 INFO  orders.amend [37e4b664c1d2] address amend started (lines=4)
+2026-10-21T21:23:53.898+00:00 INFO  orders.slots [37e4b664c1d2] re-slot SKU-20928 x4 -> lease LS-7442538
+2026-10-21T21:23:53.916+00:00 INFO  orders.slots [37e4b664c1d2] lease LS-7442538 acquired (15 ms)
+2026-10-21T21:23:54.017+00:00 INFO  orders.slots [37e4b664c1d2] re-slot SKU-16773 x3 -> lease LS-1481358
+2026-10-21T21:23:54.074+00:00 INFO  orders.slots [37e4b664c1d2] lease LS-1481358 acquired (54 ms)
+2026-10-21T21:23:54.157+00:00 INFO  orders.amend [37e4b664c1d2] amend committed total=284.47
+2026-10-21T21:23:56.861+00:00 INFO  orders.amend [07bbcb551107] address amend started (lines=2)
+2026-10-21T21:23:56.899+00:00 INFO  orders.slots [07bbcb551107] re-slot SKU-39996 x3 -> lease LS-5733758
+2026-10-21T21:23:56.959+00:00 INFO  orders.slots [07bbcb551107] lease LS-5733758 acquired (57 ms)
+2026-10-21T21:23:57.017+00:00 INFO  orders.slots [07bbcb551107] re-slot SKU-31783 x2 -> lease LS-3867588
+2026-10-21T21:23:57.049+00:00 INFO  orders.slots [07bbcb551107] lease LS-3867588 acquired (29 ms)
+2026-10-21T21:23:57.088+00:00 INFO  orders.amend [07bbcb551107] amend committed total=492.05
+2026-10-21T21:24:16.191+00:00 INFO  orders.amend [1c0a3be46772] address amend started (lines=5)
+2026-10-21T21:24:16.250+00:00 INFO  orders.slots [1c0a3be46772] re-slot SKU-47750 x1 -> lease LS-4510946
+2026-10-21T21:24:16.316+00:00 INFO  orders.slots [1c0a3be46772] lease LS-4510946 acquired (63 ms)
+2026-10-21T21:24:16.328+00:00 INFO  orders.slots [1c0a3be46772] re-slot SKU-37153 x3 -> lease LS-9654026
+2026-10-21T21:24:16.399+00:00 INFO  orders.slots [1c0a3be46772] lease LS-9654026 acquired (68 ms)
+2026-10-21T21:24:16.442+00:00 INFO  orders.amend [1c0a3be46772] amend committed total=253.11
+2026-10-21T21:24:27.855+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:24:28.437+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:24:57.421+00:00 INFO  orders.amend [e2e20d25ca8e] address amend started (lines=2)
+2026-10-21T21:24:57.476+00:00 INFO  orders.slots [e2e20d25ca8e] re-slot SKU-42294 x2 -> lease LS-9577589
+2026-10-21T21:24:57.507+00:00 INFO  orders.slots [e2e20d25ca8e] lease LS-9577589 acquired (28 ms)
+2026-10-21T21:24:57.543+00:00 INFO  orders.slots [e2e20d25ca8e] re-slot SKU-43157 x3 -> lease LS-4115611
+2026-10-21T21:24:57.595+00:00 INFO  orders.slots [e2e20d25ca8e] lease LS-4115611 acquired (49 ms)
+2026-10-21T21:24:57.711+00:00 INFO  orders.amend [e2e20d25ca8e] amend committed total=68.27
+2026-10-21T21:25:00.018+00:00 ERROR orders.PromoCodeResolver NullPointerException: Cannot invoke Promo.getRules() because promo is null
+Traceback (most recent call last):
+  File "/srv/orders/PromoCodeResolver.py", line 216, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+NullPointerException: Cannot invoke Promo.getRules() because promo is null
+2026-10-21T21:25:02.092+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:25:03.680+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:25:05.410+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:25:12.450+00:00 INFO  orders.amend [28f8209689bb] address amend started (lines=3)
+2026-10-21T21:25:12.494+00:00 INFO  orders.slots [28f8209689bb] re-slot SKU-42356 x2 -> lease LS-2211101
+2026-10-21T21:25:12.517+00:00 INFO  orders.slots [28f8209689bb] lease LS-2211101 acquired (20 ms)
+2026-10-21T21:25:12.572+00:00 INFO  orders.slots [28f8209689bb] re-slot SKU-59700 x2 -> lease LS-2718205
+2026-10-21T21:25:12.612+00:00 INFO  orders.slots [28f8209689bb] lease LS-2718205 acquired (37 ms)
+2026-10-21T21:25:12.666+00:00 INFO  orders.amend [28f8209689bb] amend committed total=439.53
+2026-10-21T21:25:19.629+00:00 INFO  orders.amend [a6af2791f48c] address amend started (lines=2)
+2026-10-21T21:25:19.674+00:00 INFO  orders.slots [a6af2791f48c] re-slot SKU-12440 x1 -> lease LS-1566231
+2026-10-21T21:25:19.730+00:00 INFO  orders.slots [a6af2791f48c] lease LS-1566231 acquired (53 ms)
+2026-10-21T21:25:19.782+00:00 INFO  orders.slots [a6af2791f48c] re-slot SKU-20559 x2 -> lease LS-8481813
+2026-10-21T21:25:19.830+00:00 INFO  orders.slots [a6af2791f48c] lease LS-8481813 acquired (45 ms)
+2026-10-21T21:25:19.870+00:00 INFO  orders.amend [a6af2791f48c] amend committed total=433.67
+2026-10-21T21:25:30.239+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:25:48.515+00:00 INFO  orders.amend [73567ac0ab87] address amend started (lines=4)
+2026-10-21T21:25:48.558+00:00 INFO  orders.slots [73567ac0ab87] re-slot SKU-23710 x2 -> lease LS-8634645
+2026-10-21T21:25:48.594+00:00 INFO  orders.slots [73567ac0ab87] lease LS-8634645 acquired (33 ms)
+2026-10-21T21:25:48.665+00:00 INFO  orders.slots [73567ac0ab87] re-slot SKU-51665 x1 -> lease LS-8584775
+2026-10-21T21:25:48.731+00:00 INFO  orders.slots [73567ac0ab87] lease LS-8584775 acquired (63 ms)
+2026-10-21T21:25:48.819+00:00 INFO  orders.amend [73567ac0ab87] amend committed total=360.07
+2026-10-21T21:26:31.316+00:00 INFO  orders.amend [447951d5423a] address amend started (lines=4)
+2026-10-21T21:26:31.361+00:00 INFO  orders.slots [447951d5423a] re-slot SKU-23794 x1 -> lease LS-5982916
+2026-10-21T21:26:31.406+00:00 INFO  orders.slots [447951d5423a] lease LS-5982916 acquired (42 ms)
+2026-10-21T21:26:31.446+00:00 INFO  orders.slots [447951d5423a] re-slot SKU-51108 x3 -> lease LS-9042714
+2026-10-21T21:26:31.507+00:00 INFO  orders.slots [447951d5423a] lease LS-9042714 acquired (58 ms)
+2026-10-21T21:26:31.576+00:00 INFO  orders.amend [447951d5423a] amend committed total=343.17
+2026-10-21T21:27:03.580+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:27:26.403+00:00 INFO  orders.amend [0f9c5c308dc1] address amend started (lines=4)
+2026-10-21T21:27:26.452+00:00 INFO  orders.slots [0f9c5c308dc1] re-slot SKU-15143 x1 -> lease LS-6221478
+2026-10-21T21:27:26.494+00:00 INFO  orders.slots [0f9c5c308dc1] lease LS-6221478 acquired (39 ms)
+2026-10-21T21:27:26.528+00:00 INFO  orders.slots [0f9c5c308dc1] re-slot SKU-38251 x3 -> lease LS-1445866
+2026-10-21T21:27:26.560+00:00 INFO  orders.slots [0f9c5c308dc1] lease LS-1445866 acquired (29 ms)
+2026-10-21T21:27:26.651+00:00 INFO  orders.amend [0f9c5c308dc1] amend committed total=278.58
+2026-10-21T21:27:35.777+00:00 INFO  orders.amend [552c57b0aefa] address amend started (lines=5)
+2026-10-21T21:27:35.832+00:00 INFO  orders.slots [552c57b0aefa] re-slot SKU-13014 x2 -> lease LS-3542306
+2026-10-21T21:27:35.892+00:00 INFO  orders.slots [552c57b0aefa] lease LS-3542306 acquired (57 ms)
+2026-10-21T21:27:35.942+00:00 INFO  orders.slots [552c57b0aefa] re-slot SKU-51284 x2 -> lease LS-8209058
+2026-10-21T21:27:36.010+00:00 INFO  orders.slots [552c57b0aefa] lease LS-8209058 acquired (65 ms)
+2026-10-21T21:27:36.087+00:00 INFO  orders.amend [552c57b0aefa] amend committed total=111.31
+2026-10-21T21:27:40.954+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:27:42.194+00:00 INFO  orders.amend [04665369b79e] address amend started (lines=3)
+2026-10-21T21:27:42.238+00:00 INFO  orders.slots [04665369b79e] re-slot SKU-21914 x2 -> lease LS-7561223
+2026-10-21T21:27:42.260+00:00 INFO  orders.slots [04665369b79e] lease LS-7561223 acquired (19 ms)
+2026-10-21T21:27:42.323+00:00 INFO  orders.slots [04665369b79e] re-slot SKU-17567 x1 -> lease LS-3858545
+2026-10-21T21:27:42.348+00:00 INFO  orders.slots [04665369b79e] lease LS-3858545 acquired (22 ms)
+2026-10-21T21:27:42.422+00:00 INFO  orders.amend [04665369b79e] amend committed total=75.51
+2026-10-21T21:28:06.918+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:28:09.551+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:28:13.825+00:00 INFO  orders.amend [db7eae757736] address amend started (lines=2)
+2026-10-21T21:28:13.876+00:00 INFO  orders.slots [db7eae757736] re-slot SKU-17878 x1 -> lease LS-6353656
+2026-10-21T21:28:13.918+00:00 INFO  orders.slots [db7eae757736] lease LS-6353656 acquired (39 ms)
+2026-10-21T21:28:13.936+00:00 INFO  orders.slots [db7eae757736] re-slot SKU-53388 x1 -> lease LS-1490529
+2026-10-21T21:28:13.979+00:00 INFO  orders.slots [db7eae757736] lease LS-1490529 acquired (40 ms)
+2026-10-21T21:28:14.052+00:00 INFO  orders.amend [db7eae757736] amend committed total=237.01
+2026-10-21T21:28:15.483+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:28:17.573+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:28:48.014+00:00 INFO  orders.amend [06bed2693f2f] address amend started (lines=2)
+2026-10-21T21:28:48.061+00:00 INFO  orders.slots [06bed2693f2f] re-slot SKU-39638 x1 -> lease LS-6022499
+2026-10-21T21:28:48.082+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:28:48.121+00:00 INFO  orders.slots [06bed2693f2f] re-slot SKU-25657 x2 -> lease LS-5146770
+2026-10-21T21:28:48.128+00:00 INFO  orders.slots [06bed2693f2f] lease LS-6022499 acquired (64 ms)
+2026-10-21T21:28:48.196+00:00 INFO  orders.slots [06bed2693f2f] lease LS-5146770 acquired (72 ms)
+2026-10-21T21:28:48.292+00:00 INFO  orders.amend [06bed2693f2f] amend committed total=376.59
+2026-10-21T21:29:04.051+00:00 INFO  orders.amend [bafe86176d98] address amend started (lines=3)
+2026-10-21T21:29:04.101+00:00 INFO  orders.slots [bafe86176d98] re-slot SKU-35859 x4 -> lease LS-1810079
+2026-10-21T21:29:04.154+00:00 INFO  orders.slots [bafe86176d98] lease LS-1810079 acquired (50 ms)
+2026-10-21T21:29:04.195+00:00 INFO  orders.slots [bafe86176d98] re-slot SKU-56209 x1 -> lease LS-6046885
+2026-10-21T21:29:04.255+00:00 INFO  orders.slots [bafe86176d98] lease LS-6046885 acquired (57 ms)
+2026-10-21T21:29:04.319+00:00 INFO  orders.amend [bafe86176d98] amend committed total=167.17
+2026-10-21T21:29:06.401+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:29:08.500+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:29:47.759+00:00 INFO  orders.amend [762597e62e87] address amend started (lines=2)
+2026-10-21T21:29:47.796+00:00 INFO  orders.slots [762597e62e87] re-slot SKU-54035 x4 -> lease LS-6549346
+2026-10-21T21:29:47.848+00:00 INFO  orders.slots [762597e62e87] lease LS-6549346 acquired (49 ms)
+2026-10-21T21:29:47.869+00:00 INFO  orders.slots [762597e62e87] re-slot SKU-59550 x2 -> lease LS-3192130
+2026-10-21T21:29:47.930+00:00 INFO  orders.slots [762597e62e87] lease LS-3192130 acquired (58 ms)
+2026-10-21T21:29:47.994+00:00 INFO  orders.amend [762597e62e87] amend committed total=301.22
+2026-10-21T21:29:53.974+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:29:59.166+00:00 INFO  orders.amend [004cbfb3bd79] address amend started (lines=2)
+2026-10-21T21:29:59.211+00:00 INFO  orders.slots [004cbfb3bd79] re-slot SKU-27205 x1 -> lease LS-9940617
+2026-10-21T21:29:59.232+00:00 INFO  orders.slots [004cbfb3bd79] lease LS-9940617 acquired (18 ms)
+2026-10-21T21:29:59.296+00:00 INFO  orders.slots [004cbfb3bd79] re-slot SKU-35512 x1 -> lease LS-9539885
+2026-10-21T21:29:59.364+00:00 INFO  orders.slots [004cbfb3bd79] lease LS-9539885 acquired (65 ms)
+2026-10-21T21:29:59.480+00:00 INFO  orders.amend [004cbfb3bd79] amend committed total=112.84
+2026-10-21T21:30:13.470+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:30:18.437+00:00 INFO  orders.amend [61d45c0d9717] address amend started (lines=1)
+2026-10-21T21:30:18.494+00:00 INFO  orders.slots [61d45c0d9717] re-slot SKU-58244 x3 -> lease LS-9789244
+2026-10-21T21:30:18.551+00:00 INFO  orders.slots [61d45c0d9717] lease LS-9789244 acquired (54 ms)
+2026-10-21T21:30:18.604+00:00 INFO  orders.slots [61d45c0d9717] re-slot SKU-37750 x1 -> lease LS-8904834
+2026-10-21T21:30:18.638+00:00 INFO  orders.slots [61d45c0d9717] lease LS-8904834 acquired (31 ms)
+2026-10-21T21:30:18.666+00:00 INFO  orders.amend [61d45c0d9717] amend committed total=172.57
+2026-10-21T21:30:45.542+00:00 INFO  orders.amend [5ce4aa900be0] address amend started (lines=4)
+2026-10-21T21:30:45.593+00:00 INFO  orders.slots [5ce4aa900be0] re-slot SKU-12714 x3 -> lease LS-3747573
+2026-10-21T21:30:45.619+00:00 INFO  orders.slots [5ce4aa900be0] lease LS-3747573 acquired (23 ms)
+2026-10-21T21:30:45.683+00:00 INFO  orders.slots [5ce4aa900be0] re-slot SKU-17744 x2 -> lease LS-6280106
+2026-10-21T21:30:45.753+00:00 INFO  orders.slots [5ce4aa900be0] lease LS-6280106 acquired (67 ms)
+2026-10-21T21:30:45.857+00:00 INFO  orders.amend [5ce4aa900be0] amend committed total=361.19
+2026-10-21T21:31:00.568+00:00 INFO  orders.amend [4dd72b04f11b] address amend started (lines=1)
+2026-10-21T21:31:00.610+00:00 INFO  orders.slots [4dd72b04f11b] re-slot SKU-47683 x3 -> lease LS-5012804
+2026-10-21T21:31:00.676+00:00 INFO  orders.slots [4dd72b04f11b] lease LS-5012804 acquired (63 ms)
+2026-10-21T21:31:00.710+00:00 INFO  orders.slots [4dd72b04f11b] re-slot SKU-31251 x2 -> lease LS-9171805
+2026-10-21T21:31:00.768+00:00 INFO  orders.slots [4dd72b04f11b] lease LS-9171805 acquired (55 ms)
+2026-10-21T21:31:00.817+00:00 INFO  orders.amend [4dd72b04f11b] amend committed total=365.47
+2026-10-21T21:31:17.542+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:31:22.119+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:31:42.608+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:31:47.430+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:31:51.970+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:31:52.150+00:00 INFO  orders.amend [2d15a44659ba] address amend started (lines=2)
+2026-10-21T21:31:52.200+00:00 INFO  orders.slots [2d15a44659ba] re-slot SKU-53646 x3 -> lease LS-1683108
+2026-10-21T21:31:52.229+00:00 INFO  orders.slots [2d15a44659ba] lease LS-1683108 acquired (26 ms)
+2026-10-21T21:31:52.286+00:00 INFO  orders.slots [2d15a44659ba] re-slot SKU-13010 x2 -> lease LS-1764884
+2026-10-21T21:31:52.343+00:00 INFO  orders.slots [2d15a44659ba] lease LS-1764884 acquired (54 ms)
+2026-10-21T21:31:52.417+00:00 INFO  orders.amend [2d15a44659ba] amend committed total=518.30
+2026-10-21T21:31:52.826+00:00 INFO  orders.amend [96e2e453d4a9] address amend started (lines=5)
+2026-10-21T21:31:52.869+00:00 INFO  orders.slots [96e2e453d4a9] re-slot SKU-11508 x4 -> lease LS-4494185
+2026-10-21T21:31:52.911+00:00 INFO  orders.slots [96e2e453d4a9] lease LS-4494185 acquired (39 ms)
+2026-10-21T21:31:52.976+00:00 INFO  orders.slots [96e2e453d4a9] re-slot SKU-37567 x2 -> lease LS-9349159
+2026-10-21T21:31:53.049+00:00 INFO  orders.slots [96e2e453d4a9] lease LS-9349159 acquired (70 ms)
+2026-10-21T21:31:53.189+00:00 INFO  orders.amend [96e2e453d4a9] amend committed total=493.79
+2026-10-21T21:31:59.906+00:00 INFO  orders.amend [5c5569818320] address amend started (lines=5)
+2026-10-21T21:31:59.950+00:00 INFO  orders.slots [5c5569818320] re-slot SKU-15925 x4 -> lease LS-9394029
+2026-10-21T21:31:59.982+00:00 INFO  orders.slots [5c5569818320] lease LS-9394029 acquired (29 ms)
+2026-10-21T21:32:00.070+00:00 INFO  orders.slots [5c5569818320] re-slot SKU-42348 x3 -> lease LS-8596920
+2026-10-21T21:32:00.135+00:00 INFO  orders.slots [5c5569818320] lease LS-8596920 acquired (62 ms)
+2026-10-21T21:32:00.262+00:00 INFO  orders.amend [5c5569818320] amend committed total=375.96
+2026-10-21T21:32:00.507+00:00 INFO  orders.amend [548097f32c09] address amend started (lines=1)
+2026-10-21T21:32:00.542+00:00 INFO  orders.slots [548097f32c09] re-slot SKU-42995 x1 -> lease LS-2046510
+2026-10-21T21:32:00.560+00:00 INFO  orders.slots [548097f32c09] lease LS-2046510 acquired (15 ms)
+2026-10-21T21:32:00.604+00:00 INFO  orders.slots [548097f32c09] re-slot SKU-42658 x1 -> lease LS-7385416
+2026-10-21T21:32:00.661+00:00 INFO  orders.slots [548097f32c09] lease LS-7385416 acquired (54 ms)
+2026-10-21T21:32:00.687+00:00 INFO  orders.amend [548097f32c09] amend committed total=334.20
+2026-10-21T21:32:16.377+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:32:24.169+00:00 INFO  orders.amend [ae3086c265f6] address amend started (lines=5)
+2026-10-21T21:32:24.230+00:00 INFO  orders.slots [ae3086c265f6] re-slot SKU-54829 x2 -> lease LS-8296525
+2026-10-21T21:32:24.284+00:00 INFO  orders.slots [ae3086c265f6] lease LS-8296525 acquired (51 ms)
+2026-10-21T21:32:24.299+00:00 INFO  orders.slots [ae3086c265f6] re-slot SKU-17187 x2 -> lease LS-2059131
+2026-10-21T21:32:24.314+00:00 INFO  orders.slots [ae3086c265f6] lease LS-2059131 acquired (12 ms)
+2026-10-21T21:32:24.405+00:00 INFO  orders.amend [ae3086c265f6] amend committed total=410.43
+2026-10-21T21:32:27.716+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:32:34.882+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:32:48.347+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:33:18.195+00:00 INFO  orders.amend [14946ff50c73] address amend started (lines=3)
+2026-10-21T21:33:18.249+00:00 INFO  orders.slots [14946ff50c73] re-slot SKU-56050 x2 -> lease LS-8490243
+2026-10-21T21:33:18.283+00:00 INFO  orders.slots [14946ff50c73] lease LS-8490243 acquired (31 ms)
+2026-10-21T21:33:18.332+00:00 INFO  orders.slots [14946ff50c73] re-slot SKU-14980 x2 -> lease LS-9029432
+2026-10-21T21:33:18.356+00:00 INFO  orders.slots [14946ff50c73] lease LS-9029432 acquired (21 ms)
+2026-10-21T21:33:18.414+00:00 INFO  orders.amend [14946ff50c73] amend committed total=634.71
+2026-10-21T21:34:49.404+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:34:53.107+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:34:58.323+00:00 INFO  orders.amend [a59b3bab6908] address amend started (lines=3)
+2026-10-21T21:34:58.361+00:00 INFO  orders.slots [a59b3bab6908] re-slot SKU-53499 x3 -> lease LS-1382076
+2026-10-21T21:34:58.405+00:00 INFO  orders.slots [a59b3bab6908] lease LS-1382076 acquired (41 ms)
+2026-10-21T21:34:58.438+00:00 INFO  orders.slots [a59b3bab6908] re-slot SKU-13640 x2 -> lease LS-4812845
+2026-10-21T21:34:58.464+00:00 INFO  orders.slots [a59b3bab6908] lease LS-4812845 acquired (23 ms)
+2026-10-21T21:34:58.498+00:00 INFO  orders.amend [a59b3bab6908] amend committed total=559.10
+2026-10-21T21:35:03.337+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:35:10.264+00:00 INFO  orders.amend [9b3d9476be28] address amend started (lines=1)
+2026-10-21T21:35:10.313+00:00 INFO  orders.slots [9b3d9476be28] re-slot SKU-49463 x4 -> lease LS-4857154
+2026-10-21T21:35:10.346+00:00 INFO  orders.slots [9b3d9476be28] lease LS-4857154 acquired (30 ms)
+2026-10-21T21:35:10.390+00:00 INFO  orders.slots [9b3d9476be28] re-slot SKU-52470 x1 -> lease LS-6036072
+2026-10-21T21:35:10.448+00:00 INFO  orders.slots [9b3d9476be28] lease LS-6036072 acquired (55 ms)
+2026-10-21T21:35:10.568+00:00 INFO  orders.amend [9b3d9476be28] amend committed total=486.82
+2026-10-21T21:35:16.096+00:00 ERROR orders.InvoiceRenderer IllegalStateException: font cache not initialised
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 296, in invoke
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+2026-10-21T21:35:16.286+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:35:20.229+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:37:41.110+00:00 INFO  orders.amend [45fede6e302a] address amend started (lines=3)
+2026-10-21T21:37:41.170+00:00 INFO  orders.slots [45fede6e302a] re-slot SKU-43465 x1 -> lease LS-1030455
+2026-10-21T21:37:41.225+00:00 INFO  orders.slots [45fede6e302a] lease LS-1030455 acquired (52 ms)
+2026-10-21T21:37:41.737+00:00 ERROR orders.repo [45fede6e302a] lock wait timeout exceeded; try restarting transaction
+Traceback (most recent call last):
+  File "/srv/orders/OrderRepository.py", line 246, in getConnection
+    self._step()
+  File "/srv/orders/OrderRepository.py", line 29, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SQLTransientConnectionException: pool
+2026-10-21T21:37:44.202+00:00 INFO  orders.amend [874e41ac9159] address amend started (lines=5)
+2026-10-21T21:37:44.260+00:00 INFO  orders.slots [874e41ac9159] re-slot SKU-25021 x2 -> lease LS-1645235
+2026-10-21T21:37:44.296+00:00 INFO  orders.slots [874e41ac9159] lease LS-1645235 acquired (33 ms)
+2026-10-21T21:37:44.330+00:00 INFO  orders.slots [874e41ac9159] re-slot SKU-48601 x2 -> lease LS-4489638
+2026-10-21T21:37:47.250+00:00 INFO  orders.amend [ebaea73497e9] address amend started (lines=4)
+2026-10-21T21:37:47.285+00:00 INFO  orders.slots [ebaea73497e9] re-slot SKU-53571 x1 -> lease LS-3063957
+2026-10-21T21:37:47.331+00:00 INFO  orders.slots [ebaea73497e9] lease LS-3063957 acquired (43 ms)
+2026-10-21T21:37:47.356+00:00 INFO  orders.slots [ebaea73497e9] re-slot SKU-12520 x2 -> lease LS-7298842
+2026-10-21T21:37:49.197+00:00 WARN  orders.slots [874e41ac9159] lease LS-4489638 not acquired, caller disconnected after 4867 ms
+2026-10-21T21:37:49.524+00:00 INFO  orders.amend [a038b7897a0c] address amend started (lines=1)
+2026-10-21T21:37:49.555+00:00 INFO  orders.slots [a038b7897a0c] re-slot SKU-45078 x3 -> lease LS-5334201
+2026-10-21T21:37:49.574+00:00 INFO  orders.slots [a038b7897a0c] lease LS-5334201 acquired (16 ms)
+2026-10-21T21:37:49.627+00:00 INFO  orders.slots [a038b7897a0c] re-slot SKU-55144 x1 -> lease LS-9454138
+2026-10-21T21:37:50.610+00:00 INFO  orders.amend [5433c8ac97ec] address amend started (lines=4)
+2026-10-21T21:37:50.649+00:00 INFO  orders.slots [5433c8ac97ec] re-slot SKU-55096 x1 -> lease LS-3394722
+2026-10-21T21:37:50.664+00:00 INFO  orders.slots [5433c8ac97ec] lease LS-3394722 acquired (12 ms)
+2026-10-21T21:37:50.740+00:00 INFO  orders.slots [5433c8ac97ec] re-slot SKU-17481 x1 -> lease LS-3992783
+2026-10-21T21:37:52.244+00:00 WARN  orders.slots [ebaea73497e9] lease LS-7298842 not acquired, caller disconnected after 4888 ms
+2026-10-21T21:37:52.933+00:00 INFO  orders.amend [2f3d93e17355] address amend started (lines=3)
+2026-10-21T21:37:52.965+00:00 INFO  orders.slots [2f3d93e17355] re-slot SKU-53072 x1 -> lease LS-9050477
+2026-10-21T21:37:53.006+00:00 INFO  orders.slots [2f3d93e17355] lease LS-9050477 acquired (38 ms)
+2026-10-21T21:37:53.058+00:00 INFO  orders.slots [2f3d93e17355] re-slot SKU-36041 x2 -> lease LS-5977033
+2026-10-21T21:37:54.519+00:00 WARN  orders.slots [a038b7897a0c] lease LS-9454138 not acquired, caller disconnected after 4892 ms
+2026-10-21T21:37:55.607+00:00 WARN  orders.slots [5433c8ac97ec] lease LS-3992783 not acquired, caller disconnected after 4867 ms
+2026-10-21T21:37:55.891+00:00 INFO  orders.amend [513ee4e2ef66] address amend started (lines=3)
+2026-10-21T21:37:55.936+00:00 INFO  orders.slots [513ee4e2ef66] re-slot SKU-12878 x3 -> lease LS-5474717
+2026-10-21T21:37:55.965+00:00 INFO  orders.slots [513ee4e2ef66] lease LS-5474717 acquired (26 ms)
+2026-10-21T21:37:56.038+00:00 INFO  orders.slots [513ee4e2ef66] re-slot SKU-43339 x1 -> lease LS-5776172
+2026-10-21T21:37:56.713+00:00 INFO  orders.amend [1345f0215602] address amend started (lines=3)
+2026-10-21T21:37:56.760+00:00 INFO  orders.slots [1345f0215602] re-slot SKU-52235 x1 -> lease LS-6724429
+2026-10-21T21:37:56.814+00:00 INFO  orders.slots [1345f0215602] lease LS-6724429 acquired (51 ms)
+2026-10-21T21:37:56.824+00:00 INFO  orders.slots [1345f0215602] re-slot SKU-31263 x1 -> lease LS-3055363
+2026-10-21T21:37:57.923+00:00 WARN  orders.slots [2f3d93e17355] lease LS-5977033 not acquired, caller disconnected after 4865 ms
+2026-10-21T21:37:58.900+00:00 ERROR orders.TaxRateClient SocketTimeoutException: Read timed out calling tax-svc
+Traceback (most recent call last):
+  File "/srv/orders/TaxRateClient.py", line 170, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SocketTimeoutException: Read timed out calling tax-svc
+2026-10-21T21:38:00.885+00:00 WARN  orders.slots [513ee4e2ef66] lease LS-5776172 not acquired, caller disconnected after 4847 ms
+2026-10-21T21:38:00.910+00:00 INFO  orders.amend [34c53720581f] address amend started (lines=3)
+2026-10-21T21:38:00.965+00:00 INFO  orders.slots [34c53720581f] re-slot SKU-39028 x3 -> lease LS-3318457
+2026-10-21T21:38:01.003+00:00 INFO  orders.slots [34c53720581f] lease LS-3318457 acquired (35 ms)
+2026-10-21T21:38:01.037+00:00 INFO  orders.slots [34c53720581f] re-slot SKU-57283 x2 -> lease LS-6434712
+2026-10-21T21:38:01.704+00:00 WARN  orders.slots [1345f0215602] lease LS-3055363 not acquired, caller disconnected after 4880 ms
+2026-10-21T21:38:01.815+00:00 INFO  orders.amend [06bed2693f2c] address amend started (lines=3)
+2026-10-21T21:38:01.856+00:00 INFO  orders.slots [06bed2693f2c] re-slot SKU-30809 x4 -> lease LS-7757013
+2026-10-21T21:38:01.881+00:00 INFO  orders.slots [06bed2693f2c] lease LS-7757013 acquired (22 ms)
+2026-10-21T21:38:01.961+00:00 INFO  orders.slots [06bed2693f2c] re-slot SKU-52723 x2 -> lease LS-8933186
+2026-10-21T21:38:04.413+00:00 INFO  orders.amend [e1bb02fe2e93] address amend started (lines=4)
+2026-10-21T21:38:04.462+00:00 INFO  orders.slots [e1bb02fe2e93] re-slot SKU-26425 x2 -> lease LS-4514983
+2026-10-21T21:38:04.498+00:00 INFO  orders.slots [e1bb02fe2e93] lease LS-4514983 acquired (33 ms)
+2026-10-21T21:38:05.300+00:00 ERROR orders.InvoiceRenderer IllegalStateException: font cache not initialised
+Traceback (most recent call last):
+  File "/srv/orders/InvoiceRenderer.py", line 356, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+IllegalStateException: font cache not initialised
+2026-10-21T21:38:05.557+00:00 ERROR orders.repo [e1bb02fe2e93] lock wait timeout exceeded; try restarting transaction
+Traceback (most recent call last):
+  File "/srv/orders/OrderRepository.py", line 400, in getConnection
+    self._step()
+  File "/srv/orders/OrderRepository.py", line 338, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SQLTransientConnectionException: pool
+2026-10-21T21:38:05.906+00:00 WARN  orders.slots [34c53720581f] lease LS-6434712 not acquired, caller disconnected after 4869 ms
+2026-10-21T21:38:06.814+00:00 WARN  orders.slots [06bed2693f2c] lease LS-8933186 not acquired, caller disconnected after 4853 ms
+2026-10-21T21:38:12.711+00:00 INFO  orders.amend [381be4e9680e] address amend started (lines=4)
+2026-10-21T21:38:12.767+00:00 INFO  orders.slots [381be4e9680e] re-slot SKU-33182 x1 -> lease LS-1071092
+2026-10-21T21:38:12.782+00:00 INFO  orders.slots [381be4e9680e] lease LS-1071092 acquired (12 ms)
+2026-10-21T21:38:13.823+00:00 ERROR orders.repo [381be4e9680e] lock wait timeout exceeded; try restarting transaction
+Traceback (most recent call last):
+  File "/srv/orders/OrderRepository.py", line 307, in getConnection
+    self._step()
+  File "/srv/orders/OrderRepository.py", line 322, in dispatch
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SQLTransientConnectionException: pool
+2026-10-21T21:38:25.219+00:00 INFO  orders.amend [bad3eb501ec4] address amend started (lines=4)
+2026-10-21T21:38:25.222+00:00 WARN  orders.amend [bad3eb501ec4] amend already in progress, rejected
+2026-10-21T21:40:34.094+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:40:48.463+00:00 INFO  orders.amend [f854dffbea16] address amend started (lines=3)
+2026-10-21T21:40:48.514+00:00 INFO  orders.slots [f854dffbea16] re-slot SKU-55136 x3 -> lease LS-3917021
+2026-10-21T21:40:48.570+00:00 INFO  orders.slots [f854dffbea16] lease LS-3917021 acquired (53 ms)
+2026-10-21T21:40:48.590+00:00 INFO  orders.slots [f854dffbea16] re-slot SKU-58062 x3 -> lease LS-3514075
+2026-10-21T21:40:48.616+00:00 INFO  orders.slots [f854dffbea16] lease LS-3514075 acquired (23 ms)
+2026-10-21T21:40:48.740+00:00 INFO  orders.amend [f854dffbea16] amend committed total=536.75
+2026-10-21T21:41:02.819+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:41:25.616+00:00 INFO  orders.amend [5dd7618acb3e] address amend started (lines=4)
+2026-10-21T21:41:25.665+00:00 INFO  orders.slots [5dd7618acb3e] re-slot SKU-52438 x3 -> lease LS-3659018
+2026-10-21T21:41:25.712+00:00 INFO  orders.slots [5dd7618acb3e] lease LS-3659018 acquired (44 ms)
+2026-10-21T21:41:25.748+00:00 INFO  orders.slots [5dd7618acb3e] re-slot SKU-37311 x3 -> lease LS-7751622
+2026-10-21T21:41:25.779+00:00 INFO  orders.slots [5dd7618acb3e] lease LS-7751622 acquired (28 ms)
+2026-10-21T21:41:25.814+00:00 INFO  orders.amend [5dd7618acb3e] amend committed total=303.73
+2026-10-21T21:41:30.410+00:00 INFO  orders.amend [5cda9e995684] address amend started (lines=3)
+2026-10-21T21:41:30.444+00:00 INFO  orders.slots [5cda9e995684] re-slot SKU-26615 x4 -> lease LS-3911799
+2026-10-21T21:41:30.468+00:00 INFO  orders.slots [5cda9e995684] lease LS-3911799 acquired (21 ms)
+2026-10-21T21:41:30.518+00:00 INFO  orders.slots [5cda9e995684] re-slot SKU-35026 x1 -> lease LS-1368854
+2026-10-21T21:41:30.574+00:00 INFO  orders.slots [5cda9e995684] lease LS-1368854 acquired (53 ms)
+2026-10-21T21:41:30.602+00:00 INFO  orders.amend [5cda9e995684] amend committed total=395.42
+2026-10-21T21:41:40.686+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:41:43.530+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:41:49.191+00:00 INFO  orders.amend [033685c38112] address amend started (lines=2)
+2026-10-21T21:41:49.233+00:00 INFO  orders.slots [033685c38112] re-slot SKU-55434 x1 -> lease LS-5733640
+2026-10-21T21:41:49.259+00:00 INFO  orders.slots [033685c38112] lease LS-5733640 acquired (23 ms)
+2026-10-21T21:41:49.313+00:00 INFO  orders.slots [033685c38112] re-slot SKU-36066 x3 -> lease LS-8486997
+2026-10-21T21:41:49.365+00:00 INFO  orders.slots [033685c38112] lease LS-8486997 acquired (49 ms)
+2026-10-21T21:41:49.448+00:00 INFO  orders.amend [033685c38112] amend committed total=53.55
+2026-10-21T21:41:57.323+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:42:32.055+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:42:33.213+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:42:40.053+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:42:47.832+00:00 INFO  orders.amend [8bf87ceb8300] address amend started (lines=5)
+2026-10-21T21:42:47.871+00:00 INFO  orders.slots [8bf87ceb8300] re-slot SKU-36207 x4 -> lease LS-9984852
+2026-10-21T21:42:47.932+00:00 INFO  orders.slots [8bf87ceb8300] lease LS-9984852 acquired (58 ms)
+2026-10-21T21:42:47.967+00:00 INFO  orders.slots [8bf87ceb8300] re-slot SKU-20511 x1 -> lease LS-3350853
+2026-10-21T21:42:47.985+00:00 INFO  orders.slots [8bf87ceb8300] lease LS-3350853 acquired (15 ms)
+2026-10-21T21:42:48.125+00:00 INFO  orders.amend [8bf87ceb8300] amend committed total=379.04
+2026-10-21T21:42:53.129+00:00 INFO  orders.amend [60643a851862] address amend started (lines=4)
+2026-10-21T21:42:53.188+00:00 INFO  orders.slots [60643a851862] re-slot SKU-29001 x3 -> lease LS-6856224
+2026-10-21T21:42:53.248+00:00 INFO  orders.slots [60643a851862] lease LS-6856224 acquired (57 ms)
+2026-10-21T21:42:53.269+00:00 INFO  orders.slots [60643a851862] re-slot SKU-59023 x2 -> lease LS-7267846
+2026-10-21T21:42:53.319+00:00 INFO  orders.slots [60643a851862] lease LS-7267846 acquired (47 ms)
+2026-10-21T21:42:53.402+00:00 INFO  orders.amend [60643a851862] amend committed total=149.19
+2026-10-21T21:42:57.394+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:43:17.746+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:43:38.614+00:00 INFO  orders.amend [c353f8783405] address amend started (lines=3)
+2026-10-21T21:43:38.662+00:00 INFO  orders.slots [c353f8783405] re-slot SKU-22530 x2 -> lease LS-2197444
+2026-10-21T21:43:38.705+00:00 INFO  orders.slots [c353f8783405] lease LS-2197444 acquired (40 ms)
+2026-10-21T21:43:38.752+00:00 INFO  orders.slots [c353f8783405] re-slot SKU-42012 x1 -> lease LS-2011973
+2026-10-21T21:43:38.784+00:00 INFO  orders.slots [c353f8783405] lease LS-2011973 acquired (29 ms)
+2026-10-21T21:43:38.871+00:00 INFO  orders.amend [c353f8783405] amend committed total=83.28
+2026-10-21T21:43:44.828+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:44:04.884+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:44:06.014+00:00 INFO  orders.amend [d31fb379d5d7] address amend started (lines=3)
+2026-10-21T21:44:06.066+00:00 INFO  orders.slots [d31fb379d5d7] re-slot SKU-56311 x4 -> lease LS-5562282
+2026-10-21T21:44:06.117+00:00 INFO  orders.slots [d31fb379d5d7] lease LS-5562282 acquired (48 ms)
+2026-10-21T21:44:06.148+00:00 INFO  orders.slots [d31fb379d5d7] re-slot SKU-57705 x2 -> lease LS-8933486
+2026-10-21T21:44:06.208+00:00 INFO  orders.slots [d31fb379d5d7] lease LS-8933486 acquired (57 ms)
+2026-10-21T21:44:06.231+00:00 INFO  orders.amend [d31fb379d5d7] amend committed total=36.66
+2026-10-21T21:44:28.752+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:44:34.147+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:44:51.171+00:00 INFO  orders.amend [e775403d914e] address amend started (lines=1)
+2026-10-21T21:44:51.228+00:00 INFO  orders.slots [e775403d914e] re-slot SKU-28248 x4 -> lease LS-7155171
+2026-10-21T21:44:51.269+00:00 INFO  orders.slots [e775403d914e] lease LS-7155171 acquired (38 ms)
+2026-10-21T21:44:51.291+00:00 INFO  orders.slots [e775403d914e] re-slot SKU-40460 x1 -> lease LS-9637633
+2026-10-21T21:44:51.357+00:00 INFO  orders.slots [e775403d914e] lease LS-9637633 acquired (63 ms)
+2026-10-21T21:44:51.382+00:00 INFO  orders.amend [e775403d914e] amend committed total=208.20
+2026-10-21T21:45:01.779+00:00 INFO  orders.amend [e3f255b7efc5] address amend started (lines=2)
+2026-10-21T21:45:01.837+00:00 INFO  orders.slots [e3f255b7efc5] re-slot SKU-50093 x2 -> lease LS-6614829
+2026-10-21T21:45:01.891+00:00 INFO  orders.slots [e3f255b7efc5] lease LS-6614829 acquired (51 ms)
+2026-10-21T21:45:01.897+00:00 INFO  orders.slots [e3f255b7efc5] re-slot SKU-38237 x1 -> lease LS-8084219
+2026-10-21T21:45:01.931+00:00 INFO  orders.slots [e3f255b7efc5] lease LS-8084219 acquired (31 ms)
+2026-10-21T21:45:02.058+00:00 INFO  orders.amend [e3f255b7efc5] amend committed total=151.09
+2026-10-21T21:45:06.568+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:45:26.244+00:00 ERROR orders.PromoCodeResolver NullPointerException: Cannot invoke Promo.getRules() because promo is null
+Traceback (most recent call last):
+  File "/srv/orders/PromoCodeResolver.py", line 204, in call
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+NullPointerException: Cannot invoke Promo.getRules() because promo is null
+2026-10-21T21:45:56.518+00:00 INFO  orders.amend [b7c42892d913] address amend started (lines=1)
+2026-10-21T21:45:56.568+00:00 INFO  orders.slots [b7c42892d913] re-slot SKU-11585 x4 -> lease LS-9796988
+2026-10-21T21:45:56.590+00:00 INFO  orders.slots [b7c42892d913] lease LS-9796988 acquired (19 ms)
+2026-10-21T21:45:56.680+00:00 INFO  orders.slots [b7c42892d913] re-slot SKU-50363 x1 -> lease LS-4979945
+2026-10-21T21:45:56.700+00:00 INFO  orders.slots [b7c42892d913] lease LS-4979945 acquired (17 ms)
+2026-10-21T21:45:56.839+00:00 INFO  orders.amend [b7c42892d913] amend committed total=48.68
+2026-10-21T21:46:21.104+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:46:22.042+00:00 INFO  orders.amend [e3b5d80490e8] address amend started (lines=5)
+2026-10-21T21:46:22.093+00:00 INFO  orders.slots [e3b5d80490e8] re-slot SKU-34410 x2 -> lease LS-6694429
+2026-10-21T21:46:22.125+00:00 INFO  orders.slots [e3b5d80490e8] lease LS-6694429 acquired (29 ms)
+2026-10-21T21:46:22.165+00:00 INFO  orders.slots [e3b5d80490e8] re-slot SKU-18640 x3 -> lease LS-1227617
+2026-10-21T21:46:22.198+00:00 INFO  orders.slots [e3b5d80490e8] lease LS-1227617 acquired (30 ms)
+2026-10-21T21:46:22.250+00:00 INFO  orders.amend [e3b5d80490e8] amend committed total=596.35
+2026-10-21T21:46:31.479+00:00 ERROR orders.ShippingQuoteCache ConcurrentModificationException: zone table changed during refresh
+Traceback (most recent call last):
+  File "/srv/orders/ShippingQuoteCache.py", line 155, in execute
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ConcurrentModificationException: zone table changed during refresh
+2026-10-21T21:47:06.533+00:00 INFO  orders.amend [ca5556f02a02] address amend started (lines=5)
+2026-10-21T21:47:06.575+00:00 INFO  orders.slots [ca5556f02a02] re-slot SKU-49562 x1 -> lease LS-1393028
+2026-10-21T21:47:06.629+00:00 INFO  orders.slots [ca5556f02a02] lease LS-1393028 acquired (51 ms)
+2026-10-21T21:47:06.674+00:00 INFO  orders.slots [ca5556f02a02] re-slot SKU-52621 x3 -> lease LS-5957602
+2026-10-21T21:47:06.705+00:00 INFO  orders.slots [ca5556f02a02] lease LS-5957602 acquired (28 ms)
+2026-10-21T21:47:06.820+00:00 INFO  orders.amend [ca5556f02a02] amend committed total=431.08
+2026-10-21T21:47:16.802+00:00 INFO  orders.amend [464d3c41363b] address amend started (lines=4)
+2026-10-21T21:47:16.844+00:00 INFO  orders.slots [464d3c41363b] re-slot SKU-21184 x2 -> lease LS-6896169
+2026-10-21T21:47:16.907+00:00 INFO  orders.slots [464d3c41363b] lease LS-6896169 acquired (60 ms)
+2026-10-21T21:47:16.945+00:00 INFO  orders.slots [464d3c41363b] re-slot SKU-11326 x1 -> lease LS-7187693
+2026-10-21T21:47:16.967+00:00 INFO  orders.slots [464d3c41363b] lease LS-7187693 acquired (19 ms)
+2026-10-21T21:47:17.000+00:00 INFO  orders.amend [464d3c41363b] amend committed total=480.68
+2026-10-21T21:47:30.691+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:47:38.077+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:47:50.345+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:49:25.496+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:49:27.237+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:49:42.010+00:00 INFO  orders.amend [6c2625a1127f] address amend started (lines=2)
+2026-10-21T21:49:42.069+00:00 INFO  orders.slots [6c2625a1127f] re-slot SKU-49182 x2 -> lease LS-9560019
+2026-10-21T21:49:42.127+00:00 INFO  orders.slots [6c2625a1127f] lease LS-9560019 acquired (55 ms)
+2026-10-21T21:49:42.177+00:00 INFO  orders.slots [6c2625a1127f] re-slot SKU-30514 x1 -> lease LS-3669131
+2026-10-21T21:49:42.199+00:00 INFO  orders.slots [6c2625a1127f] lease LS-3669131 acquired (19 ms)
+2026-10-21T21:49:42.299+00:00 INFO  orders.amend [6c2625a1127f] amend committed total=214.19
+2026-10-21T21:49:57.077+00:00 INFO  orders.amend [267d42332ea5] address amend started (lines=2)
+2026-10-21T21:49:57.125+00:00 INFO  orders.slots [267d42332ea5] re-slot SKU-43903 x2 -> lease LS-8133527
+2026-10-21T21:49:57.144+00:00 INFO  orders.slots [267d42332ea5] lease LS-8133527 acquired (16 ms)
+2026-10-21T21:49:57.228+00:00 INFO  orders.slots [267d42332ea5] re-slot SKU-42832 x1 -> lease LS-1131573
+2026-10-21T21:49:57.283+00:00 INFO  orders.slots [267d42332ea5] lease LS-1131573 acquired (52 ms)
+2026-10-21T21:49:57.394+00:00 INFO  orders.amend [267d42332ea5] amend committed total=35.66
+2026-10-21T21:49:58.191+00:00 INFO  orders.amend [d2481da3ffa2] address amend started (lines=2)
+2026-10-21T21:49:58.225+00:00 INFO  orders.slots [d2481da3ffa2] re-slot SKU-10358 x3 -> lease LS-5391254
+2026-10-21T21:49:58.290+00:00 INFO  orders.slots [d2481da3ffa2] lease LS-5391254 acquired (62 ms)
+2026-10-21T21:49:58.331+00:00 INFO  orders.slots [d2481da3ffa2] re-slot SKU-34897 x1 -> lease LS-1913563
+2026-10-21T21:49:58.360+00:00 INFO  orders.slots [d2481da3ffa2] lease LS-1913563 acquired (26 ms)
+2026-10-21T21:49:58.440+00:00 INFO  orders.amend [d2481da3ffa2] amend committed total=365.42
+2026-10-21T21:50:52.128+00:00 INFO  orders.amend [707596a7bbdc] address amend started (lines=4)
+2026-10-21T21:50:52.174+00:00 INFO  orders.slots [707596a7bbdc] re-slot SKU-26741 x3 -> lease LS-1407835
+2026-10-21T21:50:52.234+00:00 INFO  orders.slots [707596a7bbdc] lease LS-1407835 acquired (57 ms)
+2026-10-21T21:50:52.240+00:00 INFO  orders.slots [707596a7bbdc] re-slot SKU-25928 x1 -> lease LS-9330285
+2026-10-21T21:50:52.270+00:00 INFO  orders.slots [707596a7bbdc] lease LS-9330285 acquired (27 ms)
+2026-10-21T21:50:52.378+00:00 INFO  orders.amend [707596a7bbdc] amend committed total=64.91
+2026-10-21T21:50:53.165+00:00 INFO  orders.amend [24f7c093319a] address amend started (lines=5)
+2026-10-21T21:50:53.208+00:00 INFO  orders.slots [24f7c093319a] re-slot SKU-37574 x2 -> lease LS-2357064
+2026-10-21T21:50:53.270+00:00 INFO  orders.slots [24f7c093319a] lease LS-2357064 acquired (59 ms)
+2026-10-21T21:50:53.305+00:00 INFO  orders.slots [24f7c093319a] re-slot SKU-40783 x2 -> lease LS-3046300
+2026-10-21T21:50:53.366+00:00 INFO  orders.slots [24f7c093319a] lease LS-3046300 acquired (58 ms)
+2026-10-21T21:50:53.411+00:00 INFO  orders.amend [24f7c093319a] amend committed total=243.07
+2026-10-21T21:50:57.585+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:50:57.604+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:51:21.459+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:51:29.645+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:51:38.353+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:51:57.117+00:00 ERROR orders.ShippingQuoteCache ConcurrentModificationException: zone table changed during refresh
+Traceback (most recent call last):
+  File "/srv/orders/ShippingQuoteCache.py", line 74, in process
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+ConcurrentModificationException: zone table changed during refresh
+2026-10-21T21:51:59.348+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:52:12.692+00:00 INFO  orders.amend [e0142367f803] address amend started (lines=2)
+2026-10-21T21:52:12.726+00:00 INFO  orders.slots [e0142367f803] re-slot SKU-12435 x3 -> lease LS-7499732
+2026-10-21T21:52:12.768+00:00 INFO  orders.slots [e0142367f803] lease LS-7499732 acquired (39 ms)
+2026-10-21T21:52:12.795+00:00 INFO  orders.slots [e0142367f803] re-slot SKU-28767 x3 -> lease LS-3856278
+2026-10-21T21:52:12.826+00:00 INFO  orders.slots [e0142367f803] lease LS-3856278 acquired (28 ms)
+2026-10-21T21:52:12.894+00:00 INFO  orders.amend [e0142367f803] amend committed total=623.05
+2026-10-21T21:52:28.857+00:00 INFO  orders.amend [bdbea795ece7] address amend started (lines=5)
+2026-10-21T21:52:28.910+00:00 INFO  orders.slots [bdbea795ece7] re-slot SKU-12260 x1 -> lease LS-7355876
+2026-10-21T21:52:28.964+00:00 INFO  orders.slots [bdbea795ece7] lease LS-7355876 acquired (51 ms)
+2026-10-21T21:52:29.021+00:00 INFO  orders.slots [bdbea795ece7] re-slot SKU-22959 x1 -> lease LS-7400339
+2026-10-21T21:52:29.063+00:00 INFO  orders.slots [bdbea795ece7] lease LS-7400339 acquired (39 ms)
+2026-10-21T21:52:29.096+00:00 INFO  orders.amend [bdbea795ece7] amend committed total=525.41
+2026-10-21T21:52:52.389+00:00 INFO  orders.amend [9d52f42ba28a] address amend started (lines=5)
+2026-10-21T21:52:52.446+00:00 INFO  orders.slots [9d52f42ba28a] re-slot SKU-11518 x1 -> lease LS-6194222
+2026-10-21T21:52:52.504+00:00 INFO  orders.slots [9d52f42ba28a] lease LS-6194222 acquired (55 ms)
+2026-10-21T21:52:52.519+00:00 INFO  orders.slots [9d52f42ba28a] re-slot SKU-42266 x1 -> lease LS-7358479
+2026-10-21T21:52:52.544+00:00 INFO  orders.slots [9d52f42ba28a] lease LS-7358479 acquired (22 ms)
+2026-10-21T21:52:52.569+00:00 INFO  orders.amend [9d52f42ba28a] amend committed total=569.68
+2026-10-21T21:53:04.078+00:00 INFO  orders.amend [6fdaad0dd81c] address amend started (lines=2)
+2026-10-21T21:53:04.127+00:00 INFO  orders.slots [6fdaad0dd81c] re-slot SKU-21017 x2 -> lease LS-8471019
+2026-10-21T21:53:04.143+00:00 INFO  orders.slots [6fdaad0dd81c] lease LS-8471019 acquired (13 ms)
+2026-10-21T21:53:04.234+00:00 INFO  orders.slots [6fdaad0dd81c] re-slot SKU-45975 x2 -> lease LS-4488481
+2026-10-21T21:53:04.311+00:00 INFO  orders.slots [6fdaad0dd81c] lease LS-4488481 acquired (74 ms)
+2026-10-21T21:53:04.395+00:00 INFO  orders.amend [6fdaad0dd81c] amend committed total=353.34
+2026-10-21T21:53:07.700+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:53:08.042+00:00 INFO  orders.amend [21dbe56c86ae] address amend started (lines=5)
+2026-10-21T21:53:08.091+00:00 INFO  orders.slots [21dbe56c86ae] re-slot SKU-28213 x3 -> lease LS-4191810
+2026-10-21T21:53:08.132+00:00 INFO  orders.slots [21dbe56c86ae] lease LS-4191810 acquired (38 ms)
+2026-10-21T21:53:08.188+00:00 INFO  orders.slots [21dbe56c86ae] re-slot SKU-33475 x3 -> lease LS-4357839
+2026-10-21T21:53:08.234+00:00 INFO  orders.slots [21dbe56c86ae] lease LS-4357839 acquired (43 ms)
+2026-10-21T21:53:08.356+00:00 INFO  orders.amend [21dbe56c86ae] amend committed total=307.33
+2026-10-21T21:53:12.561+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:53:25.635+00:00 INFO  orders.amend [bbe2311a7902] address amend started (lines=5)
+2026-10-21T21:53:25.671+00:00 INFO  orders.slots [bbe2311a7902] re-slot SKU-20542 x4 -> lease LS-6823687
+2026-10-21T21:53:25.736+00:00 INFO  orders.slots [bbe2311a7902] lease LS-6823687 acquired (62 ms)
+2026-10-21T21:53:25.776+00:00 INFO  orders.slots [bbe2311a7902] re-slot SKU-55163 x2 -> lease LS-7815729
+2026-10-21T21:53:25.793+00:00 INFO  orders.slots [bbe2311a7902] lease LS-7815729 acquired (14 ms)
+2026-10-21T21:53:25.889+00:00 INFO  orders.amend [bbe2311a7902] amend committed total=95.57
+2026-10-21T21:53:28.440+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:53:30.555+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:53:51.781+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:53:52.140+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:54:05.908+00:00 INFO  orders.SchedulerTick tick completed jobs=3 lag=4ms
+2026-10-21T21:54:10.815+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:54:13.409+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:54:15.995+00:00 INFO  orders.amend [314e4144ee20] address amend started (lines=2)
+2026-10-21T21:54:16.043+00:00 INFO  orders.slots [314e4144ee20] re-slot SKU-56516 x3 -> lease LS-9727057
+2026-10-21T21:54:16.087+00:00 INFO  orders.slots [314e4144ee20] lease LS-9727057 acquired (41 ms)
+2026-10-21T21:54:16.134+00:00 INFO  orders.slots [314e4144ee20] re-slot SKU-24852 x1 -> lease LS-7739063
+2026-10-21T21:54:16.173+00:00 INFO  orders.slots [314e4144ee20] lease LS-7739063 acquired (36 ms)
+2026-10-21T21:54:16.227+00:00 INFO  orders.amend [314e4144ee20] amend committed total=120.53
+2026-10-21T21:54:25.833+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:54:38.800+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:54:43.090+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:54:48.797+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:54:48.829+00:00 INFO  orders.amend [215149ab5230] address amend started (lines=4)
+2026-10-21T21:54:48.874+00:00 INFO  orders.slots [215149ab5230] re-slot SKU-20455 x4 -> lease LS-6291111
+2026-10-21T21:54:48.925+00:00 INFO  orders.slots [215149ab5230] lease LS-6291111 acquired (48 ms)
+2026-10-21T21:54:48.959+00:00 INFO  orders.slots [215149ab5230] re-slot SKU-20660 x1 -> lease LS-1704288
+2026-10-21T21:54:48.976+00:00 INFO  orders.slots [215149ab5230] lease LS-1704288 acquired (14 ms)
+2026-10-21T21:54:49.109+00:00 INFO  orders.amend [215149ab5230] amend committed total=190.75
+2026-10-21T21:54:55.760+00:00 INFO  orders.amend [54e0767135b3] address amend started (lines=1)
+2026-10-21T21:54:55.794+00:00 INFO  orders.slots [54e0767135b3] re-slot SKU-37809 x4 -> lease LS-1362008
+2026-10-21T21:54:55.855+00:00 INFO  orders.slots [54e0767135b3] lease LS-1362008 acquired (58 ms)
+2026-10-21T21:54:55.860+00:00 INFO  orders.slots [54e0767135b3] re-slot SKU-44584 x1 -> lease LS-4078335
+2026-10-21T21:54:55.931+00:00 INFO  orders.slots [54e0767135b3] lease LS-4078335 acquired (68 ms)
+2026-10-21T21:54:55.965+00:00 INFO  orders.amend [54e0767135b3] amend committed total=57.87
+2026-10-21T21:54:56.250+00:00 INFO  orders.amend [f70ac1b38932] address amend started (lines=5)
+2026-10-21T21:54:56.291+00:00 INFO  orders.slots [f70ac1b38932] re-slot SKU-14112 x3 -> lease LS-9437303
+2026-10-21T21:54:56.349+00:00 INFO  orders.slots [f70ac1b38932] lease LS-9437303 acquired (55 ms)
+2026-10-21T21:54:56.368+00:00 INFO  orders.slots [f70ac1b38932] re-slot SKU-15581 x1 -> lease LS-2133981
+2026-10-21T21:54:56.418+00:00 INFO  orders.slots [f70ac1b38932] lease LS-2133981 acquired (47 ms)
+2026-10-21T21:54:56.513+00:00 INFO  orders.amend [f70ac1b38932] amend committed total=76.52
+2026-10-21T21:55:42.543+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:56:01.983+00:00 INFO  orders.amend [661f1daa779d] address amend started (lines=1)
+2026-10-21T21:56:02.037+00:00 INFO  orders.slots [661f1daa779d] re-slot SKU-13331 x1 -> lease LS-4045425
+2026-10-21T21:56:02.097+00:00 INFO  orders.slots [661f1daa779d] re-slot SKU-45874 x3 -> lease LS-7938236
+2026-10-21T21:56:02.104+00:00 INFO  orders.slots [661f1daa779d] lease LS-4045425 acquired (64 ms)
+2026-10-21T21:56:02.149+00:00 INFO  orders.slots [661f1daa779d] lease LS-7938236 acquired (49 ms)
+2026-10-21T21:56:02.288+00:00 INFO  orders.amend [661f1daa779d] amend committed total=579.97
+2026-10-21T21:56:02.794+00:00 WARN  orders.PromoCodeResolver promo code SPRING25 expired, ignoring
+2026-10-21T21:56:18.166+00:00 INFO  orders.PromoCodeResolver loaded 31 active promos
+2026-10-21T21:56:34.962+00:00 INFO  orders.amend [297c58a6d03b] address amend started (lines=1)
+2026-10-21T21:56:35.000+00:00 INFO  orders.slots [297c58a6d03b] re-slot SKU-16426 x4 -> lease LS-4049146
+2026-10-21T21:56:35.051+00:00 INFO  orders.slots [297c58a6d03b] lease LS-4049146 acquired (48 ms)
+2026-10-21T21:56:35.068+00:00 INFO  orders.slots [297c58a6d03b] re-slot SKU-22310 x1 -> lease LS-7083499
+2026-10-21T21:56:35.112+00:00 INFO  orders.slots [297c58a6d03b] lease LS-7083499 acquired (41 ms)
+2026-10-21T21:56:35.240+00:00 INFO  orders.amend [297c58a6d03b] amend committed total=145.92
+2026-10-21T21:56:37.340+00:00 INFO  orders.ShippingQuoteCache refreshed 64 zones
+2026-10-21T21:56:48.130+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:56:54.860+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:57:04.456+00:00 ERROR orders.TaxRateClient SocketTimeoutException: Read timed out calling tax-svc
+Traceback (most recent call last):
+  File "/srv/orders/TaxRateClient.py", line 39, in handle
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SocketTimeoutException: Read timed out calling tax-svc
+2026-10-21T21:57:21.220+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:57:26.512+00:00 INFO  orders.OrderRepository vacuum hint applied table=orders_archive
+2026-10-21T21:57:27.244+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:57:43.856+00:00 INFO  orders.MetricsFlusher flushed 418 samples
+2026-10-21T21:58:29.207+00:00 INFO  orders.CartCache evicted 212 entries (ttl)
+2026-10-21T21:58:36.362+00:00 INFO  orders.amend [c3c9a799eb4e] address amend started (lines=5)
+2026-10-21T21:58:36.407+00:00 INFO  orders.slots [c3c9a799eb4e] re-slot SKU-50099 x4 -> lease LS-3118031
+2026-10-21T21:58:36.468+00:00 INFO  orders.slots [c3c9a799eb4e] lease LS-3118031 acquired (58 ms)
+2026-10-21T21:58:36.492+00:00 INFO  orders.slots [c3c9a799eb4e] re-slot SKU-17345 x2 -> lease LS-8801069
+2026-10-21T21:58:36.540+00:00 INFO  orders.slots [c3c9a799eb4e] lease LS-8801069 acquired (45 ms)
+2026-10-21T21:58:36.657+00:00 INFO  orders.amend [c3c9a799eb4e] amend committed total=179.08
+2026-10-21T21:58:41.854+00:00 INFO  orders.amend [d928986d53a3] address amend started (lines=4)
+2026-10-21T21:58:41.907+00:00 INFO  orders.slots [d928986d53a3] re-slot SKU-55047 x2 -> lease LS-4114232
+2026-10-21T21:58:41.963+00:00 INFO  orders.slots [d928986d53a3] lease LS-4114232 acquired (53 ms)
+2026-10-21T21:58:41.981+00:00 INFO  orders.slots [d928986d53a3] re-slot SKU-32086 x3 -> lease LS-2499390
+2026-10-21T21:58:42.036+00:00 INFO  orders.slots [d928986d53a3] lease LS-2499390 acquired (52 ms)
+2026-10-21T21:58:42.104+00:00 INFO  orders.amend [d928986d53a3] amend committed total=500.51
+2026-10-21T21:58:44.494+00:00 DEBUG orders.CartCache hit ratio 0.93
+2026-10-21T21:59:13.704+00:00 WARN  orders.TaxRateClient tax-svc slow response 1210ms
+2026-10-21T21:59:30.427+00:00 INFO  orders.amend [c18aa480c090] address amend started (lines=2)
+2026-10-21T21:59:30.472+00:00 INFO  orders.slots [c18aa480c090] re-slot SKU-52178 x3 -> lease LS-4930756
+2026-10-21T21:59:30.529+00:00 INFO  orders.slots [c18aa480c090] lease LS-4930756 acquired (54 ms)
+2026-10-21T21:59:30.579+00:00 INFO  orders.slots [c18aa480c090] re-slot SKU-15538 x2 -> lease LS-5291817
+2026-10-21T21:59:30.644+00:00 INFO  orders.slots [c18aa480c090] lease LS-5291817 acquired (62 ms)
+2026-10-21T21:59:30.674+00:00 INFO  orders.amend [c18aa480c090] amend committed total=249.08
+2026-10-21T21:59:45.970+00:00 INFO  orders.amend [6d99ee1bd544] address amend started (lines=1)
+2026-10-21T21:59:46.019+00:00 INFO  orders.slots [6d99ee1bd544] re-slot SKU-27121 x1 -> lease LS-6988630
+2026-10-21T21:59:46.063+00:00 INFO  orders.slots [6d99ee1bd544] lease LS-6988630 acquired (41 ms)
+2026-10-21T21:59:46.139+00:00 INFO  orders.slots [6d99ee1bd544] re-slot SKU-37825 x1 -> lease LS-3853154
+2026-10-21T21:59:46.189+00:00 INFO  orders.slots [6d99ee1bd544] lease LS-3853154 acquired (47 ms)
+2026-10-21T21:59:46.295+00:00 INFO  orders.amend [6d99ee1bd544] amend committed total=71.27
+2026-10-21T21:59:46.725+00:00 ERROR orders.TaxRateClient SocketTimeoutException: Read timed out calling tax-svc
+Traceback (most recent call last):
+  File "/srv/orders/TaxRateClient.py", line 279, in run
+    self._step()
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+SocketTimeoutException: Read timed out calling tax-svc
+2026-10-21T21:59:51.639+00:00 INFO  orders.amend [91db943e4098] address amend started (lines=5)
+2026-10-21T21:59:51.682+00:00 INFO  orders.slots [91db943e4098] re-slot SKU-40665 x3 -> lease LS-6407378
+2026-10-21T21:59:51.732+00:00 INFO  orders.slots [91db943e4098] lease LS-6407378 acquired (47 ms)
+2026-10-21T21:59:51.772+00:00 INFO  orders.slots [91db943e4098] re-slot SKU-18779 x3 -> lease LS-6327054
+2026-10-21T21:59:51.796+00:00 INFO  orders.slots [91db943e4098] lease LS-6327054 acquired (21 ms)
+2026-10-21T21:59:51.821+00:00 INFO  orders.amend [91db943e4098] amend committed total=146.39

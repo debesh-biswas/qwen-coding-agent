@@ -1,0 +1,553 @@
+{"ts":"2026-10-03T09:00:05.114Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8e1c5d6965","method":"POST","path":"/api/refunds","order":"ORD-21166","client":"203.155.31.92"}
+{"ts":"2026-10-03T09:00:05.120Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8e1c5d6965","upstream":"orders-svc","traceparent":"00-9206244ea0c12fabdeeaf8ed32c60d53-35d06c23de8faeed-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:00:05.405Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8e1c5d6965","status":200,"duration_ms":291,"bytes":537}
+{"ts":"2026-10-03T09:00:19.681Z","host":"gw-edge-3","level":"INFO","request_id":"rq_87eb0c686a","method":"POST","path":"/api/login","order":"-","client":"192.64.17.217"}
+{"ts":"2026-10-03T09:00:19.684Z","host":"gw-edge-3","level":"WARN","request_id":"rq_87eb0c686a","status":429,"duration_ms":3,"bytes":1085}
+{"ts":"2026-10-03T09:00:22.724Z","host":"gw-edge-2","level":"INFO","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:00:33.737Z","host":"gw-edge-2","level":"INFO","msg":"tls handshake error from 10.4.2.17: remote error: unknown certificate"}
+{"ts":"2026-10-03T09:01:19.470Z","host":"gw-edge-3","level":"INFO","request_id":"rq_fe912d31df","method":"POST","path":"/api/refunds","order":"ORD-20059","client":"172.137.133.62"}
+{"ts":"2026-10-03T09:01:19.474Z","host":"gw-edge-3","level":"INFO","request_id":"rq_fe912d31df","upstream":"orders-svc","traceparent":"00-0cbaa3cc1cf9ea783c10b67a19b24024-42042b91a76b01c3-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:01:19.747Z","host":"gw-edge-3","level":"INFO","request_id":"rq_fe912d31df","status":200,"duration_ms":277,"bytes":368}
+{"ts":"2026-10-03T09:01:29.199Z","host":"gw-edge-1","level":"INFO","request_id":"rq_8fc22b1737","method":"GET","path":"/api/orders/ORD-20210","order":"ORD-20210","client":"172.225.191.49"}
+{"ts":"2026-10-03T09:01:29.248Z","host":"gw-edge-1","level":"INFO","request_id":"rq_8fc22b1737","status":200,"duration_ms":49,"bytes":756}
+{"ts":"2026-10-03T09:01:41.276Z","host":"gw-edge-2","level":"INFO","request_id":"rq_325d2d2721","method":"POST","path":"/api/refunds","order":"ORD-20514","client":"203.232.128.186"}
+{"ts":"2026-10-03T09:01:41.282Z","host":"gw-edge-2","level":"INFO","request_id":"rq_325d2d2721","upstream":"orders-svc","traceparent":"00-e9ce85c64fa4368d754fcd3d7c3f51aa-aa15f3c7d3dcf457-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:01:41.589Z","host":"gw-edge-2","level":"INFO","request_id":"rq_325d2d2721","status":200,"duration_ms":313,"bytes":741}
+{"ts":"2026-10-03T09:01:51.137Z","host":"gw-edge-3","level":"INFO","request_id":"rq_81894e91f4","method":"POST","path":"/api/refunds","order":"ORD-19802","client":"10.102.254.224"}
+{"ts":"2026-10-03T09:01:51.141Z","host":"gw-edge-3","level":"INFO","request_id":"rq_81894e91f4","upstream":"orders-svc","traceparent":"00-a91c5474e9d9ec2f1520151010a41edd-dde14a0101510251-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:01:51.434Z","host":"gw-edge-3","level":"INFO","request_id":"rq_81894e91f4","status":200,"duration_ms":297,"bytes":487}
+{"ts":"2026-10-03T09:01:59.941Z","host":"gw-edge-3","level":"WARN","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:02:05.560Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f69930dcbf","method":"GET","path":"/api/orders/ORD-19986","order":"ORD-19986","client":"198.188.205.42"}
+{"ts":"2026-10-03T09:02:05.761Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f69930dcbf","status":200,"duration_ms":201,"bytes":2104}
+{"ts":"2026-10-03T09:03:20.379Z","host":"gw-edge-2","level":"INFO","request_id":"rq_2f64e84a9c","method":"POST","path":"/api/login","order":"-","client":"10.116.141.220"}
+{"ts":"2026-10-03T09:03:20.554Z","host":"gw-edge-2","level":"INFO","request_id":"rq_2f64e84a9c","status":200,"duration_ms":175,"bytes":3234}
+{"ts":"2026-10-03T09:03:24.620Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0c88c8f6bc","method":"GET","path":"/api/products/SKU-49165","order":"-","client":"10.123.94.213"}
+{"ts":"2026-10-03T09:03:24.687Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0c88c8f6bc","status":200,"duration_ms":67,"bytes":690}
+{"ts":"2026-10-03T09:03:27.175Z","host":"gw-edge-2","level":"INFO","request_id":"rq_02fa3535cf","method":"GET","path":"/healthz","order":"-","client":"198.24.145.166"}
+{"ts":"2026-10-03T09:03:27.234Z","host":"gw-edge-2","level":"INFO","request_id":"rq_02fa3535cf","status":200,"duration_ms":59,"bytes":2760}
+{"ts":"2026-10-03T09:03:29.031Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1db2c0c145","method":"GET","path":"/api/account","order":"-","client":"192.254.201.194"}
+{"ts":"2026-10-03T09:03:29.056Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1db2c0c145","status":200,"duration_ms":25,"bytes":643}
+{"ts":"2026-10-03T09:04:23.520Z","host":"gw-edge-1","level":"INFO","request_id":"rq_eaf3cbbe03","method":"GET","path":"/api/returns/labels","order":"-","client":"192.1.38.68"}
+{"ts":"2026-10-03T09:04:23.579Z","host":"gw-edge-1","level":"INFO","request_id":"rq_eaf3cbbe03","status":200,"duration_ms":59,"bytes":3161}
+{"ts":"2026-10-03T09:04:37.102Z","host":"gw-edge-1","level":"INFO","request_id":"rq_78aa63caff","method":"GET","path":"/healthz","order":"-","client":"172.74.112.27"}
+{"ts":"2026-10-03T09:04:37.161Z","host":"gw-edge-1","level":"INFO","request_id":"rq_78aa63caff","status":200,"duration_ms":59,"bytes":2800}
+{"ts":"2026-10-03T09:04:47.558Z","host":"gw-edge-2","level":"WARN","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:04:51.125Z","host":"gw-edge-2","level":"WARN","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:05:00.754Z","host":"gw-edge-2","level":"INFO","request_id":"rq_69b95e736f","method":"POST","path":"/api/refunds","order":"ORD-21146","client":"192.27.205.152"}
+{"ts":"2026-10-03T09:05:00.759Z","host":"gw-edge-2","level":"INFO","request_id":"rq_69b95e736f","upstream":"orders-svc","traceparent":"00-03cf9ae0986499e51e827188763df8bd-db8fd367881728e1-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:05:01.089Z","host":"gw-edge-2","level":"INFO","request_id":"rq_69b95e736f","status":200,"duration_ms":335,"bytes":661}
+{"ts":"2026-10-03T09:05:17.803Z","host":"gw-edge-3","level":"INFO","request_id":"rq_e22ad30eb9","method":"POST","path":"/api/refunds","order":"ORD-20492","client":"10.136.173.109"}
+{"ts":"2026-10-03T09:05:17.808Z","host":"gw-edge-3","level":"INFO","request_id":"rq_e22ad30eb9","upstream":"orders-svc","traceparent":"00-5849d06f49863bb3042142ca03134b80-08b43130ac241240-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:05:18.142Z","host":"gw-edge-3","level":"INFO","request_id":"rq_e22ad30eb9","status":200,"duration_ms":339,"bytes":608}
+{"ts":"2026-10-03T09:05:57.619Z","host":"gw-edge-1","level":"INFO","msg":"upstream health check ok payments-svc 2/2 healthy"}
+{"ts":"2026-10-03T09:06:16.822Z","host":"gw-edge-1","level":"INFO","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:06:19.282Z","host":"gw-edge-1","level":"WARN","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:06:20.655Z","host":"gw-edge-3","level":"INFO","request_id":"rq_1b94a8824b","method":"POST","path":"/api/refunds","order":"ORD-19828","client":"192.79.28.5"}
+{"ts":"2026-10-03T09:06:20.657Z","host":"gw-edge-3","level":"INFO","request_id":"rq_1b94a8824b","upstream":"orders-svc","traceparent":"00-87f8b6cb6f9086d05e86522b43625629-92652634b22568e5-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:06:21.004Z","host":"gw-edge-3","level":"INFO","request_id":"rq_1b94a8824b","status":200,"duration_ms":349,"bytes":321}
+{"ts":"2026-10-03T09:06:25.151Z","host":"gw-edge-3","level":"INFO","request_id":"rq_05a6b75030","method":"POST","path":"/api/refunds","order":"ORD-20907","client":"198.200.180.204"}
+{"ts":"2026-10-03T09:06:25.155Z","host":"gw-edge-3","level":"INFO","request_id":"rq_05a6b75030","upstream":"orders-svc","traceparent":"00-35d611af836f6a8c14c391f6711040a3-3a0401176f193c41-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:06:25.486Z","host":"gw-edge-3","level":"INFO","request_id":"rq_05a6b75030","status":200,"duration_ms":335,"bytes":701}
+{"ts":"2026-10-03T09:06:26.161Z","host":"gw-edge-2","level":"INFO","request_id":"rq_7d23ab2c67","method":"GET","path":"/api/returns/labels","order":"-","client":"172.56.84.127"}
+{"ts":"2026-10-03T09:06:26.194Z","host":"gw-edge-2","level":"INFO","request_id":"rq_7d23ab2c67","status":200,"duration_ms":33,"bytes":81}
+{"ts":"2026-10-03T09:06:49.035Z","host":"gw-edge-2","level":"INFO","request_id":"rq_41e744b8fe","method":"GET","path":"/api/products/SKU-55241","order":"-","client":"192.232.186.190"}
+{"ts":"2026-10-03T09:06:49.061Z","host":"gw-edge-2","level":"INFO","request_id":"rq_41e744b8fe","status":200,"duration_ms":26,"bytes":917}
+{"ts":"2026-10-03T09:07:40.300Z","host":"gw-edge-1","level":"WARN","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:07:41.322Z","host":"gw-edge-1","level":"INFO","request_id":"rq_6f5f609a00","method":"POST","path":"/api/refunds","order":"ORD-20348","client":"198.132.23.28"}
+{"ts":"2026-10-03T09:07:41.326Z","host":"gw-edge-1","level":"INFO","request_id":"rq_6f5f609a00","upstream":"orders-svc","traceparent":"00-913da20a71b31d719204e13570f5aaeb-beaa5f07531e4029-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:07:41.651Z","host":"gw-edge-1","level":"INFO","request_id":"rq_6f5f609a00","status":200,"duration_ms":329,"bytes":465}
+{"ts":"2026-10-03T09:08:05.410Z","host":"gw-edge-2","level":"WARN","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:08:12.338Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b4531929e1","method":"POST","path":"/api/refunds","order":"ORD-20709","client":"10.160.52.193"}
+{"ts":"2026-10-03T09:08:12.340Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b4531929e1","upstream":"orders-svc","traceparent":"00-69f5972b235b7a6b86713a6ad5e8b394-493b8e5da6a31768-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:08:12.619Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b4531929e1","status":200,"duration_ms":281,"bytes":701}
+{"ts":"2026-10-03T09:08:17.353Z","host":"gw-edge-3","level":"INFO","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:08:21.225Z","host":"gw-edge-1","level":"INFO","request_id":"rq_063ba1e619","method":"GET","path":"/api/orders/ORD-20303","order":"ORD-20303","client":"10.103.109.102"}
+{"ts":"2026-10-03T09:08:21.319Z","host":"gw-edge-1","level":"INFO","request_id":"rq_063ba1e619","status":200,"duration_ms":94,"bytes":3505}
+{"ts":"2026-10-03T09:08:24.327Z","host":"gw-edge-1","level":"INFO","request_id":"rq_a99048e5a0","method":"GET","path":"/api/products/SKU-14134","order":"-","client":"192.187.82.139"}
+{"ts":"2026-10-03T09:08:24.493Z","host":"gw-edge-1","level":"INFO","request_id":"rq_a99048e5a0","status":200,"duration_ms":166,"bytes":1321}
+{"ts":"2026-10-03T09:08:29.294Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f3713ec16c","method":"GET","path":"/api/orders/ORD-20816/refunds","order":"ORD-20816","client":"172.33.157.60"}
+{"ts":"2026-10-03T09:08:29.441Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f3713ec16c","status":200,"duration_ms":147,"bytes":2361}
+{"ts":"2026-10-03T09:08:35.090Z","host":"gw-edge-2","level":"INFO","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:08:48.496Z","host":"gw-edge-2","level":"INFO","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:08:52.822Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b9357be3fe","method":"POST","path":"/api/refunds","order":"ORD-20737","client":"10.228.60.87"}
+{"ts":"2026-10-03T09:08:52.828Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b9357be3fe","upstream":"orders-svc","traceparent":"00-c9e2f72446bcbd8f4f1fec47d2975370-0735792d74cef1f4-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:08:53.112Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b9357be3fe","status":200,"duration_ms":290,"bytes":850}
+{"ts":"2026-10-03T09:09:15.178Z","host":"gw-edge-2","level":"INFO","request_id":"rq_162f41885d","method":"POST","path":"/api/refunds","order":"ORD-19826","client":"198.13.2.81"}
+{"ts":"2026-10-03T09:09:15.184Z","host":"gw-edge-2","level":"INFO","request_id":"rq_162f41885d","upstream":"orders-svc","traceparent":"00-51b54c3bf9014409b4f1ed6f432b4a54-45a4b234f6de1f4b-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:09:15.491Z","host":"gw-edge-2","level":"INFO","request_id":"rq_162f41885d","status":200,"duration_ms":313,"bytes":867}
+{"ts":"2026-10-03T09:09:23.729Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8170792157","method":"POST","path":"/api/refunds","order":"ORD-20405","client":"10.230.77.84"}
+{"ts":"2026-10-03T09:09:23.733Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8170792157","upstream":"orders-svc","traceparent":"00-01b61e65a8944db00a775f8921aa07d1-1d70aa1298f577a0-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:09:24.038Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8170792157","status":200,"duration_ms":309,"bytes":430}
+{"ts":"2026-10-03T09:09:27.279Z","host":"gw-edge-3","level":"INFO","request_id":"rq_caf31177b9","method":"GET","path":"/healthz","order":"-","client":"172.163.149.109"}
+{"ts":"2026-10-03T09:09:27.476Z","host":"gw-edge-3","level":"INFO","request_id":"rq_caf31177b9","status":200,"duration_ms":197,"bytes":3265}
+{"ts":"2026-10-03T09:09:35.321Z","host":"gw-edge-3","level":"WARN","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:09:54.329Z","host":"gw-edge-2","level":"INFO","request_id":"rq_f2c9b45ee1","method":"GET","path":"/api/products/SKU-14600","order":"-","client":"192.105.92.108"}
+{"ts":"2026-10-03T09:09:54.372Z","host":"gw-edge-2","level":"INFO","request_id":"rq_f2c9b45ee1","status":200,"duration_ms":43,"bytes":1356}
+{"ts":"2026-10-03T09:09:58.864Z","host":"gw-edge-2","level":"INFO","request_id":"rq_5061162326","method":"GET","path":"/healthz","order":"-","client":"192.244.118.211"}
+{"ts":"2026-10-03T09:09:59.128Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_5061162326","status":500,"duration_ms":264,"bytes":1305}
+{"ts":"2026-10-03T09:10:05.345Z","host":"gw-edge-3","level":"INFO","request_id":"rq_664b364c5f","method":"POST","path":"/api/refunds","order":"ORD-21119","client":"198.167.89.99"}
+{"ts":"2026-10-03T09:10:05.348Z","host":"gw-edge-3","level":"INFO","request_id":"rq_664b364c5f","upstream":"orders-svc","traceparent":"00-6252054caf23b79f6d84194613fed4af-fa4def31649148d6-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:10:05.654Z","host":"gw-edge-3","level":"INFO","request_id":"rq_664b364c5f","status":200,"duration_ms":309,"bytes":594}
+{"ts":"2026-10-03T09:10:18.685Z","host":"gw-edge-1","level":"INFO","request_id":"rq_eca5fbf7e2","method":"GET","path":"/api/orders/ORD-21138/refunds","order":"ORD-21138","client":"10.9.68.81"}
+{"ts":"2026-10-03T09:10:18.764Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_eca5fbf7e2","status":500,"duration_ms":79,"bytes":3193}
+{"ts":"2026-10-03T09:10:39.850Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0f8affb945","method":"POST","path":"/api/refunds","order":"ORD-19800","client":"192.99.33.103"}
+{"ts":"2026-10-03T09:10:39.852Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0f8affb945","upstream":"orders-svc","traceparent":"00-51e2d5e8ad00e6a85369219d788006c7-7c600887d9129635-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:10:40.095Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0f8affb945","status":200,"duration_ms":245,"bytes":399}
+{"ts":"2026-10-03T09:10:48.681Z","host":"gw-edge-3","level":"INFO","request_id":"rq_6035c535e3","method":"GET","path":"/api/orders/ORD-20155","order":"ORD-20155","client":"172.93.50.90"}
+{"ts":"2026-10-03T09:10:48.684Z","host":"gw-edge-3","level":"WARN","request_id":"rq_6035c535e3","status":429,"duration_ms":3,"bytes":4000}
+{"ts":"2026-10-03T09:11:14.722Z","host":"gw-edge-1","level":"INFO","request_id":"rq_0e0b735302","method":"GET","path":"/api/returns/labels","order":"-","client":"198.125.249.248"}
+{"ts":"2026-10-03T09:11:14.739Z","host":"gw-edge-1","level":"INFO","request_id":"rq_0e0b735302","status":200,"duration_ms":17,"bytes":1159}
+{"ts":"2026-10-03T09:11:23.873Z","host":"gw-edge-1","level":"INFO","request_id":"rq_5afbe14689","method":"GET","path":"/api/orders/ORD-19938","order":"ORD-19938","client":"10.248.38.23"}
+{"ts":"2026-10-03T09:11:24.025Z","host":"gw-edge-1","level":"INFO","request_id":"rq_5afbe14689","status":200,"duration_ms":152,"bytes":2847}
+{"ts":"2026-10-03T09:11:32.236Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ff1bef8071","method":"POST","path":"/api/login","order":"-","client":"198.17.141.235"}
+{"ts":"2026-10-03T09:11:32.436Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ff1bef8071","status":200,"duration_ms":200,"bytes":3082}
+{"ts":"2026-10-03T09:11:39.401Z","host":"gw-edge-3","level":"WARN","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:11:44.217Z","host":"gw-edge-1","level":"INFO","request_id":"rq_3c3ffd3f44","method":"GET","path":"/healthz","order":"-","client":"172.188.75.86"}
+{"ts":"2026-10-03T09:11:44.385Z","host":"gw-edge-1","level":"INFO","request_id":"rq_3c3ffd3f44","status":200,"duration_ms":168,"bytes":417}
+{"ts":"2026-10-03T09:11:51.035Z","host":"gw-edge-2","level":"ERROR","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:12:09.621Z","host":"gw-edge-2","level":"ERROR","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:12:19.709Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8c0777c2aa","method":"POST","path":"/api/login","order":"-","client":"172.70.188.34"}
+{"ts":"2026-10-03T09:12:19.795Z","host":"gw-edge-3","level":"INFO","request_id":"rq_8c0777c2aa","status":200,"duration_ms":86,"bytes":423}
+{"ts":"2026-10-03T09:12:34.618Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bd261b2408","method":"POST","path":"/api/refunds","order":"ORD-20732","client":"10.94.11.247"}
+{"ts":"2026-10-03T09:12:34.621Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bd261b2408","upstream":"orders-svc","traceparent":"00-4b5005f730a5c689bb9fc1a361580d76-67d085163a1cf9bb-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:12:34.948Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bd261b2408","status":200,"duration_ms":330,"bytes":847}
+{"ts":"2026-10-03T09:12:37.707Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4662b411c1","method":"GET","path":"/api/account","order":"-","client":"10.44.243.141"}
+{"ts":"2026-10-03T09:12:37.909Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4662b411c1","status":200,"duration_ms":202,"bytes":1141}
+{"ts":"2026-10-03T09:12:52.414Z","host":"gw-edge-2","level":"INFO","request_id":"rq_bd038c4a56","method":"GET","path":"/api/orders/ORD-19893/refunds","order":"ORD-19893","client":"10.222.46.159"}
+{"ts":"2026-10-03T09:12:52.457Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_bd038c4a56","status":500,"duration_ms":43,"bytes":1791}
+{"ts":"2026-10-03T09:12:57.391Z","host":"gw-edge-3","level":"INFO","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:13:03.128Z","host":"gw-edge-1","level":"ERROR","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:13:36.535Z","host":"gw-edge-2","level":"WARN","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:13:39.195Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ebb91afa89","method":"GET","path":"/api/returns/labels","order":"-","client":"198.57.111.242"}
+{"ts":"2026-10-03T09:13:39.251Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ebb91afa89","status":200,"duration_ms":56,"bytes":1085}
+{"ts":"2026-10-03T09:13:50.512Z","host":"gw-edge-1","level":"INFO","request_id":"rq_da2fc9b796","method":"GET","path":"/api/returns/labels","order":"-","client":"203.163.93.187"}
+{"ts":"2026-10-03T09:13:50.697Z","host":"gw-edge-1","level":"INFO","request_id":"rq_da2fc9b796","status":200,"duration_ms":185,"bytes":1711}
+{"ts":"2026-10-03T09:13:59.046Z","host":"gw-edge-1","level":"INFO","request_id":"rq_16bb4b1aac","method":"POST","path":"/api/login","order":"-","client":"10.115.51.211"}
+{"ts":"2026-10-03T09:13:59.218Z","host":"gw-edge-1","level":"INFO","request_id":"rq_16bb4b1aac","status":200,"duration_ms":172,"bytes":369}
+{"ts":"2026-10-03T09:14:12.350Z","host":"gw-edge-3","level":"INFO","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:14:26.208Z","host":"gw-edge-2","level":"INFO","request_id":"rq_16d58f7e6c","method":"GET","path":"/api/orders/ORD-19941","order":"ORD-19941","client":"198.123.138.64"}
+{"ts":"2026-10-03T09:14:26.334Z","host":"gw-edge-2","level":"INFO","request_id":"rq_16d58f7e6c","status":200,"duration_ms":126,"bytes":2163}
+{"ts":"2026-10-03T09:14:53.452Z","host":"gw-edge-1","level":"INFO","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:14:56.096Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5b4f18652c","method":"GET","path":"/api/orders/ORD-20764","order":"ORD-20764","client":"198.196.38.216"}
+{"ts":"2026-10-03T09:14:56.132Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5b4f18652c","status":200,"duration_ms":36,"bytes":1843}
+{"ts":"2026-10-03T09:14:57.196Z","host":"gw-edge-3","level":"INFO","request_id":"rq_2d9bb78423","method":"POST","path":"/api/login","order":"-","client":"172.225.22.96"}
+{"ts":"2026-10-03T09:14:57.301Z","host":"gw-edge-3","level":"INFO","request_id":"rq_2d9bb78423","status":200,"duration_ms":105,"bytes":1670}
+{"ts":"2026-10-03T09:15:06.394Z","host":"gw-edge-1","level":"INFO","request_id":"rq_df405d7b05","method":"GET","path":"/api/orders/ORD-20726","order":"ORD-20726","client":"203.133.206.72"}
+{"ts":"2026-10-03T09:15:06.416Z","host":"gw-edge-1","level":"INFO","request_id":"rq_df405d7b05","status":200,"duration_ms":22,"bytes":2449}
+{"ts":"2026-10-03T09:15:12.645Z","host":"gw-edge-2","level":"INFO","request_id":"rq_acb310fb0b","method":"POST","path":"/api/refunds","order":"ORD-20473","client":"10.174.73.194"}
+{"ts":"2026-10-03T09:15:12.647Z","host":"gw-edge-2","level":"INFO","request_id":"rq_acb310fb0b","upstream":"orders-svc","traceparent":"00-80508748ab6350df266bd1ecabc4a8ff-ff8a4cbace1db662-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:15:12.919Z","host":"gw-edge-2","level":"INFO","request_id":"rq_acb310fb0b","status":200,"duration_ms":274,"bytes":760}
+{"ts":"2026-10-03T09:15:22.041Z","host":"gw-edge-2","level":"WARN","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:15:25.555Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b1cf1f71c7","method":"POST","path":"/api/login","order":"-","client":"10.13.48.57"}
+{"ts":"2026-10-03T09:15:25.701Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b1cf1f71c7","status":200,"duration_ms":146,"bytes":3152}
+{"ts":"2026-10-03T09:15:32.085Z","host":"gw-edge-3","level":"ERROR","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:15:33.629Z","host":"gw-edge-1","level":"INFO","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:15:37.343Z","host":"gw-edge-1","level":"INFO","request_id":"rq_198e9c0d9d","method":"GET","path":"/api/products/SKU-37085","order":"-","client":"192.72.213.248"}
+{"ts":"2026-10-03T09:15:37.354Z","host":"gw-edge-1","level":"INFO","request_id":"rq_198e9c0d9d","status":200,"duration_ms":11,"bytes":2104}
+{"ts":"2026-10-03T09:15:47.750Z","host":"gw-edge-1","level":"INFO","request_id":"rq_a25409d57e","method":"GET","path":"/api/orders/ORD-21121/refunds","order":"ORD-21121","client":"172.37.33.120"}
+{"ts":"2026-10-03T09:15:47.764Z","host":"gw-edge-1","level":"INFO","request_id":"rq_a25409d57e","status":200,"duration_ms":14,"bytes":1489}
+{"ts":"2026-10-03T09:15:51.424Z","host":"gw-edge-1","level":"INFO","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:15:58.744Z","host":"gw-edge-2","level":"INFO","request_id":"rq_52b2a53899","method":"POST","path":"/api/refunds","order":"ORD-20141","client":"172.196.20.78"}
+{"ts":"2026-10-03T09:15:58.750Z","host":"gw-edge-2","level":"INFO","request_id":"rq_52b2a53899","upstream":"orders-svc","traceparent":"00-90b01019fff4101d4b6d8769b26800b4-4b00862b9678d6b4-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:15:59.054Z","host":"gw-edge-2","level":"INFO","request_id":"rq_52b2a53899","status":200,"duration_ms":310,"bytes":742}
+{"ts":"2026-10-03T09:16:23.374Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ae22d5443d","method":"GET","path":"/api/orders/ORD-20631","order":"ORD-20631","client":"10.73.0.244"}
+{"ts":"2026-10-03T09:16:23.385Z","host":"gw-edge-3","level":"WARN","request_id":"rq_ae22d5443d","status":400,"duration_ms":11,"bytes":3189}
+{"ts":"2026-10-03T09:16:32.451Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4ab4f72a2a","method":"GET","path":"/api/account","order":"-","client":"203.221.148.107"}
+{"ts":"2026-10-03T09:16:32.614Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4ab4f72a2a","status":200,"duration_ms":163,"bytes":342}
+{"ts":"2026-10-03T09:16:35.052Z","host":"gw-edge-3","level":"INFO","request_id":"rq_0226477006","method":"GET","path":"/api/returns/labels","order":"-","client":"198.187.28.205"}
+{"ts":"2026-10-03T09:16:35.271Z","host":"gw-edge-3","level":"INFO","request_id":"rq_0226477006","status":200,"duration_ms":219,"bytes":1919}
+{"ts":"2026-10-03T09:16:37.102Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d5c39997b0","method":"GET","path":"/api/returns/labels","order":"-","client":"203.242.188.90"}
+{"ts":"2026-10-03T09:16:37.268Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d5c39997b0","status":200,"duration_ms":166,"bytes":2552}
+{"ts":"2026-10-03T09:16:38.620Z","host":"gw-edge-1","level":"INFO","request_id":"rq_bfe26619d1","method":"POST","path":"/api/login","order":"-","client":"198.127.166.71"}
+{"ts":"2026-10-03T09:16:38.772Z","host":"gw-edge-1","level":"INFO","request_id":"rq_bfe26619d1","status":200,"duration_ms":152,"bytes":2419}
+{"ts":"2026-10-03T09:16:43.493Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ab9fbce43e","method":"POST","path":"/api/refunds","order":"ORD-20197","client":"198.203.80.57"}
+{"ts":"2026-10-03T09:16:43.497Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ab9fbce43e","upstream":"orders-svc","traceparent":"00-eca4d35b99b655d3f1c6267c62c771ff-ff177c26c7626c1f-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:16:43.799Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ab9fbce43e","status":200,"duration_ms":306,"bytes":470}
+{"ts":"2026-10-03T09:17:19.263Z","host":"gw-edge-1","level":"INFO","request_id":"rq_770396974c","method":"GET","path":"/api/orders/ORD-19931","order":"ORD-19931","client":"10.241.101.27"}
+{"ts":"2026-10-03T09:17:19.271Z","host":"gw-edge-1","level":"INFO","request_id":"rq_770396974c","status":200,"duration_ms":8,"bytes":889}
+{"ts":"2026-10-03T09:17:20.291Z","host":"gw-edge-2","level":"INFO","request_id":"rq_18e7e84ec0","method":"GET","path":"/api/products/SKU-17983","order":"-","client":"10.177.133.133"}
+{"ts":"2026-10-03T09:17:20.324Z","host":"gw-edge-2","level":"INFO","request_id":"rq_18e7e84ec0","status":200,"duration_ms":33,"bytes":2357}
+{"ts":"2026-10-03T09:17:26.045Z","host":"gw-edge-3","level":"INFO","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:17:47.250Z","host":"gw-edge-2","level":"INFO","request_id":"rq_b7e694c616","method":"POST","path":"/api/refunds","order":"ORD-20820","client":"172.212.80.186"}
+{"ts":"2026-10-03T09:17:47.253Z","host":"gw-edge-2","level":"INFO","request_id":"rq_b7e694c616","upstream":"orders-svc","traceparent":"00-916d9f158489c8df897a49154d2940f6-6f0492d45194a798-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:17:47.524Z","host":"gw-edge-2","level":"INFO","request_id":"rq_b7e694c616","status":200,"duration_ms":274,"bytes":865}
+{"ts":"2026-10-03T09:17:56.720Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b3a339f979","method":"GET","path":"/api/orders/ORD-20071/refunds","order":"ORD-20071","client":"172.135.42.61"}
+{"ts":"2026-10-03T09:17:56.897Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b3a339f979","status":200,"duration_ms":177,"bytes":689}
+{"ts":"2026-10-03T09:18:07.146Z","host":"gw-edge-3","level":"WARN","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:18:12.659Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bbf01e3971","method":"GET","path":"/api/orders/ORD-20405","order":"ORD-20405","client":"10.227.91.104"}
+{"ts":"2026-10-03T09:18:12.747Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bbf01e3971","status":200,"duration_ms":88,"bytes":1472}
+{"ts":"2026-10-03T09:18:12.781Z","host":"gw-edge-1","level":"WARN","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:18:13.412Z","host":"gw-edge-1","level":"ERROR","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:18:27.505Z","host":"gw-edge-3","level":"INFO","request_id":"rq_6a4dab84b9","method":"POST","path":"/api/refunds","order":"ORD-20494","client":"192.73.111.63"}
+{"ts":"2026-10-03T09:18:27.509Z","host":"gw-edge-3","level":"INFO","request_id":"rq_6a4dab84b9","upstream":"orders-svc","traceparent":"00-a0eb5ac6869e2c6895448fe3a5210649-9460125a3ef84459-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:18:27.785Z","host":"gw-edge-3","level":"INFO","request_id":"rq_6a4dab84b9","status":200,"duration_ms":280,"bytes":835}
+{"ts":"2026-10-03T09:18:36.136Z","host":"gw-edge-3","level":"INFO","request_id":"rq_65b1330f93","method":"GET","path":"/api/products/SKU-57936","order":"-","client":"203.42.116.123"}
+{"ts":"2026-10-03T09:18:36.507Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_65b1330f93","status":500,"duration_ms":371,"bytes":2758}
+{"ts":"2026-10-03T09:18:50.997Z","host":"gw-edge-2","level":"INFO","request_id":"rq_8d4cb07c21","method":"POST","path":"/api/refunds","order":"ORD-20995","client":"203.88.23.165"}
+{"ts":"2026-10-03T09:18:50.999Z","host":"gw-edge-2","level":"INFO","request_id":"rq_8d4cb07c21","upstream":"orders-svc","traceparent":"00-4d56cc50906909ecaad0a4b8dd0ce497-794ec0dd8b4a0daa-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:18:51.243Z","host":"gw-edge-2","level":"INFO","request_id":"rq_8d4cb07c21","status":200,"duration_ms":246,"bytes":678}
+{"ts":"2026-10-03T09:19:14.180Z","host":"gw-edge-2","level":"INFO","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:19:27.347Z","host":"gw-edge-1","level":"INFO","request_id":"rq_9e857b78d2","method":"POST","path":"/api/refunds","order":"ORD-20707","client":"198.132.232.72"}
+{"ts":"2026-10-03T09:19:27.349Z","host":"gw-edge-1","level":"INFO","request_id":"rq_9e857b78d2","upstream":"orders-svc","traceparent":"00-31d53d1f583037b210090d7fcf236bb2-2bb632fcf7d09001-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:19:27.653Z","host":"gw-edge-1","level":"INFO","request_id":"rq_9e857b78d2","status":200,"duration_ms":306,"bytes":380}
+{"ts":"2026-10-03T09:19:32.325Z","host":"gw-edge-2","level":"INFO","request_id":"rq_78fdd765d6","method":"GET","path":"/api/returns/labels","order":"-","client":"203.197.135.50"}
+{"ts":"2026-10-03T09:19:32.372Z","host":"gw-edge-2","level":"INFO","request_id":"rq_78fdd765d6","status":200,"duration_ms":47,"bytes":3376}
+{"ts":"2026-10-03T09:20:08.209Z","host":"gw-edge-1","level":"WARN","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:20:22.753Z","host":"gw-edge-2","level":"ERROR","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:20:24.307Z","host":"gw-edge-2","level":"INFO","request_id":"rq_6c95274930","method":"GET","path":"/api/orders/ORD-20478","order":"ORD-20478","client":"172.198.223.175"}
+{"ts":"2026-10-03T09:20:25.920Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_6c95274930","status":502,"duration_ms":1613,"bytes":204}
+{"ts":"2026-10-03T09:20:27.864Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a6b9f72889","method":"POST","path":"/api/login","order":"-","client":"198.34.185.201"}
+{"ts":"2026-10-03T09:20:27.903Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a6b9f72889","status":200,"duration_ms":39,"bytes":3821}
+{"ts":"2026-10-03T09:20:33.035Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ab7f651397","method":"POST","path":"/api/refunds","order":"ORD-20115","client":"10.1.163.25"}
+{"ts":"2026-10-03T09:20:33.037Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ab7f651397","upstream":"orders-svc","traceparent":"00-a35819c0ef73d1bd3651b374a3bc5091-1905cb3a473b1563-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:20:33.279Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ab7f651397","status":200,"duration_ms":244,"bytes":806}
+{"ts":"2026-10-03T09:20:40.692Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d1001a992a","method":"POST","path":"/api/refunds","order":"ORD-19828","client":"203.224.223.244"}
+{"ts":"2026-10-03T09:20:40.696Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d1001a992a","upstream":"orders-svc","traceparent":"00-ebd52cca531d13c97a755e68ef1f08f9-9f80f1fe86e557a7-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:20:41.046Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d1001a992a","status":200,"duration_ms":354,"bytes":609}
+{"ts":"2026-10-03T09:20:43.199Z","host":"gw-edge-1","level":"INFO","request_id":"rq_29ff20eade","method":"POST","path":"/api/login","order":"-","client":"203.98.155.178"}
+{"ts":"2026-10-03T09:20:43.208Z","host":"gw-edge-1","level":"WARN","request_id":"rq_29ff20eade","status":404,"duration_ms":9,"bytes":3261}
+{"ts":"2026-10-03T09:20:43.443Z","host":"gw-edge-2","level":"INFO","request_id":"rq_7537fc2ebb","method":"POST","path":"/api/refunds","order":"ORD-20294","client":"192.59.151.32"}
+{"ts":"2026-10-03T09:20:43.446Z","host":"gw-edge-2","level":"INFO","request_id":"rq_7537fc2ebb","upstream":"orders-svc","traceparent":"00-6ddf8b4c60c99a3285effe7300c05fd9-9df50c0037effe58-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:20:43.680Z","host":"gw-edge-2","level":"INFO","request_id":"rq_7537fc2ebb","status":200,"duration_ms":237,"bytes":883}
+{"ts":"2026-10-03T09:20:48.261Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7dca13b43","method":"POST","path":"/api/refunds","order":"ORD-19812","client":"172.186.139.8"}
+{"ts":"2026-10-03T09:20:48.265Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7dca13b43","upstream":"orders-svc","traceparent":"00-781ee81b6770986e972dcc2177598f23-32f8957712ccd279-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:20:48.498Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7dca13b43","status":200,"duration_ms":237,"bytes":890}
+{"ts":"2026-10-03T09:20:59.632Z","host":"gw-edge-3","level":"INFO","request_id":"rq_dbaba798a0","method":"POST","path":"/api/refunds","order":"ORD-20822","client":"203.20.14.68"}
+{"ts":"2026-10-03T09:20:59.638Z","host":"gw-edge-3","level":"INFO","request_id":"rq_dbaba798a0","upstream":"orders-svc","traceparent":"00-a93c48928d0deebfd761d79af888a6c8-8c6a888fa97d167d-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:20:59.924Z","host":"gw-edge-3","level":"INFO","request_id":"rq_dbaba798a0","status":200,"duration_ms":292,"bytes":761}
+{"ts":"2026-10-03T09:21:11.071Z","host":"gw-edge-1","level":"INFO","request_id":"rq_527d5e409a","method":"GET","path":"/api/returns/labels","order":"-","client":"192.182.20.109"}
+{"ts":"2026-10-03T09:21:11.181Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_527d5e409a","status":500,"duration_ms":110,"bytes":177}
+{"ts":"2026-10-03T09:21:23.972Z","host":"gw-edge-1","level":"ERROR","msg":"upstream health check ok payments-svc 2/2 healthy"}
+{"ts":"2026-10-03T09:21:39.397Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b0252d5b4f","method":"GET","path":"/api/returns/labels","order":"-","client":"203.41.5.126"}
+{"ts":"2026-10-03T09:21:39.439Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b0252d5b4f","status":200,"duration_ms":42,"bytes":3304}
+{"ts":"2026-10-03T09:21:47.711Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a716fa6788","method":"GET","path":"/api/returns/labels","order":"-","client":"172.138.28.213"}
+{"ts":"2026-10-03T09:21:47.717Z","host":"gw-edge-3","level":"WARN","request_id":"rq_a716fa6788","status":401,"duration_ms":6,"bytes":742}
+{"ts":"2026-10-03T09:21:49.879Z","host":"gw-edge-2","level":"INFO","request_id":"rq_43908f3a4a","method":"GET","path":"/api/returns/labels","order":"-","client":"203.61.200.228"}
+{"ts":"2026-10-03T09:21:50.051Z","host":"gw-edge-2","level":"INFO","request_id":"rq_43908f3a4a","status":200,"duration_ms":172,"bytes":1301}
+{"ts":"2026-10-03T09:22:02.725Z","host":"gw-edge-2","level":"INFO","request_id":"rq_ecfa5560cd","method":"GET","path":"/api/products/SKU-52135","order":"-","client":"172.128.138.3"}
+{"ts":"2026-10-03T09:22:02.741Z","host":"gw-edge-2","level":"INFO","request_id":"rq_ecfa5560cd","status":200,"duration_ms":16,"bytes":708}
+{"ts":"2026-10-03T09:22:03.538Z","host":"gw-edge-2","level":"INFO","request_id":"rq_839e8e5f11","method":"GET","path":"/api/account","order":"-","client":"172.238.9.131"}
+{"ts":"2026-10-03T09:22:03.624Z","host":"gw-edge-2","level":"INFO","request_id":"rq_839e8e5f11","status":200,"duration_ms":86,"bytes":3966}
+{"ts":"2026-10-03T09:22:09.505Z","host":"gw-edge-1","level":"INFO","request_id":"rq_866035d966","method":"GET","path":"/api/account","order":"-","client":"192.246.18.134"}
+{"ts":"2026-10-03T09:22:09.590Z","host":"gw-edge-1","level":"INFO","request_id":"rq_866035d966","status":200,"duration_ms":85,"bytes":2178}
+{"ts":"2026-10-03T09:22:21.445Z","host":"gw-edge-2","level":"INFO","request_id":"rq_452d82cacd","method":"GET","path":"/healthz","order":"-","client":"192.143.208.213"}
+{"ts":"2026-10-03T09:22:21.460Z","host":"gw-edge-2","level":"INFO","request_id":"rq_452d82cacd","status":200,"duration_ms":15,"bytes":2873}
+{"ts":"2026-10-03T09:22:35.416Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d036923e84","method":"POST","path":"/api/refunds","order":"ORD-20319","client":"192.102.234.159"}
+{"ts":"2026-10-03T09:22:35.420Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d036923e84","upstream":"orders-svc","traceparent":"00-9fe71fa75b803cc42e0ee22cc1cf2286-6822fc1cc22ee0e2-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:22:35.675Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d036923e84","status":200,"duration_ms":259,"bytes":511}
+{"ts":"2026-10-03T09:22:44.863Z","host":"gw-edge-1","level":"INFO","request_id":"rq_f626d09ac4","method":"GET","path":"/api/orders/ORD-20131/refunds","order":"ORD-20131","client":"172.165.252.228"}
+{"ts":"2026-10-03T09:22:45.013Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_f626d09ac4","status":500,"duration_ms":150,"bytes":2477}
+{"ts":"2026-10-03T09:23:14.619Z","host":"gw-edge-1","level":"WARN","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:23:20.437Z","host":"gw-edge-3","level":"WARN","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:23:39.274Z","host":"gw-edge-3","level":"INFO","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:23:40.478Z","host":"gw-edge-2","level":"INFO","request_id":"rq_93a875f0e2","method":"GET","path":"/api/orders/ORD-20455/refunds","order":"ORD-20455","client":"198.57.164.171"}
+{"ts":"2026-10-03T09:23:40.586Z","host":"gw-edge-2","level":"INFO","request_id":"rq_93a875f0e2","status":200,"duration_ms":108,"bytes":2503}
+{"ts":"2026-10-03T09:23:42.826Z","host":"gw-edge-3","level":"WARN","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:24:10.410Z","host":"gw-edge-1","level":"INFO","request_id":"rq_919b444aa4","method":"POST","path":"/api/refunds","order":"ORD-20386","client":"192.195.216.106"}
+{"ts":"2026-10-03T09:24:10.416Z","host":"gw-edge-1","level":"INFO","request_id":"rq_919b444aa4","upstream":"orders-svc","traceparent":"00-216efeb55c25c9f7ea628638499e9039-9309e994836826ae-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:24:10.706Z","host":"gw-edge-1","level":"INFO","request_id":"rq_919b444aa4","status":200,"duration_ms":296,"bytes":715}
+{"ts":"2026-10-03T09:24:28.521Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1c1b54919d","method":"POST","path":"/api/refunds","order":"ORD-20860","client":"172.55.168.222"}
+{"ts":"2026-10-03T09:24:28.524Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1c1b54919d","upstream":"orders-svc","traceparent":"00-2445c69bf8b4202e501671a7c16e03b0-0b30e61c7a176105-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:24:28.853Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1c1b54919d","status":200,"duration_ms":332,"bytes":546}
+{"ts":"2026-10-03T09:24:32.536Z","host":"gw-edge-3","level":"WARN","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:25:06.667Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d6fd1e75fa","method":"GET","path":"/healthz","order":"-","client":"10.61.100.223"}
+{"ts":"2026-10-03T09:25:06.750Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d6fd1e75fa","status":200,"duration_ms":83,"bytes":666}
+{"ts":"2026-10-03T09:25:08.124Z","host":"gw-edge-1","level":"INFO","request_id":"rq_2b3b54aa4e","method":"GET","path":"/api/account","order":"-","client":"203.5.164.186"}
+{"ts":"2026-10-03T09:25:08.196Z","host":"gw-edge-1","level":"INFO","request_id":"rq_2b3b54aa4e","status":200,"duration_ms":72,"bytes":3608}
+{"ts":"2026-10-03T09:25:13.857Z","host":"gw-edge-3","level":"ERROR","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:25:20.312Z","host":"gw-edge-3","level":"ERROR","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:25:43.156Z","host":"gw-edge-3","level":"INFO","request_id":"rq_c96bdabe78","method":"GET","path":"/api/account","order":"-","client":"198.123.124.245"}
+{"ts":"2026-10-03T09:25:43.167Z","host":"gw-edge-3","level":"WARN","request_id":"rq_c96bdabe78","status":400,"duration_ms":11,"bytes":3625}
+{"ts":"2026-10-03T09:25:46.596Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a07144c97b","method":"GET","path":"/api/account","order":"-","client":"198.148.52.194"}
+{"ts":"2026-10-03T09:25:46.644Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a07144c97b","status":200,"duration_ms":48,"bytes":2058}
+{"ts":"2026-10-03T09:26:38.153Z","host":"gw-edge-1","level":"INFO","request_id":"rq_91525d0bf6","method":"POST","path":"/api/refunds","order":"ORD-20649","client":"198.119.207.86"}
+{"ts":"2026-10-03T09:26:38.156Z","host":"gw-edge-1","level":"INFO","request_id":"rq_91525d0bf6","upstream":"orders-svc","traceparent":"00-691425ce2061788d3b4f3eb45224475f-f57442254be3f4b3-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:26:38.510Z","host":"gw-edge-1","level":"INFO","request_id":"rq_91525d0bf6","status":200,"duration_ms":357,"bytes":806}
+{"ts":"2026-10-03T09:27:29.563Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a94ca110b2","method":"POST","path":"/api/refunds","order":"ORD-20941","client":"203.114.120.25"}
+{"ts":"2026-10-03T09:27:29.566Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a94ca110b2","upstream":"orders-svc","traceparent":"00-3a45d3bad1604fd914f53bf9d764a32b-b23a467d9fb35f41-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:27:29.790Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a94ca110b2","status":200,"duration_ms":227,"bytes":715}
+{"ts":"2026-10-03T09:27:40.000Z","host":"gw-edge-1","level":"INFO","request_id":"rq_04018b7965","method":"POST","path":"/api/refunds","order":"ORD-20420","client":"203.158.80.97"}
+{"ts":"2026-10-03T09:27:40.003Z","host":"gw-edge-1","level":"INFO","request_id":"rq_04018b7965","upstream":"orders-svc","traceparent":"00-69719702f1b82598ceed95348eee2226-6222eee84359deec-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:27:48.758Z","host":"gw-edge-2","level":"INFO","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:27:52.001Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_04018b7965","status":504,"duration_ms":12001,"bytes":148}
+{"ts":"2026-10-03T09:28:04.630Z","host":"gw-edge-3","level":"WARN","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:28:15.813Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d527ee6302","method":"GET","path":"/api/orders/ORD-21155","order":"ORD-21155","client":"198.136.68.172"}
+{"ts":"2026-10-03T09:28:15.825Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d527ee6302","status":200,"duration_ms":12,"bytes":3104}
+{"ts":"2026-10-03T09:28:19.292Z","host":"gw-edge-3","level":"INFO","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:28:23.820Z","host":"gw-edge-2","level":"INFO","request_id":"rq_172f9c2e07","method":"POST","path":"/api/refunds","order":"ORD-20778","client":"172.6.208.9"}
+{"ts":"2026-10-03T09:28:23.825Z","host":"gw-edge-2","level":"INFO","request_id":"rq_172f9c2e07","upstream":"orders-svc","traceparent":"00-2d023f72fd31edd6bb7bc2e824410ec0-0ce014428e2cb7bb-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:28:24.036Z","host":"gw-edge-2","level":"INFO","request_id":"rq_172f9c2e07","status":200,"duration_ms":216,"bytes":846}
+{"ts":"2026-10-03T09:28:26.360Z","host":"gw-edge-2","level":"INFO","request_id":"rq_80f61c603b","method":"GET","path":"/api/orders/ORD-20201/refunds","order":"ORD-20201","client":"10.47.176.17"}
+{"ts":"2026-10-03T09:28:26.366Z","host":"gw-edge-2","level":"WARN","request_id":"rq_80f61c603b","status":401,"duration_ms":6,"bytes":3182}
+{"ts":"2026-10-03T09:28:26.696Z","host":"gw-edge-1","level":"INFO","request_id":"rq_be911f7254","method":"POST","path":"/api/login","order":"-","client":"203.69.3.96"}
+{"ts":"2026-10-03T09:28:26.736Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_be911f7254","status":503,"duration_ms":40,"bytes":665}
+{"ts":"2026-10-03T09:28:52.005Z","host":"gw-edge-1","level":"INFO","request_id":"rq_f61b1c8cfa","method":"GET","path":"/api/orders/ORD-20451","order":"ORD-20451","client":"203.152.88.87"}
+{"ts":"2026-10-03T09:28:52.011Z","host":"gw-edge-1","level":"WARN","request_id":"rq_f61b1c8cfa","status":401,"duration_ms":6,"bytes":2868}
+{"ts":"2026-10-03T09:29:10.175Z","host":"gw-edge-1","level":"WARN","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:29:27.774Z","host":"gw-edge-3","level":"ERROR","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:29:54.303Z","host":"gw-edge-3","level":"WARN","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:29:57.102Z","host":"gw-edge-1","level":"INFO","request_id":"rq_4ab5853840","method":"GET","path":"/api/orders/ORD-20196","order":"ORD-20196","client":"192.247.98.217"}
+{"ts":"2026-10-03T09:29:57.139Z","host":"gw-edge-1","level":"INFO","request_id":"rq_4ab5853840","status":200,"duration_ms":37,"bytes":145}
+{"ts":"2026-10-03T09:30:19.796Z","host":"gw-edge-3","level":"ERROR","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:30:34.385Z","host":"gw-edge-3","level":"ERROR","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:31:12.609Z","host":"gw-edge-2","level":"INFO","request_id":"rq_400c37a671","method":"GET","path":"/healthz","order":"-","client":"198.217.195.206"}
+{"ts":"2026-10-03T09:31:14.143Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_400c37a671","status":502,"duration_ms":1534,"bytes":1368}
+{"ts":"2026-10-03T09:31:15.674Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f923497e93","method":"POST","path":"/api/login","order":"-","client":"203.245.241.91"}
+{"ts":"2026-10-03T09:31:15.855Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f923497e93","status":200,"duration_ms":181,"bytes":869}
+{"ts":"2026-10-03T09:31:33.306Z","host":"gw-edge-1","level":"INFO","request_id":"rq_75e0026557","method":"POST","path":"/api/refunds","order":"ORD-21045","client":"192.236.42.214"}
+{"ts":"2026-10-03T09:31:33.312Z","host":"gw-edge-1","level":"INFO","request_id":"rq_75e0026557","upstream":"orders-svc","traceparent":"00-c46567f0ca5247c666294ea200970d93-39d079002ae49266-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:31:33.631Z","host":"gw-edge-1","level":"INFO","request_id":"rq_75e0026557","status":200,"duration_ms":325,"bytes":695}
+{"ts":"2026-10-03T09:31:36.044Z","host":"gw-edge-2","level":"INFO","request_id":"rq_888da696c8","method":"GET","path":"/healthz","order":"-","client":"203.85.219.153"}
+{"ts":"2026-10-03T09:31:36.122Z","host":"gw-edge-2","level":"INFO","request_id":"rq_888da696c8","status":200,"duration_ms":78,"bytes":3488}
+{"ts":"2026-10-03T09:31:45.006Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d5216b11c8","method":"POST","path":"/api/refunds","order":"ORD-21148","client":"198.129.5.60"}
+{"ts":"2026-10-03T09:31:45.010Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d5216b11c8","upstream":"orders-svc","traceparent":"00-29aa11d1a44c9e8507666a3d1fd766ef-fe667df1d3a66670-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:31:45.288Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d5216b11c8","status":200,"duration_ms":282,"bytes":330}
+{"ts":"2026-10-03T09:31:48.608Z","host":"gw-edge-2","level":"WARN","msg":"tls handshake error from 10.4.2.17: remote error: unknown certificate"}
+{"ts":"2026-10-03T09:31:58.185Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5e28db45e1","method":"POST","path":"/api/refunds","order":"ORD-20298","client":"192.96.111.191"}
+{"ts":"2026-10-03T09:31:58.191Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5e28db45e1","upstream":"orders-svc","traceparent":"00-e8ee2a6705d3f265ffbafa495a74b409-904b47a594afabff-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:31:58.476Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5e28db45e1","status":200,"duration_ms":291,"bytes":562}
+{"ts":"2026-10-03T09:32:16.173Z","host":"gw-edge-3","level":"INFO","request_id":"rq_49340a2139","method":"GET","path":"/api/returns/labels","order":"-","client":"192.201.169.43"}
+{"ts":"2026-10-03T09:32:16.182Z","host":"gw-edge-3","level":"WARN","request_id":"rq_49340a2139","status":404,"duration_ms":9,"bytes":3155}
+{"ts":"2026-10-03T09:32:21.083Z","host":"gw-edge-2","level":"INFO","request_id":"rq_fd4849eb9f","method":"GET","path":"/api/products/SKU-20598","order":"-","client":"192.36.181.53"}
+{"ts":"2026-10-03T09:32:21.115Z","host":"gw-edge-2","level":"INFO","request_id":"rq_fd4849eb9f","status":200,"duration_ms":32,"bytes":2624}
+{"ts":"2026-10-03T09:33:51.038Z","host":"gw-edge-3","level":"INFO","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:34:10.763Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7acfa1b5b","method":"POST","path":"/api/refunds","order":"ORD-21123","client":"198.108.22.142"}
+{"ts":"2026-10-03T09:34:10.768Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7acfa1b5b","upstream":"orders-svc","traceparent":"00-721694a2a4960c1fcbbb15ba9b4cc0df-fd0cc4b9ab51bbbc-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:34:11.023Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7acfa1b5b","status":200,"duration_ms":260,"bytes":792}
+{"ts":"2026-10-03T09:34:16.708Z","host":"gw-edge-3","level":"ERROR","msg":"upstream health check ok payments-svc 2/2 healthy"}
+{"ts":"2026-10-03T09:34:28.553Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7112779cf","method":"GET","path":"/healthz","order":"-","client":"198.133.153.43"}
+{"ts":"2026-10-03T09:34:28.728Z","host":"gw-edge-1","level":"INFO","request_id":"rq_c7112779cf","status":200,"duration_ms":175,"bytes":1714}
+{"ts":"2026-10-03T09:34:34.544Z","host":"gw-edge-2","level":"ERROR","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:35:12.849Z","host":"gw-edge-3","level":"INFO","request_id":"rq_583a70dd35","method":"POST","path":"/api/refunds","order":"ORD-20784","client":"10.120.79.227"}
+{"ts":"2026-10-03T09:35:12.855Z","host":"gw-edge-3","level":"INFO","request_id":"rq_583a70dd35","upstream":"orders-svc","traceparent":"00-30ce75d3e32256256d6f16e444429c49-94c924444e61f6d6-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:35:13.103Z","host":"gw-edge-3","level":"INFO","request_id":"rq_583a70dd35","status":200,"duration_ms":254,"bytes":778}
+{"ts":"2026-10-03T09:35:25.014Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bb285075d7","method":"GET","path":"/api/returns/labels","order":"-","client":"10.188.159.112"}
+{"ts":"2026-10-03T09:35:25.174Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bb285075d7","status":200,"duration_ms":160,"bytes":2313}
+{"ts":"2026-10-03T09:35:30.076Z","host":"gw-edge-1","level":"ERROR","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:35:33.240Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4ad76ed827","method":"GET","path":"/api/products/SKU-28236","order":"-","client":"172.132.70.246"}
+{"ts":"2026-10-03T09:35:34.844Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_4ad76ed827","status":502,"duration_ms":1604,"bytes":2425}
+{"ts":"2026-10-03T09:35:36.212Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d9f8bdd82c","method":"GET","path":"/api/orders/ORD-20554/refunds","order":"ORD-20554","client":"192.87.123.93"}
+{"ts":"2026-10-03T09:35:36.294Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d9f8bdd82c","status":200,"duration_ms":82,"bytes":682}
+{"ts":"2026-10-03T09:36:27.276Z","host":"gw-edge-2","level":"INFO","request_id":"rq_109c19ba60","method":"POST","path":"/api/refunds","order":"ORD-20012","client":"198.203.192.160"}
+{"ts":"2026-10-03T09:36:27.280Z","host":"gw-edge-2","level":"INFO","request_id":"rq_109c19ba60","upstream":"orders-svc","traceparent":"00-b624cb1863a04d710fbfb560b14bdcf7-7fcdb41b065bfbf0-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:36:27.609Z","host":"gw-edge-2","level":"INFO","request_id":"rq_109c19ba60","status":200,"duration_ms":333,"bytes":583}
+{"ts":"2026-10-03T09:36:35.634Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a7ec892213","method":"GET","path":"/api/returns/labels","order":"-","client":"172.211.229.74"}
+{"ts":"2026-10-03T09:36:35.785Z","host":"gw-edge-2","level":"INFO","request_id":"rq_a7ec892213","status":200,"duration_ms":151,"bytes":2736}
+{"ts":"2026-10-03T09:36:42.354Z","host":"gw-edge-2","level":"WARN","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:37:08.520Z","host":"gw-edge-2","level":"INFO","request_id":"rq_dc372005f4","method":"POST","path":"/api/login","order":"-","client":"192.253.225.34"}
+{"ts":"2026-10-03T09:37:08.613Z","host":"gw-edge-2","level":"INFO","request_id":"rq_dc372005f4","status":200,"duration_ms":93,"bytes":3238}
+{"ts":"2026-10-03T09:37:18.308Z","host":"gw-edge-3","level":"INFO","request_id":"rq_c3a8105701","method":"POST","path":"/api/refunds","order":"ORD-19853","client":"172.162.73.59"}
+{"ts":"2026-10-03T09:37:18.313Z","host":"gw-edge-3","level":"INFO","request_id":"rq_c3a8105701","upstream":"orders-svc","traceparent":"00-0043d59356459a1f3e8f8398dbf8c656-656c8fbd8938f8e3-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:37:18.578Z","host":"gw-edge-3","level":"INFO","request_id":"rq_c3a8105701","status":200,"duration_ms":270,"bytes":413}
+{"ts":"2026-10-03T09:37:23.181Z","host":"gw-edge-2","level":"WARN","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:37:43.879Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f5a7b8a602","method":"POST","path":"/api/login","order":"-","client":"10.247.24.138"}
+{"ts":"2026-10-03T09:37:43.961Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f5a7b8a602","status":200,"duration_ms":82,"bytes":1412}
+{"ts":"2026-10-03T09:37:48.000Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ba24071db1","method":"POST","path":"/api/refunds","order":"ORD-20581","client":"203.102.142.65"}
+{"ts":"2026-10-03T09:37:48.002Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ba24071db1","upstream":"orders-svc","traceparent":"00-03ac4ad96567c1fbd81034a0fff3bce3-3ecb3fff0a43018d-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:37:48.242Z","host":"gw-edge-3","level":"INFO","request_id":"rq_ba24071db1","status":200,"duration_ms":242,"bytes":537}
+{"ts":"2026-10-03T09:37:54.682Z","host":"gw-edge-3","level":"INFO","request_id":"rq_cfa87e244a","method":"POST","path":"/api/refunds","order":"ORD-21171","client":"172.173.25.2"}
+{"ts":"2026-10-03T09:37:54.687Z","host":"gw-edge-3","level":"INFO","request_id":"rq_cfa87e244a","upstream":"orders-svc","traceparent":"00-43b367441daadd0b3fb48170446bc6f2-2f6cb64407184bf3-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:37:54.958Z","host":"gw-edge-3","level":"INFO","request_id":"rq_cfa87e244a","status":200,"duration_ms":276,"bytes":797}
+{"ts":"2026-10-03T09:38:21.841Z","host":"gw-edge-1","level":"INFO","msg":"upstream catalog-svc responded slowly: 1840ms"}
+{"ts":"2026-10-03T09:38:34.617Z","host":"gw-edge-2","level":"ERROR","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:38:34.713Z","host":"gw-edge-2","level":"ERROR","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:38:41.719Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b69e5f5750","method":"GET","path":"/api/account","order":"-","client":"10.134.49.122"}
+{"ts":"2026-10-03T09:38:41.920Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b69e5f5750","status":200,"duration_ms":201,"bytes":2830}
+{"ts":"2026-10-03T09:39:00.840Z","host":"gw-edge-1","level":"INFO","request_id":"rq_992ddb55f1","method":"POST","path":"/api/refunds","order":"ORD-20291","client":"203.185.183.164"}
+{"ts":"2026-10-03T09:39:00.844Z","host":"gw-edge-1","level":"INFO","request_id":"rq_992ddb55f1","upstream":"orders-svc","traceparent":"00-be0c0f97cbc5e40063b42979396f3195-5913f69397924b36-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:39:01.090Z","host":"gw-edge-1","level":"INFO","request_id":"rq_992ddb55f1","status":200,"duration_ms":250,"bytes":760}
+{"ts":"2026-10-03T09:39:07.898Z","host":"gw-edge-3","level":"INFO","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:40:30.888Z","host":"gw-edge-1","level":"INFO","request_id":"rq_8c02f890b5","method":"POST","path":"/api/refunds","order":"ORD-20635","client":"10.121.63.234"}
+{"ts":"2026-10-03T09:40:30.893Z","host":"gw-edge-1","level":"INFO","request_id":"rq_8c02f890b5","upstream":"orders-svc","traceparent":"00-907817dfeb7a5c4a5da4081459e63092-29036e9541804ad5-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:40:31.125Z","host":"gw-edge-1","level":"INFO","request_id":"rq_8c02f890b5","status":200,"duration_ms":237,"bytes":302}
+{"ts":"2026-10-03T09:40:40.584Z","host":"gw-edge-2","level":"INFO","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:41:04.183Z","host":"gw-edge-3","level":"INFO","request_id":"rq_6192425eea","method":"GET","path":"/api/orders/ORD-20567","order":"ORD-20567","client":"198.240.200.186"}
+{"ts":"2026-10-03T09:41:04.311Z","host":"gw-edge-3","level":"INFO","request_id":"rq_6192425eea","status":200,"duration_ms":128,"bytes":3562}
+{"ts":"2026-10-03T09:41:18.337Z","host":"gw-edge-3","level":"INFO","request_id":"rq_1cd5fd90cd","method":"GET","path":"/api/products/SKU-43242","order":"-","client":"192.232.51.243"}
+{"ts":"2026-10-03T09:41:18.538Z","host":"gw-edge-3","level":"INFO","request_id":"rq_1cd5fd90cd","status":200,"duration_ms":201,"bytes":1910}
+{"ts":"2026-10-03T09:41:44.754Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b25e578ad6","method":"POST","path":"/api/refunds","order":"ORD-20108","client":"198.141.179.249"}
+{"ts":"2026-10-03T09:41:44.759Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b25e578ad6","upstream":"orders-svc","traceparent":"00-82662e8bf5fe41b417f82d421a9d39ee-ee93d9a124d28f71-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:41:45.004Z","host":"gw-edge-1","level":"INFO","request_id":"rq_b25e578ad6","status":200,"duration_ms":250,"bytes":716}
+{"ts":"2026-10-03T09:41:56.512Z","host":"gw-edge-3","level":"WARN","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:42:48.029Z","host":"gw-edge-1","level":"INFO","request_id":"rq_17f1043f84","method":"POST","path":"/api/refunds","order":"ORD-20577","client":"192.249.147.246"}
+{"ts":"2026-10-03T09:42:48.031Z","host":"gw-edge-1","level":"INFO","request_id":"rq_17f1043f84","upstream":"orders-svc","traceparent":"00-ccbee9dbe8b0353abf53c0d525e03110-01130e525d0c35fb-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:42:48.392Z","host":"gw-edge-1","level":"INFO","request_id":"rq_17f1043f84","status":200,"duration_ms":363,"bytes":788}
+{"ts":"2026-10-03T09:43:08.982Z","host":"gw-edge-3","level":"INFO","request_id":"rq_9d040551b1","method":"POST","path":"/api/refunds","order":"ORD-19826","client":"192.189.199.154"}
+{"ts":"2026-10-03T09:43:08.986Z","host":"gw-edge-3","level":"INFO","request_id":"rq_9d040551b1","upstream":"orders-svc","traceparent":"00-e118c9290c75d3d799ef48d17130c325-523c03171d84fe99-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:43:09.256Z","host":"gw-edge-3","level":"INFO","request_id":"rq_9d040551b1","status":200,"duration_ms":274,"bytes":339}
+{"ts":"2026-10-03T09:43:19.128Z","host":"gw-edge-1","level":"INFO","request_id":"rq_dd4eb75067","method":"POST","path":"/api/refunds","order":"ORD-21159","client":"198.98.62.149"}
+{"ts":"2026-10-03T09:43:19.130Z","host":"gw-edge-1","level":"INFO","request_id":"rq_dd4eb75067","upstream":"orders-svc","traceparent":"00-fbec188c00bc0e5e4d0b7656c18f94a6-6a49f81c6567b0d4-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:43:19.424Z","host":"gw-edge-1","level":"INFO","request_id":"rq_dd4eb75067","status":200,"duration_ms":296,"bytes":797}
+{"ts":"2026-10-03T09:43:21.526Z","host":"gw-edge-3","level":"INFO","request_id":"rq_817b8761dd","method":"GET","path":"/api/orders/ORD-20139/refunds","order":"ORD-20139","client":"172.93.60.10"}
+{"ts":"2026-10-03T09:43:21.627Z","host":"gw-edge-3","level":"INFO","request_id":"rq_817b8761dd","status":200,"duration_ms":101,"bytes":526}
+{"ts":"2026-10-03T09:43:30.960Z","host":"gw-edge-1","level":"INFO","request_id":"rq_5fe8a92ed7","method":"GET","path":"/api/returns/labels","order":"-","client":"10.78.11.245"}
+{"ts":"2026-10-03T09:43:31.171Z","host":"gw-edge-1","level":"INFO","request_id":"rq_5fe8a92ed7","status":200,"duration_ms":211,"bytes":2042}
+{"ts":"2026-10-03T09:43:52.892Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0a3bf310b4","method":"POST","path":"/api/refunds","order":"ORD-20303","client":"192.180.62.52"}
+{"ts":"2026-10-03T09:43:52.897Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0a3bf310b4","upstream":"orders-svc","traceparent":"00-4d3b8d0bd1ba945c66b65de538dec63d-d36ced835ed56b66-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:43:53.146Z","host":"gw-edge-2","level":"INFO","request_id":"rq_0a3bf310b4","status":200,"duration_ms":254,"bytes":530}
+{"ts":"2026-10-03T09:43:58.967Z","host":"gw-edge-3","level":"WARN","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:44:27.490Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4d084557e8","method":"GET","path":"/api/products/SKU-55477","order":"-","client":"10.1.214.169"}
+{"ts":"2026-10-03T09:44:27.527Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4d084557e8","status":200,"duration_ms":37,"bytes":1038}
+{"ts":"2026-10-03T09:46:17.806Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a1c579812a","method":"GET","path":"/api/orders/ORD-20518/refunds","order":"ORD-20518","client":"203.115.140.226"}
+{"ts":"2026-10-03T09:46:17.837Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a1c579812a","status":200,"duration_ms":31,"bytes":412}
+{"ts":"2026-10-03T09:46:41.100Z","host":"gw-edge-2","level":"INFO","request_id":"rq_08077cd56b","method":"POST","path":"/api/refunds","order":"ORD-19844","client":"203.196.234.100"}
+{"ts":"2026-10-03T09:46:41.106Z","host":"gw-edge-2","level":"INFO","request_id":"rq_08077cd56b","upstream":"orders-svc","traceparent":"00-9fec223363b6db09d1564be59bbbf910-019fbbb95eb4651d-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:42.099Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_08077cd56b","status":504,"duration_ms":999,"bytes":157}
+{"ts":"2026-10-03T09:46:44.047Z","host":"gw-edge-3","level":"INFO","request_id":"rq_87e62db17f","method":"POST","path":"/api/refunds","order":"ORD-20581","client":"203.228.241.225"}
+{"ts":"2026-10-03T09:46:44.051Z","host":"gw-edge-3","level":"INFO","request_id":"rq_87e62db17f","upstream":"orders-svc","traceparent":"00-7e8837d23cc8d9303398fdc453743a2d-d2a347354cdf8933-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:46.335Z","host":"gw-edge-2","level":"INFO","request_id":"rq_fb6f8b74f3","method":"POST","path":"/api/refunds","order":"ORD-20589","client":"198.80.123.144"}
+{"ts":"2026-10-03T09:46:46.339Z","host":"gw-edge-2","level":"INFO","request_id":"rq_fb6f8b74f3","upstream":"orders-svc","traceparent":"00-a66bb81ee525299c4ee33fee3cdfcf0b-b0fcfdc3eef33ee4-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:49.677Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f57fdb61cc","method":"POST","path":"/api/refunds","order":"ORD-21120","client":"172.13.255.27"}
+{"ts":"2026-10-03T09:46:49.683Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f57fdb61cc","upstream":"orders-svc","traceparent":"00-a767d78efd9970a84d624890b601197e-e791106b098426d4-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:50.600Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5d334ebbef","method":"POST","path":"/api/refunds","order":"ORD-20158","client":"172.22.126.109"}
+{"ts":"2026-10-03T09:46:50.604Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5d334ebbef","upstream":"orders-svc","traceparent":"00-cb5ed81a2abf3e7249f1717d9f7ab96b-b69ba7f9d7171f94-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:52.367Z","host":"gw-edge-1","level":"INFO","request_id":"rq_7f6d6e7020","method":"POST","path":"/api/refunds","order":"ORD-20760","client":"192.192.201.146"}
+{"ts":"2026-10-03T09:46:52.371Z","host":"gw-edge-1","level":"INFO","request_id":"rq_7f6d6e7020","upstream":"orders-svc","traceparent":"00-3bf7bdc5a68232b8c907eef93e5b01b0-0b10b5e39fee709c-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:55.931Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4ceb2bfb45","method":"POST","path":"/api/refunds","order":"ORD-20638","client":"203.121.110.60"}
+{"ts":"2026-10-03T09:46:55.935Z","host":"gw-edge-2","level":"INFO","request_id":"rq_4ceb2bfb45","upstream":"orders-svc","traceparent":"00-d73cd9928c6232747ddc93baa948501e-e105849aab39cdd7-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:56.050Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_87e62db17f","status":504,"duration_ms":12003,"bytes":132}
+{"ts":"2026-10-03T09:46:56.700Z","host":"gw-edge-1","level":"INFO","request_id":"rq_e6e4fd298d","method":"POST","path":"/api/refunds","order":"ORD-20481","client":"172.120.222.216"}
+{"ts":"2026-10-03T09:46:56.706Z","host":"gw-edge-1","level":"INFO","request_id":"rq_e6e4fd298d","upstream":"orders-svc","traceparent":"00-0ff4e24d3cb49652b838d3eab693c98a-a89c396bae3d838b-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:46:58.338Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_fb6f8b74f3","status":504,"duration_ms":12003,"bytes":163}
+{"ts":"2026-10-03T09:47:00.900Z","host":"gw-edge-2","level":"INFO","request_id":"rq_710f44fa94","method":"POST","path":"/api/refunds","order":"ORD-20434","client":"192.43.142.109"}
+{"ts":"2026-10-03T09:47:00.904Z","host":"gw-edge-2","level":"INFO","request_id":"rq_710f44fa94","upstream":"orders-svc","traceparent":"00-fe15e06b8430a244f579019f0fa34bf5-5fb43af0f910975f-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:47:01.679Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_f57fdb61cc","status":504,"duration_ms":12002,"bytes":168}
+{"ts":"2026-10-03T09:47:01.806Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ba24071db6","method":"POST","path":"/api/refunds","order":"ORD-20518","client":"203.218.166.46"}
+{"ts":"2026-10-03T09:47:01.810Z","host":"gw-edge-1","level":"INFO","request_id":"rq_ba24071db6","upstream":"orders-svc","traceparent":"00-03ac4ad96567c1fbd81034a0fff3bceb-becb3fff0a43018d-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:47:02.603Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_5d334ebbef","status":504,"duration_ms":12003,"bytes":143}
+{"ts":"2026-10-03T09:47:04.368Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_7f6d6e7020","status":504,"duration_ms":12001,"bytes":160}
+{"ts":"2026-10-03T09:47:04.400Z","host":"gw-edge-3","level":"INFO","request_id":"rq_0c3be1fc0b","method":"POST","path":"/api/refunds","order":"ORD-20792","client":"192.242.219.224"}
+{"ts":"2026-10-03T09:47:04.406Z","host":"gw-edge-3","level":"INFO","request_id":"rq_0c3be1fc0b","upstream":"orders-svc","traceparent":"00-f236b093d94f47bdc7e976f00f10f4b7-7b4f01f00f679e7c-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:47:05.621Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_0c3be1fc0b","status":504,"duration_ms":1221,"bytes":164}
+{"ts":"2026-10-03T09:47:07.932Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_4ceb2bfb45","status":504,"duration_ms":12001,"bytes":179}
+{"ts":"2026-10-03T09:47:08.702Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_e6e4fd298d","status":504,"duration_ms":12002,"bytes":173}
+{"ts":"2026-10-03T09:47:12.700Z","host":"gw-edge-3","level":"INFO","request_id":"rq_e26373e1f4","method":"POST","path":"/api/refunds","order":"ORD-20615","client":"198.95.228.179"}
+{"ts":"2026-10-03T09:47:12.705Z","host":"gw-edge-3","level":"INFO","request_id":"rq_e26373e1f4","upstream":"orders-svc","traceparent":"00-bfc73475edebc0e1179f01fd4c929739-937929c4df10f971-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:47:12.903Z","host":"gw-edge-2","level":"ERROR","request_id":"rq_710f44fa94","status":504,"duration_ms":12003,"bytes":144}
+{"ts":"2026-10-03T09:47:13.779Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_e26373e1f4","status":504,"duration_ms":1079,"bytes":132}
+{"ts":"2026-10-03T09:47:13.807Z","host":"gw-edge-1","level":"ERROR","request_id":"rq_ba24071db6","status":504,"duration_ms":12001,"bytes":142}
+{"ts":"2026-10-03T09:47:25.206Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1068c315af","method":"POST","path":"/api/refunds","order":"ORD-20518","client":"203.154.110.122"}
+{"ts":"2026-10-03T09:47:25.209Z","host":"gw-edge-1","level":"INFO","request_id":"rq_1068c315af","upstream":"orders-svc","traceparent":"00-ff445e51c1305d7fdc998a44b84a5536-6355a48b44a899cd-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:47:25.227Z","host":"gw-edge-1","level":"WARN","request_id":"rq_1068c315af","status":409,"duration_ms":14,"bytes":96}
+{"ts":"2026-10-03T09:48:12.806Z","host":"gw-edge-2","level":"INFO","request_id":"rq_2b838b522f","method":"GET","path":"/api/orders/ORD-20518/refunds","order":"ORD-20518","client":"10.99.214.6"}
+{"ts":"2026-10-03T09:48:12.837Z","host":"gw-edge-2","level":"INFO","request_id":"rq_2b838b522f","status":200,"duration_ms":31,"bytes":412}
+{"ts":"2026-10-03T09:49:31.138Z","host":"gw-edge-2","level":"WARN","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:49:38.716Z","host":"gw-edge-1","level":"INFO","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:49:43.930Z","host":"gw-edge-3","level":"ERROR","msg":"tls handshake error from 10.4.2.17: remote error: unknown certificate"}
+{"ts":"2026-10-03T09:50:07.696Z","host":"gw-edge-1","level":"INFO","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:50:09.943Z","host":"gw-edge-2","level":"ERROR","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:50:16.532Z","host":"gw-edge-3","level":"ERROR","msg":"rate limit exceeded for client 203.0.113.9 (429)"}
+{"ts":"2026-10-03T09:50:18.124Z","host":"gw-edge-3","level":"INFO","request_id":"rq_4bff5fe984","method":"GET","path":"/api/products/SKU-30352","order":"-","client":"203.97.152.220"}
+{"ts":"2026-10-03T09:50:18.251Z","host":"gw-edge-3","level":"INFO","request_id":"rq_4bff5fe984","status":200,"duration_ms":127,"bytes":3120}
+{"ts":"2026-10-03T09:50:21.977Z","host":"gw-edge-2","level":"INFO","request_id":"rq_c416e62ba7","method":"GET","path":"/api/orders/ORD-21065/refunds","order":"ORD-21065","client":"172.35.164.3"}
+{"ts":"2026-10-03T09:50:22.016Z","host":"gw-edge-2","level":"INFO","request_id":"rq_c416e62ba7","status":200,"duration_ms":39,"bytes":2351}
+{"ts":"2026-10-03T09:50:25.199Z","host":"gw-edge-1","level":"WARN","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:50:38.168Z","host":"gw-edge-2","level":"INFO","request_id":"rq_dcaecb6900","method":"POST","path":"/api/login","order":"-","client":"198.70.221.67"}
+{"ts":"2026-10-03T09:50:38.180Z","host":"gw-edge-2","level":"INFO","request_id":"rq_dcaecb6900","status":200,"duration_ms":12,"bytes":1840}
+{"ts":"2026-10-03T09:50:44.408Z","host":"gw-edge-2","level":"INFO","request_id":"rq_92fdfd5736","method":"POST","path":"/api/refunds","order":"ORD-20425","client":"172.113.98.3"}
+{"ts":"2026-10-03T09:50:44.413Z","host":"gw-edge-2","level":"INFO","request_id":"rq_92fdfd5736","upstream":"orders-svc","traceparent":"00-94a0b3e94a1ffb395fa49417c3a2c7b7-7b7c2a3c71494af5-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:50:44.665Z","host":"gw-edge-2","level":"INFO","request_id":"rq_92fdfd5736","status":200,"duration_ms":257,"bytes":763}
+{"ts":"2026-10-03T09:51:00.605Z","host":"gw-edge-3","level":"WARN","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:51:17.320Z","host":"gw-edge-1","level":"INFO","request_id":"rq_0f78d3d9f4","method":"GET","path":"/api/account","order":"-","client":"203.12.237.158"}
+{"ts":"2026-10-03T09:51:17.359Z","host":"gw-edge-1","level":"INFO","request_id":"rq_0f78d3d9f4","status":200,"duration_ms":39,"bytes":1735}
+{"ts":"2026-10-03T09:51:18.727Z","host":"gw-edge-2","level":"INFO","request_id":"rq_fbfc68daf0","method":"POST","path":"/api/login","order":"-","client":"10.254.222.41"}
+{"ts":"2026-10-03T09:51:18.741Z","host":"gw-edge-2","level":"INFO","request_id":"rq_fbfc68daf0","status":200,"duration_ms":14,"bytes":2945}
+{"ts":"2026-10-03T09:51:22.888Z","host":"gw-edge-2","level":"INFO","request_id":"rq_61e329b58b","method":"GET","path":"/healthz","order":"-","client":"172.233.23.166"}
+{"ts":"2026-10-03T09:51:22.940Z","host":"gw-edge-2","level":"INFO","request_id":"rq_61e329b58b","status":200,"duration_ms":52,"bytes":2632}
+{"ts":"2026-10-03T09:51:29.301Z","host":"gw-edge-3","level":"INFO","msg":"route cache refreshed entries=148 took=12ms"}
+{"ts":"2026-10-03T09:51:36.748Z","host":"gw-edge-2","level":"ERROR","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:51:40.114Z","host":"gw-edge-1","level":"INFO","request_id":"rq_25593f47ef","method":"POST","path":"/api/refunds","order":"ORD-20935","client":"203.151.141.116"}
+{"ts":"2026-10-03T09:51:40.119Z","host":"gw-edge-1","level":"INFO","request_id":"rq_25593f47ef","upstream":"orders-svc","traceparent":"00-934502e91c5a816d650075c1c6cf3c8e-e8c3fc6c1c570056-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:51:40.456Z","host":"gw-edge-1","level":"INFO","request_id":"rq_25593f47ef","status":200,"duration_ms":342,"bytes":385}
+{"ts":"2026-10-03T09:52:38.479Z","host":"gw-edge-1","level":"WARN","msg":"upstream health check ok payments-svc 2/2 healthy"}
+{"ts":"2026-10-03T09:52:42.498Z","host":"gw-edge-1","level":"INFO","request_id":"rq_dc60e04e57","method":"GET","path":"/api/returns/labels","order":"-","client":"10.41.235.197"}
+{"ts":"2026-10-03T09:52:42.504Z","host":"gw-edge-1","level":"WARN","request_id":"rq_dc60e04e57","status":401,"duration_ms":6,"bytes":3889}
+{"ts":"2026-10-03T09:52:45.959Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d6cd0b67f1","method":"GET","path":"/api/orders/ORD-20034","order":"ORD-20034","client":"10.202.154.140"}
+{"ts":"2026-10-03T09:52:46.055Z","host":"gw-edge-1","level":"INFO","request_id":"rq_d6cd0b67f1","status":200,"duration_ms":96,"bytes":680}
+{"ts":"2026-10-03T09:52:56.528Z","host":"gw-edge-1","level":"ERROR","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:53:06.000Z","host":"gw-edge-2","level":"INFO","request_id":"rq_b31e3ad317","method":"POST","path":"/api/refunds","order":"ORD-20158","client":"203.32.11.36"}
+{"ts":"2026-10-03T09:53:06.006Z","host":"gw-edge-2","level":"INFO","request_id":"rq_b31e3ad317","upstream":"orders-svc","traceparent":"00-5e980030e26e9f4c140a4ff10c0e72a4-4a27e0c01ff4a041-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:53:06.240Z","host":"gw-edge-2","level":"INFO","request_id":"rq_b31e3ad317","status":200,"duration_ms":240,"bytes":564}
+{"ts":"2026-10-03T09:53:13.750Z","host":"gw-edge-3","level":"INFO","request_id":"rq_07e4e7f5a3","method":"GET","path":"/api/orders/ORD-20389","order":"ORD-20389","client":"172.146.75.33"}
+{"ts":"2026-10-03T09:53:15.359Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_07e4e7f5a3","status":502,"duration_ms":1609,"bytes":3745}
+{"ts":"2026-10-03T09:53:47.732Z","host":"gw-edge-1","level":"INFO","request_id":"rq_117034de32","method":"GET","path":"/api/returns/labels","order":"-","client":"198.177.77.219"}
+{"ts":"2026-10-03T09:53:47.900Z","host":"gw-edge-1","level":"INFO","request_id":"rq_117034de32","status":200,"duration_ms":168,"bytes":688}
+{"ts":"2026-10-03T09:53:53.389Z","host":"gw-edge-2","level":"INFO","request_id":"rq_04b8f33944","method":"GET","path":"/healthz","order":"-","client":"172.124.57.220"}
+{"ts":"2026-10-03T09:53:53.564Z","host":"gw-edge-2","level":"INFO","request_id":"rq_04b8f33944","status":200,"duration_ms":175,"bytes":3600}
+{"ts":"2026-10-03T09:53:57.020Z","host":"gw-edge-2","level":"ERROR","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:53:59.324Z","host":"gw-edge-3","level":"INFO","request_id":"rq_89c32183fb","method":"GET","path":"/api/returns/labels","order":"-","client":"198.141.101.12"}
+{"ts":"2026-10-03T09:54:00.967Z","host":"gw-edge-3","level":"ERROR","request_id":"rq_89c32183fb","status":502,"duration_ms":1643,"bytes":1250}
+{"ts":"2026-10-03T09:54:07.831Z","host":"gw-edge-2","level":"ERROR","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:54:30.956Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bee78aa15c","method":"POST","path":"/api/refunds","order":"ORD-20786","client":"192.54.16.239"}
+{"ts":"2026-10-03T09:54:30.958Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bee78aa15c","upstream":"orders-svc","traceparent":"00-cc315bb106b59696b5b4694688e0ea92-29ae0e8864964b5b-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:54:31.248Z","host":"gw-edge-3","level":"INFO","request_id":"rq_bee78aa15c","status":200,"duration_ms":292,"bytes":370}
+{"ts":"2026-10-03T09:54:34.924Z","host":"gw-edge-2","level":"INFO","request_id":"rq_d2c7c4f4df","method":"POST","path":"/api/refunds","order":"ORD-20248","client":"203.36.113.171"}
+{"ts":"2026-10-03T09:54:34.930Z","host":"gw-edge-2","level":"INFO","request_id":"rq_d2c7c4f4df","upstream":"orders-svc","traceparent":"00-6035d7c40cc2e66c496296e24267bd51-15db76242e692694-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:54:35.171Z","host":"gw-edge-2","level":"INFO","request_id":"rq_d2c7c4f4df","status":200,"duration_ms":247,"bytes":885}
+{"ts":"2026-10-03T09:54:37.869Z","host":"gw-edge-1","level":"WARN","msg":"config reload ok routes=148"}
+{"ts":"2026-10-03T09:54:44.106Z","host":"gw-edge-2","level":"INFO","request_id":"rq_8e48f15cb8","method":"POST","path":"/api/refunds","order":"ORD-20862","client":"172.240.181.250"}
+{"ts":"2026-10-03T09:54:44.110Z","host":"gw-edge-2","level":"INFO","request_id":"rq_8e48f15cb8","upstream":"orders-svc","traceparent":"00-6d0c88832158473a6fa5b026000d4b12-21b4d000620b5af6-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:54:44.385Z","host":"gw-edge-2","level":"INFO","request_id":"rq_8e48f15cb8","status":200,"duration_ms":279,"bytes":320}
+{"ts":"2026-10-03T09:54:51.087Z","host":"gw-edge-2","level":"INFO","request_id":"rq_741afdd5ec","method":"GET","path":"/api/products/SKU-41049","order":"-","client":"203.4.125.48"}
+{"ts":"2026-10-03T09:54:51.138Z","host":"gw-edge-2","level":"INFO","request_id":"rq_741afdd5ec","status":200,"duration_ms":51,"bytes":583}
+{"ts":"2026-10-03T09:54:52.571Z","host":"gw-edge-3","level":"INFO","request_id":"rq_23e27aa708","method":"POST","path":"/api/login","order":"-","client":"198.18.167.180"}
+{"ts":"2026-10-03T09:54:52.595Z","host":"gw-edge-3","level":"INFO","request_id":"rq_23e27aa708","status":200,"duration_ms":24,"bytes":348}
+{"ts":"2026-10-03T09:54:52.843Z","host":"gw-edge-2","level":"ERROR","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:54:56.396Z","host":"gw-edge-2","level":"INFO","request_id":"rq_d9f290989f","method":"GET","path":"/api/returns/labels","order":"-","client":"172.22.196.157"}
+{"ts":"2026-10-03T09:54:56.598Z","host":"gw-edge-2","level":"INFO","request_id":"rq_d9f290989f","status":200,"duration_ms":202,"bytes":982}
+{"ts":"2026-10-03T09:55:04.429Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d13b2d6381","method":"POST","path":"/api/refunds","order":"ORD-20889","client":"192.142.115.47"}
+{"ts":"2026-10-03T09:55:04.433Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d13b2d6381","upstream":"orders-svc","traceparent":"00-fdfb2c701ab1123ece873bef64228371-17382246feb378ec-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:55:04.722Z","host":"gw-edge-3","level":"INFO","request_id":"rq_d13b2d6381","status":200,"duration_ms":293,"bytes":744}
+{"ts":"2026-10-03T09:55:17.204Z","host":"gw-edge-3","level":"INFO","request_id":"rq_41542c0a03","method":"POST","path":"/api/login","order":"-","client":"10.220.174.170"}
+{"ts":"2026-10-03T09:55:17.229Z","host":"gw-edge-3","level":"INFO","request_id":"rq_41542c0a03","status":200,"duration_ms":25,"bytes":1616}
+{"ts":"2026-10-03T09:56:02.061Z","host":"gw-edge-1","level":"ERROR","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:56:08.203Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a622e3bfb5","method":"POST","path":"/api/login","order":"-","client":"172.163.135.29"}
+{"ts":"2026-10-03T09:56:08.280Z","host":"gw-edge-3","level":"INFO","request_id":"rq_a622e3bfb5","status":200,"duration_ms":77,"bytes":2307}
+{"ts":"2026-10-03T09:56:10.398Z","host":"gw-edge-3","level":"INFO","request_id":"rq_df7e54dbf7","method":"GET","path":"/api/orders/ORD-19866/refunds","order":"ORD-19866","client":"172.91.183.28"}
+{"ts":"2026-10-03T09:56:10.411Z","host":"gw-edge-3","level":"INFO","request_id":"rq_df7e54dbf7","status":200,"duration_ms":13,"bytes":1468}
+{"ts":"2026-10-03T09:56:11.063Z","host":"gw-edge-1","level":"INFO","request_id":"rq_05b1f16c33","method":"POST","path":"/api/refunds","order":"ORD-21112","client":"172.203.118.128"}
+{"ts":"2026-10-03T09:56:11.065Z","host":"gw-edge-1","level":"INFO","request_id":"rq_05b1f16c33","upstream":"orders-svc","traceparent":"00-d0a19252fff277fd4ed894d84aed1131-1311dea48d498de4-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:56:11.352Z","host":"gw-edge-1","level":"INFO","request_id":"rq_05b1f16c33","status":200,"duration_ms":289,"bytes":306}
+{"ts":"2026-10-03T09:56:14.527Z","host":"gw-edge-1","level":"INFO","request_id":"rq_80e18b792d","method":"GET","path":"/api/orders/ORD-20395/refunds","order":"ORD-20395","client":"10.99.19.154"}
+{"ts":"2026-10-03T09:56:14.553Z","host":"gw-edge-1","level":"INFO","request_id":"rq_80e18b792d","status":200,"duration_ms":26,"bytes":348}
+{"ts":"2026-10-03T09:56:15.010Z","host":"gw-edge-1","level":"INFO","request_id":"rq_4ccfa547ec","method":"GET","path":"/api/products/SKU-32570","order":"-","client":"198.109.240.99"}
+{"ts":"2026-10-03T09:56:15.135Z","host":"gw-edge-1","level":"INFO","request_id":"rq_4ccfa547ec","status":200,"duration_ms":125,"bytes":1238}
+{"ts":"2026-10-03T09:56:27.528Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5428c20062","method":"GET","path":"/api/account","order":"-","client":"203.187.115.122"}
+{"ts":"2026-10-03T09:56:27.653Z","host":"gw-edge-3","level":"INFO","request_id":"rq_5428c20062","status":200,"duration_ms":125,"bytes":3345}
+{"ts":"2026-10-03T09:56:28.230Z","host":"gw-edge-2","level":"INFO","request_id":"rq_9130fe81cd","method":"GET","path":"/api/account","order":"-","client":"203.116.235.71"}
+{"ts":"2026-10-03T09:56:28.431Z","host":"gw-edge-2","level":"INFO","request_id":"rq_9130fe81cd","status":200,"duration_ms":201,"bytes":3886}
+{"ts":"2026-10-03T09:56:35.823Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b427ad0277","method":"GET","path":"/api/orders/ORD-20601/refunds","order":"ORD-20601","client":"172.101.14.246"}
+{"ts":"2026-10-03T09:56:36.011Z","host":"gw-edge-3","level":"INFO","request_id":"rq_b427ad0277","status":200,"duration_ms":188,"bytes":2413}
+{"ts":"2026-10-03T09:56:39.846Z","host":"gw-edge-1","level":"INFO","request_id":"rq_4b2236ab74","method":"GET","path":"/api/returns/labels","order":"-","client":"172.62.81.163"}
+{"ts":"2026-10-03T09:56:40.016Z","host":"gw-edge-1","level":"INFO","request_id":"rq_4b2236ab74","status":200,"duration_ms":170,"bytes":444}
+{"ts":"2026-10-03T09:56:43.268Z","host":"gw-edge-1","level":"INFO","request_id":"rq_04d26ea8f2","method":"GET","path":"/api/orders/ORD-21127/refunds","order":"ORD-21127","client":"192.205.132.164"}
+{"ts":"2026-10-03T09:56:43.310Z","host":"gw-edge-1","level":"INFO","request_id":"rq_04d26ea8f2","status":200,"duration_ms":42,"bytes":472}
+{"ts":"2026-10-03T09:57:13.099Z","host":"gw-edge-1","level":"INFO","request_id":"rq_580006a392","method":"POST","path":"/api/refunds","order":"ORD-20345","client":"10.76.119.220"}
+{"ts":"2026-10-03T09:57:13.103Z","host":"gw-edge-1","level":"INFO","request_id":"rq_580006a392","upstream":"orders-svc","traceparent":"00-733df0fa054a39efaf0f529f5eeb84ab-ba48bee5f925f0fa-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:57:13.321Z","host":"gw-edge-1","level":"INFO","request_id":"rq_580006a392","status":200,"duration_ms":222,"bytes":760}
+{"ts":"2026-10-03T09:57:22.629Z","host":"gw-edge-3","level":"INFO","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:57:41.903Z","host":"gw-edge-2","level":"INFO","request_id":"rq_59bd8debd6","method":"POST","path":"/api/refunds","order":"ORD-20248","client":"192.167.70.173"}
+{"ts":"2026-10-03T09:57:41.907Z","host":"gw-edge-2","level":"INFO","request_id":"rq_59bd8debd6","upstream":"orders-svc","traceparent":"00-131e47f939622d31bce25709180c7915-5197c08190752ecb-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:57:42.178Z","host":"gw-edge-2","level":"INFO","request_id":"rq_59bd8debd6","status":200,"duration_ms":275,"bytes":465}
+{"ts":"2026-10-03T09:57:49.478Z","host":"gw-edge-1","level":"INFO","request_id":"rq_29866570d8","method":"GET","path":"/api/products/SKU-34688","order":"-","client":"198.142.11.119"}
+{"ts":"2026-10-03T09:57:49.636Z","host":"gw-edge-1","level":"INFO","request_id":"rq_29866570d8","status":200,"duration_ms":158,"bytes":2688}
+{"ts":"2026-10-03T09:57:50.575Z","host":"gw-edge-1","level":"WARN","msg":"upstream health check ok payments-svc 2/2 healthy"}
+{"ts":"2026-10-03T09:57:53.130Z","host":"gw-edge-3","level":"WARN","msg":"upstream recs-svc connect timeout after 1500ms"}
+{"ts":"2026-10-03T09:57:56.329Z","host":"gw-edge-2","level":"INFO","request_id":"rq_47aae2868a","method":"POST","path":"/api/refunds","order":"ORD-19853","client":"172.171.139.98"}
+{"ts":"2026-10-03T09:57:56.331Z","host":"gw-edge-2","level":"INFO","request_id":"rq_47aae2868a","upstream":"orders-svc","traceparent":"00-dacc0790efd5a50ee91d0c685b409fb3-3bf904b586c0d19e-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:57:56.609Z","host":"gw-edge-2","level":"INFO","request_id":"rq_47aae2868a","status":200,"duration_ms":280,"bytes":775}
+{"ts":"2026-10-03T09:58:02.975Z","host":"gw-edge-2","level":"ERROR","msg":"upstream health check ok orders-svc 3/3 healthy"}
+{"ts":"2026-10-03T09:58:09.566Z","host":"gw-edge-2","level":"WARN","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:58:42.000Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f0489ada32","method":"POST","path":"/api/refunds","order":"ORD-20519","client":"203.63.166.208"}
+{"ts":"2026-10-03T09:58:42.006Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f0489ada32","upstream":"orders-svc","traceparent":"00-ea66622a451626df7d659e64791ec497-794ce19746e956d7-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:58:42.256Z","host":"gw-edge-3","level":"INFO","request_id":"rq_f0489ada32","status":200,"duration_ms":256,"bytes":519}
+{"ts":"2026-10-03T09:58:52.105Z","host":"gw-edge-1","level":"ERROR","msg":"jwt validation failed: token expired (sub=u_104233)"}
+{"ts":"2026-10-03T09:59:32.840Z","host":"gw-edge-1","level":"INFO","request_id":"rq_96e48edd6c","method":"POST","path":"/api/refunds","order":"ORD-20968","client":"10.68.162.123"}
+{"ts":"2026-10-03T09:59:32.846Z","host":"gw-edge-1","level":"INFO","request_id":"rq_96e48edd6c","upstream":"orders-svc","traceparent":"00-ff6b5edcb0eb85fa7d4969762beda105-501adeb2679694d7-01","timeout_ms":12000}
+{"ts":"2026-10-03T09:59:33.152Z","host":"gw-edge-1","level":"INFO","request_id":"rq_96e48edd6c","status":200,"duration_ms":312,"bytes":766}
+{"ts":"2026-10-03T09:59:35.033Z","host":"gw-edge-3","level":"INFO","request_id":"rq_085f3358f6","method":"GET","path":"/api/orders/ORD-20125","order":"ORD-20125","client":"198.69.142.76"}
+{"ts":"2026-10-03T09:59:35.177Z","host":"gw-edge-3","level":"INFO","request_id":"rq_085f3358f6","status":200,"duration_ms":144,"bytes":3210}
+{"ts":"2026-10-03T09:59:40.310Z","host":"gw-edge-2","level":"INFO","request_id":"rq_f0369d3b11","method":"GET","path":"/api/orders/ORD-20076/refunds","order":"ORD-20076","client":"192.196.20.95"}
+{"ts":"2026-10-03T09:59:40.509Z","host":"gw-edge-2","level":"INFO","request_id":"rq_f0369d3b11","status":200,"duration_ms":199,"bytes":1485}
+{"ts":"2026-10-03T09:59:57.097Z","host":"gw-edge-2","level":"ERROR","msg":"client 198.51.100.23 sent malformed Content-Length, closing"}
+{"ts":"2026-10-03T09:59:58.223Z","host":"gw-edge-1","level":"INFO","msg":"rate limit exceeded for client 203.0.113.9 (429)"}

@@ -1,0 +1,508 @@
+{
+ "commands": [
+  {
+   "group": "R1",
+   "cmd": "python3 logstat.py count",
+   "stdout": "19662\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R1",
+   "cmd": "python3 logstat.py count --file access.log",
+   "stdout": "19662\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R2",
+   "cmd": "python3 logstat.py status",
+   "stdout": "200\t11698\n301\t782\n302\t581\n304\t1546\n401\t368\n403\t583\n404\t2324\n429\t192\n500\t778\n502\t423\n503\t387\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R2",
+   "cmd": "python3 logstat.py status --file access.log",
+   "stdout": "200\t11698\n301\t782\n302\t581\n304\t1546\n401\t368\n403\t583\n404\t2324\n429\t192\n500\t778\n502\t423\n503\t387\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 logstat.py top 1",
+   "stdout": "/\t3209\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 logstat.py top 3",
+   "stdout": "/\t3209\n/index.html\t1580\n/static/app.js\t1561\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 logstat.py top 10",
+   "stdout": "/\t3209\n/index.html\t1580\n/static/app.js\t1561\n/api/users\t1318\n/login\t1095\n/static/app.css\t1055\n/favicon.ico\t1026\n/api/orders\t1000\n/static/logo.png\t897\n/search\t780\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R3",
+   "cmd": "python3 logstat.py top 5000",
+   "stdout": "/\t3209\n/index.html\t1580\n/static/app.js\t1561\n/api/users\t1318\n/login\t1095\n/static/app.css\t1055\n/favicon.ico\t1026\n/api/orders\t1000\n/static/logo.png\t897\n/search\t780\n/api/health\t649\n/products\t624\n/api/v2/items\t559\n/cart\t553\n/logout\t460\n/robots.txt\t429\n/about\t348\n/checkout\t334\n/products/17\t327\n/products/18\t327\n/wp-login.php\t323\n/contact\t235\n/admin\t234\n/blog/2024/03/hello-world\t220\n/api/orders/42\t205\n/blog/2024/02/release-notes\t113\n/img/a%20b.png\t102\n/a/b/c/d/e\t99\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R4",
+   "cmd": "python3 logstat.py bytes",
+   "stdout": "9413282924\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R5",
+   "cmd": "python3 logstat.py errors",
+   "stdout": "client=3467 server=1588\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R6",
+   "cmd": "python3 logstat.py ips",
+   "stdout": "159\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py count --since 2024-03-05T17:02:55",
+   "stdout": "13108\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py status --since 2024-03-05T17:02:55",
+   "stdout": "200\t7784\n301\t509\n302\t370\n304\t1041\n401\t249\n403\t390\n404\t1588\n429\t131\n500\t508\n502\t279\n503\t259\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py top 3 --since 2024-03-05T17:02:55",
+   "stdout": "/\t2109\n/index.html\t1067\n/static/app.js\t1046\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py ips --since 2024-03-05T17:02:55",
+   "stdout": "159\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py errors --since 2024-03-05T17:02:55",
+   "stdout": "client=2358 server=1046\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py count --since 2024-03-08T00:00:00",
+   "stdout": "9836\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py status --since 2024-03-08T00:00:00",
+   "stdout": "200\t5800\n301\t395\n302\t289\n304\t815\n401\t190\n403\t288\n404\t1191\n429\t85\n500\t376\n502\t211\n503\t196\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py count --since 2024-03-14T23:59:00",
+   "stdout": "1\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py status --since 2024-03-14T23:59:00",
+   "stdout": "200\t1\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py count --since 2024-03-14T23:59:01",
+   "stdout": "0\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py status --since 2024-03-14T23:59:01",
+   "stdout": "",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py count --since 2020-01-01T00:00:00",
+   "stdout": "19662\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py status --since 2020-01-01T00:00:00",
+   "stdout": "200\t11698\n301\t782\n302\t581\n304\t1546\n401\t368\n403\t583\n404\t2324\n429\t192\n500\t778\n502\t423\n503\t387\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "python3 logstat.py bytes --since 2024-03-05T17:02:55 --file access.log",
+   "stdout": "6324563293\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n1.1.1.1 - - [10/Mar/2024:23:30:00 -0500] \"GET /a HTTP/1.1\" 200 10\n1.1.1.2 - - [11/Mar/2024:05:00:00 +0530] \"GET /b HTTP/1.1\" 200 20\n1.1.1.3 - - [11/Mar/2024:04:30:00 +0000] \"GET /c HTTP/1.1\" 200 30\n1.1.1.4 - - [11/Mar/2024:06:30:00 +0200] \"GET /d HTTP/1.1\" 200 40\nEOF\npython3 logstat.py count --since 2024-03-11T04:30:00 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "3\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n1.1.1.1 - - [10/Mar/2024:23:30:00 -0500] \"GET /a HTTP/1.1\" 200 10\n1.1.1.2 - - [11/Mar/2024:05:00:00 +0530] \"GET /b HTTP/1.1\" 200 20\n1.1.1.3 - - [11/Mar/2024:04:30:00 +0000] \"GET /c HTTP/1.1\" 200 30\n1.1.1.4 - - [11/Mar/2024:06:30:00 +0200] \"GET /d HTTP/1.1\" 200 40\nEOF\npython3 logstat.py bytes --since 2024-03-11T04:30:00 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "80\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n1.1.1.1 - - [10/Mar/2024:23:30:00 -0500] \"GET /a HTTP/1.1\" 200 10\n1.1.1.2 - - [11/Mar/2024:05:00:00 +0530] \"GET /b HTTP/1.1\" 200 20\n1.1.1.3 - - [11/Mar/2024:04:30:00 +0000] \"GET /c HTTP/1.1\" 200 30\n1.1.1.4 - - [11/Mar/2024:06:30:00 +0200] \"GET /d HTTP/1.1\" 200 40\nEOF\npython3 logstat.py count --since 2024-03-11T04:30:01 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n1.1.1.1 - - [10/Mar/2024:23:30:00 -0500] \"GET /a HTTP/1.1\" 200 10\n1.1.1.2 - - [11/Mar/2024:05:00:00 +0530] \"GET /b HTTP/1.1\" 200 20\n1.1.1.3 - - [11/Mar/2024:04:30:00 +0000] \"GET /c HTTP/1.1\" 200 30\n1.1.1.4 - - [11/Mar/2024:06:30:00 +0200] \"GET /d HTTP/1.1\" 200 40\nEOF\npython3 logstat.py count --since 2024-03-10T23:30:00 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "4\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R7",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n1.1.1.1 - - [10/Mar/2024:23:30:00 -0500] \"GET /a HTTP/1.1\" 200 10\n1.1.1.2 - - [11/Mar/2024:05:00:00 +0530] \"GET /b HTTP/1.1\" 200 20\n1.1.1.3 - - [11/Mar/2024:04:30:00 +0000] \"GET /c HTTP/1.1\" 200 30\n1.1.1.4 - - [11/Mar/2024:06:30:00 +0200] \"GET /d HTTP/1.1\" 200 40\nEOF\npython3 logstat.py top 5 --since 2024-03-11T04:30:00 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "/a\t1\n/c\t1\n/d\t1\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py count --method GET",
+   "stdout": "13713\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py count --method post",
+   "stdout": "3559\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py count --method Delete",
+   "stdout": "640\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py count --method HEAD",
+   "stdout": "765\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py count --method PUT",
+   "stdout": "766\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py count --method OPTIONS",
+   "stdout": "219\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py status --method POST",
+   "stdout": "200\t2109\n301\t147\n302\t97\n304\t289\n401\t48\n403\t112\n404\t429\n429\t24\n500\t142\n502\t82\n503\t80\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py top 4 --method POST",
+   "stdout": "/\t579\n/static/app.js\t286\n/index.html\t274\n/api/users\t221\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py status --method get",
+   "stdout": "200\t8141\n301\t541\n302\t421\n304\t1064\n401\t283\n403\t405\n404\t1606\n429\t146\n500\t550\n502\t298\n503\t258\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py top 4 --method get",
+   "stdout": "/\t2232\n/index.html\t1098\n/static/app.js\t1090\n/api/users\t954\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py bytes --method post --since 2024-03-05T17:02:55",
+   "stdout": "1182590947\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py errors --since 2024-03-05T17:02:55 --method PUT",
+   "stdout": "client=92 server=32\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R8",
+   "cmd": "python3 logstat.py ips --method GET",
+   "stdout": "159\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n10.0.0.1 - - [05/Mar/2024:10:00:00 +0000] \"GET /ok HTTP/1.1\" 200 100\n10.0.0.2 - bob [05/Mar/2024:10:00:01 +0000] \"POST /ok?a=1&b=2 HTTP/1.0\" 404 -\n  10.0.0.3 - - [05/Mar/2024:10:00:02 +0000] \"GET /ok HTTP/1.1\" 500 7  \n\n   \ngarbage line\n10.0.0.4 - - [31/Feb/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Foo/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:25:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:61:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +2460] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"get /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 099 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 600 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 20 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 -5\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/11\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad\" 200 1\n10.0.0.4 - - 05/Mar/2024:10:00:00 +0000 \"GET /bad HTTP/1.1\" 200 1\n10.0.0.5 - - [29/Feb/2024:23:59:59 -1100] \"HEAD /leap HTTP/1.1\" 301 0\n10.0.0.5 - - [29/Feb/2023:23:59:59 -1100] \"HEAD /noleap HTTP/1.1\" 301 0\n2001:db8::1 - - [05/Mar/2024:10:00:03 +0000] \"GET /ok HTTP/2.0\" 503 5\nEOF\npython3 logstat.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "5\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n10.0.0.1 - - [05/Mar/2024:10:00:00 +0000] \"GET /ok HTTP/1.1\" 200 100\n10.0.0.2 - bob [05/Mar/2024:10:00:01 +0000] \"POST /ok?a=1&b=2 HTTP/1.0\" 404 -\n  10.0.0.3 - - [05/Mar/2024:10:00:02 +0000] \"GET /ok HTTP/1.1\" 500 7  \n\n   \ngarbage line\n10.0.0.4 - - [31/Feb/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Foo/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:25:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:61:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +2460] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"get /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 099 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 600 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 20 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 -5\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/11\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad\" 200 1\n10.0.0.4 - - 05/Mar/2024:10:00:00 +0000 \"GET /bad HTTP/1.1\" 200 1\n10.0.0.5 - - [29/Feb/2024:23:59:59 -1100] \"HEAD /leap HTTP/1.1\" 301 0\n10.0.0.5 - - [29/Feb/2023:23:59:59 -1100] \"HEAD /noleap HTTP/1.1\" 301 0\n2001:db8::1 - - [05/Mar/2024:10:00:03 +0000] \"GET /ok HTTP/2.0\" 503 5\nEOF\npython3 logstat.py status --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "200\t1\n301\t1\n404\t1\n500\t1\n503\t1\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n10.0.0.1 - - [05/Mar/2024:10:00:00 +0000] \"GET /ok HTTP/1.1\" 200 100\n10.0.0.2 - bob [05/Mar/2024:10:00:01 +0000] \"POST /ok?a=1&b=2 HTTP/1.0\" 404 -\n  10.0.0.3 - - [05/Mar/2024:10:00:02 +0000] \"GET /ok HTTP/1.1\" 500 7  \n\n   \ngarbage line\n10.0.0.4 - - [31/Feb/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Foo/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:25:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:61:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +2460] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"get /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 099 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 600 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 20 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 -5\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/11\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad\" 200 1\n10.0.0.4 - - 05/Mar/2024:10:00:00 +0000 \"GET /bad HTTP/1.1\" 200 1\n10.0.0.5 - - [29/Feb/2024:23:59:59 -1100] \"HEAD /leap HTTP/1.1\" 301 0\n10.0.0.5 - - [29/Feb/2023:23:59:59 -1100] \"HEAD /noleap HTTP/1.1\" 301 0\n2001:db8::1 - - [05/Mar/2024:10:00:03 +0000] \"GET /ok HTTP/2.0\" 503 5\nEOF\npython3 logstat.py top 5 --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "/ok\t4\n/leap\t1\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n10.0.0.1 - - [05/Mar/2024:10:00:00 +0000] \"GET /ok HTTP/1.1\" 200 100\n10.0.0.2 - bob [05/Mar/2024:10:00:01 +0000] \"POST /ok?a=1&b=2 HTTP/1.0\" 404 -\n  10.0.0.3 - - [05/Mar/2024:10:00:02 +0000] \"GET /ok HTTP/1.1\" 500 7  \n\n   \ngarbage line\n10.0.0.4 - - [31/Feb/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Foo/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:25:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:61:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +2460] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"get /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 099 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 600 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 20 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 -5\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/11\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad\" 200 1\n10.0.0.4 - - 05/Mar/2024:10:00:00 +0000 \"GET /bad HTTP/1.1\" 200 1\n10.0.0.5 - - [29/Feb/2024:23:59:59 -1100] \"HEAD /leap HTTP/1.1\" 301 0\n10.0.0.5 - - [29/Feb/2023:23:59:59 -1100] \"HEAD /noleap HTTP/1.1\" 301 0\n2001:db8::1 - - [05/Mar/2024:10:00:03 +0000] \"GET /ok HTTP/2.0\" 503 5\nEOF\npython3 logstat.py bytes --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "112\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n10.0.0.1 - - [05/Mar/2024:10:00:00 +0000] \"GET /ok HTTP/1.1\" 200 100\n10.0.0.2 - bob [05/Mar/2024:10:00:01 +0000] \"POST /ok?a=1&b=2 HTTP/1.0\" 404 -\n  10.0.0.3 - - [05/Mar/2024:10:00:02 +0000] \"GET /ok HTTP/1.1\" 500 7  \n\n   \ngarbage line\n10.0.0.4 - - [31/Feb/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Foo/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:25:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:61:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +2460] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"get /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 099 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 600 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 20 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 -5\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/11\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad\" 200 1\n10.0.0.4 - - 05/Mar/2024:10:00:00 +0000 \"GET /bad HTTP/1.1\" 200 1\n10.0.0.5 - - [29/Feb/2024:23:59:59 -1100] \"HEAD /leap HTTP/1.1\" 301 0\n10.0.0.5 - - [29/Feb/2023:23:59:59 -1100] \"HEAD /noleap HTTP/1.1\" 301 0\n2001:db8::1 - - [05/Mar/2024:10:00:03 +0000] \"GET /ok HTTP/2.0\" 503 5\nEOF\npython3 logstat.py errors --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "client=1 server=2\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n10.0.0.1 - - [05/Mar/2024:10:00:00 +0000] \"GET /ok HTTP/1.1\" 200 100\n10.0.0.2 - bob [05/Mar/2024:10:00:01 +0000] \"POST /ok?a=1&b=2 HTTP/1.0\" 404 -\n  10.0.0.3 - - [05/Mar/2024:10:00:02 +0000] \"GET /ok HTTP/1.1\" 500 7  \n\n   \ngarbage line\n10.0.0.4 - - [31/Feb/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Foo/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:25:00:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:61:00 +0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +2460] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 0000] \"GET /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"get /bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET bad HTTP/1.1\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 099 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 600 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 20 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200 -5\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/1.1\" 200\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad HTTP/11\" 200 1\n10.0.0.4 - - [05/Mar/2024:10:00:00 +0000] \"GET /bad\" 200 1\n10.0.0.4 - - 05/Mar/2024:10:00:00 +0000 \"GET /bad HTTP/1.1\" 200 1\n10.0.0.5 - - [29/Feb/2024:23:59:59 -1100] \"HEAD /leap HTTP/1.1\" 301 0\n10.0.0.5 - - [29/Feb/2023:23:59:59 -1100] \"HEAD /noleap HTTP/1.1\" 301 0\n2001:db8::1 - - [05/Mar/2024:10:00:03 +0000] \"GET /ok HTTP/2.0\" 503 5\nEOF\npython3 logstat.py ips --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "5\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n\n\nnothing valid here\nEOF\npython3 logstat.py count --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R9",
+   "cmd": "d=$(mktemp -d); f=\"$d/t.log\"; cat > \"$f\" <<'EOF'\n\nEOF\npython3 logstat.py bytes --file \"$f\"; rc=$?; rm -rf \"$d\"; exit $rc",
+   "stdout": "0\n",
+   "exit_code": 0
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py ",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py bogus",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top x",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top 0",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top -2",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top 2.5",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top 1 2",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count extra",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --bogus",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since 2024-03-10",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since 2024-03-10 10:00:00",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since 2024-02-30T00:00:00",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since 2024-03-10T24:00:00",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --method",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --method G3T",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --method ''",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --file",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since=2024-03-10T00:00:00",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py ips extra",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py --method get count",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py status --json",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --file /nonexistent/dir/x.log",
+   "stdout": "",
+   "exit_code": 1,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py top 3 --file /nonexistent/dir/x.log --method get",
+   "stdout": "",
+   "exit_code": 1,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py bogus --file /nonexistent/dir/x.log",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --since nope --file /nonexistent/dir/x.log",
+   "stdout": "",
+   "exit_code": 2,
+   "stderr_startswith": "error:"
+  },
+  {
+   "group": "R10",
+   "cmd": "python3 logstat.py count --file access.log",
+   "stdout": "19662\n",
+   "exit_code": 0
+  }
+ ],
+ "status": "any",
+ "allow_new_files": true,
+ "timeout": 300
+}

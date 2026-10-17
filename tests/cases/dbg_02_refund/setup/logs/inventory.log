@@ -1,0 +1,1004 @@
+2026-10-03 09:00:05.176 [stockd] INFO  ticket=RS-2026-54006 sku=SKU-18846 qty=2 worker=stockd-b3 granted in 49ms
+2026-10-03 09:00:05.248 [stockd] INFO  ticket=RS-2026-12804 sku=SKU-50174 qty=1 worker=stockd-b6 granted in 69ms
+2026-10-03 09:00:05.431 [stockd] DEBUG ticket=RS-2026-54006 closed
+2026-10-03 09:00:05.434 [stockd] DEBUG ticket=RS-2026-12804 closed
+2026-10-03 09:00:22.344 [stockd] DEBUG ticket=RS-2026-49386 closed
+2026-10-03 09:00:31.535 [stockd-b3] INFO  task=job-337835 BackorderReconciler: started batch=18
+2026-10-03 09:00:34.690 [stockd-b3] ERROR task=job-337835 BackorderReconciler: SQLTransientConnectionException: connection pool exhausted (30/30) (stalled_tickets=0)
+	at com.shop.inventory.worker.BackorderReconciler.run(BackorderReconciler.java:648)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:00:36.448 [stockd-b6] INFO  task=job-105698 CycleCountExporter: started batch=2
+2026-10-03 09:00:38.118 [stockd-b6] ERROR task=job-105698 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=1)
+	at com.shop.inventory.worker.CycleCountExporter.run(CycleCountExporter.java:719)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:00:44.829 [stockd] DEBUG ticket=RS-2026-34324 closed
+2026-10-03 09:00:47.985 [stockd] DEBUG ticket=RS-2026-38155 closed
+2026-10-03 09:01:14.136 [stockd] DEBUG ticket=RS-2026-95966 closed
+2026-10-03 09:01:19.531 [stockd] INFO  ticket=RS-2026-86716 sku=SKU-28676 qty=2 worker=stockd-b5 granted in 30ms
+2026-10-03 09:01:19.617 [stockd] INFO  ticket=RS-2026-99186 sku=SKU-32801 qty=1 worker=stockd-b3 granted in 63ms
+2026-10-03 09:01:19.773 [stockd] DEBUG ticket=RS-2026-86716 closed
+2026-10-03 09:01:19.776 [stockd] DEBUG ticket=RS-2026-99186 closed
+2026-10-03 09:01:37.626 [stockd] DEBUG ticket=RS-2026-69754 closed
+2026-10-03 09:01:41.324 [stockd] INFO  ticket=RS-2026-39813 sku=SKU-12997 qty=2 worker=stockd-b5 granted in 13ms
+2026-10-03 09:01:41.345 [stockd] DEBUG ticket=RS-2026-74378 closed
+2026-10-03 09:01:41.426 [stockd] INFO  ticket=RS-2026-12095 sku=SKU-46094 qty=1 worker=stockd-b2 granted in 58ms
+2026-10-03 09:01:41.615 [stockd] DEBUG ticket=RS-2026-39813 closed
+2026-10-03 09:01:41.618 [stockd] DEBUG ticket=RS-2026-12095 closed
+2026-10-03 09:01:51.201 [stockd] INFO  ticket=RS-2026-69540 sku=SKU-14412 qty=2 worker=stockd-b6 granted in 57ms
+2026-10-03 09:01:51.276 [stockd] INFO  ticket=RS-2026-39198 sku=SKU-59109 qty=1 worker=stockd-b6 granted in 67ms
+2026-10-03 09:01:51.460 [stockd] DEBUG ticket=RS-2026-69540 closed
+2026-10-03 09:01:51.463 [stockd] DEBUG ticket=RS-2026-39198 closed
+2026-10-03 09:01:55.239 [stockd] DEBUG ticket=RS-2026-72545 closed
+2026-10-03 09:01:57.875 [stockd] DEBUG ticket=RS-2026-86232 closed
+2026-10-03 09:02:02.397 [stockd-b5] INFO  task=job-992743 CycleCountExporter: started batch=13
+2026-10-03 09:02:03.527 [stockd-b2] INFO  task=job-585228 ShelfIndexRebuilder: started batch=14
+2026-10-03 09:02:04.478 [stockd-b5] ERROR task=job-992743 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=0)
+	at com.shop.inventory.worker.CycleCountExporter.execute(CycleCountExporter.java:255)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:02:06.291 [stockd-b2] INFO  task=job-585228 ShelfIndexRebuilder: finished in 2764ms
+2026-10-03 09:02:21.669 [stockd] DEBUG ticket=RS-2026-59340 closed
+2026-10-03 09:02:22.087 [stockd-b1] INFO  task=job-549114 ReturnsDockSync: started batch=23
+2026-10-03 09:02:22.673 [stockd-b5] INFO  task=job-576195 SkuCacheWarmer: started batch=14
+2026-10-03 09:02:23.185 [stockd] DEBUG ticket=RS-2026-39273 closed
+2026-10-03 09:02:23.660 [stockd-b5] ERROR task=job-576195 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.execute(SkuCacheWarmer.java:351)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:02:24.056 [stockd-b1] INFO  task=job-549114 ReturnsDockSync: finished in 1969ms
+2026-10-03 09:02:41.772 [stockd] DEBUG ticket=RS-2026-42174 closed
+2026-10-03 09:02:46.705 [stockd] DEBUG ticket=RS-2026-19130 closed
+2026-10-03 09:02:46.795 [stockd-b6] INFO  task=job-572079 CycleCountScheduler: started batch=31
+2026-10-03 09:02:47.534 [stockd] DEBUG ticket=RS-2026-22508 closed
+2026-10-03 09:02:48.328 [stockd-b6] INFO  task=job-572079 CycleCountScheduler: finished in 1533ms
+2026-10-03 09:02:52.141 [stockd-b5] INFO  task=job-923620 SkuCacheWarmer: started batch=6
+2026-10-03 09:02:55.008 [stockd] DEBUG ticket=RS-2026-18748 closed
+2026-10-03 09:02:55.823 [stockd-b5] ERROR task=job-923620 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.run(SkuCacheWarmer.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:03:35.618 [stockd] DEBUG ticket=RS-2026-89130 closed
+2026-10-03 09:03:35.699 [stockd-b7] INFO  task=job-937840 ReturnsDockSync: started batch=34
+2026-10-03 09:03:35.746 [stockd-b6] INFO  task=job-731766 ShelfIndexRebuilder: started batch=51
+2026-10-03 09:03:36.621 [stockd-b7] INFO  task=job-937840 ReturnsDockSync: finished in 922ms
+2026-10-03 09:03:37.622 [stockd-b6] INFO  task=job-731766 ShelfIndexRebuilder: finished in 1876ms
+2026-10-03 09:03:54.679 [stockd-b5] INFO  task=job-963177 CycleCountScheduler: started batch=49
+2026-10-03 09:03:56.301 [stockd-b5] INFO  task=job-963177 CycleCountScheduler: finished in 1622ms
+2026-10-03 09:04:36.764 [stockd] DEBUG ticket=RS-2026-30472 closed
+2026-10-03 09:04:39.434 [stockd-b1] INFO  task=job-716136 BinLocationRecalculator: started batch=24
+2026-10-03 09:04:43.160 [stockd-b1] INFO  task=job-716136 BinLocationRecalculator: finished in 3726ms
+2026-10-03 09:04:43.663 [stockd] DEBUG ticket=RS-2026-44455 closed
+2026-10-03 09:04:44.992 [stockd-b6] INFO  task=job-436574 SkuCacheWarmer: started batch=1
+2026-10-03 09:04:46.974 [stockd-b6] ERROR task=job-436574 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=1)
+	at com.shop.inventory.worker.SkuCacheWarmer.process(SkuCacheWarmer.java:460)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:04:57.216 [stockd-b1] INFO  task=job-509852 ReturnsDockSync: started batch=18
+2026-10-03 09:04:59.531 [stockd-b1] INFO  task=job-509852 ReturnsDockSync: finished in 2315ms
+2026-10-03 09:05:00.818 [stockd] INFO  ticket=RS-2026-56764 sku=SKU-48889 qty=2 worker=stockd-b6 granted in 18ms
+2026-10-03 09:05:00.916 [stockd] INFO  ticket=RS-2026-31804 sku=SKU-16109 qty=1 worker=stockd-b5 granted in 34ms
+2026-10-03 09:05:01.115 [stockd] DEBUG ticket=RS-2026-56764 closed
+2026-10-03 09:05:01.118 [stockd] DEBUG ticket=RS-2026-31804 closed
+2026-10-03 09:05:05.593 [stockd-b3] INFO  task=job-238043 SkuCacheWarmer: started batch=40
+2026-10-03 09:05:05.835 [stockd] DEBUG ticket=RS-2026-71735 closed
+2026-10-03 09:05:08.361 [stockd-b3] ERROR task=job-238043 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.invoke(SkuCacheWarmer.java:245)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:05:16.353 [stockd-b3] INFO  task=job-486585 BackorderReconciler: started batch=5
+2026-10-03 09:05:17.861 [stockd] INFO  ticket=RS-2026-79710 sku=SKU-39302 qty=2 worker=stockd-b6 granted in 55ms
+2026-10-03 09:05:17.976 [stockd] INFO  ticket=RS-2026-81422 sku=SKU-24390 qty=1 worker=stockd-b6 granted in 35ms
+2026-10-03 09:05:18.168 [stockd] DEBUG ticket=RS-2026-79710 closed
+2026-10-03 09:05:18.171 [stockd] DEBUG ticket=RS-2026-81422 closed
+2026-10-03 09:05:18.827 [stockd-b3] ERROR task=job-486585 BackorderReconciler: SQLTransientConnectionException: connection pool exhausted (30/30) (stalled_tickets=1)
+	at com.shop.inventory.worker.BackorderReconciler.invoke(BackorderReconciler.java:108)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:05:24.018 [stockd-b6] INFO  task=job-135651 ReturnsDockSync: started batch=27
+2026-10-03 09:05:24.549 [stockd-b6] INFO  task=job-135651 ReturnsDockSync: finished in 531ms
+2026-10-03 09:05:36.795 [stockd-b1] INFO  task=job-249706 CycleCountExporter: started batch=8
+2026-10-03 09:05:39.036 [stockd-b1] ERROR task=job-249706 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=1)
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:686)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:05:42.891 [stockd-b3] INFO  task=job-617174 BinLocationRecalculator: started batch=32
+2026-10-03 09:05:43.626 [stockd-b3] INFO  task=job-617174 BinLocationRecalculator: finished in 735ms
+2026-10-03 09:05:50.613 [stockd-b4] INFO  task=job-581088 ShelfIndexRebuilder: started batch=5
+2026-10-03 09:05:51.045 [stockd] DEBUG ticket=RS-2026-43444 closed
+2026-10-03 09:05:51.938 [stockd-b4] WARN  task=job-581088 ShelfIndexRebuilder: slow scan 1335ms
+2026-10-03 09:05:53.264 [stockd-b4] INFO  task=job-581088 ShelfIndexRebuilder: finished in 2651ms
+2026-10-03 09:06:02.453 [stockd] DEBUG ticket=RS-2026-17525 closed
+2026-10-03 09:06:06.749 [stockd-b3] INFO  task=job-363879 BinLocationRecalculator: started batch=60
+2026-10-03 09:06:07.695 [stockd-b3] INFO  task=job-363879 BinLocationRecalculator: finished in 946ms
+2026-10-03 09:06:20.716 [stockd] INFO  ticket=RS-2026-43887 sku=SKU-12255 qty=2 worker=stockd-b2 granted in 10ms
+2026-10-03 09:06:20.836 [stockd] INFO  ticket=RS-2026-73227 sku=SKU-38292 qty=1 worker=stockd-b2 granted in 29ms
+2026-10-03 09:06:21.030 [stockd] DEBUG ticket=RS-2026-43887 closed
+2026-10-03 09:06:21.033 [stockd] DEBUG ticket=RS-2026-73227 closed
+2026-10-03 09:06:25.203 [stockd] INFO  ticket=RS-2026-83922 sku=SKU-10569 qty=2 worker=stockd-b5 granted in 33ms
+2026-10-03 09:06:25.315 [stockd] INFO  ticket=RS-2026-79240 sku=SKU-15342 qty=1 worker=stockd-b1 granted in 22ms
+2026-10-03 09:06:25.512 [stockd] DEBUG ticket=RS-2026-83922 closed
+2026-10-03 09:06:25.515 [stockd] DEBUG ticket=RS-2026-79240 closed
+2026-10-03 09:06:29.345 [stockd] DEBUG ticket=RS-2026-51905 closed
+2026-10-03 09:06:31.060 [stockd] DEBUG ticket=RS-2026-98236 closed
+2026-10-03 09:06:38.037 [stockd] DEBUG ticket=RS-2026-41457 closed
+2026-10-03 09:06:41.028 [stockd-b3] INFO  task=job-190536 BinLocationRecalculator: started batch=35
+2026-10-03 09:06:42.145 [stockd] DEBUG ticket=RS-2026-13063 closed
+2026-10-03 09:06:43.299 [stockd-b3] INFO  task=job-190536 BinLocationRecalculator: finished in 2271ms
+2026-10-03 09:06:48.082 [stockd] DEBUG ticket=RS-2026-58730 closed
+2026-10-03 09:07:07.358 [stockd] DEBUG ticket=RS-2026-32541 closed
+2026-10-03 09:07:19.777 [stockd] DEBUG ticket=RS-2026-36831 closed
+2026-10-03 09:07:29.805 [stockd] DEBUG ticket=RS-2026-82283 closed
+2026-10-03 09:07:30.267 [stockd] DEBUG ticket=RS-2026-69773 closed
+2026-10-03 09:07:36.741 [stockd] DEBUG ticket=RS-2026-41151 closed
+2026-10-03 09:07:37.257 [stockd-b1] INFO  task=job-613413 SkuCacheWarmer: started batch=9
+2026-10-03 09:07:37.594 [stockd-b3] INFO  task=job-734624 ShelfIndexRebuilder: started batch=18
+2026-10-03 09:07:38.363 [stockd-b1] ERROR task=job-613413 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=1)
+	at com.shop.inventory.worker.SkuCacheWarmer.run(SkuCacheWarmer.java:103)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:07:41.338 [stockd-b3] INFO  task=job-734624 ShelfIndexRebuilder: finished in 3744ms
+2026-10-03 09:07:41.389 [stockd] INFO  ticket=RS-2026-20122 sku=SKU-41558 qty=2 worker=stockd-b1 granted in 39ms
+2026-10-03 09:07:41.453 [stockd] INFO  ticket=RS-2026-89654 sku=SKU-12776 qty=1 worker=stockd-b2 granted in 60ms
+2026-10-03 09:07:41.677 [stockd] DEBUG ticket=RS-2026-20122 closed
+2026-10-03 09:07:41.680 [stockd] DEBUG ticket=RS-2026-89654 closed
+2026-10-03 09:07:46.831 [stockd-b7] INFO  task=job-456054 CycleCountScheduler: started batch=25
+2026-10-03 09:07:48.366 [stockd-b7] WARN  task=job-456054 CycleCountScheduler: slow scan 2216ms
+2026-10-03 09:07:49.089 [stockd-b6] INFO  task=job-387502 ReturnsDockSync: started batch=5
+2026-10-03 09:07:49.901 [stockd-b7] INFO  task=job-456054 CycleCountScheduler: finished in 3070ms
+2026-10-03 09:07:51.174 [stockd-b6] INFO  task=job-387502 ReturnsDockSync: finished in 2085ms
+2026-10-03 09:07:55.130 [stockd-b2] INFO  task=job-748654 SkuCacheWarmer: started batch=9
+2026-10-03 09:07:57.738 [stockd-b2] ERROR task=job-748654 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.process(SkuCacheWarmer.java:705)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:08:02.919 [stockd] DEBUG ticket=RS-2026-37555 closed
+2026-10-03 09:08:12.407 [stockd] INFO  ticket=RS-2026-20906 sku=SKU-58442 qty=2 worker=stockd-b3 granted in 50ms
+2026-10-03 09:08:12.515 [stockd] INFO  ticket=RS-2026-68951 sku=SKU-58114 qty=1 worker=stockd-b1 granted in 10ms
+2026-10-03 09:08:12.645 [stockd] DEBUG ticket=RS-2026-20906 closed
+2026-10-03 09:08:12.648 [stockd] DEBUG ticket=RS-2026-68951 closed
+2026-10-03 09:08:21.019 [stockd-b5] INFO  task=job-488499 ReturnsDockSync: started batch=19
+2026-10-03 09:08:23.087 [stockd-b5] INFO  task=job-488499 ReturnsDockSync: finished in 2068ms
+2026-10-03 09:08:29.667 [stockd] DEBUG ticket=RS-2026-90598 closed
+2026-10-03 09:08:39.579 [stockd] DEBUG ticket=RS-2026-61201 closed
+2026-10-03 09:08:47.833 [stockd-b3] INFO  task=job-656861 CycleCountScheduler: started batch=46
+2026-10-03 09:08:48.001 [stockd-b3] WARN  task=job-656861 CycleCountScheduler: slow scan 1487ms
+2026-10-03 09:08:48.170 [stockd-b3] INFO  task=job-656861 CycleCountScheduler: finished in 337ms
+2026-10-03 09:08:49.385 [stockd-b7] INFO  task=job-926970 ReturnsDockSync: started batch=3
+2026-10-03 09:08:51.554 [stockd-b7] INFO  task=job-926970 ReturnsDockSync: finished in 2169ms
+2026-10-03 09:08:51.897 [stockd] DEBUG ticket=RS-2026-40818 closed
+2026-10-03 09:08:52.874 [stockd] INFO  ticket=RS-2026-17798 sku=SKU-11703 qty=2 worker=stockd-b3 granted in 41ms
+2026-10-03 09:08:52.986 [stockd] INFO  ticket=RS-2026-33009 sku=SKU-25198 qty=1 worker=stockd-b2 granted in 45ms
+2026-10-03 09:08:53.138 [stockd] DEBUG ticket=RS-2026-17798 closed
+2026-10-03 09:08:53.141 [stockd] DEBUG ticket=RS-2026-33009 closed
+2026-10-03 09:09:11.347 [stockd] DEBUG ticket=RS-2026-88706 closed
+2026-10-03 09:09:15.246 [stockd] INFO  ticket=RS-2026-35172 sku=SKU-21305 qty=2 worker=stockd-b1 granted in 29ms
+2026-10-03 09:09:15.310 [stockd] INFO  ticket=RS-2026-10835 sku=SKU-27228 qty=1 worker=stockd-b5 granted in 32ms
+2026-10-03 09:09:15.517 [stockd] DEBUG ticket=RS-2026-35172 closed
+2026-10-03 09:09:15.520 [stockd] DEBUG ticket=RS-2026-10835 closed
+2026-10-03 09:09:16.754 [stockd-b1] INFO  task=job-240622 CycleCountScheduler: started batch=17
+2026-10-03 09:09:17.136 [stockd-b1] INFO  task=job-240622 CycleCountScheduler: finished in 382ms
+2026-10-03 09:09:19.948 [stockd] DEBUG ticket=RS-2026-27210 closed
+2026-10-03 09:09:22.680 [stockd] DEBUG ticket=RS-2026-77820 closed
+2026-10-03 09:09:23.787 [stockd] INFO  ticket=RS-2026-58765 sku=SKU-26261 qty=2 worker=stockd-b5 granted in 29ms
+2026-10-03 09:09:23.866 [stockd] INFO  ticket=RS-2026-66665 sku=SKU-41079 qty=1 worker=stockd-b2 granted in 31ms
+2026-10-03 09:09:24.064 [stockd] DEBUG ticket=RS-2026-58765 closed
+2026-10-03 09:09:24.067 [stockd] DEBUG ticket=RS-2026-66665 closed
+2026-10-03 09:09:25.346 [stockd] DEBUG ticket=RS-2026-46629 closed
+2026-10-03 09:09:25.540 [stockd-b4] INFO  task=job-963119 ShelfIndexRebuilder: started batch=38
+2026-10-03 09:09:26.480 [stockd-b4] INFO  task=job-963119 ShelfIndexRebuilder: finished in 940ms
+2026-10-03 09:09:50.348 [stockd-b4] INFO  task=job-128692 ReturnsDockSync: started batch=39
+2026-10-03 09:09:51.870 [stockd-b4] INFO  task=job-128692 ReturnsDockSync: finished in 1522ms
+2026-10-03 09:09:54.388 [stockd-b1] INFO  task=job-417433 ReturnsDockSync: started batch=2
+2026-10-03 09:09:55.035 [stockd-b1] WARN  task=job-417433 ReturnsDockSync: retrying after transient error (attempt 2/5)
+2026-10-03 09:09:55.682 [stockd-b1] INFO  task=job-417433 ReturnsDockSync: finished in 1294ms
+2026-10-03 09:09:57.479 [stockd] DEBUG ticket=RS-2026-84638 closed
+2026-10-03 09:10:01.998 [stockd-b7] INFO  task=job-490013 ShelfIndexRebuilder: started batch=40
+2026-10-03 09:10:03.512 [stockd-b5] INFO  task=job-137704 BinLocationRecalculator: started batch=44
+2026-10-03 09:10:04.129 [stockd-b7] INFO  task=job-490013 ShelfIndexRebuilder: finished in 2131ms
+2026-10-03 09:10:04.237 [stockd] DEBUG ticket=RS-2026-50927 closed
+2026-10-03 09:10:05.407 [stockd] INFO  ticket=RS-2026-70508 sku=SKU-15445 qty=2 worker=stockd-b1 granted in 56ms
+2026-10-03 09:10:05.497 [stockd] INFO  ticket=RS-2026-60246 sku=SKU-54480 qty=1 worker=stockd-b6 granted in 38ms
+2026-10-03 09:10:05.680 [stockd] DEBUG ticket=RS-2026-70508 closed
+2026-10-03 09:10:05.683 [stockd] DEBUG ticket=RS-2026-60246 closed
+2026-10-03 09:10:06.397 [stockd-b5] INFO  task=job-137704 BinLocationRecalculator: finished in 2885ms
+2026-10-03 09:10:09.958 [stockd] DEBUG ticket=RS-2026-99302 closed
+2026-10-03 09:10:12.887 [stockd-b3] INFO  task=job-704007 BackorderReconciler: started batch=11
+2026-10-03 09:10:14.777 [stockd-b3] ERROR task=job-704007 BackorderReconciler: SQLTransientConnectionException: connection pool exhausted (30/30) (stalled_tickets=0)
+	at com.shop.inventory.worker.BackorderReconciler.run(BackorderReconciler.java:339)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:10:27.861 [stockd-b3] INFO  task=job-385042 BackorderReconciler: started batch=40
+2026-10-03 09:10:28.306 [stockd] DEBUG ticket=RS-2026-12825 closed
+2026-10-03 09:10:31.566 [stockd-b3] ERROR task=job-385042 BackorderReconciler: SQLTransientConnectionException: connection pool exhausted (30/30) (stalled_tickets=0)
+	at com.shop.inventory.worker.BackorderReconciler.run(BackorderReconciler.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:10:34.356 [stockd] DEBUG ticket=RS-2026-98758 closed
+2026-10-03 09:10:39.923 [stockd] INFO  ticket=RS-2026-13418 sku=SKU-58185 qty=2 worker=stockd-b1 granted in 51ms
+2026-10-03 09:10:40.033 [stockd] INFO  ticket=RS-2026-69114 sku=SKU-38839 qty=1 worker=stockd-b5 granted in 30ms
+2026-10-03 09:10:40.121 [stockd] DEBUG ticket=RS-2026-13418 closed
+2026-10-03 09:10:40.124 [stockd] DEBUG ticket=RS-2026-69114 closed
+2026-10-03 09:10:41.422 [stockd-b7] INFO  task=job-256966 BinLocationRecalculator: started batch=6
+2026-10-03 09:10:42.798 [stockd-b6] INFO  task=job-288395 ShelfIndexRebuilder: started batch=37
+2026-10-03 09:10:43.577 [stockd-b7] INFO  task=job-256966 BinLocationRecalculator: finished in 2155ms
+2026-10-03 09:10:44.060 [stockd-b6] INFO  task=job-288395 ShelfIndexRebuilder: finished in 1262ms
+2026-10-03 09:10:56.970 [stockd-b5] INFO  task=job-398885 SkuCacheWarmer: started batch=10
+2026-10-03 09:10:59.473 [stockd-b5] ERROR task=job-398885 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.invoke(SkuCacheWarmer.java:478)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:11:04.895 [stockd] DEBUG ticket=RS-2026-92762 closed
+2026-10-03 09:11:16.876 [stockd-b7] INFO  task=job-339262 ShelfIndexRebuilder: started batch=38
+2026-10-03 09:11:17.820 [stockd-b7] INFO  task=job-339262 ShelfIndexRebuilder: finished in 944ms
+2026-10-03 09:11:27.487 [stockd-b4] INFO  task=job-733678 ReturnsDockSync: started batch=33
+2026-10-03 09:11:31.053 [stockd-b4] INFO  task=job-733678 ReturnsDockSync: finished in 3566ms
+2026-10-03 09:11:37.190 [stockd-b3] INFO  task=job-388201 ShelfIndexRebuilder: started batch=48
+2026-10-03 09:11:40.007 [stockd-b3] INFO  task=job-388201 ShelfIndexRebuilder: finished in 2817ms
+2026-10-03 09:11:48.638 [stockd-b2] INFO  task=job-422355 BinLocationRecalculator: started batch=14
+2026-10-03 09:11:49.948 [stockd-b2] INFO  task=job-422355 BinLocationRecalculator: finished in 1310ms
+2026-10-03 09:11:57.260 [stockd-b6] INFO  task=job-777392 BinLocationRecalculator: started batch=30
+2026-10-03 09:11:59.492 [stockd-b6] INFO  task=job-777392 BinLocationRecalculator: finished in 2232ms
+2026-10-03 09:12:02.347 [stockd] DEBUG ticket=RS-2026-31442 closed
+2026-10-03 09:12:12.448 [stockd-b3] INFO  task=job-786428 ShelfIndexRebuilder: started batch=47
+2026-10-03 09:12:13.697 [stockd-b3] WARN  task=job-786428 ShelfIndexRebuilder: slow scan 2259ms
+2026-10-03 09:12:14.946 [stockd-b3] INFO  task=job-786428 ShelfIndexRebuilder: finished in 2498ms
+2026-10-03 09:12:16.021 [stockd-b1] INFO  task=job-560232 ShelfIndexRebuilder: started batch=48
+2026-10-03 09:12:18.620 [stockd-b1] INFO  task=job-560232 ShelfIndexRebuilder: finished in 2599ms
+2026-10-03 09:12:34.678 [stockd] INFO  ticket=RS-2026-54795 sku=SKU-19632 qty=2 worker=stockd-b1 granted in 19ms
+2026-10-03 09:12:34.753 [stockd] INFO  ticket=RS-2026-25768 sku=SKU-37065 qty=1 worker=stockd-b6 granted in 68ms
+2026-10-03 09:12:34.974 [stockd] DEBUG ticket=RS-2026-54795 closed
+2026-10-03 09:12:34.977 [stockd] DEBUG ticket=RS-2026-25768 closed
+2026-10-03 09:12:35.341 [stockd] DEBUG ticket=RS-2026-44172 closed
+2026-10-03 09:12:43.025 [stockd] DEBUG ticket=RS-2026-18947 closed
+2026-10-03 09:13:16.492 [stockd-b3] INFO  task=job-734821 BinLocationRecalculator: started batch=42
+2026-10-03 09:13:16.943 [stockd] DEBUG ticket=RS-2026-26149 closed
+2026-10-03 09:13:18.396 [stockd-b3] WARN  task=job-734821 BinLocationRecalculator: lag behind schedule by 6s
+2026-10-03 09:13:20.301 [stockd-b3] INFO  task=job-734821 BinLocationRecalculator: finished in 3809ms
+2026-10-03 09:13:23.820 [stockd] DEBUG ticket=RS-2026-67097 closed
+2026-10-03 09:13:26.501 [stockd] DEBUG ticket=RS-2026-81965 closed
+2026-10-03 09:13:34.049 [stockd-b1] INFO  task=job-921068 ReturnsDockSync: started batch=22
+2026-10-03 09:13:36.210 [stockd-b1] INFO  task=job-921068 ReturnsDockSync: finished in 2161ms
+2026-10-03 09:13:36.818 [stockd] DEBUG ticket=RS-2026-93276 closed
+2026-10-03 09:13:44.346 [stockd] DEBUG ticket=RS-2026-15249 closed
+2026-10-03 09:13:46.303 [stockd] DEBUG ticket=RS-2026-48891 closed
+2026-10-03 09:13:50.771 [stockd-b5] INFO  task=job-573484 CycleCountScheduler: started batch=35
+2026-10-03 09:13:51.786 [stockd-b5] INFO  task=job-573484 CycleCountScheduler: finished in 1015ms
+2026-10-03 09:13:51.844 [stockd-b1] INFO  task=job-819525 ReturnsDockSync: started batch=13
+2026-10-03 09:13:53.700 [stockd-b1] WARN  task=job-819525 ReturnsDockSync: lag behind schedule by 9s
+2026-10-03 09:13:55.557 [stockd-b1] INFO  task=job-819525 ReturnsDockSync: finished in 3713ms
+2026-10-03 09:13:58.075 [stockd-b3] INFO  task=job-897442 ReturnsDockSync: started batch=42
+2026-10-03 09:14:00.012 [stockd-b3] INFO  task=job-897442 ReturnsDockSync: finished in 1937ms
+2026-10-03 09:14:11.122 [stockd] DEBUG ticket=RS-2026-43593 closed
+2026-10-03 09:14:12.279 [stockd] DEBUG ticket=RS-2026-55525 closed
+2026-10-03 09:14:18.269 [stockd] DEBUG ticket=RS-2026-43085 closed
+2026-10-03 09:14:22.665 [stockd-b1] INFO  task=job-260938 ReturnsDockSync: started batch=37
+2026-10-03 09:14:23.142 [stockd-b1] INFO  task=job-260938 ReturnsDockSync: finished in 477ms
+2026-10-03 09:14:31.553 [stockd-b7] INFO  task=job-570994 ShelfIndexRebuilder: started batch=24
+2026-10-03 09:14:33.347 [stockd-b7] INFO  task=job-570994 ShelfIndexRebuilder: finished in 1794ms
+2026-10-03 09:14:35.581 [stockd] DEBUG ticket=RS-2026-33700 closed
+2026-10-03 09:15:03.045 [stockd-b2] INFO  task=job-724969 SkuCacheWarmer: started batch=40
+2026-10-03 09:15:04.586 [stockd-b2] ERROR task=job-724969 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.run(SkuCacheWarmer.java:306)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:15:06.883 [stockd] DEBUG ticket=RS-2026-41180 closed
+2026-10-03 09:15:07.294 [stockd] DEBUG ticket=RS-2026-60819 closed
+2026-10-03 09:15:12.713 [stockd] INFO  ticket=RS-2026-98921 sku=SKU-10558 qty=2 worker=stockd-b1 granted in 29ms
+2026-10-03 09:15:12.778 [stockd] INFO  ticket=RS-2026-16139 sku=SKU-57235 qty=1 worker=stockd-b2 granted in 12ms
+2026-10-03 09:15:12.945 [stockd] DEBUG ticket=RS-2026-98921 closed
+2026-10-03 09:15:12.948 [stockd] DEBUG ticket=RS-2026-16139 closed
+2026-10-03 09:15:19.977 [stockd] DEBUG ticket=RS-2026-93929 closed
+2026-10-03 09:15:41.428 [stockd-b4] INFO  task=job-950673 ShelfIndexRebuilder: started batch=53
+2026-10-03 09:15:42.813 [stockd-b4] INFO  task=job-950673 ShelfIndexRebuilder: finished in 1385ms
+2026-10-03 09:15:46.593 [stockd] DEBUG ticket=RS-2026-93127 closed
+2026-10-03 09:15:53.214 [stockd] DEBUG ticket=RS-2026-42594 closed
+2026-10-03 09:15:55.565 [stockd] DEBUG ticket=RS-2026-65904 closed
+2026-10-03 09:15:58.805 [stockd] INFO  ticket=RS-2026-66224 sku=SKU-44053 qty=2 worker=stockd-b1 granted in 46ms
+2026-10-03 09:15:58.899 [stockd] INFO  ticket=RS-2026-51547 sku=SKU-21737 qty=1 worker=stockd-b5 granted in 40ms
+2026-10-03 09:15:59.080 [stockd] DEBUG ticket=RS-2026-66224 closed
+2026-10-03 09:15:59.083 [stockd] DEBUG ticket=RS-2026-51547 closed
+2026-10-03 09:16:01.389 [stockd] DEBUG ticket=RS-2026-97707 closed
+2026-10-03 09:16:07.150 [stockd] DEBUG ticket=RS-2026-72910 closed
+2026-10-03 09:16:11.979 [stockd] DEBUG ticket=RS-2026-30851 closed
+2026-10-03 09:16:24.040 [stockd] DEBUG ticket=RS-2026-61713 closed
+2026-10-03 09:16:26.766 [stockd] DEBUG ticket=RS-2026-33420 closed
+2026-10-03 09:16:31.909 [stockd] DEBUG ticket=RS-2026-97123 closed
+2026-10-03 09:16:41.367 [stockd-b5] INFO  task=job-172767 ShelfIndexRebuilder: started batch=53
+2026-10-03 09:16:41.473 [stockd-b7] INFO  task=job-280190 BinLocationRecalculator: started batch=19
+2026-10-03 09:16:43.102 [stockd-b5] INFO  task=job-172767 ShelfIndexRebuilder: finished in 1735ms
+2026-10-03 09:16:43.550 [stockd] INFO  ticket=RS-2026-34247 sku=SKU-15567 qty=2 worker=stockd-b3 granted in 24ms
+2026-10-03 09:16:43.632 [stockd] INFO  ticket=RS-2026-46948 sku=SKU-43211 qty=1 worker=stockd-b6 granted in 52ms
+2026-10-03 09:16:43.825 [stockd] DEBUG ticket=RS-2026-34247 closed
+2026-10-03 09:16:43.828 [stockd] DEBUG ticket=RS-2026-46948 closed
+2026-10-03 09:16:45.104 [stockd-b7] INFO  task=job-280190 BinLocationRecalculator: finished in 3631ms
+2026-10-03 09:16:48.062 [stockd-b2] INFO  task=job-534085 CycleCountExporter: started batch=1
+2026-10-03 09:16:50.494 [stockd-b2] ERROR task=job-534085 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=0)
+	at com.shop.inventory.worker.CycleCountExporter.invoke(CycleCountExporter.java:307)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:16:55.863 [stockd-b1] INFO  task=job-308543 BinLocationRecalculator: started batch=40
+2026-10-03 09:16:56.778 [stockd-b7] INFO  task=job-995984 CycleCountScheduler: started batch=43
+2026-10-03 09:16:57.060 [stockd-b1] INFO  task=job-308543 BinLocationRecalculator: finished in 1197ms
+2026-10-03 09:16:57.681 [stockd-b7] INFO  task=job-995984 CycleCountScheduler: finished in 903ms
+2026-10-03 09:17:01.824 [stockd] DEBUG ticket=RS-2026-37387 closed
+2026-10-03 09:17:43.132 [stockd] DEBUG ticket=RS-2026-25510 closed
+2026-10-03 09:17:47.313 [stockd] INFO  ticket=RS-2026-88411 sku=SKU-16462 qty=2 worker=stockd-b3 granted in 14ms
+2026-10-03 09:17:47.400 [stockd] INFO  ticket=RS-2026-14188 sku=SKU-18095 qty=1 worker=stockd-b1 granted in 17ms
+2026-10-03 09:17:47.550 [stockd] DEBUG ticket=RS-2026-88411 closed
+2026-10-03 09:17:47.553 [stockd] DEBUG ticket=RS-2026-14188 closed
+2026-10-03 09:17:55.158 [stockd-b4] INFO  task=job-440652 BinLocationRecalculator: started batch=23
+2026-10-03 09:17:56.492 [stockd-b4] INFO  task=job-440652 BinLocationRecalculator: finished in 1334ms
+2026-10-03 09:17:59.038 [stockd-b3] INFO  task=job-280590 ShelfIndexRebuilder: started batch=37
+2026-10-03 09:18:01.445 [stockd] DEBUG ticket=RS-2026-33834 closed
+2026-10-03 09:18:01.582 [stockd-b3] INFO  task=job-280590 ShelfIndexRebuilder: finished in 2544ms
+2026-10-03 09:18:17.335 [stockd] DEBUG ticket=RS-2026-88286 closed
+2026-10-03 09:18:27.159 [stockd-b7] INFO  task=job-478273 ShelfIndexRebuilder: started batch=23
+2026-10-03 09:18:27.568 [stockd] INFO  ticket=RS-2026-16931 sku=SKU-30722 qty=2 worker=stockd-b6 granted in 27ms
+2026-10-03 09:18:27.662 [stockd] INFO  ticket=RS-2026-29440 sku=SKU-58607 qty=1 worker=stockd-b6 granted in 44ms
+2026-10-03 09:18:27.811 [stockd] DEBUG ticket=RS-2026-16931 closed
+2026-10-03 09:18:27.814 [stockd] DEBUG ticket=RS-2026-29440 closed
+2026-10-03 09:18:28.779 [stockd-b7] WARN  task=job-478273 ShelfIndexRebuilder: lag behind schedule by 4s
+2026-10-03 09:18:30.400 [stockd-b7] INFO  task=job-478273 ShelfIndexRebuilder: finished in 3241ms
+2026-10-03 09:18:47.391 [stockd-b7] INFO  task=job-203917 ShelfIndexRebuilder: started batch=25
+2026-10-03 09:18:48.901 [stockd-b7] INFO  task=job-203917 ShelfIndexRebuilder: finished in 1510ms
+2026-10-03 09:18:51.061 [stockd] INFO  ticket=RS-2026-76392 sku=SKU-47363 qty=2 worker=stockd-b5 granted in 43ms
+2026-10-03 09:18:51.161 [stockd] INFO  ticket=RS-2026-12359 sku=SKU-29148 qty=1 worker=stockd-b3 granted in 47ms
+2026-10-03 09:18:51.269 [stockd] DEBUG ticket=RS-2026-76392 closed
+2026-10-03 09:18:51.272 [stockd] DEBUG ticket=RS-2026-12359 closed
+2026-10-03 09:18:57.891 [stockd-b7] INFO  task=job-621335 ReturnsDockSync: started batch=39
+2026-10-03 09:18:59.421 [stockd-b5] INFO  task=job-211549 ReturnsDockSync: started batch=16
+2026-10-03 09:19:00.047 [stockd-b7] INFO  task=job-621335 ReturnsDockSync: finished in 2156ms
+2026-10-03 09:19:01.875 [stockd-b7] INFO  task=job-409584 ReturnsDockSync: started batch=30
+2026-10-03 09:19:02.364 [stockd-b5] INFO  task=job-211549 ReturnsDockSync: finished in 2943ms
+2026-10-03 09:19:03.330 [stockd-b7] INFO  task=job-409584 ReturnsDockSync: finished in 1455ms
+2026-10-03 09:19:20.054 [stockd] DEBUG ticket=RS-2026-39201 closed
+2026-10-03 09:19:27.156 [stockd] DEBUG ticket=RS-2026-57773 closed
+2026-10-03 09:19:27.417 [stockd] INFO  ticket=RS-2026-68471 sku=SKU-49691 qty=2 worker=stockd-b6 granted in 30ms
+2026-10-03 09:19:27.516 [stockd] INFO  ticket=RS-2026-14587 sku=SKU-35826 qty=1 worker=stockd-b1 granted in 60ms
+2026-10-03 09:19:27.679 [stockd] DEBUG ticket=RS-2026-68471 closed
+2026-10-03 09:19:27.682 [stockd] DEBUG ticket=RS-2026-14587 closed
+2026-10-03 09:19:32.142 [stockd-b1] INFO  task=job-146138 SkuCacheWarmer: started batch=3
+2026-10-03 09:19:33.888 [stockd-b1] ERROR task=job-146138 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=1)
+	at com.shop.inventory.worker.SkuCacheWarmer.execute(SkuCacheWarmer.java:44)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:19:41.601 [stockd] DEBUG ticket=RS-2026-75989 closed
+2026-10-03 09:19:44.551 [stockd-b1] INFO  task=job-800875 ShelfIndexRebuilder: started batch=8
+2026-10-03 09:19:46.244 [stockd-b1] WARN  task=job-800875 ShelfIndexRebuilder: lag behind schedule by 5s
+2026-10-03 09:19:47.938 [stockd-b1] INFO  task=job-800875 ShelfIndexRebuilder: finished in 3387ms
+2026-10-03 09:19:49.673 [stockd-b4] INFO  task=job-369990 CycleCountScheduler: started batch=24
+2026-10-03 09:19:51.288 [stockd-b4] WARN  task=job-369990 CycleCountScheduler: lag behind schedule by 3s
+2026-10-03 09:19:52.904 [stockd-b4] INFO  task=job-369990 CycleCountScheduler: finished in 3231ms
+2026-10-03 09:19:53.657 [stockd-b2] INFO  task=job-830430 ShelfIndexRebuilder: started batch=11
+2026-10-03 09:19:56.477 [stockd-b2] INFO  task=job-830430 ShelfIndexRebuilder: finished in 2820ms
+2026-10-03 09:20:02.752 [stockd-b5] INFO  task=job-859186 SkuCacheWarmer: started batch=38
+2026-10-03 09:20:04.439 [stockd-b5] ERROR task=job-859186 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.invoke(SkuCacheWarmer.java:581)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:20:11.298 [stockd] DEBUG ticket=RS-2026-43869 closed
+2026-10-03 09:20:11.700 [stockd-b4] INFO  task=job-409775 ShelfIndexRebuilder: started index=shelf_idx_v7 mode=rebuild
+2026-10-03 09:20:20.700 [stockd-b4] WARN  task=job-409775 ShelfIndexRebuilder: segment lock shelf_idx_v7/3 held by writer 1182, waiting (5000ms)
+2026-10-03 09:20:22.808 [stockd] DEBUG ticket=RS-2026-18084 closed
+2026-10-03 09:20:25.800 [stockd-b4] INFO  task=job-409775 ShelfIndexRebuilder: finished in 14100ms
+2026-10-03 09:20:33.108 [stockd] INFO  ticket=RS-2026-49188 sku=SKU-33119 qty=2 worker=stockd-b1 granted in 30ms
+2026-10-03 09:20:33.174 [stockd] INFO  ticket=RS-2026-10038 sku=SKU-32845 qty=1 worker=stockd-b5 granted in 58ms
+2026-10-03 09:20:33.305 [stockd] DEBUG ticket=RS-2026-49188 closed
+2026-10-03 09:20:33.308 [stockd] DEBUG ticket=RS-2026-10038 closed
+2026-10-03 09:20:40.759 [stockd] INFO  ticket=RS-2026-94875 sku=SKU-40044 qty=2 worker=stockd-b3 granted in 50ms
+2026-10-03 09:20:40.871 [stockd] INFO  ticket=RS-2026-29151 sku=SKU-22058 qty=1 worker=stockd-b3 granted in 40ms
+2026-10-03 09:20:41.072 [stockd] DEBUG ticket=RS-2026-94875 closed
+2026-10-03 09:20:41.075 [stockd] DEBUG ticket=RS-2026-29151 closed
+2026-10-03 09:20:43.499 [stockd] INFO  ticket=RS-2026-74160 sku=SKU-15262 qty=2 worker=stockd-b2 granted in 42ms
+2026-10-03 09:20:43.599 [stockd] INFO  ticket=RS-2026-86412 sku=SKU-38365 qty=1 worker=stockd-b2 granted in 21ms
+2026-10-03 09:20:43.706 [stockd] DEBUG ticket=RS-2026-74160 closed
+2026-10-03 09:20:43.709 [stockd] DEBUG ticket=RS-2026-86412 closed
+2026-10-03 09:20:48.327 [stockd] INFO  ticket=RS-2026-33530 sku=SKU-54274 qty=2 worker=stockd-b5 granted in 18ms
+2026-10-03 09:20:48.397 [stockd] INFO  ticket=RS-2026-13368 sku=SKU-45169 qty=1 worker=stockd-b5 granted in 59ms
+2026-10-03 09:20:48.524 [stockd] DEBUG ticket=RS-2026-33530 closed
+2026-10-03 09:20:48.527 [stockd] DEBUG ticket=RS-2026-13368 closed
+2026-10-03 09:20:59.687 [stockd] INFO  ticket=RS-2026-75394 sku=SKU-53720 qty=2 worker=stockd-b3 granted in 38ms
+2026-10-03 09:20:59.771 [stockd] INFO  ticket=RS-2026-70626 sku=SKU-25518 qty=1 worker=stockd-b2 granted in 10ms
+2026-10-03 09:20:59.950 [stockd] DEBUG ticket=RS-2026-75394 closed
+2026-10-03 09:20:59.953 [stockd] DEBUG ticket=RS-2026-70626 closed
+2026-10-03 09:21:04.688 [stockd-b6] INFO  task=job-830594 BinLocationRecalculator: started batch=53
+2026-10-03 09:21:05.951 [stockd-b6] INFO  task=job-830594 BinLocationRecalculator: finished in 1263ms
+2026-10-03 09:21:07.419 [stockd] DEBUG ticket=RS-2026-76581 closed
+2026-10-03 09:21:07.989 [stockd-b3] INFO  task=job-809108 SkuCacheWarmer: started batch=36
+2026-10-03 09:21:09.364 [stockd-b3] ERROR task=job-809108 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=1)
+	at com.shop.inventory.worker.SkuCacheWarmer.run(SkuCacheWarmer.java:96)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:21:14.736 [stockd] DEBUG ticket=RS-2026-67849 closed
+2026-10-03 09:21:18.180 [stockd] DEBUG ticket=RS-2026-39360 closed
+2026-10-03 09:21:24.739 [stockd] DEBUG ticket=RS-2026-62164 closed
+2026-10-03 09:21:28.907 [stockd-b6] INFO  task=job-312621 ReturnsDockSync: started batch=39
+2026-10-03 09:21:31.191 [stockd-b6] INFO  task=job-312621 ReturnsDockSync: finished in 2284ms
+2026-10-03 09:21:53.576 [stockd-b5] INFO  task=job-782999 BinLocationRecalculator: started batch=7
+2026-10-03 09:21:54.362 [stockd-b5] WARN  task=job-782999 BinLocationRecalculator: retrying after transient error (attempt 2/5)
+2026-10-03 09:21:55.149 [stockd-b5] INFO  task=job-782999 BinLocationRecalculator: finished in 1573ms
+2026-10-03 09:22:03.248 [stockd] DEBUG ticket=RS-2026-24420 closed
+2026-10-03 09:22:04.539 [stockd-b7] INFO  task=job-657464 ReturnsDockSync: started batch=26
+2026-10-03 09:22:06.555 [stockd-b5] INFO  task=job-999497 BinLocationRecalculator: started batch=55
+2026-10-03 09:22:07.542 [stockd-b7] INFO  task=job-657464 ReturnsDockSync: finished in 3003ms
+2026-10-03 09:22:08.377 [stockd-b5] INFO  task=job-999497 BinLocationRecalculator: finished in 1822ms
+2026-10-03 09:22:22.703 [stockd] DEBUG ticket=RS-2026-18838 closed
+2026-10-03 09:22:35.483 [stockd] INFO  ticket=RS-2026-84754 sku=SKU-48683 qty=2 worker=stockd-b2 granted in 58ms
+2026-10-03 09:22:35.557 [stockd] INFO  ticket=RS-2026-44409 sku=SKU-32678 qty=1 worker=stockd-b3 granted in 39ms
+2026-10-03 09:22:35.701 [stockd] DEBUG ticket=RS-2026-84754 closed
+2026-10-03 09:22:35.704 [stockd] DEBUG ticket=RS-2026-44409 closed
+2026-10-03 09:22:41.101 [stockd] DEBUG ticket=RS-2026-56415 closed
+2026-10-03 09:23:03.024 [stockd-b2] INFO  task=job-972178 ShelfIndexRebuilder: started batch=13
+2026-10-03 09:23:04.835 [stockd-b2] INFO  task=job-972178 ShelfIndexRebuilder: finished in 1811ms
+2026-10-03 09:23:06.530 [stockd] DEBUG ticket=RS-2026-30257 closed
+2026-10-03 09:23:08.765 [stockd] DEBUG ticket=RS-2026-49525 closed
+2026-10-03 09:23:15.601 [stockd] DEBUG ticket=RS-2026-35295 closed
+2026-10-03 09:23:18.644 [stockd-b6] INFO  task=job-369048 ShelfIndexRebuilder: started batch=22
+2026-10-03 09:23:20.346 [stockd-b6] INFO  task=job-369048 ShelfIndexRebuilder: finished in 1702ms
+2026-10-03 09:23:21.799 [stockd] DEBUG ticket=RS-2026-22832 closed
+2026-10-03 09:23:24.619 [stockd] DEBUG ticket=RS-2026-57953 closed
+2026-10-03 09:23:37.307 [stockd] DEBUG ticket=RS-2026-69278 closed
+2026-10-03 09:23:37.579 [stockd-b4] INFO  task=job-167727 BinLocationRecalculator: started batch=35
+2026-10-03 09:23:38.977 [stockd-b6] INFO  task=job-135767 BinLocationRecalculator: started batch=27
+2026-10-03 09:23:39.626 [stockd-b6] WARN  task=job-135767 BinLocationRecalculator: lag behind schedule by 3s
+2026-10-03 09:23:39.632 [stockd-b4] INFO  task=job-167727 BinLocationRecalculator: finished in 2053ms
+2026-10-03 09:23:39.815 [stockd] DEBUG ticket=RS-2026-27048 closed
+2026-10-03 09:23:40.275 [stockd-b6] INFO  task=job-135767 BinLocationRecalculator: finished in 1298ms
+2026-10-03 09:23:40.782 [stockd] DEBUG ticket=RS-2026-38707 closed
+2026-10-03 09:23:52.168 [stockd-b6] INFO  task=job-685474 BinLocationRecalculator: started batch=42
+2026-10-03 09:23:52.547 [stockd-b6] INFO  task=job-685474 BinLocationRecalculator: finished in 379ms
+2026-10-03 09:24:10.475 [stockd] INFO  ticket=RS-2026-46212 sku=SKU-43857 qty=2 worker=stockd-b5 granted in 30ms
+2026-10-03 09:24:10.585 [stockd] INFO  ticket=RS-2026-27579 sku=SKU-16252 qty=1 worker=stockd-b1 granted in 47ms
+2026-10-03 09:24:10.732 [stockd] DEBUG ticket=RS-2026-46212 closed
+2026-10-03 09:24:10.735 [stockd] DEBUG ticket=RS-2026-27579 closed
+2026-10-03 09:24:14.880 [stockd] DEBUG ticket=RS-2026-35521 closed
+2026-10-03 09:24:15.798 [stockd] DEBUG ticket=RS-2026-65640 closed
+2026-10-03 09:24:21.009 [stockd-b1] INFO  task=job-517848 BinLocationRecalculator: started batch=2
+2026-10-03 09:24:24.445 [stockd-b1] INFO  task=job-517848 BinLocationRecalculator: finished in 3436ms
+2026-10-03 09:24:28.574 [stockd] INFO  ticket=RS-2026-93738 sku=SKU-47510 qty=2 worker=stockd-b2 granted in 19ms
+2026-10-03 09:24:28.690 [stockd] INFO  ticket=RS-2026-54138 sku=SKU-34345 qty=1 worker=stockd-b1 granted in 24ms
+2026-10-03 09:24:28.879 [stockd] DEBUG ticket=RS-2026-93738 closed
+2026-10-03 09:24:28.882 [stockd] DEBUG ticket=RS-2026-54138 closed
+2026-10-03 09:24:29.330 [stockd-b7] INFO  task=job-987931 CycleCountScheduler: started batch=58
+2026-10-03 09:24:32.910 [stockd-b7] INFO  task=job-987931 CycleCountScheduler: finished in 3580ms
+2026-10-03 09:24:49.926 [stockd-b2] INFO  task=job-386425 ShelfIndexRebuilder: started batch=20
+2026-10-03 09:24:51.523 [stockd-b2] INFO  task=job-386425 ShelfIndexRebuilder: finished in 1597ms
+2026-10-03 09:24:52.076 [stockd-b3] INFO  task=job-750875 ShelfIndexRebuilder: started batch=12
+2026-10-03 09:24:52.313 [stockd-b3] WARN  task=job-750875 ShelfIndexRebuilder: slow scan 2025ms
+2026-10-03 09:24:52.550 [stockd-b3] INFO  task=job-750875 ShelfIndexRebuilder: finished in 474ms
+2026-10-03 09:24:57.691 [stockd] DEBUG ticket=RS-2026-93890 closed
+2026-10-03 09:25:02.724 [stockd] DEBUG ticket=RS-2026-11478 closed
+2026-10-03 09:25:02.758 [stockd-b3] INFO  task=job-896000 CycleCountScheduler: started batch=27
+2026-10-03 09:25:03.851 [stockd-b3] WARN  task=job-896000 CycleCountScheduler: retrying after transient error (attempt 2/5)
+2026-10-03 09:25:04.529 [stockd] DEBUG ticket=RS-2026-43604 closed
+2026-10-03 09:25:04.945 [stockd-b3] INFO  task=job-896000 CycleCountScheduler: finished in 2187ms
+2026-10-03 09:25:15.916 [stockd-b4] INFO  task=job-532941 ShelfIndexRebuilder: started batch=42
+2026-10-03 09:25:17.574 [stockd-b4] INFO  task=job-532941 ShelfIndexRebuilder: finished in 1658ms
+2026-10-03 09:25:50.773 [stockd] DEBUG ticket=RS-2026-84488 closed
+2026-10-03 09:25:59.878 [stockd-b4] INFO  task=job-996007 ShelfIndexRebuilder: started batch=22
+2026-10-03 09:26:02.244 [stockd-b4] INFO  task=job-996007 ShelfIndexRebuilder: finished in 2366ms
+2026-10-03 09:26:07.809 [stockd-b2] INFO  task=job-859437 SkuCacheWarmer: started batch=37
+2026-10-03 09:26:07.902 [stockd-b6] INFO  task=job-287528 ReturnsDockSync: started batch=45
+2026-10-03 09:26:09.183 [stockd-b2] ERROR task=job-859437 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.invoke(SkuCacheWarmer.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:26:11.284 [stockd-b6] INFO  task=job-287528 ReturnsDockSync: finished in 3382ms
+2026-10-03 09:26:14.965 [stockd] DEBUG ticket=RS-2026-80922 closed
+2026-10-03 09:26:28.173 [stockd] DEBUG ticket=RS-2026-60843 closed
+2026-10-03 09:26:38.226 [stockd] INFO  ticket=RS-2026-74170 sku=SKU-42405 qty=2 worker=stockd-b1 granted in 54ms
+2026-10-03 09:26:38.332 [stockd] INFO  ticket=RS-2026-82503 sku=SKU-45338 qty=1 worker=stockd-b6 granted in 67ms
+2026-10-03 09:26:38.536 [stockd] DEBUG ticket=RS-2026-74170 closed
+2026-10-03 09:26:38.539 [stockd] DEBUG ticket=RS-2026-82503 closed
+2026-10-03 09:26:40.200 [stockd-b7] INFO  task=job-779926 ShelfIndexRebuilder: started index=shelf_idx_v7 mode=rebuild
+2026-10-03 09:26:44.898 [stockd-b3] INFO  task=job-638888 CycleCountScheduler: started batch=24
+2026-10-03 09:26:45.377 [stockd] DEBUG ticket=RS-2026-82104 closed
+2026-10-03 09:26:45.502 [stockd-b2] INFO  task=job-496280 ReturnsDockSync: started batch=59
+2026-10-03 09:26:46.794 [stockd-b3] WARN  task=job-638888 CycleCountScheduler: retrying after transient error (attempt 2/5)
+2026-10-03 09:26:48.069 [stockd-b7] INFO  task=job-779926 ShelfIndexRebuilder: progress 18% segments_done=3
+2026-10-03 09:26:48.300 [stockd-b2] INFO  task=job-496280 ReturnsDockSync: finished in 2798ms
+2026-10-03 09:26:48.690 [stockd-b3] INFO  task=job-638888 CycleCountScheduler: finished in 3792ms
+2026-10-03 09:26:56.065 [stockd-b7] INFO  task=job-779926 ShelfIndexRebuilder: progress 37% segments_done=6
+2026-10-03 09:27:04.192 [stockd-b7] INFO  task=job-779926 ShelfIndexRebuilder: progress 52% segments_done=8
+2026-10-03 09:27:10.987 [stockd] DEBUG ticket=RS-2026-17511 closed
+2026-10-03 09:27:13.779 [stockd] DEBUG ticket=RS-2026-53261 closed
+2026-10-03 09:27:29.627 [stockd] INFO  ticket=RS-2026-61698 sku=SKU-37054 qty=2 worker=stockd-b6 granted in 41ms
+2026-10-03 09:27:29.697 [stockd] INFO  ticket=RS-2026-37172 sku=SKU-28222 qty=1 worker=stockd-b1 granted in 38ms
+2026-10-03 09:27:29.816 [stockd] DEBUG ticket=RS-2026-61698 closed
+2026-10-03 09:27:29.819 [stockd] DEBUG ticket=RS-2026-37172 closed
+2026-10-03 09:27:31.800 [stockd-b7] WARN  task=job-779926 ShelfIndexRebuilder: segment lock shelf_idx_v7/3 held by writer 1182, waiting (5000ms)
+2026-10-03 09:27:40.059 [stockd] INFO  ticket=RS-2026-95920 sku=SKU-56663 qty=2 worker=stockd-b6 granted in 46ms
+2026-10-03 09:27:40.131 [stockd] INFO  ticket=RS-2026-23291 parked worker=stockd-b7 awaiting task=job-779926 position=1
+2026-10-03 09:27:41.424 [stockd-b7] WARN  task=job-779926 ShelfIndexRebuilder: segment lock shelf_idx_v7/3 still held, waiting (15000ms)
+2026-10-03 09:27:45.738 [stockd] DEBUG ticket=RS-2026-78209 closed
+2026-10-03 09:27:52.500 [stockd-b7] ERROR task=job-779926 ShelfIndexRebuilder: IndexSegmentLockedException: rebuild aborted, segment lock shelf_idx_v7/3 not released within 30000ms (stalled_tickets=1)
+	at com.shop.inventory.worker.SegmentLockTable.await(SegmentLockTable.java:254)
+	at com.shop.inventory.worker.ShelfIndexRebuilder.rebuildSegment(ShelfIndexRebuilder.java:310)
+	at com.shop.inventory.worker.ShelfIndexRebuilder.call(ShelfIndexRebuilder.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:27:52.525 [stockd] WARN  ticket=RS-2026-23291 dropped worker=stockd-b7 task=job-779926 failed
+2026-10-03 09:27:57.667 [stockd] DEBUG ticket=RS-2026-95373 closed
+2026-10-03 09:27:59.595 [stockd] DEBUG ticket=RS-2026-62096 closed
+2026-10-03 09:28:08.278 [stockd-b7] INFO  task=job-871066 CycleCountScheduler: started batch=28
+2026-10-03 09:28:09.931 [stockd-b7] INFO  task=job-871066 CycleCountScheduler: finished in 1653ms
+2026-10-03 09:28:19.813 [stockd] DEBUG ticket=RS-2026-63702 closed
+2026-10-03 09:28:23.879 [stockd] INFO  ticket=RS-2026-55598 sku=SKU-11358 qty=2 worker=stockd-b2 granted in 49ms
+2026-10-03 09:28:23.945 [stockd] INFO  ticket=RS-2026-45855 sku=SKU-20120 qty=1 worker=stockd-b1 granted in 18ms
+2026-10-03 09:28:24.062 [stockd] DEBUG ticket=RS-2026-55598 closed
+2026-10-03 09:28:24.065 [stockd] DEBUG ticket=RS-2026-45855 closed
+2026-10-03 09:28:27.556 [stockd-b2] INFO  task=job-988600 CycleCountScheduler: started batch=26
+2026-10-03 09:28:31.393 [stockd-b2] INFO  task=job-988600 CycleCountScheduler: finished in 3837ms
+2026-10-03 09:28:36.293 [stockd] DEBUG ticket=RS-2026-84043 closed
+2026-10-03 09:28:47.321 [stockd-b5] INFO  task=job-949834 CycleCountExporter: started batch=39
+2026-10-03 09:28:50.570 [stockd-b5] ERROR task=job-949834 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=1)
+	at com.shop.inventory.worker.CycleCountExporter.run(CycleCountExporter.java:118)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:29:00.194 [stockd-b1] INFO  task=job-733212 BinLocationRecalculator: started batch=12
+2026-10-03 09:29:01.188 [stockd-b1] WARN  task=job-733212 BinLocationRecalculator: slow scan 1240ms
+2026-10-03 09:29:02.182 [stockd-b1] INFO  task=job-733212 BinLocationRecalculator: finished in 1988ms
+2026-10-03 09:29:20.047 [stockd] DEBUG ticket=RS-2026-64345 closed
+2026-10-03 09:29:21.130 [stockd] DEBUG ticket=RS-2026-23203 closed
+2026-10-03 09:29:42.673 [stockd-b4] INFO  task=job-472767 CycleCountScheduler: started batch=26
+2026-10-03 09:29:43.552 [stockd-b4] WARN  task=job-472767 CycleCountScheduler: lag behind schedule by 3s
+2026-10-03 09:29:44.431 [stockd-b4] INFO  task=job-472767 CycleCountScheduler: finished in 1758ms
+2026-10-03 09:29:48.120 [stockd] DEBUG ticket=RS-2026-53329 closed
+2026-10-03 09:30:11.105 [stockd] DEBUG ticket=RS-2026-19750 closed
+2026-10-03 09:30:21.251 [stockd-b4] INFO  task=job-838755 ShelfIndexRebuilder: started batch=5
+2026-10-03 09:30:22.368 [stockd-b4] INFO  task=job-838755 ShelfIndexRebuilder: finished in 1117ms
+2026-10-03 09:30:33.062 [stockd] DEBUG ticket=RS-2026-11677 closed
+2026-10-03 09:30:43.883 [stockd-b6] INFO  task=job-156780 ReturnsDockSync: started batch=32
+2026-10-03 09:30:44.459 [stockd] DEBUG ticket=RS-2026-28763 closed
+2026-10-03 09:30:46.198 [stockd] DEBUG ticket=RS-2026-55572 closed
+2026-10-03 09:30:47.080 [stockd-b6] INFO  task=job-156780 ReturnsDockSync: finished in 3197ms
+2026-10-03 09:30:48.616 [stockd-b7] INFO  task=job-602917 ReturnsDockSync: started batch=44
+2026-10-03 09:30:51.814 [stockd-b7] INFO  task=job-602917 ReturnsDockSync: finished in 3198ms
+2026-10-03 09:31:00.158 [stockd-b2] INFO  task=job-828971 ReturnsDockSync: started batch=58
+2026-10-03 09:31:02.128 [stockd-b2] INFO  task=job-828971 ReturnsDockSync: finished in 1970ms
+2026-10-03 09:31:06.116 [stockd] DEBUG ticket=RS-2026-52390 closed
+2026-10-03 09:31:07.393 [stockd] DEBUG ticket=RS-2026-62474 closed
+2026-10-03 09:31:16.806 [stockd] DEBUG ticket=RS-2026-51248 closed
+2026-10-03 09:31:18.357 [stockd-b5] INFO  task=job-591960 BinLocationRecalculator: started batch=43
+2026-10-03 09:31:22.269 [stockd-b5] INFO  task=job-591960 BinLocationRecalculator: finished in 3912ms
+2026-10-03 09:31:33.375 [stockd] INFO  ticket=RS-2026-23129 sku=SKU-41437 qty=2 worker=stockd-b6 granted in 59ms
+2026-10-03 09:31:33.494 [stockd] INFO  ticket=RS-2026-50193 sku=SKU-40328 qty=1 worker=stockd-b3 granted in 19ms
+2026-10-03 09:31:33.657 [stockd] DEBUG ticket=RS-2026-23129 closed
+2026-10-03 09:31:33.660 [stockd] DEBUG ticket=RS-2026-50193 closed
+2026-10-03 09:31:45.068 [stockd] INFO  ticket=RS-2026-31237 sku=SKU-31134 qty=2 worker=stockd-b2 granted in 48ms
+2026-10-03 09:31:45.136 [stockd] INFO  ticket=RS-2026-91733 sku=SKU-26041 qty=1 worker=stockd-b5 granted in 48ms
+2026-10-03 09:31:45.314 [stockd] DEBUG ticket=RS-2026-31237 closed
+2026-10-03 09:31:45.317 [stockd] DEBUG ticket=RS-2026-91733 closed
+2026-10-03 09:31:58.237 [stockd] INFO  ticket=RS-2026-81452 sku=SKU-16054 qty=2 worker=stockd-b5 granted in 13ms
+2026-10-03 09:31:58.327 [stockd] INFO  ticket=RS-2026-73930 sku=SKU-56513 qty=1 worker=stockd-b3 granted in 60ms
+2026-10-03 09:31:58.502 [stockd] DEBUG ticket=RS-2026-81452 closed
+2026-10-03 09:31:58.505 [stockd] DEBUG ticket=RS-2026-73930 closed
+2026-10-03 09:32:03.780 [stockd] DEBUG ticket=RS-2026-92305 closed
+2026-10-03 09:32:08.100 [stockd] DEBUG ticket=RS-2026-45673 closed
+2026-10-03 09:32:15.867 [stockd] DEBUG ticket=RS-2026-65605 closed
+2026-10-03 09:32:31.939 [stockd-b5] INFO  task=job-967152 CycleCountScheduler: started batch=47
+2026-10-03 09:32:33.981 [stockd-b5] INFO  task=job-967152 CycleCountScheduler: finished in 2042ms
+2026-10-03 09:32:36.949 [stockd] DEBUG ticket=RS-2026-20022 closed
+2026-10-03 09:32:42.470 [stockd] DEBUG ticket=RS-2026-60194 closed
+2026-10-03 09:32:44.011 [stockd] DEBUG ticket=RS-2026-58852 closed
+2026-10-03 09:32:54.046 [stockd] DEBUG ticket=RS-2026-61022 closed
+2026-10-03 09:32:57.764 [stockd] DEBUG ticket=RS-2026-35227 closed
+2026-10-03 09:33:01.176 [stockd-b3] INFO  task=job-556399 ShelfIndexRebuilder: started batch=51
+2026-10-03 09:33:02.943 [stockd-b3] INFO  task=job-556399 ShelfIndexRebuilder: finished in 1767ms
+2026-10-03 09:33:28.726 [stockd] DEBUG ticket=RS-2026-34529 closed
+2026-10-03 09:33:36.347 [stockd] DEBUG ticket=RS-2026-18195 closed
+2026-10-03 09:33:47.318 [stockd] DEBUG ticket=RS-2026-40228 closed
+2026-10-03 09:34:05.843 [stockd-b1] INFO  task=job-128289 ShelfIndexRebuilder: started batch=39
+2026-10-03 09:34:08.339 [stockd-b6] INFO  task=job-318809 SkuCacheWarmer: started batch=37
+2026-10-03 09:34:08.770 [stockd-b1] INFO  task=job-128289 ShelfIndexRebuilder: finished in 2927ms
+2026-10-03 09:34:08.939 [stockd-b5] INFO  task=job-426481 ReturnsDockSync: started batch=46
+2026-10-03 09:34:09.371 [stockd] DEBUG ticket=RS-2026-61754 closed
+2026-10-03 09:34:10.811 [stockd] INFO  ticket=RS-2026-90538 sku=SKU-35982 qty=2 worker=stockd-b3 granted in 20ms
+2026-10-03 09:34:10.884 [stockd] INFO  ticket=RS-2026-68345 sku=SKU-38648 qty=1 worker=stockd-b1 granted in 14ms
+2026-10-03 09:34:11.049 [stockd] DEBUG ticket=RS-2026-90538 closed
+2026-10-03 09:34:11.052 [stockd] DEBUG ticket=RS-2026-68345 closed
+2026-10-03 09:34:11.991 [stockd-b6] ERROR task=job-318809 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.dispatch(SkuCacheWarmer.java:827)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:34:12.218 [stockd-b5] INFO  task=job-426481 ReturnsDockSync: finished in 3279ms
+2026-10-03 09:34:14.058 [stockd-b4] INFO  task=job-939949 BinLocationRecalculator: started batch=19
+2026-10-03 09:34:14.373 [stockd-b4] INFO  task=job-939949 BinLocationRecalculator: finished in 315ms
+2026-10-03 09:34:15.346 [stockd] DEBUG ticket=RS-2026-54860 closed
+2026-10-03 09:34:29.275 [stockd-b6] INFO  task=job-440249 BinLocationRecalculator: started batch=49
+2026-10-03 09:34:33.060 [stockd-b6] INFO  task=job-440249 BinLocationRecalculator: finished in 3785ms
+2026-10-03 09:34:53.569 [stockd] DEBUG ticket=RS-2026-12511 closed
+2026-10-03 09:34:54.318 [stockd] DEBUG ticket=RS-2026-44837 closed
+2026-10-03 09:35:00.576 [stockd] DEBUG ticket=RS-2026-66135 closed
+2026-10-03 09:35:02.193 [stockd-b6] INFO  task=job-244631 CycleCountScheduler: started batch=6
+2026-10-03 09:35:02.868 [stockd] DEBUG ticket=RS-2026-77228 closed
+2026-10-03 09:35:03.556 [stockd-b5] INFO  task=job-982242 BinLocationRecalculator: started batch=32
+2026-10-03 09:35:05.046 [stockd-b5] WARN  task=job-982242 BinLocationRecalculator: lag behind schedule by 6s
+2026-10-03 09:35:05.968 [stockd-b6] INFO  task=job-244631 CycleCountScheduler: finished in 3775ms
+2026-10-03 09:35:06.536 [stockd-b5] INFO  task=job-982242 BinLocationRecalculator: finished in 2980ms
+2026-10-03 09:35:11.775 [stockd-b4] INFO  task=job-965714 CycleCountScheduler: started batch=22
+2026-10-03 09:35:12.899 [stockd] INFO  ticket=RS-2026-78050 sku=SKU-55031 qty=2 worker=stockd-b3 granted in 15ms
+2026-10-03 09:35:12.997 [stockd] INFO  ticket=RS-2026-29838 sku=SKU-37453 qty=1 worker=stockd-b2 granted in 50ms
+2026-10-03 09:35:13.129 [stockd] DEBUG ticket=RS-2026-78050 closed
+2026-10-03 09:35:13.132 [stockd] DEBUG ticket=RS-2026-29838 closed
+2026-10-03 09:35:15.107 [stockd-b4] INFO  task=job-965714 CycleCountScheduler: finished in 3332ms
+2026-10-03 09:35:15.661 [stockd] DEBUG ticket=RS-2026-74110 closed
+2026-10-03 09:35:16.623 [stockd] DEBUG ticket=RS-2026-62413 closed
+2026-10-03 09:35:49.909 [stockd-b7] INFO  task=job-783728 BinLocationRecalculator: started batch=43
+2026-10-03 09:35:51.470 [stockd] DEBUG ticket=RS-2026-65306 closed
+2026-10-03 09:35:51.873 [stockd-b7] INFO  task=job-783728 BinLocationRecalculator: finished in 1964ms
+2026-10-03 09:35:52.255 [stockd] DEBUG ticket=RS-2026-58726 closed
+2026-10-03 09:35:56.385 [stockd] DEBUG ticket=RS-2026-74660 closed
+2026-10-03 09:35:57.567 [stockd] DEBUG ticket=RS-2026-40767 closed
+2026-10-03 09:36:17.020 [stockd] DEBUG ticket=RS-2026-28444 closed
+2026-10-03 09:36:27.329 [stockd] INFO  ticket=RS-2026-26525 sku=SKU-34008 qty=2 worker=stockd-b1 granted in 50ms
+2026-10-03 09:36:27.441 [stockd] INFO  ticket=RS-2026-84430 sku=SKU-55016 qty=1 worker=stockd-b1 granted in 46ms
+2026-10-03 09:36:27.635 [stockd] DEBUG ticket=RS-2026-26525 closed
+2026-10-03 09:36:27.638 [stockd] DEBUG ticket=RS-2026-84430 closed
+2026-10-03 09:36:34.862 [stockd] DEBUG ticket=RS-2026-84100 closed
+2026-10-03 09:37:18.379 [stockd] INFO  ticket=RS-2026-35845 sku=SKU-24443 qty=2 worker=stockd-b6 granted in 56ms
+2026-10-03 09:37:18.455 [stockd] INFO  ticket=RS-2026-79702 sku=SKU-55260 qty=1 worker=stockd-b5 granted in 70ms
+2026-10-03 09:37:18.604 [stockd] DEBUG ticket=RS-2026-35845 closed
+2026-10-03 09:37:18.607 [stockd] DEBUG ticket=RS-2026-79702 closed
+2026-10-03 09:37:19.418 [stockd] DEBUG ticket=RS-2026-81432 closed
+2026-10-03 09:37:21.851 [stockd-b5] INFO  task=job-825902 BinLocationRecalculator: started batch=17
+2026-10-03 09:37:23.941 [stockd] DEBUG ticket=RS-2026-80057 closed
+2026-10-03 09:37:24.401 [stockd-b5] INFO  task=job-825902 BinLocationRecalculator: finished in 2550ms
+2026-10-03 09:37:36.650 [stockd] DEBUG ticket=RS-2026-86249 closed
+2026-10-03 09:37:38.523 [stockd] DEBUG ticket=RS-2026-45355 closed
+2026-10-03 09:37:48.055 [stockd] INFO  ticket=RS-2026-68220 sku=SKU-57976 qty=2 worker=stockd-b2 granted in 43ms
+2026-10-03 09:37:48.167 [stockd] INFO  ticket=RS-2026-34171 sku=SKU-12027 qty=1 worker=stockd-b1 granted in 20ms
+2026-10-03 09:37:48.268 [stockd] DEBUG ticket=RS-2026-68220 closed
+2026-10-03 09:37:48.271 [stockd] DEBUG ticket=RS-2026-34171 closed
+2026-10-03 09:37:50.856 [stockd] DEBUG ticket=RS-2026-26590 closed
+2026-10-03 09:37:54.740 [stockd] INFO  ticket=RS-2026-66051 sku=SKU-54896 qty=2 worker=stockd-b3 granted in 17ms
+2026-10-03 09:37:54.834 [stockd] INFO  ticket=RS-2026-64564 sku=SKU-40825 qty=1 worker=stockd-b6 granted in 14ms
+2026-10-03 09:37:54.984 [stockd] DEBUG ticket=RS-2026-66051 closed
+2026-10-03 09:37:54.987 [stockd] DEBUG ticket=RS-2026-64564 closed
+2026-10-03 09:37:57.690 [stockd] DEBUG ticket=RS-2026-24738 closed
+2026-10-03 09:38:01.435 [stockd-b7] INFO  task=job-183316 ShelfIndexRebuilder: started batch=32
+2026-10-03 09:38:03.096 [stockd-b7] WARN  task=job-183316 ShelfIndexRebuilder: slow scan 2286ms
+2026-10-03 09:38:04.758 [stockd-b7] INFO  task=job-183316 ShelfIndexRebuilder: finished in 3323ms
+2026-10-03 09:38:11.124 [stockd] DEBUG ticket=RS-2026-75332 closed
+2026-10-03 09:38:16.503 [stockd] DEBUG ticket=RS-2026-59765 closed
+2026-10-03 09:38:19.977 [stockd] DEBUG ticket=RS-2026-68996 closed
+2026-10-03 09:38:22.060 [stockd-b1] INFO  task=job-439180 ReturnsDockSync: started batch=43
+2026-10-03 09:38:23.207 [stockd-b1] INFO  task=job-439180 ReturnsDockSync: finished in 1147ms
+2026-10-03 09:38:34.999 [stockd-b2] INFO  task=job-797405 ReturnsDockSync: started batch=19
+2026-10-03 09:38:35.127 [stockd] DEBUG ticket=RS-2026-64172 closed
+2026-10-03 09:38:36.382 [stockd-b2] INFO  task=job-797405 ReturnsDockSync: finished in 1383ms
+2026-10-03 09:39:00.895 [stockd] INFO  ticket=RS-2026-69759 sku=SKU-37514 qty=2 worker=stockd-b2 granted in 17ms
+2026-10-03 09:39:00.969 [stockd] INFO  ticket=RS-2026-13473 sku=SKU-54583 qty=1 worker=stockd-b1 granted in 48ms
+2026-10-03 09:39:01.116 [stockd] DEBUG ticket=RS-2026-69759 closed
+2026-10-03 09:39:01.119 [stockd] DEBUG ticket=RS-2026-13473 closed
+2026-10-03 09:39:02.138 [stockd] DEBUG ticket=RS-2026-30750 closed
+2026-10-03 09:39:32.005 [stockd] DEBUG ticket=RS-2026-28301 closed
+2026-10-03 09:39:35.999 [stockd] DEBUG ticket=RS-2026-30263 closed
+2026-10-03 09:39:44.217 [stockd-b4] INFO  task=job-815483 BinLocationRecalculator: started batch=23
+2026-10-03 09:39:47.231 [stockd-b4] INFO  task=job-815483 BinLocationRecalculator: finished in 3014ms
+2026-10-03 09:40:02.719 [stockd-b5] INFO  task=job-530838 ReturnsDockSync: started batch=52
+2026-10-03 09:40:04.103 [stockd-b5] INFO  task=job-530838 ReturnsDockSync: finished in 1384ms
+2026-10-03 09:40:30.953 [stockd] INFO  ticket=RS-2026-57440 sku=SKU-55900 qty=2 worker=stockd-b6 granted in 60ms
+2026-10-03 09:40:31.031 [stockd] INFO  ticket=RS-2026-29437 sku=SKU-22193 qty=1 worker=stockd-b5 granted in 27ms
+2026-10-03 09:40:31.151 [stockd] DEBUG ticket=RS-2026-57440 closed
+2026-10-03 09:40:31.154 [stockd] DEBUG ticket=RS-2026-29437 closed
+2026-10-03 09:40:37.691 [stockd-b3] INFO  task=job-816791 ReturnsDockSync: started batch=12
+2026-10-03 09:40:38.490 [stockd-b3] INFO  task=job-816791 ReturnsDockSync: finished in 799ms
+2026-10-03 09:41:09.471 [stockd] DEBUG ticket=RS-2026-33819 closed
+2026-10-03 09:41:09.836 [stockd-b2] INFO  task=job-981434 SkuCacheWarmer: started batch=4
+2026-10-03 09:41:13.781 [stockd-b2] ERROR task=job-981434 SkuCacheWarmer: ConnectException: Connection refused: redis-inv-2:6379 (stalled_tickets=0)
+	at com.shop.inventory.worker.SkuCacheWarmer.execute(SkuCacheWarmer.java:610)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:41:44.827 [stockd] INFO  ticket=RS-2026-62661 sku=SKU-33884 qty=2 worker=stockd-b1 granted in 36ms
+2026-10-03 09:41:44.945 [stockd] INFO  ticket=RS-2026-60500 sku=SKU-10694 qty=1 worker=stockd-b1 granted in 22ms
+2026-10-03 09:41:45.030 [stockd] DEBUG ticket=RS-2026-62661 closed
+2026-10-03 09:41:45.033 [stockd] DEBUG ticket=RS-2026-60500 closed
+2026-10-03 09:41:50.801 [stockd] DEBUG ticket=RS-2026-58684 closed
+2026-10-03 09:42:48.087 [stockd] INFO  ticket=RS-2026-68980 sku=SKU-41518 qty=2 worker=stockd-b1 granted in 32ms
+2026-10-03 09:42:48.188 [stockd] INFO  ticket=RS-2026-62861 sku=SKU-20028 qty=1 worker=stockd-b2 granted in 59ms
+2026-10-03 09:42:48.418 [stockd] DEBUG ticket=RS-2026-68980 closed
+2026-10-03 09:42:48.421 [stockd] DEBUG ticket=RS-2026-62861 closed
+2026-10-03 09:43:09.049 [stockd] INFO  ticket=RS-2026-77928 sku=SKU-39018 qty=2 worker=stockd-b6 granted in 57ms
+2026-10-03 09:43:09.143 [stockd] INFO  ticket=RS-2026-79915 sku=SKU-28643 qty=1 worker=stockd-b3 granted in 52ms
+2026-10-03 09:43:09.282 [stockd] DEBUG ticket=RS-2026-77928 closed
+2026-10-03 09:43:09.285 [stockd] DEBUG ticket=RS-2026-79915 closed
+2026-10-03 09:43:19.197 [stockd] INFO  ticket=RS-2026-92714 sku=SKU-41050 qty=2 worker=stockd-b2 granted in 19ms
+2026-10-03 09:43:19.295 [stockd] INFO  ticket=RS-2026-77530 sku=SKU-35747 qty=1 worker=stockd-b3 granted in 27ms
+2026-10-03 09:43:19.450 [stockd] DEBUG ticket=RS-2026-92714 closed
+2026-10-03 09:43:19.453 [stockd] DEBUG ticket=RS-2026-77530 closed
+2026-10-03 09:43:21.965 [stockd-b4] INFO  task=job-583637 ShelfIndexRebuilder: started batch=18
+2026-10-03 09:43:22.618 [stockd-b4] WARN  task=job-583637 ShelfIndexRebuilder: slow scan 1261ms
+2026-10-03 09:43:23.271 [stockd-b4] INFO  task=job-583637 ShelfIndexRebuilder: finished in 1306ms
+2026-10-03 09:43:52.951 [stockd] INFO  ticket=RS-2026-64736 sku=SKU-39767 qty=2 worker=stockd-b1 granted in 46ms
+2026-10-03 09:43:53.016 [stockd] INFO  ticket=RS-2026-72884 sku=SKU-22641 qty=1 worker=stockd-b2 granted in 16ms
+2026-10-03 09:43:53.172 [stockd] DEBUG ticket=RS-2026-64736 closed
+2026-10-03 09:43:53.175 [stockd] DEBUG ticket=RS-2026-72884 closed
+2026-10-03 09:44:09.532 [stockd-b7] INFO  task=job-735859 CycleCountScheduler: started batch=18
+2026-10-03 09:44:12.862 [stockd-b7] INFO  task=job-735859 CycleCountScheduler: finished in 3330ms
+2026-10-03 09:44:14.628 [stockd-b3] INFO  task=job-446104 BinLocationRecalculator: started batch=33
+2026-10-03 09:44:15.654 [stockd-b3] WARN  task=job-446104 BinLocationRecalculator: lag behind schedule by 2s
+2026-10-03 09:44:16.680 [stockd-b3] INFO  task=job-446104 BinLocationRecalculator: finished in 2052ms
+2026-10-03 09:44:18.028 [stockd] DEBUG ticket=RS-2026-89083 closed
+2026-10-03 09:44:26.907 [stockd] DEBUG ticket=RS-2026-44478 closed
+2026-10-03 09:46:19.200 [stockd-b4] INFO  task=job-573213 ShelfIndexRebuilder: started index=shelf_idx_v7 mode=rebuild
+2026-10-03 09:46:26.544 [stockd-b4] INFO  task=job-573213 ShelfIndexRebuilder: progress 18% segments_done=3
+2026-10-03 09:46:30.400 [stockd-b7] INFO  task=job-346980 BinLocationRecalculator: started index=shelf_idx_v7 mode=rebuild
+2026-10-03 09:46:35.252 [stockd-b4] INFO  task=job-573213 ShelfIndexRebuilder: progress 37% segments_done=6
+2026-10-03 09:46:36.000 [stockd-b4] INFO  task=job-874068 BinLocationRecalculator: started batch=12
+2026-10-03 09:46:38.124 [stockd-b7] INFO  task=job-346980 BinLocationRecalculator: progress 18% segments_done=3
+2026-10-03 09:46:41.158 [stockd] INFO  ticket=RS-2026-92900 sku=SKU-22134 qty=2 worker=stockd-b5 granted in 54ms
+2026-10-03 09:46:41.246 [stockd-b4] INFO  task=job-874068 BinLocationRecalculator: progress 30% scanned=400
+2026-10-03 09:46:42.087 [stockd] DEBUG ticket=RS-2026-92900 closed
+2026-10-03 09:46:43.020 [stockd-b4] INFO  task=job-573213 ShelfIndexRebuilder: progress 52% segments_done=8
+2026-10-03 09:46:44.107 [stockd] INFO  ticket=RS-2026-44171 sku=SKU-10761 qty=2 worker=stockd-b2 granted in 21ms
+2026-10-03 09:46:44.174 [stockd] INFO  ticket=RS-2026-56904 parked worker=stockd-b4 awaiting task=job-573213 position=1
+2026-10-03 09:46:44.371 [stockd-b4] WARN  task=job-573213 ShelfIndexRebuilder: segment lock shelf_idx_v7/3 held by writer 1182, waiting (5000ms)
+2026-10-03 09:46:45.999 [stockd-b7] INFO  task=job-346980 BinLocationRecalculator: progress 37% segments_done=6
+2026-10-03 09:46:46.385 [stockd] INFO  ticket=RS-2026-97282 sku=SKU-43055 qty=2 worker=stockd-b5 granted in 44ms
+2026-10-03 09:46:46.451 [stockd] INFO  ticket=RS-2026-47737 parked worker=stockd-b4 awaiting task=job-573213 position=2
+2026-10-03 09:46:47.327 [stockd-b2] INFO  task=job-266635 BackorderReconciler: started batch=26
+2026-10-03 09:46:47.670 [stockd-b4] INFO  task=job-874068 BinLocationRecalculator: progress 60% scanned=800
+2026-10-03 09:46:49.737 [stockd] INFO  ticket=RS-2026-10824 sku=SKU-34056 qty=2 worker=stockd-b2 granted in 41ms
+2026-10-03 09:46:49.810 [stockd] INFO  ticket=RS-2026-64027 parked worker=stockd-b4 awaiting task=job-573213 position=3
+2026-10-03 09:46:50.663 [stockd] INFO  ticket=RS-2026-19865 sku=SKU-13397 qty=2 worker=stockd-b3 granted in 32ms
+2026-10-03 09:46:50.700 [stockd-b2] ERROR task=job-266635 BackorderReconciler: SQLTransientConnectionException: connection pool exhausted (30/30) (stalled_tickets=0)
+	at com.shop.inventory.worker.BackorderReconciler.handle(BackorderReconciler.java:402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:46:50.756 [stockd] INFO  ticket=RS-2026-47692 parked worker=stockd-b7 awaiting task=job-346980 position=1
+2026-10-03 09:46:52.434 [stockd] INFO  ticket=RS-2026-82253 sku=SKU-45213 qty=2 worker=stockd-b6 granted in 36ms
+2026-10-03 09:46:52.518 [stockd] INFO  ticket=RS-2026-80645 parked worker=stockd-b4 awaiting task=job-573213 position=4
+2026-10-03 09:46:52.900 [stockd-b7] WARN  task=job-346980 BinLocationRecalculator: segment lock shelf_idx_v7/3 held by writer 1182, waiting (5000ms)
+2026-10-03 09:46:53.357 [stockd-b4] INFO  task=job-874068 BinLocationRecalculator: progress 90% scanned=1200
+2026-10-03 09:46:53.803 [stockd-b4] WARN  task=job-573213 ShelfIndexRebuilder: segment lock shelf_idx_v7/3 still held, waiting (15000ms)
+2026-10-03 09:46:55.988 [stockd] INFO  ticket=RS-2026-35726 sku=SKU-20331 qty=2 worker=stockd-b5 granted in 9ms
+2026-10-03 09:46:56.092 [stockd] INFO  ticket=RS-2026-55043 parked worker=stockd-b4 awaiting task=job-573213 position=5
+2026-10-03 09:46:56.769 [stockd] INFO  ticket=RS-2026-73502 sku=SKU-27437 qty=2 worker=stockd-b2 granted in 9ms
+2026-10-03 09:46:56.889 [stockd] INFO  ticket=RS-2026-57943 parked worker=stockd-b7 awaiting task=job-346980 position=2
+2026-10-03 09:47:00.970 [stockd] INFO  ticket=RS-2026-24193 sku=SKU-14121 qty=2 worker=stockd-b3 granted in 42ms
+2026-10-03 09:47:01.083 [stockd] INFO  ticket=RS-2026-20225 parked worker=stockd-b7 awaiting task=job-346980 position=3
+2026-10-03 09:47:01.874 [stockd] INFO  ticket=RS-2026-41100 sku=SKU-28717 qty=2 worker=stockd-b2 granted in 9ms
+2026-10-03 09:47:01.979 [stockd] INFO  ticket=RS-2026-14728 parked worker=stockd-b4 awaiting task=job-573213 position=6
+2026-10-03 09:47:02.563 [stockd-b7] WARN  task=job-346980 BinLocationRecalculator: segment lock shelf_idx_v7/3 still held, waiting (15000ms)
+2026-10-03 09:47:03.500 [stockd-b4] INFO  task=job-874068 BinLocationRecalculator: finished in 87500ms
+2026-10-03 09:47:04.473 [stockd] INFO  ticket=RS-2026-16622 sku=SKU-26897 qty=2 worker=stockd-b5 granted in 50ms
+2026-10-03 09:47:05.609 [stockd] DEBUG ticket=RS-2026-16622 closed
+2026-10-03 09:47:05.807 [stockd-b1] INFO  task=job-316120 BackorderReconciler: started batch=11
+2026-10-03 09:47:06.115 [stockd-b7] ERROR task=job-346980 BinLocationRecalculator: DeadlockLoserException: rebuild aborted, segment lock shelf_idx_v7/3 not released within 30000ms (stalled_tickets=3)
+	at com.shop.inventory.worker.BinTable.update(BinTable.java:63)
+	at com.shop.inventory.worker.BinLocationRecalculator.recalc(BinLocationRecalculator.java:244)
+	at com.shop.inventory.worker.BinLocationRecalculator.process(BinLocationRecalculator.java:633)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:47:06.140 [stockd] WARN  ticket=RS-2026-47692 dropped worker=stockd-b7 task=job-346980 failed
+2026-10-03 09:47:06.146 [stockd] WARN  ticket=RS-2026-57943 dropped worker=stockd-b7 task=job-346980 failed
+2026-10-03 09:47:06.152 [stockd] WARN  ticket=RS-2026-20225 dropped worker=stockd-b7 task=job-346980 failed
+2026-10-03 09:47:08.200 [stockd-b1] ERROR task=job-316120 BackorderReconciler: SQLTransientConnectionException: connection pool exhausted (30/30) (stalled_tickets=1)
+	at com.shop.inventory.worker.BackorderReconciler.handle(BackorderReconciler.java:212)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:47:12.757 [stockd] INFO  ticket=RS-2026-83498 sku=SKU-49236 qty=2 worker=stockd-b3 granted in 49ms
+2026-10-03 09:47:13.482 [stockd-b4] ERROR task=job-573213 ShelfIndexRebuilder: IndexSegmentLockedException: rebuild aborted, segment lock shelf_idx_v7/3 not released within 30000ms (stalled_tickets=6)
+	at com.shop.inventory.worker.SegmentLockTable.await(SegmentLockTable.java:396)
+	at com.shop.inventory.worker.ShelfIndexRebuilder.rebuildSegment(ShelfIndexRebuilder.java:339)
+	at com.shop.inventory.worker.ShelfIndexRebuilder.invoke(ShelfIndexRebuilder.java:716)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:47:13.507 [stockd] WARN  ticket=RS-2026-56904 dropped worker=stockd-b4 task=job-573213 failed
+2026-10-03 09:47:13.513 [stockd] WARN  ticket=RS-2026-47737 dropped worker=stockd-b4 task=job-573213 failed
+2026-10-03 09:47:13.519 [stockd] WARN  ticket=RS-2026-64027 dropped worker=stockd-b4 task=job-573213 failed
+2026-10-03 09:47:13.525 [stockd] WARN  ticket=RS-2026-80645 dropped worker=stockd-b4 task=job-573213 failed
+2026-10-03 09:47:13.531 [stockd] WARN  ticket=RS-2026-55043 dropped worker=stockd-b4 task=job-573213 failed
+2026-10-03 09:47:13.537 [stockd] WARN  ticket=RS-2026-14728 dropped worker=stockd-b4 task=job-573213 failed
+2026-10-03 09:47:13.767 [stockd] DEBUG ticket=RS-2026-83498 closed
+2026-10-03 09:49:38.348 [stockd-b1] INFO  task=job-190155 ReturnsDockSync: started batch=1
+2026-10-03 09:49:38.966 [stockd-b1] INFO  task=job-190155 ReturnsDockSync: finished in 618ms
+2026-10-03 09:49:56.528 [stockd-b2] INFO  task=job-875458 ShelfIndexRebuilder: started batch=32
+2026-10-03 09:49:56.913 [stockd-b2] INFO  task=job-875458 ShelfIndexRebuilder: finished in 385ms
+2026-10-03 09:49:59.832 [stockd] DEBUG ticket=RS-2026-74715 closed
+2026-10-03 09:50:01.961 [stockd-b3] INFO  task=job-229277 BinLocationRecalculator: started batch=9
+2026-10-03 09:50:05.172 [stockd-b3] INFO  task=job-229277 BinLocationRecalculator: finished in 3211ms
+2026-10-03 09:50:06.145 [stockd] DEBUG ticket=RS-2026-96936 closed
+2026-10-03 09:50:10.777 [stockd-b6] INFO  task=job-224563 ShelfIndexRebuilder: started batch=38
+2026-10-03 09:50:13.864 [stockd-b6] INFO  task=job-224563 ShelfIndexRebuilder: finished in 3087ms
+2026-10-03 09:50:33.870 [stockd-b2] INFO  task=job-534973 CycleCountExporter: started batch=28
+2026-10-03 09:50:35.740 [stockd-b4] INFO  task=job-282130 ShelfIndexRebuilder: started batch=48
+2026-10-03 09:50:35.893 [stockd] DEBUG ticket=RS-2026-58325 closed
+2026-10-03 09:50:36.226 [stockd-b2] ERROR task=job-534973 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=1)
+	at com.shop.inventory.worker.CycleCountExporter.call(CycleCountExporter.java:471)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:50:36.402 [stockd-b4] WARN  task=job-282130 ShelfIndexRebuilder: lag behind schedule by 3s
+2026-10-03 09:50:37.064 [stockd-b4] INFO  task=job-282130 ShelfIndexRebuilder: finished in 1324ms
+2026-10-03 09:50:44.466 [stockd] INFO  ticket=RS-2026-71438 sku=SKU-52370 qty=2 worker=stockd-b2 granted in 9ms
+2026-10-03 09:50:44.527 [stockd] INFO  ticket=RS-2026-25189 sku=SKU-26074 qty=1 worker=stockd-b2 granted in 31ms
+2026-10-03 09:50:44.691 [stockd] DEBUG ticket=RS-2026-71438 closed
+2026-10-03 09:50:44.694 [stockd] DEBUG ticket=RS-2026-25189 closed
+2026-10-03 09:50:50.573 [stockd] DEBUG ticket=RS-2026-14787 closed
+2026-10-03 09:51:07.209 [stockd-b2] INFO  task=job-558008 ReturnsDockSync: started batch=26
+2026-10-03 09:51:08.023 [stockd-b2] INFO  task=job-528563 BinLocationRecalculator: started batch=56
+2026-10-03 09:51:08.942 [stockd-b2] WARN  task=job-528563 BinLocationRecalculator: lag behind schedule by 7s
+2026-10-03 09:51:09.861 [stockd-b2] INFO  task=job-528563 BinLocationRecalculator: finished in 1838ms
+2026-10-03 09:51:10.215 [stockd-b2] INFO  task=job-558008 ReturnsDockSync: finished in 3006ms
+2026-10-03 09:51:13.777 [stockd] DEBUG ticket=RS-2026-69678 closed
+2026-10-03 09:51:18.338 [stockd-b1] INFO  task=job-131610 CycleCountScheduler: started batch=13
+2026-10-03 09:51:19.732 [stockd-b1] INFO  task=job-131610 CycleCountScheduler: finished in 1394ms
+2026-10-03 09:51:33.993 [stockd-b1] INFO  task=job-200377 BinLocationRecalculator: started batch=24
+2026-10-03 09:51:34.437 [stockd-b1] WARN  task=job-200377 BinLocationRecalculator: lag behind schedule by 6s
+2026-10-03 09:51:34.882 [stockd-b1] INFO  task=job-200377 BinLocationRecalculator: finished in 889ms
+2026-10-03 09:51:35.010 [stockd-b7] INFO  task=job-829125 ShelfIndexRebuilder: started batch=51
+2026-10-03 09:51:38.619 [stockd-b7] INFO  task=job-829125 ShelfIndexRebuilder: finished in 3609ms
+2026-10-03 09:51:39.944 [stockd] DEBUG ticket=RS-2026-46262 closed
+2026-10-03 09:51:40.174 [stockd] INFO  ticket=RS-2026-70207 sku=SKU-54818 qty=2 worker=stockd-b1 granted in 21ms
+2026-10-03 09:51:40.288 [stockd] INFO  ticket=RS-2026-67618 sku=SKU-31604 qty=1 worker=stockd-b2 granted in 29ms
+2026-10-03 09:51:40.482 [stockd] DEBUG ticket=RS-2026-70207 closed
+2026-10-03 09:51:40.485 [stockd] DEBUG ticket=RS-2026-67618 closed
+2026-10-03 09:51:47.217 [stockd] DEBUG ticket=RS-2026-34878 closed
+2026-10-03 09:52:06.663 [stockd-b4] INFO  task=job-950258 ReturnsDockSync: started batch=25
+2026-10-03 09:52:07.193 [stockd-b4] INFO  task=job-950258 ReturnsDockSync: finished in 530ms
+2026-10-03 09:52:11.117 [stockd] DEBUG ticket=RS-2026-52410 closed
+2026-10-03 09:52:16.606 [stockd] DEBUG ticket=RS-2026-94287 closed
+2026-10-03 09:52:44.912 [stockd] DEBUG ticket=RS-2026-85603 closed
+2026-10-03 09:52:47.428 [stockd-b6] INFO  task=job-210639 CycleCountExporter: started batch=34
+2026-10-03 09:52:49.156 [stockd] DEBUG ticket=RS-2026-92742 closed
+2026-10-03 09:52:50.411 [stockd-b6] ERROR task=job-210639 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=0)
+	at com.shop.inventory.worker.CycleCountExporter.dispatch(CycleCountExporter.java:875)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:52:56.394 [stockd] DEBUG ticket=RS-2026-89324 closed
+2026-10-03 09:53:01.103 [stockd] DEBUG ticket=RS-2026-92596 closed
+2026-10-03 09:53:06.049 [stockd] INFO  ticket=RS-2026-73619 sku=SKU-35648 qty=2 worker=stockd-b1 granted in 38ms
+2026-10-03 09:53:06.115 [stockd] INFO  ticket=RS-2026-14724 sku=SKU-25964 qty=1 worker=stockd-b1 granted in 65ms
+2026-10-03 09:53:06.266 [stockd] DEBUG ticket=RS-2026-73619 closed
+2026-10-03 09:53:06.269 [stockd] DEBUG ticket=RS-2026-14724 closed
+2026-10-03 09:53:09.437 [stockd-b5] INFO  task=job-290169 ShelfIndexRebuilder: started batch=24
+2026-10-03 09:53:10.401 [stockd] DEBUG ticket=RS-2026-56147 closed
+2026-10-03 09:53:12.592 [stockd-b5] INFO  task=job-290169 ShelfIndexRebuilder: finished in 3155ms
+2026-10-03 09:53:13.385 [stockd] DEBUG ticket=RS-2026-16627 closed
+2026-10-03 09:53:25.491 [stockd] DEBUG ticket=RS-2026-89610 closed
+2026-10-03 09:53:45.360 [stockd] DEBUG ticket=RS-2026-65625 closed
+2026-10-03 09:53:49.951 [stockd] DEBUG ticket=RS-2026-25638 closed
+2026-10-03 09:53:55.359 [stockd] DEBUG ticket=RS-2026-88889 closed
+2026-10-03 09:53:58.252 [stockd-b2] INFO  task=job-733438 BinLocationRecalculator: started batch=22
+2026-10-03 09:54:02.057 [stockd-b2] INFO  task=job-733438 BinLocationRecalculator: finished in 3805ms
+2026-10-03 09:54:06.701 [stockd-b1] INFO  task=job-167754 CycleCountScheduler: started batch=16
+2026-10-03 09:54:09.018 [stockd] DEBUG ticket=RS-2026-26808 closed
+2026-10-03 09:54:10.447 [stockd-b1] INFO  task=job-167754 CycleCountScheduler: finished in 3746ms
+2026-10-03 09:54:15.257 [stockd] DEBUG ticket=RS-2026-12508 closed
+2026-10-03 09:54:29.525 [stockd] DEBUG ticket=RS-2026-45158 closed
+2026-10-03 09:54:31.028 [stockd] INFO  ticket=RS-2026-13536 sku=SKU-48225 qty=2 worker=stockd-b2 granted in 38ms
+2026-10-03 09:54:31.144 [stockd] INFO  ticket=RS-2026-88400 sku=SKU-10218 qty=1 worker=stockd-b2 granted in 31ms
+2026-10-03 09:54:31.274 [stockd] DEBUG ticket=RS-2026-13536 closed
+2026-10-03 09:54:31.277 [stockd] DEBUG ticket=RS-2026-88400 closed
+2026-10-03 09:54:34.987 [stockd] INFO  ticket=RS-2026-83481 sku=SKU-47115 qty=2 worker=stockd-b2 granted in 34ms
+2026-10-03 09:54:35.073 [stockd] INFO  ticket=RS-2026-29134 sku=SKU-52489 qty=1 worker=stockd-b3 granted in 38ms
+2026-10-03 09:54:35.197 [stockd] DEBUG ticket=RS-2026-83481 closed
+2026-10-03 09:54:35.200 [stockd] DEBUG ticket=RS-2026-29134 closed
+2026-10-03 09:54:44.171 [stockd] INFO  ticket=RS-2026-42816 sku=SKU-51771 qty=2 worker=stockd-b5 granted in 38ms
+2026-10-03 09:54:44.247 [stockd] INFO  ticket=RS-2026-31055 sku=SKU-17703 qty=1 worker=stockd-b6 granted in 12ms
+2026-10-03 09:54:44.411 [stockd] DEBUG ticket=RS-2026-42816 closed
+2026-10-03 09:54:44.414 [stockd] DEBUG ticket=RS-2026-31055 closed
+2026-10-03 09:54:48.936 [stockd] DEBUG ticket=RS-2026-21874 closed
+2026-10-03 09:54:49.838 [stockd-b1] INFO  task=job-456117 CycleCountScheduler: started batch=29
+2026-10-03 09:54:51.597 [stockd-b1] WARN  task=job-456117 CycleCountScheduler: lag behind schedule by 4s
+2026-10-03 09:54:53.033 [stockd] DEBUG ticket=RS-2026-73156 closed
+2026-10-03 09:54:53.356 [stockd-b1] INFO  task=job-456117 CycleCountScheduler: finished in 3518ms
+2026-10-03 09:55:04.485 [stockd] INFO  ticket=RS-2026-74173 sku=SKU-19819 qty=2 worker=stockd-b1 granted in 53ms
+2026-10-03 09:55:04.556 [stockd] INFO  ticket=RS-2026-34429 sku=SKU-42171 qty=1 worker=stockd-b5 granted in 30ms
+2026-10-03 09:55:04.748 [stockd] DEBUG ticket=RS-2026-74173 closed
+2026-10-03 09:55:04.751 [stockd] DEBUG ticket=RS-2026-34429 closed
+2026-10-03 09:55:07.187 [stockd-b5] INFO  task=job-985017 CycleCountExporter: started batch=17
+2026-10-03 09:55:10.323 [stockd-b5] ERROR task=job-985017 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=0)
+	at com.shop.inventory.worker.CycleCountExporter.call(CycleCountExporter.java:833)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:55:13.616 [stockd] DEBUG ticket=RS-2026-32164 closed
+2026-10-03 09:55:13.799 [stockd-b1] INFO  task=job-822551 ReturnsDockSync: started batch=54
+2026-10-03 09:55:15.915 [stockd-b6] INFO  task=job-644639 ReturnsDockSync: started batch=11
+2026-10-03 09:55:16.703 [stockd-b1] INFO  task=job-822551 ReturnsDockSync: finished in 2904ms
+2026-10-03 09:55:16.785 [stockd-b6] WARN  task=job-644639 ReturnsDockSync: slow scan 1399ms
+2026-10-03 09:55:17.656 [stockd-b6] INFO  task=job-644639 ReturnsDockSync: finished in 1741ms
+2026-10-03 09:55:24.869 [stockd] DEBUG ticket=RS-2026-41858 closed
+2026-10-03 09:55:31.118 [stockd-b2] INFO  task=job-301779 BinLocationRecalculator: started batch=14
+2026-10-03 09:55:31.722 [stockd-b2] INFO  task=job-301779 BinLocationRecalculator: finished in 604ms
+2026-10-03 09:55:32.635 [stockd-b5] INFO  task=job-196578 CycleCountExporter: started batch=26
+2026-10-03 09:55:34.301 [stockd-b5] ERROR task=job-196578 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=0)
+	at com.shop.inventory.worker.CycleCountExporter.dispatch(CycleCountExporter.java:854)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:55:38.019 [stockd-b7] INFO  task=job-778952 ReturnsDockSync: started batch=49
+2026-10-03 09:55:40.359 [stockd-b5] INFO  task=job-239582 ShelfIndexRebuilder: started batch=38
+2026-10-03 09:55:40.820 [stockd-b5] INFO  task=job-239582 ShelfIndexRebuilder: finished in 461ms
+2026-10-03 09:55:40.932 [stockd-b7] INFO  task=job-778952 ReturnsDockSync: finished in 2913ms
+2026-10-03 09:55:41.418 [stockd] DEBUG ticket=RS-2026-41036 closed
+2026-10-03 09:55:47.483 [stockd] DEBUG ticket=RS-2026-19577 closed
+2026-10-03 09:55:49.136 [stockd] DEBUG ticket=RS-2026-22229 closed
+2026-10-03 09:56:05.916 [stockd] DEBUG ticket=RS-2026-13337 closed
+2026-10-03 09:56:10.826 [stockd-b2] INFO  task=job-609856 ReturnsDockSync: started batch=23
+2026-10-03 09:56:11.113 [stockd] INFO  ticket=RS-2026-36964 sku=SKU-30913 qty=2 worker=stockd-b5 granted in 49ms
+2026-10-03 09:56:11.206 [stockd] INFO  ticket=RS-2026-14773 sku=SKU-32136 qty=1 worker=stockd-b6 granted in 11ms
+2026-10-03 09:56:11.378 [stockd] DEBUG ticket=RS-2026-36964 closed
+2026-10-03 09:56:11.381 [stockd] DEBUG ticket=RS-2026-14773 closed
+2026-10-03 09:56:13.569 [stockd-b2] INFO  task=job-609856 ReturnsDockSync: finished in 2743ms
+2026-10-03 09:56:34.943 [stockd] DEBUG ticket=RS-2026-95026 closed
+2026-10-03 09:56:41.354 [stockd] DEBUG ticket=RS-2026-75585 closed
+2026-10-03 09:56:50.910 [stockd] DEBUG ticket=RS-2026-77189 closed
+2026-10-03 09:57:13.166 [stockd] INFO  ticket=RS-2026-99328 sku=SKU-29496 qty=2 worker=stockd-b3 granted in 49ms
+2026-10-03 09:57:13.237 [stockd] INFO  ticket=RS-2026-68229 sku=SKU-53283 qty=1 worker=stockd-b3 granted in 8ms
+2026-10-03 09:57:13.347 [stockd] DEBUG ticket=RS-2026-99328 closed
+2026-10-03 09:57:13.350 [stockd] DEBUG ticket=RS-2026-68229 closed
+2026-10-03 09:57:28.660 [stockd] DEBUG ticket=RS-2026-62116 closed
+2026-10-03 09:57:29.630 [stockd-b4] INFO  task=job-670107 ShelfIndexRebuilder: started batch=49
+2026-10-03 09:57:30.960 [stockd-b4] INFO  task=job-670107 ShelfIndexRebuilder: finished in 1330ms
+2026-10-03 09:57:41.963 [stockd] INFO  ticket=RS-2026-37889 sku=SKU-22751 qty=2 worker=stockd-b5 granted in 47ms
+2026-10-03 09:57:42.078 [stockd] INFO  ticket=RS-2026-55835 sku=SKU-46919 qty=1 worker=stockd-b6 granted in 43ms
+2026-10-03 09:57:42.204 [stockd] DEBUG ticket=RS-2026-37889 closed
+2026-10-03 09:57:42.207 [stockd] DEBUG ticket=RS-2026-55835 closed
+2026-10-03 09:57:42.814 [stockd] DEBUG ticket=RS-2026-54733 closed
+2026-10-03 09:57:52.959 [stockd-b6] INFO  task=job-348615 ReturnsDockSync: started batch=48
+2026-10-03 09:57:54.201 [stockd-b6] INFO  task=job-348615 ReturnsDockSync: finished in 1242ms
+2026-10-03 09:57:56.397 [stockd] INFO  ticket=RS-2026-64727 sku=SKU-25442 qty=2 worker=stockd-b2 granted in 57ms
+2026-10-03 09:57:56.478 [stockd] INFO  ticket=RS-2026-73294 sku=SKU-54605 qty=1 worker=stockd-b2 granted in 52ms
+2026-10-03 09:57:56.635 [stockd] DEBUG ticket=RS-2026-64727 closed
+2026-10-03 09:57:56.638 [stockd] DEBUG ticket=RS-2026-73294 closed
+2026-10-03 09:58:08.610 [stockd] DEBUG ticket=RS-2026-43053 closed
+2026-10-03 09:58:35.756 [stockd-b4] INFO  task=job-201926 ReturnsDockSync: started batch=21
+2026-10-03 09:58:37.145 [stockd-b4] INFO  task=job-201926 ReturnsDockSync: finished in 1389ms
+2026-10-03 09:58:42.058 [stockd] INFO  ticket=RS-2026-53205 sku=SKU-52431 qty=2 worker=stockd-b6 granted in 40ms
+2026-10-03 09:58:42.154 [stockd] INFO  ticket=RS-2026-84657 sku=SKU-49063 qty=1 worker=stockd-b1 granted in 36ms
+2026-10-03 09:58:42.282 [stockd] DEBUG ticket=RS-2026-53205 closed
+2026-10-03 09:58:42.285 [stockd] DEBUG ticket=RS-2026-84657 closed
+2026-10-03 09:59:00.371 [stockd-b7] INFO  task=job-363567 ReturnsDockSync: started batch=54
+2026-10-03 09:59:03.442 [stockd-b7] INFO  task=job-363567 ReturnsDockSync: finished in 3071ms
+2026-10-03 09:59:10.024 [stockd-b5] INFO  task=job-627695 ReturnsDockSync: started batch=58
+2026-10-03 09:59:11.983 [stockd-b5] INFO  task=job-627695 ReturnsDockSync: finished in 1959ms
+2026-10-03 09:59:28.827 [stockd-b4] INFO  task=job-349743 BinLocationRecalculator: started batch=48
+2026-10-03 09:59:32.547 [stockd-b4] INFO  task=job-349743 BinLocationRecalculator: finished in 3720ms
+2026-10-03 09:59:32.912 [stockd] INFO  ticket=RS-2026-88597 sku=SKU-29255 qty=2 worker=stockd-b2 granted in 17ms
+2026-10-03 09:59:33.003 [stockd] INFO  ticket=RS-2026-18252 sku=SKU-59663 qty=1 worker=stockd-b1 granted in 31ms
+2026-10-03 09:59:33.178 [stockd] DEBUG ticket=RS-2026-88597 closed
+2026-10-03 09:59:33.181 [stockd] DEBUG ticket=RS-2026-18252 closed
+2026-10-03 09:59:37.378 [stockd] DEBUG ticket=RS-2026-36498 closed
+2026-10-03 09:59:42.923 [stockd-b3] INFO  task=job-926293 CycleCountExporter: started batch=5
+2026-10-03 09:59:44.154 [stockd-b3] ERROR task=job-926293 CycleCountExporter: UncheckedIOException: disk quota exceeded writing /var/spool/export.tmp (stalled_tickets=0)
+	at com.shop.inventory.worker.CycleCountExporter.process(CycleCountExporter.java:728)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-03 09:59:44.374 [stockd] DEBUG ticket=RS-2026-96021 closed
+2026-10-03 09:59:47.463 [stockd] DEBUG ticket=RS-2026-41597 closed
