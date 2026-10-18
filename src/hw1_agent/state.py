@@ -27,6 +27,7 @@ NOTES = []
 SEEN = []  # every tool result shown to the model (to catch guessed values)
 UNTESTED = set()  # .py files changed since a run_command last executed them
 LAST_EDIT = {}
+EDITS = 0  # file writes so far: the same call after a write is not a repeat
 CRASHED = set()  # program versions (file contents) whose latest run crashed
 VERSIONS = {}  # .py deliverable -> distinct versions that were run, most recently run last
 TESTS = {}  # test command -> output the model expected (its own test suite)

@@ -64,11 +64,25 @@ You are also a careful programmer and debugger. Work in small verified steps:
 
 PROG_TIPS = r"""Python pitfalls to avoid:
 - CSV files: read them with the csv module (fields may be quoted and contain commas).
+- Trimming: strip every field once, right after reading (row = [f.strip() for f in row]), and use only those
+  values afterwards; never validate a stripped copy and then store or compare the raw field.
+- Validity rules given as a list: write one explicit check per condition (field count, each field's format,
+  non-empty fields), then re-read the list and make sure none is missing.
+- json.dumps cannot serialize Decimal or datetime: convert to the exact string/number the spec shows first.
 - Dates: datetime.strptime(s, "%Y-%m-%d") also accepts "2023-4-5". To require YYYY-MM-DD, first check
   re.fullmatch(r"\d{4}-\d{2}-\d{2}", s), then strptime to reject impossible dates like 2023-02-30.
 - Numbers: Decimal()/float() also accept "+5", "1e3", " 5", "NaN", "Infinity"; if the spec defines an exact number
   format, check it with re.fullmatch first.
+- Enforce every format rule literally: "an optional leading -" is -? (so "+5" is invalid); only "a sign"/"+ or -"
+  means [+-]. A stated range (100-599, hour 00-23) must be checked in code. Every value the spec lists as
+  invalid must be rejected by your code: check each one.
+- Time zones: parse "+0500"/"-0500" with %z, then convert with dt.astimezone(timezone.utc); never subtract
+  utcoffset() from an aware datetime yourself.
 - A filter that matches nothing is not an error: print the empty/zero result (0, 0.00, count=0 total=0.00).
+- A regex that contains a double quote goes in single quotes: r'"(\S+) (\S+)"', never r"..."...".
+- Build a line regex from the spec's example line: copy it, replace each field with a group in the SAME order
+  (escape [ ] as \[ \]), and run it on that example with python3 -c before using it. A count of 0 on the real
+  data means the regex matches nothing.
 - Lines of a fixed text format (logs): one full-line regex with re.fullmatch; never split on whitespace when a
   field (a bracketed timestamp, a quoted request) contains spaces.
 - argparse: an option named like a Python keyword (--from) needs dest="date_from". argparse prints "usage: ..."
@@ -83,7 +97,9 @@ PLAN_STEP = ("Step 1 - plan, no code yet. Inspect the data sample above. List ev
              "formats, rounding, sorting, exit codes, error messages) and say exactly how the code will enforce it (e.g. "
              "a regex). Be concise.")
 TESTS_STEP = ("Step 2 - list 8 to 12 shell commands that run %s on the provided data and together exercise EVERY "
-              "requirement, including error cases. One command per line, in one ```bash code block, no comments.")
+              "requirement, including error cases, and every command form the spec names with its arguments (e.g. top 3). If the deliverable is a module to import (no command line), each command "
+              "is python3 -c \"from <module> import ...; print(...)\". One command per line, in one ```bash code block, "
+              "no comments.")
 CODE_STEP = ("Step 2 - write the COMPLETE %s implementing your plan and every requirement.\n\n%s\n\n"
              "Reply with only one ```python code block.")
 REVIEW_STEP = ("Step 3 - review, no tools. Go through every numbered requirement and every rule you quoted in your plan. "
@@ -94,4 +110,4 @@ FIX_STEP = ("The harness saved the program to %s (%d lines). Step 4 - fix every 
             "test it with run_command. Create tiny input files where you can work out the right answers by hand and check "
             "EVERY requirement (exact format, sorting, rounding, invalid rows, errors and exit codes); also run it on the "
             "real data: a count of 0, empty output, or most lines rejected there means your parsing is broken - print a "
-            "few rejected lines to see why. Fix bugs with edit_file and re-run, then finish.%s")
+            "few rejected lines to see why. Also run every example line or value given in the spec through your parser. Fix bugs with edit_file and re-run, then finish.%s")

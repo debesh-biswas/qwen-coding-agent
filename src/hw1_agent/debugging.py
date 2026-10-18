@@ -5,6 +5,7 @@ import os
 import time
 
 from . import state as S
+from .guards import bad_shape, key_specs
 from .loop import loop
 from .util import Finish, log, safe_path
 
@@ -39,10 +40,11 @@ def vote_runs(base, sysmsg, path):
             log("ATTEMPT %d: no usable %s" % (k + 1, path))
     if not reports:
         raise last or Finish("error", "No %s was produced." % path)
-    voted = {}
+    voted, specs = {}, key_specs()
     for key in [k for r in reports for k in r]:
         if key not in voted:
             vals = [json.dumps(r[key], sort_keys=True) for r in reports if key in r]
+            vals = [v for v in vals if not bad_shape(specs.get(key, ""), json.loads(v))] or vals  # drop misfits
             voted[key] = json.loads(max(vals, key=lambda v: (vals.count(v), -vals.index(v))))  # ties: earliest run
     with open(safe_path(path), "w", encoding="utf-8") as fh:
         json.dump(voted, fh, indent=2, ensure_ascii=False)

@@ -25,6 +25,32 @@ def unseen(text):
     return sorted({t.rstrip(".:-") for t in toks if t.rstrip(".:-") not in seen and len(t) >= 4})
 
 
+KEY_RE = re.compile(r"^\s*\d+\.\s+`(\w+)`[^\n]*?[—–-]+\s*(.*)", re.M)
+CLASS_RE = re.compile(r"(?:[a-z_]\w*\.)*[A-Z]\w*(?:[.$][A-Z]\w*)*")
+
+
+def key_specs():
+    """{key: description} from the prompt's numbered key list (1. `key` — description)."""
+    return dict(KEY_RE.findall(S.PROMPT))
+
+
+def bad_shape(desc, value):
+    """Why value cannot be what its key's description asks for, or None (only clear-cut cases)."""
+    d = desc.lower()
+    hexn = re.search(r"(\d+)-hex", d)
+    if "(integer)" in d and (not isinstance(value, int) or isinstance(value, bool)):
+        return "must be a JSON integer"
+    if hexn and not re.fullmatch(r"[0-9a-fA-F]{%s}" % hexn.group(1), str(value)):
+        return "must be exactly %s hex characters" % hexn.group(1)
+    if "class" in d and not CLASS_RE.fullmatch(str(value)):
+        return "must be a class name exactly as logged (like FooBar), not an ID or a message"
+    if "class" in d and "exception" not in d and re.search(r"(Exception|Error)$", str(value)):
+        return "must be the component's class, not an exception"
+    if "timestamp" in d and not re.search(r"\d\d:\d\d:\d\d", str(value)):
+        return "must be a timestamp copied from the log"
+    return None
+
+
 def finish_check():
     """Code mode: return a complaint (at most 2 per kind) if the deliverables look wrong, else None."""
     def bounce(kind, msg):
@@ -78,12 +104,20 @@ def finish_check():
                 "command that proves it on a tiny test file you create (include tricky rows the spec mentions) and compare "
                 "the output with the spec exactly (format, rounding, sorting, exit code, stderr, valid JSON). Fix any "
                 "mismatch with edit_file, then finish." % (", ".join(py), (" (" + "; ".join("%s %s" % r for r in reqs) + ")") if reqs else ""))
+    specs = key_specs()
     for f, d in data.items():
         empty = [k for k, v in d.items() if v is None or str(v).strip().lower() in ("", "none", "null", "unknown", "n/a")]
+        shape = ["%s=%s %s (%s)" % (k, json.dumps(v), bad_shape(specs[k], v), specs[k].strip())
+                 for k, v in d.items() if k in specs and k not in empty and bad_shape(specs[k], v)]
         guessed = unseen(" ".join(str(v) for v in d.values() if isinstance(v, str)))
         if guessed:
             m = bounce("guess", "ERROR: these values in %s never appeared in any tool output, so they are guesses: %s. "
                        "Find each one in the files (search the previous ID in the chain) and fix %s." % (f, ", ".join(guessed), f))
+            if m:
+                return m
+        if shape:
+            m = bounce("shape", "ERROR: in %s these values do not fit what the task asks for: %s. Find the right "
+                       "values in the logs and rewrite %s." % (f, "; ".join(shape), f))
             if m:
                 return m
         if empty:

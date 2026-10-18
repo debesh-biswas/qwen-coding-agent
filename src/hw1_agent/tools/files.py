@@ -98,6 +98,7 @@ def edit_file(a):
     with open(full, "w", encoding="utf-8", newline="") as fh:
         fh.write(text)
     S.WRITTEN.add(a["path"])
+    S.EDITS += 1
     if a["path"].endswith(".py"):
         S.UNTESTED.add(os.path.basename(a["path"]))
     lines = text.split("\n")
@@ -153,6 +154,7 @@ def write_file(a):
     with open(full, "w", encoding="utf-8", newline="") as fh:
         fh.write(content)
     S.WRITTEN.add(path)
+    S.EDITS += 1
     if path.endswith(".py"):
         S.UNTESTED.add(os.path.basename(path))
         del S.OPEN_FAILS[:]

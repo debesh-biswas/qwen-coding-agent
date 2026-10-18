@@ -88,7 +88,7 @@ def read_stream(r):
     return {"content": "".join(content), "tool_calls": [calls[i] for i in sorted(calls)] or None}
 
 
-def chat(messages, tools=True):
+def chat(messages, tools=True, temp=None):
     url = os.environ["OPENAI_BASE_URL"].rstrip("/") + "/chat/completions"
     if est(messages) > 26000:
         compact(messages, 20000)
@@ -104,7 +104,7 @@ def chat(messages, tools=True):
             raise Finish("error", "Timed out waiting for the model.")
         body = json.dumps(dict({
             "model": os.environ["MODEL"], "messages": messages,
-            "temperature": S.TEMP, "max_tokens": max(1024, min(8192, 40000 - est(messages))),
+            "temperature": S.TEMP if temp is None else temp, "max_tokens": max(1024, min(8192, 40000 - est(messages))),
             "chat_template_kwargs": {"enable_thinking": False}, "stream": True,
         }, **({"tools": S.TOOLS_ACTIVE, "tool_choice": "auto"} if tools else {}))).encode()
         try:

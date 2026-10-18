@@ -61,8 +61,10 @@ def loop(messages, sysmsg, max_turns, base_temp=0):
         calls = extract_calls(msg)
         log("MODEL:", content[:500], [(n, a) for _, n, a in calls])
         if not calls:
-            if nudged:
+            if nudged and (content or not S.CODE_MODE):
                 raise Finish("success", content)
+            if nudged:  # code mode, empty reply again: resample hotter instead of quitting with nothing
+                S.TEMP = min(1.0, S.TEMP + 0.3)
             nudged = True
             messages.append({"role": "assistant", "content": content})
             messages.append({"role": "user", "content": "If the task is done, call finish now with your full answer (exact numbers/facts) in message; otherwise use the tools to do it."})
@@ -80,6 +82,7 @@ def loop(messages, sysmsg, max_turns, base_temp=0):
                 k = name + json.dumps({a: b for a, b in k.items() if a not in ("why", "expect")}, sort_keys=True)
             except (ValueError, TypeError, AttributeError):
                 k = name + str(args)
+            k += "@%d" % S.EDITS  # after a write, reading or running the same thing again is fine
             if S.CODE_MODE and name == "run_command":
                 ran += 1
             if ran > 5 and name == "run_command":
@@ -94,11 +97,14 @@ def loop(messages, sysmsg, max_turns, base_temp=0):
                 looked = True  # and skip whatever was batched after it (e.g. finish)
                 result = ("REJECTED: this is the same content you wrote before seeing the file contents. Base the "
                           "content only on the file contents shown above, then call write_file again.")
-            elif S.CODE_MODE and name in ("search_file", "read_file") and seen.get(k, 0) >= 1:
+            elif S.CODE_MODE and name in ("search_file", "read_file", "run_command", "edit_file") and seen.get(k, 0) >= 1:
                 seen[k] += 1
                 repeats += 1
-                result = ("REPEATED CALL: you already made this exact call and its result has not changed. Do not repeat "
-                          "calls. Use what you found, try a different search, or write the deliverable now.")
+                result = ("REPEATED CALL: you already made this exact call and no file has changed since, so the result "
+                          "is the same. Do not repeat calls. " + ("Fix the program (edit_file) or your test, then run it "
+                          "again." if name == "run_command" else "Make a DIFFERENT edit, or rewrite the file with write_file."
+                          if name == "edit_file" else "Use what you found, try a different search, or write "
+                          "the deliverable now."))
             else:
                 seen[k] = seen.get(k, 0) + 1
                 try:

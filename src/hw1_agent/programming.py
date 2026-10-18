@@ -1,9 +1,12 @@
 """Programming tasks: plan, generate candidate programs, pick the best, and keep the best tested version."""
 import ast
+import builtins
+import concurrent.futures
 import os
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 
@@ -11,11 +14,38 @@ from . import prompts
 from . import state as S
 from .llm import THINK_RE, chat
 from .tools.files import syntax_note
-from .tools.shell import matches
+from .tools.shell import matches, real_data, same_format
 from .util import log, safe_env, safe_path
 
 
 CODE_BLOCK_RE = re.compile(r"```[ \t]*(?:python3?|py)?[ \t]*\n(.*?)```", re.S | re.I)
+STDLIB = getattr(sys, "stdlib_module_names", {"argparse", "collections", "csv", "datetime", "decimal", "json", "math",
+                                               "os", "re", "statistics", "sys", "time"})
+DT_CLASS = {"strptime", "now", "utcnow", "fromisoformat", "fromtimestamp", "combine"}  # only exist on datetime.datetime
+
+
+def add_imports(code):
+    """Small models often use a stdlib module they never imported, and every candidate dies with NameError."""
+    try:
+        tree = ast.parse(code)
+    except SyntaxError:
+        return code
+    nodes, bound = list(ast.walk(tree)), set(dir(builtins))
+    for n in nodes:
+        if isinstance(n, (ast.Import, ast.ImportFrom)):
+            bound |= {(a.asname or a.name).split(".")[0] for a in n.names}
+        elif isinstance(n, (ast.FunctionDef, ast.ClassDef, ast.ExceptHandler)):
+            bound.add(n.name)
+        elif isinstance(n, ast.arg) or isinstance(n, ast.Name) and not isinstance(n.ctx, ast.Load):
+            bound.add(n.arg if isinstance(n, ast.arg) else n.id)
+    missing = sorted({n.id for n in nodes if isinstance(n, ast.Name) and n.id in STDLIB and n.id not in bound})
+    if not missing:
+        return code
+    attrs = {n.attr for n in nodes if isinstance(n, ast.Attribute) and getattr(n.value, "id", "") == "datetime"}
+    lines = ["from datetime import datetime" if m == "datetime" and attrs & DT_CLASS
+             and not attrs & {"datetime", "date", "timedelta", "timezone"} else "import " + m for m in missing]
+    log("added missing imports:", lines)
+    return "\n".join(lines) + "\n" + code
 
 
 def ensure_main_call(code):
@@ -32,31 +62,27 @@ def ensure_main_call(code):
     return code
 
 
-def gen_code(messages, temp):
-    old, S.TEMP = S.TEMP, temp
-    try:
-        return THINK_RE.sub("", chat(messages, tools=False).get("content") or "")
-    finally:
-        S.TEMP = old
-
-
 def run_versions(base, codes, cmds, timeout, stop):
-    """Run each version of a program (saved as base in its own temp dir) on the same commands. Returns per version a
-    list of (exit code, stdout, stderr), exit code None on timeout; commands after monotonic time `stop` are skipped."""
+    """Run each version of a program on the same commands, in a temp dir that links every workspace file except the
+    program itself (so both `python3 x.py` and `from x import ...` use that version). Returns per version a list of
+    (exit code, stdout, stderr), exit code None on timeout; commands after monotonic time `stop` are skipped."""
     tmp = tempfile.mkdtemp(prefix="hw1-ver-")
     try:
         outs = []
         for i, code in enumerate(codes):
-            f = os.path.join(tmp, str(i), base)
-            os.makedirs(os.path.dirname(f))
-            with open(f, "w", encoding="utf-8") as fh:
+            d = os.path.join(tmp, str(i))
+            os.makedirs(d)
+            for n in os.listdir(S.WORKSPACE):
+                if n not in (base, "__pycache__"):
+                    os.symlink(os.path.join(S.WORKSPACE, n), os.path.join(d, n))
+            with open(os.path.join(d, base), "w", encoding="utf-8") as fh:
                 fh.write(code)
             res = []
             for c in cmds:
                 if time.monotonic() > stop:
                     break
                 try:
-                    p = subprocess.run(c.replace(base, '"%s"' % f), shell=True, cwd=S.WORKSPACE, capture_output=True,
+                    p = subprocess.run(c, shell=True, cwd=d, capture_output=True,
                                        text=True, errors="replace", timeout=timeout, stdin=subprocess.DEVNULL, env=safe_env())
                     res.append((p.returncode, p.stdout, p.stderr))
                 except subprocess.TimeoutExpired:
@@ -81,6 +107,10 @@ def pick_best(base, codes, cmds):
                 sc += sum(1 for j, o in enumerate(outs) if j != i and k < len(o) and o[k][:2] == r[:2] and not crashed(r))
         scores.append(sc)
     log("CANDIDATE SCORES:", scores)
+    for i, res in enumerate(outs):
+        err = next((r[2].strip().split("\n")[-1] for r in res if crashed(r) and r[2].strip()), None)
+        if err:
+            log("candidate %d crashed: %s" % (i, err[:200]))
     return codes[max(range(len(codes)), key=lambda i: (scores[i], -i))]
 
 
@@ -96,17 +126,19 @@ def write_program(messages, path):
     messages.pop()
     base = os.path.basename(path)
     cmds = [c.strip() for b in re.findall(r"```[a-z]*\n(.*?)```", cmds_reply, re.S) for c in b.split("\n")
-            if base in c and not c.strip().startswith("#")][:12]
+            if os.path.splitext(base)[0] in c and not c.strip().startswith("#")][:12]
     log("TEST COMMANDS:", cmds)
     messages.append({"role": "user", "content": prompts.CODE_STEP % (path, prompts.PROG_TIPS)})
-    codes, reply = [], ""
-    for temp in (0, 0.7, 0.7):  # several candidates; the harness keeps the one the others agree with most
-        if codes and (not cmds or S.DEADLINE - time.monotonic() < 0.6 * (S.DEADLINE - S.START)):
-            break
-        reply = gen_code(messages, temp)
-        blocks = CODE_BLOCK_RE.findall(reply)
+    # Several candidates, generated in parallel; the harness keeps the one that passes most of the test commands.
+    temps = (0, 0.7, 0.7) if cmds else (0,)
+    gen = lambda t: THINK_RE.sub("", chat(list(messages), tools=False, temp=t).get("content") or "")
+    with concurrent.futures.ThreadPoolExecutor(len(temps)) as ex:
+        replies = list(ex.map(gen, temps))
+    codes, reply = [], replies[0]
+    for r in replies:
+        blocks = CODE_BLOCK_RE.findall(r)
         if blocks and max(blocks, key=len).strip():
-            codes.append(ensure_main_call(max(blocks, key=len)))
+            codes.append(ensure_main_call(add_imports(max(blocks, key=len))))
     code = pick_best(base, codes, cmds) if len(codes) > 1 else (codes[0] if codes else "")
     log("PROGRAM: %d lines (from %d candidates)" % (code.count("\n") + 1, len(codes)))
     if not code.strip():
@@ -118,6 +150,7 @@ def write_program(messages, path):
         fh.write(code)
     S.WRITTEN.add(path)
     S.UNTESTED.add(os.path.basename(path))
+    S.VERSIONS.setdefault(path, []).append(code)  # restorable even if the first edit breaks it before any run
     messages.append({"role": "assistant", "content": "```python\n%s```" % code})
     messages.append({"role": "user", "content": prompts.REVIEW_STEP})
     review = THINK_RE.sub("", chat(messages, tools=False).get("content") or "").strip()
@@ -138,7 +171,8 @@ def best_version(d):
     if any(len(o) < len(tests) for o in outs):
         log("version check out of time")
         return
-    scores = [sum(r[0] is not None and matches(exp, r[1], r[2]) for (_, exp), r in zip(tests, o)) for o in outs]
+    passed = lambda c, exp, r: r[0] is not None and (matches(exp, r[1], r[2]) or real_data(c) and same_format(exp, r[1], r[2]))
+    scores = [sum(passed(c, exp, r) for (c, exp), r in zip(tests, o)) for o in outs]
     best = max(range(len(vers)), key=lambda i: (scores[i], i))
     log("VERSION SCORES:", scores)
     with open(safe_path(d), encoding="utf-8", errors="replace") as fh:
@@ -151,10 +185,19 @@ def best_version(d):
         log("kept version %d of %s (passes %d of its own tests)" % (best, d, scores[best]))
 
 
+def compiles(code):
+    try:
+        compile(code, "<version>", "exec")
+        return True
+    except (SyntaxError, ValueError):
+        return False
+
+
 def restore_good():
     """Code mode: never hand in a program that is worse than one we already had (edits often break working code)."""
     for d, vers in S.VERSIONS.items():
-        good = [v for v in vers if v not in S.CRASHED]
+        ok = [v for v in vers if compiles(v)]
+        good = [v for v in ok if v not in S.CRASHED] or ok  # crashing beats not compiling
         try:
             with open(safe_path(d), encoding="utf-8", errors="replace") as fh:
                 cur = fh.read()
