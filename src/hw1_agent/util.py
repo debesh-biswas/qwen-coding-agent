@@ -1,6 +1,9 @@
 """Small shared helpers: the Finish signal, logging, workspace path guard."""
+import json
 import os
 import sys
+import threading
+import time
 
 from . import state as S
 
@@ -10,8 +13,19 @@ class Finish(Exception):
         self.status, self.message = status, message
 
 
+TRACE_LOCK = threading.Lock()
+
+
+def trace(**event):
+    """Dev only: HW1_TRACE=file appends every model call and log line as one JSON line (never the API key)."""
+    if os.environ.get("HW1_TRACE"):
+        with TRACE_LOCK, open(os.environ["HW1_TRACE"], "a", encoding="utf-8") as fh:
+            fh.write(json.dumps(dict(t=round(time.monotonic() - S.START, 1), **event)) + "\n")
+
+
 def log(*a):
     print(*a, file=sys.stderr, flush=True)
+    trace(log=" ".join(map(str, a)))
 
 
 def safe_path(p):

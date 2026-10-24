@@ -59,7 +59,8 @@ def same_format(exp, so, se):
 
 def real_data(command):
     """The command reads a file that was in the workspace from the start (not a tiny test file the model made)."""
-    return any(os.path.basename(p) in command for p in S.EXISTING if os.path.basename(p) != "TASK.md")
+    names = {os.path.basename(p) for p in S.EXISTING} - {"TASK.md"}
+    return any(re.search(r"(?<![\w.-])%s(?![\w.-])" % re.escape(n), command) for n in names)  # not test_<name>
 
 
 def run_checked(a):

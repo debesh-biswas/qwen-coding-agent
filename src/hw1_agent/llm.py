@@ -8,7 +8,7 @@ import urllib.error
 import urllib.request
 
 from . import state as S
-from .util import Finish, log
+from .util import Finish, log, trace
 
 
 def est(messages):
@@ -88,23 +88,23 @@ def read_stream(r):
     return {"content": "".join(content), "tool_calls": [calls[i] for i in sorted(calls)] or None}
 
 
-def chat(messages, tools=True, temp=None):
+def chat(messages, tools=True, temp=None, max_tokens=None):
     url = os.environ["OPENAI_BASE_URL"].rstrip("/") + "/chat/completions"
     if est(messages) > 26000:
         compact(messages, 20000)
     shrink = [12000, 8000, 5000]  # context-overflow retries
-    log("context estimate: %d tokens, %d messages" % (est(messages), len(messages)))
+    log("context estimate: %d tokens, %d messages, t=%.0fs" % (est(messages), len(messages), time.monotonic() - S.START))
     # Custom User-Agent: the course endpoint's Cloudflare blocks urllib's default one (error 1010).
     headers = {"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"],
                "User-Agent": "hw1-agent/1.0"}
-    delay = 2
+    delay, t0 = 2, time.monotonic()
     while True:
         remaining = S.DEADLINE - time.monotonic()
         if remaining < 3:
             raise Finish("error", "Timed out waiting for the model.")
         body = json.dumps(dict({
             "model": os.environ["MODEL"], "messages": messages,
-            "temperature": S.TEMP if temp is None else temp, "max_tokens": max(1024, min(8192, 40000 - est(messages))),
+            "temperature": S.TEMP if temp is None else temp, "max_tokens": max_tokens or max(1024, min(8192, 40000 - est(messages))),
             "chat_template_kwargs": {"enable_thinking": False}, "stream": True,
         }, **({"tools": S.TOOLS_ACTIVE, "tool_choice": "auto"} if tools else {}))).encode()
         try:
@@ -116,6 +116,8 @@ def chat(messages, tools=True, temp=None):
                 else:
                     out = read_stream(r)
                 S.CALLS += 1
+                trace(call=S.CALLS, secs=round(time.monotonic() - t0, 1), temp=temp, max_tokens=max_tokens,
+                      tools=tools, messages=messages, reply=out)
                 return out
         except urllib.error.HTTPError as e:
             raw = e.read().decode("utf-8", "replace")
@@ -126,6 +128,7 @@ def chat(messages, tools=True, temp=None):
             # An HTML error page (not a JSON API error) is a transient proxy/backend glitch: retry it.
             if e.code != 429 and e.code < 500 and not err.lstrip().startswith("<"):
                 raise Finish("error", "Model API error %d: %s" % (e.code, err))
+            S.BUSY += e.code in (429, 503)
             log("HTTP %d, retrying: %s" % (e.code, err[:80].replace("\n", " ")))
         except (urllib.error.URLError, OSError, http.client.HTTPException, ValueError) as e:
             # HTTPException covers IncompleteRead / RemoteDisconnected mid-stream; ValueError a garbled chunk.

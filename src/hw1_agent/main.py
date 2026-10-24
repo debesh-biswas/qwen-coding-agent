@@ -39,6 +39,8 @@ def run(prompt):
     py = sorted(d for d in S.DELIV if d.endswith(".py"))
     js = sorted(d for d in S.DELIV if d.endswith(".json"))
     if S.CODE_MODE and py:
+        S.RESERVE = 30  # stop model calls early so the final version check (restore_good) gets time to run
+        S.DEADLINE -= S.RESERVE
         write_program(messages, py[0])
     elif S.CODE_MODE and js:
         vote_runs(messages, sysmsg, js[0])
@@ -70,6 +72,7 @@ def main():
     except Exception as e:  # never let a crash break the output contract
         status, message = "error", "Internal error: %s" % e
     if S.CODE_MODE:
+        S.DEADLINE += S.RESERVE
         restore_good()
     if S.SESSION_ID and len(sys.argv) > 1 and sys.argv[1].strip():
         save_session(sys.argv[1], status, message)

@@ -70,23 +70,33 @@ PROG_TIPS = r"""Python pitfalls to avoid:
   non-empty fields), then re-read the list and make sure none is missing.
 - json.dumps cannot serialize Decimal or datetime: convert to the exact string/number the spec shows first.
 - Dates: datetime.strptime(s, "%Y-%m-%d") also accepts "2023-4-5". To require YYYY-MM-DD, first check
-  re.fullmatch(r"\d{4}-\d{2}-\d{2}", s), then strptime to reject impossible dates like 2023-02-30.
-- Numbers: Decimal()/float() also accept "+5", "1e3", " 5", "NaN", "Infinity"; if the spec defines an exact number
-  format, check it with re.fullmatch first.
+  re.fullmatch(r"\d{4}-\d{2}-\d{2}", s), then strptime inside try/except ValueError (it raises on impossible
+  dates like 2023-02-29; skip the row, never crash). Parse --from/--to the same way, then compare dates with dates.
+- Numbers: Decimal()/float()/int() also accept "+5", "1e3", " 5", "NaN", "Infinity"; if the spec defines an exact
+  number format (e.g. "a positive integer, digits only"), check it with re.fullmatch (r"\d+") first, then range-check.
+- Money: print every amount through ONE helper: q = d.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP); if q == 0:
+  q = abs(q) (never print -0.00); return f"{q:.2f}".
 - Enforce every format rule literally: "an optional leading -" is -? (so "+5" is invalid); only "a sign"/"+ or -"
   means [+-]. A stated range (100-599, hour 00-23) must be checked in code. Every value the spec lists as
   invalid must be rejected by your code: check each one.
 - Time zones: parse "+0500"/"-0500" with %z, then convert with dt.astimezone(timezone.utc); never subtract
   utcoffset() from an aware datetime yourself.
-- A filter that matches nothing is not an error: print the empty/zero result (0, 0.00, count=0 total=0.00).
+- A filter that matches nothing, or a file with no valid rows, is not an error: print the empty/zero result (0, 0.00,
+  count=0 total=0.00, []) and exit 0. Only report errors the spec names.
 - A regex that contains a double quote goes in single quotes: r'"(\S+) (\S+)"', never r"..."...".
 - Build a line regex from the spec's example line: copy it, replace each field with a group in the SAME order
   (escape [ ] as \[ \]), and run it on that example with python3 -c before using it. A count of 0 on the real
   data means the regex matches nothing.
 - Lines of a fixed text format (logs): one full-line regex with re.fullmatch; never split on whitespace when a
   field (a bracketed timestamp, a quoted request) contains spaces.
-- argparse: an option named like a Python keyword (--from) needs dest="date_from". argparse prints "usage: ..."
-  and exits 2 on errors; if the spec wants other error text, parse sys.argv yourself or override error().
+- Command line with its own error rules (error text, exit codes, which options each command allows, options in any
+  order): do NOT use argparse (it accepts abbreviated options and --opt=value and prints its own errors). Parse
+  sys.argv[1:] by hand in one loop: the first argument is the command; an argument starting with "--" must be an
+  option allowed for that command, and one that takes a value consumes the next argument (error if there is none);
+  anything else is a positional. Each command takes an exact number of positionals: a missing or extra one is an
+  error. Check every argument before opening any file.
+- Every option must change the result: pass each parsed filter (e.g. --category) into the code computing EVERY command
+  that allows it, and make sure that code skips the rows that don't match.
 - Define main() AND call it: if __name__ == "__main__": main()"""
 
 
@@ -96,18 +106,33 @@ PLAN_STEP = ("Step 1 - plan, no code yet. Inspect the data sample above. List ev
              "arguments. QUOTE every precise rule word for word (what counts as valid, allowed characters, number/date "
              "formats, rounding, sorting, exit codes, error messages) and say exactly how the code will enforce it (e.g. "
              "a regex). Be concise.")
-TESTS_STEP = ("Step 2 - list 8 to 12 shell commands that run %s on the provided data and together exercise EVERY "
-              "requirement, including error cases, and every command form the spec names with its arguments (e.g. top 3). If the deliverable is a module to import (no command line), each command "
-              "is python3 -c \"from <module> import ...; print(...)\". One command per line, in one ```bash code block, "
-              "no comments.")
+TESTS_STEP = ("Step 2 - write 10 to 16 tests for %s as a terminal transcript in one ```text code block, no code yet.\n"
+              "- A line starting with \"$ \" is a shell command. Create each tiny input file with ONE printf line, e.g.\n"
+              "  $ printf 'h1,h2\\n1,2\\n' > t1.csv\n"
+              "- After a command that runs the program, write its exact expected stdout on the next lines (nothing if it "
+              "prints nothing; error messages go to stderr, not stdout), then [exit N] if its exit code is not 0. Work "
+              "every expected output out by hand: keep test files to 1-3 data lines with round amounts like 1.00 and 2.00.\n"
+              "- Each test once. Cover EVERY requirement and rule: each invalid value the spec lists (one file each, next "
+              "to a valid line), an empty file, ties in sorting, rounding, every command form with its arguments and "
+              "options in different orders (put each flag that takes no value, like --json, BEFORE another option: "
+              "cmd --json --opt X), and each error case. A test of a filter or option needs a file where some lines "
+              "match and some don't, or it cannot fail.\n"
+              "- Add 3 commands on the provided data whose output you cannot work out: write the single line ? after each.\n"
+              "- If the deliverable is a module to import (no command line), run it with python3 -c \"from <module> "
+              "import ...; print(...)\".")
+EDGE_TESTS = ("\n\nThis time test ONLY rejected input and errors (normal behaviour is tested elsewhere): for EVERY validity "
+              "rule and EVERY invalid example value the spec lists, one file with one valid line plus one line breaking "
+              "just that rule (the output must reflect only the valid line); impossible dates (2023-02-30, month 13) "
+              "wherever dates are checked; lines with extra spaces if the spec says to trim; and every error case the spec "
+              "names, with its exit code. Skip the commands on the provided data.")
 CODE_STEP = ("Step 2 - write the COMPLETE %s implementing your plan and every requirement.\n\n%s\n\n"
              "Reply with only one ```python code block.")
 REVIEW_STEP = ("Step 3 - review, no tools. Go through every numbered requirement and every rule you quoted in your plan. "
                "For each, name the code that implements it and check it matches the spec EXACTLY (e.g. which fields may "
                "be empty, what is rejected, exact output text, sorting, exit codes). Then list the mismatches found (or "
                "'none').")
-FIX_STEP = ("The harness saved the program to %s (%d lines). Step 4 - fix every mismatch you listed with edit_file, then "
+FIX_STEP = ("The harness saved the program to %s (%d lines). Step 4 - fix every mismatch with the spec with edit_file, then "
             "test it with run_command. Create tiny input files where you can work out the right answers by hand and check "
             "EVERY requirement (exact format, sorting, rounding, invalid rows, errors and exit codes); also run it on the "
             "real data: a count of 0, empty output, or most lines rejected there means your parsing is broken - print a "
-            "few rejected lines to see why. Also run every example line or value given in the spec through your parser. Fix bugs with edit_file and re-run, then finish.%s")
+            "few rejected lines to see why. Also run every example line or value given in the spec through your parser. Fix bugs with edit_file and re-run, then finish. At most 5 run_command calls per reply: the rest are skipped.%s")

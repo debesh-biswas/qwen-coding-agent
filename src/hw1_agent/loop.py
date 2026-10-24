@@ -7,7 +7,7 @@ from . import state as S
 from .guards import deliverables_exist
 from .llm import THINK_RE, chat, extract_calls, valid_args
 from .tools import run_tool
-from .util import Finish, log
+from .util import Finish, log, trace
 
 
 def overview():
@@ -82,7 +82,8 @@ def loop(messages, sysmsg, max_turns, base_temp=0):
                 k = name + json.dumps({a: b for a, b in k.items() if a not in ("why", "expect")}, sort_keys=True)
             except (ValueError, TypeError, AttributeError):
                 k = name + str(args)
-            k += "@%d" % S.EDITS  # after a write, reading or running the same thing again is fine
+            if name != "edit_file":  # an identical edit again only fails again or inserts its lines twice
+                k += "@%d" % S.EDITS  # after a write, reading or running the same thing again is fine
             if S.CODE_MODE and name == "run_command":
                 ran += 1
             if ran > 5 and name == "run_command":
@@ -100,10 +101,12 @@ def loop(messages, sysmsg, max_turns, base_temp=0):
             elif S.CODE_MODE and name in ("search_file", "read_file", "run_command", "edit_file") and seen.get(k, 0) >= 1:
                 seen[k] += 1
                 repeats += 1
-                result = ("REPEATED CALL: you already made this exact call and no file has changed since, so the result "
+                result = ("REPEATED EDIT: you already made this exact edit; it did not fix the failing test, so the bug "
+                          "is elsewhere. Read the code that handles the failing command again and make a DIFFERENT edit."
+                          if name == "edit_file" else
+                          "REPEATED CALL: you already made this exact call and no file has changed since, so the result "
                           "is the same. Do not repeat calls. " + ("Fix the program (edit_file) or your test, then run it "
-                          "again." if name == "run_command" else "Make a DIFFERENT edit, or rewrite the file with write_file."
-                          if name == "edit_file" else "Use what you found, try a different search, or write "
+                          "again." if name == "run_command" else "Use what you found, try a different search, or write "
                           "the deliverable now."))
             else:
                 seen[k] = seen.get(k, 0) + 1
@@ -119,6 +122,7 @@ def loop(messages, sysmsg, max_turns, base_temp=0):
             if S.CODE_MODE and name != "finish":
                 S.SEEN.append(result)
             log("TOOL %s -> %s" % (name, result[:200]))
+            trace(tool=name, args=args, result=result)
             messages.append({"role": "tool", "tool_call_id": cid, "content": result})
         if S.CODE_MODE and repeats == len(calls):
             # Stuck in a loop: drop the repeat from history and sample with some randomness to break out.
