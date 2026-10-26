@@ -138,22 +138,24 @@ def crashed(r):
 def exit_ok(test, r):
     """Reliable even when the model's expected numbers are not (it adds badly): which calls are valid usage. A crash
     never passes, even a test expecting exit 1."""
-    return test[1] is not None and r[0] == test[2] and not crashed(r)
+    return r[0] == test[2] and not crashed(r)
 
 
 def passes(test, r):
     """Whitespace-insensitive (the model types a TAB as spaces); for an error test only the exit code counts (the
     model often puts the error message, which goes to stderr, under stdout)."""
-    return exit_ok(test, r) and (test[2] != 0 or r[1].split() == test[1].split())
+    return test[1] is not None and exit_ok(test, r) and (test[2] != 0 or r[1].split() == test[1].split())
 
 
 def real_data_tests(tests):
     """The model's tests run on tiny files it wrote; the same commands on the provided data file (largest one present
     at start) show a parser that rejects the real format. Up to 3, expected output unknown."""
     data = [f for f in S.EXISTING if os.path.basename(f) != "TASK.md" and os.path.isfile(f)]
-    if not data or any(t[1] is None for t in tests):
+    if not data:
         return []
     real = os.path.relpath(max(data, key=os.path.getsize), S.WORKSPACE)
+    if any(t[1] is None and real in t[0].split() for t in tests):
+        return []  # the model already runs it on the real file
     out = []
     for cmd, _, rc in tests:
         *setup, run = cmd.split("\n")
@@ -218,7 +220,7 @@ def pick_best(base, codes, tests):
         sc = -4 * len(order_bugs(tests, res))
         for k, r in enumerate(res[:len(tests)]):
             sc += 2 * exit_ok(tests[k], r) + 3 * passes(tests[k], r) - 3 * crashed(r) - 5 * parsed_nothing(tests[k], r)
-            if r[1].strip() not in ("", "0", "0.00"):  # agreeing on "nothing parsed" is no evidence
+            if exit_ok(tests[k], r) and r[1].strip() not in ("", "0", "0.00"):  # agreeing on "nothing parsed" is no evidence
                 sc += sum(1 for j, o in enumerate(outs) if j != i and k < len(o) and o[k][:2] == r[:2] and not crashed(r))
         scores.append(sc)
     log("CANDIDATE SCORES:", scores, "tests passed:", [sum(passes(t, r) for t, r in zip(tests, o)) for o in outs],
@@ -241,6 +243,11 @@ def failures(tests, res, outs):
         return ("\n\nThe harness ran `%s` on the provided data: it printed nothing or only zeros, so your parser rejects "
                 "EVERY line of the real file. Fix that first: read the first 3 lines of the data file, run your line "
                 "parsing (regex/split) on each with python3 -c, compare with the format in the spec, and fix it." % zero)
+    unknown = "".join(
+        "\n\nThe harness ran a valid command with unknown stdout:\n$ %s\n  expected exit %d without a traceback; "
+        "got exit %s, stderr: %s. Fix this failure before checking numeric output." % (
+            t[0].split("\n")[-1], t[2], "timeout" if r[0] is None else r[0], r[2].strip()[-500:])
+        for t, r in zip(tests, res) if t[1] is None and not exit_ok(t, r))
     order = "".join("\n\nOptions may appear in any order, but these two calls print different results, so your argument "
                     "parsing loses or misreads an option (e.g. a flag that takes no value, like --json, must not consume "
                     "the next argument). Fix the parsing loop:\n$ %s\n  got: %r, exit %s\n$ %s\n  got: %r, exit %s" % (
@@ -248,7 +255,7 @@ def failures(tests, res, outs):
     bad = [(t, r) for k, (t, r) in enumerate(zip(tests, res)) if t[1] is not None and not passes(t, r)
            and (not exit_ok(t, r) or any(k < len(o) and passes(t, o[k]) for o in outs))]
     if not bad:
-        return order or ("\n\nThe harness ran your %d tests with expected output on it: no clear failures." % len(known)
+        return unknown + order or ("\n\nThe harness ran your %d tests with expected output on it: no clear failures." % len(known)
                          if known else "")
     bad.sort(key=lambda b: exit_ok(*b))  # wrong exit codes first: those expectations are the reliable ones
     text = ["\n\nThe harness ran your %d tests with expected output on it; %d fail. A wrong exit code is a real bug. "
@@ -262,7 +269,7 @@ def failures(tests, res, outs):
         text.append("%s$ %s\n  expected: %r, exit %d\n  got: %r, exit %s%s" % (
             "".join("$ %s\n" % f for f in files), run, out[:300], rc, r[1].strip()[:300],
             "timeout" if r[0] is None else r[0], ", stderr: " + err if err else ""))
-    return order + "\n".join(text)
+    return unknown + order + "\n".join(text)
 
 
 def gather(gen, asks, grace=15, need=1, workers=3):
@@ -383,6 +390,7 @@ def best_version(d):
         return
     passed = lambda c, exp, r: r[0] is not None and (matches(exp, r[1], r[2]) or real_data(c) and same_format(exp, r[1], r[2]))
     scores = [sum(passed(c, exp, r) for (c, exp), r in zip(tests, o)) + sum(map(passes, spec, o[len(tests):]))
+              + sum(exit_ok(t, r) for t, r in zip(spec, o[len(tests):]) if t[1] is None)
               - 3 * sum(crashed(r) or parsed_nothing(t, r) for t, r in zip(spec, o[len(tests):]))
               - 3 * len(order_bugs(spec, o[len(tests):])) for o in outs]
     best = max(range(len(vers)), key=lambda i: (scores[i], i))

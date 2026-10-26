@@ -13,7 +13,7 @@ from hw1_agent import loop as agent_loop  # noqa: E402
 from hw1_agent import debugging  # noqa: E402
 from hw1_agent import state as S  # noqa: E402
 from hw1_agent.guards import finish_check  # noqa: E402
-from hw1_agent.programming import add_imports, best_version, order_bugs, reordered, failures, fix_keyword_attrs, real_data_tests, gather, parse_tests, passes, pick_best, restore_good  # noqa: E402
+from hw1_agent.programming import add_imports, exit_ok, best_version, order_bugs, reordered, failures, fix_keyword_attrs, real_data_tests, gather, parse_tests, passes, pick_best, restore_good  # noqa: E402
 from hw1_agent.tools import run_tool  # noqa: E402
 from hw1_agent.util import Finish  # noqa: E402
 
@@ -88,6 +88,27 @@ def main():
     zero = "print(0)\n"  # parses nothing of the real data: loses even to a crash-free agreeing pair
     assert pick_best("p.py", [zero, zero, good], [("python3 p.py data.csv", None, 0)])[0] == good
     assert "rejects EVERY line" in failures([("python3 p.py data.csv", None, 0)], [(0, "0\n", "")], [])
+    # Unknown stdout still has a known exit status; agreeing usage errors are not evidence.
+    probe = ("python3 p.py data.csv", None, 0)
+    assert exit_ok(probe, (0, "2\n", ""))
+    assert not exit_ok(probe, (2, "", "usage: invalid"))
+    assert not exit_ok(probe, (0, "", "Traceback (most recent call last)"))
+    assert not exit_ok(probe, (None, "", ""))
+    assert not passes(probe, (0, "2\n", "")), "unknown stdout is not an exact-output pass"
+    usage_out = "print('usage 123')\nraise SystemExit(2)\n"
+    assert pick_best("p.py", [usage_out, usage_out, good], [probe])[0] == good
+    for result in [(2, "", "usage: invalid"), (None, "", ""),
+                   (1, "", "Traceback (most recent call last)\nValueError: invalid")]:
+        msg = failures([probe], [result], [])
+        assert "expected exit 0" in msg and "python3 p.py data.csv" in msg, msg
+    assert "expected exit 0" not in failures([probe], [(0, "2\n", "")], [])
+    S.VERSIONS["r.py"], S.SPEC_TESTS[:] = ["print(2)\n"], [("python3 r.py", None, 0)]
+    with open("r.py", "w") as fh:
+        fh.write(usage_out)
+    best_version("r.py")
+    assert open("r.py").read() == "print(2)\n", "unknown-output exit regression restored"
+    S.SPEC_TESTS[:] = []
+
     # Options may appear anywhere: a parser where a flag swallows the next argument loses to one that doesn't.
     S.PROMPT += "Options may appear anywhere after the command name.\n"
     otests = [("printf 'x\\n' > t1.csv\npython3 p.py total --json --cat a --file t1.csv", "1", 0), ("python3 p.py top 2 --json", "1", 0)]
@@ -110,6 +131,8 @@ def main():
                      ("printf 'x\\n1\\n2\\n3\\n' > t1.csv\npython3 p.py nope.csv", "", 1),
                      ("printf 'x\\n1\\n2\\n3\\n' > t1.csv\npython3 p.py data.csv", None, 0)], tests
     assert real_data_tests(tests[:2]) == [("python3 p.py data.csv", None, 0)], real_data_tests(tests[:2])
+    assert real_data_tests(tests) == []  # already run on the real file
+    assert real_data_tests(tests[:2] + [("python3 p.py other.csv", None, 0)])  # an unchecked call elsewhere doesn't block it
     off = "import sys\nprint(sum(1 for _ in open(sys.argv[1])))\n"  # counts the header too
     code, res, outs = pick_best("p.py", [off, off, good], tests)
     assert code == good and passes(tests[0], res[0]) and not passes(tests[1], res[1]), res  # a crash is no exit 1
