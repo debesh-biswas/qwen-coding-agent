@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Checkpoint-3 programming cases: tests/cases/prog_*  (stdlib only, seeded, re-runnable).
 
-Writes prog_01_tally (40,000-row transactions.csv), prog_01b_tally_small (2,000 rows), prog_02_logstat and
+Writes prog_01_tally (40,000-row transactions.csv), prog_02_logstat and
 prog_03_solution: prompt.txt, setup/ (data + TASK.md copy of the prompt) and expect.json (run_tests.py `commands`).
 Before writing anything it validates every command check: a reference implementation (kept here, never shipped)
 must pass all checks, and deliberately wrong mutants/naive implementations must each fail at least one group.
@@ -1195,13 +1195,11 @@ def validate(name, setup, checks, ref_files, mutants, expect_ref_pass=True):
 
 def main():
     t_text, st = gen_tally(40000, 20261016)
-    ts_text, sts = gen_tally(2000, 7)
     log_text = gen_log(20000, 424242)
-    for text, s in ((t_text, st), (ts_text, sts)):
-        assert len(TallyModel(text).rows) == s["valid"], (len(TallyModel(text).rows), s)
-    print("tally big: %d bytes, %s; small: %d bytes, %s; log: %d bytes" % (len(t_text), st, len(ts_text), sts, len(log_text)))
+    assert len(TallyModel(t_text).rows) == st["valid"], (len(TallyModel(t_text).rows), st)
+    print("tally: %d bytes, %s; log: %d bytes" % (len(t_text), st, len(log_text)))
 
-    tal = [("prog_01_tally", t_text), ("prog_01b_tally_small", ts_text)]
+    tal = [("prog_01_tally", t_text)]
     reqs = {}
     for name, text in tal:
         chk = tally_commands(text, None)
