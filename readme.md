@@ -6,9 +6,8 @@ A tool-calling agent written from scratch around Qwen3-14B, built for HW1 (Check
 - **Checkpoint 2:** sessions, CSV tools and multi-turn conversations.
 - **Checkpoint 3:** write a program from a spec (programming task) and find a root cause in large log files, then write `REPORT.json` (debugging task).
 
-[![Launch video: a file tells the agent to delete everything, and it answers the question instead](brag-output/preview.gif)](brag-output/brag.mp4)
+https://github.com/user-attachments/assets/24f29ccf-e8a7-4e03-bb69-fd481b9f9097
 
-A 21-second launch video. The preview above is silent; click it for [the full video with sound](brag-output/brag.mp4).
 
 ## Structure
 
