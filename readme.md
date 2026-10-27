@@ -1,6 +1,10 @@
-# HW1 Checkpoints 1–2: File-Management Agent with Sessions and CSV
+# Qwen Coding Agent
 
-A tool-calling agent written from scratch around Qwen3-14B. It uses only the OpenAI-compatible `/chat/completions` API, with no agent SDKs or frameworks.
+A tool-calling agent written from scratch around Qwen3-14B, built for HW1 (Checkpoints 1–3) of the Agentic AI course at Boston University. It uses only the OpenAI-compatible `/chat/completions` API, with no agent SDKs or frameworks.
+
+- **Checkpoint 1:** create, delete, read and summarize files.
+- **Checkpoint 2:** sessions, CSV tools and multi-turn conversations.
+- **Checkpoint 3:** write a program from a spec (programming task) and find a root cause in large log files, then write `REPORT.json` (debugging task).
 
 ## Structure
 
@@ -20,6 +24,7 @@ src/hw1_agent/
   util.py             Finish signal, logging, workspace path guard
   tools/              tool schemas, dispatch, file/CSV/shell tools
 tests/run_tests.py    test runner
+tests/test_harness.py offline checks of the code-mode harness (no model needed)
 tests/gen/            generators for the Checkpoint 3 test cases
 tests/cases/<name>/   one test case: prompt.txt or expect.json "turns", setup/ (initial workspace files), expect.json
 ```
@@ -36,6 +41,33 @@ The agent sends the prompt to the model together with these tools: `list_files`,
 - Stdout always gets exactly one JSON object `{"status", "message"}`, even when something crashes. Logs go to stderr. The exit code is 0 on success and 1 on error.
 - On connection errors, 429 and 5xx responses, and on 400s that come back as an HTML error page (a transient proxy glitch, not an API error), the request is retried until the deadline, waiting at most 10 s between tries. The deadline uses `time.monotonic()`.
 - Requests send a custom `User-Agent`. The course endpoint's Cloudflare blocks Python's default `Python-urllib` agent with `403 error 1010`.
+
+## Checkpoint 3: code mode
+
+Long prompts, or prompts with a code block or `REPORT.json`, switch to code mode. Code mode adds `run_command`, `edit_file`, `search_file`, `note` and a line-range `read_file`. It allows 285 s and 100 turns, staying under the grader's 300 s and 120 model calls. Every request fits in the 40,960-token context, and old tool results are compacted when needed.
+
+### Programming tasks
+
+1. The model writes a plan in plain text.
+2. In parallel, it writes tests (shell commands with expected output) and several candidate programs, at most 3 requests at a time. Against a fast endpoint it writes 6 candidates plus a separate set of error/edge-case tests; against a slow one it writes 3 candidates.
+3. The harness runs every candidate on the tests and keeps the one passing the most. Crashes count against a candidate. Expected numbers worked out by hand are often wrong, so a valid exit code and the right output format count too.
+4. The tests are also run on the real data file, with options moved around when the spec allows any order. A parser that reads nothing from the real data, or loses an option, gets caught.
+5. The model fixes the failures it is shown. Each edited version is kept, and the version passing the most tests is restored before the agent exits.
+
+Before any test runs, the harness also fixes common small-model slips: a missing `import`, a `main()` that is never called, and `args.from` (a SyntaxError) rewritten as `getattr(args, "from")`.
+
+### Debugging tasks
+
+- Up to 3 independent investigations run from scratch, each using `search_file`/`read_file` over the logs. The report is the per-key majority vote.
+- Each value is checked against its key's description. For example, a class name must look like a class and a timestamp must contain a date. Values of the wrong shape are dropped from the vote, and empty or wrong-shape keys are filled by showing the model the matching log lines.
+- When the investigations disagree on an ID, the model sees the log lines for each candidate value and picks one.
+- `finish` is refused if the report has missing keys, empty values or values that never appear in the logs.
+
+### Code-mode guards
+
+- Running the same command again with no file changed since returns a `REPEATED CALL` result instead of output.
+- Subprocesses never see `QWEN_API_KEY`.
+- New files (scratch or output) can be written freely. Files that existed at the start can change only if the prompt names them.
 
 ### Sessions
 
@@ -62,7 +94,7 @@ The model can't be trusted to always follow the rules, so the harness enforces t
 - Python ≥ 3.8, **standard library only** (nothing to install)
 - Bash
 - Env vars: `OPENAI_BASE_URL`, `MODEL`, `QWEN_API_KEY`
-- Optional env vars: `HW1_SESSION_DIR` (where session files are stored, default `<system temp>/hw1-agent-sessions`) and `HW1_DEADLINE_S` (time limit in seconds, default 165)
+- Optional env vars: `HW1_SESSION_DIR` (where session files are stored, default `<system temp>/hw1-agent-sessions`) and `HW1_DEADLINE_S` (time limit in seconds, default 165, or 285 in code mode)
 
 Tested on macOS 26 (Apple Silicon) with Python 3.14.6. Development used a local Qwen3-14B (`mlx-community/Qwen3-14B-4bit` via `mlx_lm.server`). The agent uses no platform-specific code.
 
@@ -77,7 +109,8 @@ Instead of typing the variables, you can put them in a `.env` file, which git ig
 
 Options:
 
-- `-k <text>` runs only cases whose name contains the text.
+- `-k <regex>` runs only cases whose name matches, e.g. `-k '^(dbg|prog)'` for Checkpoint 3 or `-k '^(?!dbg|prog)'` for Checkpoints 1–2.
+- `--keep` keeps the temp workspaces for inspection.
 - `--repeat N` runs each case N times, to catch results that pass only sometimes.
 - `--slow` also runs `cli_03_server_down`, which takes about 165 s.
 - `VERBOSE=1` prints the agent's stderr (its model and tool log) when a case fails.
@@ -91,7 +124,7 @@ Each case runs in a fresh temp workspace with a new agent process. The workspace
 - facts in the answer, matched as whole words and case-insensitively
 - for summaries: word limit, line count and format (such as bullets), the required facts, and that no invented facts appear
 
-### Test cases (75)
+### Test cases (81)
 
 | Group | Count | What's covered |
 |---|---|---|
@@ -104,10 +137,27 @@ Each case runs in a fresh temp workspace with a new agent process. The workspace
 | `iso_*` | 4 | sessions kept apart (interleaved totals and averages), a new session not seeing another session's data, a session unable to delete another session's file, a third session then resuming the first |
 | `cli_*` | 3 | shell characters (`$HOME`, backticks, quotes) passed through the prompt, a missing API key, the server being down (`--slow`) |
 | `safety_*` | 1 | a `../` path trying to escape the workspace |
+| `prog_*` | 3 | the spec's `tally.py` CLI on a 40k-row file (12 requirements), an access-log stats tool with time zones, an import-only `solution.py` module |
+| `dbg_*` | 3 | `REPORT.json` from 4 large logs: checkout failure, refund, address change (12 keys each) |
+
+The Checkpoint 3 cases are made by `tests/gen/gen_prog.py` and `tests/gen/gen_dbg.py`. The website hides requirements and keys 7–12, so those parts of the cases are educated guesses. `python3 tests/test_harness.py` checks the code-mode harness without a model: test verdicts, key stripping, the repeat guard, version restore, candidate choice, `finish` checks and the workspace guard.
 
 The spec's example prompts are all included word for word. Every other input file and expected answer was written for these tests.
 
-Results (Qwen3-14B, Oct 10 2026):
+Results for Checkpoints 1–2 (Qwen3-14B, Oct 10 2026):
 
 - Course endpoint: 74/74 on a full run of the final code (the `--slow` server-down case doesn't use the endpoint). Cases that failed on earlier runs were also rerun 3 times each after the fixes.
 - Local MLX (`Qwen3-14B-4bit`, served with `mlx_lm.server --prompt-cache-size 1 --prefill-step-size 512` so the ~40 KB summary input fits in 24 GB): 75/75 on a full `--slow` run.
+
+Results for Checkpoint 3 (course endpoint, Oct 2026). This is the worst case: the slow endpoint leaves time for only 3 candidates and no edge-case tests.
+
+| Case | Score |
+|---|---|
+| `dbg_01_checkout` | 11/12 |
+| `dbg_02_refund` | 12/12 |
+| `dbg_03_address_change` | 11/12 |
+| `prog_01_tally` | 4/12 |
+| `prog_02_logstat` | 0–1/10 |
+| `prog_03_solution` | 9/12 |
+
+Debugging is reliable. Programming scores vary from run to run with the model's code, and most misses are spec rules the model implemented loosely (for example, `--json` on every command).
