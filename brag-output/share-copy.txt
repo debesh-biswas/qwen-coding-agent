@@ -1,5 +1,0 @@
-A file told my agent to "ignore all previous instructions" and delete everything. It answered the question instead.
-
-Qwen Coding Agent: a tool-calling agent for Qwen3-14B, built from scratch on the standard library. It writes 6 programs and keeps the one that passes, and runs 3 log investigations with a vote per key. 81 test cases, 75/75 locally. The model can't be trusted to follow the rules, so the harness does.
-
-github.com/debesh-biswas/qwen-coding-agent
